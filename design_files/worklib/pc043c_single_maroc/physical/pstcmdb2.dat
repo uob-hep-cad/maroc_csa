@@ -1,0 +1,1376 @@
+( ConstraintFile "pc043c_single_maroc_27"
+	( constraintHeader
+		( objectKey
+			( physical )
+		)
+		( version
+			( 16.5 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 25 )
+			( physicalViewRevNum 0 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( electricalConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mil )
+			( numberOfDecimalPlaces 2 )
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "$sec" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$location" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "pc043c_single_maroc_27"
+			)
+			( signal "OR<0>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\or\(0)" )
+			)
+			( signal "OR<1>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\or\(1)" )
+			)
+			( signal "SUM<1>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(1)" )
+			)
+			( signal "SUM<2>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(2)" )
+			)
+			( signal "SUM<3>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(3)" )
+			)
+			( signal "SUM<4>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(4)" )
+			)
+			( signal "SUM<5>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(5)" )
+			)
+			( signal "SUM<6>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(6)" )
+			)
+			( signal "SUM<7>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(7)" )
+			)
+			( signal "SUM<8>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(8)" )
+			)
+			( signal "TRIG<0>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(0)" )
+			)
+			( signal "TRIG<1>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(1)" )
+			)
+			( signal "TRIG<2>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(2)" )
+			)
+			( signal "TRIG<3>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(3)" )
+			)
+			( signal "TRIG<4>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(4)" )
+			)
+			( signal "TRIG<5>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(5)" )
+			)
+			( signal "TRIG<6>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(6)" )
+			)
+			( signal "TRIG<7>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(7)" )
+			)
+			( signal "TRIG<8>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(8)" )
+			)
+			( signal "TRIG<9>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(9)" )
+			)
+			( signal "TRIG<10>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(10)" )
+			)
+			( signal "TRIG<11>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(11)" )
+			)
+			( signal "TRIG<12>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(12)" )
+			)
+			( signal "TRIG<13>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(13)" )
+			)
+			( signal "TRIG<14>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(14)" )
+			)
+			( signal "TRIG<15>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(15)" )
+			)
+			( signal "TRIG<16>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(16)" )
+			)
+			( signal "TRIG<17>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(17)" )
+			)
+			( signal "TRIG<18>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(18)" )
+			)
+			( signal "TRIG<19>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(19)" )
+			)
+			( signal "TRIG<20>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(20)" )
+			)
+			( signal "TRIG<21>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(21)" )
+			)
+			( signal "TRIG<22>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(22)" )
+			)
+			( signal "TRIG<23>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(23)" )
+			)
+			( signal "TRIG<24>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(24)" )
+			)
+			( signal "TRIG<25>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(25)" )
+			)
+			( signal "TRIG<26>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(26)" )
+			)
+			( signal "TRIG<27>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(27)" )
+			)
+			( signal "TRIG<28>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(28)" )
+			)
+			( signal "TRIG<29>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(29)" )
+			)
+			( signal "TRIG<30>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(30)" )
+			)
+			( signal "TRIG<31>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(31)" )
+			)
+			( signal "TRIG<32>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(32)" )
+			)
+			( signal "TRIG<33>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(33)" )
+			)
+			( signal "TRIG<34>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(34)" )
+			)
+			( signal "TRIG<35>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(35)" )
+			)
+			( signal "TRIG<36>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(36)" )
+			)
+			( signal "TRIG<37>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(37)" )
+			)
+			( signal "TRIG<38>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(38)" )
+			)
+			( signal "TRIG<39>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(39)" )
+			)
+			( signal "TRIG<40>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(40)" )
+			)
+			( signal "TRIG<41>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(41)" )
+			)
+			( signal "TRIG<42>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(42)" )
+			)
+			( signal "TRIG<43>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(43)" )
+			)
+			( signal "TRIG<44>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(44)" )
+			)
+			( signal "TRIG<45>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(45)" )
+			)
+			( signal "TRIG<46>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(46)" )
+			)
+			( signal "TRIG<47>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(47)" )
+			)
+			( signal "TRIG<48>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(48)" )
+			)
+			( signal "TRIG<49>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(49)" )
+			)
+			( signal "TRIG<50>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(50)" )
+			)
+			( signal "TRIG<51>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(51)" )
+			)
+			( signal "TRIG<52>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(52)" )
+			)
+			( signal "TRIG<53>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(53)" )
+			)
+			( signal "TRIG<54>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(54)" )
+			)
+			( signal "TRIG<55>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(55)" )
+			)
+			( signal "TRIG<56>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(56)" )
+			)
+			( signal "TRIG<57>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(57)" )
+			)
+			( signal "TRIG<58>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(58)" )
+			)
+			( signal "TRIG<59>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(59)" )
+			)
+			( signal "TRIG<60>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(60)" )
+			)
+			( signal "TRIG<61>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(61)" )
+			)
+			( signal "TRIG<62>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(62)" )
+			)
+			( signal "TRIG<63>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(63)" )
+			)
+			( signal "UNNAMED_1_MAROC3_I1_OR0"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):unnamed_1_maroc3_i1_or0" )
+			)
+			( signal "UNNAMED_1_MAROC3_I1_OR1"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):unnamed_1_maroc3_i1_or1" )
+			)
+			( signal "AVDD"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):avdd" )
+			)
+			( signal "GND_SIGNAL"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):gnd_signal" )
+			)
+			( signal "UNNAMED_2_CAPCERSMDCL2_I82_B"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):unnamed_2_capcersmdcl2_i82_b" )
+			)
+			( signal "UNNAMED_2_CAPCERSMDCL2_I84_B"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):unnamed_2_capcersmdcl2_i84_b" )
+			)
+			( signal "VDD_BUF1"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vdd_buf1" )
+			)
+			( signal "VDD_DAC"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vdd_dac" )
+			)
+			( signal "VDD_DISCRI"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vdd_discri" )
+			)
+			( signal "VDD_DISCRIADC"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vdd_discriadc" )
+			)
+			( signal "VDD_FSB"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vdd_fsb" )
+			)
+			( signal "VDD_FSU1"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vdd_fsu1" )
+			)
+			( signal "VDD_FSU2"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vdd_fsu2" )
+			)
+			( signal "VDD_OTAG"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vdd_otag" )
+			)
+			( signal "VDD_PA"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vdd_pa" )
+			)
+			( signal "VDD_PAD"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vdd_pad" )
+			)
+			( signal "VDD_SS"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vdd_ss" )
+			)
+			( signal "VDD_W"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vdd_w" )
+			)
+			( signal "VDD_WILK"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vdd_wilk" )
+			)
+			( signal "VDDD"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vddd" )
+			)
+			( signal "VDDD2"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vddd2" )
+			)
+			( signal "ADC_DAV"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):adc_dav" )
+			)
+			( signal "CK_40M"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):ck_40m" )
+			)
+			( signal "CK_R"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):ck_r" )
+			)
+			( signal "CK_SC"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):ck_sc" )
+			)
+			( signal "CKB_40M"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):ckb_40m" )
+			)
+			( signal "CTEST"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):ctest" )
+			)
+			( signal "D_R"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):d_r" )
+			)
+			( signal "D_SC"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):d_sc" )
+			)
+			( signal "EN_OTAG"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):en_otag" )
+			)
+			( signal "G_DIODE"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):g_diode" )
+			)
+			( signal "HOLD1"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):hold1" )
+			)
+			( signal "HOLD2"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):hold2" )
+			)
+			( signal "IB_INTEG"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):ib_integ" )
+			)
+			( signal "IB_SUM"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):ib_sum" )
+			)
+			( signal "IB_W"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):ib_w" )
+			)
+			( signal "IBI_BUF"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):ibi_buf" )
+			)
+			( signal "IBI_SS"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):ibi_ss" )
+			)
+			( signal "IBO_DAC"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):ibo_dac" )
+			)
+			( signal "IBO_SS"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):ibo_ss" )
+			)
+			( signal "IREF_DAC"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):iref_dac" )
+			)
+			( signal "OUT_ADC"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):out_adc" )
+			)
+			( signal "OUT_FS"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):out_fs" )
+			)
+			( signal "OUT_Q"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):out_q" )
+			)
+			( signal "PWR_ON"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):pwr_on" )
+			)
+			( signal "QBUF_R"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):qbuf_r" )
+			)
+			( signal "QBUF_SC"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):qbuf_sc" )
+			)
+			( signal "RAMP"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):ramp" )
+			)
+			( signal "RSTB_R"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):rstb_r" )
+			)
+			( signal "RSTN_ADC"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):rstn_adc" )
+			)
+			( signal "RSTN_SC"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):rstn_sc" )
+			)
+			( signal "START_ADCB"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):start_adcb" )
+			)
+			( signal "UNNAMED_3_CAPCERSMDCL2_I242_B"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):unnamed_3_capcersmdcl2_i242_b" )
+			)
+			( signal "UNNAMED_3_CON3P_I231_A"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):unnamed_3_con3p_i231_a" )
+			)
+			( signal "UNNAMED_3_MAROC3_I1_ADCDAV"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):unnamed_3_maroc3_i1_adcdav" )
+			)
+			( signal "UNNAMED_3_MAROC3_I1_OUTADC"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):unnamed_3_maroc3_i1_outadc" )
+			)
+			( signal "V_BG"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):v_bg" )
+			)
+			( signal "VB_OTAFSU"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vb_otafsu" )
+			)
+			( signal "VBI_DISCRI"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vbi_discri" )
+			)
+			( signal "VBI_DISCRIADC"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vbi_discriadc" )
+			)
+			( signal "VBI_FSB"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vbi_fsb" )
+			)
+			( signal "VBI_PA"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vbi_pa" )
+			)
+			( signal "VBI_TZ"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vbi_tz" )
+			)
+			( signal "VBM_DISCRI"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vbm_discri" )
+			)
+			( signal "VBO_DISCRI"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vbo_discri" )
+			)
+			( signal "VBO_FSB"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vbo_fsb" )
+			)
+			( signal "VBO_TZ"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vbo_tz" )
+			)
+			( signal "VCASC_FSU"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vcasc_fsu" )
+			)
+			( signal "VCASC_NMOS"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vcasc_nmos" )
+			)
+			( signal "VCASC_PMOS"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vcasc_pmos" )
+			)
+			( signal "VGAIN_PA"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vgain_pa" )
+			)
+			( signal "VH"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vh" )
+			)
+			( signal "VL"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vl" )
+			)
+			( signal "VREF_DAC"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vref_dac" )
+			)
+			( signal "VREF_FSB"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vref_fsb" )
+			)
+			( signal "VREF_FSU"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vref_fsu" )
+			)
+			( signal "VREF_RAMP"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vref_ramp" )
+			)
+			( signal "VREF_SS"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vref_ss" )
+			)
+			( signal "VSLOPE"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vslope" )
+			)
+			( signal "VTH0"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vth0" )
+			)
+			( signal "VTH1"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vth1" )
+			)
+			( signal "ANALOG_IN<63>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(63)" )
+			)
+			( signal "ANALOG_IN<62>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(62)" )
+			)
+			( signal "ANALOG_IN<61>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(61)" )
+			)
+			( signal "ANALOG_IN<60>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(60)" )
+			)
+			( signal "ANALOG_IN<59>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(59)" )
+			)
+			( signal "ANALOG_IN<58>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(58)" )
+			)
+			( signal "ANALOG_IN<57>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(57)" )
+			)
+			( signal "ANALOG_IN<56>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(56)" )
+			)
+			( signal "ANALOG_IN<55>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(55)" )
+			)
+			( signal "ANALOG_IN<54>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(54)" )
+			)
+			( signal "ANALOG_IN<53>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(53)" )
+			)
+			( signal "ANALOG_IN<52>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(52)" )
+			)
+			( signal "ANALOG_IN<51>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(51)" )
+			)
+			( signal "ANALOG_IN<50>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(50)" )
+			)
+			( signal "ANALOG_IN<49>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(49)" )
+			)
+			( signal "ANALOG_IN<48>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(48)" )
+			)
+			( signal "ANALOG_IN<47>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(47)" )
+			)
+			( signal "ANALOG_IN<46>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(46)" )
+			)
+			( signal "ANALOG_IN<45>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(45)" )
+			)
+			( signal "ANALOG_IN<44>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(44)" )
+			)
+			( signal "ANALOG_IN<43>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(43)" )
+			)
+			( signal "ANALOG_IN<42>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(42)" )
+			)
+			( signal "ANALOG_IN<41>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(41)" )
+			)
+			( signal "ANALOG_IN<40>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(40)" )
+			)
+			( signal "ANALOG_IN<39>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(39)" )
+			)
+			( signal "ANALOG_IN<38>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(38)" )
+			)
+			( signal "ANALOG_IN<37>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(37)" )
+			)
+			( signal "ANALOG_IN<36>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(36)" )
+			)
+			( signal "ANALOG_IN<35>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(35)" )
+			)
+			( signal "ANALOG_IN<34>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(34)" )
+			)
+			( signal "ANALOG_IN<33>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(33)" )
+			)
+			( signal "ANALOG_IN<32>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(32)" )
+			)
+			( signal "ANALOG_IN<31>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(31)" )
+			)
+			( signal "ANALOG_IN<30>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(30)" )
+			)
+			( signal "ANALOG_IN<29>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(29)" )
+			)
+			( signal "ANALOG_IN<28>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(28)" )
+			)
+			( signal "ANALOG_IN<27>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(27)" )
+			)
+			( signal "ANALOG_IN<26>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(26)" )
+			)
+			( signal "ANALOG_IN<25>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(25)" )
+			)
+			( signal "ANALOG_IN<24>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(24)" )
+			)
+			( signal "ANALOG_IN<23>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(23)" )
+			)
+			( signal "ANALOG_IN<22>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(22)" )
+			)
+			( signal "ANALOG_IN<21>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(21)" )
+			)
+			( signal "ANALOG_IN<20>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(20)" )
+			)
+			( signal "ANALOG_IN<19>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(19)" )
+			)
+			( signal "ANALOG_IN<18>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(18)" )
+			)
+			( signal "ANALOG_IN<17>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(17)" )
+			)
+			( signal "ANALOG_IN<16>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(16)" )
+			)
+			( signal "ANALOG_IN<15>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(15)" )
+			)
+			( signal "ANALOG_IN<14>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(14)" )
+			)
+			( signal "ANALOG_IN<13>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(13)" )
+			)
+			( signal "ANALOG_IN<12>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(12)" )
+			)
+			( signal "ANALOG_IN<11>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(11)" )
+			)
+			( signal "ANALOG_IN<10>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(10)" )
+			)
+			( signal "ANALOG_IN<9>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(9)" )
+			)
+			( signal "ANALOG_IN<8>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(8)" )
+			)
+			( signal "ANALOG_IN<7>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(7)" )
+			)
+			( signal "ANALOG_IN<6>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(6)" )
+			)
+			( signal "ANALOG_IN<5>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(5)" )
+			)
+			( signal "ANALOG_IN<4>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(4)" )
+			)
+			( signal "ANALOG_IN<3>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(3)" )
+			)
+			( signal "ANALOG_IN<2>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(2)" )
+			)
+			( signal "ANALOG_IN<1>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(1)" )
+			)
+			( signal "ANALOG_IN<0>"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(0)" )
+			)
+			( gate "U1"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1" )
+			)
+			( gate "R1"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i146" )
+			)
+			( gate "R2"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i147" )
+			)
+			( gate "LK51"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i148" )
+			)
+			( gate "LK52"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i149" )
+			)
+			( gate "LK26"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i150" )
+			)
+			( gate "R3"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i3" )
+			)
+			( gate "C1"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i4" )
+			)
+			( gate "LK1"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i7" )
+			)
+			( gate "C14"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i9" )
+			)
+			( gate "R15"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i10" )
+			)
+			( gate "LK14"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i11" )
+			)
+			( gate "C11"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i14" )
+			)
+			( gate "R12"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i15" )
+			)
+			( gate "LK12"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i16" )
+			)
+			( gate "C9"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i19" )
+			)
+			( gate "R10"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i20" )
+			)
+			( gate "LK8"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i21" )
+			)
+			( gate "C6"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i24" )
+			)
+			( gate "R8"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i25" )
+			)
+			( gate "LK6"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i26" )
+			)
+			( gate "C13"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i29" )
+			)
+			( gate "R14"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i30" )
+			)
+			( gate "LK11"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i31" )
+			)
+			( gate "C3"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i34" )
+			)
+			( gate "R5"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i35" )
+			)
+			( gate "LK3"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i36" )
+			)
+			( gate "LK15"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i38" )
+			)
+			( gate "R16"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i40" )
+			)
+			( gate "C15"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i41" )
+			)
+			( gate "LK10"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i42" )
+			)
+			( gate "R13"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i44" )
+			)
+			( gate "C12"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i45" )
+			)
+			( gate "LK9"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i47" )
+			)
+			( gate "R11"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i48" )
+			)
+			( gate "C10"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i49" )
+			)
+			( gate "LK7"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i50" )
+			)
+			( gate "R9"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i51" )
+			)
+			( gate "C7"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i52" )
+			)
+			( gate "LK5"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i54" )
+			)
+			( gate "C5"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i56" )
+			)
+			( gate "R7"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i57" )
+			)
+			( gate "LK4"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i58" )
+			)
+			( gate "R6"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i60" )
+			)
+			( gate "C4"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i61" )
+			)
+			( gate "LK2"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i68" )
+			)
+			( gate "R4"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i70" )
+			)
+			( gate "C2"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i71" )
+			)
+			( gate "C8"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i75" )
+			)
+			( gate "LK13"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i76" )
+			)
+			( gate "C16"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i77" )
+			)
+			( gate "R17"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i79" )
+			)
+			( gate "C17"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i81" )
+			)
+			( gate "C53"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i82" )
+			)
+			( gate "R47"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i83" )
+			)
+			( gate "C52"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i84" )
+			)
+			( gate "R46"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i87" )
+			)
+			( gate "C28"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i82" )
+			)
+			( gate "LK31"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i84" )
+			)
+			( gate "LK47"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i85" )
+			)
+			( gate "C44"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i86" )
+			)
+			( gate "LK43"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i88" )
+			)
+			( gate "C40"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i89" )
+			)
+			( gate "LK39"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i91" )
+			)
+			( gate "C36"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i92" )
+			)
+			( gate "LK35"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i94" )
+			)
+			( gate "C32"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i95" )
+			)
+			( gate "LK50"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i97" )
+			)
+			( gate "C47"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i99" )
+			)
+			( gate "LK46"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i100" )
+			)
+			( gate "C43"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i102" )
+			)
+			( gate "LK42"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i103" )
+			)
+			( gate "C39"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i104" )
+			)
+			( gate "LK38"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i106" )
+			)
+			( gate "C35"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i108" )
+			)
+			( gate "LK34"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i109" )
+			)
+			( gate "C31"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i110" )
+			)
+			( gate "LK49"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i112" )
+			)
+			( gate "C46"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i114" )
+			)
+			( gate "LK45"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i115" )
+			)
+			( gate "C42"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i117" )
+			)
+			( gate "LK41"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i118" )
+			)
+			( gate "C38"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i119" )
+			)
+			( gate "LK37"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i121" )
+			)
+			( gate "C34"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i123" )
+			)
+			( gate "LK33"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i124" )
+			)
+			( gate "C30"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i125" )
+			)
+			( gate "LK48"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i127" )
+			)
+			( gate "C45"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i129" )
+			)
+			( gate "LK44"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i130" )
+			)
+			( gate "C41"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i132" )
+			)
+			( gate "LK40"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i133" )
+			)
+			( gate "C37"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i134" )
+			)
+			( gate "LK36"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i136" )
+			)
+			( gate "C33"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i138" )
+			)
+			( gate "LK32"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i139" )
+			)
+			( gate "C29"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i140" )
+			)
+			( gate "LK24"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i142" )
+			)
+			( gate "C26"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i143" )
+			)
+			( gate "LK25"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i145" )
+			)
+			( gate "C27"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i146" )
+			)
+			( gate "LK22"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i148" )
+			)
+			( gate "C24"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i149" )
+			)
+			( gate "LK23"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i151" )
+			)
+			( gate "LK20"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i152" )
+			)
+			( gate "LK21"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i153" )
+			)
+			( gate "C22"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i154" )
+			)
+			( gate "LK18"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i156" )
+			)
+			( gate "C20"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i157" )
+			)
+			( gate "LK19"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i159" )
+			)
+			( gate "C25"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i160" )
+			)
+			( gate "C23"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i162" )
+			)
+			( gate "C21"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i164" )
+			)
+			( gate "LK16"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i166" )
+			)
+			( gate "C18"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i167" )
+			)
+			( gate "LK17"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i168" )
+			)
+			( gate "C19"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i170" )
+			)
+			( gate "R26"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i173" )
+			)
+			( gate "R25"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i176" )
+			)
+			( gate "R28"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i178" )
+			)
+			( gate "R29"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i179" )
+			)
+			( gate "R30"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i182" )
+			)
+			( gate "R31"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i183" )
+			)
+			( gate "R23"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i184" )
+			)
+			( gate "R22"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i186" )
+			)
+			( gate "LK27"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i187" )
+			)
+			( gate "LK30"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i188" )
+			)
+			( gate "R21"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i190" )
+			)
+			( gate "R20"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i192" )
+			)
+			( gate "R27"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i193" )
+			)
+			( gate "R33"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i195" )
+			)
+			( gate "R32"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i197" )
+			)
+			( gate "R37"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i198" )
+			)
+			( gate "R36"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i200" )
+			)
+			( gate "R24"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i201" )
+			)
+			( gate "LK28"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i203" )
+			)
+			( gate "LK29"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i204" )
+			)
+			( gate "R35"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i206" )
+			)
+			( gate "R34"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i208" )
+			)
+			( gate "R19"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i209" )
+			)
+			( gate "R18"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i210" )
+			)
+			( gate "LK57"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i211" )
+			)
+			( gate "LK60"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i212" )
+			)
+			( gate "LK63"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i213" )
+			)
+			( gate "LK66"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i214" )
+			)
+			( gate "LK62"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i215" )
+			)
+			( gate "LK65"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i216" )
+			)
+			( gate "LK53"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i217" )
+			)
+			( gate "LK61"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i218" )
+			)
+			( gate "LK64"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i219" )
+			)
+			( gate "LK67"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i220" )
+			)
+			( gate "LK56"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i221" )
+			)
+			( gate "LK54"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i222" )
+			)
+			( gate "LK59"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i223" )
+			)
+			( gate "LK68"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i224" )
+			)
+			( gate "LK55"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i225" )
+			)
+			( gate "LK58"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i227" )
+			)
+			( gate "J3"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i228" )
+			)
+			( gate "J4"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i231" )
+			)
+			( gate "R44"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i233" )
+			)
+			( gate "R45"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i234" )
+			)
+			( gate "R42"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i236" )
+			)
+			( gate "C51"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i237" )
+			)
+			( gate "C50"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i238" )
+			)
+			( gate "R48"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i241" )
+			)
+			( gate "C54"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i242" )
+			)
+			( gate "D1"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i245" )
+			)
+			( gate "J1"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i246" )
+			)
+			( bus "OR"
+				( memberType ( signal ) )
+				( member ( signalRef "OR<0>") )
+				( member ( signalRef "OR<1>") )
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\or\" )
+			)
+			( bus "SUM"
+				( memberType ( signal ) )
+				( member ( signalRef "SUM<1>") )
+				( member ( signalRef "SUM<2>") )
+				( member ( signalRef "SUM<3>") )
+				( member ( signalRef "SUM<4>") )
+				( member ( signalRef "SUM<5>") )
+				( member ( signalRef "SUM<6>") )
+				( member ( signalRef "SUM<7>") )
+				( member ( signalRef "SUM<8>") )
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum" )
+			)
+			( bus "TRIG"
+				( memberType ( signal ) )
+				( member ( signalRef "TRIG<0>") )
+				( member ( signalRef "TRIG<1>") )
+				( member ( signalRef "TRIG<2>") )
+				( member ( signalRef "TRIG<3>") )
+				( member ( signalRef "TRIG<4>") )
+				( member ( signalRef "TRIG<5>") )
+				( member ( signalRef "TRIG<6>") )
+				( member ( signalRef "TRIG<7>") )
+				( member ( signalRef "TRIG<8>") )
+				( member ( signalRef "TRIG<9>") )
+				( member ( signalRef "TRIG<10>") )
+				( member ( signalRef "TRIG<11>") )
+				( member ( signalRef "TRIG<12>") )
+				( member ( signalRef "TRIG<13>") )
+				( member ( signalRef "TRIG<14>") )
+				( member ( signalRef "TRIG<15>") )
+				( member ( signalRef "TRIG<16>") )
+				( member ( signalRef "TRIG<17>") )
+				( member ( signalRef "TRIG<18>") )
+				( member ( signalRef "TRIG<19>") )
+				( member ( signalRef "TRIG<20>") )
+				( member ( signalRef "TRIG<21>") )
+				( member ( signalRef "TRIG<22>") )
+				( member ( signalRef "TRIG<23>") )
+				( member ( signalRef "TRIG<24>") )
+				( member ( signalRef "TRIG<25>") )
+				( member ( signalRef "TRIG<26>") )
+				( member ( signalRef "TRIG<27>") )
+				( member ( signalRef "TRIG<28>") )
+				( member ( signalRef "TRIG<29>") )
+				( member ( signalRef "TRIG<30>") )
+				( member ( signalRef "TRIG<31>") )
+				( member ( signalRef "TRIG<32>") )
+				( member ( signalRef "TRIG<33>") )
+				( member ( signalRef "TRIG<34>") )
+				( member ( signalRef "TRIG<35>") )
+				( member ( signalRef "TRIG<36>") )
+				( member ( signalRef "TRIG<37>") )
+				( member ( signalRef "TRIG<38>") )
+				( member ( signalRef "TRIG<39>") )
+				( member ( signalRef "TRIG<40>") )
+				( member ( signalRef "TRIG<41>") )
+				( member ( signalRef "TRIG<42>") )
+				( member ( signalRef "TRIG<43>") )
+				( member ( signalRef "TRIG<44>") )
+				( member ( signalRef "TRIG<45>") )
+				( member ( signalRef "TRIG<46>") )
+				( member ( signalRef "TRIG<47>") )
+				( member ( signalRef "TRIG<48>") )
+				( member ( signalRef "TRIG<49>") )
+				( member ( signalRef "TRIG<50>") )
+				( member ( signalRef "TRIG<51>") )
+				( member ( signalRef "TRIG<52>") )
+				( member ( signalRef "TRIG<53>") )
+				( member ( signalRef "TRIG<54>") )
+				( member ( signalRef "TRIG<55>") )
+				( member ( signalRef "TRIG<56>") )
+				( member ( signalRef "TRIG<57>") )
+				( member ( signalRef "TRIG<58>") )
+				( member ( signalRef "TRIG<59>") )
+				( member ( signalRef "TRIG<60>") )
+				( member ( signalRef "TRIG<61>") )
+				( member ( signalRef "TRIG<62>") )
+				( member ( signalRef "TRIG<63>") )
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig" )
+			)
+			( bus "ANALOG_IN"
+				( memberType ( signal ) )
+				( member ( signalRef "ANALOG_IN<0>") )
+				( member ( signalRef "ANALOG_IN<1>") )
+				( member ( signalRef "ANALOG_IN<2>") )
+				( member ( signalRef "ANALOG_IN<3>") )
+				( member ( signalRef "ANALOG_IN<4>") )
+				( member ( signalRef "ANALOG_IN<5>") )
+				( member ( signalRef "ANALOG_IN<6>") )
+				( member ( signalRef "ANALOG_IN<7>") )
+				( member ( signalRef "ANALOG_IN<8>") )
+				( member ( signalRef "ANALOG_IN<9>") )
+				( member ( signalRef "ANALOG_IN<10>") )
+				( member ( signalRef "ANALOG_IN<11>") )
+				( member ( signalRef "ANALOG_IN<12>") )
+				( member ( signalRef "ANALOG_IN<13>") )
+				( member ( signalRef "ANALOG_IN<14>") )
+				( member ( signalRef "ANALOG_IN<15>") )
+				( member ( signalRef "ANALOG_IN<16>") )
+				( member ( signalRef "ANALOG_IN<17>") )
+				( member ( signalRef "ANALOG_IN<18>") )
+				( member ( signalRef "ANALOG_IN<19>") )
+				( member ( signalRef "ANALOG_IN<20>") )
+				( member ( signalRef "ANALOG_IN<21>") )
+				( member ( signalRef "ANALOG_IN<22>") )
+				( member ( signalRef "ANALOG_IN<23>") )
+				( member ( signalRef "ANALOG_IN<24>") )
+				( member ( signalRef "ANALOG_IN<25>") )
+				( member ( signalRef "ANALOG_IN<26>") )
+				( member ( signalRef "ANALOG_IN<27>") )
+				( member ( signalRef "ANALOG_IN<28>") )
+				( member ( signalRef "ANALOG_IN<29>") )
+				( member ( signalRef "ANALOG_IN<30>") )
+				( member ( signalRef "ANALOG_IN<31>") )
+				( member ( signalRef "ANALOG_IN<32>") )
+				( member ( signalRef "ANALOG_IN<33>") )
+				( member ( signalRef "ANALOG_IN<34>") )
+				( member ( signalRef "ANALOG_IN<35>") )
+				( member ( signalRef "ANALOG_IN<36>") )
+				( member ( signalRef "ANALOG_IN<37>") )
+				( member ( signalRef "ANALOG_IN<38>") )
+				( member ( signalRef "ANALOG_IN<39>") )
+				( member ( signalRef "ANALOG_IN<40>") )
+				( member ( signalRef "ANALOG_IN<41>") )
+				( member ( signalRef "ANALOG_IN<42>") )
+				( member ( signalRef "ANALOG_IN<43>") )
+				( member ( signalRef "ANALOG_IN<44>") )
+				( member ( signalRef "ANALOG_IN<45>") )
+				( member ( signalRef "ANALOG_IN<46>") )
+				( member ( signalRef "ANALOG_IN<47>") )
+				( member ( signalRef "ANALOG_IN<48>") )
+				( member ( signalRef "ANALOG_IN<49>") )
+				( member ( signalRef "ANALOG_IN<50>") )
+				( member ( signalRef "ANALOG_IN<51>") )
+				( member ( signalRef "ANALOG_IN<52>") )
+				( member ( signalRef "ANALOG_IN<53>") )
+				( member ( signalRef "ANALOG_IN<54>") )
+				( member ( signalRef "ANALOG_IN<55>") )
+				( member ( signalRef "ANALOG_IN<56>") )
+				( member ( signalRef "ANALOG_IN<57>") )
+				( member ( signalRef "ANALOG_IN<58>") )
+				( member ( signalRef "ANALOG_IN<59>") )
+				( member ( signalRef "ANALOG_IN<60>") )
+				( member ( signalRef "ANALOG_IN<61>") )
+				( member ( signalRef "ANALOG_IN<62>") )
+				( member ( signalRef "ANALOG_IN<63>") )
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in" )
+			)
+		)
+	)
+)

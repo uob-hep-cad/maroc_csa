@@ -1,0 +1,1056 @@
+(Cell	pc043a_single_maroc
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Modified)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	)
+
+			(User	)
+
+			(Path	)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000a5654c2f)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/07/2011,11:36:39 AM)
+
+							(User	phdgc)
+
+							(Path	uob_hep_pc043a_lib.pc043a_single_maroc)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c5b03b1)
+
+		)
+
+		(View	Schematic
+
+			(Pages	7
+
+				(Page	page7
+
+					(Checksum	00000000c6838c92)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Modified)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	)
+
+							(User	)
+
+							(Path	)
+
+						)
+
+					)
+
+					(Linkages	
+
+						(LinkLib	cnpassive
+
+							(LinkCell	capn4i
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	000000001b46034f)
+
+							)
+
+						)
+
+						(LinkLib	bris_cds_standard
+
+							(LinkCell	a3-2000
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	standard
+
+							(LinkCell	tap
+
+								(LinkType	Primitive)
+
+								(LinkRevision	1.0.0)
+
+								(LinkChecksum	000000001cb703a7)
+
+							)
+
+						)
+
+					)
+
+				)
+
+				(Page	page6
+
+					(Checksum	000000006e419f2e)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.5)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/07/2011,11:36:39 AM)
+
+							(User	phdgc)
+
+							(Path	uob_hep_pc043a_lib.pc043a_single_maroc)
+
+						)
+
+					)
+
+					(Linkages	
+
+						(LinkLib	cnconnector
+
+							(LinkCell	con64p
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	bris_cds_analogue
+
+							(LinkCell	prtr5v0u8s
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.3)
+
+								(LinkChecksum	000000001c7703a4)
+
+							)
+
+						)
+
+						(LinkLib	standard
+
+							(LinkCell	gnd_signal
+
+								(LinkType	Primitive)
+
+								(LinkRevision	1.0.0)
+
+								(LinkChecksum	000000001c490382)
+
+							)
+
+						)
+
+						(LinkLib	bris_cds_standard
+
+							(LinkCell	a3-2000
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	standard
+
+							(LinkCell	tap
+
+								(LinkType	Primitive)
+
+								(LinkRevision	1.0.0)
+
+								(LinkChecksum	000000001cb703a7)
+
+							)
+
+						)
+
+					)
+
+				)
+
+				(Page	page5
+
+					(Checksum	00000000acd49fc2)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.5)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/07/2011,11:36:39 AM)
+
+							(User	phdgc)
+
+							(Path	uob_hep_pc043a_lib.pc043a_single_maroc)
+
+						)
+
+					)
+
+					(Linkages	
+
+						(LinkLib	cnconnector
+
+							(LinkCell	con64p
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	bris_cds_analogue
+
+							(LinkCell	prtr5v0u8s
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.3)
+
+								(LinkChecksum	000000001c7703a4)
+
+							)
+
+						)
+
+						(LinkLib	standard
+
+							(LinkCell	gnd_signal
+
+								(LinkType	Primitive)
+
+								(LinkRevision	1.0.0)
+
+								(LinkChecksum	000000001c490382)
+
+							)
+
+						)
+
+						(LinkLib	bris_cds_standard
+
+							(LinkCell	a3-2000
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	standard
+
+							(LinkCell	tap
+
+								(LinkType	Primitive)
+
+								(LinkRevision	1.0.0)
+
+								(LinkChecksum	000000001cb703a7)
+
+							)
+
+						)
+
+					)
+
+				)
+
+				(Page	page4
+
+					(Checksum	000000004aa2dd2f)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.5)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/07/2011,11:36:39 AM)
+
+							(User	phdgc)
+
+							(Path	uob_hep_pc043a_lib.pc043a_single_maroc)
+
+						)
+
+					)
+
+					(Linkages	
+
+						(LinkLib	standard
+
+							(LinkCell	outport
+
+								(LinkType	Primitive)
+
+								(LinkRevision	1.0.0)
+
+								(LinkChecksum	000000001ce203d2)
+
+							)
+
+						)
+
+						(LinkLib	cnpower
+
+							(LinkCell	avdd
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	cnpassive
+
+							(LinkCell	capcersmdcl2
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	bris_cds_connectors
+
+							(LinkCell	header2x2
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	cnpassive
+
+							(LinkCell	rsmd0402
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	cnlinear
+
+							(LinkCell	ad8061
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.5)
+
+								(LinkChecksum	000000001c6b037a)
+
+							)
+
+						)
+
+						(LinkLib	standard
+
+							(LinkCell	gnd_signal
+
+								(LinkType	Primitive)
+
+								(LinkRevision	1.0.0)
+
+								(LinkChecksum	000000001c490382)
+
+							)
+
+						)
+
+						(LinkLib	cnpassive
+
+							(LinkCell	rsmd0603
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	bris_cds_standard
+
+							(LinkCell	a3-2000
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+					)
+
+				)
+
+				(Page	page2
+
+					(Checksum	000000009e9520fa)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.5)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/07/2011,11:36:39 AM)
+
+							(User	phdgc)
+
+							(Path	uob_hep_pc043a_lib.pc043a_single_maroc)
+
+						)
+
+					)
+
+					(Linkages	
+
+						(LinkLib	cnpower
+
+							(LinkCell	dvdd
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	cnpower
+
+							(LinkCell	avdd
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	cnpassive
+
+							(LinkCell	capcersmdcl2
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	bris_cds_connectors
+
+							(LinkCell	1-hole
+
+								(LinkType	Primitive)
+
+								(LinkRevision	1.0.2)
+
+								(LinkChecksum	00000000630f03d8)
+
+							)
+
+						)
+
+						(LinkLib	cnpassive
+
+							(LinkCell	rsmd0402
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	bris_cds_analogue
+
+							(LinkCell	maroc3
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.51)
+
+								(LinkChecksum	000000001cb803a6)
+
+							)
+
+						)
+
+						(LinkLib	standard
+
+							(LinkCell	gnd_signal
+
+								(LinkType	Primitive)
+
+								(LinkRevision	1.0.0)
+
+								(LinkChecksum	000000001c490382)
+
+							)
+
+						)
+
+						(LinkLib	cnpassive
+
+							(LinkCell	rsmd0603
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	bris_cds_standard
+
+							(LinkCell	a3-2000
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+					)
+
+				)
+
+				(Page	page3
+
+					(Checksum	000000008a0b8b53)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.5)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/07/2011,11:36:39 AM)
+
+							(User	phdgc)
+
+							(Path	uob_hep_pc043a_lib.pc043a_single_maroc)
+
+						)
+
+					)
+
+					(Linkages	
+
+						(LinkLib	standard
+
+							(LinkCell	inport
+
+								(LinkType	Primitive)
+
+								(LinkRevision	1.0.0)
+
+								(LinkChecksum	000000001b82037d)
+
+							)
+
+						)
+
+						(LinkLib	standard
+
+							(LinkCell	outport
+
+								(LinkType	Primitive)
+
+								(LinkRevision	1.0.0)
+
+								(LinkChecksum	000000001ce203d2)
+
+							)
+
+						)
+
+						(LinkLib	cnpower
+
+							(LinkCell	dvdd
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	cnpassive
+
+							(LinkCell	capcersmdcl2
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	cnpower
+
+							(LinkCell	avdd
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	cnconnector
+
+							(LinkCell	con3p
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	bris_cds_connectors
+
+							(LinkCell	1-hole
+
+								(LinkType	Primitive)
+
+								(LinkRevision	1.0.2)
+
+								(LinkChecksum	00000000630f03d8)
+
+							)
+
+						)
+
+						(LinkLib	cnpassive
+
+							(LinkCell	rsmd0402
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	bris_cds_analogue
+
+							(LinkCell	maroc3
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.51)
+
+								(LinkChecksum	000000001cb803a6)
+
+							)
+
+						)
+
+						(LinkLib	standard
+
+							(LinkCell	gnd_signal
+
+								(LinkType	Primitive)
+
+								(LinkRevision	1.0.0)
+
+								(LinkChecksum	000000001c490382)
+
+							)
+
+						)
+
+						(LinkLib	cnpassive
+
+							(LinkCell	rsmd0603
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	bris_cds_standard
+
+							(LinkCell	a3-2000
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+					)
+
+				)
+
+				(Page	page1
+
+					(Checksum	00000000b181fecd)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.5)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/07/2011,11:36:39 AM)
+
+							(User	phdgc)
+
+							(Path	uob_hep_pc043a_lib.pc043a_single_maroc)
+
+						)
+
+					)
+
+					(Linkages	
+
+						(LinkLib	standard
+
+							(LinkCell	outport
+
+								(LinkType	Primitive)
+
+								(LinkRevision	1.0.0)
+
+								(LinkChecksum	000000001ce203d2)
+
+							)
+
+						)
+
+						(LinkLib	standard
+
+							(LinkCell	slice
+
+								(LinkType	Primitive)
+
+								(LinkRevision	1.0.0)
+
+								(LinkChecksum	000000001d7803d7)
+
+							)
+
+						)
+
+						(LinkLib	cnpassive
+
+							(LinkCell	rsmd0402
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	bris_cds_connectors
+
+							(LinkCell	1-hole
+
+								(LinkType	Primitive)
+
+								(LinkRevision	1.0.2)
+
+								(LinkChecksum	00000000630f03d8)
+
+							)
+
+						)
+
+						(LinkLib	bris_cds_analogue
+
+							(LinkCell	maroc3
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.51)
+
+								(LinkChecksum	000000001cb803a6)
+
+							)
+
+						)
+
+						(LinkLib	bris_cds_standard
+
+							(LinkCell	a3-2000
+
+								(LinkType	Primitive)
+
+								(LinkRevision	0.0.0)
+
+								(LinkChecksum	)
+
+							)
+
+						)
+
+						(LinkLib	standard
+
+							(LinkCell	tap
+
+								(LinkType	Primitive)
+
+								(LinkRevision	1.0.0)
+
+								(LinkChecksum	000000001cb703a7)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c5d03b2)
+
+		)
+
+		(View	Opf
+
+			(Opf	bus.opf
+
+				(Checksum	00000000078d5dd5)
+
+			)
+
+			(Opf	props.opf
+
+				(Checksum	00000000abf26204)
+
+			)
+
+			(Checksum	000000001ff00441)
+
+		)
+
+		(Checksum	000000001c6b0377)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.3-P2 (v16-3-85A))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c39037e)
+
+)
+

@@ -1,0 +1,182 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    PLACEMENT LOG                                                    )
+(                                                                     )
+(    Drawing          : pc043a_single_maroc_04.brd                    )
+(    Software Version : 16.3S013                                      )
+(    Date/Time        : Fri Nov 11 10:49:08 2011                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Autoplace /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc043a/trunk/design_files/worklib/pc043a_single_maroc/physical/pc043a_single_maroc_04.brd 
+ Save as /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc043a/trunk/design_files/worklib/pc043a_single_maroc/physical/pc043a_single_maroc_04.brd 
+
+ Will search while getting acceptable improvement
+ Will not scale complete graph edges
+ Start time Fri Nov 11 10:49:08 2011
+
+
+ 
+ 	 	 Placement Task Version 1.00 
+ 
+ 
+ Algorithm  : discrete
+ Place within: board
+ Map grid points to: library origin
+ Place leftovers on bottom: YES
+ Allow component overlap: NO
+ Soft boundary: NO
+ Cluster: NO
+ No Rat: NO
+ Remove TAG: NO
+ Components at rotation of 0 degrees are weighted 0
+
+ Components at rotation of 90 degrees are weighted 50
+
+ Components at rotation of 180 degrees are weighted 0
+
+ Components at rotation of 270 degrees are weighted 0
+
+ Board direction of north is weighted 50
+
+ Board direction of east is weighted 64
+
+ Board direction of south is weighted 50
+
+ Board direction of west is weighted 64
+
+ Component mirroring weight is 100
+
+ Component straightness weight is 75
+
+ Placement Keepin
+
+  line seg 	(-47.4221,-26.3967) (48.1675,-26.3967)
+  line seg 	(48.1675,-26.3967) (48.1675,26.8010)
+  line seg 	(48.1675,26.8010) (-47.4221,26.8010)
+  line seg 	(-47.4221,26.8010) (-47.4221,-26.3967)
+
+ Top grid x increment will be 0.1000
+
+ grid y increment will be 0.1000
+
+ Start grid point will be (-47.3221 -26.3196)
+
+ Bottom grid x increment will be 0.1000
+
+ grid y increment will be 0.1000
+
+ Start grid point will be (-47.4091 -26.3927)
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line and Via Report                                     )
+(                                                                     )
+(    Drawing          : pc043a_single_maroc_04.brd                    )
+(    Software Version : 16.3S013                                      )
+(    Date/Time        : Fri Nov 11 10:49:09 2011                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a testvia or a thieving via.
+  - In all cases output is suppressed if an object has the OK_DANGLE
+    property or is not part of the current partition.
+
+
+
+<< Summary >>
+  Total dangling lines:       0
+  Total dangling vias:        0
+
+    Layout Statistics:
+    -----------------
+        Components:  Placed 66  Unplaced 86  Total 152
+        Nets:  W/Rats 221  No/Rats 2  Total 223
+        Pins:  W/Rats 413  No/Rats 150  Unused 7  Unplaced 123  Total 693
+        Equivalent ICs (1 pin = 1/14 EIC)  49
+        RatTs              0
+        Router Keepin (in) (-1.9685,-2.9528) by (1.9685,2.9528)
+        Layout area (sq in) 23.25
+        Layout density (sq in/EIC) 0.474
+        Pin density (Pins/sq in) 29.806
+        Average ratlength (in)  0.8
+        Rat density (in/sq in) 6.640
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                197         148          345
+        Already Connected          128           0          128
+        Missing Connections         69         148          217
+        Dangling Connections                                  0
+        Connection Completion       64.97%       0.00%       37.09%
+        Manh Distance (inches)     154.38
+        Etch Length (inches)       128.17        0.00       128.17
+        Number of vias		     0           0            0
+        Vias per Connection          0.00        0.00         0.00
+        Smd pins with attached clines                       128
+
+
+ Starting Connection Matrix construction.
+
+ Failed placements are marked with an asterisk in the table below
+
+ 
+  ref_des    location_x  location_y  rotation mirror            package
+      R20      19.2909    -11.1927        90      m           C0603 (10)
+      R14      20.7909     -8.6927        90      m           C0603 (102)
+      R13     -22.4091     -0.6927        90      m           C0603 (101)
+      R12     -19.4091      5.0073        90      m           C0603 (100)
+      R11      22.0909      3.6073        90      m           C0603 (99)
+      R10  
+Fails at:      -22.5091      2.0073        90      m
+  DRC error flag at (-21.7591,0.7573) SHAPE PACKAGE GEOMETRY PLACE_BOUND_BOTTOM against SHAPE PACKAGE GEOMETRY PLACE_BOUND_BOTTOM
+              -22.3091      2.2073        90      m           C0603 (98)
+      R33     -16.9091    -11.6927        90      m           C0603 (35)
+      R32  
+Fails at:      -15.0221    -15.5196        90       
+  DRC error flag at (-15.0221,-17.4700) SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP against SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP
+           
+Fails at:      -14.9221    -15.5196        90       
+  DRC error flag at (-14.9221,-17.4700) SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP against SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP
+           
+Fails at:      -15.0221    -15.6196        90       
+  DRC error flag at (-15.0221,-17.4700) SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP against SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP
+           
+Fails at:      -14.8221    -15.5196        90       
+  DRC error flag at (-14.8221,-17.4700) SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP against SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP
+           
+Fails at:      -14.9221    -15.6196        90       
+  DRC error flag at (-14.9221,-17.4700) SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP against SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP
+           
+Fails at:      -15.0221    -15.7196        90       
+  DRC error flag at (-15.0221,-17.4700) SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP against SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP
+           
+Fails at:      -14.8221    -15.6196        90       
+  DRC error flag at (-14.8221,-17.4700) SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP against SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP
+           
+Fails at:      -14.9221    -15.7196        90       
+  DRC error flag at (-14.9221,-17.4700) SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP against SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP
+           
+Fails at:      -15.0221    -15.8196        90       
+  DRC error flag at (-15.0221,-17.4700) SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP against SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP
+           
+Fails at:      -14.8221    -15.7196        90       
+  DRC error flag at (-14.8221,-17.4700) SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP against SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP
+           
+Fails at:      -14.9221    -15.8196        90       
+  DRC error flag at (-14.9221,-17.4700) SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP against SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP
+           
+Fails at:      -15.0221    -15.9196        90       
+  DRC error flag at (-15.0221,-17.4700) SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP against SHAPE PACKAGE GEOMETRY PLACE_BOUND_TOP
+           ERROR(SPMHA1-150): Symbol does not fit into the drawing ... reposition the symbol.
+
+
+
+Elapsed time:  0 hr 0 min 7 sec ( 0.00 hr)
+Actual time of completion: Fri Nov 11 10:49:15 2011
+

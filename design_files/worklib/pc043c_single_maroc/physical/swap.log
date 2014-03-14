@@ -1,0 +1,130 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    SWAP Log                                                         )
+(                                                                     )
+(    Drawing          : pc043a_single_maroc_01.brd                    )
+(    Software Version : 16.3S013                                      )
+(    Date/Time        : Tue Nov  8 09:49:43 2011                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Starting function swap.     Execution 1         Tue Nov  8 09:49:43 2011
+
+Interroom swapping will not be allowed. 
+
+Time limit is 60 minutes.
+
+
+ 48 function(s) are fixed.
+
+
+ 1 function(s) will not swap external to their component.
+
+
+Starting virtual wire length  = 3734.8110  Starting weighted wire length = 3734.8110
+
+
+Virtual wire length  = 3734.8110            Reduction = 0.0000 (0.0 %) 
+
+Weighted wire length = 3734.8110            Reduction = 0.0000 (0.0 %) 
+
+
+Finished with function swap.                     Tue Nov  8 09:49:43 2011
+
+
+Starting pin swap.     Execution 1         Tue Nov  8 09:49:43 2011
+
+Time limit is 60 minutes.
+
+
+Beginning pass 1 for current execution
+
+Reduction statistics for this pass.
+Starting virtual wire length  = 3734.8110  Starting weighted wire length = 3734.8110
+
+
+Virtual wire length  = 3734.8110            Reduction = 0.0000 (0.0 %) 
+
+Weighted wire length = 3734.8110            Reduction = 0.0000 (0.0 %) 
+
+
+
+Reduction statistics for all passes.
+Starting virtual wire length  = 3734.8110  Starting weighted wire length = 3734.8110
+
+
+Virtual wire length  = 3734.8110            Reduction = 0.0000 (0.0 %) 
+
+Weighted wire length = 3734.8110            Reduction = 0.0000 (0.0 %) 
+
+
+Finished with pin swap.                     Tue Nov  8 09:49:43 2011
+
+
+Starting function swap.     Execution 2         Tue Nov  8 09:49:43 2011
+
+Allowing interroom swapping. 
+
+Time limit is 60 minutes.
+
+
+ 48 function(s) are fixed.
+
+
+ 1 function(s) will not swap external to their component.
+
+
+Starting virtual wire length  = 3734.8110  Starting weighted wire length = 3734.8110
+
+
+Virtual wire length  = 3734.8110            Reduction = 0.0000 (0.0 %) 
+
+Weighted wire length = 3734.8110            Reduction = 0.0000 (0.0 %) 
+
+
+Finished with function swap.                     Tue Nov  8 09:49:43 2011
+
+
+Starting pin swap.     Execution 2         Tue Nov  8 09:49:43 2011
+
+Time limit is 60 minutes.
+
+
+Beginning pass 1 for current execution
+
+Reduction statistics for this pass.
+Starting virtual wire length  = 3734.8110  Starting weighted wire length = 3734.8110
+
+
+Virtual wire length  = 3734.8110            Reduction = 0.0000 (0.0 %) 
+
+Weighted wire length = 3734.8110            Reduction = 0.0000 (0.0 %) 
+
+
+
+Reduction statistics for all passes.
+Starting virtual wire length  = 3734.8110  Starting weighted wire length = 3734.8110
+
+
+Virtual wire length  = 3734.8110            Reduction = 0.0000 (0.0 %) 
+
+Weighted wire length = 3734.8110            Reduction = 0.0000 (0.0 %) 
+
+
+Finished with pin swap.                     Tue Nov  8 09:49:43 2011
+
+
+Finished with swapping.     Tue Nov  8 09:49:43 2011
+
+
+Reduction statistics for all executions.
+Starting virtual wire length  = 3734.8110  Starting weighted wire length = 3734.8110
+
+
+Virtual wire length  = 3734.8110            Reduction = 0.0000 (0.0 %) 
+
+Weighted wire length = 3734.8110            Reduction = 0.0000 (0.0 %) 
+
+

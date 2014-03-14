@@ -1,0 +1,182 @@
+\t (00:00:00) allegro_free_viewer 16.3 S013 (v16-3-85AS) Linux IA32
+\t (00:00:00) 
+
+\t (00:00:00) Opening existing drawing...
+\d (00:00:01) Database opened: /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc043a/trunk/design_files/worklib/pc043a_single_maroc/physical/pc043a_single_maroc_01.brd
+\i (00:00:01) trapsize 1774
+\i (00:00:01) trapsize 1733
+\i (00:00:02) trapsize 1723
+\i (00:00:02) trapsize 1723
+\i (00:00:10) zoom out 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 26.8849 46.7319
+\i (00:00:10) trapsize 3446
+\i (00:00:12) roam start
+\i (00:00:12) roam x 80
+\i (00:00:12) roam x 16
+\i (00:00:12) roam x 16
+\i (00:00:12) roam x 16
+\i (00:00:12) roam x 48
+\i (00:00:12) roam x 64
+\i (00:00:12) roam x 16
+\i (00:00:12) roam x 16
+\i (00:00:12) roam x 16
+\i (00:00:12) roam x 32
+\i (00:00:12) roam x 16
+\i (00:00:13) roam x -16
+\i (00:00:13) roam x -16
+\i (00:00:13) roam x -16
+\i (00:00:13) roam x -16
+\i (00:00:13) roam x -48
+\i (00:00:13) roam x -32
+\i (00:00:13) roam x -16
+\i (00:00:13) roam x -64
+\i (00:00:13) roam y 16
+\i (00:00:13) roam x -32
+\i (00:00:13) roam x -32
+\i (00:00:13) roam x -32
+\i (00:00:13) roam x -16
+\i (00:00:13) roam x -16
+\i (00:00:13) roam x -16
+\i (00:00:13) roam x -16
+\i (00:00:13) roam x -16
+\i (00:00:13) roam x -16
+\i (00:00:13) roam y 16
+\i (00:00:13) roam x -16
+\i (00:00:13) roam x -16
+\i (00:00:13) roam x -16
+\i (00:00:13) roam x -16
+\i (00:00:13) roam x -16
+\i (00:00:13) roam x -16
+\i (00:00:13) roam x -16
+\i (00:00:13) roam x -16
+\i (00:00:13) roam y -16
+\i (00:00:14) roam x -16
+\i (00:00:14) roam x -48
+\i (00:00:14) roam x -16
+\i (00:00:14) roam y -16
+\i (00:00:14) roam x -16
+\i (00:00:14) roam x -16
+\i (00:00:14) roam x -16
+\i (00:00:14) roam x -16
+\i (00:00:14) roam x -16
+\i (00:00:15) roam x -16
+\i (00:00:15) roam y 16
+\i (00:00:15) roam y 16
+\i (00:00:15) roam y 16
+\i (00:00:15) roam y 16
+\i (00:00:15) roam y 16
+\i (00:00:15) roam y 32
+\i (00:00:15) roam y 16
+\i (00:00:15) roam y 16
+\i (00:00:16) roam y 16
+\i (00:00:16) roam y 16
+\i (00:00:16) roam y -16
+\i (00:00:16) roam x -16
+\i (00:00:16) roam y -32
+\i (00:00:16) roam x -16
+\i (00:00:16) roam y -16
+\i (00:00:16) roam y -16
+\i (00:00:16) roam y -16
+\i (00:00:16) roam y -16
+\i (00:00:16) roam y -16
+\i (00:00:16) roam x -16
+\i (00:00:16) roam y -16
+\i (00:00:16) roam y -16
+\i (00:00:16) roam y -16
+\i (00:00:17) roam y -16
+\i (00:00:17) roam y -16
+\i (00:00:17) roam y -16
+\i (00:00:17) roam x 16
+\i (00:00:17) roam y -16
+\i (00:00:17) roam x 16
+\i (00:00:17) roam y -16
+\i (00:00:17) roam x 16
+\i (00:00:17) roam end
+\i (00:04:11) zoom points 
+\t (00:04:11) Pick 1st corner of the new window.
+\i (00:04:12) pick -41.6111 41.8749
+\t (00:04:12) last pick:  -41.6111  41.8749
+\t (00:04:12) Pick to complete the window.
+\i (00:04:13) pick -34.2376 30.9869
+\t (00:04:13) last pick:  -34.2376  30.9869
+\i (00:04:13) trapsize 584
+\i (00:04:15) show element 
+\i (00:04:20) setwindow form.find
+\i (00:04:20) FORM find components YES 
+\i (00:04:21) setwindow pcb
+\i (00:04:21) pick grid -33.8540 39.3749
+\t (00:04:21) last pick:  -33.0200  40.6400
+\i (00:07:26) show measure 
+\i (00:07:26) pick grid -38.8073 39.0361
+\t (00:07:26) last pick:  -38.1000  38.1000
+\i (00:07:27) pick grid -38.9475 38.5337
+\t (00:07:27) last pick:  -38.1000  38.1000
+\i (00:08:12) pick grid -34.8703 38.5688
+\t (00:08:12) last pick:  -35.5600  38.1000
+\i (00:11:18) open 
+\i (00:11:47) fillin "/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/symbols/tssop16.dra"
+\i (00:11:47) cd "/afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/symbols"
+\t (00:11:47) Opening existing drawing...
+\i (00:11:47) trapsize 86
+\d (00:11:47) Database opened: /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/symbols/tssop16.dra
+\i (00:11:52) opencd /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc043a/trunk/design_files/worklib/pc043a_single_maroc/physical/pc043a_single_maroc_01.brd 
+\t (00:11:52) Opening existing drawing...
+\i (00:11:52) trapsize 1723
+\d (00:11:52) Database opened: /afs/phy.bris.ac.uk/cad/designs/uob-hep-pc043a/trunk/design_files/worklib/pc043a_single_maroc/physical/pc043a_single_maroc_01.brd
+\i (00:11:54) show element 
+\i (00:11:57) setwindow form.find
+\i (00:11:57) FORM find all_off  
+\i (00:11:58) FORM find components YES 
+\i (00:11:59) setwindow pcb
+\i (00:11:59) pick grid 34.6374 38.0491
+\t (00:11:59) last pick:  35.5600  38.1000
+\i (00:12:09) open 
+\i (00:12:13) fillin "menu_cancel"
+\i (00:12:17) opencd /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/symbols/tssop16.dra 
+\t (00:12:17) Opening existing drawing...
+\i (00:12:18) trapsize 86
+\d (00:12:18) Database opened: /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/symbols/tssop16.dra
+\i (00:12:19) open 
+\i (00:12:33) fillin "sot552-1.dra"
+\t (00:12:33) Opening existing drawing...
+\i (00:12:33) trapsize 98
+\d (00:12:33) Database opened: /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/symbols/sot552-1.dra
+\i (00:12:35) roam start
+\i (00:12:35) roam end
+\i (00:12:40) show measure 
+\i (00:12:45) pick grid -2.615 0.961
+\t (00:12:45) last pick:  -2.540  1.270
+\i (00:13:27) show element 
+\i (00:13:53) open 
+\i (00:13:55) fillin "menu_cancel"
+\i (00:13:59) opencd /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/symbols/tssop16.dra 
+\t (00:13:59) Opening existing drawing...
+\i (00:13:59) trapsize 86
+\d (00:13:59) Database opened: /afs/phy.bris.ac.uk/cad/bris_cdslib/lib_psd14.x/symbols/tssop16.dra
+\i (00:14:03) show element 
+\i (00:14:09) pick grid -3.086 2.341
+\t (00:14:09) last pick:  -3.000  2.000
+\i (00:14:21) pick grid -4.871 3.595
+\t (00:14:21) last pick:  -5.000  4.000
+\i (00:15:58) show measure 
+\i (00:16:02) prmed 
+\i (00:16:05) setwindow form.prmedit
+\i (00:16:05) FORM prmedit design  
+\i (00:16:07) FORM prmedit done  
+\i (00:16:11) setwindow pcb
+\i (00:16:11) show element 
+\i (00:16:12) pick grid -3.206 2.221
+\t (00:16:12) last pick:  -3.000  2.000
+\i (00:16:13) pick grid -3.103 1.723
+\t (00:16:13) last pick:  -3.000  2.000
+\i (00:16:17) prepopup -3.395 4.968
+\i (00:16:18) done 
+\i (00:16:20) opengl report 
+\i (00:16:23) fillin confirm
+\i (00:16:29) show measure 
+\i (00:16:30) pick grid -3.223 2.290
+\t (00:16:30) last pick:  -3.175  2.540
+\i (00:16:31) pick grid -3.034 1.655
+\t (00:16:31) last pick:  -3.175  1.905
+\i (05:35:51) exit 

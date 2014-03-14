@@ -1,0 +1,12 @@
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
+#CELL
+  cnconnector conabc96 *
+  page1_i1
+#CELL
+  cnconnector con150p *
+  page1_i2
+#CELL
+  cnconnector con150p *
+  page1_i3

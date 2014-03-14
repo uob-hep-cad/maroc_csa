@@ -1,0 +1,2602 @@
+( ConstraintFile "pc049a_header_diode_clamps"
+	( constraintHeader
+		( objectKey
+			( logical )
+		)
+		( version
+			( 16.5 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 2 )
+			( physicalViewRevNum 0 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( electricalConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mil )
+			( numberOfDecimalPlaces 2 )
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "TYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CDS_LMAN_SPLIT_NUMBER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MANUF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DIST" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MAX_TEMP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NEGTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POSTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POWER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC1" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC2" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TOL_ON_OFF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_LIST" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "ABBREV" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DIELECTRIC" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "KL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "OL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "PL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CDS_PN" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$sec" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$location" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "pc049a_header_diode_clamps"
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):gnd_signal"
+				( alias ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_gnd_signal") )
+				( objectStatus "gnd_signal" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_gnd_signal"
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_gnd_signal" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(0)"
+				( objectStatus "in<0>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(1)"
+				( objectStatus "in<1>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(2)"
+				( objectStatus "in<2>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(3)"
+				( objectStatus "in<3>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(4)"
+				( objectStatus "in<4>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(5)"
+				( objectStatus "in<5>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(6)"
+				( objectStatus "in<6>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(7)"
+				( objectStatus "in<7>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(8)"
+				( objectStatus "in<8>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(9)"
+				( objectStatus "in<9>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(10)"
+				( objectStatus "in<10>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(11)"
+				( objectStatus "in<11>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(12)"
+				( objectStatus "in<12>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(13)"
+				( objectStatus "in<13>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(14)"
+				( objectStatus "in<14>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(15)"
+				( objectStatus "in<15>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(16)"
+				( objectStatus "in<16>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(17)"
+				( objectStatus "in<17>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(18)"
+				( objectStatus "in<18>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(19)"
+				( objectStatus "in<19>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(20)"
+				( objectStatus "in<20>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(21)"
+				( objectStatus "in<21>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(22)"
+				( objectStatus "in<22>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(23)"
+				( objectStatus "in<23>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(24)"
+				( objectStatus "in<24>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(25)"
+				( objectStatus "in<25>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(26)"
+				( objectStatus "in<26>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(27)"
+				( objectStatus "in<27>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(28)"
+				( objectStatus "in<28>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(29)"
+				( objectStatus "in<29>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(30)"
+				( objectStatus "in<30>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(31)"
+				( objectStatus "in<31>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(32)"
+				( objectStatus "in<32>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(33)"
+				( objectStatus "in<33>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(34)"
+				( objectStatus "in<34>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(35)"
+				( objectStatus "in<35>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(36)"
+				( objectStatus "in<36>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(37)"
+				( objectStatus "in<37>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(38)"
+				( objectStatus "in<38>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(39)"
+				( objectStatus "in<39>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(40)"
+				( objectStatus "in<40>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(41)"
+				( objectStatus "in<41>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(42)"
+				( objectStatus "in<42>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(43)"
+				( objectStatus "in<43>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(44)"
+				( objectStatus "in<44>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(45)"
+				( objectStatus "in<45>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(46)"
+				( objectStatus "in<46>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(47)"
+				( objectStatus "in<47>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(48)"
+				( objectStatus "in<48>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(49)"
+				( objectStatus "in<49>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(50)"
+				( objectStatus "in<50>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(51)"
+				( objectStatus "in<51>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(52)"
+				( objectStatus "in<52>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(53)"
+				( objectStatus "in<53>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(54)"
+				( objectStatus "in<54>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(55)"
+				( objectStatus "in<55>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(56)"
+				( objectStatus "in<56>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(57)"
+				( objectStatus "in<57>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(58)"
+				( objectStatus "in<58>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(59)"
+				( objectStatus "in<59>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(60)"
+				( objectStatus "in<60>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(61)"
+				( objectStatus "in<61>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(62)"
+				( objectStatus "in<62>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(63)"
+				( objectStatus "in<63>" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1"
+				( attribute "CDS_LIB" "cnconnector"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "J1"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "6"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TYPE" "BARD2X32"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2700,4925)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CON64P"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CON64P-BARD2X32"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I1" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i2"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U2"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "7"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U2"
+					( Origin gPackager )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "7"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1875,5100)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I2" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i75"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U3"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "5"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U3"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "5"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3125,5100)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I75" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i76"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U3"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "7"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U3"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "7"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2125,5100)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I76" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i77"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U2"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U2"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(1125,5100)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I77" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i78"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U2"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U2"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(125,5100)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I78" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i79"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U2"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "5"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U2"
+					( Origin gPackager )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "5"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-875,5100)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I79" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i84"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U9"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U9"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-875,2100)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I84" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i85"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U9"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U9"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1875,2100)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I85" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i86"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U9"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "5"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U9"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "5"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3125,2700)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I86" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i87"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U9"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "7"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U9"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "7"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2125,2700)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I87" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i88"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U8"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U8"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(1125,2700)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I88" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i89"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U8"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U8"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(125,2700)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I89" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i90"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U8"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "5"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U8"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "5"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-875,2700)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I90" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i91"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U8"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "7"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U8"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "7"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1875,2700)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I91" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i92"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U7"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U7"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3125,3300)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I92" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i93"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U7"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U7"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2125,3300)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I93" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i94"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U7"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "5"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U7"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "5"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(1125,3300)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I94" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i95"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U7"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "7"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U7"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "7"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(125,3300)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I95" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i96"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U6"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U6"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-875,3300)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I96" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i97"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U6"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U6"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1875,3300)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I97" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i98"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U6"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "5"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U6"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "5"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3125,3900)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I98" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i99"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U6"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "7"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U6"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "7"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2125,3900)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I99" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i100"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U5"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U5"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(1125,3900)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I100" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i101"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U5"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U5"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(125,3900)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I101" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i102"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U5"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "5"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U5"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "5"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-875,3900)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I102" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i103"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U5"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "7"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U5"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "7"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1875,3900)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I103" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i104"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U4"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U4"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3125,4500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I104" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i105"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U4"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U4"
+					( Origin gPackager )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2125,4500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I105" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i106"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U4"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "5"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U4"
+					( Origin gPackager )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "5"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(1125,4500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I106" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i107"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U4"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "7"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U4"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "7"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(125,4500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I107" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i108"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U3"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U3"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-875,4500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I108" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i109"
+				( attribute "CDS_LIB" "bris_cds_analogue"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,50,125,-50"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U3"
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U3"
+					( Origin gFrontEnd )
+				)
+				( attribute "MANUF" "NXP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1875,4500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "PRTR5V0U8S_TSSOP-NXP-GND=GND_SA"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I109" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(1)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(2)"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(3)"
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(4)"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(5)"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(6)"
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(7)"
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(8)"
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(9)"
+				( attribute "PN" "10"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(10)"
+				( attribute "PN" "11"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(11)"
+				( attribute "PN" "12"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(12)"
+				( attribute "PN" "13"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(13)"
+				( attribute "PN" "14"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(14)"
+				( attribute "PN" "15"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(15)"
+				( attribute "PN" "16"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(16)"
+				( attribute "PN" "17"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(17)"
+				( attribute "PN" "18"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(18)"
+				( attribute "PN" "19"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(19)"
+				( attribute "PN" "20"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(20)"
+				( attribute "PN" "21"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(21)"
+				( attribute "PN" "22"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(22)"
+				( attribute "PN" "23"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(23)"
+				( attribute "PN" "24"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(24)"
+				( attribute "PN" "25"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(25)"
+				( attribute "PN" "26"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(26)"
+				( attribute "PN" "27"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(27)"
+				( attribute "PN" "28"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(28)"
+				( attribute "PN" "29"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(29)"
+				( attribute "PN" "30"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(30)"
+				( attribute "PN" "31"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(31)"
+				( attribute "PN" "32"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(32)"
+				( attribute "PN" "33"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(33)"
+				( attribute "PN" "34"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(34)"
+				( attribute "PN" "35"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(35)"
+				( attribute "PN" "36"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(36)"
+				( attribute "PN" "37"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(37)"
+				( attribute "PN" "38"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(38)"
+				( attribute "PN" "39"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(39)"
+				( attribute "PN" "40"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(40)"
+				( attribute "PN" "41"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(41)"
+				( attribute "PN" "42"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(42)"
+				( attribute "PN" "43"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(43)"
+				( attribute "PN" "44"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(44)"
+				( attribute "PN" "45"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(45)"
+				( attribute "PN" "46"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(46)"
+				( attribute "PN" "47"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(47)"
+				( attribute "PN" "48"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(48)"
+				( attribute "PN" "49"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(49)"
+				( attribute "PN" "50"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(50)"
+				( attribute "PN" "51"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(51)"
+				( attribute "PN" "52"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(52)"
+				( attribute "PN" "53"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(53)"
+				( attribute "PN" "54"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(54)"
+				( attribute "PN" "55"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(55)"
+				( attribute "PN" "56"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(56)"
+				( attribute "PN" "57"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(57)"
+				( attribute "PN" "58"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(58)"
+				( attribute "PN" "59"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(59)"
+				( attribute "PN" "60"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(60)"
+				( attribute "PN" "61"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(61)"
+				( attribute "PN" "62"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(62)"
+				( attribute "PN" "63"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i1:a(63)"
+				( attribute "PN" "64"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i2:\in\"
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i75:\in\"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i76:\in\"
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i77:\in\"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i78:\in\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i79:\in\"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i84:\in\"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i85:\in\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i86:\in\"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i87:\in\"
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i88:\in\"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i89:\in\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i90:\in\"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i91:\in\"
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i92:\in\"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i93:\in\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i94:\in\"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i95:\in\"
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i96:\in\"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i97:\in\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i98:\in\"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i99:\in\"
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i100:\in\"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i101:\in\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i102:\in\"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i103:\in\"
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i104:\in\"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i105:\in\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i106:\in\"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i107:\in\"
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i108:\in\"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):page1_i109:\in\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( bus "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\"
+				( memberType ( signal ) )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(0)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(1)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(2)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(3)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(4)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(5)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(6)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(7)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(8)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(9)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(10)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(11)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(12)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(13)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(14)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(15)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(16)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(17)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(18)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(19)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(20)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(21)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(22)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(23)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(24)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(25)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(26)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(27)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(28)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(29)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(30)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(31)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(32)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(33)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(34)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(35)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(36)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(37)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(38)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(39)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(40)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(41)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(42)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(43)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(44)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(45)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(46)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(47)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(48)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(49)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(50)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(51)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(52)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(53)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(54)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(55)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(56)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(57)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(58)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(59)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(60)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(61)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(62)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_header_diode_clamps(sch_1):\in\(63)") )
+				( objectStatus "IN" )
+			)
+		)
+	)
+)

@@ -1,0 +1,3045 @@
+( ConstraintFile "pc049a_dc_block"
+	( constraintHeader
+		( objectKey
+			( logical )
+		)
+		( version
+			( 16.5 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 2 )
+			( physicalViewRevNum 0 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( electricalConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mil )
+			( numberOfDecimalPlaces 2 )
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "TYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CDS_LMAN_SPLIT_NUMBER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MANUF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DIST" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MAX_TEMP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NEGTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POSTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POWER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC1" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC2" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TOL_ON_OFF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_LIST" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "ABBREV" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DIELECTRIC" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "KL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "OL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "PL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CDS_PN" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$sec" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$location" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "pc049a_dc_block"
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(0)"
+				( objectStatus "dc_blocked_in<0>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(1)"
+				( objectStatus "dc_blocked_in<1>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(2)"
+				( objectStatus "dc_blocked_in<2>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(3)"
+				( objectStatus "dc_blocked_in<3>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(4)"
+				( objectStatus "dc_blocked_in<4>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(5)"
+				( objectStatus "dc_blocked_in<5>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(6)"
+				( objectStatus "dc_blocked_in<6>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(7)"
+				( objectStatus "dc_blocked_in<7>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(8)"
+				( objectStatus "dc_blocked_in<8>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(9)"
+				( objectStatus "dc_blocked_in<9>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(10)"
+				( objectStatus "dc_blocked_in<10>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(11)"
+				( objectStatus "dc_blocked_in<11>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(12)"
+				( objectStatus "dc_blocked_in<12>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(13)"
+				( objectStatus "dc_blocked_in<13>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(14)"
+				( objectStatus "dc_blocked_in<14>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(15)"
+				( objectStatus "dc_blocked_in<15>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(16)"
+				( objectStatus "dc_blocked_in<16>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(17)"
+				( objectStatus "dc_blocked_in<17>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(18)"
+				( objectStatus "dc_blocked_in<18>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(19)"
+				( objectStatus "dc_blocked_in<19>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(20)"
+				( objectStatus "dc_blocked_in<20>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(21)"
+				( objectStatus "dc_blocked_in<21>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(22)"
+				( objectStatus "dc_blocked_in<22>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(23)"
+				( objectStatus "dc_blocked_in<23>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(24)"
+				( objectStatus "dc_blocked_in<24>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(25)"
+				( objectStatus "dc_blocked_in<25>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(26)"
+				( objectStatus "dc_blocked_in<26>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(27)"
+				( objectStatus "dc_blocked_in<27>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(28)"
+				( objectStatus "dc_blocked_in<28>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(29)"
+				( objectStatus "dc_blocked_in<29>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(30)"
+				( objectStatus "dc_blocked_in<30>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(31)"
+				( objectStatus "dc_blocked_in<31>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(32)"
+				( objectStatus "dc_blocked_in<32>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(33)"
+				( objectStatus "dc_blocked_in<33>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(34)"
+				( objectStatus "dc_blocked_in<34>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(35)"
+				( objectStatus "dc_blocked_in<35>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(36)"
+				( objectStatus "dc_blocked_in<36>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(37)"
+				( objectStatus "dc_blocked_in<37>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(38)"
+				( objectStatus "dc_blocked_in<38>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(39)"
+				( objectStatus "dc_blocked_in<39>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(40)"
+				( objectStatus "dc_blocked_in<40>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(41)"
+				( objectStatus "dc_blocked_in<41>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(42)"
+				( objectStatus "dc_blocked_in<42>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(43)"
+				( objectStatus "dc_blocked_in<43>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(44)"
+				( objectStatus "dc_blocked_in<44>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(45)"
+				( objectStatus "dc_blocked_in<45>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(46)"
+				( objectStatus "dc_blocked_in<46>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(47)"
+				( objectStatus "dc_blocked_in<47>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(48)"
+				( objectStatus "dc_blocked_in<48>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(49)"
+				( objectStatus "dc_blocked_in<49>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(50)"
+				( objectStatus "dc_blocked_in<50>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(51)"
+				( objectStatus "dc_blocked_in<51>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(52)"
+				( objectStatus "dc_blocked_in<52>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(53)"
+				( objectStatus "dc_blocked_in<53>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(54)"
+				( objectStatus "dc_blocked_in<54>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(55)"
+				( objectStatus "dc_blocked_in<55>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(56)"
+				( objectStatus "dc_blocked_in<56>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(57)"
+				( objectStatus "dc_blocked_in<57>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(58)"
+				( objectStatus "dc_blocked_in<58>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(59)"
+				( objectStatus "dc_blocked_in<59>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(60)"
+				( objectStatus "dc_blocked_in<60>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(61)"
+				( objectStatus "dc_blocked_in<61>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(62)"
+				( objectStatus "dc_blocked_in<62>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(63)"
+				( objectStatus "dc_blocked_in<63>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(0)"
+				( objectStatus "in<0>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(1)"
+				( objectStatus "in<1>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(2)"
+				( objectStatus "in<2>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(3)"
+				( objectStatus "in<3>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(4)"
+				( objectStatus "in<4>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(5)"
+				( objectStatus "in<5>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(6)"
+				( objectStatus "in<6>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(7)"
+				( objectStatus "in<7>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(8)"
+				( objectStatus "in<8>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(9)"
+				( objectStatus "in<9>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(10)"
+				( objectStatus "in<10>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(11)"
+				( objectStatus "in<11>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(12)"
+				( objectStatus "in<12>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(13)"
+				( objectStatus "in<13>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(14)"
+				( objectStatus "in<14>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(15)"
+				( objectStatus "in<15>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(16)"
+				( objectStatus "in<16>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(17)"
+				( objectStatus "in<17>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(18)"
+				( objectStatus "in<18>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(19)"
+				( objectStatus "in<19>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(20)"
+				( objectStatus "in<20>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(21)"
+				( objectStatus "in<21>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(22)"
+				( objectStatus "in<22>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(23)"
+				( objectStatus "in<23>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(24)"
+				( objectStatus "in<24>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(25)"
+				( objectStatus "in<25>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(26)"
+				( objectStatus "in<26>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(27)"
+				( objectStatus "in<27>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(28)"
+				( objectStatus "in<28>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(29)"
+				( objectStatus "in<29>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(30)"
+				( objectStatus "in<30>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(31)"
+				( objectStatus "in<31>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(32)"
+				( objectStatus "in<32>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(33)"
+				( objectStatus "in<33>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(34)"
+				( objectStatus "in<34>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(35)"
+				( objectStatus "in<35>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(36)"
+				( objectStatus "in<36>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(37)"
+				( objectStatus "in<37>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(38)"
+				( objectStatus "in<38>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(39)"
+				( objectStatus "in<39>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(40)"
+				( objectStatus "in<40>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(41)"
+				( objectStatus "in<41>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(42)"
+				( objectStatus "in<42>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(43)"
+				( objectStatus "in<43>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(44)"
+				( objectStatus "in<44>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(45)"
+				( objectStatus "in<45>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(46)"
+				( objectStatus "in<46>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(47)"
+				( objectStatus "in<47>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(48)"
+				( objectStatus "in<48>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(49)"
+				( objectStatus "in<49>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(50)"
+				( objectStatus "in<50>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(51)"
+				( objectStatus "in<51>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(52)"
+				( objectStatus "in<52>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(53)"
+				( objectStatus "in<53>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(54)"
+				( objectStatus "in<54>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(55)"
+				( objectStatus "in<55>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(56)"
+				( objectStatus "in<56>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(57)"
+				( objectStatus "in<57>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(58)"
+				( objectStatus "in<58>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(59)"
+				( objectStatus "in<59>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(60)"
+				( objectStatus "in<60>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(61)"
+				( objectStatus "in<61>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(62)"
+				( objectStatus "in<62>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(63)"
+				( objectStatus "in<63>" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i1"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIELECTRIC" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "HAS_FIXED_SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "CN1"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "CKCA43"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-825,2200)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPN4I"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPN4I-100NF,16V,X7R,CKCA43"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I1" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i10"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIELECTRIC" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "HAS_FIXED_SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "CN8"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "CKCA43"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-825,-1825)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPN4I"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPN4I-100NF,16V,X7R,CKCA43"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I10" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i19"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIELECTRIC" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "HAS_FIXED_SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "CN7"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "CKCA43"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-825,-1250)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPN4I"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPN4I-100NF,16V,X7R,CKCA43"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I19" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i28"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIELECTRIC" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "HAS_FIXED_SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "CN6"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "CKCA43"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-825,-675)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPN4I"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPN4I-100NF,16V,X7R,CKCA43"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I28" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i37"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIELECTRIC" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "HAS_FIXED_SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "CN5"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "CKCA43"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-825,-100)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPN4I"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPN4I-100NF,16V,X7R,CKCA43"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I37" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i46"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIELECTRIC" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "HAS_FIXED_SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "CN4"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "CKCA43"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-825,475)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPN4I"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPN4I-100NF,16V,X7R,CKCA43"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I46" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i55"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIELECTRIC" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "HAS_FIXED_SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "CN3"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "CKCA43"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-825,1050)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPN4I"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPN4I-100NF,16V,X7R,CKCA43"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I55" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i64"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIELECTRIC" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "HAS_FIXED_SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "CN2"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "CKCA43"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-825,1625)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPN4I"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPN4I-100NF,16V,X7R,CKCA43"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I64" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i73"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIELECTRIC" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "HAS_FIXED_SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "CN9"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "CKCA43"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(925,2200)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPN4I"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPN4I-100NF,16V,X7R,CKCA43"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I73" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i89"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIELECTRIC" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "HAS_FIXED_SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "CN10"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "CKCA43"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(925,1625)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPN4I"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPN4I-100NF,16V,X7R,CKCA43"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I89" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i95"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIELECTRIC" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "HAS_FIXED_SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "CN11"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "CKCA43"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(925,1050)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPN4I"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPN4I-100NF,16V,X7R,CKCA43"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I95" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i96"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIELECTRIC" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "HAS_FIXED_SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "CN12"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "CKCA43"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(925,475)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPN4I"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPN4I-100NF,16V,X7R,CKCA43"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I96" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i118"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIELECTRIC" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "HAS_FIXED_SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "CN13"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "CKCA43"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(925,-100)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPN4I"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPN4I-100NF,16V,X7R,CKCA43"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I118" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i119"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIELECTRIC" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "HAS_FIXED_SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "CN14"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "CKCA43"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(925,-675)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPN4I"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPN4I-100NF,16V,X7R,CKCA43"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I119" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i128"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIELECTRIC" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "HAS_FIXED_SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "CN15"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "CKCA43"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(925,-1250)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPN4I"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPN4I-100NF,16V,X7R,CKCA43"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I128" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i129"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIELECTRIC" "X7R"
+					( Origin gFrontEnd )
+				)
+				( attribute "HAS_FIXED_SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "CN16"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "CKCA43"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(925,-1825)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPN4I"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPN4I-100NF,16V,X7R,CKCA43"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I129" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i1:a(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i1:a(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i1:a(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i1:a(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i1:b(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i1:b(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i1:b(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i1:b(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i10:a(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i10:a(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i10:a(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i10:a(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i10:b(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i10:b(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i10:b(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i10:b(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i19:a(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i19:a(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i19:a(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i19:a(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i19:b(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i19:b(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i19:b(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i19:b(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i28:a(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i28:a(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i28:a(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i28:a(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i28:b(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i28:b(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i28:b(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i28:b(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i37:a(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i37:a(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i37:a(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i37:a(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i37:b(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i37:b(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i37:b(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i37:b(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i46:a(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i46:a(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i46:a(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i46:a(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i46:b(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i46:b(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i46:b(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i46:b(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i55:a(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i55:a(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i55:a(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i55:a(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i55:b(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i55:b(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i55:b(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i55:b(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i64:a(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i64:a(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i64:a(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i64:a(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i64:b(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i64:b(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i64:b(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i64:b(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i73:a(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i73:a(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i73:a(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i73:a(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i73:b(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i73:b(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i73:b(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i73:b(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i89:a(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i89:a(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i89:a(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i89:a(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i89:b(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i89:b(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i89:b(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i89:b(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i95:a(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i95:a(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i95:a(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i95:a(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i95:b(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i95:b(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i95:b(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i95:b(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i96:a(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i96:a(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i96:a(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i96:a(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i96:b(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i96:b(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i96:b(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i96:b(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i118:a(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i118:a(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i118:a(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i118:a(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i118:b(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i118:b(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i118:b(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i118:b(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i119:a(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i119:a(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i119:a(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i119:a(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i119:b(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i119:b(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i119:b(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i119:b(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i128:a(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i128:a(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i128:a(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i128:a(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i128:b(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i128:b(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i128:b(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i128:b(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i129:a(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i129:a(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i129:a(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i129:a(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i129:b(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i129:b(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i129:b(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):page1_i129:b(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( bus "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in"
+				( memberType ( signal ) )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(0)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(1)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(2)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(3)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(4)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(5)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(6)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(7)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(8)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(9)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(10)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(11)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(12)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(13)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(14)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(15)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(16)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(17)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(18)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(19)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(20)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(21)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(22)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(23)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(24)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(25)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(26)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(27)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(28)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(29)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(30)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(31)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(32)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(33)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(34)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(35)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(36)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(37)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(38)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(39)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(40)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(41)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(42)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(43)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(44)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(45)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(46)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(47)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(48)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(49)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(50)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(51)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(52)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(53)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(54)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(55)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(56)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(57)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(58)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(59)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(60)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(61)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(62)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):dc_blocked_in(63)") )
+				( objectStatus "DC_BLOCKED_IN" )
+			)
+			( bus "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\"
+				( memberType ( signal ) )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(0)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(1)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(2)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(3)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(4)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(5)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(6)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(7)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(8)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(9)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(10)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(11)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(12)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(13)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(14)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(15)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(16)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(17)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(18)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(19)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(20)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(21)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(22)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(23)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(24)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(25)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(26)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(27)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(28)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(29)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(30)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(31)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(32)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(33)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(34)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(35)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(36)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(37)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(38)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(39)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(40)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(41)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(42)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(43)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(44)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(45)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(46)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(47)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(48)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(49)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(50)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(51)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(52)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(53)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(54)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(55)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(56)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(57)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(58)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(59)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(60)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(61)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(62)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_dc_block(sch_1):\in\(63)") )
+				( objectStatus "IN" )
+			)
+		)
+	)
+)

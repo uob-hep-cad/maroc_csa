@@ -1,0 +1,126 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : pc043c_single_maroc_27.brd                    )
+(    Software Version : 16.5S030                                      )
+(    Date/Time        : Thu Mar 13 16:16:54 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_DELETE_FIRST_SEGMENT FALSE;
+RIPUP_RETAIN_BONDWIRE FALSE;
+RIPUP_SYMBOLS IFSAME;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/packaged';
+BOARD_DIRECTORY '';
+OLD_BOARD_NAME '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/physical/pc043c_single_maroc_27.brd';
+NEW_BOARD_NAME 'pc043c_single_maroc_28.brd';
+
+CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/pc043c_single_maroc.cpm -5 -y 2 -O /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/physical/pc043c_single_maroc_27.brd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/physical/pc043c_single_maroc_28.brd -$
+
+------ Preparing to read pst files ------
+
+Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/packaged/pstchip.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/packaged/pstchip.dat (00:00:00.19)
+Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/packaged/pstxprt.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/packaged/pstxprt.dat (00:00:00.00)
+Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/packaged/pstxnet.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/packaged/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+
+
+===========================================================
+Start Constraint Diff3 Import
+	Constraint File:    /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/packaged/pstcmdb.dat
+	Allegro Baseline:   /tmp/#Taaaaad14163.tmp
+	Start time: Thu Mar 13 16:16:54 2014
+===========================================================
+===========================================================
+Finished Constraint Update	Time: Thu Mar 13 16:16:54 2014
+===========================================================
+
+------ Library Paths ------
+MODULEPATH =  . 
+           /cadence/psd15.1/share/local/pcb/modules 
+           ../../../modules 
+           ../../fmc_tlu_cfd/physical 
+           ../../../pc042a_lib/pc042b_vsupply5v/physical 
+           ../../fmc_tlu_vsupply5v/physical 
+
+PSMPATH =  . 
+           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/symbols 
+           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/formats 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/connector 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/soic 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/discrete 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/dip 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/so 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/bga 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/qfp 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/passif 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/cap 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/led 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/rel 
+           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           /software/CAD/Cadence/SPB_16.50.030/share/local/pcb/padstacks 
+           /software/CAD/Cadence/SPB_16.50.030/share/pcb/pcb_lib/symbols 
+           /software/CAD/Cadence/SPB_16.50.030/share/pcb/allegrolib/symbols 
+           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/pads 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/padstacks/padstack_smd 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/padstacks/padstack3 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/padstacks/padstackm 
+           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/pads 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Mar 13 16:16:54 2014
+   DESIGN NAME : 'PC043C_SINGLE_MAROC'
+   PACKAGING ON 13-Mar-2014 AT 16:16:51
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   DIRECTORIES  <none>
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   LIBRARIES  'uob_hep_pc049a_lib' 'bris_cds_analogue' 'bris_cds_connectors'
+              'bris_cds_discrete' 'bris_cds_logic' 'bris_cds_memory'
+              'bris_cds_pld' 'bris_cds_special' 'bris_cds_standard'
+              'bris_cds_switches' 'cn74lv' 'cn74tiac' 'cn75als' 'cncmos'
+              'cnconnector' 'cndiscrete' 'cnpassive' 'cnpld' 'cnpower'
+              'cnspecial' 'cnstandard' 'cnvlsi' 'standard' 'cnlinear'
+   MASTER_LIBRARIES  <none>
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:01
+elapsed time  0:00:01
+

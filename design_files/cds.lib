@@ -1,0 +1,7 @@
+DEFINE uob_hep_pc049a_lib worklib
+
+INCLUDE $BRIS_CDSLIB/cds.lib
+#INCLUDE $CERN_CDSLIB/lib_psd16.x/cds.lib
+INCLUDE $CERN_CDSLIB/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cds.lib
+
+INCLUDE $CONCEPT_INST_DIR/share/cdssetup/cds.lib

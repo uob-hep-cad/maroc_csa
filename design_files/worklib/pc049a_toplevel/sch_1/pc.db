@@ -1,0 +1,79 @@
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.5-S029 (v16-5-13BU) 8/27/2012 on Thu Mar 13 15:29:31 2014
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
+#CELL
+  cnconnector conabc96 *
+  page1_i1
+#CELL
+  cnconnector con150p *
+  page1_i2
+#CELL
+  cnconnector con150p *
+  page1_i3
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
+#CELL
+  cnconnector conabc96 *
+  page3_i1
+#CELL
+  cnconnector con150p *
+  page3_i2
+#CELL
+  cnconnector con150p *
+  page3_i3
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
+#CELL
+  cnlinear ad8061 *
+  page4_i1
+#CELL
+  cnpassive rsmd0402 *
+  page4_i10
+#CELL
+  cnlinear ad8061 *
+  page4_i11
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i12
+#ISCELL
+  cnpower avdd *
+  page4_i13
+#ISCELL
+  standard gnd_signal *
+  page4_i14
+#CELL
+  bris_cds_connectors header2x2 *
+  page4_i15
+#ISCELL
+  standard gnd_signal *
+  page4_i16
+#ISCELL
+  standard gnd_signal *
+  page4_i2
+#ISCELL
+  cnpower avdd *
+  page4_i3
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i4
+#CELL
+  cnpassive rsmd0402 *
+  page4_i5
+#CELL
+  cnpassive rsmd0402 *
+  page4_i6
+#ISCELL
+  standard outport *
+  page4_i7
+#ISCELL
+  standard outport *
+  page4_i8
+#CELL
+  cnpassive rsmd0402 *
+  page4_i9

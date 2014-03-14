@@ -1,0 +1,51 @@
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
+#CELL
+  cnlinear ad8061 *
+  page4_i1
+#CELL
+  cnpassive rsmd0402 *
+  page4_i10
+#CELL
+  cnlinear ad8061 *
+  page4_i11
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i12
+#ISCELL
+  cnpower avdd *
+  page4_i13
+#ISCELL
+  standard gnd_signal *
+  page4_i14
+#CELL
+  bris_cds_connectors header2x2 *
+  page4_i15
+#ISCELL
+  standard gnd_signal *
+  page4_i16
+#ISCELL
+  standard gnd_signal *
+  page4_i2
+#ISCELL
+  cnpower avdd *
+  page4_i3
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i4
+#CELL
+  cnpassive rsmd0402 *
+  page4_i5
+#CELL
+  cnpassive rsmd0402 *
+  page4_i6
+#ISCELL
+  standard outport *
+  page4_i7
+#ISCELL
+  standard outport *
+  page4_i8
+#CELL
+  cnpassive rsmd0402 *
+  page4_i9

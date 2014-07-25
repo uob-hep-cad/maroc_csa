@@ -6,13 +6,14 @@
     Packager-XL 16.5-S026 (v16-5-13BP) lnx86 7/18/2012 12:00:00 IST
     (C) Copyright 1994, Cadence Design Systems, Inc.
 
-    Run on Thu Mar 13 16:16:51 2014
+    Run on Thu Mar 20 09:19:22 2014
 
 
  **********************************************
  *  Processing project file and command line  *
  **********************************************
 
+INFO(SPCOPK-1043): Setting REPACKAGE=OFF because running in FEEDBACK mode
 
 
     ANNOTATE  'BODY' 'PIN'
@@ -46,7 +47,8 @@
     SUPPRESS_GLOBAL_SHORT_CHECK OFF
     DEBUG    0
     DEFAULT_PHYS_DES_PREFIX U
-    FEEDBACK  'OFF'
+    FEEDBACK  'ALLEGRO'
+    GEN_SUBDESIGN  'PC043C_SINGLE_MAROC'
     MAX_ERRORS 999
     NET_NAME_CHARS   @  -  !  #  %  &  (  )  *  .  /  :  ?  [  ]  ^  _  `  +
                      =  >  0  1  2  3  4  5  6  7  8  9
@@ -126,8 +128,6 @@ e_cern_lib/parttables/cnpassive.ptf
 
 Creating Configuration "cfg_package" for Design "pc043c_single_maroc"
 
-Processing Constraints File ./worklib/pc043c_single_maroc/sch_1/pc043c_single_~
-maroc.dcf. 
 INFO(SPCODD-181): Loading /software/CAD/Cadence/SPB_16.50.030/share/cdssetup/c~
 dsprop.tmf.
 INFO(SPCODD-181): Loading /software/CAD/Cadence/SPB_16.50.030/share/cdssetup/c~
@@ -160,6 +160,8 @@ INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
 d16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con3p/part_table/con3p.ptf.
 INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
 d16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con6p/part_table/con6p.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/cnlinear/tps776xx/part_table/tps776xx.ptf.
 
  *************************
  *  Loading State Files  *
@@ -170,6 +172,37 @@ Loading ./worklib/pc043c_single_maroc/packaged/pxl.state.
  *****************************************
  *  End loading State Files  (00:00:00)  *
  *****************************************
+
+
+ ***************************
+ *  Starting to feedback.  *
+ ***************************
+
+ #1   WARNING(SPCOPF-2000): The following COMP_INST_PROP property is being fed~
+ back.
+        Property name: NO_XNET_CONNECTION
+        This property is present in compview.dat but not defined as a componen~
+t instance property. 
+        Add the property name to the COMP_INST_PROP directive in order for fut~
+ure runs of the Packager-XL to treat it correctly.
+ #2   WARNING(SPCOPF-2000): The following COMP_INST_PROP property is being fed~
+ back.
+        Property name: SYMBOL_EDITED
+        This property is present in compview.dat but not defined as a componen~
+t instance property. 
+        Add the property name to the COMP_INST_PROP directive in order for fut~
+ure runs of the Packager-XL to treat it correctly.
+ #3   WARNING(SPCOPF-2000): The following COMP_INST_PROP property is being fed~
+ back.
+        Property name: EMBEDDED_PLACEMENT
+        This property is present in compview.dat but not defined as a componen~
+t instance property. 
+        Add the property name to the COMP_INST_PROP directive in order for fut~
+ure runs of the Packager-XL to treat it correctly.
+
+ *******************************
+ *  End feedback.  (00:00:00)  *
+ *******************************
 
 
  ****************************************
@@ -191,15 +224,497 @@ Loading ./worklib/pc043c_single_maroc/packaged/pxl.state.
  *  End packaging  (00:00:00)  *
  *******************************
 
+Generating state file for subdesign PC043C_SINGLE_MAROC
 INFO(SPCOPK-1442): No errors detected
-INFO(SPCOPK-1444): No warnings detected
-    Start time   16:16:51
-    End time     16:16:53
+INFO(SPCOPK-1443): 3 warnings detected
+INFO(SPCOPK-1448): Use Tools->Markers->Packager in ConceptHDL to highlight ins~
+tances for the errors/warnings reported.
+    Start time    9:19:22
+    End time      9:19:25
     CPU time      0:00:01
-    Elapsed time  0:00:02
+    Elapsed time  0:00:03
 
  ***************************************************************************
  *  Packager-XL execution done.
  ***************************************************************************
-Starting to audit ECsets in the design...
+Constraint Directory: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a~
+/trunk/design_files/worklib/pc043c_single_maroc/sch_1/
+
+"/software/CAD/Cadence/SPB_16.50.030/tools/bin/cmfeedback.exe" -noComp -s "tem~
+p/tmp_synch_props.cfg" -c "/projects/HEP_Instrumentation/cad/designs/uob-hep-p~
+c049a/trunk/design_files/worklib/pc043c_single_maroc/sch_1//update.scr" -rt "/~
+projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/tem~
+p/cmfeedback.log" physical in "/projects/HEP_Instrumentation/cad/designs/uob-h~
+ep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/sch_1/pc043c_single_m~
+aroc.dcf" "/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/desi~
+gn_files/worklib/pc043c_single_maroc/packaged/cmdbview.dat" "/projects/HEP_Ins~
+trumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_sing~
+le_maroc/packaged/cmbcview.dat" "/projects/HEP_Instrumentation/cad/designs/uob~
+-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/sch_1/pc043c_single~
+_maroc.dcf,p"
+---------------------------------------------------------
+Design: pc043c_single_maroc
+     Changing : DESIGN_UNITS to "6,4" from "2,2"
+---------------------------------------------------------
+Create Layer: SURFACE_INDEX_0
+     Adding   : CDS_LAYER_TYPE value "SURFACE"
+     Adding   : CDS_LAYER_MATERIAL value "AIR"
+     Adding   : CDS_LAYER_THICKNESS value "0.0000"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "1.000"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.0000"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+---------------------------------------------------------
+Create Layer: TOP
+     Adding   : CDS_LAYER_TYPE value "CONDUCTOR"
+     Adding   : CDS_LAYER_MATERIAL value "COPPER"
+     Adding   : CDS_LAYER_THICKNESS value "0.0305"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "1.000"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.0000"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+     Adding   : CDS_LAYER_IS_NAMED value "1"
+     Adding   : CDS_LAYER_ETCH_FACTOR value "90.00"
+     Adding   : CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
+---------------------------------------------------------
+Create Layer: DIELECTRIC_BELOW_TOP
+     Adding   : CDS_LAYER_TYPE value "DIELECTRIC"
+     Adding   : CDS_LAYER_MATERIAL value "FR-4"
+     Adding   : CDS_LAYER_THICKNESS value "0.2032"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+---------------------------------------------------------
+Create Layer: L2
+     Adding   : CDS_LAYER_TYPE value "PLANE"
+     Adding   : CDS_LAYER_MATERIAL value "COPPER"
+     Adding   : CDS_LAYER_THICKNESS value "0.0305"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "1.000"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "TRUE"
+     Adding   : CDS_LAYER_IS_NAMED value "1"
+     Adding   : CDS_LAYER_ETCH_FACTOR value "90.00"
+     Adding   : CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
+---------------------------------------------------------
+Create Layer: DIELECTRIC_BELOW_L2
+     Adding   : CDS_LAYER_TYPE value "DIELECTRIC"
+     Adding   : CDS_LAYER_MATERIAL value "FR-4"
+     Adding   : CDS_LAYER_THICKNESS value "0.4032"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+---------------------------------------------------------
+Create Layer: L3
+     Adding   : CDS_LAYER_TYPE value "PLANE"
+     Adding   : CDS_LAYER_MATERIAL value "COPPER"
+     Adding   : CDS_LAYER_THICKNESS value "0.0305"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "1.000"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "TRUE"
+     Adding   : CDS_LAYER_IS_NAMED value "1"
+     Adding   : CDS_LAYER_ETCH_FACTOR value "90.00"
+     Adding   : CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
+---------------------------------------------------------
+Create Layer: DIELECTRIC_BELOW_L3
+     Adding   : CDS_LAYER_TYPE value "DIELECTRIC"
+     Adding   : CDS_LAYER_MATERIAL value "FR-4"
+     Adding   : CDS_LAYER_THICKNESS value "0.2032"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+---------------------------------------------------------
+Create Layer: L4
+     Adding   : CDS_LAYER_TYPE value "PLANE"
+     Adding   : CDS_LAYER_MATERIAL value "COPPER"
+     Adding   : CDS_LAYER_THICKNESS value "0.0305"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "1.000"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "TRUE"
+     Adding   : CDS_LAYER_IS_NAMED value "1"
+     Adding   : CDS_LAYER_ETCH_FACTOR value "90.00"
+     Adding   : CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
+---------------------------------------------------------
+Create Layer: DIELECTRIC_BELOW_L4
+     Adding   : CDS_LAYER_TYPE value "DIELECTRIC"
+     Adding   : CDS_LAYER_MATERIAL value "FR-4"
+     Adding   : CDS_LAYER_THICKNESS value "0.4032"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+---------------------------------------------------------
+Create Layer: L5
+     Adding   : CDS_LAYER_TYPE value "PLANE"
+     Adding   : CDS_LAYER_MATERIAL value "COPPER"
+     Adding   : CDS_LAYER_THICKNESS value "0.0305"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "TRUE"
+     Adding   : CDS_LAYER_IS_NAMED value "1"
+     Adding   : CDS_LAYER_ETCH_FACTOR value "90.00"
+     Adding   : CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
+---------------------------------------------------------
+Create Layer: DIELECTRIC_BELOW_L5
+     Adding   : CDS_LAYER_TYPE value "DIELECTRIC"
+     Adding   : CDS_LAYER_MATERIAL value "FR-4"
+     Adding   : CDS_LAYER_THICKNESS value "0.2032"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.03500"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+---------------------------------------------------------
+Create Layer: BOTTOM
+     Adding   : CDS_LAYER_TYPE value "CONDUCTOR"
+     Adding   : CDS_LAYER_MATERIAL value "COPPER"
+     Adding   : CDS_LAYER_THICKNESS value "0.0305"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "1.000"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.0000"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+     Adding   : CDS_LAYER_IS_NAMED value "1"
+     Adding   : CDS_LAYER_ETCH_FACTOR value "90.00"
+     Adding   : CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
+---------------------------------------------------------
+Create Layer: SURFACE_BELOW_BOTTOM
+     Adding   : CDS_LAYER_TYPE value "SURFACE"
+     Adding   : CDS_LAYER_MATERIAL value "AIR"
+     Adding   : CDS_LAYER_THICKNESS value "0.0000"
+     Adding   : CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_THERMAL_CONDUCTIVITY value "0.0000"
+     Adding   : CDS_LAYER_DIELECTRIC_CONSTANT value "1.000"
+     Adding   : CDS_LAYER_LOSS_TANGENT value "0.0000"
+     Adding   : CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+     Adding   : CDS_LAYER_IS_SHIELD value "FALSE"
+---------------------------------------------------------
+Design: pc043c_single_maroc
+     Adding   : DRAWING_EXTENTS value "621.2800,381.4000"
+     Adding   : DRAWING_LOWER_LEFT value "-310.8900,-191.4865"
+     Adding   : PhysicalCSet association "DEFAULT"
+     Adding   : SpacingCSet association "DEFAULT"
+     Adding   : SameNetSpacingCSet association "DEFAULT"
+---------------------------------------------------------
+Net: AVDD
+     Adding   : WEIGHT value "0"
+---------------------------------------------------------
+Net: GND_SIGNAL
+     Adding   : WEIGHT value "0"
+     Adding   : NO_RAT value "1"
+---------------------------------------------------------
+Create PhysicalCSet: DEFAULT
+     Adding   : DIFFP_PRIMARY_GAP value "0.2000,0.2000,0.2000,0.2000,0.2000,0.~
+2000"
+     Adding   : DIFFP_COUPLED_PLUS value "0.0000,0.0000,0.0000,0.0000,0.0000,0~
+.0000"
+     Adding   : DIFFP_COUPLED_MINUS value "0.0000,0.0000,0.0000,0.0000,0.0000,~
+0.0000"
+     Adding   : DIFFP_MIN_SPACE value "0.0000,0.0000,0.0000,0.0000,0.0000,0.00~
+00"
+     Adding   : MIN_LINE_WIDTH value "0.1800,0.1800,0.1800,0.1800,0.1800,0.180~
+0"
+     Adding   : MAX_LINE_WIDTH value "0.0000,0.0000,0.0000,0.0000,0.0000,0.000~
+0"
+     Adding   : DIFFP_NECK_GAP value "0.1800,0.1800,0.1800,0.1800,0.1800,0.180~
+0"
+     Adding   : MIN_NECK_WIDTH value "0.1600,0.1600,0.1600,0.1600,0.1600,0.160~
+0"
+     Adding   : MAXIMUM_NECK_LENGTH value "5.0000,5.0000,5.0000,5.0000,5.0000,~
+5.0000"
+     Adding   : VIA_LIST value "VIA36RD0-4D,VIA26RD0-3D,VIA22RD0-2D,VIA"
+     Adding   : ALLOW_ON_ETCH_SUBCLASS value "TRUE,TRUE,TRUE,TRUE,TRUE,TRUE"
+     Adding   : TS_ALLOWED value "ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE~
+,ANYWHERE"
+     Adding   : MIN_BVIA_STAGGER value "0.1270,0.1270,0.1270,0.1270,0.1270,0.1~
+270"
+     Adding   : MAX_BVIA_STAGGER value "0.0000,0.0000,0.0000,0.0000,0.0000,0.0~
+000"
+     Adding   : PAD_PAD_DIRECT_CONNECT value "ALL_ALLOWED,ALL_ALLOWED,ALL_ALLO~
+WED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED"
+---------------------------------------------------------
+Create SpacingCSet: DEFAULT
+     Adding   : THRUPIN_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : THRUPIN_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : TESTPIN_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : THRUPIN_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : TESTVIA_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : BBV_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.12~
+70,0.1270"
+     Adding   : THRUPIN_TO_BONDPAD_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : LINE_TO_THRUPIN_SPACING value "0.2000,0.2000,0.2000,0.2000,0.2~
+000,0.2000"
+     Adding   : THRUPIN_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.~
+1270,0.1270"
+     Adding   : SMDPIN_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.~
+1270,0.1270"
+     Adding   : SMDPIN_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SMDPIN_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SMDPIN_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : BBV_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.127~
+0,0.1270"
+     Adding   : SMDPIN_TO_BONDPAD_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : LINE_TO_SMDPIN_SPACING value "0.1800,0.2000,0.2000,0.2000,0.20~
+00,0.2000"
+     Adding   : SHAPE_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : TESTPIN_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : TESTPIN_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : TESTPIN_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : BBV_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.12~
+70,0.1270"
+     Adding   : BONDPAD_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : LINE_TO_TESTPIN_SPACING value "0.2000,0.2000,0.2000,0.2000,0.2~
+000,0.2000"
+     Adding   : SHAPE_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.~
+1270,0.1270"
+     Adding   : THRUVIA_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : TESTVIA_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : BBV_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.12~
+70,0.1270"
+     Adding   : BONDPAD_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : LINE_TO_THRUVIA_SPACING value "0.2000,0.2000,0.2000,0.2000,0.2~
+000,0.2000"
+     Adding   : SHAPE_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.~
+1270,0.1270"
+     Adding   : TESTVIA_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : BBV_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.12~
+70,0.1270"
+     Adding   : BONDPAD_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : LINE_TO_TESTVIA_SPACING value "0.2000,0.2000,0.2000,0.2000,0.2~
+000,0.2000"
+     Adding   : SHAPE_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.~
+1270,0.1270"
+     Adding   : BBV_TO_BBV_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1270,0~
+.1270"
+     Adding   : BONDPAD_TO_BBV_SPACING value "0.1270,0.1270,0.1270,0.1270,0.12~
+70,0.1270"
+     Adding   : BBV_TO_LINE_SPACING value "0.2000,0.2000,0.2000,0.2000,0.2000,~
+0.2000"
+     Adding   : BBV_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1270~
+,0.1270"
+     Adding   : BONDPAD_TO_BONDPAD_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : BONDPAD_TO_LINE_SPACING value "0.2000,0.2000,0.2000,0.2000,0.2~
+000,0.2000"
+     Adding   : BONDPAD_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.~
+1270,0.1270"
+     Adding   : LINE_TO_LINE_SPACING value "0.1800,0.2000,0.2000,0.2000,0.2000~
+,0.1800"
+     Adding   : LINE_TO_SHAPE_SPACING value "0.2000,0.2000,0.2000,0.2000,0.200~
+0,0.2000"
+     Adding   : SHAPE_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.12~
+70,0.1270"
+     Adding   : HOLE_TO_PIN_SPACING value "0.2032,0.2032,0.2032,0.2032,0.2032,~
+0.2032"
+     Adding   : HOLE_TO_VIA_SPACING value "0.2032,0.2032,0.2032,0.2032,0.2032,~
+0.2032"
+     Adding   : HOLE_TO_LINE_SPACING value "0.2032,0.2032,0.2032,0.2032,0.2032~
+,0.2032"
+     Adding   : HOLE_TO_SHAPE_SPACING value "0.2032,0.2032,0.2032,0.2032,0.203~
+2,0.2032"
+     Adding   : HOLE_TO_HOLE_SPACING value "0.2032,0.2032,0.2032,0.2032,0.2032~
+,0.2032"
+     Adding   : MVIA_TO_MVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1270~
+,0.1270"
+     Adding   : MVIA_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : MVIA_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.12~
+70,0.1270"
+     Adding   : MVIA_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : MVIA_TO_BBV_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1270,~
+0.1270"
+     Adding   : MVIA_TO_LINE_SPACING value "0.2000,0.2000,0.2000,0.2000,0.2000~
+,0.2000"
+     Adding   : MVIA_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.127~
+0,0.1270"
+     Adding   : MVIA_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : MVIA_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : BONDPAD_TO_MVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : MIN_BVIA_GAP value "0.1270"
+     Adding   : BONDPAD_TO_BONDPAD_DIFFP_SPC value "0.1270,0.1270,0.1270,0.127~
+0,0.1270,0.1270"
+---------------------------------------------------------
+Create SameNetSpacingCSet: DEFAULT
+     Adding   : SAME_NET value "FALSE,FALSE,FALSE,FALSE,FALSE,FALSE"
+     Adding   : SN_THRUPIN_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_THRUPIN_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.127~
+0,0.1270,0.1270"
+     Adding   : SN_TESTPIN_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_THRUPIN_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_TESTVIA_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_BBV_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SN_THRUPIN_TO_BONDPAD_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_LINE_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_THRUPIN_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270~
+,0.1270,0.1270"
+     Adding   : SN_SMDPIN_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270~
+,0.1270,0.1270"
+     Adding   : SN_SMDPIN_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.127~
+0,0.1270,0.1270"
+     Adding   : SN_SMDPIN_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.127~
+0,0.1270,0.1270"
+     Adding   : SN_SMDPIN_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.127~
+0,0.1270,0.1270"
+     Adding   : SN_BBV_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0.~
+1270,0.1270"
+     Adding   : SN_SMDPIN_TO_BONDPAD_SPACING value "0.1270,0.1270,0.1270,0.127~
+0,0.1270,0.1270"
+     Adding   : SN_LINE_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SN_SHAPE_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_TESTPIN_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_TESTPIN_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_TESTPIN_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_BBV_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SN_BONDPAD_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_LINE_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_SHAPE_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270~
+,0.1270,0.1270"
+     Adding   : SN_THRUVIA_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_TESTVIA_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_BBV_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SN_BONDPAD_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_LINE_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_SHAPE_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270~
+,0.1270,0.1270"
+     Adding   : SN_TESTVIA_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_BBV_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SN_BONDPAD_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_LINE_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_SHAPE_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270~
+,0.1270,0.1270"
+     Adding   : SN_BBV_TO_BBV_SPACING value "0.1270,0.1270,0.1270,0.1270,0.127~
+0,0.1270"
+     Adding   : SN_BONDPAD_TO_BBV_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SN_BBV_TO_LINE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.12~
+70,0.1270"
+     Adding   : SN_BBV_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : SN_BONDPAD_TO_BONDPAD_SPACING value "0.1270,0.1270,0.1270,0.12~
+70,0.1270,0.1270"
+     Adding   : SN_BONDPAD_TO_LINE_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_BONDPAD_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270~
+,0.1270,0.1270"
+     Adding   : SN_LINE_TO_LINE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : SN_LINE_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.~
+1270,0.1270"
+     Adding   : SN_SHAPE_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SN_HOLE_TO_PIN_SPACING value "0.2032,0.2032,0.2032,0.2032,0.20~
+32,0.2032"
+     Adding   : SN_HOLE_TO_VIA_SPACING value "0.2032,0.2032,0.2032,0.2032,0.20~
+32,0.2032"
+     Adding   : SN_HOLE_TO_LINE_SPACING value "0.2032,0.2032,0.2032,0.2032,0.2~
+032,0.2032"
+     Adding   : SN_HOLE_TO_SHAPE_SPACING value "0.2032,0.2032,0.2032,0.2032,0.~
+2032,0.2032"
+     Adding   : SN_HOLE_TO_HOLE_SPACING value "0.2032,0.2032,0.2032,0.2032,0.2~
+032,0.2032"
+     Adding   : SN_MVIA_TO_MVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : SN_MVIA_TO_THRUPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_MVIA_TO_SMDPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,0~
+.1270,0.1270"
+     Adding   : SN_MVIA_TO_THRUVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_MVIA_TO_BBV_SPACING value "0.1270,0.1270,0.1270,0.1270,0.12~
+70,0.1270"
+     Adding   : SN_MVIA_TO_LINE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.1~
+270,0.1270"
+     Adding   : SN_MVIA_TO_SHAPE_SPACING value "0.1270,0.1270,0.1270,0.1270,0.~
+1270,0.1270"
+     Adding   : SN_MVIA_TO_TESTPIN_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_MVIA_TO_TESTVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+     Adding   : SN_BONDPAD_TO_MVIA_SPACING value "0.1270,0.1270,0.1270,0.1270,~
+0.1270,0.1270"
+---------------------------------------------------------
+
+Summary:
+
+Constraint changes found: 278 additions, 0 deletions, 1 changes.
+
+Association changes found: 3 additions, 0 deletions.
+
+
 Audit completed successfully.

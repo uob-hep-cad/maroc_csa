@@ -7,20 +7,31 @@
 			( 16.5 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 25 )
-			( physicalViewRevNum 0 )
+			( logicalViewRevNum 30 )
+			( physicalViewRevNum 1 )
 			( otherViewRevNum 0 )
 		)
 		( contents
+			( drawing )
 			( dictionaryExtensions )
 			( worksheetCustomizations )
+			( crossSection )
 			( electricalConstraints )
+			( physicalConstraints )
+			( spacingConstraints )
+			( sameNetSpacingConstraints )
 			( netClasses )
 			( properties )
 		)
 		( precision
-			( units mil )
-			( numberOfDecimalPlaces 2 )
+			( units mm )
+			( numberOfDecimalPlaces 4 )
+		)
+	)
+	( drawing
+		( attribute "DRAWING_EXTENTS" "621.2800,381.4000"
+		)
+		( attribute "DRAWING_LOWER_LEFT" "-310.8900,-191.4865"
 		)
 	)
 	( DictionaryExtensions
@@ -370,16 +381,1010 @@
 			( Analysis
 			)
 		)
+		( Attribute
+			( Name "IC" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "KNEE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SQ_LINE_WIDTH_VALUES" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oDesign )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CREATOR" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oPart  oGate  oGateDefn  oPin  oPinDefn  oNet  oIODriver  oShape  oVia  oSymbolDefn  oSymbol  oLine  oFigure  oVoid  oCLine )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DESCRIPTION" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oPart  oGate  oGateDefn  oPin  oPinDefn  oNet  oIODriver  oShape  oVia  oSymbolDefn  oSymbol  oLine  oFigure  oVoid  oCLine )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MAX_FILENAME_VALUE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oDesign )
+			)
+			( Analysis
+			)
+		)
+	)
+	( crossSection
+		( layer "SURFACE_INDEX_0"
+			( attribute "CDS_LAYER_TYPE" "SURFACE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "AIR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "TOP"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0305"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_TOP"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.2032"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "L2"
+			( attribute "CDS_LAYER_TYPE" "PLANE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0305"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_L2"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.4032"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "L3"
+			( attribute "CDS_LAYER_TYPE" "PLANE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0305"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_L3"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.2032"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "L4"
+			( attribute "CDS_LAYER_TYPE" "PLANE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0305"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_L4"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.4032"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "L5"
+			( attribute "CDS_LAYER_TYPE" "PLANE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0305"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_L5"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.2032"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "BOTTOM"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0305"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "SURFACE_BELOW_BOTTOM"
+			( attribute "CDS_LAYER_TYPE" "SURFACE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "AIR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
 	)
 	( designConstraints
 		( ruleChanges
 			( allRules )
 			( design "pc043c_single_maroc"
-				( attribute "CDS_EXPORT_CONTENTS_MASK" "33330"
+				( physicalCSetRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\" )
+				( spacingCSetRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\" )
+				( sameNetSpacingCSetRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\" )
+				( attribute "CDS_EXPORT_CONTENTS_MASK" "33458"
 				)
 				( attribute "CDS_EDIT_PNS_STATUS" "0"
 					( Origin gFrontEnd )
 				)
+				( attribute "PHYSICAL_CONSTRAINT_SET" "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\"
+					( Origin gBackEnd )
+				)
+				( attribute "SPACING_CONSTRAINT_SET" "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\"
+					( Origin gBackEnd )
+				)
+				( attribute "SAME_NET_SPACING_CONSTRAINT_SET" "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\"
+					( Origin gBackEnd )
+				)
+			)
+			( physicalCSet "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\"
+				( attribute "DIFFP_PRIMARY_GAP" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_PLUS" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_MINUS" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_MIN_SPACE" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_LINE_WIDTH" "0.1800,0.1800,0.1800,0.1800,0.1800,0.1800"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_LINE_WIDTH" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_NECK_GAP" "0.1800,0.1800,0.1800,0.1800,0.1800,0.1800"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_NECK_WIDTH" "0.1600,0.1600,0.1600,0.1600,0.1600,0.1600"
+					( Origin gBackEnd )
+				)
+				( attribute "MAXIMUM_NECK_LENGTH" "5.0000,5.0000,5.0000,5.0000,5.0000,5.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "VIA_LIST" "VIA36RD0-4D,VIA26RD0-3D,VIA22RD0-2D,VIA"
+					( Origin gBackEnd )
+				)
+				( attribute "ALLOW_ON_ETCH_SUBCLASS" "TRUE,TRUE,TRUE,TRUE,TRUE,TRUE"
+					( Origin gBackEnd )
+				)
+				( attribute "TS_ALLOWED" "ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_BVIA_STAGGER" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_BVIA_STAGGER" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "PAD_PAD_DIRECT_CONNECT" "ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED"
+					( Origin gBackEnd )
+				)
+				( objectStatus "DEFAULT" )
+			)
+			( spacingCSet "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\"
+				( attribute "THRUPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUPIN_SPACING" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_SMDPIN_SPACING" "0.1800,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_TESTPIN_SPACING" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUVIA_SPACING" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_TESTVIA_SPACING" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_LINE_SPACING" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_LINE_SPACING" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_LINE_SPACING" "0.1800,0.2000,0.2000,0.2000,0.2000,0.1800"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_SHAPE_SPACING" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_PIN_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_VIA_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_LINE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_SHAPE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_HOLE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_LINE_SPACING" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_BVIA_GAP" "0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BONDPAD_DIFFP_SPC" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( objectStatus "DEFAULT" )
+			)
+			( sameNetSpacingCSet "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\"
+				( attribute "SAME_NET" "FALSE,FALSE,FALSE,FALSE,FALSE,FALSE"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_PIN_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_VIA_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_LINE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_SHAPE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_HOLE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( objectStatus "DEFAULT" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\or\(0)"
 				( attribute "CDS_PHYS_NET_NAME" "OR<0>"
@@ -1068,6 +2073,9 @@
 				( attribute "PHYS_NET_NAME" "AVDD"
 					( Origin gPackager )
 				)
+				( attribute "WEIGHT" "0"
+					( Origin gBackEnd )
+				)
 				( objectStatus "AVDD" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_avdd"
@@ -1086,6 +2094,12 @@
 				)
 				( attribute "PHYS_NET_NAME" "GND_SIGNAL"
 					( Origin gPackager )
+				)
+				( attribute "WEIGHT" "0"
+					( Origin gBackEnd )
+				)
+				( attribute "NO_RAT" "1"
+					( Origin gBackEnd )
 				)
 				( objectStatus "GND_SIGNAL" )
 			)
@@ -1384,12 +2398,6 @@
 					( Origin gPackager )
 				)
 				( objectStatus "START_ADCB" )
-			)
-			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):unnamed_3_capcersmdcl2_i242_b"
-				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_3_CAPCERSMDCL2_I242_B"
-					( Origin gPackager )
-				)
-				( objectStatus "UNNAMED_3_CAPCERSMDCL2_I242_B" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):unnamed_3_con3p_i231_a"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_3_CON3P_I231_A"
@@ -2190,6 +3198,12 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
 				( attribute "DIST" "FLAT"
 					( Origin gFrontEnd )
 				)
@@ -2238,7 +3252,7 @@
 				( attribute "VALUE" "51"
 					( Origin gFrontEnd )
 				)
-				( attribute "VER" "1"
+				( attribute "VER" "2"
 					( Origin gFrontEnd )
 				)
 				( attribute "VOLTAGE" "RVMAX"
@@ -2248,25 +3262,25 @@
 				( attribute "XY" "(3200,375)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CDS_LOCATION" "R1"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( attribute "CHIPS_PART_NAME" "RSMD0402"
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-51,1%"
 					( Origin gPackager )
 				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
 				( objectStatus "R1" )
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i147"
 				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
 				( attribute "DIST" "FLAT"
@@ -2317,7 +3331,7 @@
 				( attribute "VALUE" "51"
 					( Origin gFrontEnd )
 				)
-				( attribute "VER" "1"
+				( attribute "VER" "2"
 					( Origin gFrontEnd )
 				)
 				( attribute "VOLTAGE" "RVMAX"
@@ -2327,19 +3341,13 @@
 				( attribute "XY" "(3450,325)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CDS_LOCATION" "R2"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( attribute "CHIPS_PART_NAME" "RSMD0402"
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-51,1%"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "R2" )
@@ -5556,14 +6564,8 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(3825,350)"
+				( attribute "XY" "(4050,350)"
 					( Origin gFrontEnd )
-				)
-				( attribute "CDS_LOCATION" "C28"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
 				)
 				( attribute "LOCATION" "C28"
 					( Origin gPackager )
@@ -5572,6 +6574,12 @@
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C28"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
 				( attribute "SEC" "1"
@@ -5601,14 +6609,8 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(3925,550)"
+				( attribute "XY" "(4150,550)"
 					( Origin gFrontEnd )
-				)
-				( attribute "CDS_LOCATION" "LK31"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
 				)
 				( attribute "LOCATION" "LK31"
 					( Origin gPackager )
@@ -5620,6 +6622,12 @@
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "1-HOLE_0-8-BASE"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "LK31"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
 				( objectStatus "LK31" )
@@ -10914,164 +11922,6 @@
 				)
 				( objectStatus "J4" )
 			)
-			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i233"
-				( attribute "CDS_LIB" "cnpassive"
-					( Origin gPackager )
-				)
-				( attribute "DIST" "FLAT"
-					( Origin gFrontEnd )
-				)
-				( attribute "MAX_TEMP" "RTMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "NEGTOL" "RTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "PACK_TYPE" "1/10W"
-					( Origin gFrontEnd )
-				)
-				( attribute "PHYS_PAGE" "3"
-					( Origin gFrontEnd )
-				)
-				( attribute "POSTOL" "RTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "POWER" "RMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "SIZE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "SLOPE" "RSMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC1" "RTMPL"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC2" "RTMPQ"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL" "1%"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL_ON_OFF" "ON"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "150"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "VOLTAGE" "RVMAX"
-					( Units "uVoltage" "V" 1.000000)
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(2775,750)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CDS_LOCATION" "R44"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "R44"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "CHIPS_PART_NAME" "RSMD0603"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-150,1%"
-					( Origin gPackager )
-				)
-				( objectStatus "R44" )
-			)
-			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i234"
-				( attribute "CDS_LIB" "cnpassive"
-					( Origin gPackager )
-				)
-				( attribute "DIST" "FLAT"
-					( Origin gFrontEnd )
-				)
-				( attribute "MAX_TEMP" "RTMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "NEGTOL" "RTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "PACK_TYPE" "1/10W"
-					( Origin gFrontEnd )
-				)
-				( attribute "PHYS_PAGE" "3"
-					( Origin gFrontEnd )
-				)
-				( attribute "POSTOL" "RTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "POWER" "RMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "SIZE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "SLOPE" "RSMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC1" "RTMPL"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC2" "RTMPQ"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL" "1%"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL_ON_OFF" "ON"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "120"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "VOLTAGE" "RVMAX"
-					( Units "uVoltage" "V" 1.000000)
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(2775,475)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CDS_LOCATION" "R45"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "R45"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "CHIPS_PART_NAME" "RSMD0603"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-120,1%"
-					( Origin gPackager )
-				)
-				( objectStatus "R45" )
-			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i236"
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
@@ -11177,22 +12027,22 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(3075,475)"
+				( attribute "XY" "(2800,475)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CDS_LOCATION" "C51"
-					( Origin gPackager )
-				)
 				( attribute "LOCATION" "C51"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C51"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
 				( attribute "SEC" "1"
@@ -11249,85 +12099,6 @@
 				)
 				( objectStatus "C50" )
 			)
-			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i241"
-				( attribute "CDS_LIB" "cnpassive"
-					( Origin gPackager )
-				)
-				( attribute "DIST" "FLAT"
-					( Origin gFrontEnd )
-				)
-				( attribute "MAX_TEMP" "RTMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "NEGTOL" "RTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "PACK_TYPE" "1/16W"
-					( Origin gFrontEnd )
-				)
-				( attribute "PHYS_PAGE" "3"
-					( Origin gFrontEnd )
-				)
-				( attribute "POSTOL" "RTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "POWER" "RMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "SIZE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "SLOPE" "RSMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC1" "RTMPL"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC2" "RTMPQ"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL" "5%"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL_ON_OFF" "ON"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "3.3R"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "VOLTAGE" "RVMAX"
-					( Units "uVoltage" "V" 1.000000)
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(3700,875)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CDS_LOCATION" "R48"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "R48"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "CHIPS_PART_NAME" "RSMD0402"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-3.3R,5%"
-					( Origin gPackager )
-				)
-				( objectStatus "R48" )
-			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i242"
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
@@ -11354,7 +12125,7 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(3400,700)"
+				( attribute "XY" "(3825,525)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CDS_LOCATION" "C54"
@@ -11758,7 +12529,7 @@
 				( attribute "ROT" "2"
 					( Origin gFrontEnd )
 				)
-				( attribute "TYPE" "SSW103_01GD"
+				( attribute "TYPE" "SSW-103-01-G-D"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -11770,7 +12541,7 @@
 				( attribute "CHIPS_PART_NAME" "CON6P"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CON6P-SSW103_01GD"
+				( attribute "CDS_PART_NAME" "CON6P-SSW-103-01-G-D"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "J1"
@@ -11786,6 +12557,127 @@
 					( Origin gPackager )
 				)
 				( objectStatus "J1" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i252"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "IC" "UNDEF"
+					( Origin gFrontEnd )
+				)
+				( attribute "KNEE" "CBMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "CTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "CTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMD_A"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "CTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "CSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "22UF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "6.3V"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3000,525)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "ELCAPTAN"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "ELCAPTAN_SMD_A-22UF,6.3V"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C48"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C48"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C48" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253"
+				( attribute "CDS_LIB" "cnlinear"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "SOIC"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "TPS77625D"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "2.5V"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3425,600)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "TPS776XX"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "TPS77625D"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "RG1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "RG1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "RG1" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in0"
 				( attribute "PN" "238"
@@ -12621,29 +13513,29 @@
 				)
 				( objectStatus "U1.214" )
 			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i146:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R1.1" )
-			)
 			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i146:b(0)"
 				( attribute "PN" "2"
 					( Origin gPackager )
 				)
 				( objectStatus "R1.2" )
 			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i147:a(0)"
+			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i146:a(0)"
 				( attribute "PN" "1"
 					( Origin gPackager )
 				)
-				( objectStatus "R2.1" )
+				( objectStatus "R1.1" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i147:b(0)"
 				( attribute "PN" "2"
 					( Origin gPackager )
 				)
 				( objectStatus "R2.2" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i147:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R2.1" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i148:a(0)"
 				( attribute "PN" "1"
@@ -14733,30 +15625,6 @@
 				)
 				( objectStatus "J4.3" )
 			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i233:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R44.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i233:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R44.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i234:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R45.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i234:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R45.2" )
-			)
 			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i236:a(0)"
 				( attribute "PN" "1"
 					( Origin gPackager )
@@ -14792,18 +15660,6 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C50.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i241:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R48.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i241:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R48.2" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i242:a(0)"
 				( attribute "PN" "1"
@@ -14864,6 +15720,60 @@
 					( Origin gPackager )
 				)
 				( objectStatus "J1.6" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i252:a(0)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C48.1" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i252:b(0)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C48.2" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:\en*\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "RG1.2" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:gnd"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "RG1.1" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:\in\(1)"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( objectStatus "RG1.3" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:\in\(2)"
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( objectStatus "RG1.4" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:\out\(1)"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( objectStatus "RG1.5" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:\out\(2)"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( objectStatus "RG1.6" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:pg"
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( objectStatus "RG1.8" )
 			)
 			( bus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\or\"
 				( memberType ( signal ) )

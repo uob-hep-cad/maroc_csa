@@ -1,0 +1,57 @@
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
+#CELL
+  cnpassive capn4i *
+  page1_i10
+#CELL
+  cnconnector coax *
+  page1_i11
+#ISCELL
+  standard gnd_signal *
+  page1_i13
+#ISCELL
+  standard gnd_signal *
+  page1_i14
+#CELL
+  cnconnector coax *
+  page1_i15
+#ISCELL
+  standard gnd_signal *
+  page1_i16
+#CELL
+  cnconnector coax *
+  page1_i17
+#ISCELL
+  standard gnd_signal *
+  page1_i18
+#CELL
+  cnconnector coax *
+  page1_i19
+#ISCELL
+  standard tap *
+  page1_i20
+#ISCELL
+  standard tap *
+  page1_i21
+#ISCELL
+  standard tap *
+  page1_i22
+#ISCELL
+  standard tap *
+  page1_i23
+#ISCELL
+  standard gnd_signal *
+  page1_i24
+#ISCELL
+  standard outport *
+  page1_i25
+#CELL
+  cndiscrete tvs_diode_array_sp3010 *
+  page1_i26
+#CELL
+  cnpassive r4ismd *
+  page1_i27
+#ISCELL
+  standard gnd_signal *
+  page1_i28

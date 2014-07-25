@@ -1,0 +1,998 @@
+( ConstraintFile "pc049a_lemo_db_07"
+	( constraintHeader
+		( objectKey
+			( physical )
+		)
+		( version
+			( 16.6 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 16 )
+			( physicalViewRevNum 0 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( electricalConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mil )
+			( numberOfDecimalPlaces 2 )
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "$sec" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$location" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SQ_LINE_WIDTH_VALUES" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oDesign )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CREATOR" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oPart  oGate  oGateDefn  oPin  oPinDefn  oNet  oIODriver  oShape  oVia  oSymbolDefn  oSymbol  oLine  oFigure  oVoid  oCLine )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DESCRIPTION" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oPart  oGate  oGateDefn  oPin  oPinDefn  oNet  oIODriver  oShape  oVia  oSymbolDefn  oSymbol  oLine  oFigure  oVoid  oCLine )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MAX_FILENAME_VALUE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oDesign )
+			)
+			( Analysis
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "pc049a_lemo_db_07"
+			)
+			( signal "ANALOG_TO_MAROC<0>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(0)" )
+			)
+			( signal "ANALOG_TO_MAROC<1>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(1)" )
+			)
+			( signal "ANALOG_TO_MAROC<2>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(2)" )
+			)
+			( signal "ANALOG_TO_MAROC<3>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(3)" )
+			)
+			( signal "ANALOG_TO_MAROC<4>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(4)" )
+			)
+			( signal "ANALOG_TO_MAROC<5>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(5)" )
+			)
+			( signal "ANALOG_TO_MAROC<6>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(6)" )
+			)
+			( signal "ANALOG_TO_MAROC<7>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(7)" )
+			)
+			( signal "ANALOG_TO_MAROC<8>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(8)" )
+			)
+			( signal "ANALOG_TO_MAROC<9>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(9)" )
+			)
+			( signal "ANALOG_TO_MAROC<10>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(10)" )
+			)
+			( signal "ANALOG_TO_MAROC<11>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(11)" )
+			)
+			( signal "ANALOG_TO_MAROC<12>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(12)" )
+			)
+			( signal "ANALOG_TO_MAROC<13>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(13)" )
+			)
+			( signal "ANALOG_TO_MAROC<14>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(14)" )
+			)
+			( signal "ANALOG_TO_MAROC<15>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(15)" )
+			)
+			( signal "ANALOG_TO_MAROC<16>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(16)" )
+			)
+			( signal "ANALOG_TO_MAROC<17>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(17)" )
+			)
+			( signal "ANALOG_TO_MAROC<18>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(18)" )
+			)
+			( signal "ANALOG_TO_MAROC<19>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(19)" )
+			)
+			( signal "ANALOG_TO_MAROC<20>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(20)" )
+			)
+			( signal "ANALOG_TO_MAROC<21>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(21)" )
+			)
+			( signal "ANALOG_TO_MAROC<22>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(22)" )
+			)
+			( signal "ANALOG_TO_MAROC<23>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(23)" )
+			)
+			( signal "ANALOG_TO_MAROC<24>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(24)" )
+			)
+			( signal "ANALOG_TO_MAROC<25>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(25)" )
+			)
+			( signal "ANALOG_TO_MAROC<26>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(26)" )
+			)
+			( signal "ANALOG_TO_MAROC<27>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(27)" )
+			)
+			( signal "ANALOG_TO_MAROC<28>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(28)" )
+			)
+			( signal "ANALOG_TO_MAROC<29>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(29)" )
+			)
+			( signal "ANALOG_TO_MAROC<30>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(30)" )
+			)
+			( signal "ANALOG_TO_MAROC<31>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(31)" )
+			)
+			( signal "ANALOG_TO_MAROC<32>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(32)" )
+			)
+			( signal "ANALOG_TO_MAROC<33>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(33)" )
+			)
+			( signal "ANALOG_TO_MAROC<34>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(34)" )
+			)
+			( signal "ANALOG_TO_MAROC<35>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(35)" )
+			)
+			( signal "ANALOG_TO_MAROC<36>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(36)" )
+			)
+			( signal "ANALOG_TO_MAROC<37>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(37)" )
+			)
+			( signal "ANALOG_TO_MAROC<38>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(38)" )
+			)
+			( signal "ANALOG_TO_MAROC<39>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(39)" )
+			)
+			( signal "ANALOG_TO_MAROC<40>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(40)" )
+			)
+			( signal "ANALOG_TO_MAROC<41>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(41)" )
+			)
+			( signal "ANALOG_TO_MAROC<42>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(42)" )
+			)
+			( signal "ANALOG_TO_MAROC<43>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(43)" )
+			)
+			( signal "ANALOG_TO_MAROC<44>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(44)" )
+			)
+			( signal "ANALOG_TO_MAROC<45>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(45)" )
+			)
+			( signal "ANALOG_TO_MAROC<46>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(46)" )
+			)
+			( signal "ANALOG_TO_MAROC<47>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(47)" )
+			)
+			( signal "ANALOG_TO_MAROC<48>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(48)" )
+			)
+			( signal "ANALOG_TO_MAROC<49>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(49)" )
+			)
+			( signal "ANALOG_TO_MAROC<50>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(50)" )
+			)
+			( signal "ANALOG_TO_MAROC<51>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(51)" )
+			)
+			( signal "ANALOG_TO_MAROC<52>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(52)" )
+			)
+			( signal "ANALOG_TO_MAROC<53>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(53)" )
+			)
+			( signal "ANALOG_TO_MAROC<54>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(54)" )
+			)
+			( signal "ANALOG_TO_MAROC<55>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(55)" )
+			)
+			( signal "ANALOG_TO_MAROC<56>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(56)" )
+			)
+			( signal "ANALOG_TO_MAROC<57>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(57)" )
+			)
+			( signal "ANALOG_TO_MAROC<58>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(58)" )
+			)
+			( signal "ANALOG_TO_MAROC<59>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(59)" )
+			)
+			( signal "ANALOG_TO_MAROC<60>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(60)" )
+			)
+			( signal "ANALOG_TO_MAROC<61>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(61)" )
+			)
+			( signal "ANALOG_TO_MAROC<62>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(62)" )
+			)
+			( signal "ANALOG_TO_MAROC<63>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(63)" )
+			)
+			( signal "AVDD"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):avdd" )
+			)
+			( signal "DBOARD_MISO"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):dboard_miso" )
+			)
+			( signal "DBOARD_MISO*"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):\dboard_miso*\" )
+			)
+			( signal "DBOARD_MOSI"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):dboard_mosi" )
+			)
+			( signal "DBOARD_MOSI*"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):\dboard_mosi*\" )
+			)
+			( signal "DBOARD_SCLK"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):dboard_sclk" )
+			)
+			( signal "DBOARD_SCLK*"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):\dboard_sclk*\" )
+			)
+			( signal "DBOARD_SSN"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):dboard_ssn" )
+			)
+			( signal "DBOARD_SSN*"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):\dboard_ssn*\" )
+			)
+			( signal "GND_SIGNAL"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):gnd_signal" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_9"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_9"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_9"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_9"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_10"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_10"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_10"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_10"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_11"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_11"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_11"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_11"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_12"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_12"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_12"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_12"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_13"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_13"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_13"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_13"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_14"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_14"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_14"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_14"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_15"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_15"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_15"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_15"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_16"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_16"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_16"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_16"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( gate "J1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page1_i35" )
+			)
+			( gate "CN1_1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX2_1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+			)
+			( gate "PX1_1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+			)
+			( gate "D1_2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+			)
+			( gate "PX4_1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+			)
+			( gate "PX3_1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+			)
+			( gate "CN1_2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX2_2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+			)
+			( gate "PX1_2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+			)
+			( gate "D1_3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+			)
+			( gate "PX4_2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+			)
+			( gate "PX3_2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+			)
+			( gate "CN1_3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX2_3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+			)
+			( gate "PX1_3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+			)
+			( gate "D1_4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+			)
+			( gate "PX4_3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+			)
+			( gate "PX3_3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+			)
+			( gate "CN1_4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX2_4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+			)
+			( gate "PX1_4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+			)
+			( gate "D1_5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+			)
+			( gate "PX4_4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+			)
+			( gate "PX3_4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+			)
+			( gate "CN1_5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX2_5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+			)
+			( gate "PX1_5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+			)
+			( gate "D1_6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+			)
+			( gate "PX4_5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+			)
+			( gate "PX3_5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+			)
+			( gate "CN1_6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX2_6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+			)
+			( gate "PX1_6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+			)
+			( gate "D1_7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+			)
+			( gate "PX4_6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+			)
+			( gate "PX3_6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+			)
+			( gate "CN1_7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX2_7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+			)
+			( gate "PX1_7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+			)
+			( gate "D1_8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+			)
+			( gate "PX4_7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+			)
+			( gate "PX3_7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+			)
+			( gate "CN1_8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX2_8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+			)
+			( gate "PX1_8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+			)
+			( gate "D1_9"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+			)
+			( gate "PX4_8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+			)
+			( gate "PX3_8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+			)
+			( gate "CN1_9"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX2_9"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+			)
+			( gate "PX1_9"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+			)
+			( gate "D1_10"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+			)
+			( gate "PX4_9"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+			)
+			( gate "PX3_9"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+			)
+			( gate "CN1_10"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX2_10"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+			)
+			( gate "PX1_10"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+			)
+			( gate "D1_11"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+			)
+			( gate "PX4_10"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+			)
+			( gate "PX3_10"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+			)
+			( gate "CN1_11"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX2_11"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+			)
+			( gate "PX1_11"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+			)
+			( gate "D1_12"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+			)
+			( gate "PX4_11"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+			)
+			( gate "PX3_11"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+			)
+			( gate "CN1_12"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX2_12"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+			)
+			( gate "PX1_12"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+			)
+			( gate "D1_13"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+			)
+			( gate "PX4_12"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+			)
+			( gate "PX3_12"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+			)
+			( gate "CN1_13"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX2_13"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+			)
+			( gate "PX1_13"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+			)
+			( gate "D1_14"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+			)
+			( gate "PX4_13"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+			)
+			( gate "PX3_13"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+			)
+			( gate "CN1_14"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX2_14"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+			)
+			( gate "PX1_14"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+			)
+			( gate "D1_15"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+			)
+			( gate "PX4_14"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+			)
+			( gate "PX3_14"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+			)
+			( gate "CN1_15"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX2_15"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+			)
+			( gate "PX1_15"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+			)
+			( gate "D1_16"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+			)
+			( gate "PX4_15"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+			)
+			( gate "PX3_15"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+			)
+			( gate "CN1_16"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX2_16"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+			)
+			( gate "PX1_16"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+			)
+			( gate "PX4_16"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+			)
+			( gate "PX3_16"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+			)
+			( gate "D1_1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+			)
+			( gate "RZ1_1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ1_2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ1_3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ1_4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ1_5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ1_6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ1_7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ1_8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ1_9"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ1_10"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ1_11"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ1_12"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ1_13"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ1_14"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ1_15"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ1_16"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( bus "ANALOG_TO_MAROC"
+				( memberType ( signal ) )
+				( member ( signalRef "ANALOG_TO_MAROC<0>") )
+				( member ( signalRef "ANALOG_TO_MAROC<1>") )
+				( member ( signalRef "ANALOG_TO_MAROC<2>") )
+				( member ( signalRef "ANALOG_TO_MAROC<3>") )
+				( member ( signalRef "ANALOG_TO_MAROC<4>") )
+				( member ( signalRef "ANALOG_TO_MAROC<5>") )
+				( member ( signalRef "ANALOG_TO_MAROC<6>") )
+				( member ( signalRef "ANALOG_TO_MAROC<7>") )
+				( member ( signalRef "ANALOG_TO_MAROC<8>") )
+				( member ( signalRef "ANALOG_TO_MAROC<9>") )
+				( member ( signalRef "ANALOG_TO_MAROC<10>") )
+				( member ( signalRef "ANALOG_TO_MAROC<11>") )
+				( member ( signalRef "ANALOG_TO_MAROC<12>") )
+				( member ( signalRef "ANALOG_TO_MAROC<13>") )
+				( member ( signalRef "ANALOG_TO_MAROC<14>") )
+				( member ( signalRef "ANALOG_TO_MAROC<15>") )
+				( member ( signalRef "ANALOG_TO_MAROC<16>") )
+				( member ( signalRef "ANALOG_TO_MAROC<17>") )
+				( member ( signalRef "ANALOG_TO_MAROC<18>") )
+				( member ( signalRef "ANALOG_TO_MAROC<19>") )
+				( member ( signalRef "ANALOG_TO_MAROC<20>") )
+				( member ( signalRef "ANALOG_TO_MAROC<21>") )
+				( member ( signalRef "ANALOG_TO_MAROC<22>") )
+				( member ( signalRef "ANALOG_TO_MAROC<23>") )
+				( member ( signalRef "ANALOG_TO_MAROC<24>") )
+				( member ( signalRef "ANALOG_TO_MAROC<25>") )
+				( member ( signalRef "ANALOG_TO_MAROC<26>") )
+				( member ( signalRef "ANALOG_TO_MAROC<27>") )
+				( member ( signalRef "ANALOG_TO_MAROC<28>") )
+				( member ( signalRef "ANALOG_TO_MAROC<29>") )
+				( member ( signalRef "ANALOG_TO_MAROC<30>") )
+				( member ( signalRef "ANALOG_TO_MAROC<31>") )
+				( member ( signalRef "ANALOG_TO_MAROC<32>") )
+				( member ( signalRef "ANALOG_TO_MAROC<33>") )
+				( member ( signalRef "ANALOG_TO_MAROC<34>") )
+				( member ( signalRef "ANALOG_TO_MAROC<35>") )
+				( member ( signalRef "ANALOG_TO_MAROC<36>") )
+				( member ( signalRef "ANALOG_TO_MAROC<37>") )
+				( member ( signalRef "ANALOG_TO_MAROC<38>") )
+				( member ( signalRef "ANALOG_TO_MAROC<39>") )
+				( member ( signalRef "ANALOG_TO_MAROC<40>") )
+				( member ( signalRef "ANALOG_TO_MAROC<41>") )
+				( member ( signalRef "ANALOG_TO_MAROC<42>") )
+				( member ( signalRef "ANALOG_TO_MAROC<43>") )
+				( member ( signalRef "ANALOG_TO_MAROC<44>") )
+				( member ( signalRef "ANALOG_TO_MAROC<45>") )
+				( member ( signalRef "ANALOG_TO_MAROC<46>") )
+				( member ( signalRef "ANALOG_TO_MAROC<47>") )
+				( member ( signalRef "ANALOG_TO_MAROC<48>") )
+				( member ( signalRef "ANALOG_TO_MAROC<49>") )
+				( member ( signalRef "ANALOG_TO_MAROC<50>") )
+				( member ( signalRef "ANALOG_TO_MAROC<51>") )
+				( member ( signalRef "ANALOG_TO_MAROC<52>") )
+				( member ( signalRef "ANALOG_TO_MAROC<53>") )
+				( member ( signalRef "ANALOG_TO_MAROC<54>") )
+				( member ( signalRef "ANALOG_TO_MAROC<55>") )
+				( member ( signalRef "ANALOG_TO_MAROC<56>") )
+				( member ( signalRef "ANALOG_TO_MAROC<57>") )
+				( member ( signalRef "ANALOG_TO_MAROC<58>") )
+				( member ( signalRef "ANALOG_TO_MAROC<59>") )
+				( member ( signalRef "ANALOG_TO_MAROC<60>") )
+				( member ( signalRef "ANALOG_TO_MAROC<61>") )
+				( member ( signalRef "ANALOG_TO_MAROC<62>") )
+				( member ( signalRef "ANALOG_TO_MAROC<63>") )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc" )
+			)
+			( bus "LEMO_GRP_A"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_a" )
+			)
+			( bus "LEMO_GRP_B"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_b" )
+			)
+			( bus "LEMO_GRP_C"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_c" )
+			)
+			( bus "LEMO_GRP_D"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_d" )
+			)
+			( bus "LEMO_GRP_E"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_e" )
+			)
+			( bus "LEMO_GRP_F"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_f" )
+			)
+			( bus "LEMO_GRP_G"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_g" )
+			)
+			( bus "LEMO_GRP_H"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_h" )
+			)
+			( bus "LEMO_GRP_I"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_i" )
+			)
+			( bus "LEMO_GRP_J"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_j" )
+			)
+			( bus "LEMO_GRP_K"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_k" )
+			)
+			( bus "LEMO_GRP_L"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_l" )
+			)
+			( bus "LEMO_GRP_M"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_m" )
+			)
+			( bus "LEMO_GRP_N"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_n" )
+			)
+			( bus "LEMO_GRP_O"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_o" )
+			)
+			( bus "LEMO_GRP_P"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_p" )
+			)
+		)
+	)
+)

@@ -1,0 +1,190 @@
+(PropertyFile "1.0" 
+ (Creator " HDL Direct 16.5-S016 (v16-5-13AQ) 2/14/2012" )
+ (Created "Mon Mar 17 15:01:01 2014" )
+ (Cell "pc049a_lemo_daughter_board" 
+  (View "sch_1" 
+   (Inst "page1_I2" 
+    (Pr 
+     ("CDS_LIB" "cnconnector" )
+     ("NEEDS_NO_SIZE" "TRUE" )
+     ("\\type\\" "QSS75_01FDA" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(325,500)" )
+     ("PHYS_PAGE" "1" )))
+   (Inst "page2_I1" 
+    (Pr 
+     ("CDS_LIB" "uob_hep_pc049a_lib" )
+     ("LIBRARY1" "ieee" )
+     ("USE1" "ieee.std_logic_1164.all" )
+     ("USE2" "work.all" )
+     ("\\block\\" "TRUE" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-1375,2425)" )
+     ("PHYS_PAGE" "2" )))
+   (Inst "page2_I18" 
+    (Pr 
+     ("CDS_LIB" "uob_hep_pc049a_lib" )
+     ("LIBRARY1" "ieee" )
+     ("USE1" "ieee.std_logic_1164.all" )
+     ("USE2" "work.all" )
+     ("\\block\\" "TRUE" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-1375,-550)" )
+     ("PHYS_PAGE" "2" )))
+   (Inst "page2_I27" 
+    (Pr 
+     ("CDS_LIB" "uob_hep_pc049a_lib" )
+     ("LIBRARY1" "ieee" )
+     ("USE1" "ieee.std_logic_1164.all" )
+     ("USE2" "work.all" )
+     ("\\block\\" "TRUE" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-1375,-125)" )
+     ("PHYS_PAGE" "2" )))
+   (Inst "page2_I36" 
+    (Pr 
+     ("CDS_LIB" "uob_hep_pc049a_lib" )
+     ("LIBRARY1" "ieee" )
+     ("USE1" "ieee.std_logic_1164.all" )
+     ("USE2" "work.all" )
+     ("\\block\\" "TRUE" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-1375,300)" )
+     ("PHYS_PAGE" "2" )))
+   (Inst "page2_I45" 
+    (Pr 
+     ("CDS_LIB" "uob_hep_pc049a_lib" )
+     ("LIBRARY1" "ieee" )
+     ("USE1" "ieee.std_logic_1164.all" )
+     ("USE2" "work.all" )
+     ("\\block\\" "TRUE" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-1375,725)" )
+     ("PHYS_PAGE" "2" )))
+   (Inst "page2_I54" 
+    (Pr 
+     ("CDS_LIB" "uob_hep_pc049a_lib" )
+     ("LIBRARY1" "ieee" )
+     ("USE1" "ieee.std_logic_1164.all" )
+     ("USE2" "work.all" )
+     ("\\block\\" "TRUE" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-1375,1150)" )
+     ("PHYS_PAGE" "2" )))
+   (Inst "page2_I63" 
+    (Pr 
+     ("CDS_LIB" "uob_hep_pc049a_lib" )
+     ("LIBRARY1" "ieee" )
+     ("USE1" "ieee.std_logic_1164.all" )
+     ("USE2" "work.all" )
+     ("\\block\\" "TRUE" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-1375,1575)" )
+     ("PHYS_PAGE" "2" )))
+   (Inst "page2_I72" 
+    (Pr 
+     ("CDS_LIB" "uob_hep_pc049a_lib" )
+     ("LIBRARY1" "ieee" )
+     ("USE1" "ieee.std_logic_1164.all" )
+     ("USE2" "work.all" )
+     ("\\block\\" "TRUE" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-1375,2000)" )
+     ("PHYS_PAGE" "2" )))
+   (Inst "page2_I137" 
+    (Pr 
+     ("CDS_LIB" "uob_hep_pc049a_lib" )
+     ("LIBRARY1" "ieee" )
+     ("USE1" "ieee.std_logic_1164.all" )
+     ("USE2" "work.all" )
+     ("\\block\\" "TRUE" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1250,2425)" )
+     ("PHYS_PAGE" "2" )))
+   (Inst "page2_I138" 
+    (Pr 
+     ("CDS_LIB" "uob_hep_pc049a_lib" )
+     ("LIBRARY1" "ieee" )
+     ("USE1" "ieee.std_logic_1164.all" )
+     ("USE2" "work.all" )
+     ("\\block\\" "TRUE" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1250,1575)" )
+     ("PHYS_PAGE" "2" )))
+   (Inst "page2_I139" 
+    (Pr 
+     ("CDS_LIB" "uob_hep_pc049a_lib" )
+     ("LIBRARY1" "ieee" )
+     ("USE1" "ieee.std_logic_1164.all" )
+     ("USE2" "work.all" )
+     ("\\block\\" "TRUE" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1250,2000)" )
+     ("PHYS_PAGE" "2" )))
+   (Inst "page2_I140" 
+    (Pr 
+     ("CDS_LIB" "uob_hep_pc049a_lib" )
+     ("LIBRARY1" "ieee" )
+     ("USE1" "ieee.std_logic_1164.all" )
+     ("USE2" "work.all" )
+     ("\\block\\" "TRUE" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1250,725)" )
+     ("PHYS_PAGE" "2" )))
+   (Inst "page2_I141" 
+    (Pr 
+     ("CDS_LIB" "uob_hep_pc049a_lib" )
+     ("LIBRARY1" "ieee" )
+     ("USE1" "ieee.std_logic_1164.all" )
+     ("USE2" "work.all" )
+     ("\\block\\" "TRUE" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1250,300)" )
+     ("PHYS_PAGE" "2" )))
+   (Inst "page2_I142" 
+    (Pr 
+     ("CDS_LIB" "uob_hep_pc049a_lib" )
+     ("LIBRARY1" "ieee" )
+     ("USE1" "ieee.std_logic_1164.all" )
+     ("USE2" "work.all" )
+     ("\\block\\" "TRUE" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1250,1150)" )
+     ("PHYS_PAGE" "2" )))
+   (Inst "page2_I143" 
+    (Pr 
+     ("CDS_LIB" "uob_hep_pc049a_lib" )
+     ("LIBRARY1" "ieee" )
+     ("USE1" "ieee.std_logic_1164.all" )
+     ("USE2" "work.all" )
+     ("\\block\\" "TRUE" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1250,-550)" )
+     ("PHYS_PAGE" "2" )))
+   (Inst "page2_I144" 
+    (Pr 
+     ("CDS_LIB" "uob_hep_pc049a_lib" )
+     ("LIBRARY1" "ieee" )
+     ("USE1" "ieee.std_logic_1164.all" )
+     ("USE2" "work.all" )
+     ("\\block\\" "TRUE" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1250,-125)" )
+     ("PHYS_PAGE" "2" ))))))

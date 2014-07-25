@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : pc043c_single_maroc_27.brd                    )
+(    Drawing          : pc043c_single_maroc_28.brd                    )
 (    Software Version : 16.5S030                                      )
-(    Date/Time        : Thu Mar 13 16:16:54 2014                      )
+(    Date/Time        : Wed Mar 19 17:57:59 2014                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -18,15 +18,15 @@ RIPUP_SYMBOLS IFSAME;
 Missing symbol has error FALSE;
 SCHEMATIC_DIRECTORY '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/packaged';
 BOARD_DIRECTORY '';
-OLD_BOARD_NAME '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/physical/pc043c_single_maroc_27.brd';
-NEW_BOARD_NAME 'pc043c_single_maroc_28.brd';
+OLD_BOARD_NAME '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/physical/pc043c_single_maroc_28.brd';
+NEW_BOARD_NAME 'pc043c_single_maroc_29.brd';
 
-CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/pc043c_single_maroc.cpm -5 -y 2 -O /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/physical/pc043c_single_maroc_27.brd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/physical/pc043c_single_maroc_28.brd -$
+CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/pc043c_single_maroc.cpm -5 -y 2 -O /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/physical/pc043c_single_maroc_28.brd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/physical/pc043c_single_maroc_29.brd -$
 
 ------ Preparing to read pst files ------
 
 Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/packaged/pstchip.dat 
-   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/packaged/pstchip.dat (00:00:00.19)
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/packaged/pstchip.dat (00:00:00.22)
 Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/packaged/pstxprt.dat 
    Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/packaged/pstxprt.dat (00:00:00.00)
 Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/packaged/pstxnet.dat 
@@ -40,20 +40,18 @@ Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/
 ===========================================================
 Start Constraint Diff3 Import
 	Constraint File:    /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc043c_single_maroc/packaged/pstcmdb.dat
-	Allegro Baseline:   /tmp/#Taaaaad14163.tmp
-	Start time: Thu Mar 13 16:16:54 2014
+	Allegro Baseline:   /tmp/#Taaaaad18543.tmp
+	Start time: Wed Mar 19 17:58:00 2014
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Thu Mar 13 16:16:54 2014
+Finished Constraint Update	Time: Wed Mar 19 17:58:00 2014
 ===========================================================
 
 ------ Library Paths ------
 MODULEPATH =  . 
            /cadence/psd15.1/share/local/pcb/modules 
            ../../../modules 
-           ../../fmc_tlu_cfd/physical 
-           ../../../pc042a_lib/pc042b_vsupply5v/physical 
-           ../../fmc_tlu_vsupply5v/physical 
+           /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_4lemos/physical 
 
 PSMPATH =  . 
            /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/symbols 
@@ -88,9 +86,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Mar 13 16:16:54 2014
+netrev run on Mar 19 17:57:59 2014
    DESIGN NAME : 'PC043C_SINGLE_MAROC'
-   PACKAGING ON 13-Mar-2014 AT 16:16:51
+   PACKAGING ON 19-Mar-2014 AT 17:57:56
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF

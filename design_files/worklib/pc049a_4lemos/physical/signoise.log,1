@@ -1,0 +1,181 @@
+INFO: Loaded existing interconnect file '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_4lemos/physical/interconn.iml'
+INFO: Loaded existing interconnect file '/software/CAD/Cadence/SPB_16.50.030/share/pcb/signal/cds_interconn.iml'
+INFO: Finished loading SigNoise interconnect libraries
+INFO: Field Solver bem2d for STL_1S_1R_1
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaaa09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_2
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaab09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_3
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaac09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_4
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaad09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_5
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaae09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_6
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaaf09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_7
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaag09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_8
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaah09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_9
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaai09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_10
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaaj09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_11
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaak09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_12
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaal09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_13
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaam09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_14
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaan09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_15
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaao09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_16
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaap09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_17
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaaq09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_18
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaar09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_19
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaas09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_20
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaat09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_21
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaau09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_22
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaav09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_23
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaaw09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_24
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaax09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_25
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaay09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_26
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaaz09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_27
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaba09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_28
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabb09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_29
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabc09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_30
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabd09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_31
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabe09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_32
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabf09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_33
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabg09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_34
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabh09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_35
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabi09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_36
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabj09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_37
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabk09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_38
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabl09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_39
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabm09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_40
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabn09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_41
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabo09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_42
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabp09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_43
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabq09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_44
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabr09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_45
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabs09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_46
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabt09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_47
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabu09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_48
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabv09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_49
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabw09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_50
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabx09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_51
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaby09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_52
+INFO: Executing command: bem2d 0 "/tmp/#Taaaabz09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_53
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaca09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_54
+INFO: Executing command: bem2d 0 "/tmp/#Taaaacb09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_55
+INFO: Executing command: bem2d 0 "/tmp/#Taaaacc09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_56
+INFO: Executing command: bem2d 0 "/tmp/#Taaaacd09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_57
+INFO: Executing command: bem2d 0 "/tmp/#Taaaace09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_58
+INFO: Executing command: bem2d 0 "/tmp/#Taaaacf09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_59
+INFO: Executing command: bem2d 0 "/tmp/#Taaaacg09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_60
+INFO: Executing command: bem2d 0 "/tmp/#Taaaach09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_61
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaci09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_62
+INFO: Executing command: bem2d 0 "/tmp/#Taaaacj09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_63
+INFO: Executing command: bem2d 0 "/tmp/#Taaaack09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_64
+INFO: Executing command: bem2d 0 "/tmp/#Taaaacl09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_65
+INFO: Executing command: bem2d 0 "/tmp/#Taaaacm09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_66
+INFO: Executing command: bem2d 0 "/tmp/#Taaaacn09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_67
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaco09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_68
+INFO: Executing command: bem2d 0 "/tmp/#Taaaacp09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_69
+INFO: Executing command: bem2d 0 "/tmp/#Taaaacq09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_70
+INFO: Executing command: bem2d 0 "/tmp/#Taaaacr09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_71
+INFO: Executing command: bem2d 0 "/tmp/#Taaaacs09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_72
+INFO: Executing command: bem2d 0 "/tmp/#Taaaact09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_73
+INFO: Executing command: bem2d 0 "/tmp/#Taaaacu09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_74
+INFO: Executing command: bem2d 0 "/tmp/#Taaaacv09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_75
+INFO: Executing command: bem2d 0 "/tmp/#Taaaacw09319.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_76
+INFO: Executing command: bem2d 0 "/tmp/#Taaaacx09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_77
+INFO: Executing command: bem2d 0 "/tmp/#Taaaacy09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_78
+INFO: Executing command: bem2d 0 "/tmp/#Taaaacz09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_79
+INFO: Executing command: bem2d 0 "/tmp/#Taaaada09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_80
+INFO: Executing command: bem2d 0 "/tmp/#Taaaadb09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_81
+INFO: Executing command: bem2d 0 "/tmp/#Taaaadc09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_82
+INFO: Executing command: bem2d 0 "/tmp/#Taaaadd09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_83
+INFO: Executing command: bem2d 0 "/tmp/#Taaaade09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_84
+INFO: Executing command: bem2d 0 "/tmp/#Taaaadf09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_85
+INFO: Executing command: bem2d 0 "/tmp/#Taaaadg09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_86
+INFO: Executing command: bem2d 0 "/tmp/#Taaaadh09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_87
+INFO: Executing command: bem2d 0 "/tmp/#Taaaadi09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_88
+INFO: Executing command: bem2d 0 "/tmp/#Taaaadj09319.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_89
+INFO: Executing command: bem2d 0 "/tmp/#Taaaadk09319.in" 0.00127

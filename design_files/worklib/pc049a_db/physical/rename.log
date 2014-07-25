@@ -1,0 +1,133 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    RENAME REFDES                                                    )
+(                                                                     )
+(    Drawing          : pc049a_lemo_db_09.brd                         )
+(    Software Version : 16.6S014                                      )
+(    Date/Time        : Thu May  8 12:17:31 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Renaming components on BOTH_SIDES on entire BOARD
+    Extents: (-282.8899,-252.0700) (517.3901,248.3300)
+
+Sequencing the reference designators SEQUENTIALLY
+Row processing direction : to the RIGHT, from the top down.
+
+OLD RZ1_13    NEW RZ1
+OLD RZ1_11    NEW RZ2
+OLD D1_13    NEW D1
+OLD D1_11    NEW D2
+OLD CN1_13    NEW CN1
+OLD CN1_11    NEW CN2
+OLD RZ1_16    NEW RZ3
+OLD RZ1_10    NEW RZ4
+OLD D1_16    NEW D3
+OLD D1_10    NEW D4
+OLD CN1_16    NEW CN3
+OLD CN1_10    NEW CN4
+OLD RZ1_14    NEW RZ5
+OLD RZ1_12    NEW RZ6
+OLD D1_14    NEW D5
+OLD D1_12    NEW D6
+OLD CN1_14    NEW CN5
+OLD CN1_12    NEW CN6
+OLD RZ1_15    NEW RZ7
+OLD D1_15    NEW D7
+OLD CN1_15    NEW CN7
+OLD CN1_9    NEW CN8
+OLD D1_9    NEW D8
+OLD RZ1_9    NEW RZ8
+OLD J1    NEW J1
+OLD RZ1_1    NEW RZ9
+OLD D1_1    NEW D9
+OLD CN1_1    NEW CN9
+OLD CN1_7    NEW CN10
+OLD D1_7    NEW D10
+OLD RZ1_7    NEW RZ10
+OLD CN1_3    NEW CN11
+OLD CN1_6    NEW CN12
+OLD D1_3    NEW D11
+OLD D1_6    NEW D12
+OLD RZ1_3    NEW RZ11
+OLD RZ1_6    NEW RZ12
+OLD CN1_2    NEW CN13
+OLD CN1_8    NEW CN14
+OLD D1_2    NEW D13
+OLD D1_8    NEW D14
+OLD RZ1_2    NEW RZ13
+OLD RZ1_8    NEW RZ14
+OLD CN1_4    NEW CN15
+OLD CN1_5    NEW CN16
+OLD D1_4    NEW D15
+OLD D1_5    NEW D16
+OLD RZ1_4    NEW RZ15
+OLD RZ1_5    NEW RZ16
+Sequencing the reference designators SEQUENTIALLY
+Row processing direction : to the LEFT, from the top down.
+
+OLD PX3_11    NEW PX1
+OLD PX2_11    NEW PX2
+OLD PX3_13    NEW PX3
+OLD PX2_13    NEW PX4
+OLD PX3_10    NEW PX5
+OLD PX2_10    NEW PX6
+OLD PX3_16    NEW PX7
+OLD PX2_16    NEW PX8
+OLD PX4_11    NEW PX9
+OLD PX1_11    NEW PX10
+OLD PX4_13    NEW PX11
+OLD PX1_13    NEW PX12
+OLD PX4_10    NEW PX13
+OLD PX1_10    NEW PX14
+OLD PX4_16    NEW PX15
+OLD PX1_16    NEW PX16
+OLD PX3_12    NEW PX17
+OLD PX2_12    NEW PX18
+OLD PX3_14    NEW PX19
+OLD PX2_14    NEW PX20
+OLD PX2_9    NEW PX21
+OLD PX1_9    NEW PX22
+OLD PX4_15    NEW PX23
+OLD PX3_15    NEW PX24
+OLD PX4_12    NEW PX25
+OLD PX1_12    NEW PX26
+OLD PX4_14    NEW PX27
+OLD PX1_14    NEW PX28
+OLD PX3_9    NEW PX29
+OLD PX4_9    NEW PX30
+OLD PX1_15    NEW PX31
+OLD PX2_15    NEW PX32
+OLD PX2_7    NEW PX33
+OLD PX1_7    NEW PX34
+OLD PX4_1    NEW PX35
+OLD PX3_1    NEW PX36
+OLD PX1_6    NEW PX37
+OLD PX4_6    NEW PX38
+OLD PX1_3    NEW PX39
+OLD PX4_3    NEW PX40
+OLD PX3_7    NEW PX41
+OLD PX4_7    NEW PX42
+OLD PX1_1    NEW PX43
+OLD PX2_1    NEW PX44
+OLD PX2_6    NEW PX45
+OLD PX3_6    NEW PX46
+OLD PX2_3    NEW PX47
+OLD PX3_3    NEW PX48
+OLD PX1_8    NEW PX49
+OLD PX4_8    NEW PX50
+OLD PX1_2    NEW PX51
+OLD PX4_2    NEW PX52
+OLD PX1_5    NEW PX53
+OLD PX4_5    NEW PX54
+OLD PX1_4    NEW PX55
+OLD PX4_4    NEW PX56
+OLD PX2_8    NEW PX57
+OLD PX3_8    NEW PX58
+OLD PX2_2    NEW PX59
+OLD PX3_2    NEW PX60
+OLD PX2_5    NEW PX61
+OLD PX3_5    NEW PX62
+OLD PX2_4    NEW PX63
+OLD PX3_4    NEW PX64

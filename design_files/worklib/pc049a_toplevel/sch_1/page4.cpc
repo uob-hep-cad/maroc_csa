@@ -2,50 +2,110 @@
   bris_cds_standard a3-2000 *
   *
 #CELL
-  cnlinear ad8061 *
-  page4_i1
-#CELL
   cnpassive rsmd0402 *
-  page4_i10
-#CELL
-  cnlinear ad8061 *
-  page4_i11
+  page6_i13
+#ISCELL
+  standard gnd_signal *
+  page6_i14
 #CELL
   cnpassive capcersmdcl2 *
-  page4_i12
+  page6_i15
 #ISCELL
-  cnpower avdd *
-  page4_i13
-#ISCELL
-  standard gnd_signal *
-  page4_i14
-#CELL
-  bris_cds_connectors header2x2 *
-  page4_i15
+  cnpower p3v3 *
+  page6_i16
 #ISCELL
   standard gnd_signal *
-  page4_i16
-#ISCELL
-  standard gnd_signal *
-  page4_i2
-#ISCELL
-  cnpower avdd *
-  page4_i3
+  page6_i17
 #CELL
   cnpassive capcersmdcl2 *
-  page4_i4
-#CELL
-  cnpassive rsmd0402 *
-  page4_i5
-#CELL
-  cnpassive rsmd0402 *
-  page4_i6
+  page6_i18
 #ISCELL
-  standard outport *
-  page4_i7
+  cnpower p3v3 *
+  page6_i19
 #ISCELL
-  standard outport *
-  page4_i8
+  cnpower p3v3 *
+  page6_i20
+#CELL
+  cninterface ds92001 *
+  page6_i21
+#CELL
+  cninterface ds90lv001 *
+  page6_i22
 #CELL
   cnpassive rsmd0402 *
-  page4_i9
+  page6_i23
+#ISCELL
+  standard gnd_signal *
+  page6_i24
+#CELL
+  cnpassive capcersmdcl2 *
+  page6_i25
+#ISCELL
+  cnpower p3v3 *
+  page6_i26
+#ISCELL
+  standard gnd_signal *
+  page6_i27
+#CELL
+  cnpassive capcersmdcl2 *
+  page6_i28
+#ISCELL
+  cnpower p3v3 *
+  page6_i29
+#ISCELL
+  cnpower p3v3 *
+  page6_i30
+#CELL
+  cninterface ds92001 *
+  page6_i31
+#CELL
+  cninterface ds90lv001 *
+  page6_i32
+#CELL
+  cn100e 100ep05 *
+  page6_i33
+#ISCELL
+  cnpower p1v2 *
+  page6_i34
+#CELL
+  cnpassive rsmd0402 *
+  page6_i35
+#CELL
+  cnpassive rsmd0402 *
+  page6_i38
+#CELL
+  cnpassive capcersmdcl2 *
+  page6_i39
+#ISCELL
+  standard gnd_signal *
+  page6_i40
+#CELL
+  cnpassive capcersmdcl2 *
+  page6_i41
+#ISCELL
+  standard gnd_signal *
+  page6_i42
+#ISCELL
+  cnpower p3v3 *
+  page6_i43
+#CELL
+  cnpassive rsmd0402 *
+  page6_i44
+#ISCELL
+  cnpower p3v3 *
+  page6_i45
+#ISCELL
+  cnpower p3v3 *
+  page6_i46
+#CELL
+  cninterface ds90lv001 *
+  page6_i47
+#CELL
+  cnpassive capcersmdcl2 *
+  page6_i48
+#ISCELL
+  standard gnd_signal *
+  page6_i49
+#CELL
+  uob_hep_pc049a_lib pc049a_fpga *
+  page6_i50

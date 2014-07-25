@@ -1,0 +1,4 @@
+page1.csa
+page2.csa
+pc049a_lemo_daughter_board.xcon
+pc049a_lemo_daughter_board.dcf

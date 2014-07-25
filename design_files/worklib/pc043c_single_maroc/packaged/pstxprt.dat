@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 13-Mar-2014 AT 16:16:51 }
+{ Packager-XL run on 20-Mar-2014 AT 09:19:22 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PC043C_SINGLE_MAROC';
- POST_TIME='13-Mar-2014 AT 16:16:51';
+ POST_TIME='20-Mar-2014 AT 09:19:22';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -723,7 +723,7 @@ ersmdcl2(chips)',
  DRAWING='@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3',
  SIZE='1',
  PHYS_PAGE='3',
- XY='(3825,350)',
+ XY='(4050,350)',
  ROT='1',
  VER='1',
  VALUE='100NF',
@@ -1230,6 +1230,41 @@ bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt',
  REUSE_ID='23';
 
 PART_NAME
+ C48 'ELCAPTAN_SMD_A-22UF,6.3V':
+ REUSE_ID='2';
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I252@CNPASSIVE.ELCAPTAN(CHIPS)':
+ C_PATH='@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i252@cnpassive.elc~
+aptan(chips)',
+ P_PATH='@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i252@cnpassive.elc~
+aptan(chips)',
+ PATH='I252',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3',
+ SIZE='1',
+ TC='0',
+ KNEE='CBMAX',
+ IC='UNDEF',
+ TOL_ON_OFF='ON',
+ SLOPE='CSMAX',
+ POSTOL='CTOL%',
+ NEGTOL='CTOL%',
+ MAX_TEMP='CTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(3000,525)',
+ ROT='1',
+ VER='1',
+ VALUE='22UF',
+ PACK_TYPE='SMD_A',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='ELCAPTAN_SMD_A-22UF,6.3V',
+ VOLTAGE='6.3V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/elcaptan/chips/chips.prt',
+ REUSE_ID='2';
+
+PART_NAME
  C50 'CAPCERSMDCL2_0402-100NF,16V_GEN':
  REUSE_ID='219';
 
@@ -1269,7 +1304,7 @@ cersmdcl2(chips)',
  DRAWING='@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3',
  SIZE='1',
  PHYS_PAGE='3',
- XY='(3075,475)',
+ XY='(2800,475)',
  ROT='1',
  VER='1',
  VALUE='100NF',
@@ -1347,7 +1382,7 @@ cersmdcl2(chips)',
  DRAWING='@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3',
  SIZE='1',
  PHYS_PAGE='3',
- XY='(3400,700)',
+ XY='(3825,525)',
  ROT='1',
  VER='1',
  VALUE='10UF_X5R',
@@ -1360,7 +1395,8 @@ bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt',
  REUSE_ID='241';
 
 PART_NAME
- D1 'DIODE_CA_SCHOTTKY-RB751V40T1':;
+ D1 'DIODE_CA_SCHOTTKY-RB751V40T1':
+ REUSE_ID='3';
 
 SECTION_NUMBER 1
  '@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I245@CNDISCRETE.DIODE_CA(CHIPS)':
@@ -1381,10 +1417,12 @@ ode_ca(chips)',
  CDS_LIB='cndiscrete',
  CDS_PART_NAME='DIODE_CA_SCHOTTKY-RB751V40T1',
  PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
-bs/pe16/pe_cern_lib/cndiscrete/diode_ca/chips/chips.prt';
+bs/pe16/pe_cern_lib/cndiscrete/diode_ca/chips/chips.prt',
+ REUSE_ID='3';
 
 PART_NAME
- J1 'CON6P-SSW103_01GD':;
+ J1 'CON6P-SSW-103-01-G-D':
+ REUSE_ID='4';
 
 SECTION_NUMBER 1
  '@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I246@CNCONNECTOR.CON6P(CHIPS)':
@@ -1394,15 +1432,16 @@ on6p(chips)',
 on6p(chips)',
  PATH='I246',
  DRAWING='@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3',
- TYPE='SSW103_01GD',
+ TYPE='SSW-103-01-G-D',
  PHYS_PAGE='3',
  XY='(3000,-925)',
  ROT='2',
  VER='1',
  CDS_LIB='cnconnector',
- CDS_PART_NAME='CON6P-SSW103_01GD',
+ CDS_PART_NAME='CON6P-SSW-103-01-G-D',
  PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
-bs/pe16/pe_cern_lib/cnconnector/con6p/chips/chips.prt';
+bs/pe16/pe_cern_lib/cnconnector/con6p/chips/chips.prt',
+ REUSE_ID='4';
 
 PART_NAME
  J3 'CON3P-SIL254D':
@@ -2217,7 +2256,7 @@ ctors.\1-hole\(chips)',
  SIZE='1',
  NO_LIST='TRUE',
  PHYS_PAGE='3',
- XY='(3925,550)',
+ XY='(4150,550)',
  ROT='0',
  VER='1',
  PACK_TYPE='0-8',
@@ -3177,7 +3216,7 @@ d0402(chips)',
  PHYS_PAGE='1',
  XY='(3200,375)',
  ROT='0',
- VER='1',
+ VER='2',
  VALUE='51',
  PACK_TYPE='1/16W',
  TOL='1%',
@@ -3213,7 +3252,7 @@ d0402(chips)',
  PHYS_PAGE='1',
  XY='(3450,325)',
  ROT='0',
- VER='1',
+ VER='2',
  VALUE='51',
  PACK_TYPE='1/16W',
  TOL='1%',
@@ -4521,78 +4560,6 @@ bs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt',
  REUSE_ID='218';
 
 PART_NAME
- R44 'RSMD0603_1/10W-150,1%':
- REUSE_ID='216';
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I233@CNPASSIVE.RSMD0603(CHIPS)':
- C_PATH='@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i233@cnpassive.rsm~
-d0603(chips)',
- P_PATH='@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i233@cnpassive.rsm~
-d0603(chips)',
- PATH='I233',
- DRAWING='@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3',
- SIZE='1',
- TOL_ON_OFF='ON',
- TC2='RTMPQ',
- TC1='RTMPL',
- SLOPE='RSMAX',
- POWER='RMAX',
- POSTOL='RTOL%',
- NEGTOL='RTOL%',
- MAX_TEMP='RTMAX',
- DIST='FLAT',
- PHYS_PAGE='3',
- XY='(2775,750)',
- ROT='1',
- VER='1',
- VALUE='150',
- PACK_TYPE='1/10W',
- TOL='1%',
- CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0603_1/10W-150,1%',
- VOLTAGE='RVMAX',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
-bs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt',
- REUSE_ID='216';
-
-PART_NAME
- R45 'RSMD0603_1/10W-120,1%':
- REUSE_ID='215';
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I234@CNPASSIVE.RSMD0603(CHIPS)':
- C_PATH='@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i234@cnpassive.rsm~
-d0603(chips)',
- P_PATH='@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i234@cnpassive.rsm~
-d0603(chips)',
- PATH='I234',
- DRAWING='@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3',
- SIZE='1',
- TOL_ON_OFF='ON',
- TC2='RTMPQ',
- TC1='RTMPL',
- SLOPE='RSMAX',
- POWER='RMAX',
- POSTOL='RTOL%',
- NEGTOL='RTOL%',
- MAX_TEMP='RTMAX',
- DIST='FLAT',
- PHYS_PAGE='3',
- XY='(2775,475)',
- ROT='1',
- VER='1',
- VALUE='120',
- PACK_TYPE='1/10W',
- TOL='1%',
- CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0603_1/10W-120,1%',
- VOLTAGE='RVMAX',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
-bs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt',
- REUSE_ID='215';
-
-PART_NAME
  R46 'RSMD0402_1/16W-3.3R,5%':
  REUSE_ID='245';
 
@@ -4665,40 +4632,29 @@ bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt',
  REUSE_ID='243';
 
 PART_NAME
- R48 'RSMD0402_1/16W-3.3R,5%':
- REUSE_ID='240';
+ RG1 'TPS77625D':
+ REUSE_ID='1';
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I241@CNPASSIVE.RSMD0402(CHIPS)':
- C_PATH='@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i241@cnpassive.rsm~
-d0402(chips)',
- P_PATH='@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i241@cnpassive.rsm~
-d0402(chips)',
- PATH='I241',
+ '@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I253@CNLINEAR.TPS776XX(CHIPS)':
+ C_PATH='@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253@cnlinear.tps7~
+76xx(chips)',
+ P_PATH='@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253@cnlinear.tps7~
+76xx(chips)',
+ PATH='I253',
  DRAWING='@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3',
- SIZE='1',
- TOL_ON_OFF='ON',
- TC2='RTMPQ',
- TC1='RTMPL',
- SLOPE='RSMAX',
- POWER='RMAX',
- POSTOL='RTOL%',
- NEGTOL='RTOL%',
- MAX_TEMP='RTMAX',
- DIST='FLAT',
+ TYPE='TPS77625D',
  PHYS_PAGE='3',
- XY='(3700,875)',
- ROT='0',
+ XY='(3425,600)',
+ ROT='2',
  VER='1',
- VALUE='3.3R',
- PACK_TYPE='1/16W',
- TOL='5%',
- CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0402_1/16W-3.3R,5%',
- VOLTAGE='RVMAX',
+ VALUE='2.5V',
+ PACK_TYPE='SOIC',
+ CDS_LIB='cnlinear',
+ CDS_PART_NAME='TPS77625D',
  PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
-bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt',
- REUSE_ID='240';
+bs/pe16/pe_cern_lib/cnlinear/tps776xx/chips/chips.prt',
+ REUSE_ID='1';
 
 PART_NAME
  U1 'MAROC3_PQFP-IN2P3':

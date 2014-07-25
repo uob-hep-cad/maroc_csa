@@ -1,0 +1,5209 @@
+; Packager-XL run on 08-May-2014 AT 12:21:44 CONSTRAINTS_VIEW_GENERATED
+( ConstraintFile "pc049a_db"
+	( constraintHeader
+		( objectKey
+			( physical )
+		)
+		( version
+			( 16.6 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 18 )
+			( physicalViewRevNum 1 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( drawing )
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( crossSection )
+			( electricalConstraints )
+			( physicalConstraints )
+			( spacingConstraints )
+			( sameNetSpacingConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mm )
+			( numberOfDecimalPlaces 4 )
+		)
+	)
+	( drawing
+		( attribute "DRAWING_EXTENTS" "800.2800,500.4000"
+		)
+		( attribute "DRAWING_LOWER_LEFT" "-282.8899,-252.0700"
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "TYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CDS_LMAN_SPLIT_NUMBER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MANUF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DIST" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MAX_TEMP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NEGTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POSTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POWER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC1" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC2" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TOL_ON_OFF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_LIST" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "ABBREV" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DIELECTRIC" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "KL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "OL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "PL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CDS_PN" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$sec" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$location" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "IC" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "KNEE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SQ_LINE_WIDTH_VALUES" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oDesign )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CREATOR" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oPart  oGate  oGateDefn  oPin  oPinDefn  oNet  oIODriver  oShape  oVia  oSymbolDefn  oSymbol  oLine  oFigure  oVoid  oCLine )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DESCRIPTION" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oPart  oGate  oGateDefn  oPin  oPinDefn  oNet  oIODriver  oShape  oVia  oSymbolDefn  oSymbol  oLine  oFigure  oVoid  oCLine )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MAX_FILENAME_VALUE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oDesign )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MODEL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TOLERANCE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+	)
+	( crossSection
+		( layer "SURFACE_INDEX_0"
+			( attribute "CDS_LAYER_TYPE" "SURFACE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "AIR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "TOP"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0305"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_TOP_SUBSTRATE" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_TOP"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.2032"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "L2"
+			( attribute "CDS_LAYER_TYPE" "PLANE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0305"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_L2"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "1.1000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "L3"
+			( attribute "CDS_LAYER_TYPE" "PLANE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0305"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_L3"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.2032"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "BOTTOM"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0305"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_BOTTOM_SUBSTRATE" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "SURFACE_BELOW_BOTTOM"
+			( attribute "CDS_LAYER_TYPE" "SURFACE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "AIR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "pc049a_db"
+				( physicalCSetRef "DEFAULT" )
+				( spacingCSetRef "DEFAULT" )
+				( sameNetSpacingCSetRef "DEFAULT" )
+				( attribute "SQ_LINE_WIDTH_VALUES" "SINGLE_IMPEDANCE ON|DIFF_IMPEDANCE OFF|TOP|0.3622 MM|NONE|0.2600 MM|BOTTOM|0.3622 MM|NONE|0.2600 MM"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_FILENAME_VALUE" "14"
+					( Origin gBackEnd )
+				)
+				( objectFlag fObjectReadOnly )
+				( objectStatus sObjectLogicalNet )
+			)
+			( physicalCSet "DEFAULT"
+				( attribute "DIFFP_PRIMARY_GAP" "0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_PLUS" "0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_MINUS" "0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_MIN_SPACE" "0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_LINE_WIDTH" "0.2257,0.2257,0.2257,0.2257"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_LINE_WIDTH" "0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_NECK_GAP" "0.1800,0.1800,0.1800,0.1800"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_NECK_WIDTH" "0.1800,0.1800,0.1800,0.1800"
+					( Origin gBackEnd )
+				)
+				( attribute "MAXIMUM_NECK_LENGTH" "5.0000,5.0000,5.0000,5.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "VIA_LIST" "VIA"
+					( Origin gBackEnd )
+				)
+				( attribute "ALLOW_ON_ETCH_SUBCLASS" "TRUE,TRUE,TRUE,TRUE"
+					( Origin gBackEnd )
+				)
+				( attribute "TS_ALLOWED" "ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_BVIA_STAGGER" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_BVIA_STAGGER" "0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "PAD_PAD_DIRECT_CONNECT" "ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED"
+					( Origin gBackEnd )
+				)
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):\DEFAULT\" )
+			)
+			( spacingCSet "DEFAULT"
+				( attribute "THRUPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUPIN_SPACING" "0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_SMDPIN_SPACING" "0.1800,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_TESTPIN_SPACING" "0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUVIA_SPACING" "0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_TESTVIA_SPACING" "0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_LINE_SPACING" "0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_LINE_SPACING" "0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_LINE_SPACING" "0.2570,0.2000,0.2000,0.2570"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_SHAPE_SPACING" "0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_PIN_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_VIA_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_LINE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_SHAPE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_HOLE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_LINE_SPACING" "0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_BVIA_GAP" "0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BONDPAD_DIFFP_SPC" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):\DEFAULT\" )
+			)
+			( sameNetSpacingCSet "DEFAULT"
+				( attribute "SAME_NET" "FALSE,FALSE,FALSE,FALSE"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_PIN_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_VIA_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_LINE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_SHAPE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_HOLE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):\DEFAULT\" )
+			)
+			( signal "ANALOG_TO_MAROC<0>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(0)" )
+			)
+			( signal "ANALOG_TO_MAROC<1>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(1)" )
+			)
+			( signal "ANALOG_TO_MAROC<2>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(2)" )
+			)
+			( signal "ANALOG_TO_MAROC<3>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(3)" )
+			)
+			( signal "ANALOG_TO_MAROC<4>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(4)" )
+			)
+			( signal "ANALOG_TO_MAROC<5>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(5)" )
+			)
+			( signal "ANALOG_TO_MAROC<6>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(6)" )
+			)
+			( signal "ANALOG_TO_MAROC<7>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(7)" )
+			)
+			( signal "ANALOG_TO_MAROC<8>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(8)" )
+			)
+			( signal "ANALOG_TO_MAROC<9>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(9)" )
+			)
+			( signal "ANALOG_TO_MAROC<10>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(10)" )
+			)
+			( signal "ANALOG_TO_MAROC<11>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(11)" )
+			)
+			( signal "ANALOG_TO_MAROC<12>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(12)" )
+			)
+			( signal "ANALOG_TO_MAROC<13>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(13)" )
+			)
+			( signal "ANALOG_TO_MAROC<14>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(14)" )
+			)
+			( signal "ANALOG_TO_MAROC<15>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(15)" )
+			)
+			( signal "ANALOG_TO_MAROC<16>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(16)" )
+			)
+			( signal "ANALOG_TO_MAROC<17>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(17)" )
+			)
+			( signal "ANALOG_TO_MAROC<18>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(18)" )
+			)
+			( signal "ANALOG_TO_MAROC<19>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(19)" )
+			)
+			( signal "ANALOG_TO_MAROC<20>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(20)" )
+			)
+			( signal "ANALOG_TO_MAROC<21>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(21)" )
+			)
+			( signal "ANALOG_TO_MAROC<22>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(22)" )
+			)
+			( signal "ANALOG_TO_MAROC<23>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(23)" )
+			)
+			( signal "ANALOG_TO_MAROC<24>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(24)" )
+			)
+			( signal "ANALOG_TO_MAROC<25>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(25)" )
+			)
+			( signal "ANALOG_TO_MAROC<26>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(26)" )
+			)
+			( signal "ANALOG_TO_MAROC<27>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(27)" )
+			)
+			( signal "ANALOG_TO_MAROC<28>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(28)" )
+			)
+			( signal "ANALOG_TO_MAROC<29>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(29)" )
+			)
+			( signal "ANALOG_TO_MAROC<30>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(30)" )
+			)
+			( signal "ANALOG_TO_MAROC<31>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(31)" )
+			)
+			( signal "ANALOG_TO_MAROC<32>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(32)" )
+			)
+			( signal "ANALOG_TO_MAROC<33>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(33)" )
+			)
+			( signal "ANALOG_TO_MAROC<34>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(34)" )
+			)
+			( signal "ANALOG_TO_MAROC<35>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(35)" )
+			)
+			( signal "ANALOG_TO_MAROC<36>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(36)" )
+			)
+			( signal "ANALOG_TO_MAROC<37>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(37)" )
+			)
+			( signal "ANALOG_TO_MAROC<38>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(38)" )
+			)
+			( signal "ANALOG_TO_MAROC<39>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(39)" )
+			)
+			( signal "ANALOG_TO_MAROC<40>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(40)" )
+			)
+			( signal "ANALOG_TO_MAROC<41>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(41)" )
+			)
+			( signal "ANALOG_TO_MAROC<42>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(42)" )
+			)
+			( signal "ANALOG_TO_MAROC<43>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(43)" )
+			)
+			( signal "ANALOG_TO_MAROC<44>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(44)" )
+			)
+			( signal "ANALOG_TO_MAROC<45>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(45)" )
+			)
+			( signal "ANALOG_TO_MAROC<46>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(46)" )
+			)
+			( signal "ANALOG_TO_MAROC<47>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(47)" )
+			)
+			( signal "ANALOG_TO_MAROC<48>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(48)" )
+			)
+			( signal "ANALOG_TO_MAROC<49>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(49)" )
+			)
+			( signal "ANALOG_TO_MAROC<50>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(50)" )
+			)
+			( signal "ANALOG_TO_MAROC<51>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(51)" )
+			)
+			( signal "ANALOG_TO_MAROC<52>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(52)" )
+			)
+			( signal "ANALOG_TO_MAROC<53>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(53)" )
+			)
+			( signal "ANALOG_TO_MAROC<54>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(54)" )
+			)
+			( signal "ANALOG_TO_MAROC<55>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(55)" )
+			)
+			( signal "ANALOG_TO_MAROC<56>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(56)" )
+			)
+			( signal "ANALOG_TO_MAROC<57>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(57)" )
+			)
+			( signal "ANALOG_TO_MAROC<58>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(58)" )
+			)
+			( signal "ANALOG_TO_MAROC<59>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(59)" )
+			)
+			( signal "ANALOG_TO_MAROC<60>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(60)" )
+			)
+			( signal "ANALOG_TO_MAROC<61>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(61)" )
+			)
+			( signal "ANALOG_TO_MAROC<62>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(62)" )
+			)
+			( signal "ANALOG_TO_MAROC<63>"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc(63)" )
+			)
+			( signal "AVDD"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):avdd" )
+			)
+			( signal "DBOARD_MISO"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):dboard_miso" )
+			)
+			( signal "DBOARD_MISO*"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):\dboard_miso*\" )
+			)
+			( signal "DBOARD_MOSI"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):dboard_mosi" )
+			)
+			( signal "DBOARD_MOSI*"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):\dboard_mosi*\" )
+			)
+			( signal "DBOARD_SCLK"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):dboard_sclk" )
+			)
+			( signal "DBOARD_SCLK*"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):\dboard_sclk*\" )
+			)
+			( signal "DBOARD_SSN"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):dboard_ssn" )
+			)
+			( signal "DBOARD_SSN*"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):\dboard_ssn*\" )
+			)
+			( signal "GND_SIGNAL"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):gnd_signal" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_9"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_9"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_9"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_9"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_10"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_10"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_10"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_10"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_11"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_11"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_11"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_11"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_12"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_12"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_12"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_12"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_13"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_13"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_13"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_13"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_14"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_14"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_14"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_14"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_15"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_15"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_15"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_15"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_16"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_1_16"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_2_16"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2" )
+			)
+			( signal "UNNAMED_1_CAPN4I_I10_A_3_16"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3" )
+			)
+			( gate "J1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page1_i35" )
+				( pin "J1.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "J1.2"
+					( objectStatus "a(1)" )
+				)
+				( pin "J1.3"
+					( objectStatus "a(2)" )
+				)
+				( pin "J1.4"
+					( objectStatus "a(3)" )
+				)
+				( pin "J1.5"
+					( objectStatus "a(4)" )
+				)
+				( pin "J1.6"
+					( objectStatus "a(5)" )
+				)
+				( pin "J1.7"
+					( objectStatus "a(6)" )
+				)
+				( pin "J1.8"
+					( objectStatus "a(7)" )
+				)
+				( pin "J1.9"
+					( objectStatus "a(8)" )
+				)
+				( pin "J1.10"
+					( objectStatus "a(9)" )
+				)
+				( pin "J1.11"
+					( objectStatus "a(10)" )
+				)
+				( pin "J1.12"
+					( objectStatus "a(11)" )
+				)
+				( pin "J1.13"
+					( objectStatus "a(12)" )
+				)
+				( pin "J1.14"
+					( objectStatus "a(13)" )
+				)
+				( pin "J1.15"
+					( objectStatus "a(14)" )
+				)
+				( pin "J1.16"
+					( objectStatus "a(15)" )
+				)
+				( pin "J1.17"
+					( objectStatus "a(16)" )
+				)
+				( pin "J1.18"
+					( objectStatus "a(17)" )
+				)
+				( pin "J1.19"
+					( objectStatus "a(18)" )
+				)
+				( pin "J1.20"
+					( objectStatus "a(19)" )
+				)
+				( pin "J1.21"
+					( objectStatus "a(20)" )
+				)
+				( pin "J1.22"
+					( objectStatus "a(21)" )
+				)
+				( pin "J1.23"
+					( objectStatus "a(22)" )
+				)
+				( pin "J1.24"
+					( objectStatus "a(23)" )
+				)
+				( pin "J1.25"
+					( objectStatus "a(24)" )
+				)
+				( pin "J1.26"
+					( objectStatus "a(25)" )
+				)
+				( pin "J1.27"
+					( objectStatus "a(26)" )
+				)
+				( pin "J1.28"
+					( objectStatus "a(27)" )
+				)
+				( pin "J1.29"
+					( objectStatus "a(28)" )
+				)
+				( pin "J1.30"
+					( objectStatus "a(29)" )
+				)
+				( pin "J1.31"
+					( objectStatus "a(30)" )
+				)
+				( pin "J1.32"
+					( objectStatus "a(31)" )
+				)
+				( pin "J1.33"
+					( objectStatus "a(32)" )
+				)
+				( pin "J1.34"
+					( objectStatus "a(33)" )
+				)
+				( pin "J1.35"
+					( objectStatus "a(34)" )
+				)
+				( pin "J1.36"
+					( objectStatus "a(35)" )
+				)
+				( pin "J1.37"
+					( objectStatus "a(36)" )
+				)
+				( pin "J1.38"
+					( objectStatus "a(37)" )
+				)
+				( pin "J1.39"
+					( objectStatus "a(38)" )
+				)
+				( pin "J1.40"
+					( objectStatus "a(39)" )
+				)
+				( pin "J1.41"
+					( objectStatus "a(40)" )
+				)
+				( pin "J1.42"
+					( objectStatus "a(41)" )
+				)
+				( pin "J1.43"
+					( objectStatus "a(42)" )
+				)
+				( pin "J1.44"
+					( objectStatus "a(43)" )
+				)
+				( pin "J1.45"
+					( objectStatus "a(44)" )
+				)
+				( pin "J1.46"
+					( objectStatus "a(45)" )
+				)
+				( pin "J1.47"
+					( objectStatus "a(46)" )
+				)
+				( pin "J1.48"
+					( objectStatus "a(47)" )
+				)
+				( pin "J1.49"
+					( objectStatus "a(48)" )
+				)
+				( pin "J1.50"
+					( objectStatus "a(49)" )
+				)
+				( pin "J1.51"
+					( objectStatus "a(50)" )
+				)
+				( pin "J1.52"
+					( objectStatus "a(51)" )
+				)
+				( pin "J1.53"
+					( objectStatus "a(52)" )
+				)
+				( pin "J1.54"
+					( objectStatus "a(53)" )
+				)
+				( pin "J1.55"
+					( objectStatus "a(54)" )
+				)
+				( pin "J1.56"
+					( objectStatus "a(55)" )
+				)
+				( pin "J1.57"
+					( objectStatus "a(56)" )
+				)
+				( pin "J1.58"
+					( objectStatus "a(57)" )
+				)
+				( pin "J1.59"
+					( objectStatus "a(58)" )
+				)
+				( pin "J1.60"
+					( objectStatus "a(59)" )
+				)
+				( pin "J1.61"
+					( objectStatus "a(60)" )
+				)
+				( pin "J1.62"
+					( objectStatus "a(61)" )
+				)
+				( pin "J1.63"
+					( objectStatus "a(62)" )
+				)
+				( pin "J1.64"
+					( objectStatus "a(63)" )
+				)
+				( pin "J1.65"
+					( objectStatus "a(64)" )
+				)
+				( pin "J1.66"
+					( objectStatus "a(65)" )
+				)
+				( pin "J1.67"
+					( objectStatus "a(66)" )
+				)
+				( pin "J1.68"
+					( objectStatus "a(67)" )
+				)
+				( pin "J1.69"
+					( objectStatus "a(68)" )
+				)
+				( pin "J1.70"
+					( objectStatus "a(69)" )
+				)
+				( pin "J1.71"
+					( objectStatus "a(70)" )
+				)
+				( pin "J1.72"
+					( objectStatus "a(71)" )
+				)
+				( pin "J1.73"
+					( objectStatus "a(72)" )
+				)
+				( pin "J1.74"
+					( objectStatus "a(73)" )
+				)
+				( pin "J1.75"
+					( objectStatus "a(74)" )
+				)
+				( pin "J1.76"
+					( objectStatus "a(75)" )
+				)
+				( pin "J1.77"
+					( objectStatus "a(76)" )
+				)
+				( pin "J1.78"
+					( objectStatus "a(77)" )
+				)
+				( pin "J1.79"
+					( objectStatus "a(78)" )
+				)
+				( pin "J1.80"
+					( objectStatus "a(79)" )
+				)
+				( pin "J1.81"
+					( objectStatus "a(80)" )
+				)
+				( pin "J1.82"
+					( objectStatus "a(81)" )
+				)
+				( pin "J1.83"
+					( objectStatus "a(82)" )
+				)
+				( pin "J1.84"
+					( objectStatus "a(83)" )
+				)
+				( pin "J1.85"
+					( objectStatus "a(84)" )
+				)
+				( pin "J1.86"
+					( objectStatus "a(85)" )
+				)
+				( pin "J1.87"
+					( objectStatus "a(86)" )
+				)
+				( pin "J1.88"
+					( objectStatus "a(87)" )
+				)
+				( pin "J1.89"
+					( objectStatus "a(88)" )
+				)
+				( pin "J1.90"
+					( objectStatus "a(89)" )
+				)
+				( pin "J1.91"
+					( objectStatus "a(90)" )
+				)
+				( pin "J1.92"
+					( objectStatus "a(91)" )
+				)
+				( pin "J1.93"
+					( objectStatus "a(92)" )
+				)
+				( pin "J1.94"
+					( objectStatus "a(93)" )
+				)
+				( pin "J1.95"
+					( objectStatus "a(94)" )
+				)
+				( pin "J1.96"
+					( objectStatus "a(95)" )
+				)
+				( pin "J1.97"
+					( objectStatus "a(96)" )
+				)
+				( pin "J1.98"
+					( objectStatus "a(97)" )
+				)
+				( pin "J1.99"
+					( objectStatus "a(98)" )
+				)
+				( pin "J1.100"
+					( objectStatus "a(99)" )
+				)
+				( pin "J1.101"
+					( objectStatus "a(100)" )
+				)
+				( pin "J1.102"
+					( objectStatus "a(101)" )
+				)
+				( pin "J1.103"
+					( objectStatus "a(102)" )
+				)
+				( pin "J1.104"
+					( objectStatus "a(103)" )
+				)
+				( pin "J1.105"
+					( objectStatus "a(104)" )
+				)
+				( pin "J1.106"
+					( objectStatus "a(105)" )
+				)
+				( pin "J1.107"
+					( objectStatus "a(106)" )
+				)
+				( pin "J1.108"
+					( objectStatus "a(107)" )
+				)
+				( pin "J1.109"
+					( objectStatus "a(108)" )
+				)
+				( pin "J1.110"
+					( objectStatus "a(109)" )
+				)
+				( pin "J1.111"
+					( objectStatus "a(110)" )
+				)
+				( pin "J1.112"
+					( objectStatus "a(111)" )
+				)
+				( pin "J1.113"
+					( objectStatus "a(112)" )
+				)
+				( pin "J1.114"
+					( objectStatus "a(113)" )
+				)
+				( pin "J1.115"
+					( objectStatus "a(114)" )
+				)
+				( pin "J1.116"
+					( objectStatus "a(115)" )
+				)
+				( pin "J1.117"
+					( objectStatus "a(116)" )
+				)
+				( pin "J1.118"
+					( objectStatus "a(117)" )
+				)
+				( pin "J1.119"
+					( objectStatus "a(118)" )
+				)
+				( pin "J1.120"
+					( objectStatus "a(119)" )
+				)
+				( pin "J1.121"
+					( objectStatus "a(120)" )
+				)
+				( pin "J1.122"
+					( objectStatus "a(121)" )
+				)
+				( pin "J1.123"
+					( objectStatus "a(122)" )
+				)
+				( pin "J1.124"
+					( objectStatus "a(123)" )
+				)
+				( pin "J1.125"
+					( objectStatus "a(124)" )
+				)
+				( pin "J1.126"
+					( objectStatus "a(125)" )
+				)
+				( pin "J1.127"
+					( objectStatus "a(126)" )
+				)
+				( pin "J1.128"
+					( objectStatus "a(127)" )
+				)
+				( pin "J1.129"
+					( objectStatus "a(128)" )
+				)
+				( pin "J1.130"
+					( objectStatus "a(129)" )
+				)
+				( pin "J1.131"
+					( objectStatus "a(130)" )
+				)
+				( pin "J1.132"
+					( objectStatus "a(131)" )
+				)
+				( pin "J1.133"
+					( objectStatus "a(132)" )
+				)
+				( pin "J1.134"
+					( objectStatus "a(133)" )
+				)
+				( pin "J1.135"
+					( objectStatus "a(134)" )
+				)
+				( pin "J1.136"
+					( objectStatus "a(135)" )
+				)
+				( pin "J1.137"
+					( objectStatus "a(136)" )
+				)
+				( pin "J1.138"
+					( objectStatus "a(137)" )
+				)
+				( pin "J1.139"
+					( objectStatus "a(138)" )
+				)
+				( pin "J1.140"
+					( objectStatus "a(139)" )
+				)
+				( pin "J1.141"
+					( objectStatus "a(140)" )
+				)
+				( pin "J1.142"
+					( objectStatus "a(141)" )
+				)
+				( pin "J1.143"
+					( objectStatus "a(142)" )
+				)
+				( pin "J1.144"
+					( objectStatus "a(143)" )
+				)
+				( pin "J1.145"
+					( objectStatus "a(144)" )
+				)
+				( pin "J1.146"
+					( objectStatus "a(145)" )
+				)
+				( pin "J1.147"
+					( objectStatus "a(146)" )
+				)
+				( pin "J1.148"
+					( objectStatus "a(147)" )
+				)
+				( pin "J1.149"
+					( objectStatus "a(148)" )
+				)
+				( pin "J1.150"
+					( objectStatus "a(149)" )
+				)
+			)
+			( gate "CN9"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX44"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+				( pin "PX44.1"
+					( objectStatus "a" )
+				)
+				( pin "PX44.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX44.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX44.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX44.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX43"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+				( pin "PX43.1"
+					( objectStatus "a" )
+				)
+				( pin "PX43.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX43.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX43.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX43.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "D13"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+				( pin "D13.1"
+					( objectStatus "a1" )
+				)
+				( pin "D13.2"
+					( objectStatus "a2" )
+				)
+				( pin "D13.4"
+					( objectStatus "a3" )
+				)
+				( pin "D13.5"
+					( objectStatus "a4" )
+				)
+				( pin "D13.10"
+					( objectStatus "b1" )
+				)
+				( pin "D13.9"
+					( objectStatus "b2" )
+				)
+				( pin "D13.7"
+					( objectStatus "b3" )
+				)
+				( pin "D13.6"
+					( objectStatus "b4" )
+				)
+				( pin "D13.3"
+					( objectStatus "gnd1" )
+				)
+				( pin "D13.8"
+					( objectStatus "gnd2" )
+				)
+			)
+			( gate "PX35"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+				( pin "PX35.1"
+					( objectStatus "a" )
+				)
+				( pin "PX35.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX35.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX35.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX35.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX36"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+				( pin "PX36.1"
+					( objectStatus "a" )
+				)
+				( pin "PX36.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX36.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX36.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX36.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "CN13"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX59"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+				( pin "PX59.1"
+					( objectStatus "a" )
+				)
+				( pin "PX59.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX59.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX59.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX59.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX51"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+				( pin "PX51.1"
+					( objectStatus "a" )
+				)
+				( pin "PX51.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX51.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX51.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX51.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "D11"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+				( pin "D11.1"
+					( objectStatus "a1" )
+				)
+				( pin "D11.2"
+					( objectStatus "a2" )
+				)
+				( pin "D11.4"
+					( objectStatus "a3" )
+				)
+				( pin "D11.5"
+					( objectStatus "a4" )
+				)
+				( pin "D11.10"
+					( objectStatus "b1" )
+				)
+				( pin "D11.9"
+					( objectStatus "b2" )
+				)
+				( pin "D11.7"
+					( objectStatus "b3" )
+				)
+				( pin "D11.6"
+					( objectStatus "b4" )
+				)
+				( pin "D11.3"
+					( objectStatus "gnd1" )
+				)
+				( pin "D11.8"
+					( objectStatus "gnd2" )
+				)
+			)
+			( gate "PX52"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+				( pin "PX52.1"
+					( objectStatus "a" )
+				)
+				( pin "PX52.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX52.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX52.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX52.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX60"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+				( pin "PX60.1"
+					( objectStatus "a" )
+				)
+				( pin "PX60.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX60.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX60.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX60.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "CN11"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX47"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+				( pin "PX47.1"
+					( objectStatus "a" )
+				)
+				( pin "PX47.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX47.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX47.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX47.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX39"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+				( pin "PX39.1"
+					( objectStatus "a" )
+				)
+				( pin "PX39.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX39.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX39.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX39.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "D15"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+				( pin "D15.1"
+					( objectStatus "a1" )
+				)
+				( pin "D15.2"
+					( objectStatus "a2" )
+				)
+				( pin "D15.4"
+					( objectStatus "a3" )
+				)
+				( pin "D15.5"
+					( objectStatus "a4" )
+				)
+				( pin "D15.10"
+					( objectStatus "b1" )
+				)
+				( pin "D15.9"
+					( objectStatus "b2" )
+				)
+				( pin "D15.7"
+					( objectStatus "b3" )
+				)
+				( pin "D15.6"
+					( objectStatus "b4" )
+				)
+				( pin "D15.3"
+					( objectStatus "gnd1" )
+				)
+				( pin "D15.8"
+					( objectStatus "gnd2" )
+				)
+			)
+			( gate "PX40"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+				( pin "PX40.1"
+					( objectStatus "a" )
+				)
+				( pin "PX40.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX40.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX40.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX40.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX48"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+				( pin "PX48.1"
+					( objectStatus "a" )
+				)
+				( pin "PX48.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX48.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX48.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX48.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "CN15"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX63"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+				( pin "PX63.1"
+					( objectStatus "a" )
+				)
+				( pin "PX63.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX63.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX63.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX63.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX55"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+				( pin "PX55.1"
+					( objectStatus "a" )
+				)
+				( pin "PX55.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX55.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX55.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX55.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "D16"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+				( pin "D16.1"
+					( objectStatus "a1" )
+				)
+				( pin "D16.2"
+					( objectStatus "a2" )
+				)
+				( pin "D16.4"
+					( objectStatus "a3" )
+				)
+				( pin "D16.5"
+					( objectStatus "a4" )
+				)
+				( pin "D16.10"
+					( objectStatus "b1" )
+				)
+				( pin "D16.9"
+					( objectStatus "b2" )
+				)
+				( pin "D16.7"
+					( objectStatus "b3" )
+				)
+				( pin "D16.6"
+					( objectStatus "b4" )
+				)
+				( pin "D16.3"
+					( objectStatus "gnd1" )
+				)
+				( pin "D16.8"
+					( objectStatus "gnd2" )
+				)
+			)
+			( gate "PX56"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+				( pin "PX56.1"
+					( objectStatus "a" )
+				)
+				( pin "PX56.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX56.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX56.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX56.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX64"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+				( pin "PX64.1"
+					( objectStatus "a" )
+				)
+				( pin "PX64.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX64.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX64.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX64.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "CN16"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX61"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+				( pin "PX61.1"
+					( objectStatus "a" )
+				)
+				( pin "PX61.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX61.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX61.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX61.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX53"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+				( pin "PX53.1"
+					( objectStatus "a" )
+				)
+				( pin "PX53.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX53.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX53.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX53.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "D12"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+				( pin "D12.1"
+					( objectStatus "a1" )
+				)
+				( pin "D12.2"
+					( objectStatus "a2" )
+				)
+				( pin "D12.4"
+					( objectStatus "a3" )
+				)
+				( pin "D12.5"
+					( objectStatus "a4" )
+				)
+				( pin "D12.10"
+					( objectStatus "b1" )
+				)
+				( pin "D12.9"
+					( objectStatus "b2" )
+				)
+				( pin "D12.7"
+					( objectStatus "b3" )
+				)
+				( pin "D12.6"
+					( objectStatus "b4" )
+				)
+				( pin "D12.3"
+					( objectStatus "gnd1" )
+				)
+				( pin "D12.8"
+					( objectStatus "gnd2" )
+				)
+			)
+			( gate "PX54"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+				( pin "PX54.1"
+					( objectStatus "a" )
+				)
+				( pin "PX54.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX54.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX54.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX54.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX62"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+				( pin "PX62.1"
+					( objectStatus "a" )
+				)
+				( pin "PX62.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX62.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX62.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX62.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "CN12"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX45"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+				( pin "PX45.1"
+					( objectStatus "a" )
+				)
+				( pin "PX45.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX45.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX45.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX45.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX37"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+				( pin "PX37.1"
+					( objectStatus "a" )
+				)
+				( pin "PX37.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX37.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX37.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX37.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "D10"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+				( pin "D10.1"
+					( objectStatus "a1" )
+				)
+				( pin "D10.2"
+					( objectStatus "a2" )
+				)
+				( pin "D10.4"
+					( objectStatus "a3" )
+				)
+				( pin "D10.5"
+					( objectStatus "a4" )
+				)
+				( pin "D10.10"
+					( objectStatus "b1" )
+				)
+				( pin "D10.9"
+					( objectStatus "b2" )
+				)
+				( pin "D10.7"
+					( objectStatus "b3" )
+				)
+				( pin "D10.6"
+					( objectStatus "b4" )
+				)
+				( pin "D10.3"
+					( objectStatus "gnd1" )
+				)
+				( pin "D10.8"
+					( objectStatus "gnd2" )
+				)
+			)
+			( gate "PX38"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+				( pin "PX38.1"
+					( objectStatus "a" )
+				)
+				( pin "PX38.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX38.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX38.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX38.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX46"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+				( pin "PX46.1"
+					( objectStatus "a" )
+				)
+				( pin "PX46.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX46.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX46.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX46.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "CN10"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX33"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+				( pin "PX33.1"
+					( objectStatus "a" )
+				)
+				( pin "PX33.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX33.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX33.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX33.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX34"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+				( pin "PX34.1"
+					( objectStatus "a" )
+				)
+				( pin "PX34.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX34.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX34.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX34.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "D14"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+				( pin "D14.1"
+					( objectStatus "a1" )
+				)
+				( pin "D14.2"
+					( objectStatus "a2" )
+				)
+				( pin "D14.4"
+					( objectStatus "a3" )
+				)
+				( pin "D14.5"
+					( objectStatus "a4" )
+				)
+				( pin "D14.10"
+					( objectStatus "b1" )
+				)
+				( pin "D14.9"
+					( objectStatus "b2" )
+				)
+				( pin "D14.7"
+					( objectStatus "b3" )
+				)
+				( pin "D14.6"
+					( objectStatus "b4" )
+				)
+				( pin "D14.3"
+					( objectStatus "gnd1" )
+				)
+				( pin "D14.8"
+					( objectStatus "gnd2" )
+				)
+			)
+			( gate "PX42"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+				( pin "PX42.1"
+					( objectStatus "a" )
+				)
+				( pin "PX42.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX42.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX42.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX42.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX41"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+				( pin "PX41.1"
+					( objectStatus "a" )
+				)
+				( pin "PX41.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX41.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX41.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX41.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "CN14"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX57"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+				( pin "PX57.1"
+					( objectStatus "a" )
+				)
+				( pin "PX57.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX57.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX57.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX57.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX49"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+				( pin "PX49.1"
+					( objectStatus "a" )
+				)
+				( pin "PX49.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX49.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX49.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX49.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "D8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+				( pin "D8.1"
+					( objectStatus "a1" )
+				)
+				( pin "D8.2"
+					( objectStatus "a2" )
+				)
+				( pin "D8.4"
+					( objectStatus "a3" )
+				)
+				( pin "D8.5"
+					( objectStatus "a4" )
+				)
+				( pin "D8.10"
+					( objectStatus "b1" )
+				)
+				( pin "D8.9"
+					( objectStatus "b2" )
+				)
+				( pin "D8.7"
+					( objectStatus "b3" )
+				)
+				( pin "D8.6"
+					( objectStatus "b4" )
+				)
+				( pin "D8.3"
+					( objectStatus "gnd1" )
+				)
+				( pin "D8.8"
+					( objectStatus "gnd2" )
+				)
+			)
+			( gate "PX50"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+				( pin "PX50.1"
+					( objectStatus "a" )
+				)
+				( pin "PX50.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX50.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX50.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX50.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX58"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+				( pin "PX58.1"
+					( objectStatus "a" )
+				)
+				( pin "PX58.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX58.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX58.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX58.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "CN8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX21"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+				( pin "PX21.1"
+					( objectStatus "a" )
+				)
+				( pin "PX21.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX21.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX21.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX21.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX22"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+				( pin "PX22.1"
+					( objectStatus "a" )
+				)
+				( pin "PX22.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX22.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX22.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX22.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "D4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+				( pin "D4.1"
+					( objectStatus "a1" )
+				)
+				( pin "D4.2"
+					( objectStatus "a2" )
+				)
+				( pin "D4.4"
+					( objectStatus "a3" )
+				)
+				( pin "D4.5"
+					( objectStatus "a4" )
+				)
+				( pin "D4.10"
+					( objectStatus "b1" )
+				)
+				( pin "D4.9"
+					( objectStatus "b2" )
+				)
+				( pin "D4.7"
+					( objectStatus "b3" )
+				)
+				( pin "D4.6"
+					( objectStatus "b4" )
+				)
+				( pin "D4.3"
+					( objectStatus "gnd1" )
+				)
+				( pin "D4.8"
+					( objectStatus "gnd2" )
+				)
+			)
+			( gate "PX30"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+				( pin "PX30.1"
+					( objectStatus "a" )
+				)
+				( pin "PX30.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX30.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX30.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX30.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX29"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+				( pin "PX29.1"
+					( objectStatus "a" )
+				)
+				( pin "PX29.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX29.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX29.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX29.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "CN4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+				( pin "PX6.1"
+					( objectStatus "a" )
+				)
+				( pin "PX6.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX6.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX6.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX6.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX14"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+				( pin "PX14.1"
+					( objectStatus "a" )
+				)
+				( pin "PX14.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX14.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX14.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX14.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "D2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+				( pin "D2.1"
+					( objectStatus "a1" )
+				)
+				( pin "D2.2"
+					( objectStatus "a2" )
+				)
+				( pin "D2.4"
+					( objectStatus "a3" )
+				)
+				( pin "D2.5"
+					( objectStatus "a4" )
+				)
+				( pin "D2.10"
+					( objectStatus "b1" )
+				)
+				( pin "D2.9"
+					( objectStatus "b2" )
+				)
+				( pin "D2.7"
+					( objectStatus "b3" )
+				)
+				( pin "D2.6"
+					( objectStatus "b4" )
+				)
+				( pin "D2.3"
+					( objectStatus "gnd1" )
+				)
+				( pin "D2.8"
+					( objectStatus "gnd2" )
+				)
+			)
+			( gate "PX13"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+				( pin "PX13.1"
+					( objectStatus "a" )
+				)
+				( pin "PX13.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX13.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX13.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX13.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+				( pin "PX5.1"
+					( objectStatus "a" )
+				)
+				( pin "PX5.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX5.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX5.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX5.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "CN2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+				( pin "PX2.1"
+					( objectStatus "a" )
+				)
+				( pin "PX2.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX2.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX2.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX2.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX10"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+				( pin "PX10.1"
+					( objectStatus "a" )
+				)
+				( pin "PX10.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX10.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX10.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX10.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "D6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+				( pin "D6.1"
+					( objectStatus "a1" )
+				)
+				( pin "D6.2"
+					( objectStatus "a2" )
+				)
+				( pin "D6.4"
+					( objectStatus "a3" )
+				)
+				( pin "D6.5"
+					( objectStatus "a4" )
+				)
+				( pin "D6.10"
+					( objectStatus "b1" )
+				)
+				( pin "D6.9"
+					( objectStatus "b2" )
+				)
+				( pin "D6.7"
+					( objectStatus "b3" )
+				)
+				( pin "D6.6"
+					( objectStatus "b4" )
+				)
+				( pin "D6.3"
+					( objectStatus "gnd1" )
+				)
+				( pin "D6.8"
+					( objectStatus "gnd2" )
+				)
+			)
+			( gate "PX9"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+				( pin "PX9.1"
+					( objectStatus "a" )
+				)
+				( pin "PX9.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX9.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX9.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX9.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+				( pin "PX1.1"
+					( objectStatus "a" )
+				)
+				( pin "PX1.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX1.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX1.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX1.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "CN6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX18"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+				( pin "PX18.1"
+					( objectStatus "a" )
+				)
+				( pin "PX18.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX18.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX18.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX18.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX26"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+				( pin "PX26.1"
+					( objectStatus "a" )
+				)
+				( pin "PX26.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX26.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX26.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX26.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "D1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+				( pin "D1.1"
+					( objectStatus "a1" )
+				)
+				( pin "D1.2"
+					( objectStatus "a2" )
+				)
+				( pin "D1.4"
+					( objectStatus "a3" )
+				)
+				( pin "D1.5"
+					( objectStatus "a4" )
+				)
+				( pin "D1.10"
+					( objectStatus "b1" )
+				)
+				( pin "D1.9"
+					( objectStatus "b2" )
+				)
+				( pin "D1.7"
+					( objectStatus "b3" )
+				)
+				( pin "D1.6"
+					( objectStatus "b4" )
+				)
+				( pin "D1.3"
+					( objectStatus "gnd1" )
+				)
+				( pin "D1.8"
+					( objectStatus "gnd2" )
+				)
+			)
+			( gate "PX25"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+				( pin "PX25.1"
+					( objectStatus "a" )
+				)
+				( pin "PX25.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX25.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX25.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX25.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX17"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+				( pin "PX17.1"
+					( objectStatus "a" )
+				)
+				( pin "PX17.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX17.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX17.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX17.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "CN1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+				( pin "PX4.1"
+					( objectStatus "a" )
+				)
+				( pin "PX4.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX4.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX4.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX4.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX12"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+				( pin "PX12.1"
+					( objectStatus "a" )
+				)
+				( pin "PX12.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX12.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX12.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX12.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "D5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+				( pin "D5.1"
+					( objectStatus "a1" )
+				)
+				( pin "D5.2"
+					( objectStatus "a2" )
+				)
+				( pin "D5.4"
+					( objectStatus "a3" )
+				)
+				( pin "D5.5"
+					( objectStatus "a4" )
+				)
+				( pin "D5.10"
+					( objectStatus "b1" )
+				)
+				( pin "D5.9"
+					( objectStatus "b2" )
+				)
+				( pin "D5.7"
+					( objectStatus "b3" )
+				)
+				( pin "D5.6"
+					( objectStatus "b4" )
+				)
+				( pin "D5.3"
+					( objectStatus "gnd1" )
+				)
+				( pin "D5.8"
+					( objectStatus "gnd2" )
+				)
+			)
+			( gate "PX11"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+				( pin "PX11.1"
+					( objectStatus "a" )
+				)
+				( pin "PX11.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX11.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX11.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX11.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+				( pin "PX3.1"
+					( objectStatus "a" )
+				)
+				( pin "PX3.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX3.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX3.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX3.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "CN5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX20"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+				( pin "PX20.1"
+					( objectStatus "a" )
+				)
+				( pin "PX20.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX20.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX20.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX20.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX28"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+				( pin "PX28.1"
+					( objectStatus "a" )
+				)
+				( pin "PX28.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX28.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX28.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX28.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "D7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+				( pin "D7.1"
+					( objectStatus "a1" )
+				)
+				( pin "D7.2"
+					( objectStatus "a2" )
+				)
+				( pin "D7.4"
+					( objectStatus "a3" )
+				)
+				( pin "D7.5"
+					( objectStatus "a4" )
+				)
+				( pin "D7.10"
+					( objectStatus "b1" )
+				)
+				( pin "D7.9"
+					( objectStatus "b2" )
+				)
+				( pin "D7.7"
+					( objectStatus "b3" )
+				)
+				( pin "D7.6"
+					( objectStatus "b4" )
+				)
+				( pin "D7.3"
+					( objectStatus "gnd1" )
+				)
+				( pin "D7.8"
+					( objectStatus "gnd2" )
+				)
+			)
+			( gate "PX27"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+				( pin "PX27.1"
+					( objectStatus "a" )
+				)
+				( pin "PX27.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX27.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX27.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX27.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX19"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+				( pin "PX19.1"
+					( objectStatus "a" )
+				)
+				( pin "PX19.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX19.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX19.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX19.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "CN7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX32"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+				( pin "PX32.1"
+					( objectStatus "a" )
+				)
+				( pin "PX32.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX32.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX32.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX32.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX31"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+				( pin "PX31.1"
+					( objectStatus "a" )
+				)
+				( pin "PX31.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX31.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX31.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX31.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "D3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+				( pin "D3.1"
+					( objectStatus "a1" )
+				)
+				( pin "D3.2"
+					( objectStatus "a2" )
+				)
+				( pin "D3.4"
+					( objectStatus "a3" )
+				)
+				( pin "D3.5"
+					( objectStatus "a4" )
+				)
+				( pin "D3.10"
+					( objectStatus "b1" )
+				)
+				( pin "D3.9"
+					( objectStatus "b2" )
+				)
+				( pin "D3.7"
+					( objectStatus "b3" )
+				)
+				( pin "D3.6"
+					( objectStatus "b4" )
+				)
+				( pin "D3.3"
+					( objectStatus "gnd1" )
+				)
+				( pin "D3.8"
+					( objectStatus "gnd2" )
+				)
+			)
+			( gate "PX23"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+				( pin "PX23.1"
+					( objectStatus "a" )
+				)
+				( pin "PX23.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX23.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX23.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX23.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX24"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+				( pin "PX24.1"
+					( objectStatus "a" )
+				)
+				( pin "PX24.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX24.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX24.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX24.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "CN3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10" )
+			)
+			( gate "PX8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19" )
+				( pin "PX8.1"
+					( objectStatus "a" )
+				)
+				( pin "PX8.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX8.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX8.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX8.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX16"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11" )
+				( pin "PX16.1"
+					( objectStatus "a" )
+				)
+				( pin "PX16.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX16.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX16.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX16.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX15"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15" )
+				( pin "PX15.1"
+					( objectStatus "a" )
+				)
+				( pin "PX15.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX15.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX15.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX15.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "PX7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17" )
+				( pin "PX7.1"
+					( objectStatus "a" )
+				)
+				( pin "PX7.2"
+					( objectStatus "b(0)" )
+				)
+				( pin "PX7.3"
+					( objectStatus "b(1)" )
+				)
+				( pin "PX7.4"
+					( objectStatus "b(2)" )
+				)
+				( pin "PX7.5"
+					( objectStatus "b(3)" )
+				)
+			)
+			( gate "D9"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26" )
+				( pin "D9.1"
+					( objectStatus "a1" )
+				)
+				( pin "D9.2"
+					( objectStatus "a2" )
+				)
+				( pin "D9.4"
+					( objectStatus "a3" )
+				)
+				( pin "D9.5"
+					( objectStatus "a4" )
+				)
+				( pin "D9.10"
+					( objectStatus "b1" )
+				)
+				( pin "D9.9"
+					( objectStatus "b2" )
+				)
+				( pin "D9.7"
+					( objectStatus "b3" )
+				)
+				( pin "D9.6"
+					( objectStatus "b4" )
+				)
+				( pin "D9.3"
+					( objectStatus "gnd1" )
+				)
+				( pin "D9.8"
+					( objectStatus "gnd2" )
+				)
+			)
+			( gate "RZ9"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ13"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ11"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ15"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ16"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ12"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ10"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ14"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( gate "RZ3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27" )
+			)
+			( pin "CN9.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(0)" )
+			)
+			( pin "CN9.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(1)" )
+			)
+			( pin "CN9.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(2)" )
+			)
+			( pin "CN9.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(3)" )
+			)
+			( pin "CN9.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(0)" )
+			)
+			( pin "CN9.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(1)" )
+			)
+			( pin "CN9.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(2)" )
+			)
+			( pin "CN9.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(3)" )
+			)
+			( pin "CN13.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(0)" )
+			)
+			( pin "CN13.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(1)" )
+			)
+			( pin "CN13.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(2)" )
+			)
+			( pin "CN13.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(3)" )
+			)
+			( pin "CN13.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(0)" )
+			)
+			( pin "CN13.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(1)" )
+			)
+			( pin "CN13.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(2)" )
+			)
+			( pin "CN13.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(3)" )
+			)
+			( pin "CN11.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(0)" )
+			)
+			( pin "CN11.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(1)" )
+			)
+			( pin "CN11.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(2)" )
+			)
+			( pin "CN11.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(3)" )
+			)
+			( pin "CN11.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(0)" )
+			)
+			( pin "CN11.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(1)" )
+			)
+			( pin "CN11.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(2)" )
+			)
+			( pin "CN11.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(3)" )
+			)
+			( pin "CN15.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(0)" )
+			)
+			( pin "CN15.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(1)" )
+			)
+			( pin "CN15.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(2)" )
+			)
+			( pin "CN15.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(3)" )
+			)
+			( pin "CN15.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(0)" )
+			)
+			( pin "CN15.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(1)" )
+			)
+			( pin "CN15.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(2)" )
+			)
+			( pin "CN15.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(3)" )
+			)
+			( pin "CN16.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(0)" )
+			)
+			( pin "CN16.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(1)" )
+			)
+			( pin "CN16.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(2)" )
+			)
+			( pin "CN16.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(3)" )
+			)
+			( pin "CN16.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(0)" )
+			)
+			( pin "CN16.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(1)" )
+			)
+			( pin "CN16.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(2)" )
+			)
+			( pin "CN16.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(3)" )
+			)
+			( pin "CN12.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(0)" )
+			)
+			( pin "CN12.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(1)" )
+			)
+			( pin "CN12.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(2)" )
+			)
+			( pin "CN12.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(3)" )
+			)
+			( pin "CN12.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(0)" )
+			)
+			( pin "CN12.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(1)" )
+			)
+			( pin "CN12.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(2)" )
+			)
+			( pin "CN12.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(3)" )
+			)
+			( pin "CN10.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(0)" )
+			)
+			( pin "CN10.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(1)" )
+			)
+			( pin "CN10.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(2)" )
+			)
+			( pin "CN10.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(3)" )
+			)
+			( pin "CN10.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(0)" )
+			)
+			( pin "CN10.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(1)" )
+			)
+			( pin "CN10.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(2)" )
+			)
+			( pin "CN10.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(3)" )
+			)
+			( pin "CN14.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(0)" )
+			)
+			( pin "CN14.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(1)" )
+			)
+			( pin "CN14.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(2)" )
+			)
+			( pin "CN14.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(3)" )
+			)
+			( pin "CN14.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(0)" )
+			)
+			( pin "CN14.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(1)" )
+			)
+			( pin "CN14.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(2)" )
+			)
+			( pin "CN14.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(3)" )
+			)
+			( pin "CN8.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(0)" )
+			)
+			( pin "CN8.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(1)" )
+			)
+			( pin "CN8.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(2)" )
+			)
+			( pin "CN8.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(3)" )
+			)
+			( pin "CN8.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(0)" )
+			)
+			( pin "CN8.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(1)" )
+			)
+			( pin "CN8.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(2)" )
+			)
+			( pin "CN8.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(3)" )
+			)
+			( pin "CN4.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(0)" )
+			)
+			( pin "CN4.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(1)" )
+			)
+			( pin "CN4.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(2)" )
+			)
+			( pin "CN4.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(3)" )
+			)
+			( pin "CN4.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(0)" )
+			)
+			( pin "CN4.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(1)" )
+			)
+			( pin "CN4.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(2)" )
+			)
+			( pin "CN4.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(3)" )
+			)
+			( pin "CN2.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(0)" )
+			)
+			( pin "CN2.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(1)" )
+			)
+			( pin "CN2.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(2)" )
+			)
+			( pin "CN2.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(3)" )
+			)
+			( pin "CN2.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(0)" )
+			)
+			( pin "CN2.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(1)" )
+			)
+			( pin "CN2.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(2)" )
+			)
+			( pin "CN2.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(3)" )
+			)
+			( pin "CN6.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(0)" )
+			)
+			( pin "CN6.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(1)" )
+			)
+			( pin "CN6.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(2)" )
+			)
+			( pin "CN6.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(3)" )
+			)
+			( pin "CN6.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(0)" )
+			)
+			( pin "CN6.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(1)" )
+			)
+			( pin "CN6.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(2)" )
+			)
+			( pin "CN6.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(3)" )
+			)
+			( pin "CN1.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(0)" )
+			)
+			( pin "CN1.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(1)" )
+			)
+			( pin "CN1.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(2)" )
+			)
+			( pin "CN1.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(3)" )
+			)
+			( pin "CN1.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(0)" )
+			)
+			( pin "CN1.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(1)" )
+			)
+			( pin "CN1.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(2)" )
+			)
+			( pin "CN1.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(3)" )
+			)
+			( pin "CN5.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(0)" )
+			)
+			( pin "CN5.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(1)" )
+			)
+			( pin "CN5.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(2)" )
+			)
+			( pin "CN5.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(3)" )
+			)
+			( pin "CN5.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(0)" )
+			)
+			( pin "CN5.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(1)" )
+			)
+			( pin "CN5.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(2)" )
+			)
+			( pin "CN5.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(3)" )
+			)
+			( pin "CN7.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(0)" )
+			)
+			( pin "CN7.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(1)" )
+			)
+			( pin "CN7.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(2)" )
+			)
+			( pin "CN7.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(3)" )
+			)
+			( pin "CN7.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(0)" )
+			)
+			( pin "CN7.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(1)" )
+			)
+			( pin "CN7.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(2)" )
+			)
+			( pin "CN7.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(3)" )
+			)
+			( pin "CN3.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(0)" )
+			)
+			( pin "CN3.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(1)" )
+			)
+			( pin "CN3.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(2)" )
+			)
+			( pin "CN3.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:a(3)" )
+			)
+			( pin "CN3.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(0)" )
+			)
+			( pin "CN3.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(1)" )
+			)
+			( pin "CN3.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(2)" )
+			)
+			( pin "CN3.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10:b(3)" )
+			)
+			( pin "RZ9.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):a(0)" )
+			)
+			( pin "RZ9.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):a(1)" )
+			)
+			( pin "RZ9.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):a(2)" )
+			)
+			( pin "RZ9.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):a(3)" )
+			)
+			( pin "RZ9.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):b(0)" )
+			)
+			( pin "RZ9.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):b(1)" )
+			)
+			( pin "RZ9.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):b(2)" )
+			)
+			( pin "RZ9.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):b(3)" )
+			)
+			( pin "CN9.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):b(3)" )
+			)
+			( pin "CN9.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):b(2)" )
+			)
+			( pin "CN9.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):b(1)" )
+			)
+			( pin "CN9.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):b(0)" )
+			)
+			( pin "CN9.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):a(3)" )
+			)
+			( pin "CN9.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):a(2)" )
+			)
+			( pin "CN9.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):a(1)" )
+			)
+			( pin "CN9.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):a(0)" )
+			)
+			( pin "RZ13.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):a(0)" )
+			)
+			( pin "RZ13.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):a(1)" )
+			)
+			( pin "RZ13.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):a(2)" )
+			)
+			( pin "RZ13.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):a(3)" )
+			)
+			( pin "RZ13.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):b(0)" )
+			)
+			( pin "RZ13.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):b(1)" )
+			)
+			( pin "RZ13.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):b(2)" )
+			)
+			( pin "RZ13.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):b(3)" )
+			)
+			( pin "CN13.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):b(3)" )
+			)
+			( pin "CN13.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):b(2)" )
+			)
+			( pin "CN13.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):b(1)" )
+			)
+			( pin "CN13.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):b(0)" )
+			)
+			( pin "CN13.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):a(3)" )
+			)
+			( pin "CN13.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):a(2)" )
+			)
+			( pin "CN13.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):a(1)" )
+			)
+			( pin "CN13.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):a(0)" )
+			)
+			( pin "RZ11.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):a(0)" )
+			)
+			( pin "RZ11.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):a(1)" )
+			)
+			( pin "RZ11.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):a(2)" )
+			)
+			( pin "RZ11.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):a(3)" )
+			)
+			( pin "RZ11.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):b(0)" )
+			)
+			( pin "RZ11.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):b(1)" )
+			)
+			( pin "RZ11.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):b(2)" )
+			)
+			( pin "RZ11.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):b(3)" )
+			)
+			( pin "CN11.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):b(3)" )
+			)
+			( pin "CN11.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):b(2)" )
+			)
+			( pin "CN11.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):b(1)" )
+			)
+			( pin "CN11.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):b(0)" )
+			)
+			( pin "CN11.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):a(3)" )
+			)
+			( pin "CN11.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):a(2)" )
+			)
+			( pin "CN11.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):a(1)" )
+			)
+			( pin "CN11.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):a(0)" )
+			)
+			( pin "RZ15.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):a(0)" )
+			)
+			( pin "RZ15.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):a(1)" )
+			)
+			( pin "RZ15.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):a(2)" )
+			)
+			( pin "RZ15.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):a(3)" )
+			)
+			( pin "RZ15.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):b(0)" )
+			)
+			( pin "RZ15.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):b(1)" )
+			)
+			( pin "RZ15.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):b(2)" )
+			)
+			( pin "RZ15.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):b(3)" )
+			)
+			( pin "CN15.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):b(3)" )
+			)
+			( pin "CN15.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):b(2)" )
+			)
+			( pin "CN15.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):b(1)" )
+			)
+			( pin "CN15.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):b(0)" )
+			)
+			( pin "CN15.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):a(3)" )
+			)
+			( pin "CN15.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):a(2)" )
+			)
+			( pin "CN15.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):a(1)" )
+			)
+			( pin "CN15.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):a(0)" )
+			)
+			( pin "RZ16.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):a(0)" )
+			)
+			( pin "RZ16.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):a(1)" )
+			)
+			( pin "RZ16.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):a(2)" )
+			)
+			( pin "RZ16.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):a(3)" )
+			)
+			( pin "RZ16.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):b(0)" )
+			)
+			( pin "RZ16.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):b(1)" )
+			)
+			( pin "RZ16.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):b(2)" )
+			)
+			( pin "RZ16.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):b(3)" )
+			)
+			( pin "CN16.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):b(3)" )
+			)
+			( pin "CN16.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):b(2)" )
+			)
+			( pin "CN16.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):b(1)" )
+			)
+			( pin "CN16.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):b(0)" )
+			)
+			( pin "CN16.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):a(3)" )
+			)
+			( pin "CN16.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):a(2)" )
+			)
+			( pin "CN16.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):a(1)" )
+			)
+			( pin "CN16.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):a(0)" )
+			)
+			( pin "RZ12.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):a(0)" )
+			)
+			( pin "RZ12.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):a(1)" )
+			)
+			( pin "RZ12.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):a(2)" )
+			)
+			( pin "RZ12.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):a(3)" )
+			)
+			( pin "RZ12.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):b(0)" )
+			)
+			( pin "RZ12.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):b(1)" )
+			)
+			( pin "RZ12.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):b(2)" )
+			)
+			( pin "RZ12.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):b(3)" )
+			)
+			( pin "CN12.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):b(3)" )
+			)
+			( pin "CN12.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):b(2)" )
+			)
+			( pin "CN12.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):b(1)" )
+			)
+			( pin "CN12.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):b(0)" )
+			)
+			( pin "CN12.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):a(3)" )
+			)
+			( pin "CN12.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):a(2)" )
+			)
+			( pin "CN12.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):a(1)" )
+			)
+			( pin "CN12.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):a(0)" )
+			)
+			( pin "RZ10.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):a(0)" )
+			)
+			( pin "RZ10.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):a(1)" )
+			)
+			( pin "RZ10.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):a(2)" )
+			)
+			( pin "RZ10.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):a(3)" )
+			)
+			( pin "RZ10.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):b(0)" )
+			)
+			( pin "RZ10.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):b(1)" )
+			)
+			( pin "RZ10.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):b(2)" )
+			)
+			( pin "RZ10.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):b(3)" )
+			)
+			( pin "CN10.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):b(3)" )
+			)
+			( pin "CN10.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):b(2)" )
+			)
+			( pin "CN10.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):b(1)" )
+			)
+			( pin "CN10.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):b(0)" )
+			)
+			( pin "CN10.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):a(3)" )
+			)
+			( pin "CN10.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):a(2)" )
+			)
+			( pin "CN10.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):a(1)" )
+			)
+			( pin "CN10.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):a(0)" )
+			)
+			( pin "RZ14.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):a(0)" )
+			)
+			( pin "RZ14.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):a(1)" )
+			)
+			( pin "RZ14.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):a(2)" )
+			)
+			( pin "RZ14.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):a(3)" )
+			)
+			( pin "RZ14.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):b(0)" )
+			)
+			( pin "RZ14.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):b(1)" )
+			)
+			( pin "RZ14.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):b(2)" )
+			)
+			( pin "RZ14.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):b(3)" )
+			)
+			( pin "CN14.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):b(3)" )
+			)
+			( pin "CN14.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):b(2)" )
+			)
+			( pin "CN14.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):b(1)" )
+			)
+			( pin "CN14.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):b(0)" )
+			)
+			( pin "CN14.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):a(3)" )
+			)
+			( pin "CN14.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):a(2)" )
+			)
+			( pin "CN14.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):a(1)" )
+			)
+			( pin "CN14.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):a(0)" )
+			)
+			( pin "RZ8.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):a(0)" )
+			)
+			( pin "RZ8.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):a(1)" )
+			)
+			( pin "RZ8.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):a(2)" )
+			)
+			( pin "RZ8.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):a(3)" )
+			)
+			( pin "RZ8.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):b(0)" )
+			)
+			( pin "RZ8.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):b(1)" )
+			)
+			( pin "RZ8.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):b(2)" )
+			)
+			( pin "RZ8.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):b(3)" )
+			)
+			( pin "CN8.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):b(3)" )
+			)
+			( pin "CN8.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):b(2)" )
+			)
+			( pin "CN8.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):b(1)" )
+			)
+			( pin "CN8.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):b(0)" )
+			)
+			( pin "CN8.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):a(3)" )
+			)
+			( pin "CN8.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):a(2)" )
+			)
+			( pin "CN8.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):a(1)" )
+			)
+			( pin "CN8.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):a(0)" )
+			)
+			( pin "RZ4.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):a(0)" )
+			)
+			( pin "RZ4.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):a(1)" )
+			)
+			( pin "RZ4.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):a(2)" )
+			)
+			( pin "RZ4.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):a(3)" )
+			)
+			( pin "RZ4.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):b(0)" )
+			)
+			( pin "RZ4.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):b(1)" )
+			)
+			( pin "RZ4.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):b(2)" )
+			)
+			( pin "RZ4.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):b(3)" )
+			)
+			( pin "CN4.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):b(3)" )
+			)
+			( pin "CN4.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):b(2)" )
+			)
+			( pin "CN4.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):b(1)" )
+			)
+			( pin "CN4.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):b(0)" )
+			)
+			( pin "CN4.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):a(3)" )
+			)
+			( pin "CN4.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):a(2)" )
+			)
+			( pin "CN4.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):a(1)" )
+			)
+			( pin "CN4.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):a(0)" )
+			)
+			( pin "RZ2.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):a(0)" )
+			)
+			( pin "RZ2.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):a(1)" )
+			)
+			( pin "RZ2.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):a(2)" )
+			)
+			( pin "RZ2.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):a(3)" )
+			)
+			( pin "RZ2.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):b(0)" )
+			)
+			( pin "RZ2.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):b(1)" )
+			)
+			( pin "RZ2.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):b(2)" )
+			)
+			( pin "RZ2.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):b(3)" )
+			)
+			( pin "CN2.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):b(3)" )
+			)
+			( pin "CN2.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):b(2)" )
+			)
+			( pin "CN2.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):b(1)" )
+			)
+			( pin "CN2.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):b(0)" )
+			)
+			( pin "CN2.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):a(3)" )
+			)
+			( pin "CN2.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):a(2)" )
+			)
+			( pin "CN2.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):a(1)" )
+			)
+			( pin "CN2.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):a(0)" )
+			)
+			( pin "RZ6.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):a(0)" )
+			)
+			( pin "RZ6.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):a(1)" )
+			)
+			( pin "RZ6.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):a(2)" )
+			)
+			( pin "RZ6.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):a(3)" )
+			)
+			( pin "RZ6.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):b(0)" )
+			)
+			( pin "RZ6.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):b(1)" )
+			)
+			( pin "RZ6.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):b(2)" )
+			)
+			( pin "RZ6.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):b(3)" )
+			)
+			( pin "CN6.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):b(3)" )
+			)
+			( pin "CN6.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):b(2)" )
+			)
+			( pin "CN6.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):b(1)" )
+			)
+			( pin "CN6.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):b(0)" )
+			)
+			( pin "CN6.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):a(3)" )
+			)
+			( pin "CN6.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):a(2)" )
+			)
+			( pin "CN6.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):a(1)" )
+			)
+			( pin "CN6.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):a(0)" )
+			)
+			( pin "RZ1.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):a(0)" )
+			)
+			( pin "RZ1.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):a(1)" )
+			)
+			( pin "RZ1.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):a(2)" )
+			)
+			( pin "RZ1.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):a(3)" )
+			)
+			( pin "RZ1.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):b(0)" )
+			)
+			( pin "RZ1.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):b(1)" )
+			)
+			( pin "RZ1.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):b(2)" )
+			)
+			( pin "RZ1.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):b(3)" )
+			)
+			( pin "CN1.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):b(3)" )
+			)
+			( pin "CN1.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):b(2)" )
+			)
+			( pin "CN1.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):b(1)" )
+			)
+			( pin "CN1.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):b(0)" )
+			)
+			( pin "CN1.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):a(3)" )
+			)
+			( pin "CN1.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):a(2)" )
+			)
+			( pin "CN1.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):a(1)" )
+			)
+			( pin "CN1.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):a(0)" )
+			)
+			( pin "RZ5.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):a(0)" )
+			)
+			( pin "RZ5.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):a(1)" )
+			)
+			( pin "RZ5.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):a(2)" )
+			)
+			( pin "RZ5.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):a(3)" )
+			)
+			( pin "RZ5.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):b(0)" )
+			)
+			( pin "RZ5.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):b(1)" )
+			)
+			( pin "RZ5.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):b(2)" )
+			)
+			( pin "RZ5.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):b(3)" )
+			)
+			( pin "CN5.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):b(3)" )
+			)
+			( pin "CN5.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):b(2)" )
+			)
+			( pin "CN5.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):b(1)" )
+			)
+			( pin "CN5.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):b(0)" )
+			)
+			( pin "CN5.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):a(3)" )
+			)
+			( pin "CN5.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):a(2)" )
+			)
+			( pin "CN5.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):a(1)" )
+			)
+			( pin "CN5.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):a(0)" )
+			)
+			( pin "RZ7.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):a(0)" )
+			)
+			( pin "RZ7.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):a(1)" )
+			)
+			( pin "RZ7.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):a(2)" )
+			)
+			( pin "RZ7.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):a(3)" )
+			)
+			( pin "RZ7.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):b(0)" )
+			)
+			( pin "RZ7.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):b(1)" )
+			)
+			( pin "RZ7.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):b(2)" )
+			)
+			( pin "RZ7.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):b(3)" )
+			)
+			( pin "CN7.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):b(3)" )
+			)
+			( pin "CN7.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):b(2)" )
+			)
+			( pin "CN7.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):b(1)" )
+			)
+			( pin "CN7.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):b(0)" )
+			)
+			( pin "CN7.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):a(3)" )
+			)
+			( pin "CN7.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):a(2)" )
+			)
+			( pin "CN7.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):a(1)" )
+			)
+			( pin "CN7.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):a(0)" )
+			)
+			( pin "RZ3.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):a(0)" )
+			)
+			( pin "RZ3.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):a(1)" )
+			)
+			( pin "RZ3.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):a(2)" )
+			)
+			( pin "RZ3.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):a(3)" )
+			)
+			( pin "RZ3.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0):b(0)" )
+			)
+			( pin "RZ3.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1):b(1)" )
+			)
+			( pin "RZ3.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2):b(2)" )
+			)
+			( pin "RZ3.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3):b(3)" )
+			)
+			( pin "CN3.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):b(3)" )
+			)
+			( pin "CN3.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):b(2)" )
+			)
+			( pin "CN3.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):b(1)" )
+			)
+			( pin "CN3.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):b(0)" )
+			)
+			( pin "CN3.7"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3):a(3)" )
+			)
+			( pin "CN3.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2):a(2)" )
+			)
+			( pin "CN3.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1):a(1)" )
+			)
+			( pin "CN3.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0):a(0)" )
+			)
+			( bus "ANALOG_TO_MAROC"
+				( memberType ( signal ) )
+				( member ( signalRef "ANALOG_TO_MAROC<0>") )
+				( member ( signalRef "ANALOG_TO_MAROC<1>") )
+				( member ( signalRef "ANALOG_TO_MAROC<2>") )
+				( member ( signalRef "ANALOG_TO_MAROC<3>") )
+				( member ( signalRef "ANALOG_TO_MAROC<4>") )
+				( member ( signalRef "ANALOG_TO_MAROC<5>") )
+				( member ( signalRef "ANALOG_TO_MAROC<6>") )
+				( member ( signalRef "ANALOG_TO_MAROC<7>") )
+				( member ( signalRef "ANALOG_TO_MAROC<8>") )
+				( member ( signalRef "ANALOG_TO_MAROC<9>") )
+				( member ( signalRef "ANALOG_TO_MAROC<10>") )
+				( member ( signalRef "ANALOG_TO_MAROC<11>") )
+				( member ( signalRef "ANALOG_TO_MAROC<12>") )
+				( member ( signalRef "ANALOG_TO_MAROC<13>") )
+				( member ( signalRef "ANALOG_TO_MAROC<14>") )
+				( member ( signalRef "ANALOG_TO_MAROC<15>") )
+				( member ( signalRef "ANALOG_TO_MAROC<16>") )
+				( member ( signalRef "ANALOG_TO_MAROC<17>") )
+				( member ( signalRef "ANALOG_TO_MAROC<18>") )
+				( member ( signalRef "ANALOG_TO_MAROC<19>") )
+				( member ( signalRef "ANALOG_TO_MAROC<20>") )
+				( member ( signalRef "ANALOG_TO_MAROC<21>") )
+				( member ( signalRef "ANALOG_TO_MAROC<22>") )
+				( member ( signalRef "ANALOG_TO_MAROC<23>") )
+				( member ( signalRef "ANALOG_TO_MAROC<24>") )
+				( member ( signalRef "ANALOG_TO_MAROC<25>") )
+				( member ( signalRef "ANALOG_TO_MAROC<26>") )
+				( member ( signalRef "ANALOG_TO_MAROC<27>") )
+				( member ( signalRef "ANALOG_TO_MAROC<28>") )
+				( member ( signalRef "ANALOG_TO_MAROC<29>") )
+				( member ( signalRef "ANALOG_TO_MAROC<30>") )
+				( member ( signalRef "ANALOG_TO_MAROC<31>") )
+				( member ( signalRef "ANALOG_TO_MAROC<32>") )
+				( member ( signalRef "ANALOG_TO_MAROC<33>") )
+				( member ( signalRef "ANALOG_TO_MAROC<34>") )
+				( member ( signalRef "ANALOG_TO_MAROC<35>") )
+				( member ( signalRef "ANALOG_TO_MAROC<36>") )
+				( member ( signalRef "ANALOG_TO_MAROC<37>") )
+				( member ( signalRef "ANALOG_TO_MAROC<38>") )
+				( member ( signalRef "ANALOG_TO_MAROC<39>") )
+				( member ( signalRef "ANALOG_TO_MAROC<40>") )
+				( member ( signalRef "ANALOG_TO_MAROC<41>") )
+				( member ( signalRef "ANALOG_TO_MAROC<42>") )
+				( member ( signalRef "ANALOG_TO_MAROC<43>") )
+				( member ( signalRef "ANALOG_TO_MAROC<44>") )
+				( member ( signalRef "ANALOG_TO_MAROC<45>") )
+				( member ( signalRef "ANALOG_TO_MAROC<46>") )
+				( member ( signalRef "ANALOG_TO_MAROC<47>") )
+				( member ( signalRef "ANALOG_TO_MAROC<48>") )
+				( member ( signalRef "ANALOG_TO_MAROC<49>") )
+				( member ( signalRef "ANALOG_TO_MAROC<50>") )
+				( member ( signalRef "ANALOG_TO_MAROC<51>") )
+				( member ( signalRef "ANALOG_TO_MAROC<52>") )
+				( member ( signalRef "ANALOG_TO_MAROC<53>") )
+				( member ( signalRef "ANALOG_TO_MAROC<54>") )
+				( member ( signalRef "ANALOG_TO_MAROC<55>") )
+				( member ( signalRef "ANALOG_TO_MAROC<56>") )
+				( member ( signalRef "ANALOG_TO_MAROC<57>") )
+				( member ( signalRef "ANALOG_TO_MAROC<58>") )
+				( member ( signalRef "ANALOG_TO_MAROC<59>") )
+				( member ( signalRef "ANALOG_TO_MAROC<60>") )
+				( member ( signalRef "ANALOG_TO_MAROC<61>") )
+				( member ( signalRef "ANALOG_TO_MAROC<62>") )
+				( member ( signalRef "ANALOG_TO_MAROC<63>") )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):analog_to_maroc" )
+			)
+			( bus "LEMO_GRP_A"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_a" )
+			)
+			( bus "LEMO_GRP_B"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_b" )
+			)
+			( bus "LEMO_GRP_C"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_c" )
+			)
+			( bus "LEMO_GRP_D"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_d" )
+			)
+			( bus "LEMO_GRP_E"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_e" )
+			)
+			( bus "LEMO_GRP_F"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_f" )
+			)
+			( bus "LEMO_GRP_G"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_g" )
+			)
+			( bus "LEMO_GRP_H"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_h" )
+			)
+			( bus "LEMO_GRP_I"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_i" )
+			)
+			( bus "LEMO_GRP_J"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_j" )
+			)
+			( bus "LEMO_GRP_K"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_k" )
+			)
+			( bus "LEMO_GRP_L"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_l" )
+			)
+			( bus "LEMO_GRP_M"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_m" )
+			)
+			( bus "LEMO_GRP_N"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_n" )
+			)
+			( bus "LEMO_GRP_O"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_o" )
+			)
+			( bus "LEMO_GRP_P"
+				( memberType ( signal ) )
+				( objectStatus "@uob_hep_pc049a_lib.pc049a_db(sch_1):lemo_grp_p" )
+			)
+		)
+	)
+)

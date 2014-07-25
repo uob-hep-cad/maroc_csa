@@ -1,0 +1,108 @@
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
+#ISCELL
+  cnpower p2v5 *
+  page13_i100
+#ISCELL
+  standard gnd_signal *
+  page13_i101
+#CELL
+  cnpassive rsmd0402 *
+  page13_i102
+#ISCELL
+  cnpower p2v5 *
+  page13_i103
+#ISCELL
+  cnpower p2v5 *
+  page13_i104
+#ISCELL
+  cnpower p2v5 *
+  page13_i105
+#CELL
+  cnpassive capcersmdcl2 *
+  page13_i13
+#ISCELL
+  standard gnd_signal *
+  page13_i14
+#CELL
+  cnconnector con14p *
+  page13_i16
+#ISCELL
+  standard gnd_signal *
+  page13_i17
+#ISCELL
+  cnpower p2v5 *
+  page13_i18
+#CELL
+  cndiscrete led *
+  page13_i46
+#CELL
+  cnpassive rsmd0603 *
+  page13_i47
+#CELL
+  uob_hep_pc049a_lib pc049a_fpga *
+  page13_i56
+#CELL
+  cnpassive rsmd0603 *
+  page13_i57
+#CELL
+  cnpassive rsmd0603 *
+  page13_i58
+#ISCELL
+  standard gnd_signal *
+  page13_i59
+#ISCELL
+  standard gnd_signal *
+  page13_i60
+#ISCELL
+  cnpower p2v5 *
+  page13_i61
+#CELL
+  cnpassive sw_pushbutton_1spsta_4p *
+  page13_i80
+#ISCELL
+  standard gnd_signal *
+  page13_i81
+#CELL
+  cnpassive rsmd0603 *
+  page13_i82
+#ISCELL
+  cnpower p2v5 *
+  page13_i83
+#CELL
+  cnpassive rsmd0603 *
+  page13_i84
+#ISCELL
+  cnpower p2v5 *
+  page13_i85
+#CELL
+  cnpassive rsmd0603 *
+  page13_i86
+#ISCELL
+  cnpower p3v3 *
+  page13_i89
+#CELL
+  cnpassive rsmd0603 *
+  page13_i90
+#ISCELL
+  cnpower p2v5 *
+  page13_i91
+#CELL
+  cninterface 74lvc1g06 *
+  page13_i92
+#CELL
+  cnmemory s25fl128s_reset_vio *
+  page13_i93
+#CELL
+  cnpassive rsmd0603 *
+  page13_i96
+#CELL
+  cnpassive rsmd0603 *
+  page13_i97
+#ISCELL
+  cnpower p2v5 *
+  page13_i98
+#ISCELL
+  cnpower p2v5 *
+  page13_i99

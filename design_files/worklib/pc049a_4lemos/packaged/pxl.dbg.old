@@ -1,0 +1,55 @@
+Log File: /tmp/filevhNu9g
+Markers File: /tmp/fileoZ7m7a
+Debug File: /tmp/fileGjc0bZ
+     Debug[0] := TRUE
+Elapsed time since start = (00:00:00)
+
+ **************************************************************
+ *  End processing project file and command line  (00:00:00)  *
+ **************************************************************
+
+
+ *************************
+ *  Loading State Files  *
+ *************************
+
+INFO(SPCODD-95): State file primitive @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I12@CNDISCRETE.PRTR5V0U4Y(CHIPS) has been deleted from the design.
+Elapsed time since start = (00:00:00)
+
+ *****************************************
+ *  End loading State Files  (00:00:00)  *
+ *****************************************
+
+
+ ****************************************
+ *  Starting to assign physical parts.  *
+ ****************************************
+
+Elapsed time since start = (00:00:00)
+
+ ***********************************************
+ *  End assigning physical parts.  (00:00:00)  *
+ ***********************************************
+
+
+ ***************
+ *  Packaging  *
+ ***************
+
+INFO(SPCODD-192): Swapped section 1 with section 4 for the primitive instance '@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)'.
+INFO(SPCODD-192): Swapped section 2 with section 3 for the primitive instance '@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)'.
+Elapsed time since start = (00:00:00)
+
+ *******************************
+ *  End packaging  (00:00:00)  *
+ *******************************
+
+INFO(SPCODD-192): Swapped section 2 with section 3 for the primitive instance '@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)'.
+INFO(SPCODD-192): Swapped section 2 with section 3 for the primitive instance '@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)'.
+INFO(SPCODD-192): Swapped section 2 with section 3 for the primitive instance '@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)'.
+INFO(SPCODD-192): Swapped section 2 with section 3 for the primitive instance '@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)'.
+DDB_INFO: State file for design PC049A_4LEMOS successfully written.
+DDB_INFO: Pst files for design PC049A_4LEMOS successfully written.
+DDB_INFO: Generating state file for subdesign PC049A_4LEMOS
+system time  0
+user time    0

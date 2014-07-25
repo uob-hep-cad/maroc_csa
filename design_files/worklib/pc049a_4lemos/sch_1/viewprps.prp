@@ -1,0 +1,189 @@
+(PropertyFile "1.0" 
+ (Creator " HDL Direct 16.5-S016 (v16-5-13AQ) 2/14/2012" )
+ (Created "Mon Mar 17 15:01:00 2014" )
+ (Cell "pc049a_4lemos" 
+  (View "sch_1" 
+   (Inst "page1_I10" 
+    (Pr 
+     ("SIZE" "4" )
+     ("DIELECTRIC" "X7R" )
+     ("HAS_FIXED_SIZE" "4" )
+     ("\\type\\" "CKCA43" )
+     ("CDS_LIB" "cnpassive" )
+     ("VALUE" "100NF" )
+     ("VOLTAGE" "16V" )
+     ("CDS_LOCATION" "CN1" )
+     ("\\$location\\" "CN1" )
+     ("REUSE_ID" "1" )
+     ("ROT" "0" )
+     ("VER" "2" )
+     ("XY" "(2100,625)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "B" 
+     (Rg 3 )
+     (Pr 
+      ("CDS_SEC" "4" )
+      ("\\$pn\\" "8" )
+      ("\\$sec\\" "4" )))
+    (IPrt "B" 
+     (Rg 2 )
+     (Pr 
+      ("CDS_SEC" "3" )
+      ("\\$pn\\" "6" )
+      ("\\$sec\\" "3" )))
+    (IPrt "B" 
+     (Rg 1 )
+     (Pr 
+      ("CDS_SEC" "2" )
+      ("\\$pn\\" "4" )
+      ("\\$sec\\" "2" )))
+    (IPrt "B" 
+     (Rg 0 )
+     (Pr 
+      ("CDS_SEC" "1" )
+      ("\\$pn\\" "2" )
+      ("\\$sec\\" "1" )))
+    (IPrt "A" 
+     (Rg 3 )
+     (Pr 
+      ("CDS_SEC" "4" )
+      ("\\$pn\\" "7" )
+      ("\\$sec\\" "4" )))
+    (IPrt "A" 
+     (Rg 2 )
+     (Pr 
+      ("CDS_SEC" "3" )
+      ("\\$pn\\" "5" )
+      ("\\$sec\\" "3" )))
+    (IPrt "A" 
+     (Rg 1 )
+     (Pr 
+      ("CDS_SEC" "2" )
+      ("\\$pn\\" "3" )
+      ("\\$sec\\" "2" )))
+    (IPrt "A" 
+     (Rg 0 )
+     (Pr 
+      ("CDS_SEC" "1" )
+      ("\\$pn\\" "1" )
+      ("\\$sec\\" "1" ))))
+   (Inst "page1_I11" 
+    (Pr 
+     ("PACK_SHORT" "(B<0>,B<1>,B<2>,B<3>)" )
+     ("NEEDS_NO_SIZE" "TRUE" )
+     ("CDS_LIB" "cnconnector" )
+     ("\\type\\" "PLEMO00D" )
+     ("CDS_LOCATION" "PX1" )
+     ("\\$sec\\" "1" )
+     ("CDS_SEC" "1" )
+     ("\\$location\\" "PX1" )
+     ("REUSE_ID" "2" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-500,1300)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "B" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page1_I12" 
+    (Pr 
+     ("CDS_LIB" "cndiscrete" )
+     ("\\type\\" "PRTR5V0U4Y" )
+     ("PACK_TYPE" "SC88" )
+     ("CDS_LOCATION" "D1" )
+     ("\\$sec\\" "1" )
+     ("CDS_SEC" "1" )
+     ("\\$location\\" "D1" )
+     ("REUSE_ID" "6" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(675,-450)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "VCC" 
+     (Pr 
+      ("\\$pn\\" "5" )))
+    (IPrt "GND" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "ESD4" 
+     (Pr 
+      ("\\$pn\\" "6" )))
+    (IPrt "ESD3" 
+     (Pr 
+      ("\\$pn\\" "4" )))
+    (IPrt "ESD2" 
+     (Pr 
+      ("\\$pn\\" "3" )))
+    (IPrt "ESD1" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page1_I15" 
+    (Pr 
+     ("CDS_LIB" "cnconnector" )
+     ("NEEDS_NO_SIZE" "TRUE" )
+     ("PACK_SHORT" "(B<0>,B<1>,B<2>,B<3>)" )
+     ("\\type\\" "PLEMO00D" )
+     ("CDS_LOCATION" "PX4" )
+     ("\\$sec\\" "1" )
+     ("CDS_SEC" "1" )
+     ("\\$location\\" "PX4" )
+     ("REUSE_ID" "4" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-500,25)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "B" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page1_I17" 
+    (Pr 
+     ("CDS_LIB" "cnconnector" )
+     ("NEEDS_NO_SIZE" "TRUE" )
+     ("PACK_SHORT" "(B<0>,B<1>,B<2>,B<3>)" )
+     ("\\type\\" "PLEMO00D" )
+     ("CDS_LOCATION" "PX3" )
+     ("\\$sec\\" "1" )
+     ("CDS_SEC" "1" )
+     ("\\$location\\" "PX3" )
+     ("REUSE_ID" "5" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-500,450)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "B" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page1_I19" 
+    (Pr 
+     ("CDS_LIB" "cnconnector" )
+     ("NEEDS_NO_SIZE" "TRUE" )
+     ("PACK_SHORT" "(B<0>,B<1>,B<2>,B<3>)" )
+     ("\\type\\" "PLEMO00D" )
+     ("CDS_LOCATION" "PX2" )
+     ("\\$sec\\" "1" )
+     ("CDS_SEC" "1" )
+     ("\\$location\\" "PX2" )
+     ("REUSE_ID" "3" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-500,875)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "B" 
+     (Rg 0 )
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "A" 
+     (Pr 
+      ("\\$pn\\" "1" )))))))

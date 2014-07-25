@@ -1,0 +1,376 @@
+
+
+
+
+    Cadence Design Systems, Inc.
+    Packager-XL 16.6-S013 (v16-6-112AL) lnx86 7/1/2013 12:00:00 IST
+    (C) Copyright 1994, Cadence Design Systems, Inc.
+
+    Run on Wed May  7 15:18:50 2014
+
+
+ **********************************************
+ *  Processing project file and command line  *
+ **********************************************
+
+INFO(SPCOPK-1043): Setting REPACKAGE=OFF because running in FEEDBACK mode
+
+
+    ANNOTATE  'BODY' 'PIN'
+    COMP_DEF_PROP  'ALT_SYMBOLS' 'JEDEC_TYPE' 'MERGE_NC_PINS' 'MERGE_POWER_PINS'
+                   'NC_PINS' 'PINCOUNT' 'POWER_GROUP' 'POWER_PINS'
+    COMP_INST_PROP  'DEFAULT_SIGNAL_MODEL' 'GROUP' 'REUSE_ID' 'REUSE_INSTANCE'
+                    'REUSE_NAME' 'ROOM' 'SIGNAL_MODEL' 'VOLT_TEMP_SIGNAL_MODEL'
+                    'ISRFELEMENT' 'RFELEMENTTYPE' 'RFLAYER' 'RFLAYER1'
+                    'RFLAYER2' 'RFLAYER3' 'RFLAYER4' 'RFLAYER5' 'RFLAYER6'
+                    'RFLAYER7' 'RFLAYER8' 'RFLAYER9' 'RFLAYER10' 'RFLAYER11'
+                    'RFLAYER12' 'RFLAYER13' 'RFLAYER14' 'RFLAYER15' 'RFLAYER16'
+                    'RFCOUPLINGMODE' 'RFFLIPMODE' 'RFANGLE' 'RFANGLE1' 'RFWIDTH'
+                    'RFWIDTH1' 'RFWIDTH2' 'RFWIDTH3' 'RFWIDTH4' 'RFWIDTH5'
+                    'RFWIDTH6' 'RFWIDTH7' 'RFWIDTH8' 'RFWIDTH9' 'RFWIDTH10'
+                    'RFWIDTH11' 'RFWIDTH12' 'RFWIDTH13' 'RFWIDTH14' 'RFWIDTH15'
+                    'RFWIDTH16' 'RFLENGTH' 'RFLENGTH1' 'RFLENGTH2' 'RFLENGTH3'
+                    'RFLENGTH4' 'RFLENGTH5' 'RFLENGTH6' 'RFLENGTH7' 'RFLENGTH8'
+                    'RFSPACING' 'RFSPACING1' 'RFSPACING2' 'RFSPACING3'
+                    'RFSPACING4' 'RFSPACING5' 'RFSPACING6' 'RFSPACING7'
+                    'RFSPACING8' 'RFSPACING9' 'RFSPACING10' 'RFSPACING11'
+                    'RFSPACING12' 'RFSPACING13' 'RFSPACING14' 'RFSPACING15'
+                    'RFOFFSETX' 'RFOFFSETY' 'RFRADIUS' 'RFDEPTH' 'RFFREQUENCY'
+                    'RFMITERFRACTION' 'RFBENDMODE' 'RFNUMBERLEGS'
+                    'RFNUMBERPAIRS' 'RFNUMBERTURNS' 'RFCAPACITANCE'
+                    'RFRESISTANCE' 'RFINDUCTANCE' 'RFPADSTACKNAME'
+                    'RFPADSSMNAME1' 'RFPADSSMNAME2' 'RFPADBEGINLAYER'
+                    'RFPADENDLAYER' 'RFPADLINEWIDTH1' 'RFPADLINEWIDTH2'
+                    'RFPADDIAMETER1' 'RFPADDIAMETER2' 'RFPADLENGTH1'
+                    'RFPADLENGTH2' 'RFHOLEDIAMETER' 'RFPADANGLE' 'RFDRANAME'
+                    'RFPADTYPE' 'RFUID' 'RFBLOCK' 'RFDCNET' 'RFGROUP'
+                    'CDS_FSP_LIB_PART_MODEL' 'CDS_FSP_IS_FPGA'
+                    'CDS_FSP_INSTANCE_NAME' 'CDS_FSP_INSTANCE_ID'
+    SUPPRESS_GLOBAL_SHORT_CHECK OFF
+    DEBUG    0
+    DEFAULT_PHYS_DES_PREFIX U
+    FEEDBACK  'ALLEGRO'
+    GEN_SUBDESIGN  'PC049A_4LEMOS'
+    MAX_ERRORS 999
+    NET_NAME_CHARS   @  -  !  #  %  &  (  )  *  .  /  :  ?  [  ]  ^  _  `  +
+                     =  >  0  1  2  3  4  5  6  7  8  9
+    NET_NAME_LENGTH 31
+    NUM_OLD_VERSIONS 3
+    OPTIMIZE OFF
+    REUSE_REFDES ON
+    OPF_OPTIMIZATION OFF
+    HARD_LOC_SEC OFF
+    FORCE_PTF_ENTRY OFF
+    REGENERATE_PHYSICAL_NET_NAME OFF
+    SCH_POWER_GROUP_WINS_OVER_PPT OFF
+    NULL_OPT_VALID OFF
+    USE_VECTOR_NOTATION ON
+    FILTER_ECS_FROM_XNET ON
+    OUTPUT  'ON'
+    PACKAGE_PROP  'GROUP' 'ROOM'
+    PART_TYPE_LENGTH 31
+    PPT 
+         /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_analogue/cds_an~
+alogue.ptf 
+         /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_connectors/cds_~
+connectors.ptf 
+         /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_logic/cds_logic~
+.ptf 
+         /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_pld/cds_pld.ptf 
+         /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_special/cds_spe~
+cial.ptf 
+         /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/p~
+e_cern_lib/parttables/cnconnector.ptf 
+         /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/p~
+e_cern_lib/parttables/cndiscrete.ptf 
+         /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/p~
+e_cern_lib/parttables/cnpassive.ptf 
+    REF_DES_LENGTH 31
+    REPACKAGE OFF
+    ELECTRICAL_CONSTRAINTS ON
+    OVERWRITE_CONSTRAINTS OFF
+    RUN_DIR ./worklib/pc049a_4lemos/packaged/
+    STRICT_PACKAGE_PROP  'REUSE_INSTANCE'
+    USE_LIBRARY_PPT ON
+    USE_STATE ON
+    WARNINGS ON
+    LIBRARY  'uob_hep_pc049a_lib' 'bris_cds_analogue' 'bris_cds_connectors'
+             'bris_cds_discrete' 'bris_cds_logic' 'bris_cds_memory'
+             'bris_cds_pld' 'bris_cds_special' 'bris_cds_standard'
+             'bris_cds_switches' 'cn74lv' 'cn74tiac' 'cn75als' 'cncmos'
+             'cnconnector' 'cndiscrete' 'cnpassive' 'cnpld' 'cnpower'
+             'cnspecial' 'cnstandard' 'cnvlsi' 'standard' 'cnlinear'
+    CDSPROP_FILE 
+    VIEW_PTF part_table
+    VIEW_PACKAGER packaged
+    VIEW_CONSTRAINTS sch_1
+    DESIGN_LIBRARY uob_hep_pc049a_lib
+    DESIGN_NAME pc049a_4lemos
+    VIEW_CONFIG_PHYSICAL cfg_package
+    SD_SUFFIX_SEPARATOR _
+    STOP_PST_GEN_ON_PTF_MISMATCH ON
+    IGNORE_PRIM_BINDING OFF
+    LOG_INST_PHYS_PATH ON
+    ANNOTATE_VISIBLE_SEC OFF
+    PTF_MISMATCH_EXCLUDE_INJ_PROP  'ALL'
+    IMPORT_HFS_HARDSEC_ON_SWAP_PINS OFF
+    ALLOW_PTFVALUE_INITIAL_BLANKS ON
+    PRESERVE_UNSUBSTITUTED_MACROS OFF
+    DETECT_SYS_NETSHORTS_PKG ON
+    PROCESS_PIN_SHORT_PROP OFF
+    STOP_PACKAGE_ON_SCHEMATIC_ERROR OFF
+    LOCK_FILE_PERM 444
+    LOCK_FOR_SAME_USER OFF
+    ERROR_ON_MISMATCHED_INTERFACE ON
+    RETAIN_ZERO_NODE_NETS OFF
+    IGNORE_ERR_EMPTY_LONGPARTNAME OFF
+    ERROR_ON_PARTIAL_INSTANTIATION_OF_HSS OFF
+
+ **************************************************************
+ *  End processing project file and command line  (00:00:00)  *
+ **************************************************************
+
+
+Creating Configuration "cfg_package" for Design "pc049a_4lemos"
+
+INFO(SPCODD-181): Loading /software/CAD/Cadence/SPB16.60.000/share/cdssetup/cd~
+sprop.tmf.
+INFO(SPCODD-181): Loading /software/CAD/Cadence/SPB16.60.000/share/cdssetup/cd~
+sprop.paf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/bris_cdslib/lib_ps~
+d14.x/cds_analogue/cds_analogue.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/bris_cdslib/lib_ps~
+d14.x/cds_connectors/cds_connectors.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/bris_cdslib/lib_ps~
+d14.x/cds_logic/cds_logic.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/bris_cdslib/lib_ps~
+d14.x/cds_pld/cds_pld.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/bris_cdslib/lib_ps~
+d14.x/cds_special/cds_special.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/parttables/cnconnector.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/parttables/cndiscrete.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/parttables/cnpassive.ptf.
+
+ *********************************
+ *  Loading the design database  *
+ *********************************
+
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capn4i/part_table/part.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/cnconnector/coax/part_table/coax.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/tvs_diode_array_sp3010/part_tab~
+le/tvs_diode_array_sp3010.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/cnpassive/r4ismd/part_table/r4ismd.ptf.
+
+ *************************
+ *  Loading State Files  *
+ *************************
+
+Loading ./worklib/pc049a_4lemos/packaged/pxl.state. 
+
+ *****************************************
+ *  End loading State Files  (00:00:00)  *
+ *****************************************
+
+
+ ***************************
+ *  Starting to feedback.  *
+ ***************************
+
+ #1   WARNING(SPCOPF-2000): The following COMP_INST_PROP property is being fed~
+ back.
+        Property name: NO_XNET_CONNECTION
+        This property is present in compview.dat but not defined as a componen~
+t instance property. 
+        Add the property name to the COMP_INST_PROP directive in order for fut~
+ure runs of the Packager-XL to treat it correctly.
+ #2   WARNING(SPCOPF-2000): The following COMP_INST_PROP property is being fed~
+ back.
+        Property name: SYMBOL_EDITED
+        This property is present in compview.dat but not defined as a componen~
+t instance property. 
+        Add the property name to the COMP_INST_PROP directive in order for fut~
+ure runs of the Packager-XL to treat it correctly.
+ #3   WARNING(SPCOPF-2000): The following COMP_INST_PROP property is being fed~
+ back.
+        Property name: EMBEDDED_PLACEMENT
+        This property is present in compview.dat but not defined as a componen~
+t instance property. 
+        Add the property name to the COMP_INST_PROP directive in order for fut~
+ure runs of the Packager-XL to treat it correctly.
+INFO(SPCOPF-2155): Feedback is changing SEC from 1 to 4.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CN~
+PASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpa~
+ssive.r4ismd(chips)
+        Pin name: A<3>
+INFO(SPCOPF-2012): Feedback is changing PN from 4 to 1.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CN~
+PASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpa~
+ssive.r4ismd(chips)
+        Pin name: A<3>
+INFO(SPCOPF-2155): Feedback is changing SEC from 1 to 4.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CN~
+PASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpa~
+ssive.r4ismd(chips)
+        Pin name: B<3>
+INFO(SPCOPF-2012): Feedback is changing PN from 5 to 8.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CN~
+PASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpa~
+ssive.r4ismd(chips)
+        Pin name: B<3>
+INFO(SPCOPF-2155): Feedback is changing SEC from 2 to 3.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CN~
+PASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpa~
+ssive.r4ismd(chips)
+        Pin name: A<2>
+INFO(SPCOPF-2012): Feedback is changing PN from 3 to 2.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CN~
+PASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpa~
+ssive.r4ismd(chips)
+        Pin name: A<2>
+INFO(SPCOPF-2155): Feedback is changing SEC from 2 to 3.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CN~
+PASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpa~
+ssive.r4ismd(chips)
+        Pin name: B<2>
+INFO(SPCOPF-2012): Feedback is changing PN from 6 to 7.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CN~
+PASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpa~
+ssive.r4ismd(chips)
+        Pin name: B<2>
+INFO(SPCOPF-2155): Feedback is changing SEC from 3 to 2.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CN~
+PASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpa~
+ssive.r4ismd(chips)
+        Pin name: A<1>
+INFO(SPCOPF-2012): Feedback is changing PN from 2 to 3.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CN~
+PASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpa~
+ssive.r4ismd(chips)
+        Pin name: A<1>
+INFO(SPCOPF-2155): Feedback is changing SEC from 3 to 2.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CN~
+PASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpa~
+ssive.r4ismd(chips)
+        Pin name: B<1>
+INFO(SPCOPF-2012): Feedback is changing PN from 7 to 6.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CN~
+PASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpa~
+ssive.r4ismd(chips)
+        Pin name: B<1>
+INFO(SPCOPF-2155): Feedback is changing SEC from 4 to 1.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CN~
+PASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpa~
+ssive.r4ismd(chips)
+        Pin name: A<0>
+INFO(SPCOPF-2012): Feedback is changing PN from 1 to 4.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CN~
+PASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpa~
+ssive.r4ismd(chips)
+        Pin name: A<0>
+INFO(SPCOPF-2155): Feedback is changing SEC from 4 to 1.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CN~
+PASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpa~
+ssive.r4ismd(chips)
+        Pin name: B<0>
+INFO(SPCOPF-2012): Feedback is changing PN from 8 to 5.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CN~
+PASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpa~
+ssive.r4ismd(chips)
+        Pin name: B<0>
+
+ *******************************
+ *  End feedback.  (00:00:00)  *
+ *******************************
+
+
+ ****************************************
+ *  Starting to assign physical parts.  *
+ ****************************************
+
+
+ ***********************************************
+ *  End assigning physical parts.  (00:00:00)  *
+ ***********************************************
+
+
+ ***************
+ *  Packaging  *
+ ***************
+
+
+ *******************************
+ *  End packaging  (00:00:00)  *
+ *******************************
+
+Generating state file for subdesign PC049A_4LEMOS
+INFO(SPCOPK-1442): No errors detected
+INFO(SPCOPK-1443): 3 warnings detected
+INFO(SPCOPK-1448): Use Tools->Markers->Packager in ConceptHDL to highlight ins~
+tances for the errors/warnings reported.
+    Start time   15:18:50
+    End time     15:18:51
+    CPU time      0:00:00
+    Elapsed time  0:00:01
+
+ ***************************************************************************
+ *  Packager-XL execution done.
+ ***************************************************************************
+Constraint Directory: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a~
+/trunk/design_files/worklib/pc049a_4lemos/sch_1/
+
+"/software/CAD/Cadence/SPB16.60.000/tools/bin/cmfeedback.exe" -noComp -s "temp~
+/tmp_synch_props.cfg" -c "/projects/HEP_Instrumentation/cad/designs/uob-hep-pc~
+049a/trunk/design_files/worklib/pc049a_4lemos/sch_1//update.scr" -rt "/project~
+s/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/temp/cmfee~
+dback.log" physical in "/projects/HEP_Instrumentation/cad/designs/uob-hep-pc04~
+9a/trunk/design_files/worklib/pc049a_4lemos/sch_1/pc049a_4lemos.dcf" "/project~
+s/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc~
+049a_4lemos/packaged/cmdbview.dat" "/projects/HEP_Instrumentation/cad/designs/~
+uob-hep-pc049a/trunk/design_files/worklib/pc049a_4lemos/packaged/cmbcview.dat"~
+ "/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/~
+worklib/pc049a_4lemos/sch_1/pc049a_4lemos.dcf,p"
+---------------------------------------------------------
+Layer: TOP
+	Adding: CDS_LAYER_IS_TOP_SUBSTRATE value "1"
+---------------------------------------------------------
+Layer: BOTTOM
+	Adding: CDS_LAYER_IS_BOTTOM_SUBSTRATE value "1"
+---------------------------------------------------------
+Design: pc049a_4lemos
+	Adding: SQ_LINE_WIDTH_VALUES value "SINGLE_IMPEDANCE ON|DIFF_IMPEDANCE OFF|TO~
+P|0.4008 MM|NONE|0.2600 MM|L3|0.3342 MM|NONE|0.2000 MM|L4|0.3335 MM|NONE|0.200~
+0 MM|BOTTOM|0.4008 MM|NONE|0.2600 MM"
+	Adding: MAX_FILENAME_VALUE value "89"
+---------------------------------------------------------
+
+Summary:
+
+Constraint changes found: 4 additions, 0 deletions, 0 changes.
+
+No association changes done.
+
+
+Audit completed successfully.

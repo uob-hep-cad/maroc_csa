@@ -4,9 +4,225 @@
 #CELL
   cnconnector conabc96 *
   page3_i1
-#CELL
-  cnconnector con150p *
+#ISCELL
+  standard tap *
+  page3_i10
+#ISCELL
+  standard tap *
+  page3_i11
+#ISCELL
+  standard tap *
+  page3_i12
+#ISCELL
+  standard tap *
+  page3_i13
+#ISCELL
+  standard tap *
+  page3_i14
+#ISCELL
+  standard tap *
+  page3_i15
+#ISCELL
+  standard tap *
+  page3_i16
+#ISCELL
+  standard tap *
+  page3_i17
+#ISCELL
+  standard tap *
+  page3_i18
+#ISCELL
+  standard tap *
+  page3_i19
+#ISCELL
+  cnpower p12v *
   page3_i2
-#CELL
-  cnconnector con150p *
+#ISCELL
+  standard tap *
+  page3_i20
+#ISCELL
+  standard tap *
+  page3_i21
+#ISCELL
+  standard tap *
+  page3_i22
+#ISCELL
+  standard tap *
+  page3_i23
+#ISCELL
+  standard tap *
+  page3_i24
+#ISCELL
+  standard tap *
+  page3_i25
+#ISCELL
+  standard tap *
+  page3_i26
+#ISCELL
+  standard tap *
+  page3_i27
+#ISCELL
+  standard tap *
+  page3_i28
+#ISCELL
+  standard tap *
+  page3_i29
+#ISCELL
+  standard gnd_signal *
   page3_i3
+#ISCELL
+  standard tap *
+  page3_i30
+#ISCELL
+  standard tap *
+  page3_i31
+#ISCELL
+  standard tap *
+  page3_i32
+#ISCELL
+  standard tap *
+  page3_i33
+#ISCELL
+  standard tap *
+  page3_i34
+#ISCELL
+  standard tap *
+  page3_i35
+#ISCELL
+  standard tap *
+  page3_i36
+#ISCELL
+  standard gnd_signal *
+  page3_i38
+#ISCELL
+  cnpower dgnd *
+  page3_i39
+#ISCELL
+  cnpower dgnd *
+  page3_i4
+#ISCELL
+  standard tap *
+  page3_i40
+#ISCELL
+  standard tap *
+  page3_i41
+#ISCELL
+  standard tap *
+  page3_i42
+#ISCELL
+  standard tap *
+  page3_i43
+#ISCELL
+  standard tap *
+  page3_i44
+#ISCELL
+  standard tap *
+  page3_i45
+#ISCELL
+  standard tap *
+  page3_i46
+#ISCELL
+  standard tap *
+  page3_i47
+#ISCELL
+  standard tap *
+  page3_i48
+#ISCELL
+  standard tap *
+  page3_i49
+#ISCELL
+  standard tap *
+  page3_i5
+#ISCELL
+  standard tap *
+  page3_i50
+#ISCELL
+  standard tap *
+  page3_i51
+#ISCELL
+  standard tap *
+  page3_i52
+#ISCELL
+  standard tap *
+  page3_i53
+#ISCELL
+  standard tap *
+  page3_i54
+#ISCELL
+  standard tap *
+  page3_i55
+#ISCELL
+  standard tap *
+  page3_i56
+#ISCELL
+  standard tap *
+  page3_i57
+#ISCELL
+  standard tap *
+  page3_i58
+#ISCELL
+  standard tap *
+  page3_i59
+#ISCELL
+  standard tap *
+  page3_i6
+#ISCELL
+  standard tap *
+  page3_i60
+#ISCELL
+  standard tap *
+  page3_i61
+#ISCELL
+  standard tap *
+  page3_i62
+#ISCELL
+  standard tap *
+  page3_i63
+#ISCELL
+  standard tap *
+  page3_i64
+#ISCELL
+  standard tap *
+  page3_i65
+#ISCELL
+  standard tap *
+  page3_i66
+#ISCELL
+  standard tap *
+  page3_i67
+#ISCELL
+  standard tap *
+  page3_i68
+#ISCELL
+  standard tap *
+  page3_i69
+#ISCELL
+  standard tap *
+  page3_i7
+#ISCELL
+  standard tap *
+  page3_i70
+#ISCELL
+  standard tap *
+  page3_i71
+#ISCELL
+  cnpower p12v *
+  page3_i72
+#CELL
+  cnconnector conabc96 *
+  page3_i74
+#ISCELL
+  cnpower p3v3 *
+  page3_i75
+#ISCELL
+  cnpower p3v3 *
+  page3_i76
+#CELL
+  uob_hep_pc049a_lib pc049a_fpga *
+  page3_i77
+#ISCELL
+  standard tap *
+  page3_i8
+#ISCELL
+  standard tap *
+  page3_i9

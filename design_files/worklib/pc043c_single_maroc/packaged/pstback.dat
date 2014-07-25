@@ -1,4 +1,4 @@
-{ Packager-XL run on 13-Mar-2014 AT 16:16:51 }
+{ Packager-XL run on 20-Mar-2014 AT 09:19:22 }
 FILE_TYPE = BACK_ANNOTATION;
 DRAWING = "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1";
 BODY = "MAROC3","I1": LOCATION = "U1" #&CDS_LOCATION = "U1" &SEC = "1" #&CDS_SEC = "1";
@@ -141,18 +141,18 @@ BODY = "MAROC3","I1": LOCATION = "U1" #&CDS_LOCATION = "U1" &SEC = "1" #&CDS_SEC
 "SUM6":   PN = "218"  !CDS_PN = "218";
 "SUM7":   PN = "216"  !CDS_PN = "216";
 "SUM8":   PN = "214"  !CDS_PN = "214";
-BODY = "RSMD0402","I146": LOCATION = "R1" #&CDS_LOCATION = "R1" &SEC = "1" #&CDS_SEC = "1";
-"A<0>":   PN = "1"  !CDS_PN = "1";
-"B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "RSMD0402","I147": LOCATION = "R2" #&CDS_LOCATION = "R2" &SEC = "1" #&CDS_SEC = "1";
-"A<0>":   PN = "1"  !CDS_PN = "1";
-"B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "1-HOLE","I148": LOCATION = "LK51" #&CDS_LOCATION = "LK51" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 BODY = "1-HOLE","I149": LOCATION = "LK52" #&CDS_LOCATION = "LK52" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 BODY = "1-HOLE","I150": LOCATION = "LK26" #&CDS_LOCATION = "LK26" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
+BODY = "RSMD0402","I146": LOCATION = "R1" #&CDS_LOCATION = "R1" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
+BODY = "RSMD0402","I147": LOCATION = "R2" #&CDS_LOCATION = "R2" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
 DRAWING = "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2";
 BODY = "MAROC3","I1": LOCATION = "U1" #&CDS_LOCATION = "U1" &SEC = "3" #&CDS_SEC = "3";
 "GND_CAPA":   PN = "217"  !CDS_PN = "217";
@@ -654,12 +654,6 @@ BODY = "CON3P","I231": LOCATION = "J4" #&CDS_LOCATION = "J4" &SEC = "1" #&CDS_SE
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "A<1>":   PN = "2"  !CDS_PN = "2";
 "A<2>":   PN = "3"  !CDS_PN = "3";
-BODY = "RSMD0603","I233": LOCATION = "R44" #&CDS_LOCATION = "R44" &SEC = "1" #&CDS_SEC = "1";
-"A<0>":   PN = "1"  !CDS_PN = "1";
-"B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "RSMD0603","I234": LOCATION = "R45" #&CDS_LOCATION = "R45" &SEC = "1" #&CDS_SEC = "1";
-"A<0>":   PN = "1"  !CDS_PN = "1";
-"B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "RSMD0603","I236": LOCATION = "R42" #&CDS_LOCATION = "R42" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
@@ -667,9 +661,6 @@ BODY = "CAPCERSMDCL2","I237": LOCATION = "C51" #&CDS_LOCATION = "C51" &SEC = "1"
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "CAPCERSMDCL2","I238": LOCATION = "C50" #&CDS_LOCATION = "C50" &SEC = "1" #&CDS_SEC = "1";
-"A<0>":   PN = "1"  !CDS_PN = "1";
-"B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "RSMD0402","I241": LOCATION = "R48" #&CDS_LOCATION = "R48" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "CAPCERSMDCL2","I242": LOCATION = "C54" #&CDS_LOCATION = "C54" &SEC = "1" #&CDS_SEC = "1";
@@ -685,4 +676,15 @@ BODY = "CON6P","I246": LOCATION = "J1" #&CDS_LOCATION = "J1" &SEC = "1" #&CDS_SE
 BODY = "DIODE_CA","I245": LOCATION = "D1" #&CDS_LOCATION = "D1" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "2"  !CDS_PN = "2";
 "K<0>":   PN = "1"  !CDS_PN = "1";
+BODY = "ELCAPTAN","I252": LOCATION = "C48" #&CDS_LOCATION = "C48" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
+BODY = "TPS776XX","I253": LOCATION = "RG1" #&CDS_LOCATION = "RG1" &SEC = "1" #&CDS_SEC = "1";
+"EN*":   PN = "2"  !CDS_PN = "2";
+"GND":   PN = "1"  !CDS_PN = "1";
+"IN<1>":   PN = "3"  !CDS_PN = "3";
+"IN<2>":   PN = "4"  !CDS_PN = "4";
+"OUT<1>":   PN = "5"  !CDS_PN = "5";
+"OUT<2>":   PN = "6"  !CDS_PN = "6";
+"PG":   PN = "8"  !CDS_PN = "8";
 END.

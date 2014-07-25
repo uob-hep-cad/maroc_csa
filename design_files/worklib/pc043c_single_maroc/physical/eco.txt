@@ -2,55 +2,141 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../worklib/pc043c_single_maroc/physical/pc043c_single_maroc_27.brd         |
-|                                                    Thu Mar 13 16:16:54 2014  |
+|  .../worklib/pc043c_single_maroc/physical/pc043c_single_maroc_28.brd         |
+|                                                    Wed Mar 19 17:57:59 2014  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  AVDD         pins ADDED TO this existing net (pins not previously on any net)
+                                 RG1.3                          
+                                 RG1.4                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND_SIGNAL   pins ADDED TO this existing net (pins not previously on any net)
+                                 C48.2                          
+                                 RG1.1                          
+                                 RG1.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_3_CAPCERSMDCL2_I242_B pins MOVED FROM this net (to net name listed on right)
+                                 C54.2           47.8149 -76.000
+                                                                           AVDD
+                                 R42.2           50.3471 -76.729
+                                                                           AVDD
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VH           pins ADDED TO this existing net (pins not previously on any net)
+                                 C48.1                          
+                                 RG1.5                          
+                                 RG1.6                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc043c_single_maroc/physical/pc043c_single_maroc_28.brd         |
+|                                                    Wed Mar 19 17:57:59 2014  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to board drawing                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- CON6P-SSW103_01GD
+ CON6P-SSW-103-01-G-D
+ ELCAPTAN_SMD_A-22UF,6.3V
+ TPS77625D
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  .../worklib/pc043c_single_maroc/physical/pc043c_single_maroc_27.brd         |
-|                                                    Thu Mar 13 16:16:54 2014  |
+|  .../worklib/pc043c_single_maroc/physical/pc043c_single_maroc_28.brd         |
+|                                                    Wed Mar 19 17:57:59 2014  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from board drawing                                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R44                 RSMD0603_1/10W-150,1% 51.0971 -75.205
+ R45                 RSMD0603_1/10W-120,1% 51.0971 -73.681
+ R48                 RSMD0402_1/16W-3.3R,5% 47.0649 -77.284
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc043c_single_maroc/physical/pc043c_single_maroc_28.brd         |
+|                                                    Wed Mar 19 17:57:59 2014  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to board drawing                                            |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C48                 ELCAPTAN_SMD_A-22UF,6.3V 
+ RG1                 TPS77625D             
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc043c_single_maroc/physical/pc043c_single_maroc_28.brd         |
+|                                                    Wed Mar 19 17:57:59 2014  |
 |------------------------------------------------------------------------------|
 | COMPONENTS CHANGED from one device type to another in board drawing          |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J1                  CON6P-SSW103_01GD     71.9000 -48.700 CON6P-3M1512
+ J1                  CON6P-SSW-103-01-G-D  72.8600 -87.420 CON6P-SSW103_01GD
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
+|                                                                    Page   6  |
 |------------------------------------------------------------------------------|
-|  .../worklib/pc043c_single_maroc/physical/pc043c_single_maroc_27.brd         |
-|                                                    Thu Mar 13 16:16:54 2014  |
+|  .../worklib/pc043c_single_maroc/physical/pc043c_single_maroc_28.brd         |
+|                                                    Wed Mar 19 17:57:59 2014  |
+|------------------------------------------------------------------------------|
+| COMPONENT PROPERTIES added to board drawing                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   ref  des   |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C48                            REUSE_ID       2
+ D1             50.3000 -78.500 REUSE_ID       3
+ J1                             REUSE_ID       4
+ RG1                            REUSE_ID       1
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc043c_single_maroc/physical/pc043c_single_maroc_28.brd         |
+|                                                    Wed Mar 19 17:57:59 2014  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to board drawing                                       |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C48.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/elcaptan/chips/chips.prt
+ C48.2                          SIZE           1
  J1.6                           PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con6p/chips/chips.prt
+ RG1.8                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/tps776xx/chips/chips.prt
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
+|                                                                    Page   8  |
 |------------------------------------------------------------------------------|
-|  .../worklib/pc043c_single_maroc/physical/pc043c_single_maroc_27.brd         |
-|                                                    Thu Mar 13 16:16:54 2014  |
+|  .../worklib/pc043c_single_maroc/physical/pc043c_single_maroc_28.brd         |
+|                                                    Wed Mar 19 17:57:59 2014  |
 |------------------------------------------------------------------------------|
 | PIN PROPERTIES added to board drawing                                        |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    pin_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C48.1                          CDS_PINID      A(0)
+ C48.2                          CDS_PINID      B(0)
  J1.1                           CDS_PINID      A(0)
  J1.2                           CDS_PINID      A(1)
  J1.3                           CDS_PINID      A(2)
  J1.4                           CDS_PINID      A(3)
  J1.5                           CDS_PINID      A(4)
  J1.6                           CDS_PINID      A(5)
+ RG1.1                          CDS_PINID      GND
+ RG1.2                          CDS_PINID      \en*\
+ RG1.3                          CDS_PINID      \in\(1)
+ RG1.4                          CDS_PINID      \in\(2)
+ RG1.5                          CDS_PINID      \out\(1)
+ RG1.6                          CDS_PINID      \out\(2)
+ RG1.8                          CDS_PINID      PG
 |------------------------------------------------------------------------------|
-|   total ECO changes reported  9                                              |
+|   total ECO changes reported  42                                             |
 |------------------------------------------------------------------------------|

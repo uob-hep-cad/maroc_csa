@@ -1,0 +1,2468 @@
+( ConstraintFile "pc043c_single_maroc"
+	( constraintHeader
+		( objectKey
+			( logical )
+		)
+		( version
+			( 16.5 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 29 )
+			( physicalViewRevNum 2 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( drawing )
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( crossSection )
+			( electricalConstraints )
+			( physicalConstraints )
+			( spacingConstraints )
+			( sameNetSpacingConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mm )
+			( numberOfDecimalPlaces 4 )
+		)
+	)
+	( drawing
+		( attribute "DRAWING_EXTENTS" "621.2800,381.4000"
+		)
+		( attribute "DRAWING_LOWER_LEFT" "-310.8900,-191.4865"
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "TYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CDS_LMAN_SPLIT_NUMBER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MANUF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DIST" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MAX_TEMP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NEGTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POSTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POWER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC1" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC2" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TOL_ON_OFF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_LIST" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "ABBREV" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DIELECTRIC" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "KL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "OL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "PL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CDS_PN" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$sec" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$location" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "IC" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "KNEE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SQ_LINE_WIDTH_VALUES" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oDesign )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CREATOR" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oPart  oGate  oGateDefn  oPin  oPinDefn  oNet  oIODriver  oShape  oVia  oSymbolDefn  oSymbol  oLine  oFigure  oVoid  oCLine )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DESCRIPTION" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oPart  oGate  oGateDefn  oPin  oPinDefn  oNet  oIODriver  oShape  oVia  oSymbolDefn  oSymbol  oLine  oFigure  oVoid  oCLine )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MAX_FILENAME_VALUE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oDesign )
+			)
+			( Analysis
+			)
+		)
+	)
+	( crossSection
+		( layer "SURFACE_INDEX_0"
+			( attribute "CDS_LAYER_TYPE" "SURFACE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "AIR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "TOP"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0305"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_TOP"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.2032"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "L2"
+			( attribute "CDS_LAYER_TYPE" "PLANE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0305"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_L2"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.4032"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "L3"
+			( attribute "CDS_LAYER_TYPE" "PLANE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0305"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_L3"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.2032"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "L4"
+			( attribute "CDS_LAYER_TYPE" "PLANE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0305"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_L4"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.4032"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "L5"
+			( attribute "CDS_LAYER_TYPE" "PLANE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0305"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_L5"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.2032"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "BOTTOM"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0305"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "SURFACE_BELOW_BOTTOM"
+			( attribute "CDS_LAYER_TYPE" "SURFACE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "AIR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0000"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "pc043c_single_maroc"
+				( physicalCSetRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\" )
+				( spacingCSetRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\" )
+				( sameNetSpacingCSetRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\" )
+				( objectStatus "pc043c_single_maroc_29" )
+			)
+			( physicalCSet "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\"
+				( attribute "DIFFP_PRIMARY_GAP" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_PLUS" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_MINUS" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_MIN_SPACE" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_LINE_WIDTH" "0.1800,0.1800,0.1800,0.1800,0.1800,0.1800"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_LINE_WIDTH" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_NECK_GAP" "0.1800,0.1800,0.1800,0.1800,0.1800,0.1800"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_NECK_WIDTH" "0.1600,0.1600,0.1600,0.1600,0.1600,0.1600"
+					( Origin gBackEnd )
+				)
+				( attribute "MAXIMUM_NECK_LENGTH" "5.0000,5.0000,5.0000,5.0000,5.0000,5.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "VIA_LIST" "VIA36RD0-4D,VIA26RD0-3D,VIA22RD0-2D,VIA"
+					( Origin gBackEnd )
+				)
+				( attribute "ALLOW_ON_ETCH_SUBCLASS" "TRUE,TRUE,TRUE,TRUE,TRUE,TRUE"
+					( Origin gBackEnd )
+				)
+				( attribute "TS_ALLOWED" "ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_BVIA_STAGGER" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_BVIA_STAGGER" "0.0000,0.0000,0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "PAD_PAD_DIRECT_CONNECT" "ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED"
+					( Origin gBackEnd )
+				)
+				( objectStatus "DEFAULT" )
+			)
+			( spacingCSet "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\"
+				( attribute "THRUPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUPIN_SPACING" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_SMDPIN_SPACING" "0.1800,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_TESTPIN_SPACING" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUVIA_SPACING" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_TESTVIA_SPACING" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_LINE_SPACING" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_LINE_SPACING" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_LINE_SPACING" "0.1800,0.2000,0.2000,0.2000,0.2000,0.1800"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_SHAPE_SPACING" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_PIN_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_VIA_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_LINE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_SHAPE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_HOLE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_LINE_SPACING" "0.2000,0.2000,0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_BVIA_GAP" "0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BONDPAD_DIFFP_SPC" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( objectStatus "DEFAULT" )
+			)
+			( sameNetSpacingCSet "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\"
+				( attribute "SAME_NET" "FALSE,FALSE,FALSE,FALSE,FALSE,FALSE"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_PIN_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_VIA_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_LINE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_SHAPE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_HOLE_SPACING" "0.2032,0.2032,0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( objectStatus "DEFAULT" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(0)"
+				( objectStatus "ANALOG_IN<0>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(1)"
+				( objectStatus "ANALOG_IN<1>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(2)"
+				( objectStatus "ANALOG_IN<2>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(3)"
+				( objectStatus "ANALOG_IN<3>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(4)"
+				( objectStatus "ANALOG_IN<4>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(5)"
+				( objectStatus "ANALOG_IN<5>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(6)"
+				( objectStatus "ANALOG_IN<6>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(7)"
+				( objectStatus "ANALOG_IN<7>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(8)"
+				( objectStatus "ANALOG_IN<8>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(9)"
+				( objectStatus "ANALOG_IN<9>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(10)"
+				( objectStatus "ANALOG_IN<10>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(11)"
+				( objectStatus "ANALOG_IN<11>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(12)"
+				( objectStatus "ANALOG_IN<12>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(13)"
+				( objectStatus "ANALOG_IN<13>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(14)"
+				( objectStatus "ANALOG_IN<14>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(15)"
+				( objectStatus "ANALOG_IN<15>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(16)"
+				( objectStatus "ANALOG_IN<16>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(17)"
+				( objectStatus "ANALOG_IN<17>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(18)"
+				( objectStatus "ANALOG_IN<18>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(19)"
+				( objectStatus "ANALOG_IN<19>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(20)"
+				( objectStatus "ANALOG_IN<20>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(21)"
+				( objectStatus "ANALOG_IN<21>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(22)"
+				( objectStatus "ANALOG_IN<22>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(23)"
+				( objectStatus "ANALOG_IN<23>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(24)"
+				( objectStatus "ANALOG_IN<24>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(25)"
+				( objectStatus "ANALOG_IN<25>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(26)"
+				( objectStatus "ANALOG_IN<26>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(27)"
+				( objectStatus "ANALOG_IN<27>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(28)"
+				( objectStatus "ANALOG_IN<28>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(29)"
+				( objectStatus "ANALOG_IN<29>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(30)"
+				( objectStatus "ANALOG_IN<30>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(31)"
+				( objectStatus "ANALOG_IN<31>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(32)"
+				( objectStatus "ANALOG_IN<32>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(33)"
+				( objectStatus "ANALOG_IN<33>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(34)"
+				( objectStatus "ANALOG_IN<34>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(35)"
+				( objectStatus "ANALOG_IN<35>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(36)"
+				( objectStatus "ANALOG_IN<36>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(37)"
+				( objectStatus "ANALOG_IN<37>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(38)"
+				( objectStatus "ANALOG_IN<38>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(39)"
+				( objectStatus "ANALOG_IN<39>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(40)"
+				( objectStatus "ANALOG_IN<40>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(41)"
+				( objectStatus "ANALOG_IN<41>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(42)"
+				( objectStatus "ANALOG_IN<42>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(43)"
+				( objectStatus "ANALOG_IN<43>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(44)"
+				( objectStatus "ANALOG_IN<44>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(45)"
+				( objectStatus "ANALOG_IN<45>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(46)"
+				( objectStatus "ANALOG_IN<46>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(47)"
+				( objectStatus "ANALOG_IN<47>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(48)"
+				( objectStatus "ANALOG_IN<48>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(49)"
+				( objectStatus "ANALOG_IN<49>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(50)"
+				( objectStatus "ANALOG_IN<50>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(51)"
+				( objectStatus "ANALOG_IN<51>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(52)"
+				( objectStatus "ANALOG_IN<52>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(53)"
+				( objectStatus "ANALOG_IN<53>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(54)"
+				( objectStatus "ANALOG_IN<54>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(55)"
+				( objectStatus "ANALOG_IN<55>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(56)"
+				( objectStatus "ANALOG_IN<56>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(57)"
+				( objectStatus "ANALOG_IN<57>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(58)"
+				( objectStatus "ANALOG_IN<58>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(59)"
+				( objectStatus "ANALOG_IN<59>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(60)"
+				( objectStatus "ANALOG_IN<60>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(61)"
+				( objectStatus "ANALOG_IN<61>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(62)"
+				( objectStatus "ANALOG_IN<62>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(63)"
+				( objectStatus "ANALOG_IN<63>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(0)"
+				( objectStatus "TRIG<0>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(10)"
+				( objectStatus "TRIG<10>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(11)"
+				( objectStatus "TRIG<11>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(12)"
+				( objectStatus "TRIG<12>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(13)"
+				( objectStatus "TRIG<13>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(14)"
+				( objectStatus "TRIG<14>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(15)"
+				( objectStatus "TRIG<15>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(16)"
+				( objectStatus "TRIG<16>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(17)"
+				( objectStatus "TRIG<17>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(18)"
+				( objectStatus "TRIG<18>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(19)"
+				( objectStatus "TRIG<19>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(1)"
+				( objectStatus "TRIG<1>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(20)"
+				( objectStatus "TRIG<20>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(21)"
+				( objectStatus "TRIG<21>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(22)"
+				( objectStatus "TRIG<22>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(23)"
+				( objectStatus "TRIG<23>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(24)"
+				( objectStatus "TRIG<24>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(25)"
+				( objectStatus "TRIG<25>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(26)"
+				( objectStatus "TRIG<26>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(27)"
+				( objectStatus "TRIG<27>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(28)"
+				( objectStatus "TRIG<28>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(29)"
+				( objectStatus "TRIG<29>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(2)"
+				( objectStatus "TRIG<2>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(30)"
+				( objectStatus "TRIG<30>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(31)"
+				( objectStatus "TRIG<31>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(32)"
+				( objectStatus "TRIG<32>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(33)"
+				( objectStatus "TRIG<33>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(34)"
+				( objectStatus "TRIG<34>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(35)"
+				( objectStatus "TRIG<35>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(36)"
+				( objectStatus "TRIG<36>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(37)"
+				( objectStatus "TRIG<37>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(38)"
+				( objectStatus "TRIG<38>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(39)"
+				( objectStatus "TRIG<39>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(3)"
+				( objectStatus "TRIG<3>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(40)"
+				( objectStatus "TRIG<40>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(41)"
+				( objectStatus "TRIG<41>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(42)"
+				( objectStatus "TRIG<42>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(43)"
+				( objectStatus "TRIG<43>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(44)"
+				( objectStatus "TRIG<44>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(45)"
+				( objectStatus "TRIG<45>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(46)"
+				( objectStatus "TRIG<46>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(47)"
+				( objectStatus "TRIG<47>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(48)"
+				( objectStatus "TRIG<48>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(49)"
+				( objectStatus "TRIG<49>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(4)"
+				( objectStatus "TRIG<4>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(50)"
+				( objectStatus "TRIG<50>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(51)"
+				( objectStatus "TRIG<51>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(52)"
+				( objectStatus "TRIG<52>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(53)"
+				( objectStatus "TRIG<53>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(54)"
+				( objectStatus "TRIG<54>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(55)"
+				( objectStatus "TRIG<55>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(56)"
+				( objectStatus "TRIG<56>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(57)"
+				( objectStatus "TRIG<57>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(58)"
+				( objectStatus "TRIG<58>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(59)"
+				( objectStatus "TRIG<59>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(5)"
+				( objectStatus "TRIG<5>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(60)"
+				( objectStatus "TRIG<60>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(61)"
+				( objectStatus "TRIG<61>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(62)"
+				( objectStatus "TRIG<62>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(63)"
+				( objectStatus "TRIG<63>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(6)"
+				( objectStatus "TRIG<6>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(7)"
+				( objectStatus "TRIG<7>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(8)"
+				( objectStatus "TRIG<8>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(9)"
+				( objectStatus "TRIG<9>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(1)"
+				( objectStatus "SUM<1>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(2)"
+				( objectStatus "SUM<2>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(3)"
+				( objectStatus "SUM<3>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(4)"
+				( objectStatus "SUM<4>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(5)"
+				( objectStatus "SUM<5>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(6)"
+				( objectStatus "SUM<6>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(7)"
+				( objectStatus "SUM<7>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(8)"
+				( objectStatus "SUM<8>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\or\(0)"
+				( objectStatus "OR<0>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\or\(1)"
+				( objectStatus "OR<1>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):avdd"
+				( attribute "WEIGHT" "0"
+					( Origin gBackEnd )
+				)
+				( objectStatus "AVDD" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):gnd_signal"
+				( attribute "WEIGHT" "0"
+					( Origin gBackEnd )
+				)
+				( attribute "NO_RAT" "1"
+					( Origin gBackEnd )
+				)
+				( objectStatus "GND_SIGNAL" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i246"
+				( objectStatus "F46" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i252"
+				( objectStatus "F44" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253"
+				( objectStatus "F0" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i245"
+				( objectStatus "F45" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i4"
+				( objectStatus "F100" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i71"
+				( objectStatus "F99" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i34"
+				( objectStatus "F98" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i61"
+				( objectStatus "F97" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i56"
+				( objectStatus "F96" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i24"
+				( objectStatus "F95" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i52"
+				( objectStatus "F94" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i75"
+				( objectStatus "F93" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i19"
+				( objectStatus "F92" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i49"
+				( objectStatus "F91" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i14"
+				( objectStatus "F90" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i45"
+				( objectStatus "F89" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i29"
+				( objectStatus "F88" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i9"
+				( objectStatus "F87" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i41"
+				( objectStatus "F86" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i77"
+				( objectStatus "F85" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i81"
+				( objectStatus "F84" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i167"
+				( objectStatus "F83" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i170"
+				( objectStatus "F82" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i157"
+				( objectStatus "F81" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i164"
+				( objectStatus "F80" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i154"
+				( objectStatus "F79" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i162"
+				( objectStatus "F78" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i149"
+				( objectStatus "F77" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i160"
+				( objectStatus "F76" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i143"
+				( objectStatus "F75" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i146"
+				( objectStatus "F74" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i82"
+				( objectStatus "F73" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i140"
+				( objectStatus "F72" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i125"
+				( objectStatus "F71" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i110"
+				( objectStatus "F70" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i95"
+				( objectStatus "F69" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i138"
+				( objectStatus "F68" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i123"
+				( objectStatus "F67" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i108"
+				( objectStatus "F66" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i92"
+				( objectStatus "F65" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i134"
+				( objectStatus "F64" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i119"
+				( objectStatus "F63" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i104"
+				( objectStatus "F62" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i89"
+				( objectStatus "F61" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i132"
+				( objectStatus "F60" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i117"
+				( objectStatus "F59" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i102"
+				( objectStatus "F58" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i86"
+				( objectStatus "F57" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i129"
+				( objectStatus "F56" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i114"
+				( objectStatus "F55" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i99"
+				( objectStatus "F54" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i238"
+				( objectStatus "F53" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i237"
+				( objectStatus "F52" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i84"
+				( objectStatus "F51" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i82"
+				( objectStatus "F50" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i242"
+				( objectStatus "F49" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i3"
+				( objectStatus "F21" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i70"
+				( objectStatus "F20" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i35"
+				( objectStatus "F19" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i60"
+				( objectStatus "F18" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i57"
+				( objectStatus "F17" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i25"
+				( objectStatus "F16" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i51"
+				( objectStatus "F15" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i20"
+				( objectStatus "F14" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i48"
+				( objectStatus "F13" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i15"
+				( objectStatus "F12" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i44"
+				( objectStatus "F11" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i10"
+				( objectStatus "F10" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i40"
+				( objectStatus "F9" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i87"
+				( objectStatus "F7" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i83"
+				( objectStatus "F6" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1"
+				( objectStatus "F43" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1"
+				( objectStatus "F42" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1"
+				( objectStatus "F41" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i236"
+				( objectStatus "F1" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i7"
+				( objectStatus "F168" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i68"
+				( objectStatus "F167" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i36"
+				( objectStatus "F166" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i58"
+				( objectStatus "F165" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i54"
+				( objectStatus "F164" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i26"
+				( objectStatus "F163" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i50"
+				( objectStatus "F162" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i21"
+				( objectStatus "F161" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i47"
+				( objectStatus "F160" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i42"
+				( objectStatus "F159" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i31"
+				( objectStatus "F158" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i16"
+				( objectStatus "F157" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i76"
+				( objectStatus "F156" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i11"
+				( objectStatus "F155" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i38"
+				( objectStatus "F154" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i166"
+				( objectStatus "F153" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i168"
+				( objectStatus "F152" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i156"
+				( objectStatus "F151" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i159"
+				( objectStatus "F150" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i152"
+				( objectStatus "F149" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i153"
+				( objectStatus "F148" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i148"
+				( objectStatus "F147" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i151"
+				( objectStatus "F146" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i142"
+				( objectStatus "F145" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i145"
+				( objectStatus "F144" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i187"
+				( objectStatus "F142" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i203"
+				( objectStatus "F141" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i204"
+				( objectStatus "F140" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i188"
+				( objectStatus "F139" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i84"
+				( objectStatus "F138" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i139"
+				( objectStatus "F137" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i124"
+				( objectStatus "F136" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i109"
+				( objectStatus "F135" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i94"
+				( objectStatus "F134" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i136"
+				( objectStatus "F133" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i121"
+				( objectStatus "F132" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i106"
+				( objectStatus "F131" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i91"
+				( objectStatus "F130" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i133"
+				( objectStatus "F129" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i118"
+				( objectStatus "F128" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i103"
+				( objectStatus "F127" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i88"
+				( objectStatus "F126" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i130"
+				( objectStatus "F125" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i115"
+				( objectStatus "F124" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i100"
+				( objectStatus "F123" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i85"
+				( objectStatus "F122" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i127"
+				( objectStatus "F121" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i112"
+				( objectStatus "F120" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i97"
+				( objectStatus "F119" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i150"
+				( objectStatus "F143" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i148"
+				( objectStatus "F118" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i149"
+				( objectStatus "F117" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i217"
+				( objectStatus "F116" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i222"
+				( objectStatus "F115" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i225"
+				( objectStatus "F114" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i221"
+				( objectStatus "F113" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i211"
+				( objectStatus "F112" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i227"
+				( objectStatus "F111" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i223"
+				( objectStatus "F110" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i212"
+				( objectStatus "F109" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i218"
+				( objectStatus "F108" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i215"
+				( objectStatus "F107" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i213"
+				( objectStatus "F106" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i219"
+				( objectStatus "F105" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i216"
+				( objectStatus "F104" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i214"
+				( objectStatus "F103" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i220"
+				( objectStatus "F102" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i224"
+				( objectStatus "F101" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i228"
+				( objectStatus "F48" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i231"
+				( objectStatus "F47" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i192"
+				( objectStatus "F40" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i190"
+				( objectStatus "F39" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i186"
+				( objectStatus "F38" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i184"
+				( objectStatus "F37" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i176"
+				( objectStatus "F36" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i173"
+				( objectStatus "F35" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i178"
+				( objectStatus "F34" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i179"
+				( objectStatus "F33" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i182"
+				( objectStatus "F32" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i183"
+				( objectStatus "F31" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i197"
+				( objectStatus "F30" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i195"
+				( objectStatus "F29" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i208"
+				( objectStatus "F28" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i206"
+				( objectStatus "F27" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i200"
+				( objectStatus "F26" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i198"
+				( objectStatus "F25" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i30"
+				( objectStatus "F24" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i79"
+				( objectStatus "F23" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i201"
+				( objectStatus "F22" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i193"
+				( objectStatus "F8" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i146"
+				( objectStatus "F5" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i147"
+				( objectStatus "F4" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i210"
+				( objectStatus "F3" )
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i209"
+				( objectStatus "F2" )
+			)
+			( bus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in"
+				( memberType ( signal ) )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(0)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(1)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(2)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(3)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(4)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(5)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(6)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(7)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(8)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(9)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(10)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(11)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(12)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(13)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(14)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(15)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(16)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(17)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(18)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(19)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(20)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(21)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(22)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(23)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(24)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(25)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(26)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(27)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(28)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(29)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(30)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(31)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(32)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(33)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(34)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(35)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(36)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(37)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(38)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(39)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(40)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(41)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(42)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(43)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(44)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(45)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(46)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(47)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(48)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(49)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(50)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(51)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(52)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(53)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(54)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(55)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(56)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(57)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(58)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(59)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(60)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(61)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(62)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):analog_in(63)") )
+				( objectStatus "ANALOG_IN" )
+			)
+			( bus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig"
+				( memberType ( signal ) )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(0)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(10)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(11)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(12)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(13)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(14)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(15)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(16)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(17)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(18)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(19)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(1)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(20)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(21)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(22)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(23)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(24)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(25)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(26)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(27)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(28)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(29)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(2)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(30)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(31)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(32)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(33)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(34)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(35)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(36)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(37)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(38)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(39)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(3)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(40)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(41)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(42)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(43)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(44)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(45)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(46)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(47)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(48)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(49)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(4)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(50)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(51)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(52)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(53)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(54)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(55)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(56)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(57)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(58)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(59)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(5)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(60)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(61)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(62)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(63)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(6)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(7)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(8)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):trig(9)") )
+				( objectStatus "TRIG" )
+			)
+			( bus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum"
+				( memberType ( signal ) )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(1)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(2)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(3)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(4)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(5)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(6)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(7)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):sum(8)") )
+				( objectStatus "SUM" )
+			)
+			( bus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\or\"
+				( memberType ( signal ) )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\or\(0)") )
+				( member ( signalRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\or\(1)") )
+				( objectStatus "OR" )
+			)
+		)
+	)
+)

@@ -1,0 +1,11 @@
+A!NET_NAME!NET_LOGICAL_PATH!NET_VOLTAGE!
+J!/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_4lemos/physical/pc049a_4lemos_02.brd!Mon Mar 17 14:38:32 2014 CONSTRAINTS_VIEW_GENERATED!-310.6400!
+S!UNNAMED_1_CAPN4I_I10_A_3!@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3!!
+S!UNNAMED_1_CAPN4I_I10_A_2!@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2!!
+S!UNNAMED_1_CAPN4I_I10_A_1!@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1!!
+S!UNNAMED_1_CAPN4I_I10_A!@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a!!
+S!GND_SIGNAL!@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):gnd_signal!!
+S!ANALOG_IN<3>!@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):analog_in(3)!!
+S!ANALOG_IN<2>!@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):analog_in(2)!!
+S!ANALOG_IN<1>!@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):analog_in(1)!!
+S!ANALOG_IN<0>!@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):analog_in(0)!!

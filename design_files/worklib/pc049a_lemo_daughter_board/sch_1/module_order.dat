@@ -1,0 +1,20 @@
+Version 15.0
+START_MODULEORDER
+@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1)	0	1	1	2	0	
+@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page2_i1@uob_hep_pc049a_lib.pc049a_4lemos(sch_1)	0	0	3	1	0	
+@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page2_i137@uob_hep_pc049a_lib.pc049a_4lemos(sch_1)	0	0	4	1	1	
+@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page2_i138@uob_hep_pc049a_lib.pc049a_4lemos(sch_1)	0	0	5	1	1	
+@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page2_i139@uob_hep_pc049a_lib.pc049a_4lemos(sch_1)	0	0	6	1	1	
+@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page2_i140@uob_hep_pc049a_lib.pc049a_4lemos(sch_1)	0	0	7	1	1	
+@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page2_i141@uob_hep_pc049a_lib.pc049a_4lemos(sch_1)	0	0	8	1	1	
+@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page2_i142@uob_hep_pc049a_lib.pc049a_4lemos(sch_1)	0	0	9	1	1	
+@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page2_i143@uob_hep_pc049a_lib.pc049a_4lemos(sch_1)	0	0	10	1	1	
+@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page2_i144@uob_hep_pc049a_lib.pc049a_4lemos(sch_1)	0	0	11	1	1	
+@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page2_i18@uob_hep_pc049a_lib.pc049a_4lemos(sch_1)	0	0	12	1	1	
+@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page2_i27@uob_hep_pc049a_lib.pc049a_4lemos(sch_1)	0	0	13	1	1	
+@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page2_i36@uob_hep_pc049a_lib.pc049a_4lemos(sch_1)	0	0	14	1	1	
+@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page2_i45@uob_hep_pc049a_lib.pc049a_4lemos(sch_1)	0	0	15	1	1	
+@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page2_i54@uob_hep_pc049a_lib.pc049a_4lemos(sch_1)	0	0	16	1	1	
+@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page2_i63@uob_hep_pc049a_lib.pc049a_4lemos(sch_1)	0	0	17	1	1	
+@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page2_i72@uob_hep_pc049a_lib.pc049a_4lemos(sch_1)	0	0	18	1	1	
+END_MODULEORDER

@@ -1,0 +1,23 @@
+FILE_TYPE=PINLIST;
+{ Packager-XL run on 17-Mar-2014 AT 14:38:33 }
+TIME=' COMPILATION ON 17-Mar-2014 AT 14:38:33';
+primitive 'CAPN4I-100NF,16V,X7R,CKCA43';body 'CAPN4I';
+    'B'<0>:'(2,4,6,8)';$S;BIDI;
+    'A'<0>:'(1,3,5,7)';$S;BIDI;
+end_primitive;
+primitive 'COAX-PLEMO00D';body 'COAX';
+    'A':'(1)';
+    'B'<0>:'(2)';
+    'B'<1>:'(3)';
+    'B'<2>:'(4)';
+    'B'<3>:'(5)';
+end_primitive;
+primitive 'PRTR5V0U4Y';  body 'PRTR5V0U4Y';
+    'ESD4':'(6)';BIDI;
+    'ESD1':'(1)';BIDI;
+    'ESD2':'(3)';BIDI;
+    'GND':'(2)';
+    'ESD3':'(4)';BIDI;
+    'VCC':'(5)';
+end_primitive;
+END.

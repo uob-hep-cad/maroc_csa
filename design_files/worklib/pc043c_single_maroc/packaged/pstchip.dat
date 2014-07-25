@@ -1,11 +1,10 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 13-Mar-2014 AT 16:16:51 }
+{ Packager-XL run on 20-Mar-2014 AT 09:19:22 }
 primitive '1-HOLE_0-8-BASE';
   pin
     'A'<0>:
       PIN_NUMBER='(1)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
   end_pin;
   body
       PART_NAME='1-HOLE';
@@ -29,14 +28,12 @@ primitive 'CAPCERSMDCL2_0402-100NF,16V_GEN';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -72,14 +69,12 @@ primitive 'CAPCERSMDCL2_0603-10UF_X5R,6.3V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -111,13 +106,10 @@ primitive 'CON3P-SIL254D';
   pin
     'A'<2>:
       PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
     'A'<1>:
       PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
     'A'<0>:
       PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='CON3P';
@@ -130,41 +122,34 @@ primitive 'CON3P-SIL254D';
       PHYS_DES_PREFIX='J';
       CLASS='IO';
       STATUS='Preferred';
-      PART_NUMBER='38603581 08440';
-      MANUFACTURER='COMATEL';
-      DESCRIPTION='3 Pins of 6.3mm Height Vertical Male Header';
+      PART_NUMBER='MTLW-103-07-L-S-250';
+      MANUFACTURER='SAMTEC';
+      DESCRIPTION='3 Contacts 2.54mm Pitch Single Row Vertical 0.25 Square Post ~
+Header - Insulator 1.52mm';
       DATASHEET_URL='';
       PINCOUNT='3';
       SMD='NO';
       CASE='_';
       JEDEC_TYPE='CONHE13D3X1M';
-      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=09.55.~
-10.708.9';
       PARENT_PART_TYPE='CON3P';
       PARENT_PPT='CON3P';
       PARENT_PPT_PART='CON3P-SIL254D';
   end_body;
 end_primitive;
-primitive 'CON6P-SSW103_01GD';
+primitive 'CON6P-SSW-103-01-G-D';
   pin
     'A'<5>:
       PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
     'A'<4>:
       PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
     'A'<3>:
       PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
     'A'<2>:
       PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
     'A'<1>:
       PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
     'A'<0>:
       PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='CON6P';
@@ -181,14 +166,16 @@ primitive 'CON6P-SSW103_01GD';
       STATUS='';
       PART_NUMBER='SSW-103-01-G-D';
       MANUFACTURER='SAMTEC';
-      DESCRIPTION='SOCKET STRAIGHT DOUBLE ROW 2.54 MM PITCH SSW SERIES';
-      DATASHEET_URL='';
-      SMD='NO';
+      DESCRIPTION='6 Pins 2.54mm Pitch Through-Hole 0.25 Square Post Socket';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/samtec_SSW.pd~
+f';
       PINCOUNT='6';
-      JEDEC_TYPE='BAR2X6FD_254';
+      SMD='NO';
+      CASE='_';
+      JEDEC_TYPE='SAMTEC_SSW-103-01-G-D';
       PARENT_PART_TYPE='CON6P';
       PARENT_PPT='CON6P';
-      PARENT_PPT_PART='CON6P-SSW103_01GD';
+      PARENT_PPT_PART='CON6P-SSW-103-01-G-D';
   end_body;
 end_primitive;
 primitive 'DIODE_CA_SCHOTTKY-RB751V40T1';
@@ -226,6 +213,41 @@ primitive 'DIODE_CA_SCHOTTKY-RB751V40T1';
       PARENT_PPT_PART='DIODE_CA_SCHOTTKY-RB751V40T1';
   end_body;
 end_primitive;
+primitive 'ELCAPTAN_SMD_A-22UF,6.3V';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+  end_pin;
+  body
+      PART_NAME='ELCAPTAN';
+      BODY_NAME='ELCAPTAN';
+      CLASS='DISCRETE';
+      NO_IO_CHECK='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      PHYS_DES_PREFIX='C';
+      DESCRIPTION='Tantalum Electrolytic Capacitor';
+      VALUE='22uF';
+      JEDEC_TYPE='C3216POL';
+      PART_NUMBER='TCJA226M006R0300';
+      MANUFACTURER='AVX';
+      CASE='A';
+      SMD='YES';
+      PARENT_PART_TYPE='ELCAPTAN_SMD_A';
+      PARENT_PPT='ELCAPTAN';
+      PARENT_PPT_PART='ELCAPTAN_SMD_A-22UF,6.3V';
+  end_body;
+end_primitive;
 primitive 'MAROC3_PQFP-IN2P3';
   pin
     'IN0':
@@ -236,7 +258,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN1':
       PIN_NUMBER='(239,0,0)';
       PIN_TYPE='ANALOG';
@@ -245,7 +266,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN2':
       PIN_NUMBER='(240,0,0)';
       PIN_TYPE='ANALOG';
@@ -254,7 +274,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN3':
       PIN_NUMBER='(1,0,0)';
       PIN_TYPE='ANALOG';
@@ -263,7 +282,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN4':
       PIN_NUMBER='(2,0,0)';
       PIN_TYPE='ANALOG';
@@ -272,7 +290,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN5':
       PIN_NUMBER='(3,0,0)';
       PIN_TYPE='ANALOG';
@@ -281,7 +298,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN6':
       PIN_NUMBER='(4,0,0)';
       PIN_TYPE='ANALOG';
@@ -290,7 +306,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN7':
       PIN_NUMBER='(5,0,0)';
       PIN_TYPE='ANALOG';
@@ -299,7 +314,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN8':
       PIN_NUMBER='(6,0,0)';
       PIN_TYPE='ANALOG';
@@ -308,7 +322,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN9':
       PIN_NUMBER='(7,0,0)';
       PIN_TYPE='ANALOG';
@@ -317,7 +330,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN10':
       PIN_NUMBER='(8,0,0)';
       PIN_TYPE='ANALOG';
@@ -326,7 +338,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN11':
       PIN_NUMBER='(9,0,0)';
       PIN_TYPE='ANALOG';
@@ -335,7 +346,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN12':
       PIN_NUMBER='(10,0,0)';
       PIN_TYPE='ANALOG';
@@ -344,7 +354,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN13':
       PIN_NUMBER='(11,0,0)';
       PIN_TYPE='ANALOG';
@@ -353,7 +362,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN14':
       PIN_NUMBER='(12,0,0)';
       PIN_TYPE='ANALOG';
@@ -362,7 +370,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN15':
       PIN_NUMBER='(13,0,0)';
       PIN_TYPE='ANALOG';
@@ -371,7 +378,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN16':
       PIN_NUMBER='(14,0,0)';
       PIN_TYPE='ANALOG';
@@ -380,7 +386,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN17':
       PIN_NUMBER='(15,0,0)';
       PIN_TYPE='ANALOG';
@@ -389,7 +394,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN18':
       PIN_NUMBER='(16,0,0)';
       PIN_TYPE='ANALOG';
@@ -398,7 +402,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN19':
       PIN_NUMBER='(17,0,0)';
       PIN_TYPE='ANALOG';
@@ -407,7 +410,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN20':
       PIN_NUMBER='(18,0,0)';
       PIN_TYPE='ANALOG';
@@ -416,7 +418,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN21':
       PIN_NUMBER='(19,0,0)';
       PIN_TYPE='ANALOG';
@@ -425,7 +426,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN22':
       PIN_NUMBER='(20,0,0)';
       PIN_TYPE='ANALOG';
@@ -434,7 +434,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN23':
       PIN_NUMBER='(21,0,0)';
       PIN_TYPE='ANALOG';
@@ -443,7 +442,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN24':
       PIN_NUMBER='(22,0,0)';
       PIN_TYPE='ANALOG';
@@ -452,7 +450,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN25':
       PIN_NUMBER='(23,0,0)';
       PIN_TYPE='ANALOG';
@@ -461,7 +458,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN26':
       PIN_NUMBER='(24,0,0)';
       PIN_TYPE='ANALOG';
@@ -470,7 +466,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN27':
       PIN_NUMBER='(25,0,0)';
       PIN_TYPE='ANALOG';
@@ -479,7 +474,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN28':
       PIN_NUMBER='(26,0,0)';
       PIN_TYPE='ANALOG';
@@ -488,7 +482,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN29':
       PIN_NUMBER='(27,0,0)';
       PIN_TYPE='ANALOG';
@@ -497,7 +490,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN30':
       PIN_NUMBER='(28,0,0)';
       PIN_TYPE='ANALOG';
@@ -506,7 +498,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN31':
       PIN_NUMBER='(29,0,0)';
       PIN_TYPE='ANALOG';
@@ -515,7 +506,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN32':
       PIN_NUMBER='(31,0,0)';
       PIN_TYPE='ANALOG';
@@ -524,7 +514,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN33':
       PIN_NUMBER='(32,0,0)';
       PIN_TYPE='ANALOG';
@@ -533,7 +522,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN34':
       PIN_NUMBER='(33,0,0)';
       PIN_TYPE='ANALOG';
@@ -542,7 +530,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN35':
       PIN_NUMBER='(34,0,0)';
       PIN_TYPE='ANALOG';
@@ -551,7 +538,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN36':
       PIN_NUMBER='(35,0,0)';
       PIN_TYPE='ANALOG';
@@ -560,7 +546,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN37':
       PIN_NUMBER='(36,0,0)';
       PIN_TYPE='ANALOG';
@@ -569,7 +554,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN38':
       PIN_NUMBER='(37,0,0)';
       PIN_TYPE='ANALOG';
@@ -578,7 +562,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN39':
       PIN_NUMBER='(38,0,0)';
       PIN_TYPE='ANALOG';
@@ -587,7 +570,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN40':
       PIN_NUMBER='(39,0,0)';
       PIN_TYPE='ANALOG';
@@ -596,7 +578,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN41':
       PIN_NUMBER='(40,0,0)';
       PIN_TYPE='ANALOG';
@@ -605,7 +586,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN42':
       PIN_NUMBER='(41,0,0)';
       PIN_TYPE='ANALOG';
@@ -614,7 +594,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN43':
       PIN_NUMBER='(42,0,0)';
       PIN_TYPE='ANALOG';
@@ -623,7 +602,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN44':
       PIN_NUMBER='(43,0,0)';
       PIN_TYPE='ANALOG';
@@ -632,7 +610,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN45':
       PIN_NUMBER='(44,0,0)';
       PIN_TYPE='ANALOG';
@@ -641,7 +618,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN46':
       PIN_NUMBER='(45,0,0)';
       PIN_TYPE='ANALOG';
@@ -650,7 +626,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN47':
       PIN_NUMBER='(46,0,0)';
       PIN_TYPE='ANALOG';
@@ -659,7 +634,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN48':
       PIN_NUMBER='(47,0,0)';
       PIN_TYPE='ANALOG';
@@ -668,7 +642,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN49':
       PIN_NUMBER='(48,0,0)';
       PIN_TYPE='ANALOG';
@@ -677,7 +650,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN50':
       PIN_NUMBER='(49,0,0)';
       PIN_TYPE='ANALOG';
@@ -686,7 +658,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN51':
       PIN_NUMBER='(50,0,0)';
       PIN_TYPE='ANALOG';
@@ -695,7 +666,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN52':
       PIN_NUMBER='(51,0,0)';
       PIN_TYPE='ANALOG';
@@ -704,7 +674,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN53':
       PIN_NUMBER='(52,0,0)';
       PIN_TYPE='ANALOG';
@@ -713,7 +682,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN54':
       PIN_NUMBER='(53,0,0)';
       PIN_TYPE='ANALOG';
@@ -722,7 +690,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN55':
       PIN_NUMBER='(54,0,0)';
       PIN_TYPE='ANALOG';
@@ -731,7 +698,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN56':
       PIN_NUMBER='(55,0,0)';
       PIN_TYPE='ANALOG';
@@ -740,7 +706,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN57':
       PIN_NUMBER='(56,0,0)';
       PIN_TYPE='ANALOG';
@@ -749,7 +714,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN58':
       PIN_NUMBER='(57,0,0)';
       PIN_TYPE='ANALOG';
@@ -758,7 +722,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN59':
       PIN_NUMBER='(58,0,0)';
       PIN_TYPE='ANALOG';
@@ -767,7 +730,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN60':
       PIN_NUMBER='(59,0,0)';
       PIN_TYPE='ANALOG';
@@ -776,7 +738,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN61':
       PIN_NUMBER='(60,0,0)';
       PIN_TYPE='ANALOG';
@@ -785,7 +746,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN62':
       PIN_NUMBER='(61,0,0)';
       PIN_TYPE='ANALOG';
@@ -794,7 +754,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN63':
       PIN_NUMBER='(62,0,0)';
       PIN_TYPE='ANALOG';
@@ -803,271 +762,204 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'OUT0':
       PIN_NUMBER='(182,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT1':
       PIN_NUMBER='(181,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT2':
       PIN_NUMBER='(180,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT3':
       PIN_NUMBER='(179,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT4':
       PIN_NUMBER='(178,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT5':
       PIN_NUMBER='(177,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT6':
       PIN_NUMBER='(176,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT7':
       PIN_NUMBER='(175,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT8':
       PIN_NUMBER='(174,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT9':
       PIN_NUMBER='(173,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT10':
       PIN_NUMBER='(172,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT11':
       PIN_NUMBER='(171,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT12':
       PIN_NUMBER='(170,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT13':
       PIN_NUMBER='(169,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT14':
       PIN_NUMBER='(168,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT15':
       PIN_NUMBER='(167,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT16':
       PIN_NUMBER='(166,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT17':
       PIN_NUMBER='(165,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT18':
       PIN_NUMBER='(164,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT19':
       PIN_NUMBER='(163,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT20':
       PIN_NUMBER='(162,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT21':
       PIN_NUMBER='(161,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT22':
       PIN_NUMBER='(160,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT23':
       PIN_NUMBER='(159,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT24':
       PIN_NUMBER='(158,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT25':
       PIN_NUMBER='(157,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT26':
       PIN_NUMBER='(156,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT27':
       PIN_NUMBER='(155,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT28':
       PIN_NUMBER='(154,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT29':
       PIN_NUMBER='(153,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT30':
       PIN_NUMBER='(152,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT31':
       PIN_NUMBER='(151,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT32':
       PIN_NUMBER='(149,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT33':
       PIN_NUMBER='(148,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT34':
       PIN_NUMBER='(147,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT35':
       PIN_NUMBER='(146,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT36':
       PIN_NUMBER='(145,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT37':
       PIN_NUMBER='(144,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT38':
       PIN_NUMBER='(143,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT39':
       PIN_NUMBER='(142,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT40':
       PIN_NUMBER='(141,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT41':
       PIN_NUMBER='(140,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT42':
       PIN_NUMBER='(139,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT43':
       PIN_NUMBER='(138,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT44':
       PIN_NUMBER='(137,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT45':
       PIN_NUMBER='(136,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT46':
       PIN_NUMBER='(135,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT47':
       PIN_NUMBER='(134,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT48':
       PIN_NUMBER='(133,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT49':
       PIN_NUMBER='(132,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT50':
       PIN_NUMBER='(131,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT51':
       PIN_NUMBER='(130,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT52':
       PIN_NUMBER='(129,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT53':
       PIN_NUMBER='(128,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT54':
       PIN_NUMBER='(127,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT55':
       PIN_NUMBER='(126,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT56':
       PIN_NUMBER='(125,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT57':
       PIN_NUMBER='(124,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT58':
       PIN_NUMBER='(123,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT59':
       PIN_NUMBER='(122,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT60':
       PIN_NUMBER='(121,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT61':
       PIN_NUMBER='(120,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT62':
       PIN_NUMBER='(119,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT63':
       PIN_NUMBER='(118,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OR_0':
       PIN_NUMBER='(191,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OR_1':
       PIN_NUMBER='(192,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'NC':
       PIN_NUMBER='(232,0,0)';
       PINUSE='NC';
@@ -1143,7 +1035,6 @@ primitive 'MAROC3_PQFP-IN2P3';
     'D_SC':
       PIN_NUMBER='(0,64,0)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'CK_R':
       PIN_NUMBER='(0,78,0)';
       PINUSE='UNSPEC';
@@ -1280,7 +1171,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'VBI_DISCRI':
       PIN_NUMBER='(0,104,0)';
       PINUSE='UNSPEC';
@@ -1348,7 +1238,6 @@ primitive 'MAROC3_PQFP-IN2P3';
     'OUT_ADC':
       PIN_NUMBER='(0,114,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'START_ADCB':
       PIN_NUMBER='(0,116,0)';
       PINUSE='UNSPEC';
@@ -1597,7 +1486,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'VSSA':
       PIN_NUMBER='(0,0,65)';
       PIN_TYPE='ANALOG';
@@ -1606,7 +1494,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'GND_DAC':
       PIN_NUMBER='(0,0,85)';
       PINUSE='GROUND';
@@ -1969,14 +1856,12 @@ primitive 'RSMD0402_0.0625W-XX,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -2009,14 +1894,12 @@ primitive 'RSMD0402_1/16W-100,0.1%_GEN';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -2048,14 +1931,12 @@ primitive 'RSMD0402_1/16W-100,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -2087,14 +1968,12 @@ primitive 'RSMD0402_1/16W-10R,5%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -2126,14 +2005,12 @@ primitive 'RSMD0402_1/16W-1K,5%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -2165,14 +2042,12 @@ primitive 'RSMD0402_1/16W-3.3R,5%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -2204,14 +2079,12 @@ primitive 'RSMD0402_1/16W-51,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -2235,88 +2108,6 @@ primitive 'RSMD0402_1/16W-51,1%';
       PARENT_PPT_PART='RSMD0402_1/16W-51,1%';
   end_body;
 end_primitive;
-primitive 'RSMD0603_1/10W-120,1%';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='RSMD0603';
-      BODY_NAME='RSMD0603';
-      CLASS='DISCRETE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='R';
-      DESCRIPTION='SMD Resistor';
-      CASE='0603';
-      SMD='YES';
-      STATUS='Preferred';
-      PART_NUMBER='R0603_120R_1%_0.1W_100PPM';
-      VALUE='120';
-      TOL='1%';
-      PWR='0.1W';
-      JEDEC_TYPE='C0603';
-      MANUFACTURER='GENERIC';
-      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
-03.212.5';
-      PARENT_PART_TYPE='RSMD0603_1/10W';
-      PARENT_PPT='RSMD0603';
-      PARENT_PPT_PART='RSMD0603_1/10W-120,1%';
-  end_body;
-end_primitive;
-primitive 'RSMD0603_1/10W-150,1%';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='RSMD0603';
-      BODY_NAME='RSMD0603';
-      CLASS='DISCRETE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='R';
-      DESCRIPTION='SMD Resistor';
-      CASE='0603';
-      SMD='YES';
-      STATUS='Preferred';
-      PART_NUMBER='R0603_150R_1%_0.1W_100PPM';
-      VALUE='150';
-      TOL='1%';
-      PWR='0.1W';
-      JEDEC_TYPE='C0603';
-      MANUFACTURER='GENERIC';
-      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
-03.215.2';
-      PARENT_PART_TYPE='RSMD0603_1/10W';
-      PARENT_PPT='RSMD0603';
-      PARENT_PPT_PART='RSMD0603_1/10W-150,1%';
-  end_body;
-end_primitive;
 primitive 'RSMD0603_1/10W-82,1%';
   pin
     'A'<0>:
@@ -2325,14 +2116,12 @@ primitive 'RSMD0603_1/10W-82,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -2356,6 +2145,57 @@ primitive 'RSMD0603_1/10W-82,1%';
       PARENT_PART_TYPE='RSMD0603_1/10W';
       PARENT_PPT='RSMD0603';
       PARENT_PPT_PART='RSMD0603_1/10W-82,1%';
+  end_body;
+end_primitive;
+primitive 'TPS77625D';
+  pin
+    'EN*':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'GND':
+      PIN_NUMBER='(1)';
+      PINUSE='GROUND';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'OUT'<1>:
+      PIN_NUMBER='(5)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'OUT'<2>:
+      PIN_NUMBER='(6)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'IN'<1>:
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'IN'<2>:
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'PG':
+      PIN_NUMBER='(8)';
+      INPUT_LOAD='(-0.01,0.01)';
+  end_pin;
+  body
+      PART_NAME='TPS776XX';
+      BODY_NAME='TPS776XX';
+      PHYS_DES_PREFIX='RG';
+      CLASS='IC';
+      STATUS='Preferred';
+      PART_NUMBER='TPS77625D';
+      MANUFACTURER='TEXAS INSTRUMENTS';
+      DESCRIPTION='500mA, Fast-Transient-Response, Low-Dropout Voltage Regulator~
+ With PG Output';
+      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/tps776xx.pdf';
+      PINCOUNT='8';
+      SMD='YES';
+      CASE='SOIC8';
+      JEDEC_TYPE='SOIC127P600X175-8N';
+      VALUE='2.5V';
+      NC_PINS='(7)';
+      PARENT_PART_TYPE='TPS776XX_SOIC';
+      PARENT_PPT='TPS776XX';
+      PARENT_PPT_PART='TPS77625D';
   end_body;
 end_primitive;
 END.

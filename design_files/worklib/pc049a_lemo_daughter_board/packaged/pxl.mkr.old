@@ -1,0 +1,1002 @@
+(marker_file
+ (version 5.0)
+ (markers
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U2.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U2.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I78@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i78@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 2 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I78@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I78;")
+     (parent_canonical_name "DRAWERROR inst I78")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U2.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U2.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I77@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i77@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 4 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I77@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I77;")
+     (parent_canonical_name "DRAWERROR inst I77")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U3.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U3.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I108@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i108@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 4 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I108@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I108;")
+     (parent_canonical_name "DRAWERROR inst I108")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U3.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U3.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I75@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i75@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 5 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I75@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I75;")
+     (parent_canonical_name "DRAWERROR inst I75")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U3.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U3.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I76@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i76@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 7 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I76@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I76;")
+     (parent_canonical_name "DRAWERROR inst I76")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U4.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U4.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I104@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i104@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 4 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I104@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I104;")
+     (parent_canonical_name "DRAWERROR inst I104")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U4.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U4.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I107@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i107@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 7 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I107@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I107;")
+     (parent_canonical_name "DRAWERROR inst I107")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U5.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U5.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I101@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i101@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 2 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I101@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I101;")
+     (parent_canonical_name "DRAWERROR inst I101")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U5.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U5.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I100@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i100@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 4 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I100@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I100;")
+     (parent_canonical_name "DRAWERROR inst I100")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U5.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U5.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I102@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i102@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 5 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I102@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I102;")
+     (parent_canonical_name "DRAWERROR inst I102")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U5.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U5.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I103@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i103@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 7 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I103@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I103;")
+     (parent_canonical_name "DRAWERROR inst I103")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U6.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U6.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I97@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i97@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 2 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I97@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I97;")
+     (parent_canonical_name "DRAWERROR inst I97")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U6.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U6.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I96@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i96@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 4 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I96@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I96;")
+     (parent_canonical_name "DRAWERROR inst I96")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U6.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U6.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I98@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i98@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 5 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I98@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I98;")
+     (parent_canonical_name "DRAWERROR inst I98")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U6.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U6.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I99@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i99@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 7 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I99@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I99;")
+     (parent_canonical_name "DRAWERROR inst I99")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U7.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U7.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I93@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i93@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 2 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I93@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I93;")
+     (parent_canonical_name "DRAWERROR inst I93")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U7.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U7.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I92@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i92@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 4 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I92@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I92;")
+     (parent_canonical_name "DRAWERROR inst I92")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U7.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U7.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I94@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i94@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 5 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I94@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I94;")
+     (parent_canonical_name "DRAWERROR inst I94")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U7.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U7.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I95@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i95@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 7 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I95@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I95;")
+     (parent_canonical_name "DRAWERROR inst I95")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U8.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U8.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I89@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i89@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 2 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I89@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I89;")
+     (parent_canonical_name "DRAWERROR inst I89")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U8.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U8.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I88@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i88@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 4 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I88@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I88;")
+     (parent_canonical_name "DRAWERROR inst I88")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U8.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U8.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I90@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i90@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 5 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I90@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I90;")
+     (parent_canonical_name "DRAWERROR inst I90")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U8.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U8.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I91@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i91@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 7 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I91@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I91;")
+     (parent_canonical_name "DRAWERROR inst I91")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U9.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U9.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I85@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i85@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 2 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I85@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I85;")
+     (parent_canonical_name "DRAWERROR inst I85")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U9.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U9.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I86@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i86@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 5 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I86@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I86;")
+     (parent_canonical_name "DRAWERROR inst I86")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1109)
+   (short_msg "ERROR(SPCOPK-1109): Cannot package instance into package U9.")
+   (long_msg "ERROR(SPCOPK-1109): Cannot package instance into package U9.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I87@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i87@bris_cds_analogue.prtr5v0u8s(chips)
+        The instances have the same location property value. Change the location property value for any one of the instances in the Design Entry HDL Schematic.
+       Section 7 is assigned @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I87@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) (MODULE: PC049A_LEMO_DAUGHTER_BOARD; PART: PRTR5V0U8S)
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I87;")
+     (parent_canonical_name "DRAWERROR inst I87")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I75@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I75@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I75;")
+     (parent_canonical_name "DRAWERROR inst I75")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I76@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I76@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I76;")
+     (parent_canonical_name "DRAWERROR inst I76")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I77@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I77@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I77;")
+     (parent_canonical_name "DRAWERROR inst I77")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I78@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I78@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I78;")
+     (parent_canonical_name "DRAWERROR inst I78")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I85@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I85@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I85;")
+     (parent_canonical_name "DRAWERROR inst I85")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I86@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I86@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I86;")
+     (parent_canonical_name "DRAWERROR inst I86")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I87@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I87@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I87;")
+     (parent_canonical_name "DRAWERROR inst I87")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I88@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I88@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I88;")
+     (parent_canonical_name "DRAWERROR inst I88")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I89@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I89@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I89;")
+     (parent_canonical_name "DRAWERROR inst I89")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I90@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I90@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I90;")
+     (parent_canonical_name "DRAWERROR inst I90")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I91@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I91@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I91;")
+     (parent_canonical_name "DRAWERROR inst I91")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I92@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I92@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I92;")
+     (parent_canonical_name "DRAWERROR inst I92")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I93@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I93@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I93;")
+     (parent_canonical_name "DRAWERROR inst I93")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I94@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I94@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I94;")
+     (parent_canonical_name "DRAWERROR inst I94")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I95@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I95@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I95;")
+     (parent_canonical_name "DRAWERROR inst I95")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I96@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I96@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I96;")
+     (parent_canonical_name "DRAWERROR inst I96")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I97@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I97@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I97;")
+     (parent_canonical_name "DRAWERROR inst I97")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I98@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I98@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I98;")
+     (parent_canonical_name "DRAWERROR inst I98")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I99@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I99@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I99;")
+     (parent_canonical_name "DRAWERROR inst I99")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I100@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I100@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I100;")
+     (parent_canonical_name "DRAWERROR inst I100")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I101@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I101@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I101;")
+     (parent_canonical_name "DRAWERROR inst I101")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I102@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I102@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I102;")
+     (parent_canonical_name "DRAWERROR inst I102")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I103@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I103@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I103;")
+     (parent_canonical_name "DRAWERROR inst I103")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I104@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I104@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I104;")
+     (parent_canonical_name "DRAWERROR inst I104")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I107@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I107@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I107;")
+     (parent_canonical_name "DRAWERROR inst I107")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 101)
+   (short_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I108@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.")
+   (long_msg "ERROR(SPCODD-101): Primitive @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I108@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS) is not packaged.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I108;")
+     (parent_canonical_name "DRAWERROR inst I108")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 100)
+   (short_msg "ERROR(SPCODD-100): State file not written for design PC049A_LEMO_DAUGHTER_BOARD.")
+   (long_msg "ERROR(SPCODD-100): State file not written for design PC049A_LEMO_DAUGHTER_BOARD.
+")
+  )
+ )
+)

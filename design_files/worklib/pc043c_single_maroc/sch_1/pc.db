@@ -1,802 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.5-S029 (v16-5-13BU) 8/27/2012 on Thu Mar 13 15:58:04 2014
-#ISCELL
-  bris_cds_standard a3-2000 *
-  *
-#CELL
-  bris_cds_analogue maroc3 *
-  page3_i1
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i100
-#ISCELL
-  standard gnd_signal *
-  page3_i101
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i102
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i103
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i104
-#ISCELL
-  standard gnd_signal *
-  page3_i105
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i106
-#ISCELL
-  standard gnd_signal *
-  page3_i107
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i108
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i109
-#ISCELL
-  standard inport *
-  page3_i11
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i110
-#ISCELL
-  standard gnd_signal *
-  page3_i111
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i112
-#ISCELL
-  standard gnd_signal *
-  page3_i113
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i114
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i115
-#ISCELL
-  standard gnd_signal *
-  page3_i116
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i117
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i118
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i119
-#ISCELL
-  standard inport *
-  page3_i12
-#ISCELL
-  standard gnd_signal *
-  page3_i120
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i121
-#ISCELL
-  standard gnd_signal *
-  page3_i122
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i123
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i124
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i125
-#ISCELL
-  standard gnd_signal *
-  page3_i126
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i127
-#ISCELL
-  standard gnd_signal *
-  page3_i128
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i129
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i130
-#ISCELL
-  standard gnd_signal *
-  page3_i131
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i132
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i133
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i134
-#ISCELL
-  standard gnd_signal *
-  page3_i135
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i136
-#ISCELL
-  standard gnd_signal *
-  page3_i137
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i138
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i139
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i140
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i142
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i143
-#ISCELL
-  standard gnd_signal *
-  page3_i144
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i145
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i146
-#ISCELL
-  standard gnd_signal *
-  page3_i147
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i148
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i149
-#ISCELL
-  standard gnd_signal *
-  page3_i150
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i151
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i152
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i153
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i154
-#ISCELL
-  standard gnd_signal *
-  page3_i155
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i156
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i157
-#ISCELL
-  standard gnd_signal *
-  page3_i158
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i159
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i160
-#ISCELL
-  standard gnd_signal *
-  page3_i161
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i162
-#ISCELL
-  standard gnd_signal *
-  page3_i163
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i164
-#ISCELL
-  standard gnd_signal *
-  page3_i165
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i166
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i167
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i168
-#ISCELL
-  standard gnd_signal *
-  page3_i169
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i170
-#ISCELL
-  standard gnd_signal *
-  page3_i171
-#ISCELL
-  cnpower avdd *
-  page3_i172
-#CELL
-  cnpassive rsmd0402 *
-  page3_i173
-#ISCELL
-  cnpower avdd *
-  page3_i175
-#CELL
-  cnpassive rsmd0402 *
-  page3_i176
-#CELL
-  cnpassive rsmd0402 *
-  page3_i178
-#CELL
-  cnpassive rsmd0402 *
-  page3_i179
-#ISCELL
-  standard gnd_signal *
-  page3_i180
-#ISCELL
-  cnpower avdd *
-  page3_i181
-#CELL
-  cnpassive rsmd0402 *
-  page3_i182
-#CELL
-  cnpassive rsmd0402 *
-  page3_i183
-#CELL
-  cnpassive rsmd0402 *
-  page3_i184
-#ISCELL
-  cnpower avdd *
-  page3_i185
-#CELL
-  cnpassive rsmd0402 *
-  page3_i186
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i187
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i188
-#ISCELL
-  standard gnd_signal *
-  page3_i189
-#CELL
-  cnpassive rsmd0402 *
-  page3_i190
-#ISCELL
-  cnpower avdd *
-  page3_i191
-#CELL
-  cnpassive rsmd0402 *
-  page3_i192
-#CELL
-  cnpassive rsmd0402 *
-  page3_i193
-#ISCELL
-  cnpower avdd *
-  page3_i194
-#CELL
-  cnpassive rsmd0402 *
-  page3_i195
-#ISCELL
-  cnpower avdd *
-  page3_i196
-#CELL
-  cnpassive rsmd0402 *
-  page3_i197
-#CELL
-  cnpassive rsmd0402 *
-  page3_i198
-#ISCELL
-  cnpower avdd *
-  page3_i199
-#ISCELL
-  standard outport *
-  page3_i2
-#CELL
-  cnpassive rsmd0402 *
-  page3_i200
-#CELL
-  cnpassive rsmd0402 *
-  page3_i201
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i203
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i204
-#ISCELL
-  standard gnd_signal *
-  page3_i205
-#CELL
-  cnpassive rsmd0402 *
-  page3_i206
-#ISCELL
-  cnpower avdd *
-  page3_i207
-#CELL
-  cnpassive rsmd0402 *
-  page3_i208
-#CELL
-  cnpassive rsmd0402 *
-  page3_i209
-#CELL
-  cnpassive rsmd0402 *
-  page3_i210
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i211
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i212
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i213
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i214
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i215
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i216
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i217
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i218
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i219
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i220
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i221
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i222
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i223
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i224
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i225
-#ISCELL
-  standard gnd_signal *
-  page3_i226
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i227
-#CELL
-  cnconnector con3p *
-  page3_i228
-#ISCELL
-  standard gnd_signal *
-  page3_i229
-#CELL
-  cnconnector con3p *
-  page3_i231
-#ISCELL
-  standard gnd_signal *
-  page3_i232
-#CELL
-  cnpassive rsmd0603 *
-  page3_i233
-#CELL
-  cnpassive rsmd0603 *
-  page3_i234
-#CELL
-  cnpassive rsmd0603 *
-  page3_i236
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i237
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i238
-#ISCELL
-  standard gnd_signal *
-  page3_i239
-#CELL
-  cnpassive rsmd0402 *
-  page3_i241
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i242
-#ISCELL
-  standard gnd_signal *
-  page3_i243
-#ISCELL
-  cnpower avdd *
-  page3_i244
-#CELL
-  cndiscrete diode_ca *
-  page3_i245
-#CELL
-  cnconnector con6p *
-  page3_i246
-#ISCELL
-  cnpower avdd *
-  page3_i247
-#ISCELL
-  standard gnd_signal *
-  page3_i248
-#ISCELL
-  standard inport *
-  page3_i26
-#ISCELL
-  standard inport *
-  page3_i27
-#ISCELL
-  standard inport *
-  page3_i3
-#ISCELL
-  standard inport *
-  page3_i30
-#ISCELL
-  standard inport *
-  page3_i36
-#ISCELL
-  standard inport *
-  page3_i37
-#ISCELL
-  standard outport *
-  page3_i39
-#ISCELL
-  standard inport *
-  page3_i4
-#ISCELL
-  standard outport *
-  page3_i40
-#ISCELL
-  standard inport *
-  page3_i49
-#ISCELL
-  standard outport *
-  page3_i5
-#ISCELL
-  standard inport *
-  page3_i6
-#ISCELL
-  standard inport *
-  page3_i7
-#ISCELL
-  standard inport *
-  page3_i8
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i82
-#ISCELL
-  standard gnd_signal *
-  page3_i83
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i84
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i85
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i86
-#ISCELL
-  standard gnd_signal *
-  page3_i87
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i88
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i89
-#ISCELL
-  standard inport *
-  page3_i9
-#ISCELL
-  standard gnd_signal *
-  page3_i90
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i91
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i92
-#ISCELL
-  standard gnd_signal *
-  page3_i93
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i94
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i95
-#ISCELL
-  standard gnd_signal *
-  page3_i96
-#CELL
-  bris_cds_connectors 1-hole *
-  page3_i97
-#ISCELL
-  standard gnd_signal *
-  page3_i98
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i99
-#ISCELL
-  bris_cds_standard a3-2000 *
-  *
-#CELL
-  bris_cds_analogue maroc3 *
-  page2_i1
-#CELL
-  cnpassive rsmd0402 *
-  page2_i10
-#CELL
-  bris_cds_connectors 1-hole *
-  page2_i11
-#ISCELL
-  cnpower avdd *
-  page2_i12
-#ISCELL
-  standard gnd_signal *
-  page2_i13
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i14
-#CELL
-  cnpassive rsmd0402 *
-  page2_i15
-#CELL
-  bris_cds_connectors 1-hole *
-  page2_i16
-#ISCELL
-  cnpower avdd *
-  page2_i17
-#ISCELL
-  standard gnd_signal *
-  page2_i18
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i19
-#ISCELL
-  standard gnd_signal *
-  page2_i2
-#CELL
-  cnpassive rsmd0402 *
-  page2_i20
-#CELL
-  bris_cds_connectors 1-hole *
-  page2_i21
-#ISCELL
-  cnpower avdd *
-  page2_i22
-#ISCELL
-  standard gnd_signal *
-  page2_i23
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i24
-#CELL
-  cnpassive rsmd0402 *
-  page2_i25
-#CELL
-  bris_cds_connectors 1-hole *
-  page2_i26
-#ISCELL
-  cnpower avdd *
-  page2_i27
-#ISCELL
-  standard gnd_signal *
-  page2_i28
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i29
-#CELL
-  cnpassive rsmd0402 *
-  page2_i3
-#CELL
-  cnpassive rsmd0402 *
-  page2_i30
-#CELL
-  bris_cds_connectors 1-hole *
-  page2_i31
-#ISCELL
-  cnpower avdd *
-  page2_i32
-#ISCELL
-  standard gnd_signal *
-  page2_i33
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i34
-#CELL
-  cnpassive rsmd0402 *
-  page2_i35
-#CELL
-  bris_cds_connectors 1-hole *
-  page2_i36
-#ISCELL
-  cnpower avdd *
-  page2_i37
-#CELL
-  bris_cds_connectors 1-hole *
-  page2_i38
-#ISCELL
-  cnpower avdd *
-  page2_i39
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i4
-#CELL
-  cnpassive rsmd0402 *
-  page2_i40
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i41
-#CELL
-  bris_cds_connectors 1-hole *
-  page2_i42
-#ISCELL
-  cnpower avdd *
-  page2_i43
-#CELL
-  cnpassive rsmd0402 *
-  page2_i44
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i45
-#ISCELL
-  cnpower avdd *
-  page2_i46
-#CELL
-  bris_cds_connectors 1-hole *
-  page2_i47
-#CELL
-  cnpassive rsmd0402 *
-  page2_i48
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i49
-#CELL
-  bris_cds_connectors 1-hole *
-  page2_i50
-#CELL
-  cnpassive rsmd0402 *
-  page2_i51
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i52
-#ISCELL
-  cnpower avdd *
-  page2_i53
-#CELL
-  bris_cds_connectors 1-hole *
-  page2_i54
-#ISCELL
-  cnpower avdd *
-  page2_i55
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i56
-#CELL
-  cnpassive rsmd0402 *
-  page2_i57
-#CELL
-  bris_cds_connectors 1-hole *
-  page2_i58
-#ISCELL
-  cnpower avdd *
-  page2_i59
-#ISCELL
-  standard gnd_signal *
-  page2_i6
-#CELL
-  cnpassive rsmd0402 *
-  page2_i60
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i61
-#ISCELL
-  standard gnd_signal *
-  page2_i62
-#ISCELL
-  standard gnd_signal *
-  page2_i63
-#ISCELL
-  standard gnd_signal *
-  page2_i64
-#ISCELL
-  standard gnd_signal *
-  page2_i65
-#ISCELL
-  standard gnd_signal *
-  page2_i66
-#ISCELL
-  standard gnd_signal *
-  page2_i67
-#CELL
-  bris_cds_connectors 1-hole *
-  page2_i68
-#CELL
-  bris_cds_connectors 1-hole *
-  page2_i7
-#CELL
-  cnpassive rsmd0402 *
-  page2_i70
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i71
-#ISCELL
-  standard gnd_signal *
-  page2_i72
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i75
-#CELL
-  bris_cds_connectors 1-hole *
-  page2_i76
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i77
-#ISCELL
-  cnpower avdd *
-  page2_i78
-#CELL
-  cnpassive rsmd0402 *
-  page2_i79
-#ISCELL
-  standard gnd_signal *
-  page2_i8
-#ISCELL
-  standard gnd_signal *
-  page2_i80
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i81
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i82
-#CELL
-  cnpassive rsmd0402 *
-  page2_i83
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i84
-#ISCELL
-  standard gnd_signal *
-  page2_i85
-#ISCELL
-  standard gnd_signal *
-  page2_i86
-#CELL
-  cnpassive rsmd0402 *
-  page2_i87
-#ISCELL
-  cnpower avdd *
-  page2_i88
-#ISCELL
-  cnpower avdd *
-  page2_i89
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i9
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.5-S029 (v16-5-13BU) 8/27/2012 on Wed Mar 19 17:51:42 2014
 #ISCELL
   bris_cds_standard a3-2000 *
   *
@@ -1244,3 +446,798 @@
 #ISCELL
   standard tap *
   page1_i99
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
+#CELL
+  bris_cds_analogue maroc3 *
+  page2_i1
+#CELL
+  cnpassive rsmd0402 *
+  page2_i10
+#CELL
+  bris_cds_connectors 1-hole *
+  page2_i11
+#ISCELL
+  cnpower avdd *
+  page2_i12
+#ISCELL
+  standard gnd_signal *
+  page2_i13
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i14
+#CELL
+  cnpassive rsmd0402 *
+  page2_i15
+#CELL
+  bris_cds_connectors 1-hole *
+  page2_i16
+#ISCELL
+  cnpower avdd *
+  page2_i17
+#ISCELL
+  standard gnd_signal *
+  page2_i18
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i19
+#ISCELL
+  standard gnd_signal *
+  page2_i2
+#CELL
+  cnpassive rsmd0402 *
+  page2_i20
+#CELL
+  bris_cds_connectors 1-hole *
+  page2_i21
+#ISCELL
+  cnpower avdd *
+  page2_i22
+#ISCELL
+  standard gnd_signal *
+  page2_i23
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i24
+#CELL
+  cnpassive rsmd0402 *
+  page2_i25
+#CELL
+  bris_cds_connectors 1-hole *
+  page2_i26
+#ISCELL
+  cnpower avdd *
+  page2_i27
+#ISCELL
+  standard gnd_signal *
+  page2_i28
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i29
+#CELL
+  cnpassive rsmd0402 *
+  page2_i3
+#CELL
+  cnpassive rsmd0402 *
+  page2_i30
+#CELL
+  bris_cds_connectors 1-hole *
+  page2_i31
+#ISCELL
+  cnpower avdd *
+  page2_i32
+#ISCELL
+  standard gnd_signal *
+  page2_i33
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i34
+#CELL
+  cnpassive rsmd0402 *
+  page2_i35
+#CELL
+  bris_cds_connectors 1-hole *
+  page2_i36
+#ISCELL
+  cnpower avdd *
+  page2_i37
+#CELL
+  bris_cds_connectors 1-hole *
+  page2_i38
+#ISCELL
+  cnpower avdd *
+  page2_i39
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i4
+#CELL
+  cnpassive rsmd0402 *
+  page2_i40
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i41
+#CELL
+  bris_cds_connectors 1-hole *
+  page2_i42
+#ISCELL
+  cnpower avdd *
+  page2_i43
+#CELL
+  cnpassive rsmd0402 *
+  page2_i44
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i45
+#ISCELL
+  cnpower avdd *
+  page2_i46
+#CELL
+  bris_cds_connectors 1-hole *
+  page2_i47
+#CELL
+  cnpassive rsmd0402 *
+  page2_i48
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i49
+#CELL
+  bris_cds_connectors 1-hole *
+  page2_i50
+#CELL
+  cnpassive rsmd0402 *
+  page2_i51
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i52
+#ISCELL
+  cnpower avdd *
+  page2_i53
+#CELL
+  bris_cds_connectors 1-hole *
+  page2_i54
+#ISCELL
+  cnpower avdd *
+  page2_i55
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i56
+#CELL
+  cnpassive rsmd0402 *
+  page2_i57
+#CELL
+  bris_cds_connectors 1-hole *
+  page2_i58
+#ISCELL
+  cnpower avdd *
+  page2_i59
+#ISCELL
+  standard gnd_signal *
+  page2_i6
+#CELL
+  cnpassive rsmd0402 *
+  page2_i60
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i61
+#ISCELL
+  standard gnd_signal *
+  page2_i62
+#ISCELL
+  standard gnd_signal *
+  page2_i63
+#ISCELL
+  standard gnd_signal *
+  page2_i64
+#ISCELL
+  standard gnd_signal *
+  page2_i65
+#ISCELL
+  standard gnd_signal *
+  page2_i66
+#ISCELL
+  standard gnd_signal *
+  page2_i67
+#CELL
+  bris_cds_connectors 1-hole *
+  page2_i68
+#CELL
+  bris_cds_connectors 1-hole *
+  page2_i7
+#CELL
+  cnpassive rsmd0402 *
+  page2_i70
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i71
+#ISCELL
+  standard gnd_signal *
+  page2_i72
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i75
+#CELL
+  bris_cds_connectors 1-hole *
+  page2_i76
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i77
+#ISCELL
+  cnpower avdd *
+  page2_i78
+#CELL
+  cnpassive rsmd0402 *
+  page2_i79
+#ISCELL
+  standard gnd_signal *
+  page2_i8
+#ISCELL
+  standard gnd_signal *
+  page2_i80
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i81
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i82
+#CELL
+  cnpassive rsmd0402 *
+  page2_i83
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i84
+#ISCELL
+  standard gnd_signal *
+  page2_i85
+#ISCELL
+  standard gnd_signal *
+  page2_i86
+#CELL
+  cnpassive rsmd0402 *
+  page2_i87
+#ISCELL
+  cnpower avdd *
+  page2_i88
+#ISCELL
+  cnpower avdd *
+  page2_i89
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i9
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
+#CELL
+  bris_cds_analogue maroc3 *
+  page3_i1
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i100
+#ISCELL
+  standard gnd_signal *
+  page3_i101
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i102
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i103
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i104
+#ISCELL
+  standard gnd_signal *
+  page3_i105
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i106
+#ISCELL
+  standard gnd_signal *
+  page3_i107
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i108
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i109
+#ISCELL
+  standard inport *
+  page3_i11
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i110
+#ISCELL
+  standard gnd_signal *
+  page3_i111
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i112
+#ISCELL
+  standard gnd_signal *
+  page3_i113
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i114
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i115
+#ISCELL
+  standard gnd_signal *
+  page3_i116
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i117
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i118
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i119
+#ISCELL
+  standard inport *
+  page3_i12
+#ISCELL
+  standard gnd_signal *
+  page3_i120
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i121
+#ISCELL
+  standard gnd_signal *
+  page3_i122
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i123
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i124
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i125
+#ISCELL
+  standard gnd_signal *
+  page3_i126
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i127
+#ISCELL
+  standard gnd_signal *
+  page3_i128
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i129
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i130
+#ISCELL
+  standard gnd_signal *
+  page3_i131
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i132
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i133
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i134
+#ISCELL
+  standard gnd_signal *
+  page3_i135
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i136
+#ISCELL
+  standard gnd_signal *
+  page3_i137
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i138
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i139
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i140
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i142
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i143
+#ISCELL
+  standard gnd_signal *
+  page3_i144
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i145
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i146
+#ISCELL
+  standard gnd_signal *
+  page3_i147
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i148
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i149
+#ISCELL
+  standard gnd_signal *
+  page3_i150
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i151
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i152
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i153
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i154
+#ISCELL
+  standard gnd_signal *
+  page3_i155
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i156
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i157
+#ISCELL
+  standard gnd_signal *
+  page3_i158
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i159
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i160
+#ISCELL
+  standard gnd_signal *
+  page3_i161
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i162
+#ISCELL
+  standard gnd_signal *
+  page3_i163
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i164
+#ISCELL
+  standard gnd_signal *
+  page3_i165
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i166
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i167
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i168
+#ISCELL
+  standard gnd_signal *
+  page3_i169
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i170
+#ISCELL
+  standard gnd_signal *
+  page3_i171
+#ISCELL
+  cnpower avdd *
+  page3_i172
+#CELL
+  cnpassive rsmd0402 *
+  page3_i173
+#ISCELL
+  cnpower avdd *
+  page3_i175
+#CELL
+  cnpassive rsmd0402 *
+  page3_i176
+#CELL
+  cnpassive rsmd0402 *
+  page3_i178
+#CELL
+  cnpassive rsmd0402 *
+  page3_i179
+#ISCELL
+  standard gnd_signal *
+  page3_i180
+#ISCELL
+  cnpower avdd *
+  page3_i181
+#CELL
+  cnpassive rsmd0402 *
+  page3_i182
+#CELL
+  cnpassive rsmd0402 *
+  page3_i183
+#CELL
+  cnpassive rsmd0402 *
+  page3_i184
+#ISCELL
+  cnpower avdd *
+  page3_i185
+#CELL
+  cnpassive rsmd0402 *
+  page3_i186
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i187
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i188
+#ISCELL
+  standard gnd_signal *
+  page3_i189
+#CELL
+  cnpassive rsmd0402 *
+  page3_i190
+#ISCELL
+  cnpower avdd *
+  page3_i191
+#CELL
+  cnpassive rsmd0402 *
+  page3_i192
+#CELL
+  cnpassive rsmd0402 *
+  page3_i193
+#ISCELL
+  cnpower avdd *
+  page3_i194
+#CELL
+  cnpassive rsmd0402 *
+  page3_i195
+#ISCELL
+  cnpower avdd *
+  page3_i196
+#CELL
+  cnpassive rsmd0402 *
+  page3_i197
+#CELL
+  cnpassive rsmd0402 *
+  page3_i198
+#ISCELL
+  cnpower avdd *
+  page3_i199
+#ISCELL
+  standard outport *
+  page3_i2
+#CELL
+  cnpassive rsmd0402 *
+  page3_i200
+#CELL
+  cnpassive rsmd0402 *
+  page3_i201
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i203
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i204
+#ISCELL
+  standard gnd_signal *
+  page3_i205
+#CELL
+  cnpassive rsmd0402 *
+  page3_i206
+#ISCELL
+  cnpower avdd *
+  page3_i207
+#CELL
+  cnpassive rsmd0402 *
+  page3_i208
+#CELL
+  cnpassive rsmd0402 *
+  page3_i209
+#CELL
+  cnpassive rsmd0402 *
+  page3_i210
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i211
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i212
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i213
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i214
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i215
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i216
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i217
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i218
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i219
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i220
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i221
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i222
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i223
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i224
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i225
+#ISCELL
+  standard gnd_signal *
+  page3_i226
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i227
+#CELL
+  cnconnector con3p *
+  page3_i228
+#ISCELL
+  standard gnd_signal *
+  page3_i229
+#CELL
+  cnconnector con3p *
+  page3_i231
+#ISCELL
+  standard gnd_signal *
+  page3_i232
+#CELL
+  cnpassive rsmd0603 *
+  page3_i236
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i237
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i238
+#ISCELL
+  standard gnd_signal *
+  page3_i239
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i242
+#ISCELL
+  cnpower avdd *
+  page3_i244
+#CELL
+  cndiscrete diode_ca *
+  page3_i245
+#CELL
+  cnconnector con6p *
+  page3_i246
+#ISCELL
+  cnpower avdd *
+  page3_i247
+#ISCELL
+  standard gnd_signal *
+  page3_i248
+#ISCELL
+  cnpower avdd *
+  page3_i250
+#CELL
+  cnpassive elcaptan *
+  page3_i252
+#CELL
+  cnlinear tps776xx *
+  page3_i253
+#ISCELL
+  standard inport *
+  page3_i26
+#ISCELL
+  standard inport *
+  page3_i27
+#ISCELL
+  standard inport *
+  page3_i3
+#ISCELL
+  standard inport *
+  page3_i30
+#ISCELL
+  standard inport *
+  page3_i36
+#ISCELL
+  standard inport *
+  page3_i37
+#ISCELL
+  standard outport *
+  page3_i39
+#ISCELL
+  standard inport *
+  page3_i4
+#ISCELL
+  standard outport *
+  page3_i40
+#ISCELL
+  standard inport *
+  page3_i49
+#ISCELL
+  standard outport *
+  page3_i5
+#ISCELL
+  standard inport *
+  page3_i6
+#ISCELL
+  standard inport *
+  page3_i7
+#ISCELL
+  standard inport *
+  page3_i8
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i82
+#ISCELL
+  standard gnd_signal *
+  page3_i83
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i84
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i85
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i86
+#ISCELL
+  standard gnd_signal *
+  page3_i87
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i88
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i89
+#ISCELL
+  standard inport *
+  page3_i9
+#ISCELL
+  standard gnd_signal *
+  page3_i90
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i91
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i92
+#ISCELL
+  standard gnd_signal *
+  page3_i93
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i94
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i95
+#ISCELL
+  standard gnd_signal *
+  page3_i96
+#CELL
+  bris_cds_connectors 1-hole *
+  page3_i97
+#ISCELL
+  standard gnd_signal *
+  page3_i98
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i99

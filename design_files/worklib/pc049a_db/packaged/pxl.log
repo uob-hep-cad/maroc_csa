@@ -1,0 +1,1087 @@
+
+
+
+
+    Cadence Design Systems, Inc.
+    Packager-XL 16.6-S013 (v16-6-112AL) lnx86 7/1/2013 12:00:00 IST
+    (C) Copyright 1994, Cadence Design Systems, Inc.
+
+    Run on Thu May  8 12:21:44 2014
+
+
+ **********************************************
+ *  Processing project file and command line  *
+ **********************************************
+
+INFO(SPCOPK-1043): Setting REPACKAGE=OFF because running in FEEDBACK mode
+
+
+    ANNOTATE  'BODY' 'PIN'
+    COMP_DEF_PROP  'ALT_SYMBOLS' 'JEDEC_TYPE' 'NC_PINS' 'MERGE_NC_PINS'
+                   'POWER_GROUP' 'POWER_PINS' 'MERGE_POWER_PINS' 'PINCOUNT'
+    COMP_INST_PROP  'GROUP' 'ROOM' 'REUSE_INSTANCE' 'REUSE_ID' 'REUSE_NAME'
+                    'SIGNAL_MODEL' 'DEFAULT_SIGNAL_MODEL'
+                    'VOLT_TEMP_SIGNAL_MODEL' 'SYMBOL_EDITED'
+                    'INCLUDE_IN_RF_TOPOLOGY' 'CDS_RF_GROUP' 'NO_XNET_CONNECTION'
+                    'EMBEDDED_PLACEMENT' 'ISRFELEMENT' 'RFELEMENTTYPE' 'RFLAYER'
+                    'RFLAYER1' 'RFLAYER2' 'RFLAYER3' 'RFLAYER4' 'RFLAYER5'
+                    'RFLAYER6' 'RFLAYER7' 'RFLAYER8' 'RFLAYER9' 'RFLAYER10'
+                    'RFLAYER11' 'RFLAYER12' 'RFLAYER13' 'RFLAYER14' 'RFLAYER15'
+                    'RFLAYER16' 'RFCOUPLINGMODE' 'RFFLIPMODE' 'RFANGLE'
+                    'RFANGLE1' 'RFWIDTH' 'RFWIDTH1' 'RFWIDTH2' 'RFWIDTH3'
+                    'RFWIDTH4' 'RFWIDTH5' 'RFWIDTH6' 'RFWIDTH7' 'RFWIDTH8'
+                    'RFWIDTH9' 'RFWIDTH10' 'RFWIDTH11' 'RFWIDTH12' 'RFWIDTH13'
+                    'RFWIDTH14' 'RFWIDTH15' 'RFWIDTH16' 'RFLENGTH' 'RFLENGTH1'
+                    'RFLENGTH2' 'RFLENGTH3' 'RFLENGTH4' 'RFLENGTH5' 'RFLENGTH6'
+                    'RFLENGTH7' 'RFLENGTH8' 'RFSPACING' 'RFSPACING1'
+                    'RFSPACING2' 'RFSPACING3' 'RFSPACING4' 'RFSPACING5'
+                    'RFSPACING6' 'RFSPACING7' 'RFSPACING8' 'RFSPACING9'
+                    'RFSPACING10' 'RFSPACING11' 'RFSPACING12' 'RFSPACING13'
+                    'RFSPACING14' 'RFSPACING15' 'RFOFFSETX' 'RFOFFSETY'
+                    'RFRADIUS' 'RFDEPTH' 'RFFREQUENCY' 'RFMITERFRACTION'
+                    'RFBENDMODE' 'RFNUMBERLEGS' 'RFNUMBERPAIRS' 'RFNUMBERTURNS'
+                    'RFCAPACITANCE' 'RFRESISTANCE' 'RFINDUCTANCE'
+                    'RFPADSTACKNAME' 'RFPADSSMNAME1' 'RFPADSSMNAME2'
+                    'RFPADBEGINLAYER' 'RFPADENDLAYER' 'RFPADLINEWIDTH1'
+                    'RFPADLINEWIDTH2' 'RFPADDIAMETER1' 'RFPADDIAMETER2'
+                    'RFPADLENGTH1' 'RFPADLENGTH2' 'RFHOLEDIAMETER' 'RFPADANGLE'
+                    'RFDRANAME' 'RFPADTYPE' 'RFUID' 'RFBLOCK' 'RFDCNET'
+                    'RFGROUP' 'CDS_FSP_LIB_PART_MODEL' 'CDS_FSP_IS_FPGA'
+                    'CDS_FSP_INSTANCE_NAME' 'CDS_FSP_INSTANCE_ID'
+    SUPPRESS_GLOBAL_SHORT_CHECK OFF
+    DEBUG    0
+    DEFAULT_PHYS_DES_PREFIX U
+    FEEDBACK  'ALLEGRO'
+    FORCE_SUBDESIGN  'PC049A_4LEMOS'
+    MAX_ERRORS 999
+    NET_NAME_CHARS   @  -  !  #  %  &  (  )  *  .  /  :  ?  [  ]  ^  _  `  +
+                     =  >  0  1  2  3  4  5  6  7  8  9
+    NET_NAME_LENGTH 31
+    NUM_OLD_VERSIONS 3
+    OPTIMIZE OFF
+    REUSE_REFDES ON
+    OPF_OPTIMIZATION OFF
+    HARD_LOC_SEC OFF
+    FORCE_PTF_ENTRY OFF
+    REGENERATE_PHYSICAL_NET_NAME OFF
+    SCH_POWER_GROUP_WINS_OVER_PPT OFF
+    NULL_OPT_VALID OFF
+    USE_VECTOR_NOTATION ON
+    FILTER_ECS_FROM_XNET ON
+    OUTPUT  'ON'
+    PACKAGE_PROP  'GROUP' 'ROOM'
+    PART_TYPE_LENGTH 31
+    PPT 
+         /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/p~
+e_cern_lib/parttables/cnconnector.ptf 
+         /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/p~
+e_cern_lib/parttables/cnpassive.ptf 
+         /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/p~
+e_cern_lib/parttables/cndiscrete.ptf 
+    REF_DES_LENGTH 31
+    REPACKAGE OFF
+    ELECTRICAL_CONSTRAINTS ON
+    OVERWRITE_CONSTRAINTS OFF
+    RUN_DIR ./worklib/pc049a_db/packaged/
+    STRICT_PACKAGE_PROP  'REUSE_INSTANCE'
+    USE_LIBRARY_PPT ON
+    USE_STATE ON
+    WARNINGS ON
+    LIBRARY  'uob_hep_pc049a_lib' 'cnpassive' 'cndiscrete' 'cnconnector'
+             'bris_cds_standard' 'cnpower' 'cnstandard' 'standard'
+    CDSPROP_FILE 
+    VIEW_PTF part_table
+    VIEW_PACKAGER packaged
+    VIEW_CONSTRAINTS sch_1
+    DESIGN_LIBRARY uob_hep_pc049a_lib
+    DESIGN_NAME pc049a_db
+    VIEW_CONFIG_PHYSICAL cfg_package
+    SD_SUFFIX_SEPARATOR _
+    STOP_PST_GEN_ON_PTF_MISMATCH ON
+    IGNORE_PRIM_BINDING OFF
+    LOG_INST_PHYS_PATH ON
+    ANNOTATE_VISIBLE_SEC OFF
+    PTF_MISMATCH_EXCLUDE_INJ_PROP  'ALL'
+    IMPORT_HFS_HARDSEC_ON_SWAP_PINS OFF
+    ALLOW_PTFVALUE_INITIAL_BLANKS ON
+    PRESERVE_UNSUBSTITUTED_MACROS OFF
+    DETECT_SYS_NETSHORTS_PKG ON
+    PROCESS_PIN_SHORT_PROP OFF
+    STOP_PACKAGE_ON_SCHEMATIC_ERROR OFF
+    LOCK_FILE_PERM 444
+    LOCK_FOR_SAME_USER OFF
+    ERROR_ON_MISMATCHED_INTERFACE ON
+    RETAIN_ZERO_NODE_NETS OFF
+    IGNORE_ERR_EMPTY_LONGPARTNAME OFF
+    ERROR_ON_PARTIAL_INSTANTIATION_OF_HSS OFF
+
+ **************************************************************
+ *  End processing project file and command line  (00:00:00)  *
+ **************************************************************
+
+
+Creating Configuration "cfg_package" for Design "pc049a_db"
+
+INFO(SPCODD-181): Loading /software/CAD/Cadence/SPB16.60.000/share/cdssetup/cd~
+sprop.tmf.
+INFO(SPCODD-181): Loading /software/CAD/Cadence/SPB16.60.000/share/cdssetup/cd~
+sprop.paf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/parttables/cnconnector.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/parttables/cnpassive.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/parttables/cndiscrete.ptf.
+
+ *********************************
+ *  Loading the design database  *
+ *********************************
+
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capn4i/part_table/part.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/cnconnector/coax/part_table/coax.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/tvs_diode_array_sp3010/part_tab~
+le/tvs_diode_array_sp3010.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/cnpassive/r4ismd/part_table/r4ismd.ptf.
+
+ *************************
+ *  Loading State Files  *
+ *************************
+
+Loading ./worklib/pc049a_db/packaged/pxl.state. 
+INFO(SPCODD-181): Loading ./worklib/pc049a_4lemos/packaged/pxl_PC049A_4LEMOS.s~
+tate.
+
+ *****************************************
+ *  End loading State Files  (00:00:00)  *
+ *****************************************
+
+
+ ***************************
+ *  Starting to feedback.  *
+ ***************************
+
+INFO(SPCOPF-2010): Feedback is changing LOCATION from RZ1_1 to RZ9.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I49@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpassive.r4ismd(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from RZ1_2 to RZ13.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I55@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpassive.r4ismd(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from RZ1_3 to RZ11.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I56@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpassive.r4ismd(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from RZ1_4 to RZ15.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I57@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpassive.r4ismd(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from RZ1_5 to RZ16.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I69@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpassive.r4ismd(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from RZ1_6 to RZ12.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I70@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpassive.r4ismd(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from RZ1_7 to RZ10.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I95@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpassive.r4ismd(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from RZ1_8 to RZ14.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I96@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpassive.r4ismd(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from RZ1_9 to RZ8.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I110@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpassive.r4ismd(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from RZ1_10 to RZ4.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I130@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpassive.r4ismd(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from RZ1_11 to RZ2.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I131@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpassive.r4ismd(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from RZ1_12 to RZ6.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I132@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpassive.r4ismd(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from RZ1_13 to RZ1.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I133@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpassive.r4ismd(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from RZ1_14 to RZ5.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I134@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpassive.r4ismd(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from RZ1_15 to RZ7.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I143@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpassive.r4ismd(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from RZ1_16 to RZ3.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I144@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i27@cnpassive.r4ismd(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from D1_1 to D9.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I49@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(~
+CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(ch~
+ips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from D1_2 to D13.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I55@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(~
+CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(ch~
+ips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from D1_3 to D11.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I56@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(~
+CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(ch~
+ips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from D1_4 to D15.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I57@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(~
+CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(ch~
+ips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from D1_5 to D16.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I69@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(~
+CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(ch~
+ips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from D1_6 to D12.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I70@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(~
+CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(ch~
+ips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from D1_7 to D10.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I95@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(~
+CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(ch~
+ips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from D1_8 to D14.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I96@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(~
+CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(ch~
+ips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from D1_9 to D8.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I110@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010~
+(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(c~
+hips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from D1_10 to D4.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I130@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010~
+(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(c~
+hips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from D1_11 to D2.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I131@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010~
+(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(c~
+hips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from D1_12 to D6.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I132@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010~
+(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(c~
+hips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from D1_13 to D1.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I133@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010~
+(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(c~
+hips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from D1_14 to D5.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I134@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010~
+(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(c~
+hips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from D1_15 to D7.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I143@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010~
+(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(c~
+hips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from D1_16 to D3.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I144@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010~
+(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(c~
+hips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from CN1_1 to CN9.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I49@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i10@cnpassive.capn4i(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from CN1_2 to CN13.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I55@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i10@cnpassive.capn4i(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from CN1_3 to CN11.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I56@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i10@cnpassive.capn4i(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from CN1_4 to CN15.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I57@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i10@cnpassive.capn4i(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from CN1_5 to CN16.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I69@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i10@cnpassive.capn4i(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from CN1_6 to CN12.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I70@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i10@cnpassive.capn4i(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from CN1_7 to CN10.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I95@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i10@cnpassive.capn4i(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from CN1_8 to CN14.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I96@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i10@cnpassive.capn4i(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from CN1_9 to CN8.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I110@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i10@cnpassive.capn4i(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from CN1_10 to CN4.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I130@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i10@cnpassive.capn4i(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from CN1_11 to CN2.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I131@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i10@cnpassive.capn4i(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from CN1_12 to CN6.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I132@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i10@cnpassive.capn4i(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from CN1_13 to CN1.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I133@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i10@cnpassive.capn4i(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from CN1_14 to CN5.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I134@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i10@cnpassive.capn4i(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from CN1_15 to CN7.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I143@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i10@cnpassive.capn4i(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from CN1_16 to CN3.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I144@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i10@cnpassive.capn4i(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX1_1 to PX43.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I49@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX1_2 to PX51.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I55@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX1_3 to PX39.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I56@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX1_4 to PX55.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I57@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX1_5 to PX53.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I69@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX1_6 to PX37.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I70@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX1_7 to PX34.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I95@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX1_8 to PX49.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I96@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX1_9 to PX22.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I110@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX1_10 to PX14.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I130@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX1_11 to PX10.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I131@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX1_12 to PX26.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I132@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX1_13 to PX12.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I133@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX1_14 to PX28.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I134@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX1_15 to PX31.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I143@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX1_16 to PX16.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I144@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX2_1 to PX44.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I49@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX2_2 to PX59.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I55@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX2_3 to PX47.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I56@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX2_4 to PX63.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I57@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX2_5 to PX61.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I69@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX2_6 to PX45.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I70@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX2_7 to PX33.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I95@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX2_8 to PX57.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I96@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX2_9 to PX21.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I110@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX2_10 to PX6.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I130@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX2_11 to PX2.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I131@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX2_12 to PX18.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I132@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX2_13 to PX4.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I133@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX2_14 to PX20.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I134@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX2_15 to PX32.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I143@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX2_16 to PX8.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I144@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX3_1 to PX36.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I49@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX3_2 to PX60.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I55@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX3_3 to PX48.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I56@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX3_4 to PX64.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I57@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX3_5 to PX62.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I69@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX3_6 to PX46.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I70@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX3_7 to PX41.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I95@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX3_8 to PX58.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I96@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX3_9 to PX29.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I110@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX3_10 to PX5.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I130@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX3_11 to PX1.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I131@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX3_12 to PX17.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I132@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX3_13 to PX3.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I133@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX3_14 to PX19.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I134@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX3_15 to PX24.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I143@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX3_16 to PX7.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I144@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX4_1 to PX35.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I49@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i49@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX4_2 to PX52.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I55@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i55@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX4_3 to PX40.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I56@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i56@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX4_4 to PX56.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I57@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i57@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX4_5 to PX54.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I69@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i69@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX4_6 to PX38.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I70@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i70@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX4_7 to PX42.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I95@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i95@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX4_8 to PX50.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I96@UOB_HE~
+P_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i96@uob_hep_~
+pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX4_9 to PX30.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I110@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i110@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX4_10 to PX13.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I130@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i130@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX4_11 to PX9.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I131@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i131@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX4_12 to PX25.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I132@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i132@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX4_13 to PX11.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I133@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i133@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX4_14 to PX27.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I134@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i134@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX4_15 to PX23.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I143@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i143@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+INFO(SPCOPF-2010): Feedback is changing LOCATION from PX4_16 to PX15.
+        Design instance: @UOB_HEP_PC049A_LIB.PC049A_DB(SCH_1):PAGE2_I144@UOB_H~
+EP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_db(sch_1):page2_i144@uob_hep~
+_pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+
+ *******************************
+ *  End feedback.  (00:00:00)  *
+ *******************************
+
+
+ ****************************************
+ *  Starting to assign physical parts.  *
+ ****************************************
+
+
+ ***********************************************
+ *  End assigning physical parts.  (00:00:00)  *
+ ***********************************************
+
+
+ ***************
+ *  Packaging  *
+ ***************
+
+
+ *******************************
+ *  End packaging  (00:00:00)  *
+ *******************************
+
+INFO(SPCOPK-1442): No errors detected
+INFO(SPCOPK-1444): No warnings detected
+    Start time   12:21:44
+    End time     12:21:46
+    CPU time      0:00:01
+    Elapsed time  0:00:02
+
+ ***************************************************************************
+ *  Packager-XL execution done.
+ ***************************************************************************
+Constraint Directory: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a~
+/trunk/design_files/worklib/pc049a_db/sch_1/
+
+"/software/CAD/Cadence/SPB16.60.000/tools/bin/cmfeedback.exe" -noComp -s "temp~
+/tmp_synch_props.cfg" -c "/projects/HEP_Instrumentation/cad/designs/uob-hep-pc~
+049a/trunk/design_files/worklib/pc049a_db/sch_1//update.scr" -rt "/projects/HE~
+P_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/temp/cmfeedbac~
+k.log" physical in "/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/t~
+runk/design_files/worklib/pc049a_db/sch_1/pc049a_db.dcf" "/projects/HEP_Instru~
+mentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/pack~
+aged/cmdbview.dat" "/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/t~
+runk/design_files/worklib/pc049a_db/packaged/cmbcview.dat" "/projects/HEP_Inst~
+rumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/sc~
+h_1/pc049a_db.dcf,p"
+---------------------------------------------------------
+Design: pc049a_db
+	Changing: DESIGN_UNITS to "6,4" from "2,2"
+---------------------------------------------------------
+Create Layer: SURFACE_INDEX_0
+	Adding: CDS_LAYER_TYPE value "SURFACE"
+	Adding: CDS_LAYER_MATERIAL value "AIR"
+	Adding: CDS_LAYER_THICKNESS value "0.0000"
+	Adding: CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
+	Adding: CDS_LAYER_THERMAL_CONDUCTIVITY value "0.0000"
+	Adding: CDS_LAYER_DIELECTRIC_CONSTANT value "1.000"
+	Adding: CDS_LAYER_LOSS_TANGENT value "0.0000"
+	Adding: CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+	Adding: CDS_LAYER_IS_SHIELD value "FALSE"
+---------------------------------------------------------
+Create Layer: TOP
+	Adding: CDS_LAYER_TYPE value "CONDUCTOR"
+	Adding: CDS_LAYER_MATERIAL value "COPPER"
+	Adding: CDS_LAYER_THICKNESS value "0.0305"
+	Adding: CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
+	Adding: CDS_LAYER_THERMAL_CONDUCTIVITY value "0.0000"
+	Adding: CDS_LAYER_DIELECTRIC_CONSTANT value "1.000"
+	Adding: CDS_LAYER_LOSS_TANGENT value "0.0000"
+	Adding: CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+	Adding: CDS_LAYER_IS_SHIELD value "FALSE"
+	Adding: CDS_LAYER_IS_NAMED value "1"
+	Adding: CDS_LAYER_IS_TOP_SUBSTRATE value "1"
+	Adding: CDS_LAYER_ETCH_FACTOR value "90.00"
+	Adding: CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
+---------------------------------------------------------
+Create Layer: DIELECTRIC_BELOW_TOP
+	Adding: CDS_LAYER_TYPE value "DIELECTRIC"
+	Adding: CDS_LAYER_MATERIAL value "FR-4"
+	Adding: CDS_LAYER_THICKNESS value "0.2032"
+	Adding: CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
+	Adding: CDS_LAYER_THERMAL_CONDUCTIVITY value "0.0000"
+	Adding: CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
+	Adding: CDS_LAYER_LOSS_TANGENT value "0.03500"
+	Adding: CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+	Adding: CDS_LAYER_IS_SHIELD value "FALSE"
+---------------------------------------------------------
+Create Layer: L2
+	Adding: CDS_LAYER_TYPE value "PLANE"
+	Adding: CDS_LAYER_MATERIAL value "COPPER"
+	Adding: CDS_LAYER_THICKNESS value "0.0305"
+	Adding: CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
+	Adding: CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+	Adding: CDS_LAYER_DIELECTRIC_CONSTANT value "1.000"
+	Adding: CDS_LAYER_LOSS_TANGENT value "0.03500"
+	Adding: CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+	Adding: CDS_LAYER_IS_SHIELD value "TRUE"
+	Adding: CDS_LAYER_IS_NAMED value "1"
+	Adding: CDS_LAYER_ETCH_FACTOR value "90.00"
+	Adding: CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
+---------------------------------------------------------
+Create Layer: DIELECTRIC_BELOW_L2
+	Adding: CDS_LAYER_TYPE value "DIELECTRIC"
+	Adding: CDS_LAYER_MATERIAL value "FR-4"
+	Adding: CDS_LAYER_THICKNESS value "1.1000"
+	Adding: CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
+	Adding: CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+	Adding: CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
+	Adding: CDS_LAYER_LOSS_TANGENT value "0.03500"
+	Adding: CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+	Adding: CDS_LAYER_IS_SHIELD value "FALSE"
+---------------------------------------------------------
+Create Layer: L3
+	Adding: CDS_LAYER_TYPE value "PLANE"
+	Adding: CDS_LAYER_MATERIAL value "COPPER"
+	Adding: CDS_LAYER_THICKNESS value "0.0305"
+	Adding: CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
+	Adding: CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+	Adding: CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
+	Adding: CDS_LAYER_LOSS_TANGENT value "0.03500"
+	Adding: CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+	Adding: CDS_LAYER_IS_SHIELD value "TRUE"
+	Adding: CDS_LAYER_IS_NAMED value "1"
+	Adding: CDS_LAYER_ETCH_FACTOR value "90.00"
+	Adding: CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
+---------------------------------------------------------
+Create Layer: DIELECTRIC_BELOW_L3
+	Adding: CDS_LAYER_TYPE value "DIELECTRIC"
+	Adding: CDS_LAYER_MATERIAL value "FR-4"
+	Adding: CDS_LAYER_THICKNESS value "0.2032"
+	Adding: CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
+	Adding: CDS_LAYER_THERMAL_CONDUCTIVITY value "0.01200"
+	Adding: CDS_LAYER_DIELECTRIC_CONSTANT value "4.500"
+	Adding: CDS_LAYER_LOSS_TANGENT value "0.03500"
+	Adding: CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+	Adding: CDS_LAYER_IS_SHIELD value "FALSE"
+---------------------------------------------------------
+Create Layer: BOTTOM
+	Adding: CDS_LAYER_TYPE value "CONDUCTOR"
+	Adding: CDS_LAYER_MATERIAL value "COPPER"
+	Adding: CDS_LAYER_THICKNESS value "0.0305"
+	Adding: CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "595900"
+	Adding: CDS_LAYER_THERMAL_CONDUCTIVITY value "0.0000"
+	Adding: CDS_LAYER_DIELECTRIC_CONSTANT value "1.000"
+	Adding: CDS_LAYER_LOSS_TANGENT value "0.0000"
+	Adding: CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+	Adding: CDS_LAYER_IS_SHIELD value "FALSE"
+	Adding: CDS_LAYER_IS_NAMED value "1"
+	Adding: CDS_LAYER_IS_BOTTOM_SUBSTRATE value "1"
+	Adding: CDS_LAYER_ETCH_FACTOR value "90.00"
+	Adding: CDS_LAYER_EMBEDDED_STATUS value "NOT_EMBEDDED"
+---------------------------------------------------------
+Create Layer: SURFACE_BELOW_BOTTOM
+	Adding: CDS_LAYER_TYPE value "SURFACE"
+	Adding: CDS_LAYER_MATERIAL value "AIR"
+	Adding: CDS_LAYER_THICKNESS value "0.0000"
+	Adding: CDS_LAYER_ELECTRICAL_CONDUCTIVITY value "0.0000"
+	Adding: CDS_LAYER_THERMAL_CONDUCTIVITY value "0.0000"
+	Adding: CDS_LAYER_DIELECTRIC_CONSTANT value "1.000"
+	Adding: CDS_LAYER_LOSS_TANGENT value "0.0000"
+	Adding: CDS_LAYER_NEGATIVE_ARTWORK value "FALSE"
+	Adding: CDS_LAYER_IS_SHIELD value "FALSE"
+---------------------------------------------------------
+Design: pc049a_db
+	Adding: DRAWING_EXTENTS value "800.2800,500.4000"
+	Adding: DRAWING_LOWER_LEFT value "-282.8899,-252.0700"
+	Adding: SQ_LINE_WIDTH_VALUES value "SINGLE_IMPEDANCE ON|DIFF_IMPEDANCE OFF|TO~
+P|0.3622 MM|NONE|0.2600 MM|BOTTOM|0.3622 MM|NONE|0.2600 MM"
+	Adding: MAX_FILENAME_VALUE value "14"
+	Adding: PhysicalCSet association value "DEFAULT"
+	Adding: SpacingCSet association value "DEFAULT"
+	Adding: SameNetSpacingCSet association value "DEFAULT"
+---------------------------------------------------------
+Create PhysicalCSet: DEFAULT
+	Adding: DIFFP_PRIMARY_GAP value "0.2000"
+	Adding: DIFFP_COUPLED_PLUS value "0.0000"
+	Adding: DIFFP_COUPLED_MINUS value "0.0000"
+	Adding: DIFFP_MIN_SPACE value "0.0000"
+	Adding: MIN_LINE_WIDTH value "0.2257"
+	Adding: MAX_LINE_WIDTH value "0.0000"
+	Adding: DIFFP_NECK_GAP value "0.1800"
+	Adding: MIN_NECK_WIDTH value "0.1800"
+	Adding: MAXIMUM_NECK_LENGTH value "5.0000"
+	Adding: VIA_LIST value "VIA"
+	Adding: ALLOW_ON_ETCH_SUBCLASS value "TRUE"
+	Adding: TS_ALLOWED value "ANYWHERE"
+	Adding: MIN_BVIA_STAGGER value "0.1270"
+	Adding: MAX_BVIA_STAGGER value "0.0000"
+	Adding: PAD_PAD_DIRECT_CONNECT value "ALL_ALLOWED"
+---------------------------------------------------------
+Create SpacingCSet: DEFAULT
+	Adding: THRUPIN_TO_THRUPIN_SPACING value "0.1270"
+	Adding: THRUPIN_TO_SMDPIN_SPACING value "0.1270"
+	Adding: TESTPIN_TO_THRUPIN_SPACING value "0.1270"
+	Adding: THRUPIN_TO_THRUVIA_SPACING value "0.1270"
+	Adding: TESTVIA_TO_THRUPIN_SPACING value "0.1270"
+	Adding: BBV_TO_THRUPIN_SPACING value "0.1270"
+	Adding: THRUPIN_TO_BONDPAD_SPACING value "0.1270"
+	Adding: LINE_TO_THRUPIN_SPACING value "0.2000"
+	Adding: THRUPIN_TO_SHAPE_SPACING value "0.1270"
+	Adding: SMDPIN_TO_SMDPIN_SPACING value "0.1270"
+	Adding: SMDPIN_TO_TESTPIN_SPACING value "0.1270"
+	Adding: SMDPIN_TO_THRUVIA_SPACING value "0.1270"
+	Adding: SMDPIN_TO_TESTVIA_SPACING value "0.1270"
+	Adding: BBV_TO_SMDPIN_SPACING value "0.1270"
+	Adding: SMDPIN_TO_BONDPAD_SPACING value "0.1270"
+	Adding: LINE_TO_SMDPIN_SPACING value "0.1800,0.2000,0.2000,0.2000"
+	Adding: SHAPE_TO_SMDPIN_SPACING value "0.1270"
+	Adding: TESTPIN_TO_TESTPIN_SPACING value "0.1270"
+	Adding: TESTPIN_TO_THRUVIA_SPACING value "0.1270"
+	Adding: TESTPIN_TO_TESTVIA_SPACING value "0.1270"
+	Adding: BBV_TO_TESTPIN_SPACING value "0.1270"
+	Adding: BONDPAD_TO_TESTPIN_SPACING value "0.1270"
+	Adding: LINE_TO_TESTPIN_SPACING value "0.2000"
+	Adding: SHAPE_TO_TESTPIN_SPACING value "0.1270"
+	Adding: THRUVIA_TO_THRUVIA_SPACING value "0.1270"
+	Adding: TESTVIA_TO_THRUVIA_SPACING value "0.1270"
+	Adding: BBV_TO_THRUVIA_SPACING value "0.1270"
+	Adding: BONDPAD_TO_THRUVIA_SPACING value "0.1270"
+	Adding: LINE_TO_THRUVIA_SPACING value "0.2000"
+	Adding: SHAPE_TO_THRUVIA_SPACING value "0.1270"
+	Adding: TESTVIA_TO_TESTVIA_SPACING value "0.1270"
+	Adding: BBV_TO_TESTVIA_SPACING value "0.1270"
+	Adding: BONDPAD_TO_TESTVIA_SPACING value "0.1270"
+	Adding: LINE_TO_TESTVIA_SPACING value "0.2000"
+	Adding: SHAPE_TO_TESTVIA_SPACING value "0.1270"
+	Adding: BBV_TO_BBV_SPACING value "0.1270"
+	Adding: BONDPAD_TO_BBV_SPACING value "0.1270"
+	Adding: BBV_TO_LINE_SPACING value "0.2000"
+	Adding: BBV_TO_SHAPE_SPACING value "0.1270"
+	Adding: BONDPAD_TO_BONDPAD_SPACING value "0.1270"
+	Adding: BONDPAD_TO_LINE_SPACING value "0.2000"
+	Adding: BONDPAD_TO_SHAPE_SPACING value "0.1270"
+	Adding: LINE_TO_LINE_SPACING value "0.2570,0.2000,0.2000,0.2570"
+	Adding: LINE_TO_SHAPE_SPACING value "0.2000"
+	Adding: SHAPE_TO_SHAPE_SPACING value "0.1270"
+	Adding: HOLE_TO_PIN_SPACING value "0.2032"
+	Adding: HOLE_TO_VIA_SPACING value "0.2032"
+	Adding: HOLE_TO_LINE_SPACING value "0.2032"
+	Adding: HOLE_TO_SHAPE_SPACING value "0.2032"
+	Adding: HOLE_TO_HOLE_SPACING value "0.2032"
+	Adding: MVIA_TO_MVIA_SPACING value "0.1270"
+	Adding: MVIA_TO_THRUPIN_SPACING value "0.1270"
+	Adding: MVIA_TO_SMDPIN_SPACING value "0.1270"
+	Adding: MVIA_TO_THRUVIA_SPACING value "0.1270"
+	Adding: MVIA_TO_BBV_SPACING value "0.1270"
+	Adding: MVIA_TO_LINE_SPACING value "0.2000"
+	Adding: MVIA_TO_SHAPE_SPACING value "0.1270"
+	Adding: MVIA_TO_TESTPIN_SPACING value "0.1270"
+	Adding: MVIA_TO_TESTVIA_SPACING value "0.1270"
+	Adding: BONDPAD_TO_MVIA_SPACING value "0.1270"
+	Adding: MIN_BVIA_GAP value "0.1270"
+	Adding: BONDPAD_TO_BONDPAD_DIFFP_SPC value "0.1270"
+---------------------------------------------------------
+Create SameNetSpacingCSet: DEFAULT
+	Adding: SAME_NET value "FALSE"
+	Adding: SN_THRUPIN_TO_THRUPIN_SPACING value "0.1270"
+	Adding: SN_THRUPIN_TO_SMDPIN_SPACING value "0.1270"
+	Adding: SN_TESTPIN_TO_THRUPIN_SPACING value "0.1270"
+	Adding: SN_THRUPIN_TO_THRUVIA_SPACING value "0.1270"
+	Adding: SN_TESTVIA_TO_THRUPIN_SPACING value "0.1270"
+	Adding: SN_BBV_TO_THRUPIN_SPACING value "0.1270"
+	Adding: SN_THRUPIN_TO_BONDPAD_SPACING value "0.1270"
+	Adding: SN_LINE_TO_THRUPIN_SPACING value "0.1270"
+	Adding: SN_THRUPIN_TO_SHAPE_SPACING value "0.1270"
+	Adding: SN_SMDPIN_TO_SMDPIN_SPACING value "0.1270"
+	Adding: SN_SMDPIN_TO_TESTPIN_SPACING value "0.1270"
+	Adding: SN_SMDPIN_TO_THRUVIA_SPACING value "0.1270"
+	Adding: SN_SMDPIN_TO_TESTVIA_SPACING value "0.1270"
+	Adding: SN_BBV_TO_SMDPIN_SPACING value "0.1270"
+	Adding: SN_SMDPIN_TO_BONDPAD_SPACING value "0.1270"
+	Adding: SN_LINE_TO_SMDPIN_SPACING value "0.1270"
+	Adding: SN_SHAPE_TO_SMDPIN_SPACING value "0.1270"
+	Adding: SN_TESTPIN_TO_TESTPIN_SPACING value "0.1270"
+	Adding: SN_TESTPIN_TO_THRUVIA_SPACING value "0.1270"
+	Adding: SN_TESTPIN_TO_TESTVIA_SPACING value "0.1270"
+	Adding: SN_BBV_TO_TESTPIN_SPACING value "0.1270"
+	Adding: SN_BONDPAD_TO_TESTPIN_SPACING value "0.1270"
+	Adding: SN_LINE_TO_TESTPIN_SPACING value "0.1270"
+	Adding: SN_SHAPE_TO_TESTPIN_SPACING value "0.1270"
+	Adding: SN_THRUVIA_TO_THRUVIA_SPACING value "0.1270"
+	Adding: SN_TESTVIA_TO_THRUVIA_SPACING value "0.1270"
+	Adding: SN_BBV_TO_THRUVIA_SPACING value "0.1270"
+	Adding: SN_BONDPAD_TO_THRUVIA_SPACING value "0.1270"
+	Adding: SN_LINE_TO_THRUVIA_SPACING value "0.1270"
+	Adding: SN_SHAPE_TO_THRUVIA_SPACING value "0.1270"
+	Adding: SN_TESTVIA_TO_TESTVIA_SPACING value "0.1270"
+	Adding: SN_BBV_TO_TESTVIA_SPACING value "0.1270"
+	Adding: SN_BONDPAD_TO_TESTVIA_SPACING value "0.1270"
+	Adding: SN_LINE_TO_TESTVIA_SPACING value "0.1270"
+	Adding: SN_SHAPE_TO_TESTVIA_SPACING value "0.1270"
+	Adding: SN_BBV_TO_BBV_SPACING value "0.1270"
+	Adding: SN_BONDPAD_TO_BBV_SPACING value "0.1270"
+	Adding: SN_BBV_TO_LINE_SPACING value "0.1270"
+	Adding: SN_BBV_TO_SHAPE_SPACING value "0.1270"
+	Adding: SN_BONDPAD_TO_BONDPAD_SPACING value "0.1270"
+	Adding: SN_BONDPAD_TO_LINE_SPACING value "0.1270"
+	Adding: SN_BONDPAD_TO_SHAPE_SPACING value "0.1270"
+	Adding: SN_LINE_TO_LINE_SPACING value "0.1270"
+	Adding: SN_LINE_TO_SHAPE_SPACING value "0.1270"
+	Adding: SN_SHAPE_TO_SHAPE_SPACING value "0.1270"
+	Adding: SN_HOLE_TO_PIN_SPACING value "0.2032"
+	Adding: SN_HOLE_TO_VIA_SPACING value "0.2032"
+	Adding: SN_HOLE_TO_LINE_SPACING value "0.2032"
+	Adding: SN_HOLE_TO_SHAPE_SPACING value "0.2032"
+	Adding: SN_HOLE_TO_HOLE_SPACING value "0.2032"
+	Adding: SN_MVIA_TO_MVIA_SPACING value "0.1270"
+	Adding: SN_MVIA_TO_THRUPIN_SPACING value "0.1270"
+	Adding: SN_MVIA_TO_SMDPIN_SPACING value "0.1270"
+	Adding: SN_MVIA_TO_THRUVIA_SPACING value "0.1270"
+	Adding: SN_MVIA_TO_BBV_SPACING value "0.1270"
+	Adding: SN_MVIA_TO_LINE_SPACING value "0.1270"
+	Adding: SN_MVIA_TO_SHAPE_SPACING value "0.1270"
+	Adding: SN_MVIA_TO_TESTPIN_SPACING value "0.1270"
+	Adding: SN_MVIA_TO_TESTVIA_SPACING value "0.1270"
+	Adding: SN_BONDPAD_TO_MVIA_SPACING value "0.1270"
+---------------------------------------------------------
+
+Summary:
+
+Constraint changes found: 237 additions, 0 deletions, 1 changes.
+
+Association changes found: 3 additions, 0 deletions.
+
+
+Audit completed successfully.

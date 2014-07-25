@@ -1,0 +1,3379 @@
+(marker_file
+ (version 5.0)
+ (markers
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I1@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I1@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I18@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I18@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I27@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I27@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I36@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I36@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I45@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I45@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I54@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I54@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I63@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I63@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I72@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I72@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I137@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I137@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I138@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I138@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I139@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I139@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I140@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I140@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I141@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I141@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I142@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I142@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I143@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I143@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I144@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for module instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE2_I144@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I2@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I2@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I75@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I75@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I76@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I76@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I77@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I77@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I78@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I78@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I79@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I79@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I84@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I84@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I85@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I85@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I86@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I86@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I87@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I87@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I88@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I88@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I89@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I89@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I90@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I90@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I91@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I91@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I92@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I92@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I93@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I93@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I94@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I94@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I95@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I95@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I96@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I96@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I97@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I97@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I98@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I98@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I99@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I99@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I100@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I100@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I101@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I101@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I102@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I102@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I103@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I103@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I104@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I104@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I105@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I105@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I106@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I106@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I107@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I107@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I108@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I108@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I109@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I109@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I2@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I2@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I75@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I75@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I76@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I76@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I77@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I77@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I78@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I78@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I79@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I79@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I84@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I84@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I85@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I85@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I86@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I86@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I87@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I87@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I88@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I88@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I89@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I89@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I90@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I90@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I91@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I91@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I92@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I92@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I93@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I93@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I94@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I94@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I95@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I95@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I96@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I96@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I97@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I97@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I98@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I98@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I99@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I99@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I100@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I100@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I101@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I101@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I102@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I102@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I103@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I103@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I104@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I104@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I105@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I105@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I106@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I106@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I107@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I107@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I108@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I108@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 66)
+   (short_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I109@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).")
+   (long_msg "WARNING(SPCODD-66): Could not find property XY for primitive instance @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I109@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS).
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1053)
+   (short_msg "ERROR(SPCOPK-1053): Cannot find a ppt part that matches the instance properties.")
+   (long_msg "ERROR(SPCOPK-1053): Cannot find a ppt part that matches the instance properties.
+        Ppt Name: CON150P
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page1_i2@cnconnector.con150p(chips)
+                          Property Value: 
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I2;")
+     (parent_canonical_name "DRAWERROR inst I2")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I2@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i2@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I2;")
+     (parent_canonical_name "DRAWERROR inst I2")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I2@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i2@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I2;")
+     (parent_canonical_name "DRAWERROR inst I2")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I75@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i75@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I75;")
+     (parent_canonical_name "DRAWERROR inst I75")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I75@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i75@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I75;")
+     (parent_canonical_name "DRAWERROR inst I75")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I76@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i76@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I76;")
+     (parent_canonical_name "DRAWERROR inst I76")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I76@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i76@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I76;")
+     (parent_canonical_name "DRAWERROR inst I76")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I77@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i77@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I77;")
+     (parent_canonical_name "DRAWERROR inst I77")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I77@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i77@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I77;")
+     (parent_canonical_name "DRAWERROR inst I77")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I78@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i78@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I78;")
+     (parent_canonical_name "DRAWERROR inst I78")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I78@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i78@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I78;")
+     (parent_canonical_name "DRAWERROR inst I78")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I79@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i79@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I79;")
+     (parent_canonical_name "DRAWERROR inst I79")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I79@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i79@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I79;")
+     (parent_canonical_name "DRAWERROR inst I79")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I84@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i84@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I84;")
+     (parent_canonical_name "DRAWERROR inst I84")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I84@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i84@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I84;")
+     (parent_canonical_name "DRAWERROR inst I84")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I85@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i85@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I85;")
+     (parent_canonical_name "DRAWERROR inst I85")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I85@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i85@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I85;")
+     (parent_canonical_name "DRAWERROR inst I85")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I86@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i86@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I86;")
+     (parent_canonical_name "DRAWERROR inst I86")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I86@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i86@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I86;")
+     (parent_canonical_name "DRAWERROR inst I86")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I87@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i87@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I87;")
+     (parent_canonical_name "DRAWERROR inst I87")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I87@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i87@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I87;")
+     (parent_canonical_name "DRAWERROR inst I87")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I88@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i88@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I88;")
+     (parent_canonical_name "DRAWERROR inst I88")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I88@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i88@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I88;")
+     (parent_canonical_name "DRAWERROR inst I88")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I89@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i89@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I89;")
+     (parent_canonical_name "DRAWERROR inst I89")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I89@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i89@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I89;")
+     (parent_canonical_name "DRAWERROR inst I89")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I90@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i90@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I90;")
+     (parent_canonical_name "DRAWERROR inst I90")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I90@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i90@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I90;")
+     (parent_canonical_name "DRAWERROR inst I90")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I91@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i91@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I91;")
+     (parent_canonical_name "DRAWERROR inst I91")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I91@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i91@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I91;")
+     (parent_canonical_name "DRAWERROR inst I91")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I92@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i92@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I92;")
+     (parent_canonical_name "DRAWERROR inst I92")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I92@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i92@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I92;")
+     (parent_canonical_name "DRAWERROR inst I92")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I93@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i93@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I93;")
+     (parent_canonical_name "DRAWERROR inst I93")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I93@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i93@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I93;")
+     (parent_canonical_name "DRAWERROR inst I93")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I94@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i94@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I94;")
+     (parent_canonical_name "DRAWERROR inst I94")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I94@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i94@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I94;")
+     (parent_canonical_name "DRAWERROR inst I94")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I95@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i95@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I95;")
+     (parent_canonical_name "DRAWERROR inst I95")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I95@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i95@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I95;")
+     (parent_canonical_name "DRAWERROR inst I95")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I96@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i96@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I96;")
+     (parent_canonical_name "DRAWERROR inst I96")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I96@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i96@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I96;")
+     (parent_canonical_name "DRAWERROR inst I96")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I97@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i97@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I97;")
+     (parent_canonical_name "DRAWERROR inst I97")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I97@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i97@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I97;")
+     (parent_canonical_name "DRAWERROR inst I97")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I98@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i98@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I98;")
+     (parent_canonical_name "DRAWERROR inst I98")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I98@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i98@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I98;")
+     (parent_canonical_name "DRAWERROR inst I98")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I99@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i99@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I99;")
+     (parent_canonical_name "DRAWERROR inst I99")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I99@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i99@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I99;")
+     (parent_canonical_name "DRAWERROR inst I99")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I100@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i100@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I100;")
+     (parent_canonical_name "DRAWERROR inst I100")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I100@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i100@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I100;")
+     (parent_canonical_name "DRAWERROR inst I100")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I101@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i101@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I101;")
+     (parent_canonical_name "DRAWERROR inst I101")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I101@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i101@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I101;")
+     (parent_canonical_name "DRAWERROR inst I101")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I102@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i102@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I102;")
+     (parent_canonical_name "DRAWERROR inst I102")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I102@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i102@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I102;")
+     (parent_canonical_name "DRAWERROR inst I102")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I103@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i103@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I103;")
+     (parent_canonical_name "DRAWERROR inst I103")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I103@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i103@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I103;")
+     (parent_canonical_name "DRAWERROR inst I103")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I104@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i104@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I104;")
+     (parent_canonical_name "DRAWERROR inst I104")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I104@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i104@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I104;")
+     (parent_canonical_name "DRAWERROR inst I104")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I105@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i105@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I105;")
+     (parent_canonical_name "DRAWERROR inst I105")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I105@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i105@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I105;")
+     (parent_canonical_name "DRAWERROR inst I105")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I106@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i106@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I106;")
+     (parent_canonical_name "DRAWERROR inst I106")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I106@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i106@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I106;")
+     (parent_canonical_name "DRAWERROR inst I106")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I107@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i107@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I107;")
+     (parent_canonical_name "DRAWERROR inst I107")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I107@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i107@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I107;")
+     (parent_canonical_name "DRAWERROR inst I107")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I108@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i108@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I108;")
+     (parent_canonical_name "DRAWERROR inst I108")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I108@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i108@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I108;")
+     (parent_canonical_name "DRAWERROR inst I108")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I109@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i109@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I109;")
+     (parent_canonical_name "DRAWERROR inst I109")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE3_I109@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3_i109@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I109;")
+     (parent_canonical_name "DRAWERROR inst I109")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I2@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i2@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I2;")
+     (parent_canonical_name "DRAWERROR inst I2")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I2@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i2@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I2;")
+     (parent_canonical_name "DRAWERROR inst I2")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I75@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i75@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I75;")
+     (parent_canonical_name "DRAWERROR inst I75")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I75@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i75@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I75;")
+     (parent_canonical_name "DRAWERROR inst I75")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I76@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i76@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I76;")
+     (parent_canonical_name "DRAWERROR inst I76")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I76@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i76@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I76;")
+     (parent_canonical_name "DRAWERROR inst I76")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I77@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i77@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I77;")
+     (parent_canonical_name "DRAWERROR inst I77")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I77@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i77@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I77;")
+     (parent_canonical_name "DRAWERROR inst I77")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I78@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i78@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I78;")
+     (parent_canonical_name "DRAWERROR inst I78")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I78@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i78@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I78;")
+     (parent_canonical_name "DRAWERROR inst I78")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I79@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i79@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I79;")
+     (parent_canonical_name "DRAWERROR inst I79")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I79@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i79@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I79;")
+     (parent_canonical_name "DRAWERROR inst I79")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I84@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i84@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I84;")
+     (parent_canonical_name "DRAWERROR inst I84")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I84@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i84@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I84;")
+     (parent_canonical_name "DRAWERROR inst I84")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I85@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i85@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I85;")
+     (parent_canonical_name "DRAWERROR inst I85")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I85@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i85@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I85;")
+     (parent_canonical_name "DRAWERROR inst I85")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I86@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i86@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I86;")
+     (parent_canonical_name "DRAWERROR inst I86")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I86@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i86@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I86;")
+     (parent_canonical_name "DRAWERROR inst I86")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I87@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i87@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I87;")
+     (parent_canonical_name "DRAWERROR inst I87")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I87@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i87@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I87;")
+     (parent_canonical_name "DRAWERROR inst I87")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I88@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i88@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I88;")
+     (parent_canonical_name "DRAWERROR inst I88")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I88@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i88@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I88;")
+     (parent_canonical_name "DRAWERROR inst I88")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I89@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i89@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I89;")
+     (parent_canonical_name "DRAWERROR inst I89")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I89@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i89@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I89;")
+     (parent_canonical_name "DRAWERROR inst I89")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I90@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i90@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I90;")
+     (parent_canonical_name "DRAWERROR inst I90")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I90@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i90@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I90;")
+     (parent_canonical_name "DRAWERROR inst I90")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I91@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i91@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I91;")
+     (parent_canonical_name "DRAWERROR inst I91")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I91@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i91@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I91;")
+     (parent_canonical_name "DRAWERROR inst I91")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I92@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i92@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I92;")
+     (parent_canonical_name "DRAWERROR inst I92")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I92@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i92@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I92;")
+     (parent_canonical_name "DRAWERROR inst I92")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I93@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i93@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I93;")
+     (parent_canonical_name "DRAWERROR inst I93")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I93@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i93@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I93;")
+     (parent_canonical_name "DRAWERROR inst I93")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I94@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i94@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I94;")
+     (parent_canonical_name "DRAWERROR inst I94")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I94@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i94@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I94;")
+     (parent_canonical_name "DRAWERROR inst I94")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I95@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i95@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I95;")
+     (parent_canonical_name "DRAWERROR inst I95")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I95@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i95@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I95;")
+     (parent_canonical_name "DRAWERROR inst I95")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I96@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i96@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I96;")
+     (parent_canonical_name "DRAWERROR inst I96")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I96@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i96@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I96;")
+     (parent_canonical_name "DRAWERROR inst I96")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I97@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i97@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I97;")
+     (parent_canonical_name "DRAWERROR inst I97")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I97@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i97@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I97;")
+     (parent_canonical_name "DRAWERROR inst I97")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I98@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i98@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I98;")
+     (parent_canonical_name "DRAWERROR inst I98")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I98@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i98@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I98;")
+     (parent_canonical_name "DRAWERROR inst I98")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I99@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i99@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I99;")
+     (parent_canonical_name "DRAWERROR inst I99")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I99@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i99@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I99;")
+     (parent_canonical_name "DRAWERROR inst I99")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I100@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i100@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I100;")
+     (parent_canonical_name "DRAWERROR inst I100")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I100@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i100@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I100;")
+     (parent_canonical_name "DRAWERROR inst I100")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I101@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i101@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I101;")
+     (parent_canonical_name "DRAWERROR inst I101")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I101@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i101@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I101;")
+     (parent_canonical_name "DRAWERROR inst I101")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I102@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i102@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I102;")
+     (parent_canonical_name "DRAWERROR inst I102")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I102@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i102@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I102;")
+     (parent_canonical_name "DRAWERROR inst I102")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I103@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i103@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I103;")
+     (parent_canonical_name "DRAWERROR inst I103")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I103@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i103@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I103;")
+     (parent_canonical_name "DRAWERROR inst I103")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I104@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i104@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I104;")
+     (parent_canonical_name "DRAWERROR inst I104")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I104@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i104@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I104;")
+     (parent_canonical_name "DRAWERROR inst I104")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I105@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i105@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I105;")
+     (parent_canonical_name "DRAWERROR inst I105")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I105@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i105@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I105;")
+     (parent_canonical_name "DRAWERROR inst I105")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I106@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i106@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I106;")
+     (parent_canonical_name "DRAWERROR inst I106")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I106@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i106@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I106;")
+     (parent_canonical_name "DRAWERROR inst I106")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I107@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i107@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I107;")
+     (parent_canonical_name "DRAWERROR inst I107")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I107@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i107@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I107;")
+     (parent_canonical_name "DRAWERROR inst I107")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I108@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i108@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I108;")
+     (parent_canonical_name "DRAWERROR inst I108")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I108@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i108@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I108;")
+     (parent_canonical_name "DRAWERROR inst I108")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1051)
+   (short_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for ")
+   (long_msg "ERROR(SPCOPK-1051): Cannot find the physical part PRTR5V0U8S for 
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I109@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i109@bris_cds_analogue.prtr5v0u8s(chips)
+        The chips.prt file might have been accidentally edited, or the PACK_TYPE property might be missing from the ptf file or the schematic.
+        Ensure that a physical part corresponding to the instance used in the schematic exists and the PACK_TYPE property is defined in the schematic or the part table file.        
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I109;")
+     (parent_canonical_name "DRAWERROR inst I109")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 1052)
+   (short_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.")
+   (long_msg "ERROR(SPCOPK-1052): No ppt part selected because the instance has no physical part.
+        Schematic instance: @UOB_HEP_PC049A_LIB.PC049A_LEMO_DAUGHTER_BOARD(SCH_1):PAGE4_I109@BRIS_CDS_ANALOGUE.PRTR5V0U8S(CHIPS)
+        Physical Path: @uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4_i109@bris_cds_analogue.prtr5v0u8s(chips)
+        Check the PACK_TYPE or PART_NAME property assigned to the instance and ensure that the part exists in the part table file.
+")
+   (location
+    (
+     (object_kind "instance")
+     (canonical_name "_!drawerror inst I109;")
+     (parent_canonical_name "DRAWERROR inst I109")
+     (drawing_name "@uob_hep_pc049a_lib.pc049a_lemo_daughter_board(sch_1):page4")
+    )
+   )
+  )
+ )
+)

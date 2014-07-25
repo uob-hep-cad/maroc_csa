@@ -1,0 +1,276 @@
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
+#ISCELL
+  cnpower p1v2 *
+  page9_i10
+#CELL
+  cnpassive capcersmdcl1 *
+  page9_i100
+#CELL
+  cnpassive capcersmdcl1 *
+  page9_i101
+#ISCELL
+  cnpower p2v5 *
+  page9_i11
+#ISCELL
+  standard replicate *
+  page9_i15
+#ISCELL
+  cnpower dgnd *
+  page9_i16
+#ISCELL
+  standard replicate *
+  page9_i18
+#ISCELL
+  standard replicate *
+  page9_i19
+#ISCELL
+  standard replicate *
+  page9_i20
+#ISCELL
+  standard replicate *
+  page9_i21
+#ISCELL
+  cnpower p12v *
+  page9_i22
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i23
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i24
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i25
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i26
+#CELL
+  cnpassive elcaptan *
+  page9_i27
+#CELL
+  cnpassive elcaptan *
+  page9_i28
+#ISCELL
+  standard replicate *
+  page9_i29
+#ISCELL
+  standard gnd_signal *
+  page9_i3
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i30
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i31
+#ISCELL
+  standard replicate *
+  page9_i33
+#CELL
+  cnpassive rsmd0603 *
+  page9_i34
+#CELL
+  cnpassive rsmd0603 *
+  page9_i35
+#ISCELL
+  cnpower dgnd *
+  page9_i36
+#CELL
+  cnpassive rsmd0603 *
+  page9_i37
+#CELL
+  cnpassive rsmd0603 *
+  page9_i38
+#CELL
+  cnpassive rsmd0603 *
+  page9_i39
+#CELL
+  cnlinear ltm4606 *
+  page9_i4
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i40
+#ISCELL
+  cnpower p2v5 *
+  page9_i41
+#CELL
+  cnpassive rsmd0402 *
+  page9_i42
+#ISCELL
+  standard gnd_signal *
+  page9_i43
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i44
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i45
+#ISCELL
+  standard gnd_signal *
+  page9_i46
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i48
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i49
+#CELL
+  cndiscrete filter_bnx02 *
+  page9_i5
+#ISCELL
+  standard gnd_signal *
+  page9_i50
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i51
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i52
+#ISCELL
+  standard gnd_signal *
+  page9_i53
+#CELL
+  cnpassive elcaptan *
+  page9_i54
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i55
+#ISCELL
+  standard gnd_signal *
+  page9_i56
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i57
+#ISCELL
+  standard replicate *
+  page9_i58
+#CELL
+  cndiscrete filter_bnx02 *
+  page9_i59
+#CELL
+  cnpassive elcaptan *
+  page9_i60
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i61
+#ISCELL
+  standard gnd_signal *
+  page9_i62
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i63
+#CELL
+  cnpassive rsmd0603 *
+  page9_i64
+#ISCELL
+  standard replicate *
+  page9_i65
+#ISCELL
+  standard replicate *
+  page9_i66
+#CELL
+  cnpassive rsmd0603 *
+  page9_i67
+#ISCELL
+  standard replicate *
+  page9_i68
+#CELL
+  cnpassive rsmd0603 *
+  page9_i69
+#CELL
+  cnlinear lt3070 *
+  page9_i7
+#ISCELL
+  standard replicate *
+  page9_i70
+#ISCELL
+  cnpower dgnd *
+  page9_i71
+#CELL
+  cnlinear ltm4606 *
+  page9_i72
+#ISCELL
+  standard replicate *
+  page9_i73
+#ISCELL
+  standard replicate *
+  page9_i74
+#CELL
+  cnpassive rsmd0603 *
+  page9_i75
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i76
+#ISCELL
+  cnpower p12v *
+  page9_i77
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i78
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i79
+#CELL
+  cnlinear lt1584 *
+  page9_i8
+#CELL
+  cnpassive elcaptan *
+  page9_i80
+#ISCELL
+  cnpower dgnd *
+  page9_i81
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i82
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i83
+#CELL
+  cnpassive rsmd0603 *
+  page9_i84
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i85
+#CELL
+  cnpassive rsmd0603 *
+  page9_i86
+#CELL
+  cnpassive rsmd0603 *
+  page9_i87
+#ISCELL
+  standard gnd_signal *
+  page9_i88
+#ISCELL
+  standard gnd_signal *
+  page9_i89
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i90
+#ISCELL
+  standard gnd_signal *
+  page9_i91
+#CELL
+  cnconnector con2p *
+  page9_i92
+#ISCELL
+  cnpower dgnd *
+  page9_i93
+#CELL
+  cndiscrete led *
+  page9_i94
+#CELL
+  cnpassive rsmd0603 *
+  page9_i95
+#ISCELL
+  cnpower dgnd *
+  page9_i96
+#ISCELL
+  cnpower p12v *
+  page9_i97
+#CELL
+  cnpassive rsmd0603 *
+  page9_i98
+#CELL
+  cnpassive rsmd0603 *
+  page9_i99

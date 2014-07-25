@@ -1,0 +1,147 @@
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
+#ISCELL
+  standard gnd_signal *
+  page11_i100
+#CELL
+  cnpassive capcersmdcl1 *
+  page11_i102
+#CELL
+  cnpassive rsmd0603 *
+  page11_i103
+#CELL
+  cnpassive rsmd0603 *
+  page11_i104
+#CELL
+  cnlinear lp3874_adj *
+  page11_i105
+#ISCELL
+  standard gnd_signal *
+  page11_i106
+#CELL
+  cnpassive rsmd0603 *
+  page11_i108
+#ISCELL
+  cnpower avdd *
+  page11_i11
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i110
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i111
+#CELL
+  bris_cds_analogue lt1585 *
+  page11_i112
+#CELL
+  cnpassive rsmd0603 *
+  page11_i113
+#CELL
+  cnpassive capcersmdcl1 *
+  page11_i114
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i57
+#ISCELL
+  standard replicate *
+  page11_i58
+#CELL
+  cndiscrete filter_bnx02 *
+  page11_i59
+#CELL
+  cnpassive elcaptan *
+  page11_i60
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i61
+#ISCELL
+  standard gnd_signal *
+  page11_i62
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i63
+#CELL
+  cnpassive rsmd0603 *
+  page11_i64
+#ISCELL
+  standard replicate *
+  page11_i65
+#ISCELL
+  standard replicate *
+  page11_i66
+#CELL
+  cnpassive rsmd0603 *
+  page11_i67
+#ISCELL
+  standard replicate *
+  page11_i68
+#CELL
+  cnpassive rsmd0603 *
+  page11_i69
+#ISCELL
+  standard replicate *
+  page11_i70
+#ISCELL
+  cnpower dgnd *
+  page11_i71
+#CELL
+  cnlinear ltm4606 *
+  page11_i72
+#ISCELL
+  standard replicate *
+  page11_i73
+#ISCELL
+  standard replicate *
+  page11_i74
+#CELL
+  cnpassive rsmd0603 *
+  page11_i75
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i76
+#ISCELL
+  cnpower p12v *
+  page11_i77
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i78
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i79
+#CELL
+  cnpassive elcaptan *
+  page11_i80
+#ISCELL
+  cnpower dgnd *
+  page11_i81
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i82
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i83
+#CELL
+  cnpassive rsmd0603 *
+  page11_i84
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i85
+#ISCELL
+  standard gnd_signal *
+  page11_i89
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i90
+#ISCELL
+  standard gnd_signal *
+  page11_i91
+#ISCELL
+  cnpower p3v3 *
+  page11_i92
+#ISCELL
+  standard gnd_signal *
+  page11_i98
+#ISCELL
+  standard gnd_signal *
+  page11_i99

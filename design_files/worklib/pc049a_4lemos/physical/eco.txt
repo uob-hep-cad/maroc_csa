@@ -1,0 +1,177 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  .../trunk/design_files/worklib/pc049a_4lemos/physical/pc049a_4lemos_02.brd  |
+|                                                    Wed May  7 14:51:13 2014  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND_SIGNAL   pins MOVED FROM this net (to net name listed on right)
+                                 D1.2                           
+                                                       UNNAMED_1_CAPN4I_I10_A_1
+                                 D1.5                           
+                                                       UNNAMED_1_CAPN4I_I10_A_3
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 D1.8                           
+                                 RZ1.1                          
+                                 RZ1.2                          
+                                 RZ1.3                          
+                                 RZ1.4                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_CAPN4I_I10_A pins MOVED FROM this net (to net name listed on right)
+                                 D1.4                           
+                                                       UNNAMED_1_CAPN4I_I10_A_2
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 D1.10                          
+                                 RZ1.5                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_CAPN4I_I10_A_1 pins MOVED FROM this net (to net name listed on right)
+                                 D1.6                           
+                                                       UNNAMED_1_CAPN4I_I10_A_3
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 D1.9                           
+                                 RZ1.6                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_CAPN4I_I10_A_2 pins MOVED FROM this net (to net name listed on right)
+                                 D1.1                           
+                                                         UNNAMED_1_CAPN4I_I10_A
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 D1.7                           
+                                 RZ1.7                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_CAPN4I_I10_A_3 pins MOVED FROM this net (to net name listed on right)
+                                 D1.3                           
+                                                                     GND_SIGNAL
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 RZ1.8                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  .../trunk/design_files/worklib/pc049a_4lemos/physical/pc049a_4lemos_02.brd  |
+|                                                    Wed May  7 14:51:13 2014  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R4ISMD_1206-180
+ TVS_DIODE_ARRAY_SP3010_UDFN-SPA
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  .../trunk/design_files/worklib/pc049a_4lemos/physical/pc049a_4lemos_02.brd  |
+|                                                    Wed May  7 14:51:13 2014  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ RZ1                 R4ISMD_1206-180       
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  .../trunk/design_files/worklib/pc049a_4lemos/physical/pc049a_4lemos_02.brd  |
+|                                                    Wed May  7 14:51:13 2014  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ D1                  TVS_DIODE_ARRAY_SP3010_UDFN-SPA  0.0000  3.0000 PRTR5V0U4Y
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  .../trunk/design_files/worklib/pc049a_4lemos/physical/pc049a_4lemos_02.brd  |
+|                                                    Wed May  7 14:51:13 2014  |
+|------------------------------------------------------------------------------|
+| COMPONENT PROPERTIES added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   ref  des   |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ D1                             REUSE_ID       7
+ RZ1                            REUSE_ID       8
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  .../trunk/design_files/worklib/pc049a_4lemos/physical/pc049a_4lemos_02.brd  |
+|                                                    Wed May  7 14:51:13 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CN1.2           0.0000 -1.2000 DIELECTRIC     X7R
+ CN1.2           0.0000 -1.2000 TYPE           CKCA43
+ CN1.4           0.0000 -1.2000 DIELECTRIC     X7R
+ CN1.4           0.0000 -1.2000 TYPE           CKCA43
+ CN1.6           0.0000 -1.2000 DIELECTRIC     X7R
+ CN1.6           0.0000 -1.2000 TYPE           CKCA43
+ CN1.8           0.0000 -1.2000 DIELECTRIC     X7R
+ CN1.8           0.0000 -1.2000 TYPE           CKCA43
+ D1.8                           PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/tvs_diode_array_sp3010/chips/chips.prt
+ D1.8                           TYPE           SP3010-04UTG
+ PX1.5          -10.000 -10.000 TYPE           PLEMO00D
+ PX2.5          -10.000 10.0000 TYPE           PLEMO00D
+ PX3.5          10.0000 10.0000 TYPE           PLEMO00D
+ PX4.5          10.0000 -10.000 TYPE           PLEMO00D
+ RZ1.5                          HAS_FIXED_SIZE 4
+ RZ1.5                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/r4ismd/chips/chips.prt
+ RZ1.5                          SIZE           4
+ RZ1.5                          SWAP_GROUP     @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+ RZ1.6                          HAS_FIXED_SIZE 4
+ RZ1.6                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/r4ismd/chips/chips.prt
+ RZ1.6                          SIZE           4
+ RZ1.6                          SWAP_GROUP     @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+ RZ1.7                          HAS_FIXED_SIZE 4
+ RZ1.7                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/r4ismd/chips/chips.prt
+ RZ1.7                          SIZE           4
+ RZ1.7                          SWAP_GROUP     @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+ RZ1.8                          HAS_FIXED_SIZE 4
+ RZ1.8                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/r4ismd/chips/chips.prt
+ RZ1.8                          SIZE           4
+ RZ1.8                          SWAP_GROUP     @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  .../trunk/design_files/worklib/pc049a_4lemos/physical/pc049a_4lemos_02.brd  |
+|                                                    Wed May  7 14:51:13 2014  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ D1.1                           CDS_PINID      A1
+ D1.2                           CDS_PINID      A2
+ D1.3                           CDS_PINID      GND1
+ D1.4                           CDS_PINID      A3
+ D1.5                           CDS_PINID      A4
+ D1.6                           CDS_PINID      B4
+ D1.7                           CDS_PINID      B3
+ D1.8                           CDS_PINID      GND2
+ D1.9                           CDS_PINID      B2
+ D1.10                          CDS_PINID      B1
+ RZ1.1                          CDS_PINID      A(0)
+ RZ1.2                          CDS_PINID      A(1)
+ RZ1.3                          CDS_PINID      A(2)
+ RZ1.4                          CDS_PINID      A(3)
+ RZ1.5                          CDS_PINID      B(3)
+ RZ1.6                          CDS_PINID      B(2)
+ RZ1.7                          CDS_PINID      B(1)
+ RZ1.8                          CDS_PINID      B(0)
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  72                                             |
+|------------------------------------------------------------------------------|

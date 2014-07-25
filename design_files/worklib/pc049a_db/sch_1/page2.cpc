@@ -1,0 +1,435 @@
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
+#ISCELL
+  standard tap *
+  page2_i1
+#ISCELL
+  standard tap *
+  page2_i10
+#ISCELL
+  standard tap *
+  page2_i100
+#ISCELL
+  standard tap *
+  page2_i101
+#ISCELL
+  standard tap *
+  page2_i102
+#ISCELL
+  standard tap *
+  page2_i103
+#ISCELL
+  standard tap *
+  page2_i104
+#ISCELL
+  standard tap *
+  page2_i105
+#ISCELL
+  standard tap *
+  page2_i106
+#ISCELL
+  standard tap *
+  page2_i107
+#ISCELL
+  standard tap *
+  page2_i108
+#ISCELL
+  standard tap *
+  page2_i109
+#ISCELL
+  standard tap *
+  page2_i11
+#CELL
+  uob_hep_pc049a_lib pc049a_4lemos *
+  page2_i110
+#ISCELL
+  standard tap *
+  page2_i111
+#ISCELL
+  standard tap *
+  page2_i112
+#ISCELL
+  standard tap *
+  page2_i113
+#ISCELL
+  standard tap *
+  page2_i114
+#ISCELL
+  standard tap *
+  page2_i115
+#ISCELL
+  standard tap *
+  page2_i116
+#ISCELL
+  standard tap *
+  page2_i117
+#ISCELL
+  standard tap *
+  page2_i118
+#ISCELL
+  standard tap *
+  page2_i119
+#ISCELL
+  standard tap *
+  page2_i12
+#ISCELL
+  standard tap *
+  page2_i120
+#ISCELL
+  standard tap *
+  page2_i121
+#ISCELL
+  standard tap *
+  page2_i122
+#ISCELL
+  standard tap *
+  page2_i123
+#ISCELL
+  standard tap *
+  page2_i124
+#ISCELL
+  standard tap *
+  page2_i125
+#ISCELL
+  standard tap *
+  page2_i126
+#ISCELL
+  standard tap *
+  page2_i127
+#ISCELL
+  standard tap *
+  page2_i128
+#ISCELL
+  standard tap *
+  page2_i129
+#ISCELL
+  standard tap *
+  page2_i13
+#CELL
+  uob_hep_pc049a_lib pc049a_4lemos *
+  page2_i130
+#CELL
+  uob_hep_pc049a_lib pc049a_4lemos *
+  page2_i131
+#CELL
+  uob_hep_pc049a_lib pc049a_4lemos *
+  page2_i132
+#CELL
+  uob_hep_pc049a_lib pc049a_4lemos *
+  page2_i133
+#CELL
+  uob_hep_pc049a_lib pc049a_4lemos *
+  page2_i134
+#ISCELL
+  standard tap *
+  page2_i135
+#ISCELL
+  standard tap *
+  page2_i136
+#ISCELL
+  standard tap *
+  page2_i137
+#ISCELL
+  standard tap *
+  page2_i138
+#ISCELL
+  standard tap *
+  page2_i139
+#ISCELL
+  standard tap *
+  page2_i14
+#ISCELL
+  standard tap *
+  page2_i140
+#ISCELL
+  standard tap *
+  page2_i141
+#ISCELL
+  standard tap *
+  page2_i142
+#CELL
+  uob_hep_pc049a_lib pc049a_4lemos *
+  page2_i143
+#CELL
+  uob_hep_pc049a_lib pc049a_4lemos *
+  page2_i144
+#ISCELL
+  standard tap *
+  page2_i15
+#ISCELL
+  standard tap *
+  page2_i16
+#ISCELL
+  standard tap *
+  page2_i17
+#ISCELL
+  standard tap *
+  page2_i18
+#ISCELL
+  standard tap *
+  page2_i19
+#ISCELL
+  standard tap *
+  page2_i2
+#ISCELL
+  standard tap *
+  page2_i20
+#ISCELL
+  standard tap *
+  page2_i21
+#ISCELL
+  standard tap *
+  page2_i22
+#ISCELL
+  standard tap *
+  page2_i23
+#ISCELL
+  standard tap *
+  page2_i24
+#ISCELL
+  standard tap *
+  page2_i25
+#ISCELL
+  standard tap *
+  page2_i26
+#ISCELL
+  standard tap *
+  page2_i27
+#ISCELL
+  standard tap *
+  page2_i28
+#ISCELL
+  standard tap *
+  page2_i29
+#ISCELL
+  standard tap *
+  page2_i3
+#ISCELL
+  standard tap *
+  page2_i30
+#ISCELL
+  standard tap *
+  page2_i31
+#ISCELL
+  standard tap *
+  page2_i32
+#ISCELL
+  standard tap *
+  page2_i33
+#ISCELL
+  standard tap *
+  page2_i34
+#ISCELL
+  standard tap *
+  page2_i35
+#ISCELL
+  standard tap *
+  page2_i36
+#ISCELL
+  standard tap *
+  page2_i37
+#ISCELL
+  standard tap *
+  page2_i38
+#ISCELL
+  standard tap *
+  page2_i39
+#ISCELL
+  standard tap *
+  page2_i4
+#ISCELL
+  standard tap *
+  page2_i40
+#ISCELL
+  standard tap *
+  page2_i41
+#ISCELL
+  standard tap *
+  page2_i42
+#ISCELL
+  standard tap *
+  page2_i43
+#ISCELL
+  standard tap *
+  page2_i44
+#ISCELL
+  standard tap *
+  page2_i45
+#ISCELL
+  standard tap *
+  page2_i46
+#ISCELL
+  standard tap *
+  page2_i47
+#ISCELL
+  standard tap *
+  page2_i48
+#CELL
+  uob_hep_pc049a_lib pc049a_4lemos *
+  page2_i49
+#ISCELL
+  standard tap *
+  page2_i5
+#ISCELL
+  standard tap *
+  page2_i50
+#ISCELL
+  standard tap *
+  page2_i51
+#ISCELL
+  standard tap *
+  page2_i52
+#ISCELL
+  standard tap *
+  page2_i53
+#ISCELL
+  standard tap *
+  page2_i54
+#CELL
+  uob_hep_pc049a_lib pc049a_4lemos *
+  page2_i55
+#CELL
+  uob_hep_pc049a_lib pc049a_4lemos *
+  page2_i56
+#CELL
+  uob_hep_pc049a_lib pc049a_4lemos *
+  page2_i57
+#ISCELL
+  standard tap *
+  page2_i58
+#ISCELL
+  standard tap *
+  page2_i59
+#ISCELL
+  standard tap *
+  page2_i6
+#ISCELL
+  standard tap *
+  page2_i60
+#ISCELL
+  standard tap *
+  page2_i61
+#ISCELL
+  standard tap *
+  page2_i62
+#ISCELL
+  standard tap *
+  page2_i63
+#ISCELL
+  standard tap *
+  page2_i64
+#ISCELL
+  standard tap *
+  page2_i65
+#ISCELL
+  standard tap *
+  page2_i66
+#ISCELL
+  standard tap *
+  page2_i67
+#ISCELL
+  standard tap *
+  page2_i68
+#CELL
+  uob_hep_pc049a_lib pc049a_4lemos *
+  page2_i69
+#ISCELL
+  standard tap *
+  page2_i7
+#CELL
+  uob_hep_pc049a_lib pc049a_4lemos *
+  page2_i70
+#ISCELL
+  standard tap *
+  page2_i71
+#ISCELL
+  standard tap *
+  page2_i72
+#ISCELL
+  standard tap *
+  page2_i73
+#ISCELL
+  standard tap *
+  page2_i74
+#ISCELL
+  standard tap *
+  page2_i75
+#ISCELL
+  standard tap *
+  page2_i76
+#ISCELL
+  standard tap *
+  page2_i77
+#ISCELL
+  standard tap *
+  page2_i78
+#ISCELL
+  standard tap *
+  page2_i79
+#ISCELL
+  standard tap *
+  page2_i8
+#ISCELL
+  standard tap *
+  page2_i80
+#ISCELL
+  standard tap *
+  page2_i81
+#ISCELL
+  standard tap *
+  page2_i82
+#ISCELL
+  standard tap *
+  page2_i83
+#ISCELL
+  standard tap *
+  page2_i84
+#ISCELL
+  standard tap *
+  page2_i85
+#ISCELL
+  standard tap *
+  page2_i86
+#ISCELL
+  standard tap *
+  page2_i87
+#ISCELL
+  standard tap *
+  page2_i88
+#ISCELL
+  standard tap *
+  page2_i89
+#ISCELL
+  standard tap *
+  page2_i9
+#ISCELL
+  standard tap *
+  page2_i90
+#ISCELL
+  standard tap *
+  page2_i91
+#ISCELL
+  standard tap *
+  page2_i92
+#ISCELL
+  standard tap *
+  page2_i93
+#ISCELL
+  standard tap *
+  page2_i94
+#CELL
+  uob_hep_pc049a_lib pc049a_4lemos *
+  page2_i95
+#CELL
+  uob_hep_pc049a_lib pc049a_4lemos *
+  page2_i96
+#ISCELL
+  standard tap *
+  page2_i97
+#ISCELL
+  standard tap *
+  page2_i98
+#ISCELL
+  standard tap *
+  page2_i99

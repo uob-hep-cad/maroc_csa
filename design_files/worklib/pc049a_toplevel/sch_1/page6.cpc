@@ -1,0 +1,267 @@
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
+#CELL
+  cnconnector con20p_sfp *
+  page7_i1
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i10
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i11
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i12
+#ISCELL
+  standard gnd_signal *
+  page7_i13
+#CELL
+  cndiscrete ferrite *
+  page7_i14
+#CELL
+  cndiscrete ferrite *
+  page7_i15
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i16
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i17
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i18
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i19
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i20
+#ISCELL
+  cnpower p3v3 *
+  page7_i21
+#ISCELL
+  cnpower p3v3 *
+  page7_i22
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i23
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i24
+#ISCELL
+  cnpower p3v3 *
+  page7_i25
+#CELL
+  cndiscrete ferrite *
+  page7_i26
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i27
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i28
+#CELL
+  cnconnector con20p_sfp *
+  page7_i29
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i3
+#ISCELL
+  standard gnd_signal *
+  page7_i30
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i31
+#CELL
+  cndiscrete ferrite *
+  page7_i32
+#ISCELL
+  cnpower p3v3 *
+  page7_i33
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i34
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i35
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i36
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i37
+#CELL
+  uob_hep_pc049a_lib pc049a_fpga *
+  page7_i38
+#ISCELL
+  standard tap *
+  page7_i39
+#CELL
+  cnconnector con7p *
+  page7_i4
+#ISCELL
+  standard tap *
+  page7_i40
+#ISCELL
+  standard tap *
+  page7_i41
+#ISCELL
+  standard tap *
+  page7_i42
+#ISCELL
+  standard tap *
+  page7_i43
+#ISCELL
+  standard tap *
+  page7_i44
+#ISCELL
+  standard tap *
+  page7_i45
+#ISCELL
+  standard tap *
+  page7_i46
+#ISCELL
+  standard tap *
+  page7_i47
+#ISCELL
+  standard tap *
+  page7_i48
+#ISCELL
+  standard tap *
+  page7_i49
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i5
+#ISCELL
+  standard tap *
+  page7_i50
+#ISCELL
+  standard tap *
+  page7_i51
+#ISCELL
+  standard tap *
+  page7_i52
+#ISCELL
+  standard tap *
+  page7_i53
+#ISCELL
+  standard tap *
+  page7_i54
+#CELL
+  cnpassive rsmd0603 *
+  page7_i55
+#ISCELL
+  standard tap *
+  page7_i56
+#ISCELL
+  standard tap *
+  page7_i57
+#ISCELL
+  standard tap *
+  page7_i58
+#ISCELL
+  standard tap *
+  page7_i59
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i6
+#ISCELL
+  standard tap *
+  page7_i60
+#ISCELL
+  standard tap *
+  page7_i61
+#ISCELL
+  standard tap *
+  page7_i62
+#ISCELL
+  standard tap *
+  page7_i63
+#ISCELL
+  standard tap *
+  page7_i64
+#ISCELL
+  standard tap *
+  page7_i65
+#ISCELL
+  standard tap *
+  page7_i66
+#ISCELL
+  standard tap *
+  page7_i67
+#ISCELL
+  standard tap *
+  page7_i68
+#ISCELL
+  standard tap *
+  page7_i69
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i7
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i70
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i71
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i72
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i73
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i74
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i75
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i76
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i77
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i79
+#CELL
+  cnconnector con7p *
+  page7_i8
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i80
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i81
+#ISCELL
+  standard gnd_signal *
+  page7_i82
+#ISCELL
+  cnpower p1v2 *
+  page7_i83
+#CELL
+  cndiscrete ferrite *
+  page7_i84
+#CELL
+  cnmech sfp_cage *
+  page7_i85
+#CELL
+  cnmech sfp_cage *
+  page7_i86
+#CELL
+  cnmech sfp_cage *
+  page7_i87
+#CELL
+  cnmech sfp_cage *
+  page7_i88
+#ISCELL
+  standard gnd_signal *
+  page7_i89
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i9
+#ISCELL
+  standard gnd_signal *
+  page7_i90

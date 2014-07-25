@@ -1,4 +1,4 @@
-( ConstraintFile "pc043c_single_maroc_27"
+( ConstraintFile "pc043c_single_maroc_28"
 	( constraintHeader
 		( objectKey
 			( physical )
@@ -7,7 +7,7 @@
 			( 16.5 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 25 )
+			( logicalViewRevNum 29 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -54,7 +54,7 @@
 	( designConstraints
 		( ruleChanges
 			( allRules )
-			( design "pc043c_single_maroc_27"
+			( design "pc043c_single_maroc_28"
 			)
 			( signal "OR<0>"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\or\(0)" )
@@ -433,9 +433,6 @@
 			)
 			( signal "START_ADCB"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):start_adcb" )
-			)
-			( signal "UNNAMED_3_CAPCERSMDCL2_I242_B"
-				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):unnamed_3_capcersmdcl2_i242_b" )
 			)
 			( signal "UNNAMED_3_CON3P_I231_A"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):unnamed_3_con3p_i231_a" )
@@ -1190,12 +1187,6 @@
 			( gate "J4"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i231" )
 			)
-			( gate "R44"
-				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i233" )
-			)
-			( gate "R45"
-				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i234" )
-			)
 			( gate "R42"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i236" )
 			)
@@ -1205,9 +1196,6 @@
 			( gate "C50"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i238" )
 			)
-			( gate "R48"
-				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i241" )
-			)
 			( gate "C54"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i242" )
 			)
@@ -1216,6 +1204,12 @@
 			)
 			( gate "J1"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i246" )
+			)
+			( gate "C48"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i252" )
+			)
+			( gate "RG1"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253" )
 			)
 			( bus "OR"
 				( memberType ( signal ) )

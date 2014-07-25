@@ -1,0 +1,246 @@
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
+#CELL
+  uob_hep_pc049a_lib pc049a_fpga *
+  page10_i1
+#ISCELL
+  standard replicate *
+  page10_i10
+#ISCELL
+  standard replicate *
+  page10_i11
+#ISCELL
+  standard replicate *
+  page10_i12
+#ISCELL
+  standard gnd_signal *
+  page10_i13
+#ISCELL
+  cnpower p2v5 *
+  page10_i14
+#ISCELL
+  cnpower p2v5 *
+  page10_i15
+#ISCELL
+  cnpower p2v5 *
+  page10_i16
+#ISCELL
+  cnpower p2v5 *
+  page10_i17
+#CELL
+  cnpassive rsmd0402 *
+  page10_i18
+#CELL
+  cnpassive rsmd0402 *
+  page10_i19
+#ISCELL
+  cnpower p2v5 *
+  page10_i2
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i20
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i21
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i22
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i23
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i24
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i25
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i26
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i27
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i28
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i29
+#ISCELL
+  cnpower p3v3 *
+  page10_i3
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i30
+#ISCELL
+  standard gnd_signal *
+  page10_i31
+#ISCELL
+  cnpower p1v2 *
+  page10_i32
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i34
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i35
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i36
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i37
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i39
+#ISCELL
+  cnpower p1v2 *
+  page10_i4
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i44
+#ISCELL
+  standard gnd_signal *
+  page10_i45
+#ISCELL
+  cnpower p3v3 *
+  page10_i46
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i47
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i48
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i49
+#ISCELL
+  cnpower vtt *
+  page10_i5
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i50
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i51
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i52
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i53
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i54
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i55
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i57
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i58
+#ISCELL
+  standard gnd_signal *
+  page10_i59
+#ISCELL
+  standard replicate *
+  page10_i6
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i60
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i61
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i62
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i63
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i64
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i65
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i66
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i67
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i68
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i69
+#ISCELL
+  standard replicate *
+  page10_i7
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i70
+#ISCELL
+  cnpower p2v5 *
+  page10_i71
+#CELL
+  cnlinear lp3874_adj *
+  page10_i72
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i74
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i75
+#ISCELL
+  standard gnd_signal *
+  page10_i76
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i77
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i78
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i79
+#ISCELL
+  standard replicate *
+  page10_i8
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i80
+#ISCELL
+  standard gnd_signal *
+  page10_i81
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i82
+#ISCELL
+  cnpower p2v5 *
+  page10_i83
+#ISCELL
+  standard gnd_signal *
+  page10_i84
+#ISCELL
+  cnpower vtt *
+  page10_i85
+#CELL
+  cnpassive rsmd0603 *
+  page10_i86
+#CELL
+  cnpassive rsmd0603 *
+  page10_i87
+#CELL
+  cnpassive rsmd0603 *
+  page10_i88
+#CELL
+  cnpassive capcersmdcl1 *
+  page10_i89
+#ISCELL
+  standard replicate *
+  page10_i9

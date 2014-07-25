@@ -1,3 +1,0 @@
-page1.csa
-pc049a_header_diode_clamps.xcon
-pc049a_header_diode_clamps.dcf

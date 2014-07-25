@@ -1,0 +1,230 @@
+FILE_TYPE=EXPANDEDPARTLIST;
+{ Packager-XL run on 17-Mar-2014 AT 14:34:15 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='PC049A_4LEMOS';
+ POST_TIME='17-Mar-2014 AT 14:34:15';
+ SOURCE_TOOL='PACKAGER_XL';
+END_DIRECTIVES;
+
+PART_NAME
+ CN1 'CAPN4I-100NF,16V,X7R,CKCA43':
+ REUSE_ID='1';
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)'(0):
+ C_PATH='@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0)@cnpassive.capn4i(~
+chips)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0)@cnpassive.capn4i(~
+chips)',
+ PATH='I10',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1',
+ SIZE='4',
+ TYPE='CKCA43',
+ DIELECTRIC='X7R',
+ PHYS_PAGE='1',
+ REUSE_ID='1',
+ XY='(2100,625)',
+ ROT='0',
+ VER='2',
+ VALUE='100NF',
+ HAS_FIXED_SIZE='4',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPN4I-100NF,16V,X7R,CKCA43',
+ VOLTAGE='16V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capn4i/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)'(1):
+ C_PATH='@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1)@cnpassive.capn4i(~
+chips)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1)@cnpassive.capn4i(~
+chips)',
+ PATH='I10',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1',
+ SIZE='4',
+ TYPE='CKCA43',
+ DIELECTRIC='X7R',
+ PHYS_PAGE='1',
+ REUSE_ID='1',
+ XY='(2100,625)',
+ ROT='0',
+ VER='2',
+ VALUE='100NF',
+ HAS_FIXED_SIZE='4',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPN4I-100NF,16V,X7R,CKCA43',
+ VOLTAGE='16V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capn4i/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)'(2):
+ C_PATH='@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2)@cnpassive.capn4i(~
+chips)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2)@cnpassive.capn4i(~
+chips)',
+ PATH='I10',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1',
+ SIZE='4',
+ TYPE='CKCA43',
+ DIELECTRIC='X7R',
+ PHYS_PAGE='1',
+ REUSE_ID='1',
+ XY='(2100,625)',
+ ROT='0',
+ VER='2',
+ VALUE='100NF',
+ HAS_FIXED_SIZE='4',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPN4I-100NF,16V,X7R,CKCA43',
+ VOLTAGE='16V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capn4i/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)'(3):
+ C_PATH='@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3)@cnpassive.capn4i(~
+chips)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3)@cnpassive.capn4i(~
+chips)',
+ PATH='I10',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1',
+ SIZE='4',
+ TYPE='CKCA43',
+ DIELECTRIC='X7R',
+ PHYS_PAGE='1',
+ REUSE_ID='1',
+ XY='(2100,625)',
+ ROT='0',
+ VER='2',
+ VALUE='100NF',
+ HAS_FIXED_SIZE='4',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPN4I-100NF,16V,X7R,CKCA43',
+ VOLTAGE='16V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capn4i/chips/chips.prt';
+
+PART_NAME
+ D1 'PRTR5V0U4Y':
+ REUSE_ID='6';
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I12@CNDISCRETE.PRTR5V0U4Y(CHIPS)':
+ C_PATH='@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i12@cndiscrete.prtr5v0u4~
+y(chips)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i12@cndiscrete.prtr5v0u4~
+y(chips)',
+ PATH='I12',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1',
+ TYPE='PRTR5V0U4Y',
+ PHYS_PAGE='1',
+ REUSE_ID='6',
+ XY='(675,-450)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='SC88',
+ CDS_LIB='cndiscrete',
+ CDS_PART_NAME='PRTR5V0U4Y',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cndiscrete/prtr5v0u4y/chips/chips.prt';
+
+PART_NAME
+ PX1 'COAX-PLEMO00D':
+ REUSE_ID='2';
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS)':
+ C_PATH='@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chi~
+ps)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chi~
+ps)',
+ PATH='I11',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1',
+ TYPE='PLEMO00D',
+ PHYS_PAGE='1',
+ REUSE_ID='2',
+ XY='(-500,1300)',
+ ROT='0',
+ VER='1',
+ PACK_SHORT='(B<0>,B<1>,B<2>,B<3>)',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='COAX-PLEMO00D',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnconnector/coax/chips/chips.prt';
+
+PART_NAME
+ PX2 'COAX-PLEMO00D':
+ REUSE_ID='3';
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS)':
+ C_PATH='@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chi~
+ps)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chi~
+ps)',
+ PATH='I19',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1',
+ TYPE='PLEMO00D',
+ PHYS_PAGE='1',
+ REUSE_ID='3',
+ XY='(-500,875)',
+ ROT='0',
+ VER='1',
+ PACK_SHORT='(B<0>,B<1>,B<2>,B<3>)',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='COAX-PLEMO00D',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnconnector/coax/chips/chips.prt';
+
+PART_NAME
+ PX3 'COAX-PLEMO00D':
+ REUSE_ID='5';
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS)':
+ C_PATH='@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chi~
+ps)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chi~
+ps)',
+ PATH='I17',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1',
+ TYPE='PLEMO00D',
+ PHYS_PAGE='1',
+ REUSE_ID='5',
+ XY='(-500,450)',
+ ROT='0',
+ VER='1',
+ PACK_SHORT='(B<0>,B<1>,B<2>,B<3>)',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='COAX-PLEMO00D',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnconnector/coax/chips/chips.prt';
+
+PART_NAME
+ PX4 'COAX-PLEMO00D':
+ REUSE_ID='4';
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS)':
+ C_PATH='@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chi~
+ps)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chi~
+ps)',
+ PATH='I15',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1',
+ TYPE='PLEMO00D',
+ PHYS_PAGE='1',
+ REUSE_ID='4',
+ XY='(-500,25)',
+ ROT='0',
+ VER='1',
+ PACK_SHORT='(B<0>,B<1>,B<2>,B<3>)',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='COAX-PLEMO00D',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnconnector/coax/chips/chips.prt';
+
+END.

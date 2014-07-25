@@ -1,0 +1,18 @@
+(
+ (file_type "hdldirect.dat" "1.0" )
+ (design_name "pc049a_lemo_daughter_board" )
+ (view "sch_1" )
+ (modtime "verilog.v" 1395068460 1914 )
+ (timescale "1ns/1ns" )
+ (cells "CAPN4I" "COAX" "PRTR5V0U4Y" )
+ (global_signals 
+  ("glbl" "GND_SIGNAL" "STD_LOGIC" "wire" "" "" ))
+ (single_page 
+  ("" 
+   ("page1_I10" "CAPN4I" )
+   ("page1_I11" "COAX" )
+   ("page1_I12" "PRTR5V0U4Y" )
+   ("page1_I15" "COAX" )
+   ("page1_I17" "COAX" )
+   ("page1_I19" "COAX" )))
+ (multiple_pages ))

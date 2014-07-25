@@ -1,0 +1,16 @@
+Lemo daughter-board
+-------------------
+
+Front pannel 3.0mm Aluminium sheet.
+
+EPA connector is 14mm from end to PCB ( 17.0mm overall length )
+
+Want surface flush with top of sheet, or slightly higher
+
+So, stand-offs need to be ( 14mm - 3mm ) = 11mm or less.
+
+For example, use RS 606-686 stand-offs ( M3, stud and thread, body 10mm long ) possibly with washer.
+
+Put mounting holes with same spacing as for SQCD ( see http://www.samtec.com/documents/webfiles/cpdf/XQXX%20WITH%20SCREW-DOWN%20OPTIONS-MKT.pdf )
+
+ 

@@ -399,12 +399,6 @@
   page3_i232
 #CELL
   cnpassive rsmd0603 *
-  page3_i233
-#CELL
-  cnpassive rsmd0603 *
-  page3_i234
-#CELL
-  cnpassive rsmd0603 *
   page3_i236
 #CELL
   cnpassive capcersmdcl2 *
@@ -416,14 +410,8 @@
   standard gnd_signal *
   page3_i239
 #CELL
-  cnpassive rsmd0402 *
-  page3_i241
-#CELL
   cnpassive capcersmdcl2 *
   page3_i242
-#ISCELL
-  standard gnd_signal *
-  page3_i243
 #ISCELL
   cnpower avdd *
   page3_i244
@@ -439,6 +427,15 @@
 #ISCELL
   standard gnd_signal *
   page3_i248
+#ISCELL
+  cnpower avdd *
+  page3_i250
+#CELL
+  cnpassive elcaptan *
+  page3_i252
+#CELL
+  cnlinear tps776xx *
+  page3_i253
 #ISCELL
   standard inport *
   page3_i26

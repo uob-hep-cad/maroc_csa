@@ -1,0 +1,234 @@
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
+#CELL
+  cnlinear ds18b20 *
+  page8_i10
+#ISCELL
+  standard gnd_signal *
+  page8_i100
+#ISCELL
+  standard tap *
+  page8_i101
+#ISCELL
+  standard tap *
+  page8_i102
+#ISCELL
+  standard tap *
+  page8_i103
+#ISCELL
+  standard tap *
+  page8_i104
+#CELL
+  cndiscrete led *
+  page8_i105
+#CELL
+  cndiscrete led *
+  page8_i106
+#CELL
+  cndiscrete led *
+  page8_i107
+#CELL
+  cndiscrete led *
+  page8_i108
+#ISCELL
+  standard gnd_signal *
+  page8_i109
+#ISCELL
+  cnpower p3v3 *
+  page8_i11
+#ISCELL
+  standard tap *
+  page8_i110
+#ISCELL
+  standard tap *
+  page8_i111
+#ISCELL
+  standard tap *
+  page8_i112
+#ISCELL
+  standard tap *
+  page8_i113
+#ISCELL
+  standard tap *
+  page8_i114
+#CELL
+  cndiscrete led *
+  page8_i115
+#CELL
+  cnpassive rsmd0603 *
+  page8_i116
+#ISCELL
+  standard gnd_signal *
+  page8_i117
+#ISCELL
+  standard gnd_signal *
+  page8_i3
+#CELL
+  cnmemory 24aa64 *
+  page8_i41
+#ISCELL
+  cnpower p3v3 *
+  page8_i43
+#ISCELL
+  standard gnd_signal *
+  page8_i44
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i45
+#CELL
+  cnpassive res_array_x4 *
+  page8_i49
+#CELL
+  cnpassive res_array_x4 *
+  page8_i50
+#CELL
+  cnconnector con12p *
+  page8_i51
+#ISCELL
+  cnpower p3v3 *
+  page8_i52
+#ISCELL
+  standard gnd_signal *
+  page8_i53
+#ISCELL
+  standard gnd_signal *
+  page8_i54
+#CELL
+  uob_hep_pc049a_lib pc049a_fpga *
+  page8_i55
+#CELL
+  cnpassive rsmd0603 *
+  page8_i56
+#CELL
+  cnpassive rsmd0603 *
+  page8_i57
+#ISCELL
+  cnpower p3v3 *
+  page8_i58
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i59
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i6
+#ISCELL
+  standard gnd_signal *
+  page8_i60
+#CELL
+  cnpassive rsmd0603 *
+  page8_i61
+#ISCELL
+  standard gnd_signal *
+  page8_i62
+#CELL
+  cnpassive rsmd0603 *
+  page8_i63
+#ISCELL
+  cnpower avdd *
+  page8_i64
+#ISCELL
+  standard tap *
+  page8_i65
+#CELL
+  cnpassive rsmd0603 *
+  page8_i66
+#ISCELL
+  standard tap *
+  page8_i67
+#CELL
+  cnpassive rsmd0603 *
+  page8_i68
+#ISCELL
+  standard gnd_signal *
+  page8_i69
+#ISCELL
+  standard gnd_signal *
+  page8_i7
+#CELL
+  bris_cds_analogue ad8031 *
+  page8_i70
+#CELL
+  cnpassive rsmd0603 *
+  page8_i71
+#ISCELL
+  standard tap *
+  page8_i72
+#CELL
+  cnpassive rsmd0603 *
+  page8_i73
+#ISCELL
+  standard tap *
+  page8_i74
+#CELL
+  cnpassive rsmd0603 *
+  page8_i75
+#CELL
+  cnpassive rsmd0603 *
+  page8_i76
+#CELL
+  cnpassive rsmd0603 *
+  page8_i77
+#CELL
+  cnpassive rsmd0603 *
+  page8_i78
+#ISCELL
+  standard tap *
+  page8_i79
+#CELL
+  cnpassive rsmd0603 *
+  page8_i8
+#CELL
+  cnpassive rsmd0603 *
+  page8_i80
+#ISCELL
+  standard tap *
+  page8_i81
+#CELL
+  cnpassive rsmd0603 *
+  page8_i82
+#CELL
+  cnpassive rsmd0603 *
+  page8_i83
+#CELL
+  cnpassive rsmd0603 *
+  page8_i84
+#ISCELL
+  standard gnd_signal *
+  page8_i85
+#CELL
+  cnpassive sw_pushbutton_1spsta_4p *
+  page8_i86
+#CELL
+  cnpassive sw4int *
+  page8_i88
+#CELL
+  cnpassive r4ismd *
+  page8_i90
+#CELL
+  cnpassive r4ismd *
+  page8_i91
+#CELL
+  cnpassive rsmd0603 *
+  page8_i92
+#ISCELL
+  standard gnd_signal *
+  page8_i93
+#ISCELL
+  cnpower p3v3 *
+  page8_i94
+#ISCELL
+  cnpower p3v3 *
+  page8_i95
+#CELL
+  cnpassive sw_pushbutton_1spsta_4p *
+  page8_i96
+#CELL
+  cnpassive rsmd0603 *
+  page8_i97
+#ISCELL
+  standard gnd_signal *
+  page8_i98
+#ISCELL
+  cnpower p3v3 *
+  page8_i99

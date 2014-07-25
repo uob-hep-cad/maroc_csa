@@ -1,4 +1,4 @@
-; Packager-XL run on 13-Mar-2014 AT 16:16:51 CONSTRAINTS_VIEW_GENERATED
+; Packager-XL run on 20-Mar-2014 AT 09:19:22 CONSTRAINTS_VIEW_GENERATED
 ( ConstraintFile "pc043c_single_maroc"
 	( constraintHeader
 		( objectKey
@@ -8,11 +8,12 @@
 			( 16.5 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 25 )
-			( physicalViewRevNum 0 )
+			( logicalViewRevNum 29 )
+			( physicalViewRevNum 1 )
 			( otherViewRevNum 0 )
 		)
 		( contents
+			( drawing )
 			( dictionaryExtensions )
 			( worksheetCustomizations )
 			( electricalConstraints )
@@ -20,8 +21,14 @@
 			( properties )
 		)
 		( precision
-			( units mil )
-			( numberOfDecimalPlaces 2 )
+			( units mm )
+			( numberOfDecimalPlaces 4 )
+		)
+	)
+	( drawing
+		( attribute "DRAWING_EXTENTS" "621.2800,381.4000"
+		)
+		( attribute "DRAWING_LOWER_LEFT" "-310.8900,-191.4865"
 		)
 	)
 	( DictionaryExtensions
@@ -371,6 +378,106 @@
 			( Analysis
 			)
 		)
+		( Attribute
+			( Name "IC" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "KNEE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SQ_LINE_WIDTH_VALUES" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oDesign )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CREATOR" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oPart  oGate  oGateDefn  oPin  oPinDefn  oNet  oIODriver  oShape  oVia  oSymbolDefn  oSymbol  oLine  oFigure  oVoid  oCLine )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DESCRIPTION" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oPart  oGate  oGateDefn  oPin  oPinDefn  oNet  oIODriver  oShape  oVia  oSymbolDefn  oSymbol  oLine  oFigure  oVoid  oCLine )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MAX_FILENAME_VALUE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oDesign )
+			)
+			( Analysis
+			)
+		)
 	)
 	( designConstraints
 		( ruleChanges
@@ -608,9 +715,18 @@
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):unnamed_1_maroc3_i1_or1" )
 			)
 			( signal "AVDD"
+				( attribute "WEIGHT" "0"
+					( Origin gBackEnd )
+				)
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):avdd" )
 			)
 			( signal "GND_SIGNAL"
+				( attribute "WEIGHT" "0"
+					( Origin gBackEnd )
+				)
+				( attribute "NO_RAT" "1"
+					( Origin gBackEnd )
+				)
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):gnd_signal" )
 			)
 			( signal "UNNAMED_2_CAPCERSMDCL2_I82_B"
@@ -756,9 +872,6 @@
 			)
 			( signal "START_ADCB"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):start_adcb" )
-			)
-			( signal "UNNAMED_3_CAPCERSMDCL2_I242_B"
-				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):unnamed_3_capcersmdcl2_i242_b" )
 			)
 			( signal "UNNAMED_3_CON3P_I231_A"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):unnamed_3_con3p_i231_a" )
@@ -1519,12 +1632,6 @@
 			( gate "J4"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i231" )
 			)
-			( gate "R44"
-				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i233" )
-			)
-			( gate "R45"
-				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i234" )
-			)
 			( gate "R42"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i236" )
 			)
@@ -1534,9 +1641,6 @@
 			( gate "C50"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i238" )
 			)
-			( gate "R48"
-				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i241" )
-			)
 			( gate "C54"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i242" )
 			)
@@ -1545,6 +1649,12 @@
 			)
 			( gate "J1"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i246" )
+			)
+			( gate "C48"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i252" )
+			)
+			( gate "RG1"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253" )
 			)
 			( pin "U1.238"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in0" )
@@ -1963,17 +2073,17 @@
 			( pin "U1.214"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:sum8" )
 			)
-			( pin "R1.1"
-				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i146:a(0)" )
-			)
 			( pin "R1.2"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i146:b(0)" )
 			)
-			( pin "R2.1"
-				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i147:a(0)" )
+			( pin "R1.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i146:a(0)" )
 			)
 			( pin "R2.2"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i147:b(0)" )
+			)
+			( pin "R2.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i147:a(0)" )
 			)
 			( pin "LK51.1"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i148:a(0)" )
@@ -3016,18 +3126,6 @@
 			( pin "J4.3"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i231:a(2)" )
 			)
-			( pin "R44.1"
-				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i233:a(0)" )
-			)
-			( pin "R44.2"
-				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i233:b(0)" )
-			)
-			( pin "R45.1"
-				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i234:a(0)" )
-			)
-			( pin "R45.2"
-				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i234:b(0)" )
-			)
 			( pin "R42.1"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i236:a(0)" )
 			)
@@ -3045,12 +3143,6 @@
 			)
 			( pin "C50.2"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i238:b(0)" )
-			)
-			( pin "R48.1"
-				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i241:a(0)" )
-			)
-			( pin "R48.2"
-				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i241:b(0)" )
 			)
 			( pin "C54.1"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i242:a(0)" )
@@ -3081,6 +3173,33 @@
 			)
 			( pin "J1.6"
 				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i246:a(5)" )
+			)
+			( pin "C48.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i252:a(0)" )
+			)
+			( pin "C48.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i252:b(0)" )
+			)
+			( pin "RG1.2"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:\en*\" )
+			)
+			( pin "RG1.1"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:gnd" )
+			)
+			( pin "RG1.3"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:\in\(1)" )
+			)
+			( pin "RG1.4"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:\in\(2)" )
+			)
+			( pin "RG1.5"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:\out\(1)" )
+			)
+			( pin "RG1.6"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:\out\(2)" )
+			)
+			( pin "RG1.8"
+				( objectStatus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:pg" )
 			)
 			( bus "OR"
 				( memberType ( signal ) )

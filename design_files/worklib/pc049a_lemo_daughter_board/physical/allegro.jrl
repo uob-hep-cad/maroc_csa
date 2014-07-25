@@ -1,0 +1,12 @@
+\t (00:02:09) allegro 16.5 S030 (v16-5-13BU) Linux IA32
+\t (00:02:09)     Journal start - Mon Mar 24 18:25:07 2014
+\t (00:02:09)         Host=calgary.phy.bris.ac.uk User=phdgc Pid=10809 CPUs=4
+\t (00:02:09) 
+\d (00:02:09) Database opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_lemo_daughter_board/physical/pc049a_lemo_daughter_board_blank.brd
+\i (00:02:10) generaledit 
+\i (00:02:12) open 
+\i (00:03:07) fillin "/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_04.brd"
+\i (00:03:07) cd "/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical"
+\t (00:03:07) Opening existing design...
+\i (00:03:07) trapsize 8585
+\t (00:03:08)     Journal end - Mon Mar 24 18:26:06 2014

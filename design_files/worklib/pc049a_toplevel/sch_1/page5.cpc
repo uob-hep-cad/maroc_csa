@@ -1,0 +1,219 @@
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
+#ISCELL
+  cnpower p3v3a *
+  page4_i10
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i12
+#ISCELL
+  standard gnd_signal *
+  page4_i13
+#ISCELL
+  cnpower p3v3a *
+  page4_i14
+#CELL
+  cnpassive rsmd0603 *
+  page4_i16
+#CELL
+  cnpassive rsmd0603 *
+  page4_i17
+#CELL
+  cnpassive rsmd0603 *
+  page4_i18
+#CELL
+  cnpassive rsmd0603 *
+  page4_i19
+#CELL
+  cnpassive rsmd0603 *
+  page4_i20
+#CELL
+  cnpassive rsmd0603 *
+  page4_i21
+#CELL
+  cnpassive rsmd0603 *
+  page4_i22
+#ISCELL
+  standard gnd_signal *
+  page4_i23
+#ISCELL
+  standard replicate *
+  page4_i24
+#ISCELL
+  standard replicate *
+  page4_i25
+#ISCELL
+  standard gnd_signal *
+  page4_i26
+#ISCELL
+  cnpower p3v3a *
+  page4_i27
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i28
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i29
+#ISCELL
+  standard gnd_signal *
+  page4_i3
+#CELL
+  cndiscrete ferrite *
+  page4_i30
+#ISCELL
+  cnpower p3v3a *
+  page4_i31
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i32
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i33
+#ISCELL
+  standard gnd_signal *
+  page4_i34
+#CELL
+  cndiscrete osc_6p_vctrl_endis_out *
+  page4_i35
+#CELL
+  cnlinear lm4040 *
+  page4_i36
+#ISCELL
+  cnpower p3v3a *
+  page4_i37
+#CELL
+  cnpassive rsmd0603 *
+  page4_i38
+#ISCELL
+  cnpower p3v3a *
+  page4_i39
+#CELL
+  cnlinear ad5662 *
+  page4_i4
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i40
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i41
+#ISCELL
+  standard gnd_signal *
+  page4_i42
+#CELL
+  cnpassive rsmd0603 *
+  page4_i43
+#CELL
+  cnpassive rsmd0603 *
+  page4_i44
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i45
+#ISCELL
+  standard gnd_signal *
+  page4_i46
+#ISCELL
+  cnpower p3v3a *
+  page4_i50
+#ISCELL
+  standard gnd_signal *
+  page4_i51
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i52
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i53
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i54
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i55
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i56
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i57
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i58
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i59
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i60
+#CELL
+  bris_cds_special osc_vcxo_4p *
+  page4_i61
+#CELL
+  cnpassive rsmd0603 *
+  page4_i63
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i64
+#ISCELL
+  standard gnd_signal *
+  page4_i65
+#CELL
+  cnlinear ad5662 *
+  page4_i66
+#CELL
+  cndiscrete ferrite *
+  page4_i67
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i68
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i69
+#CELL
+  cndiscrete osc_8p_oe_clkp_clkn_sda_scl *
+  page4_i7
+#ISCELL
+  cnpower p3v3 *
+  page4_i70
+#ISCELL
+  standard gnd_signal *
+  page4_i71
+#ISCELL
+  standard gnd_signal *
+  page4_i73
+#CELL
+  cndiscrete ferrite *
+  page4_i75
+#ISCELL
+  cnpower p3v3 *
+  page4_i76
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i77
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i78
+#CELL
+  cndiscrete ferrite *
+  page4_i79
+#CELL
+  cninterface cdcm61004 *
+  page4_i8
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i80
+#ISCELL
+  standard gnd_signal *
+  page4_i81
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i82
+#ISCELL
+  cnpower p3v3a *
+  page4_i83
+#CELL
+  uob_hep_pc049a_lib pc049a_fpga *
+  page4_i84
+#ISCELL
+  standard gnd_signal *
+  page4_i9

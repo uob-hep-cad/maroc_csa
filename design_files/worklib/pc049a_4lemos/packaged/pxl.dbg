@@ -1,0 +1,1370 @@
+Log File: /tmp/filecRCCOp
+Markers File: /tmp/file3HBtSE
+Debug File: /tmp/fileTwYA78
+     Debug[0] := TRUE
+Elapsed time since start = (00:00:00)
+
+ **************************************************************
+ *  End processing project file and command line  (00:00:00)  *
+ **************************************************************
+
+
+ *************************
+ *  Loading State Files  *
+ *************************
+
+Elapsed time since start = (00:00:01)
+
+ *****************************************
+ *  End loading State Files  (00:00:00)  *
+ *****************************************
+
+
+ ***************************
+ *  Starting to feedback.  *
+ ***************************
+
+Board name: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_4lemos/physical/pc049a_4lemos_03.brd
+Feedback time: Wed May  7 15:18:50 2014
+Root Drawing name: PC049A_4LEMOS
+Header Properties: 
+    A
+    NET_NAME
+    REFDES
+    PIN_NUMBER
+    FUNC_LOGICAL_PATH
+    COMP_DEVICE_TYPE
+    
+    
+    
+    
+    TERMINATION
+    TERM_IDENT
+    NET_SHORT
+Line Values: 
+    S
+    GND_SIGNAL
+    RZ1
+    4
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0)@cnpassive.r4ismd(chips)
+    R4ISMD_1206-180
+    4
+    4
+    F1
+    A(3)
+    
+    
+    
+Using PhysPart: R4ISMD_1206-180
+Creating feedback package: RZ1
+Creating Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL    PhysName: GND_SIGNAL
+Creating Inst: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)    Fdbk Name: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27(0)@CNPASSIVE.R4ISMD(CHIPS)
+Creating Pin Inst: A<0>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS) A<0>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A_3
+    RZ1
+    5
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0)@cnpassive.r4ismd(chips)
+    R4ISMD_1206-180
+    4
+    4
+    F1
+    B(3)
+    
+    
+    
+Creating Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_3    PhysName: UNNAMED_1_CAPN4I_I10_A_3
+Creating Pin Inst: B<0>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS) B<0>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_3
+Line Values: 
+    S
+    GND_SIGNAL
+    RZ1
+    3
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1)@cnpassive.r4ismd(chips)
+    R4ISMD_1206-180
+    4
+    4
+    F2
+    A(2)
+    
+    
+    
+Creating Pin Inst: A<1>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS) A<1>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A_2
+    RZ1
+    6
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1)@cnpassive.r4ismd(chips)
+    R4ISMD_1206-180
+    4
+    4
+    F2
+    B(2)
+    
+    
+    
+Creating Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_2    PhysName: UNNAMED_1_CAPN4I_I10_A_2
+Creating Pin Inst: B<1>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS) B<1>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_2
+Line Values: 
+    S
+    GND_SIGNAL
+    RZ1
+    2
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2)@cnpassive.r4ismd(chips)
+    R4ISMD_1206-180
+    4
+    4
+    F3
+    A(1)
+    
+    
+    
+Creating Pin Inst: A<2>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS) A<2>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A_1
+    RZ1
+    7
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2)@cnpassive.r4ismd(chips)
+    R4ISMD_1206-180
+    4
+    4
+    F3
+    B(1)
+    
+    
+    
+Creating Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_1    PhysName: UNNAMED_1_CAPN4I_I10_A_1
+Creating Pin Inst: B<2>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS) B<2>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_1
+Line Values: 
+    S
+    GND_SIGNAL
+    RZ1
+    1
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3)@cnpassive.r4ismd(chips)
+    R4ISMD_1206-180
+    4
+    4
+    F4
+    A(0)
+    
+    
+    
+Creating Pin Inst: A<3>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS) A<3>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A
+    RZ1
+    8
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3)@cnpassive.r4ismd(chips)
+    R4ISMD_1206-180
+    4
+    4
+    F4
+    B(0)
+    
+    
+    
+Creating Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A    PhysName: UNNAMED_1_CAPN4I_I10_A
+Creating Pin Inst: B<3>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS) B<3>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A
+    D1
+    1
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(chips)
+    TVS_DIODE_ARRAY_SP3010_UDFN-SPA
+    
+    
+    F0
+    A1
+    
+    
+    
+Using PhysPart: TVS_DIODE_ARRAY_SP3010_UDFN-SPA
+Creating feedback package: D1
+Creating Inst: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(CHIPS)    Fdbk Name: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(CHIPS)
+Creating Pin Inst: A1
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(CHIPS) A1    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A_1
+    D1
+    2
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(chips)
+    TVS_DIODE_ARRAY_SP3010_UDFN-SPA
+    
+    
+    F0
+    A2
+    
+    
+    
+Creating Pin Inst: A2
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(CHIPS) A2    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_1
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A_2
+    D1
+    4
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(chips)
+    TVS_DIODE_ARRAY_SP3010_UDFN-SPA
+    
+    
+    F0
+    A3
+    
+    
+    
+Creating Pin Inst: A3
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(CHIPS) A3    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_2
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A_3
+    D1
+    5
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(chips)
+    TVS_DIODE_ARRAY_SP3010_UDFN-SPA
+    
+    
+    F0
+    A4
+    
+    
+    
+Creating Pin Inst: A4
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(CHIPS) A4    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_3
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A
+    D1
+    10
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(chips)
+    TVS_DIODE_ARRAY_SP3010_UDFN-SPA
+    
+    
+    F0
+    B1
+    
+    
+    
+Creating Pin Inst: B1
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(CHIPS) B1    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A_1
+    D1
+    9
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(chips)
+    TVS_DIODE_ARRAY_SP3010_UDFN-SPA
+    
+    
+    F0
+    B2
+    
+    
+    
+Creating Pin Inst: B2
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(CHIPS) B2    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_1
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A_2
+    D1
+    7
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(chips)
+    TVS_DIODE_ARRAY_SP3010_UDFN-SPA
+    
+    
+    F0
+    B3
+    
+    
+    
+Creating Pin Inst: B3
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(CHIPS) B3    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_2
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A_3
+    D1
+    6
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(chips)
+    TVS_DIODE_ARRAY_SP3010_UDFN-SPA
+    
+    
+    F0
+    B4
+    
+    
+    
+Creating Pin Inst: B4
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(CHIPS) B4    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_3
+Line Values: 
+    S
+    GND_SIGNAL
+    D1
+    3
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(chips)
+    TVS_DIODE_ARRAY_SP3010_UDFN-SPA
+    
+    
+    F0
+    GND1
+    
+    
+    
+Creating Pin Inst: GND1
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(CHIPS) GND1    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    GND_SIGNAL
+    D1
+    8
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(chips)
+    TVS_DIODE_ARRAY_SP3010_UDFN-SPA
+    
+    
+    F0
+    GND2
+    
+    
+    
+Creating Pin Inst: GND2
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(CHIPS) GND2    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A
+    CN1
+    1
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0)@cnpassive.capn4i(chips)
+    CAPN4I-100NF,16V,X7R,CKCA43
+    4
+    4
+    F12
+    A(0)
+    
+    
+    
+Using PhysPart: CAPN4I-100NF,16V,X7R,CKCA43
+Creating feedback package: CN1
+Creating Inst: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)    Fdbk Name: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10(0)@CNPASSIVE.CAPN4I(CHIPS)
+Creating Pin Inst: A<0>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS) A<0>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A
+Line Values: 
+    S
+    ANALOG_IN<3>
+    CN1
+    2
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0)@cnpassive.capn4i(chips)
+    CAPN4I-100NF,16V,X7R,CKCA43
+    4
+    4
+    F12
+    B(0)
+    
+    
+    
+Creating Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):ANALOG_IN(3)    PhysName: ANALOG_IN<3>
+Creating Pin Inst: B<0>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS) B<0>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):ANALOG_IN(3)
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A_1
+    CN1
+    3
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1)@cnpassive.capn4i(chips)
+    CAPN4I-100NF,16V,X7R,CKCA43
+    4
+    4
+    F11
+    A(1)
+    
+    
+    
+Creating Pin Inst: A<1>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS) A<1>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_1
+Line Values: 
+    S
+    ANALOG_IN<2>
+    CN1
+    4
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1)@cnpassive.capn4i(chips)
+    CAPN4I-100NF,16V,X7R,CKCA43
+    4
+    4
+    F11
+    B(1)
+    
+    
+    
+Creating Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):ANALOG_IN(2)    PhysName: ANALOG_IN<2>
+Creating Pin Inst: B<1>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS) B<1>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):ANALOG_IN(2)
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A_2
+    CN1
+    5
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2)@cnpassive.capn4i(chips)
+    CAPN4I-100NF,16V,X7R,CKCA43
+    4
+    4
+    F10
+    A(2)
+    
+    
+    
+Creating Pin Inst: A<2>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS) A<2>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_2
+Line Values: 
+    S
+    ANALOG_IN<1>
+    CN1
+    6
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2)@cnpassive.capn4i(chips)
+    CAPN4I-100NF,16V,X7R,CKCA43
+    4
+    4
+    F10
+    B(2)
+    
+    
+    
+Creating Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):ANALOG_IN(1)    PhysName: ANALOG_IN<1>
+Creating Pin Inst: B<2>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS) B<2>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):ANALOG_IN(1)
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A_3
+    CN1
+    7
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3)@cnpassive.capn4i(chips)
+    CAPN4I-100NF,16V,X7R,CKCA43
+    4
+    4
+    F9
+    A(3)
+    
+    
+    
+Creating Pin Inst: A<3>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS) A<3>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_3
+Line Values: 
+    S
+    ANALOG_IN<0>
+    CN1
+    8
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3)@cnpassive.capn4i(chips)
+    CAPN4I-100NF,16V,X7R,CKCA43
+    4
+    4
+    F9
+    B(3)
+    
+    
+    
+Creating Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):ANALOG_IN(0)    PhysName: ANALOG_IN<0>
+Creating Pin Inst: B<3>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS) B<3>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):ANALOG_IN(0)
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A_3
+    PX1
+    1
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F8
+    A
+    
+    
+    
+Using PhysPart: COAX-PLEMO00D
+Creating feedback package: PX1
+Creating Inst: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS)    Fdbk Name: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS)
+Creating Pin Inst: A
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS) A    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_3
+Line Values: 
+    S
+    GND_SIGNAL
+    PX1
+    2
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F8
+    B(0)
+    
+    
+    
+Creating Pin Inst: B<0>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS) B<0>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    GND_SIGNAL
+    PX1
+    3
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F8
+    B(1)
+    
+    
+    
+Creating Pin Inst: B<1>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS) B<1>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    GND_SIGNAL
+    PX1
+    4
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F8
+    B(2)
+    
+    
+    
+Creating Pin Inst: B<2>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS) B<2>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    GND_SIGNAL
+    PX1
+    5
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F8
+    B(3)
+    
+    
+    
+Creating Pin Inst: B<3>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS) B<3>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A_2
+    PX2
+    1
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F7
+    A
+    
+    
+    
+Creating feedback package: PX2
+Creating Inst: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS)    Fdbk Name: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS)
+Creating Pin Inst: A
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS) A    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_2
+Line Values: 
+    S
+    GND_SIGNAL
+    PX2
+    2
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F7
+    B(0)
+    
+    
+    
+Creating Pin Inst: B<0>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS) B<0>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    GND_SIGNAL
+    PX2
+    3
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F7
+    B(1)
+    
+    
+    
+Creating Pin Inst: B<1>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS) B<1>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    GND_SIGNAL
+    PX2
+    4
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F7
+    B(2)
+    
+    
+    
+Creating Pin Inst: B<2>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS) B<2>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    GND_SIGNAL
+    PX2
+    5
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F7
+    B(3)
+    
+    
+    
+Creating Pin Inst: B<3>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS) B<3>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A_1
+    PX3
+    1
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F6
+    A
+    
+    
+    
+Creating feedback package: PX3
+Creating Inst: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS)    Fdbk Name: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS)
+Creating Pin Inst: A
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS) A    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_1
+Line Values: 
+    S
+    GND_SIGNAL
+    PX3
+    2
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F6
+    B(0)
+    
+    
+    
+Creating Pin Inst: B<0>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS) B<0>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    GND_SIGNAL
+    PX3
+    3
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F6
+    B(1)
+    
+    
+    
+Creating Pin Inst: B<1>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS) B<1>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    GND_SIGNAL
+    PX3
+    4
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F6
+    B(2)
+    
+    
+    
+Creating Pin Inst: B<2>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS) B<2>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    GND_SIGNAL
+    PX3
+    5
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F6
+    B(3)
+    
+    
+    
+Creating Pin Inst: B<3>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS) B<3>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A
+    PX4
+    1
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F5
+    A
+    
+    
+    
+Creating feedback package: PX4
+Creating Inst: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS)    Fdbk Name: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS)
+Creating Pin Inst: A
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS) A    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A
+Line Values: 
+    S
+    GND_SIGNAL
+    PX4
+    2
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F5
+    B(0)
+    
+    
+    
+Creating Pin Inst: B<0>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS) B<0>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    GND_SIGNAL
+    PX4
+    3
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F5
+    B(1)
+    
+    
+    
+Creating Pin Inst: B<1>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS) B<1>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    GND_SIGNAL
+    PX4
+    4
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F5
+    B(2)
+    
+    
+    
+Creating Pin Inst: B<2>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS) B<2>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Line Values: 
+    S
+    GND_SIGNAL
+    PX4
+    5
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    
+    
+    F5
+    B(3)
+    
+    
+    
+Creating Pin Inst: B<3>
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS) B<3>    Net: @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+FUNC Header Properties: 
+    A
+    FUNC_LOGICAL_PATH
+    COMP_DEVICE_TYPE
+    REFDES
+    
+    
+    
+    
+    
+    
+    
+    GROUP
+    ROOM
+    TERM_IDENT
+Line Values: 
+    S
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(3)@cnpassive.r4ismd(chips)
+    R4ISMD_1206-180
+    RZ1
+    /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/r4ismd/chips/chips.prt
+    R4ISMD
+    R4ISMD_1206-180
+    R4ISMD_1206
+    4
+    4
+    F4
+    
+    
+    
+Line Values: 
+    S
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(2)@cnpassive.r4ismd(chips)
+    R4ISMD_1206-180
+    RZ1
+    /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/r4ismd/chips/chips.prt
+    R4ISMD
+    R4ISMD_1206-180
+    R4ISMD_1206
+    4
+    4
+    F3
+    
+    
+    
+Line Values: 
+    S
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(1)@cnpassive.r4ismd(chips)
+    R4ISMD_1206-180
+    RZ1
+    /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/r4ismd/chips/chips.prt
+    R4ISMD
+    R4ISMD_1206-180
+    R4ISMD_1206
+    4
+    4
+    F2
+    
+    
+    
+Line Values: 
+    S
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i27(0)@cnpassive.r4ismd(chips)
+    R4ISMD_1206-180
+    RZ1
+    /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/r4ismd/chips/chips.prt
+    R4ISMD
+    R4ISMD_1206-180
+    R4ISMD_1206
+    4
+    4
+    F1
+    
+    
+    
+Line Values: 
+    S
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i26@cndiscrete.tvs_diode_array_sp3010(chips)
+    TVS_DIODE_ARRAY_SP3010_UDFN-SPA
+    D1
+    /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/tvs_diode_array_sp3010/chips/chips.prt
+    TVS_DIODE_ARRAY_SP3010
+    TVS_DIODE_ARRAY_SP3010_UDFN-SP3010-04UTG
+    TVS_DIODE_ARRAY_SP3010
+    
+    
+    F0
+    
+    
+    
+Line Values: 
+    S
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(3)@cnpassive.capn4i(chips)
+    CAPN4I-100NF,16V,X7R,CKCA43
+    CN1
+    /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capn4i/chips/chips.prt
+    CAPN4I
+    CAPN4I-100NF,16V,X7R,CKCA43
+    CAPN4I
+    4
+    4
+    F9
+    
+    
+    
+Line Values: 
+    S
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(2)@cnpassive.capn4i(chips)
+    CAPN4I-100NF,16V,X7R,CKCA43
+    CN1
+    /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capn4i/chips/chips.prt
+    CAPN4I
+    CAPN4I-100NF,16V,X7R,CKCA43
+    CAPN4I
+    4
+    4
+    F10
+    
+    
+    
+Line Values: 
+    S
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(1)@cnpassive.capn4i(chips)
+    CAPN4I-100NF,16V,X7R,CKCA43
+    CN1
+    /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capn4i/chips/chips.prt
+    CAPN4I
+    CAPN4I-100NF,16V,X7R,CKCA43
+    CAPN4I
+    4
+    4
+    F11
+    
+    
+    
+Line Values: 
+    S
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i10(0)@cnpassive.capn4i(chips)
+    CAPN4I-100NF,16V,X7R,CKCA43
+    CN1
+    /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capn4i/chips/chips.prt
+    CAPN4I
+    CAPN4I-100NF,16V,X7R,CKCA43
+    CAPN4I
+    4
+    4
+    F12
+    
+    
+    
+Line Values: 
+    S
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i11@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    PX1
+    /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/coax/chips/chips.prt
+    COAX
+    COAX-PLEMO00D
+    COAX
+    
+    
+    F8
+    
+    
+    
+Line Values: 
+    S
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i19@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    PX2
+    /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/coax/chips/chips.prt
+    COAX
+    COAX-PLEMO00D
+    COAX
+    
+    
+    F7
+    
+    
+    
+Line Values: 
+    S
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i17@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    PX3
+    /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/coax/chips/chips.prt
+    COAX
+    COAX-PLEMO00D
+    COAX
+    
+    
+    F6
+    
+    
+    
+Line Values: 
+    S
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):page1_i15@cnconnector.coax(chips)
+    COAX-PLEMO00D
+    PX4
+    /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/coax/chips/chips.prt
+    COAX
+    COAX-PLEMO00D
+    COAX
+    
+    
+    F5
+    
+    
+    
+COMP Header Properties: 
+    A
+    REFDES
+    REUSE_ID
+    SIGNAL_MODEL
+    NO_XNET_CONNECTION
+    PARENT_PPT
+    SYMBOL_EDITED
+    PARENT_PPT_PART
+    EMBEDDED_PLACEMENT
+Line Values: 
+    S
+    RZ1
+    8
+    
+    
+    R4ISMD
+    
+    R4ISMD_1206-180
+    
+Line Values: 
+    S
+    D1
+    7
+    
+    
+    TVS_DIODE_ARRAY_SP3010
+    
+    TVS_DIODE_ARRAY_SP3010_UDFN-SP3010-04UTG
+    
+Line Values: 
+    S
+    CN1
+    1
+    
+    
+    CAPN4I
+    
+    CAPN4I-100NF,16V,X7R,CKCA43
+    
+Line Values: 
+    S
+    PX1
+    2
+    
+    
+    COAX
+    
+    COAX-PLEMO00D
+    
+Line Values: 
+    S
+    PX2
+    3
+    
+    
+    COAX
+    
+    COAX-PLEMO00D
+    
+Line Values: 
+    S
+    PX3
+    5
+    
+    
+    COAX
+    
+    COAX-PLEMO00D
+    
+Line Values: 
+    S
+    PX4
+    4
+    
+    
+    COAX
+    
+    COAX-PLEMO00D
+    
+NET Header Properties: 
+    A
+    NET_NAME
+    
+    VOLTAGE
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A_3
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_3
+    
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A_2
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_2
+    
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A_1
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a_1
+    
+Line Values: 
+    S
+    UNNAMED_1_CAPN4I_I10_A
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):unnamed_1_capn4i_i10_a
+    
+Line Values: 
+    S
+    GND_SIGNAL
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):gnd_signal
+    
+Line Values: 
+    S
+    ANALOG_IN<3>
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):analog_in(3)
+    
+Line Values: 
+    S
+    ANALOG_IN<2>
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):analog_in(2)
+    
+Line Values: 
+    S
+    ANALOG_IN<1>
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):analog_in(1)
+    
+Line Values: 
+    S
+    ANALOG_IN<0>
+    @uob_hep_pc049a_lib.pc049a_4lemos(sch_1):analog_in(0)
+    
+
+chipsPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      4          A<0>    1   1    1 FALSE FALSE  -1  -1 
+      5          B<0>    1   1    1 FALSE FALSE  -1  -1 
+      3          A<0>    1   2    2 FALSE FALSE  -1  -1 
+      6          B<0>    1   2    2 FALSE FALSE  -1  -1 
+      2          A<0>    1   3    3 FALSE FALSE  -1  -1 
+      7          B<0>    1   3    3 FALSE FALSE  -1  -1 
+      1          A<0>    1   4    4 FALSE FALSE  -1  -1 
+      8          B<0>    1   4    4 FALSE FALSE  -1  -1 
+desPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      -   A<3>   A<0>    1   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      -   B<3>   B<0>    1   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A
+      -   A<2>   A<0>    1   2    2 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      -   B<2>   B<0>    1   2    2 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_1
+      -   A<1>   A<0>    1   3    3 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      -   B<1>   B<0>    1   3    3 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_2
+      -   A<0>   A<0>    1   4    4 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      -   B<0>   B<0>    1   4    4 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_3
+fdbkPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      1   A<3>   A<0>    1   4    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      8   B<3>   B<0>    1   4    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A
+      2   A<2>   A<0>    1   3    2 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      7   B<2>   B<0>    1   3    2 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_1
+      3   A<1>   A<0>    1   2    3 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      6   B<1>   B<0>    1   2    3 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_2
+      4   A<0>   A<0>    1   1    4 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      5   B<0>   B<0>    1   1    4 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_3
+
+chipsPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      1            A1    -   1    1 FALSE FALSE  -1  -1 
+      2            A2    -   1    1 FALSE FALSE  -1  -1 
+      4            A3    -   1    1 FALSE FALSE  -1  -1 
+      5            A4    -   1    1 FALSE FALSE  -1  -1 
+     10            B1    -   1    1 FALSE FALSE  -1  -1 
+      9            B2    -   1    1 FALSE FALSE  -1  -1 
+      7            B3    -   1    1 FALSE FALSE  -1  -1 
+      6            B4    -   1    1 FALSE FALSE  -1  -1 
+      3          GND1    -   1    1 FALSE FALSE  -1  -1 
+      8          GND2    -   1    1 FALSE FALSE  -1  -1 
+desPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      -     A1     A1    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A
+      -     A2     A2    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_1
+      -     A3     A3    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_2
+      -     A4     A4    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_3
+      -     B1     B1    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A
+      -     B2     B2    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_1
+      -     B3     B3    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_2
+      -     B4     B4    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_3
+      -   GND1   GND1    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      -   GND2   GND2    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+fdbkPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I26@CNDISCRETE.TVS_DIODE_ARRAY_SP3010(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      1     A1     A1    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A
+      2     A2     A2    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_1
+      4     A3     A3    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_2
+      5     A4     A4    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_3
+     10     B1     B1    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A
+      9     B2     B2    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_1
+      7     B3     B3    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_2
+      6     B4     B4    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_3
+      3   GND1   GND1    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      8   GND2   GND2    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+
+chipsPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      1          A<0>    1   1    1 FALSE FALSE  -1  -1 
+      2          B<0>    1   1    1 FALSE FALSE  -1  -1 
+      3          A<0>    1   2    2 FALSE FALSE  -1  -1 
+      4          B<0>    1   2    2 FALSE FALSE  -1  -1 
+      5          A<0>    1   3    3 FALSE FALSE  -1  -1 
+      6          B<0>    1   3    3 FALSE FALSE  -1  -1 
+      7          A<0>    1   4    4 FALSE FALSE  -1  -1 
+      8          B<0>    1   4    4 FALSE FALSE  -1  -1 
+desPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      -   A<3>   A<0>    1   4    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_3
+      -   B<3>   B<0>    1   4    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):ANALOG_IN(0)
+      -   A<2>   A<0>    1   3    2 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_2
+      -   B<2>   B<0>    1   3    2 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):ANALOG_IN(1)
+      -   A<1>   A<0>    1   2    3 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_1
+      -   B<1>   B<0>    1   2    3 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):ANALOG_IN(2)
+      -   A<0>   A<0>    1   1    4 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A
+      -   B<0>   B<0>    1   1    4 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):ANALOG_IN(3)
+fdbkPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      7   A<3>   A<0>    1   4    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_3
+      8   B<3>   B<0>    1   4    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):ANALOG_IN(0)
+      5   A<2>   A<0>    1   3    2 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_2
+      6   B<2>   B<0>    1   3    2 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):ANALOG_IN(1)
+      3   A<1>   A<0>    1   2    3 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_1
+      4   B<1>   B<0>    1   2    3 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):ANALOG_IN(2)
+      1   A<0>   A<0>    1   1    4 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A
+      2   B<0>   B<0>    1   1    4 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):ANALOG_IN(3)
+
+chipsPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      1             A    -   1    1 FALSE FALSE  -1  -1 
+      2          B<0>    -   1    1 FALSE FALSE  -1  -1 
+      3          B<1>    -   1    1 FALSE FALSE  -1  -1 
+      4          B<2>    -   1    1 FALSE FALSE  -1  -1 
+      5          B<3>    -   1    1 FALSE FALSE  -1  -1 
+desPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      -      A      A    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_3
+      -   B<0>   B<0>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      -   B<1>   B<1>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      -   B<2>   B<2>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      -   B<3>   B<3>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+fdbkPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I11@CNCONNECTOR.COAX(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      1      A      A    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_3
+      2   B<0>   B<0>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      3   B<1>   B<1>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      4   B<2>   B<2>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      5   B<3>   B<3>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+
+chipsPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      1             A    -   1    1 FALSE FALSE  -1  -1 
+      2          B<0>    -   1    1 FALSE FALSE  -1  -1 
+      3          B<1>    -   1    1 FALSE FALSE  -1  -1 
+      4          B<2>    -   1    1 FALSE FALSE  -1  -1 
+      5          B<3>    -   1    1 FALSE FALSE  -1  -1 
+desPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      -      A      A    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_2
+      -   B<0>   B<0>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      -   B<1>   B<1>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      -   B<2>   B<2>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      -   B<3>   B<3>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+fdbkPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I19@CNCONNECTOR.COAX(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      1      A      A    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_2
+      2   B<0>   B<0>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      3   B<1>   B<1>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      4   B<2>   B<2>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      5   B<3>   B<3>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+
+chipsPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      1             A    -   1    1 FALSE FALSE  -1  -1 
+      2          B<0>    -   1    1 FALSE FALSE  -1  -1 
+      3          B<1>    -   1    1 FALSE FALSE  -1  -1 
+      4          B<2>    -   1    1 FALSE FALSE  -1  -1 
+      5          B<3>    -   1    1 FALSE FALSE  -1  -1 
+desPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      -      A      A    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_1
+      -   B<0>   B<0>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      -   B<1>   B<1>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      -   B<2>   B<2>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      -   B<3>   B<3>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+fdbkPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I17@CNCONNECTOR.COAX(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      1      A      A    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A_1
+      2   B<0>   B<0>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      3   B<1>   B<1>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      4   B<2>   B<2>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      5   B<3>   B<3>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+
+chipsPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      1             A    -   1    1 FALSE FALSE  -1  -1 
+      2          B<0>    -   1    1 FALSE FALSE  -1  -1 
+      3          B<1>    -   1    1 FALSE FALSE  -1  -1 
+      4          B<2>    -   1    1 FALSE FALSE  -1  -1 
+      5          B<3>    -   1    1 FALSE FALSE  -1  -1 
+desPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      -      A      A    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A
+      -   B<0>   B<0>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      -   B<1>   B<1>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      -   B<2>   B<2>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      -   B<3>   B<3>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+fdbkPinArray for @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I15@CNCONNECTOR.COAX(CHIPS).
+     pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
+      1      A      A    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):UNNAMED_1_CAPN4I_I10_A
+      2   B<0>   B<0>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      3   B<1>   B<1>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      4   B<2>   B<2>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+      5   B<3>   B<3>    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):GND_SIGNAL
+Elapsed time since start = (00:00:01)
+
+ *******************************
+ *  End feedback.  (00:00:00)  *
+ *******************************
+
+
+ ****************************************
+ *  Starting to assign physical parts.  *
+ ****************************************
+
+Elapsed time since start = (00:00:01)
+
+ ***********************************************
+ *  End assigning physical parts.  (00:00:00)  *
+ ***********************************************
+
+
+ ***************
+ *  Packaging  *
+ ***************
+
+INFO(SPCODD-192): Swapped section 1 with section 4 for the primitive instance '@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)'.
+INFO(SPCODD-192): Swapped section 2 with section 3 for the primitive instance '@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I10@CNPASSIVE.CAPN4I(CHIPS)'.
+INFO(SPCODD-192): Swapped section 1 with section 4 for the primitive instance '@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)'.
+INFO(SPCODD-192): Swapped section 2 with section 3 for the primitive instance '@UOB_HEP_PC049A_LIB.PC049A_4LEMOS(SCH_1):PAGE1_I27@CNPASSIVE.R4ISMD(CHIPS)'.
+Elapsed time since start = (00:00:01)
+
+ *******************************
+ *  End packaging  (00:00:00)  *
+ *******************************
+
+DDB_INFO: State file for design PC049A_4LEMOS successfully written.
+DDB_INFO: Pst files for design PC049A_4LEMOS successfully written.
+DDB_INFO: Generating state file for subdesign PC049A_4LEMOS
+system time  0
+user time    0

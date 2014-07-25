@@ -1,0 +1,217 @@
+--
+-- Dummy block for data I/O
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+use IEEE.numeric_std.all;
+
+-- Packages for IPBus
+LIBRARY work;
+USE work.ipbus.all;
+
+library UNISIM;
+use UNISIM.vcomponents.all;
+
+entity ExpansionIO is
+  generic (
+    g_NEXPANSION_BITS : positive := 16);
+  port (
+
+    -- IPBus
+    ipbus_clk_i: in STD_LOGIC;
+    ipbus_reset_i: in STD_LOGIC;
+    ipbus_wbus_i: in ipb_wbus;
+    ipbus_rbus_o: out ipb_rbus;
+
+    -- Data....
+    lvds_left_data_p_b, lvds_left_data_n_b : out std_logic_vector(g_NEXPANSION_BITS-1 downto 0);
+    lvds_left_clk_p_b, lvds_left_clk_n_b   : in std_logic; -- clock for data on left hand I/O
+
+    lvds_right_data_p_b, lvds_right_data_n_b : out std_logic_vector(g_NEXPANSION_BITS-1 downto 0);
+    lvds_right_clk_p_b, lvds_right_clk_n_b   : in std_logic -- clock for data on left hand I/O
+
+    );  
+
+end entity ExpansionIO;
+
+architecture rtl of ExpansionIO is
+
+  signal s_spydata, s_ctrl_reg: std_logic_vector(31 downto 0);
+  signal s_data_direction : std_logic := '0';  -- 1 = left to right ( left rx,
+                                               -- right tx ),
+                                               -- 0 = right to left ( right rx
+                                               -- left tx )
+  signal s_data_right_from_connector ,
+    s_data_right_to_connector ,
+    s_data_left_from_connector ,
+    s_data_left_to_connector ,
+    s_data_r1 , s_data_r2 , s_data_r3: std_logic_vector(g_NEXPANSION_BITS-1 downto 0);
+  
+  signal s_right_clk_from_connector,
+    s_right_clk_to_connector,
+    s_left_clk_from_connector,
+    s_left_clk_to_connector , s_data_clk : std_logic;
+  
+begin  -- architecture rtl
+
+  controlReg: entity work.ipbus_ctrlreg
+    port map(
+      clk => ipbus_clk_i,
+      reset => ipbus_reset_i,
+      ipbus_in => ipbus_wbus_i,
+      ipbus_out => ipbus_rbus_o,
+      d => s_spydata,
+      q => s_ctrl_reg
+      );
+  
+  s_data_direction <= s_ctrl_reg(0);
+
+  --
+  gen_iobuf: for dataBit in 0 to g_NEXPANSION_BITS-1 generate
+
+--  -- Take T low and output is enabled, ie. is output 
+    --cmp_IOBUFDS_left : IOBUFDS
+    --  generic map (
+    --    IOSTANDARD => "BLVDS_25",
+    --    DIFF_TERM => TRUE
+    --    )
+    --  port map (
+    --    O   => s_data_left_from_connector(dataBit), -- Buffer output
+    --    IO  => lvds_left_data_p_b(dataBit), -- Diff_p inout (connect directly to top-level port)
+    --    IOB => lvds_left_data_n_b(dataBit), -- Diff_n inout (connect directly to top-level port)
+    --    I   => s_data_left_to_connector(dataBit), -- Buffer input
+    --    T   => s_data_direction -- 3-state enable input. Take high to be a
+    --                            -- receiver only.
+    --    );
+    
+    --cmp_IOBUFDS_right : IOBUFDS
+    --  generic map (
+    --    IOSTANDARD => "BLVDS_25",
+    --    DIFF_TERM => TRUE
+    --    )
+    --  port map (
+    --    O   => s_data_right_from_connector(dataBit), -- Buffer output
+    --    IO  => lvds_right_data_p_b(dataBit), -- Diff_p inout (connect directly to top-level port)
+    --    IOB => lvds_right_data_n_b(dataBit), -- Diff_n inout (connect directly to top-level port)
+    --    I   => s_data_right_to_connector(dataBit), -- Buffer input
+    --    T   => not s_data_direction -- 3-state enable input. Take high to be a
+    --                            -- receiver only.
+    --    );
+
+    cmp_IOBUFDS_left : IBUFDS
+      generic map (
+        IOSTANDARD => "DEFAULT",
+        DIFF_TERM => TRUE
+        )
+      port map (
+        O   => s_data_left_from_connector(dataBit), -- Buffer output
+        I  => lvds_left_data_p_b(dataBit), -- Diff_p inout (connect directly to top-level port)
+        IB => lvds_left_data_n_b(dataBit) -- Diff_n inout (connect directly to top-level port)
+        );
+    
+    cmp_IOBUFDS_right : OBUFDS
+      generic map (
+        IOSTANDARD => "DEFAULT"
+        )
+      port map (
+        O  => lvds_right_data_p_b(dataBit), -- Diff_p inout (connect directly to top-level port)
+        OB => lvds_right_data_n_b(dataBit), -- Diff_n inout (connect directly to top-level port)
+        I   => s_data_right_to_connector(dataBit) -- Buffer input
+        );
+  end generate gen_iobuf;
+
+  --cmp_IOBUFDS_left_clk :  IOBUFDS
+  --    generic map (
+  --      IOSTANDARD => "BLVDS_25",
+  --      DIFF_TERM => TRUE
+  --      )
+  --    port map (
+  --      O   => s_left_clk_from_connector, -- Buffer output
+  --      IO  => lvds_left_clk_p_b, -- Diff_p inout (connect directly to top-level port)
+  --      IOB => lvds_left_clk_n_b, -- Diff_n inout (connect directly to top-level port)
+  --      I   => s_left_clk_to_connector, -- Buffer input
+  --      T   => s_data_direction -- 3-state enable input. Take high to be a
+  --                              -- receiver only.
+  --      );
+
+  --  cmp_IOBUFDS_right_clk :  IOBUFDS
+  --    generic map (
+  --      IOSTANDARD => "BLVDS_25",
+  --      DIFF_TERM => TRUE
+  --      )
+  --    port map (
+  --      O   => s_right_clk_from_connector, -- Buffer output
+  --      IO  => lvds_right_clk_p_b, -- Diff_p inout (connect directly to top-level port)
+  --      IOB => lvds_right_clk_n_b, -- Diff_n inout (connect directly to top-level port)
+  --      I   => s_right_clk_to_connector, -- Buffer input
+  --      T   => not s_data_direction -- 3-state enable input. Take high to be a
+  --                              -- receiver only.
+  --      );
+  cmp_IOBUFDS_left_clk :  IBUFDS
+      generic map (
+        IOSTANDARD => "DEFAULT",
+        DIFF_TERM => TRUE
+        )
+      port map (
+        O   => s_left_clk_from_connector, -- Buffer output
+        I  => lvds_left_clk_p_b, -- Diff_p inout (connect directly to top-level port)
+        IB => lvds_left_clk_n_b -- Diff_n inout (connect directly to top-level port)
+        );
+
+    cmp_IOBUFDS_right_clk :  OBUFDS
+      generic map (
+        IOSTANDARD => "DEFAULT"
+        )
+      port map (
+        O  => lvds_right_clk_p_b, -- Diff_p inout (connect directly to top-level port)
+        OB => lvds_right_clk_n_b, -- Diff_n inout (connect directly to top-level port)
+        I   => s_right_clk_to_connector -- Buffer input
+        );
+
+
+
+  -- multiplex the clocks....
+  -- 0 = take data from right I/O ( right = rx )
+  --BUFGMUX_inst: BUFGMUX
+    --generic map
+    --(
+    --  CLK_SEL_TYPE => "SYNC"  Glitchles ("SYNC") or fast ("ASYNC") clock switch-over
+    --  )
+    --port map
+    --(O => s_data_clk,
+    -- I0 => s_right_clk_from_connector,  (S=0)
+    -- I1 => s_left_clk_from_connector,  (S=1)
+    -- S => s_data_direction  Clock buffer select
+    -- );
+
+  s_data_clk <=  s_left_clk_from_connector;
+  
+  
+  -- purpose: register data and transfer from left <--> right connector
+  -- type   : combinational
+  -- inputs : s_data_clk
+  -- outputs: 
+  p_register_data: process (s_data_clk) is
+  begin  -- process p_register_data
+
+    if rising_edge(s_data_clk) then
+
+      case s_data_direction is
+        -- 0 => right is rx, left is tx
+        when '0' => 
+          s_data_r1 <= s_data_right_from_connector;
+          s_data_left_to_connector <= s_data_r3;
+        -- 1 => left is rx , right is tx
+        when '1' =>
+          s_data_r1 <= s_data_left_from_connector;
+          s_data_right_to_connector <=  s_data_r3;
+        when others => null;
+      end case;
+
+      s_data_r2 <= s_data_r1;
+      s_data_r3 <= s_data_r2;
+      
+    end if;
+
+  end process p_register_data;
+end architecture rtl;

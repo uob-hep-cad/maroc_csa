@@ -1,0 +1,160 @@
+#bank 0
+NET "CLK_20M_VCXO_I" LOC = H12;
+NET "CLK_20M_VCXO_I" IOSTANDARD = "LVCMOS25";
+
+NET "clk_125m_pllref_n_i" LOC = F10;
+NET "clk_125m_pllref_n_i" IOSTANDARD = "LVDS_25";
+
+NET "clk_125m_pllref_p_i" LOC = G9;
+NET "clk_125m_pllref_p_i" IOSTANDARD = "LVDS_25";
+
+NET "fpga_pll_ref_clk_101_n_i" LOC = D11;
+NET "fpga_pll_ref_clk_101_n_i" IOSTANDARD = "LVDS_25";
+
+NET "fpga_pll_ref_clk_101_p_i" LOC = C11;
+NET "fpga_pll_ref_clk_101_p_i" IOSTANDARD = "LVDS_25";
+
+
+NET "dac_cs1_n_o" LOC = A3;
+NET "dac_cs1_n_o" IOSTANDARD = "LVCMOS25";
+
+NET "dac_cs2_n_o" LOC = B3;
+NET "dac_cs2_n_o" IOSTANDARD = "LVCMOS25";
+
+#NET "dac_clr_n_o" LOC = F7;
+#NET "dac_clr_n_o" IOSTANDARD = "LVCMOS25";
+NET "dac_din_o" LOC = C4;
+NET "dac_din_o" IOSTANDARD = "LVCMOS25";
+
+NET "dac_sclk_o" LOC = A4;
+NET "dac_sclk_o" IOSTANDARD = "LVCMOS25";
+
+#NET "SI57X_CLK_N" LOC = F15;
+#NET "SI57X_CLK_N" IOSTANDARD = "LVDS_25";
+#NET "SI57X_CLK_P" LOC = F14;
+#NET "SI57X_CLK_P" IOSTANDARD = "LVDS_25";
+#NET "TCK_TO_FMC" LOC = G8;
+#NET "TCK_TO_FMC" IOSTANDARD = "LVCMOS25";
+#NET "TDI_TO_FMC" LOC = H11;
+#NET "TDI_TO_FMC" IOSTANDARD = "LVCMOS25";
+NET "thermo_id" LOC = D4;
+NET "thermo_id" IOSTANDARD = "LVCMOS25";
+#NET "TMS_TO_FMC" LOC = H10;
+#NET "TMS_TO_FMC" IOSTANDARD = "LVCMOS25";
+#NET "PRSNT_M2C_L" LOC = A2;
+#NET "PRSNT_M2C_L" IOSTANDARD = "LVCMOS25";
+NET "SFP_MOD_DEF1_b" LOC = C17;
+NET "SFP_MOD_DEF1_b" IOSTANDARD = "LVCMOS25";
+NET "SFP_MOD_DEF0_b" LOC = G15;
+NET "SFP_MOD_DEF0_b" IOSTANDARD = "LVCMOS25";
+NET "SFP_MOD_DEF2_b" LOC = G16;
+NET "SFP_MOD_DEF2_b" IOSTANDARD = "LVCMOS25";
+NET "SFP_RATE_SELECT_b" LOC = H14;
+NET "SFP_RATE_SELECT_b" IOSTANDARD = "LVCMOS25";
+NET "SFP_TX_FAULT_i" LOC = A17;
+NET "SFP_TX_FAULT_i" IOSTANDARD = "LVCMOS25";
+NET "SFP_TX_DISABLE_o" LOC = F17;
+NET "SFP_TX_DISABLE_o" IOSTANDARD = "LVCMOS25";
+NET "SFP_LOS_i" LOC = D18;
+NET "SFP_LOS_i" IOSTANDARD = "LVCMOS25";
+
+#NET "sfp_rxp_i" IOSTANDARD = "LVDS_12";
+NET "sfp_rxp_i" LOC= D15;
+#NET "sfp_rxn_i" IOSTANDARD = "LVDS_12";
+NET "sfp_rxn_i" LOC= C15;
+
+#NET "sfp_txp_o" IOSTANDARD = "LVDS_12";
+NET "sfp_txp_o" LOC= B16;
+#NET "sfp_txn_o" IOSTANDARD = "LVDS_12";
+NET "sfp_txn_o" LOC= A16;
+
+
+#NET "TRST_TO_FMC" LOC = E6;
+#NET "TRST_TO_FMC" IOSTANDARD = "LVCMOS25";
+#NET "CLK0_M2C_P" LOC = E16;
+#NET "CLK0_M2C_P" IOSTANDARD = "LVDS_25";
+NET "FPGA_SCL_B" LOC = F7;
+NET "FPGA_SCL_B" IOSTANDARD = "LVCMOS25";
+NET "FPGA_SDA_B" LOC = F8;
+NET "FPGA_SDA_B" IOSTANDARD = "LVCMOS25";
+
+NET "BUTTON1_I" LOC = C22;
+NET "BUTTON1_I" IOSTANDARD = "LVCMOS18";
+NET "BUTTON2_I" LOC = D21;
+NET "BUTTON2_I" IOSTANDARD = "LVCMOS18";
+
+
+#NET "TDO_FROM_FMC" LOC = F9;
+#NET "TDO_FROM_FMC" IOSTANDARD = "LVCMOS25";
+#NET "CLK0_M2C_N" LOC = F16;
+#NET "CLK0_M2C_N" IOSTANDARD = "LVDS_25";
+
+
+
+
+#NET "CLK1_M2C_P" LOC = L20;
+#NET "CLK1_M2C_P" IOSTANDARD = "LVDS_18";
+#NET "CLK1_M2C_N" LOC = L22;
+#NET "CLK1_M2C_N" IOSTANDARD = "LVDS_18";
+NET "GPIO[1]" LOC = U16;
+NET "GPIO[1]" IOSTANDARD = "LVCMOS25";
+NET "GPIO[0]" LOC = AB19;
+NET "GPIO[0]" IOSTANDARD = "LVCMOS25";
+
+
+
+NET "LED_RED" LOC = D5;
+NET "LED_RED" IOSTANDARD = "LVCMOS25";
+NET "LED_GREEN" LOC = E5;
+NET "LED_GREEN" IOSTANDARD = "LVCMOS25";
+
+
+NET "L_CLKp" TNM_NET = "l_clkp_grp";
+NET "P2L_CLKp" TNM_NET = "p2l_clkp_grp";
+NET "P2L_CLKn" TNM_NET = "p2l_clkn_grp";
+TIMESPEC TS_cmp_gn4124_core_cmp_clk_in_P_clk = PERIOD "cmp_gn4124_core/cmp_clk_in/P_clk" 5 ns HIGH 50%;
+
+
+
+
+
+NET "uart_rxd_i" LOC= A2;
+NET "uart_rxd_i" IOSTANDARD=LVCMOS25;
+NET "uart_txd_o" LOC= B2;
+NET "uart_txd_o" IOSTANDARD=LVCMOS25;
+
+
+# System clock
+# DDR3
+#---------------------------------------------------------------------------------------------
+# False Path
+#---------------------------------------------------------------------------------------------
+
+
+
+#Created by Constraints Editor (xc6slx45t-fgg484-3) - 2011/02/04
+NET "clk_20m_vcxo_i" TNM_NET = clk_20m_vcxo_i;
+TIMESPEC TS_clk_20m_vcxo_i = PERIOD "clk_20m_vcxo_i" 50 ns HIGH 50%;
+NET "clk_125m_pllref_p_i" TNM_NET = clk_125m_pllref_p_i;
+TIMESPEC TS_clk_125m_pllref_p_i = PERIOD "clk_125m_pllref_p_i" 8 ns HIGH 50%;
+NET "clk_125m_pllref_n_i" TNM_NET = clk_125m_pllref_n_i;
+TIMESPEC TS_clk_125m_pllref_n_i = PERIOD "clk_125m_pllref_n_i" 8 ns HIGH 50%;
+NET "fpga_pll_ref_clk_101_p_i" TNM_NET = fpga_pll_ref_clk_101_p_i;
+TIMESPEC TS_fpga_pll_ref_clk_101_p_i = PERIOD "fpga_pll_ref_clk_101_p_i" 8 ns HIGH 50%;
+NET "fpga_pll_ref_clk_101_n_i" TNM_NET = fpga_pll_ref_clk_101_n_i;
+TIMESPEC TS_fpga_pll_ref_clk_101_n_i = PERIOD "fpga_pll_ref_clk_101_n_i" 8 ns HIGH 50%;
+
+PIN "clk_125m_pllref_BUFG.O" CLOCK_DEDICATED_ROUTE = FALSE; 
+#Created by Constraints Editor (xc6slx45t-fgg484-3) - 2011/06/09
+NET "U_GTP/ch1_gtp_clkout_int<1>" TNM_NET = U_GTP/ch1_gtp_clkout_int<1>;
+TIMESPEC TS_U_GTP_ch1_gtp_clkout_int_1_ = PERIOD "U_GTP/ch1_gtp_clkout_int<1>" 8 ns HIGH 50%;
+# PIN "cmp_clk_dmtd_buf.O" CLOCK_DEDICATED_ROUTE = FALSE; 
+##Created by Constraints Editor (xc6slx45t-fgg484-3) - 2012/08/07
+
+INST "*/U_SOFTPLL/U_Wrapped_Softpll/gen_feedback_dmtds*/clk_in" TNM = skew_limit;
+INST "*/U_SOFTPLL/U_Wrapped_Softpll/gen_ref_dmtds*/clk_in" TNM = skew_limit;
+
+TIMESPEC TS_ = FROM "skew_limit" TO "FFS" 1 ns DATAPATHONLY;
+#Created by Constraints Editor (xc6slx45t-fgg484-3) - 2012/08/08
+INST "U_WR_CORE/WRPC/U_Endpoint/U_Wrapped_Endpoint/U_PCS_1000BASEX/gen_8bit.U_RX_PCS/timestamp_trigger_p_a_o" TNM = rx_ts_trig;
+TIMESPEC TS_RXTS = FROM "rx_ts_trig" TO "FFS" 1 ns DATAPATHONLY;

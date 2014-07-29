@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.5-S029 (v16-5-13BU) 8/27/2012 on Wed Mar 19 17:51:42 2014
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.6-S014 (v16-6-112AQ) 7/29/2013 on Mon Jul 28 09:39:05 2014
 #ISCELL
   bris_cds_standard a3-2000 *
   *
@@ -1137,10 +1137,10 @@
   cnpower avdd *
   page3_i250
 #CELL
-  cnpassive elcaptan *
+  cnpassive capcersmdcl2 *
   page3_i252
 #CELL
-  cnlinear tps776xx *
+  bris_cds_analogue lm2937imp *
   page3_i253
 #ISCELL
   standard inport *

@@ -1,0 +1,38 @@
+LISTING: 1 element(s)
+
+             < SYMBOL >
+
+  Symbol name:    SFP_SMD_2X10
+  origin-xy:    (-4.0000 -90.0000) 
+  rotation:       90.000  degrees
+  not_mirrored
+
+
+  Attached text:
+   class      = REF DES
+   subclass   = ASSEMBLY_TOP
+   value      = UXXX
+
+  Attached text:
+   class      = REF DES
+   subclass   = SILKSCREEN_TOP
+   value      = UXXX
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = DISPLAY_TOP
+   value      = FRONT PANEL
+
+  Attached text:
+   class      = PACKAGE GEOMETRY
+   subclass   = DISPLAY_TOP
+   value      = OUTSIDE EDGE
+
+  Attached text:
+   class      = REF DES
+   subclass   = SILKSCREEN_BOTTOM
+   value      = UXXX
+
+  Properties attached to symbol definition
+    LIBRARY_PATH      = /projects/HEP_Instrumentation/cad/ral_cdslib/l
+                        ib_psd15.x/symbols/sfp_smd_2x10.psm

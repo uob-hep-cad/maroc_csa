@@ -92,7 +92,7 @@
   cnpassive capcersmdcl2 *
   page9_i40
 #ISCELL
-  cnpower p2v5 *
+  cnpower p3v3 *
   page9_i41
 #CELL
   cnpassive rsmd0402 *
@@ -212,7 +212,7 @@
   cnpassive capcersmdcl2 *
   page9_i79
 #CELL
-  cnlinear lt1584 *
+  bris_cds_analogue lt1585 *
   page9_i8
 #CELL
   cnpassive elcaptan *

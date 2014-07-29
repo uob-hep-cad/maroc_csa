@@ -1,0 +1,3554 @@
+Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstchip.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstchip.dat (00:00:00.08)
+Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstxprt.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstxprt.dat (00:00:00.02)
+Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstxnet.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstxnet.dat (00:00:00.01)
+
+#1   ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<1>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#2   ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<21>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#3   ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<22>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#4   ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<25>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#5   ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<26>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#6   ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<29>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#7   ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<30>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#8   ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<33>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#9   ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<34>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#10  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<37>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#11  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<38>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#12  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<2>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#13  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<41>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#14  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<42>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#15  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<45>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#16  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<46>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#17  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<49>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#18  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<50>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#19  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<53>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#20  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<54>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#21  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<57>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#22  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<58>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#23  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<5>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#24  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<61>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#25  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<62>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#26  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<65>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#27  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<66>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#28  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<69>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#29  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<70>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#30  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<73>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#31  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<74>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#32  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<77>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#33  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<78>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#34  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<6>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#35  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<81>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#36  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<82>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#37  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<85>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#38  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<86>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#39  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<89>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#40  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<90>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#41  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<93>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#42  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<94>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#43  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<97>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#44  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<98>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#45  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<9>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#46  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<101>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#47  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<102>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#48  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<105>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#49  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<106>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#50  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<109>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#51  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<110>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#52  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<113>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#53  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<114>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#54  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<117>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#55  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<118>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#56  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<10>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#57  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<121>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#58  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<122>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#59  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<125>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#60  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<126>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#61  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<13>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#62  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<14>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#63  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<17>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#64  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<18>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#65  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: VOUT
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE11_I105@CNLINEAR.LP3874_ADJ(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE11:PAGEPC049A_TOPLEVEL(SCH_1):PAGE11
+
+#66  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<5>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I246@CNCONNECTOR.CON6P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3:PAGEPC043C_SINGLE_MAROC(SCH_1):PAGE3
+
+#67  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<149>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#68  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<148>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#69  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<147>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#70  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<146>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#71  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<2>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I228@CNCONNECTOR.CON3P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3:PAGEPC043C_SINGLE_MAROC(SCH_1):PAGE3
+
+#72  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<1>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I228@CNCONNECTOR.CON3P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3:PAGEPC043C_SINGLE_MAROC(SCH_1):PAGE3
+
+#73  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<0>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I231@CNCONNECTOR.CON3P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3:PAGEPC043C_SINGLE_MAROC(SCH_1):PAGE3
+
+#74  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<130>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#75  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<134>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#76  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<137>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#77  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<141>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#78  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<129>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#79  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<133>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#80  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<138>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#81  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<142>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#82  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<1>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#83  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<1>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#84  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<1>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#85  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<30>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#86  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<30>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#87  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<30>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#88  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I105@CNDISCRETE.LED(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#89  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I107@CNDISCRETE.LED(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#90  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I108@CNDISCRETE.LED(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#91  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I106@CNDISCRETE.LED(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#92  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I115@CNDISCRETE.LED(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#93  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<5>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I16@CNCONNECTOR.CON14P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#94  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<9>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I16@CNCONNECTOR.CON14P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#95  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<7>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I16@CNCONNECTOR.CON14P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#96  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<3>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I16@CNCONNECTOR.CON14P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#97  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: GND
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE11_I105@CNLINEAR.LP3874_ADJ(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE11:PAGEPC049A_TOPLEVEL(SCH_1):PAGE11
+
+#98  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: GND
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE10_I72@CNLINEAR.LP3874_ADJ(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE10:PAGEPC049A_TOPLEVEL(SCH_1):PAGE10
+
+#99  ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I80@CNPASSIVE.SW_PUSHBUTTON_1SPSTA_4P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#100 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I80@CNPASSIVE.SW_PUSHBUTTON_1SPSTA_4P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#101 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<9>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I51@CNCONNECTOR.CON12P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#102 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<8>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I51@CNCONNECTOR.CON12P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#103 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: VSS
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I41@CNMEMORY.24AA64(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#104 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<10>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I16@CNCONNECTOR.CON14P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#105 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<8>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I16@CNCONNECTOR.CON14P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#106 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<6>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I16@CNCONNECTOR.CON14P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#107 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<4>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I16@CNCONNECTOR.CON14P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#108 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<2>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I16@CNCONNECTOR.CON14P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#109 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<29>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#110 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<26>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#111 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<23>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#112 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<20>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#113 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<17>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#114 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<14>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#115 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<11>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#116 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<8>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#117 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<5>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#118 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<2>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#119 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<31>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#120 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<30>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#121 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<29>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#122 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<28>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#123 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<27>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#124 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<26>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#125 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<25>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#126 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<24>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#127 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<23>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#128 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<22>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#129 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<21>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#130 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<20>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#131 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<19>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#132 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<18>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#133 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<17>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#134 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<16>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#135 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<15>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#136 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<14>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#137 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<13>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#138 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<12>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#139 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<11>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#140 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<10>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#141 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<9>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#142 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<8>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#143 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<7>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#144 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<6>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#145 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<3>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#146 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<2>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#147 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: K<0>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I245@CNDISCRETE.DIODE_CA(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3:PAGEPC043C_SINGLE_MAROC(SCH_1):PAGE3
+
+#148 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<4>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I246@CNCONNECTOR.CON6P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3:PAGEPC043C_SINGLE_MAROC(SCH_1):PAGE3
+
+#149 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<3>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I246@CNCONNECTOR.CON6P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3:PAGEPC043C_SINGLE_MAROC(SCH_1):PAGE3
+
+#150 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<1>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I246@CNCONNECTOR.CON6P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3:PAGEPC043C_SINGLE_MAROC(SCH_1):PAGE3
+
+#151 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<2>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I231@CNCONNECTOR.CON3P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3:PAGEPC043C_SINGLE_MAROC(SCH_1):PAGE3
+
+#152 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<0>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I228@CNCONNECTOR.CON3P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3:PAGEPC043C_SINGLE_MAROC(SCH_1):PAGE3
+
+#153 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<29>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#154 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<26>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#155 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<23>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#156 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<20>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#157 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<17>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#158 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<14>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#159 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<11>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#160 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<8>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#161 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<5>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#162 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<2>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#163 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<29>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#164 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<28>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#165 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<25>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#166 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<24>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#167 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<23>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#168 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<22>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#169 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<21>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#170 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<20>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#171 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<19>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#172 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<18>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#173 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<17>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#174 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<16>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#175 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<15>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#176 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<14>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#177 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<13>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#178 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<12>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#179 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<11>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#180 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<10>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#181 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<9>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#182 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<8>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#183 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<7>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#184 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<6>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#185 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<5>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#186 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<4>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#187 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<3>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#188 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<2>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#189 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<1>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#190 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<0>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#191 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<29>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#192 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<26>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#193 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<23>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#194 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<20>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#195 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<17>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#196 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<14>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#197 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<11>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#198 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<8>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#199 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<5>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#200 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<2>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#201 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<145>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#202 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<144>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#203 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<143>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#204 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<140>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#205 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<139>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#206 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<136>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#207 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<135>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#208 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<132>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#209 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<131>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#210 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<128>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#211 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<127>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#212 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<124>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#213 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<123>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#214 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<120>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#215 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<119>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#216 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<116>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#217 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<115>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#218 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<112>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#219 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<111>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#220 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<108>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#221 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<107>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#222 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<104>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#223 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<103>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#224 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<100>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#225 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<99>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#226 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<96>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#227 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<95>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#228 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<92>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#229 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<91>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#230 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<88>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#231 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<87>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#232 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<84>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#233 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<83>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#234 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<80>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#235 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<79>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#236 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<76>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#237 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<75>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#238 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<72>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#239 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<71>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#240 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<68>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#241 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<67>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#242 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<64>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#243 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<63>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#244 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<60>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#245 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<59>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#246 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<56>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#247 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<55>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#248 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<52>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#249 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<51>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#250 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<48>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#251 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<47>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#252 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<44>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#253 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<43>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#254 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<40>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#255 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<39>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#256 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<36>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#257 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<35>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#258 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<32>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#259 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<31>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#260 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<28>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#261 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<27>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#262 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<24>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#263 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<23>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#264 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<20>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#265 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<19>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#266 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<16>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#267 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<15>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#268 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<12>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#269 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<11>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#270 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<8>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#271 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<7>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#272 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<4>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#273 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<3>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#274 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<0>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I2@CNCONNECTOR.CON150P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1:PAGEPC049A_TOPLEVEL(SCH_1):PAGE1
+
+#275 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<30>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#276 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<31>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#277 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<30>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#278 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<15>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#279 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<12>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#280 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<12>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#281 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<9>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#282 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<9>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#283 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<6>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#284 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<27>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#285 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<27>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#286 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<24>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#287 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<24>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#288 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<21>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#289 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<21>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#290 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<18>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#291 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<18>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#292 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<15>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#293 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<31>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#294 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<16>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#295 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<13>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#296 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<13>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#297 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<10>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#298 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<10>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#299 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<7>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#300 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<28>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#301 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<28>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#302 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<25>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#303 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<25>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#304 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<22>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#305 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<22>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#306 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<19>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#307 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<19>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#308 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<16>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#309 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<1>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#310 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<0>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#311 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<1>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#312 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<16>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#313 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<19>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#314 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<19>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#315 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<22>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#316 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<22>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#317 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<25>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#318 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<4>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#319 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<4>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#320 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<7>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#321 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<7>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#322 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<10>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#323 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<10>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#324 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<13>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#325 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<13>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#326 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<16>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#327 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<0>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#328 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<15>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#329 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<18>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#330 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<18>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#331 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<21>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#332 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<21>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#333 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<24>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#334 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<3>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#335 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<3>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#336 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<6>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#337 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<6>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#338 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<9>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#339 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<9>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#340 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<12>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#341 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<12>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#342 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<15>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#343 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<25>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#344 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<24>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#345 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<6>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#346 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<7>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#347 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<4>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#348 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<27>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#349 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<5>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#350 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<26>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#351 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<3>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#352 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<28>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#353 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<4>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#354 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<27>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#355 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<13>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I16@CNCONNECTOR.CON14P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#356 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<12>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I16@CNCONNECTOR.CON14P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#357 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<11>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I16@CNCONNECTOR.CON14P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#358 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<0>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I16@CNCONNECTOR.CON14P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#359 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<2>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I246@CNCONNECTOR.CON6P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3:PAGEPC043C_SINGLE_MAROC(SCH_1):PAGE3
+
+#360 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<0>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I246@CNCONNECTOR.CON6P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3:PAGEPC043C_SINGLE_MAROC(SCH_1):PAGE3
+
+#361 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<0>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#362 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<0>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#363 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<0>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#364 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C<31>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#365 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B<31>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#366 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<31>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#367 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: VIN
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE10_I72@CNLINEAR.LP3874_ADJ(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE10:PAGEPC049A_TOPLEVEL(SCH_1):PAGE10
+
+#368 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<1>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I16@CNCONNECTOR.CON14P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#369 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: D
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I96@CNPASSIVE.SW_PUSHBUTTON_1SPSTA_4P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#370 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I96@CNPASSIVE.SW_PUSHBUTTON_1SPSTA_4P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#371 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: D
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I86@CNPASSIVE.SW_PUSHBUTTON_1SPSTA_4P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#372 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I86@CNPASSIVE.SW_PUSHBUTTON_1SPSTA_4P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#373 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<11>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I51@CNCONNECTOR.CON12P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#374 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<10>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I51@CNCONNECTOR.CON12P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#375 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: VCC
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I41@CNMEMORY.24AA64(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#376 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<4>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#377 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<3>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#378 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<28>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#379 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<27>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I1@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#380 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: EN/DIS
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE4_I35@CNDISCRETE.OSC_6P_VCTRL_ENDIS_OUT(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE4:PAGEPC049A_TOPLEVEL(SCH_1):PAGE4
+
+#381 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: VCTRL
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE4_I35@CNDISCRETE.OSC_6P_VCTRL_ENDIS_OUT(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE4:PAGEPC049A_TOPLEVEL(SCH_1):PAGE4
+
+#382 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: ADJ
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE10_I72@CNLINEAR.LP3874_ADJ(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE10:PAGEPC049A_TOPLEVEL(SCH_1):PAGE10
+
+#383 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: SD*
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE10_I72@CNLINEAR.LP3874_ADJ(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE10:PAGEPC049A_TOPLEVEL(SCH_1):PAGE10
+
+#384 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: ADJ
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE11_I105@CNLINEAR.LP3874_ADJ(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE11:PAGEPC049A_TOPLEVEL(SCH_1):PAGE11
+
+#385 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: VIN
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE11_I105@CNLINEAR.LP3874_ADJ(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE11:PAGEPC049A_TOPLEVEL(SCH_1):PAGE11
+
+#386 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: SD*
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE11_I105@CNLINEAR.LP3874_ADJ(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE11:PAGEPC049A_TOPLEVEL(SCH_1):PAGE11
+
+#387 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I46@CNDISCRETE.LED(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#388 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: K
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I46@CNDISCRETE.LED(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#389 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: D
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I80@CNPASSIVE.SW_PUSHBUTTON_1SPSTA_4P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#390 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: B
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13_I80@CNPASSIVE.SW_PUSHBUTTON_1SPSTA_4P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE13:PAGEPC049A_TOPLEVEL(SCH_1):PAGE13
+
+#391 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<1>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I231@CNCONNECTOR.CON3P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3:PAGEPC043C_SINGLE_MAROC(SCH_1):PAGE3
+
+#392 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<29>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#393 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<26>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#394 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<23>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#395 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<20>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#396 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<17>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#397 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<14>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#398 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<11>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#399 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<8>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#400 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<5>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#401 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<2>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I74@CNCONNECTOR.CONABC96(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3:PAGEPC049A_TOPLEVEL(SCH_1):PAGE3
+
+#402 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<1>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7_I8@CNCONNECTOR.CON7P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7:PAGEPC049A_TOPLEVEL(SCH_1):PAGE7
+
+#403 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<4>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7_I8@CNCONNECTOR.CON7P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7:PAGEPC049A_TOPLEVEL(SCH_1):PAGE7
+
+#404 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<5>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7_I8@CNCONNECTOR.CON7P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7:PAGEPC049A_TOPLEVEL(SCH_1):PAGE7
+
+#405 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<5>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7_I4@CNCONNECTOR.CON7P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7:PAGEPC049A_TOPLEVEL(SCH_1):PAGE7
+
+#406 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<4>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7_I4@CNCONNECTOR.CON7P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7:PAGEPC049A_TOPLEVEL(SCH_1):PAGE7
+
+#407 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<2>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7_I4@CNCONNECTOR.CON7P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7:PAGEPC049A_TOPLEVEL(SCH_1):PAGE7
+
+#408 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<1>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7_I4@CNCONNECTOR.CON7P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7:PAGEPC049A_TOPLEVEL(SCH_1):PAGE7
+
+#409 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<2>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7_I8@CNCONNECTOR.CON7P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7:PAGEPC049A_TOPLEVEL(SCH_1):PAGE7
+
+#410 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<6>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7_I4@CNCONNECTOR.CON7P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7:PAGEPC049A_TOPLEVEL(SCH_1):PAGE7
+
+#411 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<3>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7_I4@CNCONNECTOR.CON7P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7:PAGEPC049A_TOPLEVEL(SCH_1):PAGE7
+
+#412 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<0>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7_I4@CNCONNECTOR.CON7P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7:PAGEPC049A_TOPLEVEL(SCH_1):PAGE7
+
+#413 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<6>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7_I8@CNCONNECTOR.CON7P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7:PAGEPC049A_TOPLEVEL(SCH_1):PAGE7
+
+#414 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<3>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7_I8@CNCONNECTOR.CON7P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7:PAGEPC049A_TOPLEVEL(SCH_1):PAGE7
+
+#415 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<0>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7_I8@CNCONNECTOR.CON7P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7:PAGEPC049A_TOPLEVEL(SCH_1):PAGE7
+
+#416 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<7>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I51@CNCONNECTOR.CON12P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#417 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<6>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I51@CNCONNECTOR.CON12P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#418 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<4>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I51@CNCONNECTOR.CON12P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#419 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<2>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I51@CNCONNECTOR.CON12P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#420 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<0>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I51@CNCONNECTOR.CON12P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#421 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<3>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I51@CNCONNECTOR.CON12P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#422 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<1>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I51@CNCONNECTOR.CON12P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#423 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<5>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I51@CNCONNECTOR.CON12P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#424 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: K
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I105@CNDISCRETE.LED(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#425 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: K
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I106@CNDISCRETE.LED(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#426 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: K
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I107@CNDISCRETE.LED(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#427 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: K
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I108@CNDISCRETE.LED(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#428 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: K
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I115@CNDISCRETE.LED(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#429 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I86@CNPASSIVE.SW_PUSHBUTTON_1SPSTA_4P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#430 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I86@CNPASSIVE.SW_PUSHBUTTON_1SPSTA_4P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#431 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: C
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I96@CNPASSIVE.SW_PUSHBUTTON_1SPSTA_4P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#432 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I96@CNPASSIVE.SW_PUSHBUTTON_1SPSTA_4P(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8:PAGEPC049A_TOPLEVEL(SCH_1):PAGE8
+
+#433 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: A<0>
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I245@CNDISCRETE.DIODE_CA(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3:PAGEPC043C_SINGLE_MAROC(SCH_1):PAGE3
+
+#434 ERROR(211) No directional property data specified for pin
+         A combination of INPUT_LOAD, OUTPUT_LOAD, OUTPUT_TYPE
+         and BIDIRECTIONAL properties must be used to specify
+         the pin direction.
+         Pin name: VOUT
+         Instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE10_I72@CNLINEAR.LP3874_ADJ(CHIPS)
+         Drawing:  UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE10:PAGEPC049A_TOPLEVEL(SCH_1):PAGE10
+     
+
+ERC Summary:
+
+     Pin Direction Check Violations:  434
+     IO Check Violations:               0
+     Loading Check Violations:          0
+     
+
+Extended Error Descriptions:
+
+     Error(211) No directional property data specified for pin
+          Indicates that the pin does not have proper INPUT_LOAD, 
+          OUTPUT_LOAD, OUTPUT_TYPE, or BIDIRECTIONAL property values to
+          specify the pin direction. To fix this error add
+          loading values to the chips file for the part.
+          This error can be suppressed by adding the
+          NO_DIR_CHECK property to the symbol or pin.
+          The syntax for the NO_DIR_CHECK property is:
+             NO_DIR_CHECK =  TRUE
+          You can also suppress this error by turning off the check.
+     
+     Error(212) Ambiguous directional property data specified on pin
+          Indicates that the pin has INPUT_LOAD and OUTPUT load values
+          but is not identified as a bidirectional or special pin.
+          This error can be fixed by adding the BIDIRECTIONAL or
+          OUTPUT_TYPE property to the chips file for the part.
+          This error can be suppressed by adding the
+          NO_DIR_CHECK property to the symbol or pin.
+          The syntax for the NO_DIR_CHECK property is:
+             NO_DIR_CHECK =  TRUE
+          You can also suppress this error by turning off the check.
+     
+
+ERC-DX run on Jun 3 11:38:56 2014
+   DESIGN NAME : 'PC049A_TOPLEVEL'
+   PACKAGING ON 03-Jun-2014 AT 11:35:24
+
+   DIRECTORIES  <none>
+   LIBRARIES  'uob_hep_pc049a_lib' 'bris_cds_analogue' 'bris_cds_connectors'
+              'bris_cds_discrete' 'bris_cds_logic' 'bris_cds_memory'
+              'bris_cds_pld' 'bris_cds_special' 'bris_cds_standard'
+              'bris_cds_switches' 'cn74lv' 'cn74tiac' 'cn75als' 'cncmos'
+              'cnconnector' 'cndiscrete' 'cnpassive' 'cnpld' 'cnpower'
+              'cnspecial' 'cnstandard' 'cnvlsi' 'standard' 'cnlinear' 'cnmemory'
+              'cninterface' 'cnmech' 'cnmicro' 'help' 'cn100e' 'cn10e' 'cn10el'
+              'cn10k' 'cn10kh'
+   MASTER_LIBRARIES  <none>
+   MAX_ERRORS 500
+   ASSERT_CHECK OFF
+   PIN_DIRECTION_CHECK ON
+   CONNECT_CHECK OFF
+   SINGLE_NODE_CHECK OFF
+   IO_CHECK OFF
+   IO_CHECK_HIGH ON
+   IO_CHECK_LOW ON
+   LOAD_CHECK OFF
+   LOAD_CHECK_HIGH ON
+   LOAD_CHECK_LOW ON
+   ENABLE_TIMES OFF
+   VERBOSE_LOADING ON
+   VPUNKNOWNLOADING ON
+   EXTENDEDDESCRIPTIONS ON
+   OVERSIGHTS ON
+   SINGLE_NODE_NETS ON
+   SUPPRESS   20
+   WARNINGS ON
+   GLOBALS_SYNONYM_CHECK OFF
+
+434 errors detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:00
+elapsed time  0:00:00
+

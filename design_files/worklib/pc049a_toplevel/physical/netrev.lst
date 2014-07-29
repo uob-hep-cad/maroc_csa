@@ -1,0 +1,129 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : pc049a_toplevel_28.brd                        )
+(    Software Version : 16.6S014                                      )
+(    Date/Time        : Mon Jul 28 20:45:51 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_DELETE_FIRST_SEGMENT FALSE;
+RIPUP_RETAIN_BONDWIRE FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged';
+BOARD_DIRECTORY '';
+OLD_BOARD_NAME '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_28.brd';
+NEW_BOARD_NAME 'pc049a_toplevel_29.brd';
+
+CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/pc049a_toplevel.cpm -y 1 -O /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_28.brd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_29.brd -$
+
+------ Preparing to read pst files ------
+
+Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstchip.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstchip.dat (00:00:00.17)
+Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstxprt.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstxprt.dat (00:00:00.02)
+Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstxnet.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstxnet.dat (00:00:00.01)
+
+------ Oversights/Warnings/Errors ------
+
+
+
+
+===========================================================
+Start Constraint Diff3 Import
+	Constraint File:    /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstcmdb.dat
+	Allegro Baseline:   /tmp/#Taaaaad22072.tmp
+	Start time: Mon Jul 28 20:45:51 2014
+===========================================================
+===========================================================
+Finished Constraint Update	Time: Mon Jul 28 20:45:52 2014
+===========================================================
+
+------ Library Paths ------
+MODULEPATH =  . 
+           /cadence/psd15.1/share/local/pcb/modules 
+           ../../../modules 
+           ../../pc049a_4lemos/physical 
+           ../../pc043c_single_maroc/physical 
+
+PSMPATH =  . 
+           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/symbols 
+           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/formats 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/connector 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/soic 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/discrete 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/dip 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/so 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/bga 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/qfp 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/passif 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/cap 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/led 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/rel 
+           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/symbols 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/sw 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/mec 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           /software/CAD/Cadence/SPB16.60.000/share/local/pcb/padstacks 
+           /software/CAD/Cadence/SPB16.60.000/share/pcb/pcb_lib/symbols 
+           /software/CAD/Cadence/SPB16.60.000/share/pcb/allegrolib/symbols 
+           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/pads 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/padstacks/padstack_smd 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/padstacks/padstack3 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/padstacks/padstackm 
+           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/pads 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jul 28 20:45:50 2014
+   DESIGN NAME : 'PC049A_TOPLEVEL'
+   PACKAGING ON 28-Jul-2014 AT 20:45:38
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   DIRECTORIES  <none>
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   LIBRARIES  'uob_hep_pc049a_lib' 'bris_cds_analogue' 'bris_cds_connectors'
+              'bris_cds_discrete' 'bris_cds_logic' 'bris_cds_memory'
+              'bris_cds_pld' 'bris_cds_special' 'bris_cds_standard'
+              'bris_cds_switches' 'cn74lv' 'cn74tiac' 'cn75als' 'cncmos'
+              'cnconnector' 'cndiscrete' 'cnpassive' 'cnpld' 'cnpower'
+              'cnspecial' 'cnstandard' 'cnvlsi' 'standard' 'cnlinear' 'cnmemory'
+              'cninterface' 'cnmech' 'cnmicro' 'help' 'cn100e' 'cn10e' 'cn10el'
+              'cn10k' 'cn10kh'
+   MASTER_LIBRARIES  <none>
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:02
+elapsed time  0:00:02
+

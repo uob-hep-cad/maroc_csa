@@ -1,0 +1,21 @@
+# Allegro script
+#	file: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/fpga_add_track_via.scr
+#	start time: Wed Jun  4 13:17:59 2014
+#	Version: 16.6 S014 (v16-6-112AU) Linux I32
+version 16.6
+
+setwindow pcb
+trapsize 480
+generaledit
+add connect 
+pick grid -8.4944 -37.4927
+setwindow form.mini
+FORM mini padstack_list VIA60-30-85 
+setwindow pcb
+pick grid -9.0125 -37.9723
+pick grid dbl -9.0125 -37.9723
+prepopup -9.0125 -37.9723
+done 
+generaledit 
+
+#	stop time: Wed Jun  4 13:18:33 2014

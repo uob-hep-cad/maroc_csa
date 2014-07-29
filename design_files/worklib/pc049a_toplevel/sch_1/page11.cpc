@@ -188,9 +188,6 @@
   cnpower p2v5 *
   page10_i71
 #CELL
-  cnlinear lp3874_adj *
-  page10_i72
-#CELL
   cnpassive capcersmdcl2 *
   page10_i74
 #CELL
@@ -211,9 +208,6 @@
 #ISCELL
   standard replicate *
   page10_i8
-#CELL
-  cnpassive capcersmdcl2 *
-  page10_i80
 #ISCELL
   standard gnd_signal *
   page10_i81
@@ -232,15 +226,18 @@
 #CELL
   cnpassive rsmd0603 *
   page10_i86
-#CELL
-  cnpassive rsmd0603 *
-  page10_i87
-#CELL
-  cnpassive rsmd0603 *
-  page10_i88
-#CELL
-  cnpassive capcersmdcl1 *
-  page10_i89
 #ISCELL
   standard replicate *
   page10_i9
+#CELL
+  bris_cds_analogue tps71701dckrg4 *
+  page10_i91
+#ISCELL
+  standard gnd_signal *
+  page10_i92
+#CELL
+  cnpassive rsmd0603 *
+  page10_i93
+#CELL
+  cnpassive rsmd0603 *
+  page10_i94

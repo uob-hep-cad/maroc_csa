@@ -1,0 +1,29 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Downrev Design                                                   )
+(                                                                     )
+(    Drawing          : pc049a_toplevel_22_rev16-5.brd                )
+(    Software Version : 16.6S014                                      )
+(    Date/Time        : Fri Jun  6 09:16:51 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Design has content that prevents it from being opened in 16.5.
+Saving for 16.5 affects the following design data:
+
+  - All properties not supported by earlier revision are removed.
+  - New constraints are removed.
+  - Film names greater then 18 chars will be renamed.
+  - Net/Port groups display shapes and ratbundles are removed.
+  - Thieving groups containing CLINEs are removed.
+  - Film record option Draw Drill Holes is not supported in earlier versions.
+
+
+Changes made to design for 16.5 compatibility:
+
+General Information:
+   DRC has been marked Out of Date for this design.
+
+SUCCESS: The downrev of the design was successful.
+

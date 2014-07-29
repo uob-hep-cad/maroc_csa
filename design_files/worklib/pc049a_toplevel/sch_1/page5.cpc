@@ -214,6 +214,30 @@
 #CELL
   uob_hep_pc049a_lib pc049a_fpga *
   page4_i84
+#CELL
+  cnpassive rsmd0402 *
+  page4_i85
+#CELL
+  bris_cds_logic sn65lvds1 *
+  page4_i86
+#ISCELL
+  standard gnd_signal *
+  page4_i87
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i88
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i89
 #ISCELL
   standard gnd_signal *
   page4_i9
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i90
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i91
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i92

@@ -61,9 +61,6 @@
 #CELL
   cninterface ds90lv001 *
   page6_i32
-#CELL
-  cn100e 100ep05 *
-  page6_i33
 #ISCELL
   cnpower p1v2 *
   page6_i34
@@ -85,9 +82,6 @@
 #ISCELL
   standard gnd_signal *
   page6_i42
-#ISCELL
-  cnpower p3v3 *
-  page6_i43
 #CELL
   cnpassive rsmd0402 *
   page6_i44
@@ -109,3 +103,12 @@
 #CELL
   uob_hep_pc049a_lib pc049a_fpga *
   page6_i50
+#CELL
+  bris_cds_logic mc100lvel05 *
+  page6_i52
+#ISCELL
+  cnpower p3v3 *
+  page6_i53
+#ISCELL
+  standard gnd_signal *
+  page6_i54

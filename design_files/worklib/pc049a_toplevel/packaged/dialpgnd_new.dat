@@ -1,0 +1,125 @@
+POWER AND GROUND LIST - 1  
+DESIGNATOR       PART TYPE        
+IC1              AD5662BRMZ-1-GND=GND_SIGNAL,VDA 
+                        GND_SIGNAL P3V3A    
+                        8        1        
+IC2              DS92001TMA-GND=GND_SIGNAL,VCC=A 
+                        GND_SIGNAL P3V3     
+                        1        5        
+IC3              DS92001TMA-GND=GND_SIGNAL,VCC=A 
+                        GND_SIGNAL P3V3     
+                        1        5        
+IC5              DS90LV001TM-GND=GND_SIGNAL,VCCA 
+                        GND_SIGNAL P3V3     
+                        1        5        
+IC6              DS90LV001TM-GND=GND_SIGNAL,VCCA 
+                        GND_SIGNAL P3V3     
+                        1        5        
+IC7              DS90LV001TM-GND=GND_SIGNAL,VCCA 
+                        GND_SIGNAL P3V3     
+                        1        5        
+IC8              MC100EP05DG-VCC=PV3V,VEE=GND_SA 
+                        GND_SIGNAL PV3V     
+                        5        8        
+IC9              AD5662BRMZ-1-GND=GND_SIGNAL,VDA 
+                        GND_SIGNAL P3V3A    
+                        8        1        
+IC16             SN74LVC1G06DBVT  
+                        GND      VCC      
+                        3        5        
+IC22             S25FL128SAGMFIR01-VCC=P3V3,VSSA 
+                        GND_SIGNAL P3V3     
+                        10       2        
+J1               CON150P-QTS75_03FDA-P1=GND_SIGA 
+                        GND_SIGNAL 
+                        151      
+                        152      
+                        153      
+                        154      
+                        155      
+                        156      
+                        157      
+                        158      
+                        159      
+                        160      
+                        161      
+                        162      
+J4               CON7P-47082-1000-GND=GND_SIGNAL 
+                        GND_SIGNAL 
+                        8        
+                        9        
+                        10       
+                        11       
+J5               CON7P-47082-1000-GND=GND_SIGNAL 
+                        GND_SIGNAL 
+                        8        
+                        9        
+                        10       
+                        11       
+QZ1              570CAC000121DG-GND=GND_SIGNAL,A 
+                        GND_SIGNAL VDD_SI57X 
+                        3        6        
+QZ2              OSC_6P_VCTRL_ENDIS_OUT_124-CFPB 
+                        GND_SIGNAL P3V3A    
+                        3        6        
+RG1              LT3070EUFD#PBF-GND=GND_SIGNAL 
+                        GND_SIGNAL 
+                        4        
+                        9        
+                        10       
+                        11       
+                        12       
+                        13       
+                        14       
+                        20       
+                        26       
+                        29       
+SFP1             SFP_CAGE-6367034-1 
+                        GND      
+                        1        
+                        2        
+                        3        
+                        4        
+                        5        
+                        6        
+                        7        
+                        8        
+                        9        
+                        10       
+                        11       
+                        12       
+                        13       
+                        14       
+                        15       
+                        16       
+                        17       
+SFP2             SFP_CAGE-6367035-1 
+                        GND      
+                        1        
+                        2        
+                        3        
+SFP3             SFP_CAGE-6367034-1 
+                        GND      
+                        1        
+                        2        
+                        3        
+                        4        
+                        5        
+                        6        
+                        7        
+                        8        
+                        9        
+                        10       
+                        11       
+                        12       
+                        13       
+                        14       
+                        15       
+                        16       
+                        17       
+SFP4             SFP_CAGE-6367035-1 
+                        GND      
+                        1        
+                        2        
+                        3        
+END POWER AND GROUND LIST

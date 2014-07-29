@@ -1,0 +1,200 @@
+
+
+    Cadence Design Systems, Inc.
+    Bomhdl 16.6-S013 (v16-6-112AL) 7/1/2013
+    Copyright 2011 Cadence Design Systems, Inc, Cadence Design Systems, Inc.
+
+    Run on Tue Jun  3 15:16:58 2014
+
+
+*****************************
+*  Processing project file  *
+*****************************
+
+    DESIGN_LIBRARY 'uob_hep_pc049a_lib'
+    DESIGN_NAME 'pc049a_toplevel'
+    VIEW_SCHEMATIC 'sch_1'
+    VIEW_PACKAGER 'packaged'
+    VIEW_VARIANT 'variant'
+    VIEW_BOM ''
+    VIEW_CONFIG_PHYSICAL 'cfg_package'
+    PPT '/projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_analogue/cds_analogue.ptf' '/projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_connectors/cds_connectors.ptf' '/projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_logic/cds_logic.ptf' '/projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_pld/cds_pld.ptf' '/projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_special/cds_special.ptf' '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/parttables/cnconnector.ptf' '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/parttables/cndiscrete.ptf' '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/parttables/cnpassive.ptf'
+    USE_LIBRARY_PPT 'on'
+    MERGE_PPT 'on'
+    INCLUDE_PPT ''
+    EXCLUDE_PPT ''
+    SPREADSHEET 'OFF'
+    LAST_OUTPUT_FILE './worklib/pc049a_toplevel/bom/pc049a_summary.csv'
+    TEMPLATE_FILE 'template.bom'
+    LAST_TEMPLATE_FILE '/projects/HEP_Instrumentation/cad/tools/cadence_templates/spreadsheet-format.bom'
+    LAST_STANDARD_OPTION '1'
+    LAST_WHAT_TO_OUTPUT '0'
+    LAST_VARIANT_FILE ''
+    LAST_SS_DELIMITER 'Colon :'
+    USE_FILTERS '0'
+    LAST_CALLOUT_FILE ''
+    LAST_VARIANT ''
+
+*********************************
+*  End processing project file  *
+*********************************
+
+ 
+Initializing tool communication modules... 
+Checking the presence of variant and BOM view. 
+Set the DDBPI message handlers and Tool start time. 
+Initialize jlg string table. 
+
+*********************************
+*  Loading the design database  *
+*********************************
+
+Start loading the design. 
+Loading logical design view of pc049a_toplevel 
+Setting design view directives...
+ 
+Loading pstX files...
+ 
+
+Loading... /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstchip.dat
+ 
+
+Loading... /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstxprt.dat
+ 
+
+Loading... /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstxnet.dat
+ 
+packaging the design view... 
+End loading logical design view of pc049a_toplevel 
+Reading cell level PPTs... 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_analogue/cds_analogue.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_connectors/cds_connectors.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_logic/cds_logic.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_pld/cds_pld.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_special/cds_special.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/parttables/cnconnector.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/parttables/cndiscrete.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/parttables/cnpassive.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/part_table/capcersmdcl2.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con6p/part_table/con6p.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con3p/part_table/con3p.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/tps776xx/part_table/tps776xx.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/ds92001/part_table/part.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/ds90lv001/part_table/ds90lv001.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cn100e/100ep05/part_table/100ep05.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/ds18b20/part_table/ds18b20.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnmemory/24aa64/part_table/24aa64.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con12p/part_table/con12p.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/led/part_table/led.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/res_array_x4/part_table/res_array_x4.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/r4ismd/part_table/r4ismd.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/sw_pushbutton_1spsta_4p/part_table/sw_pushbutton_1SPSTA_4P.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/sw_pushbutton_1spsta_4p/part_table/sw_pushbutton_1spsta_4p.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/sw4int/part_table/sw4int.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con20p_sfp/part_table/con20p_sfp.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/ferrite/part_table/ferrite.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnmech/sfp_cage/part_table/sfp_cage.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl1/part_table/capcersmdcl1.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/ltm4606/part_table/ltm4606.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/filter_bnx02/part_table/part.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_analogue/lt1585/part_table/lt1587.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con2p/part_table/con2p.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/lt1584/part_table/lt1587.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/lt3070/part_table/lt3070.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnmemory/m25p32/part_table/m25p32.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lvc1g06/part_table/74lvc1g06.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cncmos/74aup1t57/part_table/74aup1t57.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con14p/part_table/con14p.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/ad5662/part_table/ad5662.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/cdcm61004/part_table/cdcm61004.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/osc_8p_oe_clkp_clkn_sda_scl/part_table/osc_8p_oe_clkp_clkn_sda_scl.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/osc_6p_vctrl_endis_out/part_table/osc_6p_vctrl_endis_out.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/lm4040/part_table/lm4040.ptf.
+ 
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/conabc96/part_table/conabc96.ptf.
+ 
+Design loaded successfully. 
+
+
+******************************************
+*  Finished loading the design database  *
+******************************************
+
+
+**********************************
+*  Start generating bom reports. *
+**********************************
+
+Report generated successfully.
+
+Output file list :
+/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/bom/pc049a_summary.csv
+
+*********************************
+*  End generating bom reports   *
+*********************************
+
+
+**********************************
+*  Start generating bom reports. *
+**********************************
+
+Report generated successfully.
+
+Output file list :
+/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/bom/pc049a_one_per_line.csv
+
+*********************************
+*  End generating bom reports   *
+*********************************
+
+    Start time   15:16:58
+    End time     15:18:02
+    Elapsed time  0:01:04
+
+*********************************
+*  BOM-HDL execution done.      *
+*********************************
+

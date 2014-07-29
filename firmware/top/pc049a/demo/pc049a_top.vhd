@@ -661,10 +661,10 @@ begin
       ch1_loopen_i       => phy_loopen,
 		
 		-- Connections to GTP tile. 0 = sata connector, 1 = SFP
-      pad_txn0_o         => sata_txp_o(0),
-      pad_txp0_o         => sata_txn_o(0),
-      pad_rxn0_i         => sata_rxp_i(0),
-      pad_rxp0_i         => sata_rxn_i(0),
+      pad_txn0_o         => sata_txn_o(0),
+      pad_txp0_o         => sata_txp_o(0),
+      pad_rxn0_i         => sata_rxn_i(0),
+      pad_rxp0_i         => sata_rxp_i(0),
       pad_txn1_o         => sfp_txn_o(0),
       pad_txp1_o         => sfp_txp_o(0),
       pad_rxn1_i         => sfp_rxn_i(0),

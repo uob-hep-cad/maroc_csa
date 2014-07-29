@@ -1,0 +1,92 @@
+(marker_file
+ (version 5.0)
+ (markers
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 289)
+   (short_msg "INFO(SPCODD-289): Part name conflict found for 'R14_1'. This may be updated during packaging.")
+   (long_msg "INFO(SPCODD-289): Part name conflict found for 'R14_1'. This may be updated during packaging.
+        Sub Design Part Name   : RSMD0402_1/16W-100,0.1%_GEN
+        Root Design Part Name  : RSMD0402_1/16W-100,1%
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 289)
+   (short_msg "INFO(SPCODD-289): Part name conflict found for 'R17_1'. This may be updated during packaging.")
+   (long_msg "INFO(SPCODD-289): Part name conflict found for 'R17_1'. This may be updated during packaging.
+        Sub Design Part Name   : RSMD0402_1/16W-100,0.1%_GEN
+        Root Design Part Name  : RSMD0402_1/16W-100,1%
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 289)
+   (short_msg "INFO(SPCODD-289): Part name conflict found for 'C53_1'. This may be updated during packaging.")
+   (long_msg "INFO(SPCODD-289): Part name conflict found for 'C53_1'. This may be updated during packaging.
+        Sub Design Part Name   : CAPCERSMDCL2_0603-10UF_X5R,6.3V
+        Root Design Part Name  : CAPCERSMDCL2_0603-10UF,6.3V
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 289)
+   (short_msg "INFO(SPCODD-289): Part name conflict found for 'C52_1'. This may be updated during packaging.")
+   (long_msg "INFO(SPCODD-289): Part name conflict found for 'C52_1'. This may be updated during packaging.
+        Sub Design Part Name   : CAPCERSMDCL2_0603-10UF_X5R,6.3V
+        Root Design Part Name  : CAPCERSMDCL2_0603-10UF,6.3V
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 289)
+   (short_msg "INFO(SPCODD-289): Part name conflict found for 'C54_1'. This may be updated during packaging.")
+   (long_msg "INFO(SPCODD-289): Part name conflict found for 'C54_1'. This may be updated during packaging.
+        Sub Design Part Name   : CAPCERSMDCL2_0603-10UF_X5R,6.3V
+        Root Design Part Name  : CAPCERSMDCL2_0603-10UF,6.3V
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 289)
+   (short_msg "INFO(SPCODD-289): Part name conflict found for 'C48_1'. This may be updated during packaging.")
+   (long_msg "INFO(SPCODD-289): Part name conflict found for 'C48_1'. This may be updated during packaging.
+        Sub Design Part Name   : ELCAPTAN_SMD_A-22UF,6.3V
+        Root Design Part Name  : CAPCERSMDCL2_0603-10UF,6.3V
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 289)
+   (short_msg "INFO(SPCODD-289): Part name conflict found for 'RG1_1'. This may be updated during packaging.")
+   (long_msg "INFO(SPCODD-289): Part name conflict found for 'RG1_1'. This may be updated during packaging.
+        Sub Design Part Name   : TPS77625D
+        Root Design Part Name  : LM2937IMP_SOT223-2.5V,TI
+")
+  )
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 30)
+   (error_num 238)
+   (short_msg "WARNING(SPCODD-238): The subdesign state file for PC043C_SINGLE_MAROC is out-of-sync with the design.")
+   (long_msg "WARNING(SPCODD-238): The subdesign state file for PC043C_SINGLE_MAROC is out-of-sync with the design.
+        The schematic for this module might have been updated with a different root design. Update the subdesign state file by packaging this module as the root design.
+")
+  )
+ )
+)

@@ -77,10 +77,10 @@
   cnpassive capcersmdcl2 *
   page8_i45
 #CELL
-  cnpassive res_array_x4 *
+  cnpassive r4ismd *
   page8_i49
 #CELL
-  cnpassive res_array_x4 *
+  cnpassive r4ismd *
   page8_i50
 #CELL
   cnconnector con12p *

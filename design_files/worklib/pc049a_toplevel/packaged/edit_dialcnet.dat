@@ -1,0 +1,1 @@
+sed -re 's/09 73 296 6801/09-73-296-6801/;s/09 03 196 6921/09-03-196-6921/' dialcnet.dat > dialcnet_edited.dat

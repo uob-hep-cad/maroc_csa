@@ -5,17 +5,11 @@
   standard gnd_signal *
   page11_i100
 #CELL
-  cnpassive capcersmdcl1 *
-  page11_i102
-#CELL
   cnpassive rsmd0603 *
   page11_i103
 #CELL
   cnpassive rsmd0603 *
   page11_i104
-#CELL
-  cnlinear lp3874_adj *
-  page11_i105
 #ISCELL
   standard gnd_signal *
   page11_i106
@@ -40,6 +34,9 @@
 #CELL
   cnpassive capcersmdcl1 *
   page11_i114
+#CELL
+  bris_cds_analogue lp38692 *
+  page11_i115
 #CELL
   cnpassive capcersmdcl2 *
   page11_i57

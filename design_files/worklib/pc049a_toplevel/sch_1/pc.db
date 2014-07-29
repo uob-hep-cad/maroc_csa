@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.6-S014 (v16-6-112AQ) 7/29/2013 on Thu Jun  5 10:55:36 2014
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.6-S014 (v16-6-112AQ) 7/29/2013 on Mon Jul 28 20:44:00 2014
 #ISCELL
   bris_cds_standard a3-2000 *
   *
@@ -503,9 +503,6 @@
 #CELL
   cninterface ds90lv001 *
   page6_i32
-#CELL
-  cn100e 100ep05 *
-  page6_i33
 #ISCELL
   cnpower p1v2 *
   page6_i34
@@ -527,9 +524,6 @@
 #ISCELL
   standard gnd_signal *
   page6_i42
-#ISCELL
-  cnpower p3v3 *
-  page6_i43
 #CELL
   cnpassive rsmd0402 *
   page6_i44
@@ -551,6 +545,15 @@
 #CELL
   uob_hep_pc049a_lib pc049a_fpga *
   page6_i50
+#CELL
+  bris_cds_logic mc100lvel05 *
+  page6_i52
+#ISCELL
+  cnpower p3v3 *
+  page6_i53
+#ISCELL
+  standard gnd_signal *
+  page6_i54
 #ISCELL
   bris_cds_standard a3-2000 *
   *
@@ -767,18 +770,39 @@
 #CELL
   uob_hep_pc049a_lib pc049a_fpga *
   page4_i84
+#CELL
+  cnpassive rsmd0402 *
+  page4_i85
+#CELL
+  bris_cds_logic sn65lvds1 *
+  page4_i86
+#ISCELL
+  standard gnd_signal *
+  page4_i87
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i88
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i89
 #ISCELL
   standard gnd_signal *
   page4_i9
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i90
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i91
+#CELL
+  cnpassive capcersmdcl2 *
+  page4_i92
 #ISCELL
   bris_cds_standard a3-2000 *
   *
 #CELL
   cnconnector con20p_sfp *
   page7_i1
-#CELL
-  cnpassive capcersmdcl2 *
-  page7_i10
 #CELL
   cnpassive capcersmdcl2 *
   page7_i11
@@ -870,7 +894,7 @@
   standard tap *
   page7_i39
 #CELL
-  cnconnector con7p *
+  bris_cds_connectors sk_sata *
   page7_i4
 #ISCELL
   standard tap *
@@ -935,9 +959,6 @@
 #ISCELL
   standard tap *
   page7_i59
-#CELL
-  cnpassive capcersmdcl2 *
-  page7_i6
 #ISCELL
   standard tap *
   page7_i60
@@ -970,9 +991,6 @@
   page7_i69
 #CELL
   cnpassive capcersmdcl2 *
-  page7_i7
-#CELL
-  cnpassive capcersmdcl2 *
   page7_i70
 #CELL
   cnpassive capcersmdcl2 *
@@ -999,7 +1017,7 @@
   cnpassive capcersmdcl2 *
   page7_i79
 #CELL
-  cnconnector con7p *
+  bris_cds_connectors sk_sata *
   page7_i8
 #CELL
   cnpassive capcersmdcl2 *
@@ -1031,9 +1049,6 @@
 #ISCELL
   standard gnd_signal *
   page7_i89
-#CELL
-  cnpassive capcersmdcl2 *
-  page7_i9
 #ISCELL
   standard gnd_signal *
   page7_i90
@@ -1224,10 +1239,10 @@
   cnpassive capcersmdcl2 *
   page8_i45
 #CELL
-  cnpassive res_array_x4 *
+  cnpassive r4ismd *
   page8_i49
 #CELL
-  cnpassive res_array_x4 *
+  cnpassive r4ismd *
   page8_i50
 #CELL
   cnconnector con12p *
@@ -1473,7 +1488,7 @@
   cnpassive capcersmdcl2 *
   page9_i40
 #ISCELL
-  cnpower p2v5 *
+  cnpower p3v3 *
   page9_i41
 #CELL
   cnpassive rsmd0402 *
@@ -1593,7 +1608,7 @@
   cnpassive capcersmdcl2 *
   page9_i79
 #CELL
-  cnlinear lt1584 *
+  bris_cds_analogue lt1585 *
   page9_i8
 #CELL
   cnpassive elcaptan *
@@ -1662,17 +1677,11 @@
   standard gnd_signal *
   page11_i100
 #CELL
-  cnpassive capcersmdcl1 *
-  page11_i102
-#CELL
   cnpassive rsmd0603 *
   page11_i103
 #CELL
   cnpassive rsmd0603 *
   page11_i104
-#CELL
-  cnlinear lp3874_adj *
-  page11_i105
 #ISCELL
   standard gnd_signal *
   page11_i106
@@ -1697,6 +1706,9 @@
 #CELL
   cnpassive capcersmdcl1 *
   page11_i114
+#CELL
+  bris_cds_analogue lp38692 *
+  page11_i115
 #CELL
   cnpassive capcersmdcl2 *
   page11_i57
@@ -1992,9 +2004,6 @@
   cnpower p2v5 *
   page10_i71
 #CELL
-  cnlinear lp3874_adj *
-  page10_i72
-#CELL
   cnpassive capcersmdcl2 *
   page10_i74
 #CELL
@@ -2015,9 +2024,6 @@
 #ISCELL
   standard replicate *
   page10_i8
-#CELL
-  cnpassive capcersmdcl2 *
-  page10_i80
 #ISCELL
   standard gnd_signal *
   page10_i81
@@ -2036,15 +2042,18 @@
 #CELL
   cnpassive rsmd0603 *
   page10_i86
-#CELL
-  cnpassive rsmd0603 *
-  page10_i87
-#CELL
-  cnpassive rsmd0603 *
-  page10_i88
-#CELL
-  cnpassive capcersmdcl1 *
-  page10_i89
 #ISCELL
   standard replicate *
   page10_i9
+#CELL
+  bris_cds_analogue tps71701dckrg4 *
+  page10_i91
+#ISCELL
+  standard gnd_signal *
+  page10_i92
+#CELL
+  cnpassive rsmd0603 *
+  page10_i93
+#CELL
+  cnpassive rsmd0603 *
+  page10_i94

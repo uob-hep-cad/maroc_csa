@@ -150,7 +150,7 @@ primitive 'PC049A_FPGA';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
     'SATA_RXN_I'<0>:
-      PIN_NUMBER='(0,D13,0,0,0,0,0,0)';
+      PIN_NUMBER='(0,C13,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
       IO_REGISTER='NO';
       SIGNAL_INTEGRITY='NONE';
@@ -164,7 +164,7 @@ primitive 'PC049A_FPGA';
       IOB_DELAY='NONE';
       INPUT_LOAD='(-0.01,0.01)';
     'SATA_RXP_I'<0>:
-      PIN_NUMBER='(0,C13,0,0,0,0,0,0)';
+      PIN_NUMBER='(0,D13,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
       IO_REGISTER='NO';
       SIGNAL_INTEGRITY='NONE';
@@ -178,7 +178,7 @@ primitive 'PC049A_FPGA';
       IOB_DELAY='NONE';
       INPUT_LOAD='(-0.01,0.01)';
     'SATA_TXN_O'<0>:
-      PIN_NUMBER='(0,B14,0,0,0,0,0,0)';
+      PIN_NUMBER='(0,A14,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
       IO_REGISTER='NO';
       SIGNAL_INTEGRITY='NONE';
@@ -190,7 +190,7 @@ primitive 'PC049A_FPGA';
       SIGNAL_INTEGRITY='NONE';
       OUTPUT_LOAD='(1.0,-1.0)';
     'SATA_TXP_O'<0>:
-      PIN_NUMBER='(0,A14,0,0,0,0,0,0)';
+      PIN_NUMBER='(0,B14,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
       IO_REGISTER='NO';
       SIGNAL_INTEGRITY='NONE';

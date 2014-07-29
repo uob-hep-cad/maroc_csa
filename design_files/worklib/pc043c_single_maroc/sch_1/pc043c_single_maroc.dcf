@@ -4,10 +4,10 @@
 			( logical )
 		)
 		( version
-			( 16.5 )
+			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 30 )
+			( logicalViewRevNum 34 )
 			( physicalViewRevNum 1 )
 			( otherViewRevNum 0 )
 		)
@@ -481,6 +481,38 @@
 			( Analysis
 			)
 		)
+		( Attribute
+			( Name "MODEL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TOLERANCE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
 	)
 	( crossSection
 		( layer "SURFACE_INDEX_0"
@@ -948,11 +980,6 @@
 				( physicalCSetRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\" )
 				( spacingCSetRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\" )
 				( sameNetSpacingCSetRef "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\" )
-				( attribute "CDS_EXPORT_CONTENTS_MASK" "33458"
-				)
-				( attribute "CDS_EDIT_PNS_STATUS" "0"
-					( Origin gFrontEnd )
-				)
 				( attribute "PHYSICAL_CONSTRAINT_SET" "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\"
 					( Origin gBackEnd )
 				)
@@ -961,6 +988,11 @@
 				)
 				( attribute "SAME_NET_SPACING_CONSTRAINT_SET" "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\"
 					( Origin gBackEnd )
+				)
+				( attribute "CDS_EXPORT_CONTENTS_MASK" "33458"
+				)
+				( attribute "CDS_EDIT_PNS_STATUS" "0"
+					( Origin gFrontEnd )
 				)
 			)
 			( physicalCSet "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\DEFAULT\"
@@ -3193,6 +3225,840 @@
 					( Origin gPackager )
 				)
 				( objectStatus "U1" )
+				( pin "in0"
+					( attribute "PN" "238"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.238" )
+				)
+				( pin "in1"
+					( attribute "PN" "239"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.239" )
+				)
+				( pin "in2"
+					( attribute "PN" "240"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.240" )
+				)
+				( pin "in3"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.1" )
+				)
+				( pin "in4"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.2" )
+				)
+				( pin "in5"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.3" )
+				)
+				( pin "in6"
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.4" )
+				)
+				( pin "in7"
+					( attribute "PN" "5"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.5" )
+				)
+				( pin "in8"
+					( attribute "PN" "6"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.6" )
+				)
+				( pin "in9"
+					( attribute "PN" "7"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.7" )
+				)
+				( pin "in10"
+					( attribute "PN" "8"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.8" )
+				)
+				( pin "in11"
+					( attribute "PN" "9"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.9" )
+				)
+				( pin "in12"
+					( attribute "PN" "10"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.10" )
+				)
+				( pin "in13"
+					( attribute "PN" "11"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.11" )
+				)
+				( pin "in14"
+					( attribute "PN" "12"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.12" )
+				)
+				( pin "in15"
+					( attribute "PN" "13"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.13" )
+				)
+				( pin "in16"
+					( attribute "PN" "14"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.14" )
+				)
+				( pin "in17"
+					( attribute "PN" "15"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.15" )
+				)
+				( pin "in18"
+					( attribute "PN" "16"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.16" )
+				)
+				( pin "in19"
+					( attribute "PN" "17"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.17" )
+				)
+				( pin "in20"
+					( attribute "PN" "18"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.18" )
+				)
+				( pin "in21"
+					( attribute "PN" "19"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.19" )
+				)
+				( pin "in22"
+					( attribute "PN" "20"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.20" )
+				)
+				( pin "in23"
+					( attribute "PN" "21"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.21" )
+				)
+				( pin "in24"
+					( attribute "PN" "22"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.22" )
+				)
+				( pin "in25"
+					( attribute "PN" "23"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.23" )
+				)
+				( pin "in26"
+					( attribute "PN" "24"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.24" )
+				)
+				( pin "in27"
+					( attribute "PN" "25"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.25" )
+				)
+				( pin "in28"
+					( attribute "PN" "26"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.26" )
+				)
+				( pin "in29"
+					( attribute "PN" "27"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.27" )
+				)
+				( pin "in30"
+					( attribute "PN" "28"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.28" )
+				)
+				( pin "in31"
+					( attribute "PN" "29"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.29" )
+				)
+				( pin "in32"
+					( attribute "PN" "31"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.31" )
+				)
+				( pin "in33"
+					( attribute "PN" "32"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.32" )
+				)
+				( pin "in34"
+					( attribute "PN" "33"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.33" )
+				)
+				( pin "in35"
+					( attribute "PN" "34"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.34" )
+				)
+				( pin "in36"
+					( attribute "PN" "35"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.35" )
+				)
+				( pin "in37"
+					( attribute "PN" "36"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.36" )
+				)
+				( pin "in38"
+					( attribute "PN" "37"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.37" )
+				)
+				( pin "in39"
+					( attribute "PN" "38"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.38" )
+				)
+				( pin "in40"
+					( attribute "PN" "39"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.39" )
+				)
+				( pin "in41"
+					( attribute "PN" "40"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.40" )
+				)
+				( pin "in42"
+					( attribute "PN" "41"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.41" )
+				)
+				( pin "in43"
+					( attribute "PN" "42"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.42" )
+				)
+				( pin "in44"
+					( attribute "PN" "43"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.43" )
+				)
+				( pin "in45"
+					( attribute "PN" "44"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.44" )
+				)
+				( pin "in46"
+					( attribute "PN" "45"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.45" )
+				)
+				( pin "in47"
+					( attribute "PN" "46"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.46" )
+				)
+				( pin "in48"
+					( attribute "PN" "47"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.47" )
+				)
+				( pin "in49"
+					( attribute "PN" "48"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.48" )
+				)
+				( pin "in50"
+					( attribute "PN" "49"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.49" )
+				)
+				( pin "in51"
+					( attribute "PN" "50"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.50" )
+				)
+				( pin "in52"
+					( attribute "PN" "51"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.51" )
+				)
+				( pin "in53"
+					( attribute "PN" "52"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.52" )
+				)
+				( pin "in54"
+					( attribute "PN" "53"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.53" )
+				)
+				( pin "in55"
+					( attribute "PN" "54"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.54" )
+				)
+				( pin "in56"
+					( attribute "PN" "55"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.55" )
+				)
+				( pin "in57"
+					( attribute "PN" "56"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.56" )
+				)
+				( pin "in58"
+					( attribute "PN" "57"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.57" )
+				)
+				( pin "in59"
+					( attribute "PN" "58"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.58" )
+				)
+				( pin "in60"
+					( attribute "PN" "59"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.59" )
+				)
+				( pin "in61"
+					( attribute "PN" "60"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.60" )
+				)
+				( pin "in62"
+					( attribute "PN" "61"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.61" )
+				)
+				( pin "in63"
+					( attribute "PN" "62"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.62" )
+				)
+				( pin "nc"
+					( attribute "PN" "232"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.232" )
+				)
+				( pin "or_0"
+					( attribute "PN" "191"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.191" )
+				)
+				( pin "or_1"
+					( attribute "PN" "192"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.192" )
+				)
+				( pin "out0"
+					( attribute "PN" "182"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.182" )
+				)
+				( pin "out1"
+					( attribute "PN" "181"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.181" )
+				)
+				( pin "out2"
+					( attribute "PN" "180"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.180" )
+				)
+				( pin "out3"
+					( attribute "PN" "179"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.179" )
+				)
+				( pin "out4"
+					( attribute "PN" "178"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.178" )
+				)
+				( pin "out5"
+					( attribute "PN" "177"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.177" )
+				)
+				( pin "out6"
+					( attribute "PN" "176"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.176" )
+				)
+				( pin "out7"
+					( attribute "PN" "175"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.175" )
+				)
+				( pin "out8"
+					( attribute "PN" "174"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.174" )
+				)
+				( pin "out9"
+					( attribute "PN" "173"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.173" )
+				)
+				( pin "out10"
+					( attribute "PN" "172"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.172" )
+				)
+				( pin "out11"
+					( attribute "PN" "171"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.171" )
+				)
+				( pin "out12"
+					( attribute "PN" "170"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.170" )
+				)
+				( pin "out13"
+					( attribute "PN" "169"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.169" )
+				)
+				( pin "out14"
+					( attribute "PN" "168"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.168" )
+				)
+				( pin "out15"
+					( attribute "PN" "167"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.167" )
+				)
+				( pin "out16"
+					( attribute "PN" "166"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.166" )
+				)
+				( pin "out17"
+					( attribute "PN" "165"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.165" )
+				)
+				( pin "out18"
+					( attribute "PN" "164"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.164" )
+				)
+				( pin "out19"
+					( attribute "PN" "163"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.163" )
+				)
+				( pin "out20"
+					( attribute "PN" "162"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.162" )
+				)
+				( pin "out21"
+					( attribute "PN" "161"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.161" )
+				)
+				( pin "out22"
+					( attribute "PN" "160"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.160" )
+				)
+				( pin "out23"
+					( attribute "PN" "159"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.159" )
+				)
+				( pin "out24"
+					( attribute "PN" "158"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.158" )
+				)
+				( pin "out25"
+					( attribute "PN" "157"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.157" )
+				)
+				( pin "out26"
+					( attribute "PN" "156"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.156" )
+				)
+				( pin "out27"
+					( attribute "PN" "155"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.155" )
+				)
+				( pin "out28"
+					( attribute "PN" "154"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.154" )
+				)
+				( pin "out29"
+					( attribute "PN" "153"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.153" )
+				)
+				( pin "out30"
+					( attribute "PN" "152"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.152" )
+				)
+				( pin "out31"
+					( attribute "PN" "151"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.151" )
+				)
+				( pin "out32"
+					( attribute "PN" "149"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.149" )
+				)
+				( pin "out33"
+					( attribute "PN" "148"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.148" )
+				)
+				( pin "out34"
+					( attribute "PN" "147"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.147" )
+				)
+				( pin "out35"
+					( attribute "PN" "146"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.146" )
+				)
+				( pin "out36"
+					( attribute "PN" "145"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.145" )
+				)
+				( pin "out37"
+					( attribute "PN" "144"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.144" )
+				)
+				( pin "out38"
+					( attribute "PN" "143"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.143" )
+				)
+				( pin "out39"
+					( attribute "PN" "142"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.142" )
+				)
+				( pin "out40"
+					( attribute "PN" "141"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.141" )
+				)
+				( pin "out41"
+					( attribute "PN" "140"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.140" )
+				)
+				( pin "out42"
+					( attribute "PN" "139"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.139" )
+				)
+				( pin "out43"
+					( attribute "PN" "138"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.138" )
+				)
+				( pin "out44"
+					( attribute "PN" "137"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.137" )
+				)
+				( pin "out45"
+					( attribute "PN" "136"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.136" )
+				)
+				( pin "out46"
+					( attribute "PN" "135"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.135" )
+				)
+				( pin "out47"
+					( attribute "PN" "134"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.134" )
+				)
+				( pin "out48"
+					( attribute "PN" "133"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.133" )
+				)
+				( pin "out49"
+					( attribute "PN" "132"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.132" )
+				)
+				( pin "out50"
+					( attribute "PN" "131"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.131" )
+				)
+				( pin "out51"
+					( attribute "PN" "130"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.130" )
+				)
+				( pin "out52"
+					( attribute "PN" "129"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.129" )
+				)
+				( pin "out53"
+					( attribute "PN" "128"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.128" )
+				)
+				( pin "out54"
+					( attribute "PN" "127"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.127" )
+				)
+				( pin "out55"
+					( attribute "PN" "126"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.126" )
+				)
+				( pin "out56"
+					( attribute "PN" "125"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.125" )
+				)
+				( pin "out57"
+					( attribute "PN" "124"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.124" )
+				)
+				( pin "out58"
+					( attribute "PN" "123"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.123" )
+				)
+				( pin "out59"
+					( attribute "PN" "122"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.122" )
+				)
+				( pin "out60"
+					( attribute "PN" "121"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.121" )
+				)
+				( pin "out61"
+					( attribute "PN" "120"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.120" )
+				)
+				( pin "out62"
+					( attribute "PN" "119"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.119" )
+				)
+				( pin "out63"
+					( attribute "PN" "118"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.118" )
+				)
+				( pin "sum1"
+					( attribute "PN" "228"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.228" )
+				)
+				( pin "sum2"
+					( attribute "PN" "226"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.226" )
+				)
+				( pin "sum3"
+					( attribute "PN" "224"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.224" )
+				)
+				( pin "sum4"
+					( attribute "PN" "222"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.222" )
+				)
+				( pin "sum5"
+					( attribute "PN" "220"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.220" )
+				)
+				( pin "sum6"
+					( attribute "PN" "218"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.218" )
+				)
+				( pin "sum7"
+					( attribute "PN" "216"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.216" )
+				)
+				( pin "sum8"
+					( attribute "PN" "214"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.214" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i146"
 				( attribute "CDS_LIB" "cnpassive"
@@ -3272,6 +4138,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R1" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R1.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R1.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i147"
 				( attribute "CDS_LIB" "cnpassive"
@@ -3351,6 +4229,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R2" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R2.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R2.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i148"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -3396,6 +4286,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK51" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK51.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i149"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -3441,6 +4337,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK52" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK52.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i150"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -3486,6 +4388,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK26" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK26.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1"
 				( attribute "CDS_LIB" "bris_cds_analogue"
@@ -3537,6 +4445,270 @@
 					( Origin gPackager )
 				)
 				( objectStatus "U1" )
+				( pin "gnd_capa"
+					( attribute "PN" "217"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.217" )
+				)
+				( pin "gnd_dac"
+					( attribute "PN" "85"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.85" )
+				)
+				( pin "gnd_discri"
+					( attribute "PN" "109"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.109" )
+				)
+				( pin "gnd_discri2"
+					( attribute "PN" "195"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.195" )
+				)
+				( pin "gnd_fsb0"
+					( attribute "PN" "211"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.211" )
+				)
+				( pin "gnd_fsb1"
+					( attribute "PN" "206"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.206" )
+				)
+				( pin "gnd_fsu"
+					( attribute "PN" "202"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.202" )
+				)
+				( pin "gnd_nmos"
+					( attribute "PN" "73"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.73" )
+				)
+				( pin "gnd_nmos2"
+					( attribute "PN" "231"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.231" )
+				)
+				( pin "gnd_otag"
+					( attribute "PN" "227"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.227" )
+				)
+				( pin "gnd_pa"
+					( attribute "PN" "63"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.63" )
+				)
+				( pin "gnd_pa2"
+					( attribute "PN" "30"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.30" )
+				)
+				( pin "gnd_pa3"
+					( attribute "PN" "237"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.237" )
+				)
+				( pin "gnd_ss"
+					( attribute "PN" "219"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.219" )
+				)
+				( pin "gnd_w"
+					( attribute "PN" "77"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.77" )
+				)
+				( pin "gnd_wilk"
+					( attribute "PN" "98"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.98" )
+				)
+				( pin "gndd"
+					( attribute "PN" "112"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.112" )
+				)
+				( pin "gndd2"
+					( attribute "PN" "183"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.183" )
+				)
+				( pin "vdd_buf1"
+					( attribute "PN" "223"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.223" )
+				)
+				( pin "vdd_dac"
+					( attribute "PN" "87"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.87" )
+				)
+				( pin "vdd_discri"
+					( attribute "PN" "105"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.105" )
+				)
+				( pin "vdd_discriadc"
+					( attribute "PN" "107"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.107" )
+				)
+				( pin "vdd_discriadc2"
+					( attribute "PN" "193"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.193" )
+				)
+				( pin "vdd_fsb"
+					( attribute "PN" "210"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.210" )
+				)
+				( pin "vdd_fsu1"
+					( attribute "PN" "90"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.90" )
+				)
+				( pin "vdd_fsu2"
+					( attribute "PN" "204"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.204" )
+				)
+				( pin "vdd_otag"
+					( attribute "PN" "225"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.225" )
+				)
+				( pin "vdd_pa"
+					( attribute "PN" "67"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.67" )
+				)
+				( pin "vdd_pa2"
+					( attribute "PN" "233"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.233" )
+				)
+				( pin "vdd_pad"
+					( attribute "PN" "236"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.236" )
+				)
+				( pin "vdd_ss"
+					( attribute "PN" "221"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.221" )
+				)
+				( pin "vdd_w"
+					( attribute "PN" "83"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.83" )
+				)
+				( pin "vdd_wilk"
+					( attribute "PN" "100"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.100" )
+				)
+				( pin "vddd"
+					( attribute "PN" "185"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.185" )
+				)
+				( pin "vddd2"
+					( attribute "PN" "113"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.113" )
+				)
+				( pin "vss"
+					( attribute "PN" "198"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.198" )
+				)
+				( pin "vssa"
+					( attribute "PN" "65"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.65" )
+				)
+				( pin "vssa2"
+					( attribute "PN" "102"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.102" )
+				)
+				( pin "vssd"
+					( attribute "PN" "111"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.111" )
+				)
+				( pin "vssd2"
+					( attribute "PN" "150"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.150" )
+				)
+				( pin "vssd3"
+					( attribute "PN" "189"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.189" )
+				)
+				( pin "vssi"
+					( attribute "PN" "235"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.235" )
+				)
+				( pin "vssm"
+					( attribute "PN" "103"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.103" )
+				)
+				( pin "vssm2"
+					( attribute "PN" "197"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.197" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i3"
 				( attribute "CDS_LIB" "cnpassive"
@@ -3616,6 +4788,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R3" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R3.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R3.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i4"
 				( attribute "CDS_LIB" "cnpassive"
@@ -3665,6 +4849,24 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C1" )
+				( pin "a(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( attribute "CDS_PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C1.2" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( attribute "CDS_PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C1.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i7"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -3710,6 +4912,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK1" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK1.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i9"
 				( attribute "CDS_LIB" "cnpassive"
@@ -3759,6 +4967,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C14" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C14.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C14.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i10"
 				( attribute "CDS_LIB" "cnpassive"
@@ -3838,6 +5058,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R15" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R15.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R15.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i11"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -3883,6 +5115,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK14" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK14.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i14"
 				( attribute "CDS_LIB" "cnpassive"
@@ -3932,6 +5170,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C11" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C11.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C11.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i15"
 				( attribute "CDS_LIB" "cnpassive"
@@ -4011,6 +5261,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R12" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R12.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R12.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i16"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -4056,6 +5318,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK12" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK12.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i19"
 				( attribute "CDS_LIB" "cnpassive"
@@ -4105,6 +5373,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C9" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C9.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C9.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i20"
 				( attribute "CDS_LIB" "cnpassive"
@@ -4184,6 +5464,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R10" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R10.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R10.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i21"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -4229,6 +5521,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK8" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK8.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i24"
 				( attribute "CDS_LIB" "cnpassive"
@@ -4278,6 +5576,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C6" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C6.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C6.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i25"
 				( attribute "CDS_LIB" "cnpassive"
@@ -4357,6 +5667,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R8" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R8.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R8.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i26"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -4402,6 +5724,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK6" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK6.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i29"
 				( attribute "CDS_LIB" "cnpassive"
@@ -4451,9 +5779,27 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C13" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C13.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C13.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i30"
 				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R14"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
 				( attribute "DIST" "FLAT"
@@ -4483,6 +5829,9 @@
 				( attribute "ROT" "1"
 					( Origin gFrontEnd )
 				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
@@ -4495,7 +5844,7 @@
 				( attribute "TC2" "RTMPQ"
 					( Origin gFrontEnd )
 				)
-				( attribute "TOL" "0.1%_GEN"
+				( attribute "TOL" "1%"
 					( Origin gFrontEnd )
 				)
 				( attribute "TOL_ON_OFF" "ON"
@@ -4504,7 +5853,7 @@
 				( attribute "VALUE" "100"
 					( Origin gFrontEnd )
 				)
-				( attribute "VER" "1"
+				( attribute "VER" "2"
 					( Origin gFrontEnd )
 				)
 				( attribute "VOLTAGE" "RVMAX"
@@ -4514,22 +5863,23 @@
 				( attribute "XY" "(4725,-1750)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CDS_LOCATION" "R14"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( attribute "CHIPS_PART_NAME" "RSMD0402"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-100,0.1%_GEN"
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-100,1%"
 					( Origin gPackager )
 				)
-				( objectStatus "R14" )
+				( objectStatus "PAGE2_I30" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i31"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -4575,6 +5925,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK11" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK11.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i34"
 				( attribute "CDS_LIB" "cnpassive"
@@ -4624,6 +5980,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C3" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C3.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C3.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i35"
 				( attribute "CDS_LIB" "cnpassive"
@@ -4703,6 +6071,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R5" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R5.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R5.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i36"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -4748,6 +6128,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK3" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK3.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i38"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -4793,6 +6179,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK15" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK15.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i40"
 				( attribute "CDS_LIB" "cnpassive"
@@ -4872,6 +6264,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R16" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R16.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R16.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i41"
 				( attribute "CDS_LIB" "cnpassive"
@@ -4921,6 +6325,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C15" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C15.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C15.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i42"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -4966,6 +6382,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK10" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK10.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i44"
 				( attribute "CDS_LIB" "cnpassive"
@@ -5045,6 +6467,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R13" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R13.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R13.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i45"
 				( attribute "CDS_LIB" "cnpassive"
@@ -5094,6 +6528,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C12" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C12.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C12.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i47"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -5139,6 +6585,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK9" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK9.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i48"
 				( attribute "CDS_LIB" "cnpassive"
@@ -5218,6 +6670,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R11" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R11.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R11.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i49"
 				( attribute "CDS_LIB" "cnpassive"
@@ -5267,6 +6731,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C10" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C10.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C10.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i50"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -5312,6 +6788,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK7" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK7.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i51"
 				( attribute "CDS_LIB" "cnpassive"
@@ -5391,6 +6873,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R9" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R9.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R9.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i52"
 				( attribute "CDS_LIB" "cnpassive"
@@ -5440,6 +6934,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C7" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C7.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C7.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i54"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -5485,6 +6991,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK5" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK5.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i56"
 				( attribute "CDS_LIB" "cnpassive"
@@ -5534,6 +7046,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C5" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C5.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C5.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i57"
 				( attribute "CDS_LIB" "cnpassive"
@@ -5613,6 +7137,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R7" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R7.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R7.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i58"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -5658,6 +7194,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK4" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK4.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i60"
 				( attribute "CDS_LIB" "cnpassive"
@@ -5737,6 +7279,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R6" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R6.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R6.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i61"
 				( attribute "CDS_LIB" "cnpassive"
@@ -5786,6 +7340,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C4" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C4.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C4.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i68"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -5831,6 +7397,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK2" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK2.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i70"
 				( attribute "CDS_LIB" "cnpassive"
@@ -5910,6 +7482,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R4" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R4.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R4.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i71"
 				( attribute "CDS_LIB" "cnpassive"
@@ -5959,6 +7543,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C2" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C2.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C2.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i75"
 				( attribute "CDS_LIB" "cnpassive"
@@ -6008,6 +7604,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C8" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C8.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C8.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i76"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -6053,6 +7661,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK13" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK13.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i77"
 				( attribute "CDS_LIB" "cnpassive"
@@ -6102,9 +7716,27 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C16" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C16.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C16.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i79"
 				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R17"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
 				( attribute "DIST" "FLAT"
@@ -6134,6 +7766,9 @@
 				( attribute "ROT" "1"
 					( Origin gFrontEnd )
 				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
@@ -6146,7 +7781,7 @@
 				( attribute "TC2" "RTMPQ"
 					( Origin gFrontEnd )
 				)
-				( attribute "TOL" "0.1%_GEN"
+				( attribute "TOL" "1%"
 					( Origin gFrontEnd )
 				)
 				( attribute "TOL_ON_OFF" "ON"
@@ -6155,7 +7790,7 @@
 				( attribute "VALUE" "100"
 					( Origin gFrontEnd )
 				)
-				( attribute "VER" "1"
+				( attribute "VER" "2"
 					( Origin gFrontEnd )
 				)
 				( attribute "VOLTAGE" "RVMAX"
@@ -6165,22 +7800,23 @@
 				( attribute "XY" "(5775,-1725)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CDS_LOCATION" "R17"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( attribute "CHIPS_PART_NAME" "RSMD0402"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-100,0.1%_GEN"
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-100,1%"
 					( Origin gPackager )
 				)
-				( objectStatus "R17" )
+				( objectStatus "PAGE2_I79" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i81"
 				( attribute "CDS_LIB" "cnpassive"
@@ -6230,6 +7866,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C17" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C17.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C17.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i82"
 				( attribute "CDS_LIB" "cnpassive"
@@ -6247,7 +7895,7 @@
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "10UF_X5R"
+				( attribute "VALUE" "10UF"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -6275,10 +7923,22 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF_X5R,6.3V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF,6.3V"
 					( Origin gPackager )
 				)
 				( objectStatus "C53" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C53.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C53.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i83"
 				( attribute "CDS_LIB" "cnpassive"
@@ -6358,6 +8018,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R47" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R47.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R47.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i84"
 				( attribute "CDS_LIB" "cnpassive"
@@ -6375,7 +8047,7 @@
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "10UF_X5R"
+				( attribute "VALUE" "10UF"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -6403,10 +8075,22 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF_X5R,6.3V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF,6.3V"
 					( Origin gPackager )
 				)
 				( objectStatus "C52" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C52.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C52.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i87"
 				( attribute "CDS_LIB" "cnpassive"
@@ -6486,6 +8170,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R46" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R46.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R46.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1"
 				( attribute "CDS_LIB" "bris_cds_analogue"
@@ -6537,6 +8233,348 @@
 					( Origin gPackager )
 				)
 				( objectStatus "U1" )
+				( pin "adc_dav"
+					( attribute "PN" "115"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.115" )
+				)
+				( pin "ck_40m"
+					( attribute "PN" "188"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.188" )
+				)
+				( pin "ck_r"
+					( attribute "PN" "78"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.78" )
+				)
+				( pin "ck_sc"
+					( attribute "PN" "68"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.68" )
+				)
+				( pin "ckb_40m"
+					( attribute "PN" "186"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.186" )
+				)
+				( pin "ctest"
+					( attribute "PN" "234"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.234" )
+				)
+				( pin "d_r"
+					( attribute "PN" "82"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.82" )
+				)
+				( pin "d_sc"
+					( attribute "PN" "64"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.64" )
+				)
+				( pin "e_fsu"
+					( attribute "PN" "92"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.92" )
+				)
+				( pin "en_otag"
+					( attribute "PN" "213"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.213" )
+				)
+				( pin "g_diode"
+					( attribute "PN" "91"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.91" )
+				)
+				( pin "hold1"
+					( attribute "PN" "79"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.79" )
+				)
+				( pin "hold2"
+					( attribute "PN" "81"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.81" )
+				)
+				( pin "ib_integ"
+					( attribute "PN" "101"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.101" )
+				)
+				( pin "ib_sum"
+					( attribute "PN" "212"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.212" )
+				)
+				( pin "ib_w"
+					( attribute "PN" "209"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.209" )
+				)
+				( pin "ibi_buf"
+					( attribute "PN" "74"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.74" )
+				)
+				( pin "ibi_ss"
+					( attribute "PN" "70"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.70" )
+				)
+				( pin "ibo_dac"
+					( attribute "PN" "84"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.84" )
+				)
+				( pin "ibo_ss"
+					( attribute "PN" "72"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.72" )
+				)
+				( pin "iref_dac"
+					( attribute "PN" "86"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.86" )
+				)
+				( pin "out_adc"
+					( attribute "PN" "114"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.114" )
+				)
+				( pin "out_fs"
+					( attribute "PN" "201"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.201" )
+				)
+				( pin "out_q"
+					( attribute "PN" "215"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.215" )
+				)
+				( pin "pwr_on"
+					( attribute "PN" "110"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.110" )
+				)
+				( pin "qbuf_r"
+					( attribute "PN" "76"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.76" )
+				)
+				( pin "qbuf_sc"
+					( attribute "PN" "199"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.199" )
+				)
+				( pin "ramp"
+					( attribute "PN" "97"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.97" )
+				)
+				( pin "rstb_r"
+					( attribute "PN" "80"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.80" )
+				)
+				( pin "rstn_adc"
+					( attribute "PN" "184"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.184" )
+				)
+				( pin "rstn_sc"
+					( attribute "PN" "66"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.66" )
+				)
+				( pin "start_adcb"
+					( attribute "PN" "116"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.116" )
+				)
+				( pin "v_bg"
+					( attribute "PN" "200"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.200" )
+				)
+				( pin "vb_otafsu"
+					( attribute "PN" "203"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.203" )
+				)
+				( pin "vbi_discri"
+					( attribute "PN" "104"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.104" )
+				)
+				( pin "vbi_discriadc"
+					( attribute "PN" "117"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.117" )
+				)
+				( pin "vbi_fsb"
+					( attribute "PN" "207"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.207" )
+				)
+				( pin "vbi_pa"
+					( attribute "PN" "230"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.230" )
+				)
+				( pin "vbi_tz"
+					( attribute "PN" "89"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.89" )
+				)
+				( pin "vbm_discri"
+					( attribute "PN" "106"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.106" )
+				)
+				( pin "vbo_discri"
+					( attribute "PN" "108"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.108" )
+				)
+				( pin "vbo_fsb"
+					( attribute "PN" "205"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.205" )
+				)
+				( pin "vbo_tz"
+					( attribute "PN" "93"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.93" )
+				)
+				( pin "vcasc_fsu"
+					( attribute "PN" "94"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.94" )
+				)
+				( pin "vcasc_nmos"
+					( attribute "PN" "229"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.229" )
+				)
+				( pin "vcasc_pmos"
+					( attribute "PN" "71"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.71" )
+				)
+				( pin "vgain_pa"
+					( attribute "PN" "69"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.69" )
+				)
+				( pin "vh"
+					( attribute "PN" "190"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.190" )
+				)
+				( pin "vl"
+					( attribute "PN" "187"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.187" )
+				)
+				( pin "vref_dac"
+					( attribute "PN" "88"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.88" )
+				)
+				( pin "vref_fsb"
+					( attribute "PN" "208"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.208" )
+				)
+				( pin "vref_fsu"
+					( attribute "PN" "96"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.96" )
+				)
+				( pin "vref_ramp"
+					( attribute "PN" "99"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.99" )
+				)
+				( pin "vref_ss"
+					( attribute "PN" "75"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.75" )
+				)
+				( pin "vslope"
+					( attribute "PN" "95"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.95" )
+				)
+				( pin "vth0"
+					( attribute "PN" "196"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.196" )
+				)
+				( pin "vth1"
+					( attribute "PN" "194"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.194" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i82"
 				( attribute "CDS_LIB" "cnpassive"
@@ -6586,6 +8624,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C28" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C28.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C28.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i84"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -6631,6 +8681,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK31" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK31.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i85"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -6676,6 +8732,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK47" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK47.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i86"
 				( attribute "CDS_LIB" "cnpassive"
@@ -6725,6 +8787,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C44" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C44.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C44.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i88"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -6770,6 +8844,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK43" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK43.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i89"
 				( attribute "CDS_LIB" "cnpassive"
@@ -6819,6 +8899,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C40" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C40.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C40.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i91"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -6864,6 +8956,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK39" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK39.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i92"
 				( attribute "CDS_LIB" "cnpassive"
@@ -6913,6 +9011,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C36" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C36.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C36.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i94"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -6958,6 +9068,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK35" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK35.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i95"
 				( attribute "CDS_LIB" "cnpassive"
@@ -7007,6 +9123,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C32" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C32.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C32.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i97"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -7052,6 +9180,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK50" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK50.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i99"
 				( attribute "CDS_LIB" "cnpassive"
@@ -7101,6 +9235,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C47" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C47.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C47.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i100"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -7146,6 +9292,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK46" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK46.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i102"
 				( attribute "CDS_LIB" "cnpassive"
@@ -7195,6 +9347,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C43" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C43.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C43.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i103"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -7240,6 +9404,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK42" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK42.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i104"
 				( attribute "CDS_LIB" "cnpassive"
@@ -7289,6 +9459,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C39" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C39.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C39.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i106"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -7334,6 +9516,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK38" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK38.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i108"
 				( attribute "CDS_LIB" "cnpassive"
@@ -7383,6 +9571,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C35" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C35.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C35.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i109"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -7428,6 +9628,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK34" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK34.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i110"
 				( attribute "CDS_LIB" "cnpassive"
@@ -7477,6 +9683,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C31" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C31.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C31.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i112"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -7522,6 +9740,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK49" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK49.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i114"
 				( attribute "CDS_LIB" "cnpassive"
@@ -7571,6 +9795,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C46" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C46.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C46.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i115"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -7616,6 +9852,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK45" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK45.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i117"
 				( attribute "CDS_LIB" "cnpassive"
@@ -7665,6 +9907,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C42" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C42.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C42.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i118"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -7710,6 +9964,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK41" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK41.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i119"
 				( attribute "CDS_LIB" "cnpassive"
@@ -7759,6 +10019,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C38" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C38.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C38.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i121"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -7804,6 +10076,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK37" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK37.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i123"
 				( attribute "CDS_LIB" "cnpassive"
@@ -7853,6 +10131,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C34" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C34.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C34.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i124"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -7898,6 +10188,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK33" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK33.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i125"
 				( attribute "CDS_LIB" "cnpassive"
@@ -7947,6 +10243,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C30" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C30.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C30.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i127"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -7992,6 +10300,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK48" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK48.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i129"
 				( attribute "CDS_LIB" "cnpassive"
@@ -8041,6 +10355,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C45" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C45.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C45.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i130"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -8086,6 +10412,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK44" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK44.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i132"
 				( attribute "CDS_LIB" "cnpassive"
@@ -8135,6 +10467,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C41" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C41.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C41.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i133"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -8180,6 +10524,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK40" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK40.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i134"
 				( attribute "CDS_LIB" "cnpassive"
@@ -8229,6 +10579,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C37" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C37.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C37.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i136"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -8274,6 +10636,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK36" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK36.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i138"
 				( attribute "CDS_LIB" "cnpassive"
@@ -8323,6 +10691,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C33" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C33.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C33.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i139"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -8368,6 +10748,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK32" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK32.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i140"
 				( attribute "CDS_LIB" "cnpassive"
@@ -8417,6 +10803,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C29" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C29.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C29.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i142"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -8462,6 +10860,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK24" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK24.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i143"
 				( attribute "CDS_LIB" "cnpassive"
@@ -8511,6 +10915,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C26" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C26.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C26.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i145"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -8556,6 +10972,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK25" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK25.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i146"
 				( attribute "CDS_LIB" "cnpassive"
@@ -8605,6 +11027,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C27" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C27.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C27.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i148"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -8650,6 +11084,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK22" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK22.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i149"
 				( attribute "CDS_LIB" "cnpassive"
@@ -8699,6 +11139,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C24" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C24.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C24.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i151"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -8744,6 +11196,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK23" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK23.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i152"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -8789,6 +11247,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK20" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK20.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i153"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -8834,6 +11298,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK21" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK21.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i154"
 				( attribute "CDS_LIB" "cnpassive"
@@ -8883,6 +11353,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C22" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C22.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C22.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i156"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -8928,6 +11410,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK18" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK18.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i157"
 				( attribute "CDS_LIB" "cnpassive"
@@ -8977,6 +11465,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C20" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C20.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C20.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i159"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -9022,6 +11522,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK19" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK19.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i160"
 				( attribute "CDS_LIB" "cnpassive"
@@ -9071,6 +11577,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C25" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C25.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C25.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i162"
 				( attribute "CDS_LIB" "cnpassive"
@@ -9120,6 +11638,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C23" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C23.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C23.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i164"
 				( attribute "CDS_LIB" "cnpassive"
@@ -9169,6 +11699,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C21" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C21.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C21.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i166"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -9214,6 +11756,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK16" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK16.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i167"
 				( attribute "CDS_LIB" "cnpassive"
@@ -9263,6 +11811,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C18" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C18.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C18.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i168"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -9308,6 +11868,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK17" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK17.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i170"
 				( attribute "CDS_LIB" "cnpassive"
@@ -9357,6 +11923,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C19" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C19.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C19.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i173"
 				( attribute "CDS_LIB" "cnpassive"
@@ -9436,6 +12014,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R26" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R26.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R26.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i176"
 				( attribute "CDS_LIB" "cnpassive"
@@ -9515,6 +12105,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R25" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R25.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R25.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i178"
 				( attribute "CDS_LIB" "cnpassive"
@@ -9594,6 +12196,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R28" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R28.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R28.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i179"
 				( attribute "CDS_LIB" "cnpassive"
@@ -9673,6 +12287,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R29" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R29.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R29.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i182"
 				( attribute "CDS_LIB" "cnpassive"
@@ -9752,6 +12378,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R30" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R30.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R30.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i183"
 				( attribute "CDS_LIB" "cnpassive"
@@ -9831,6 +12469,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R31" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R31.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R31.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i184"
 				( attribute "CDS_LIB" "cnpassive"
@@ -9910,6 +12560,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R23" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R23.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R23.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i186"
 				( attribute "CDS_LIB" "cnpassive"
@@ -9989,6 +12651,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R22" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R22.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R22.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i187"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -10034,6 +12708,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK27" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK27.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i188"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -10079,6 +12759,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK30" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK30.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i190"
 				( attribute "CDS_LIB" "cnpassive"
@@ -10158,6 +12844,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R21" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R21.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R21.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i192"
 				( attribute "CDS_LIB" "cnpassive"
@@ -10237,6 +12935,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R20" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R20.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R20.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i193"
 				( attribute "CDS_LIB" "cnpassive"
@@ -10316,6 +13026,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R27" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R27.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R27.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i195"
 				( attribute "CDS_LIB" "cnpassive"
@@ -10395,6 +13117,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R33" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R33.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R33.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i197"
 				( attribute "CDS_LIB" "cnpassive"
@@ -10474,6 +13208,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R32" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R32.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R32.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i198"
 				( attribute "CDS_LIB" "cnpassive"
@@ -10553,6 +13299,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R37" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R37.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R37.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i200"
 				( attribute "CDS_LIB" "cnpassive"
@@ -10632,6 +13390,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R36" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R36.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R36.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i201"
 				( attribute "CDS_LIB" "cnpassive"
@@ -10711,6 +13481,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R24" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R24.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R24.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i203"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -10756,6 +13538,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK28" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK28.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i204"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -10801,6 +13589,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK29" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK29.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i206"
 				( attribute "CDS_LIB" "cnpassive"
@@ -10880,6 +13674,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R35" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R35.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R35.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i208"
 				( attribute "CDS_LIB" "cnpassive"
@@ -10959,6 +13765,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R34" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R34.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R34.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i209"
 				( attribute "CDS_LIB" "cnpassive"
@@ -11038,6 +13856,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R19" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R19.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R19.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i210"
 				( attribute "CDS_LIB" "cnpassive"
@@ -11117,6 +13947,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R18" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R18.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R18.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i211"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -11162,6 +14004,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK57" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK57.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i212"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -11207,6 +14055,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK60" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK60.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i213"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -11252,6 +14106,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK63" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK63.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i214"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -11297,6 +14157,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK66" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK66.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i215"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -11342,6 +14208,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK62" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK62.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i216"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -11387,6 +14259,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK65" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK65.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i217"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -11432,6 +14310,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK53" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK53.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i218"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -11477,6 +14361,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK61" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK61.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i219"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -11522,6 +14412,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK64" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK64.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i220"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -11567,6 +14463,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK67" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK67.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i221"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -11612,6 +14514,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK56" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK56.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i222"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -11657,6 +14565,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK54" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK54.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i223"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -11702,6 +14616,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK59" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK59.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i224"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -11747,6 +14667,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK68" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK68.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i225"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -11792,6 +14718,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK55" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK55.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i227"
 				( attribute "CDS_LIB" "bris_cds_connectors"
@@ -11837,6 +14769,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "LK58" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "LK58.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i228"
 				( attribute "ABBREV" "PT6911"
@@ -11879,6 +14817,24 @@
 					( Origin gPackager )
 				)
 				( objectStatus "J3" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "J3.1" )
+				)
+				( pin "a(1)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "J3.2" )
+				)
+				( pin "a(2)"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
+					( objectStatus "J3.3" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i231"
 				( attribute "ABBREV" "PT6911"
@@ -11921,6 +14877,24 @@
 					( Origin gPackager )
 				)
 				( objectStatus "J4" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "J4.1" )
+				)
+				( pin "a(1)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "J4.2" )
+				)
+				( pin "a(2)"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
+					( objectStatus "J4.3" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i236"
 				( attribute "CDS_LIB" "cnpassive"
@@ -12000,6 +14974,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R42" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R42.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R42.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i237"
 				( attribute "CDS_LIB" "cnpassive"
@@ -12049,6 +15035,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C51" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C51.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C51.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i238"
 				( attribute "CDS_LIB" "cnpassive"
@@ -12098,6 +15096,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C50" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C50.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C50.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i242"
 				( attribute "CDS_LIB" "cnpassive"
@@ -12115,7 +15125,7 @@
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "10UF_X5R"
+				( attribute "VALUE" "10UF"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -12143,10 +15153,22 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF_X5R,6.3V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF,6.3V"
 					( Origin gPackager )
 				)
 				( objectStatus "C54" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C54.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C54.2" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i245"
 				( attribute "ABBREV" "PT6911"
@@ -12195,6 +15217,18 @@
 					( Origin gPackager )
 				)
 				( objectStatus "D1" )
+				( pin "a(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "D1.2" )
+				)
+				( pin "k(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "D1.1" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page4_i109"
 				( attribute "CHIPS_PART_NAME" "PRTR5V0U8S"
@@ -12557,33 +15591,54 @@
 					( Origin gPackager )
 				)
 				( objectStatus "J1" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "J1.1" )
+				)
+				( pin "a(1)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "J1.2" )
+				)
+				( pin "a(2)"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
+					( objectStatus "J1.3" )
+				)
+				( pin "a(3)"
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
+					( objectStatus "J1.4" )
+				)
+				( pin "a(4)"
+					( attribute "PN" "5"
+						( Origin gPackager )
+					)
+					( objectStatus "J1.5" )
+				)
+				( pin "a(5)"
+					( attribute "PN" "6"
+						( Origin gPackager )
+					)
+					( objectStatus "J1.6" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i252"
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
-				( attribute "DIST" "FLAT"
-					( Origin gFrontEnd )
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
 				)
-				( attribute "IC" "UNDEF"
-					( Origin gFrontEnd )
-				)
-				( attribute "KNEE" "CBMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "MAX_TEMP" "CTMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "NEGTOL" "CTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "PACK_TYPE" "SMD_A"
+				( attribute "PACK_TYPE" "0603"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "3"
-					( Origin gFrontEnd )
-				)
-				( attribute "POSTOL" "CTOL%"
 					( Origin gFrontEnd )
 				)
 				( attribute "ROT" "1"
@@ -12592,16 +15647,7 @@
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "SLOPE" "CSMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL_ON_OFF" "ON"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "22UF"
+				( attribute "VALUE" "10UF"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -12614,40 +15660,44 @@
 				( attribute "XY" "(3000,525)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "ELCAPTAN"
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "ELCAPTAN_SMD_A-22UF,6.3V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF,6.3V"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "C48"
+				( objectStatus "PAGE3_I252" )
+				( pin "a(0)"
+					( attribute "PN" "#"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "#"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253"
+				( attribute "CDS_LIB" "bris_cds_analogue"
 					( Origin gPackager )
 				)
-				( attribute "LOCATION" "C48"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,150,150,-100"
 					( Origin gPackager )
 				)
 				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
+				( attribute "MANUF" "TI"
+					( Origin gFrontEnd )
 				)
-				( objectStatus "C48" )
-			)
-			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253"
-				( attribute "CDS_LIB" "cnlinear"
-					( Origin gPackager )
-				)
-				( attribute "PACK_TYPE" "SOIC"
+				( attribute "PACK_TYPE" "SOT223"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "3"
 					( Origin gFrontEnd )
 				)
 				( attribute "ROT" "2"
-					( Origin gFrontEnd )
-				)
-				( attribute "TYPE" "TPS77625D"
 					( Origin gFrontEnd )
 				)
 				( attribute "VALUE" "2.5V"
@@ -12659,3121 +15709,21 @@
 				( attribute "XY" "(3425,600)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "TPS776XX"
+				( attribute "CHIPS_PART_NAME" "LM2937IMP"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "TPS77625D"
+				( attribute "CDS_PART_NAME" "LM2937IMP_SOT223-2.5V,TI"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "RG1"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "RG1"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "RG1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in0"
-				( attribute "PN" "238"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.238" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in1"
-				( attribute "PN" "239"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.239" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in2"
-				( attribute "PN" "240"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.240" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in3"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in4"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in5"
-				( attribute "PN" "3"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.3" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in6"
-				( attribute "PN" "4"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.4" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in7"
-				( attribute "PN" "5"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.5" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in8"
-				( attribute "PN" "6"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.6" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in9"
-				( attribute "PN" "7"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.7" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in10"
-				( attribute "PN" "8"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.8" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in11"
-				( attribute "PN" "9"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.9" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in12"
-				( attribute "PN" "10"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.10" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in13"
-				( attribute "PN" "11"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.11" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in14"
-				( attribute "PN" "12"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.12" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in15"
-				( attribute "PN" "13"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.13" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in16"
-				( attribute "PN" "14"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.14" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in17"
-				( attribute "PN" "15"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.15" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in18"
-				( attribute "PN" "16"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.16" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in19"
-				( attribute "PN" "17"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.17" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in20"
-				( attribute "PN" "18"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.18" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in21"
-				( attribute "PN" "19"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.19" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in22"
-				( attribute "PN" "20"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.20" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in23"
-				( attribute "PN" "21"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.21" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in24"
-				( attribute "PN" "22"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.22" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in25"
-				( attribute "PN" "23"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.23" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in26"
-				( attribute "PN" "24"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.24" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in27"
-				( attribute "PN" "25"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.25" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in28"
-				( attribute "PN" "26"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.26" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in29"
-				( attribute "PN" "27"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.27" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in30"
-				( attribute "PN" "28"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.28" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in31"
-				( attribute "PN" "29"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.29" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in32"
-				( attribute "PN" "31"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.31" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in33"
-				( attribute "PN" "32"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.32" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in34"
-				( attribute "PN" "33"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.33" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in35"
-				( attribute "PN" "34"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.34" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in36"
-				( attribute "PN" "35"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.35" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in37"
-				( attribute "PN" "36"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.36" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in38"
-				( attribute "PN" "37"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.37" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in39"
-				( attribute "PN" "38"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.38" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in40"
-				( attribute "PN" "39"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.39" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in41"
-				( attribute "PN" "40"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.40" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in42"
-				( attribute "PN" "41"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.41" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in43"
-				( attribute "PN" "42"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.42" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in44"
-				( attribute "PN" "43"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.43" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in45"
-				( attribute "PN" "44"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.44" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in46"
-				( attribute "PN" "45"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.45" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in47"
-				( attribute "PN" "46"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.46" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in48"
-				( attribute "PN" "47"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.47" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in49"
-				( attribute "PN" "48"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.48" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in50"
-				( attribute "PN" "49"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.49" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in51"
-				( attribute "PN" "50"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.50" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in52"
-				( attribute "PN" "51"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.51" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in53"
-				( attribute "PN" "52"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.52" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in54"
-				( attribute "PN" "53"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.53" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in55"
-				( attribute "PN" "54"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.54" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in56"
-				( attribute "PN" "55"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.55" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in57"
-				( attribute "PN" "56"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.56" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in58"
-				( attribute "PN" "57"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.57" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in59"
-				( attribute "PN" "58"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.58" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in60"
-				( attribute "PN" "59"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.59" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in61"
-				( attribute "PN" "60"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.60" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in62"
-				( attribute "PN" "61"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.61" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:in63"
-				( attribute "PN" "62"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.62" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:nc"
-				( attribute "PN" "232"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.232" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:or_0"
-				( attribute "PN" "191"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.191" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:or_1"
-				( attribute "PN" "192"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.192" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out0"
-				( attribute "PN" "182"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.182" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out1"
-				( attribute "PN" "181"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.181" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out2"
-				( attribute "PN" "180"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.180" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out3"
-				( attribute "PN" "179"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.179" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out4"
-				( attribute "PN" "178"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.178" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out5"
-				( attribute "PN" "177"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.177" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out6"
-				( attribute "PN" "176"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.176" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out7"
-				( attribute "PN" "175"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.175" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out8"
-				( attribute "PN" "174"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.174" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out9"
-				( attribute "PN" "173"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.173" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out10"
-				( attribute "PN" "172"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.172" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out11"
-				( attribute "PN" "171"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.171" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out12"
-				( attribute "PN" "170"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.170" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out13"
-				( attribute "PN" "169"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.169" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out14"
-				( attribute "PN" "168"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.168" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out15"
-				( attribute "PN" "167"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.167" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out16"
-				( attribute "PN" "166"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.166" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out17"
-				( attribute "PN" "165"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.165" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out18"
-				( attribute "PN" "164"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.164" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out19"
-				( attribute "PN" "163"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.163" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out20"
-				( attribute "PN" "162"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.162" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out21"
-				( attribute "PN" "161"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.161" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out22"
-				( attribute "PN" "160"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.160" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out23"
-				( attribute "PN" "159"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.159" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out24"
-				( attribute "PN" "158"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.158" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out25"
-				( attribute "PN" "157"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.157" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out26"
-				( attribute "PN" "156"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.156" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out27"
-				( attribute "PN" "155"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.155" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out28"
-				( attribute "PN" "154"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.154" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out29"
-				( attribute "PN" "153"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.153" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out30"
-				( attribute "PN" "152"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.152" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out31"
-				( attribute "PN" "151"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.151" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out32"
-				( attribute "PN" "149"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.149" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out33"
-				( attribute "PN" "148"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.148" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out34"
-				( attribute "PN" "147"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.147" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out35"
-				( attribute "PN" "146"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.146" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out36"
-				( attribute "PN" "145"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.145" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out37"
-				( attribute "PN" "144"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.144" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out38"
-				( attribute "PN" "143"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.143" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out39"
-				( attribute "PN" "142"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.142" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out40"
-				( attribute "PN" "141"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.141" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out41"
-				( attribute "PN" "140"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.140" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out42"
-				( attribute "PN" "139"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.139" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out43"
-				( attribute "PN" "138"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.138" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out44"
-				( attribute "PN" "137"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.137" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out45"
-				( attribute "PN" "136"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.136" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out46"
-				( attribute "PN" "135"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.135" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out47"
-				( attribute "PN" "134"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.134" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out48"
-				( attribute "PN" "133"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.133" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out49"
-				( attribute "PN" "132"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.132" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out50"
-				( attribute "PN" "131"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.131" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out51"
-				( attribute "PN" "130"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.130" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out52"
-				( attribute "PN" "129"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.129" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out53"
-				( attribute "PN" "128"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.128" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out54"
-				( attribute "PN" "127"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.127" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out55"
-				( attribute "PN" "126"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.126" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out56"
-				( attribute "PN" "125"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.125" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out57"
-				( attribute "PN" "124"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.124" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out58"
-				( attribute "PN" "123"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.123" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out59"
-				( attribute "PN" "122"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.122" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out60"
-				( attribute "PN" "121"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.121" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out61"
-				( attribute "PN" "120"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.120" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out62"
-				( attribute "PN" "119"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.119" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:out63"
-				( attribute "PN" "118"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.118" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:sum1"
-				( attribute "PN" "228"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.228" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:sum2"
-				( attribute "PN" "226"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.226" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:sum3"
-				( attribute "PN" "224"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.224" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:sum4"
-				( attribute "PN" "222"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.222" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:sum5"
-				( attribute "PN" "220"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.220" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:sum6"
-				( attribute "PN" "218"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.218" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:sum7"
-				( attribute "PN" "216"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.216" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i1:sum8"
-				( attribute "PN" "214"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.214" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i146:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R1.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i146:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R1.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i147:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R2.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i147:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R2.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i148:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK51.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i149:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK52.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i150:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK26.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:gnd_capa"
-				( attribute "PN" "217"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.217" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:gnd_dac"
-				( attribute "PN" "85"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.85" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:gnd_discri"
-				( attribute "PN" "109"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.109" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:gnd_discri2"
-				( attribute "PN" "195"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.195" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:gnd_fsb0"
-				( attribute "PN" "211"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.211" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:gnd_fsb1"
-				( attribute "PN" "206"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.206" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:gnd_fsu"
-				( attribute "PN" "202"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.202" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:gnd_nmos"
-				( attribute "PN" "73"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.73" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:gnd_nmos2"
-				( attribute "PN" "231"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.231" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:gnd_otag"
-				( attribute "PN" "227"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.227" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:gnd_pa"
-				( attribute "PN" "63"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.63" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:gnd_pa2"
-				( attribute "PN" "30"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.30" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:gnd_pa3"
-				( attribute "PN" "237"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.237" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:gnd_ss"
-				( attribute "PN" "219"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.219" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:gnd_w"
-				( attribute "PN" "77"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.77" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:gnd_wilk"
-				( attribute "PN" "98"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.98" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:gndd"
-				( attribute "PN" "112"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.112" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:gndd2"
-				( attribute "PN" "183"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.183" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vdd_buf1"
-				( attribute "PN" "223"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.223" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vdd_dac"
-				( attribute "PN" "87"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.87" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vdd_discri"
-				( attribute "PN" "105"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.105" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vdd_discriadc"
-				( attribute "PN" "107"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.107" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vdd_discriadc2"
-				( attribute "PN" "193"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.193" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vdd_fsb"
-				( attribute "PN" "210"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.210" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vdd_fsu1"
-				( attribute "PN" "90"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.90" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vdd_fsu2"
-				( attribute "PN" "204"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.204" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vdd_otag"
-				( attribute "PN" "225"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.225" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vdd_pa"
-				( attribute "PN" "67"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.67" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vdd_pa2"
-				( attribute "PN" "233"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.233" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vdd_pad"
-				( attribute "PN" "236"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.236" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vdd_ss"
-				( attribute "PN" "221"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.221" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vdd_w"
-				( attribute "PN" "83"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.83" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vdd_wilk"
-				( attribute "PN" "100"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.100" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vddd"
-				( attribute "PN" "185"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.185" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vddd2"
-				( attribute "PN" "113"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.113" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vss"
-				( attribute "PN" "198"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.198" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vssa"
-				( attribute "PN" "65"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.65" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vssa2"
-				( attribute "PN" "102"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.102" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vssd"
-				( attribute "PN" "111"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.111" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vssd2"
-				( attribute "PN" "150"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.150" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vssd3"
-				( attribute "PN" "189"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.189" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vssi"
-				( attribute "PN" "235"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.235" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vssm"
-				( attribute "PN" "103"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.103" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i1:vssm2"
-				( attribute "PN" "197"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.197" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i3:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R3.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i3:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R3.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i4:a(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C1.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i4:b(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C1.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i7:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK1.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i9:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C14.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i9:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C14.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i10:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R15.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i10:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R15.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i11:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK14.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i14:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C11.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i14:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C11.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i15:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R12.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i15:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R12.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i16:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK12.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i19:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C9.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i19:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C9.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i20:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R10.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i20:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R10.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i21:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK8.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i24:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C6.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i24:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C6.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i25:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R8.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i25:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R8.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i26:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK6.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i29:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C13.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i29:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C13.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i30:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R14.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i30:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R14.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i31:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK11.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i34:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C3.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i34:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C3.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i35:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R5.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i35:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R5.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i36:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK3.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i38:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK15.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i40:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R16.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i40:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R16.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i41:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C15.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i41:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C15.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i42:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK10.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i44:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R13.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i44:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R13.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i45:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C12.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i45:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C12.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i47:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK9.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i48:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R11.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i48:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R11.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i49:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C10.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i49:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C10.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i50:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK7.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i51:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R9.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i51:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R9.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i52:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C7.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i52:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C7.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i54:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK5.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i56:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C5.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i56:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C5.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i57:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R7.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i57:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R7.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i58:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK4.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i60:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R6.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i60:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R6.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i61:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C4.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i61:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C4.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i68:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK2.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i70:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R4.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i70:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R4.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i71:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C2.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i71:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C2.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i75:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C8.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i75:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C8.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i76:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK13.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i77:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C16.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i77:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C16.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i79:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R17.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i79:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R17.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i81:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C17.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i81:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C17.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i82:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C53.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i82:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C53.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i83:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R47.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i83:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R47.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i84:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C52.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i84:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C52.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i87:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R46.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i87:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R46.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:adc_dav"
-				( attribute "PN" "115"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.115" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:ck_40m"
-				( attribute "PN" "188"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.188" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:ck_r"
-				( attribute "PN" "78"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.78" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:ck_sc"
-				( attribute "PN" "68"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.68" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:ckb_40m"
-				( attribute "PN" "186"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.186" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:ctest"
-				( attribute "PN" "234"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.234" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:d_r"
-				( attribute "PN" "82"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.82" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:d_sc"
-				( attribute "PN" "64"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.64" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:e_fsu"
-				( attribute "PN" "92"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.92" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:en_otag"
-				( attribute "PN" "213"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.213" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:g_diode"
-				( attribute "PN" "91"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.91" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:hold1"
-				( attribute "PN" "79"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.79" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:hold2"
-				( attribute "PN" "81"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.81" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:ib_integ"
-				( attribute "PN" "101"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.101" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:ib_sum"
-				( attribute "PN" "212"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.212" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:ib_w"
-				( attribute "PN" "209"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.209" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:ibi_buf"
-				( attribute "PN" "74"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.74" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:ibi_ss"
-				( attribute "PN" "70"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.70" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:ibo_dac"
-				( attribute "PN" "84"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.84" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:ibo_ss"
-				( attribute "PN" "72"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.72" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:iref_dac"
-				( attribute "PN" "86"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.86" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:out_adc"
-				( attribute "PN" "114"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.114" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:out_fs"
-				( attribute "PN" "201"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.201" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:out_q"
-				( attribute "PN" "215"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.215" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:pwr_on"
-				( attribute "PN" "110"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.110" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:qbuf_r"
-				( attribute "PN" "76"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.76" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:qbuf_sc"
-				( attribute "PN" "199"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.199" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:ramp"
-				( attribute "PN" "97"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.97" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:rstb_r"
-				( attribute "PN" "80"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.80" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:rstn_adc"
-				( attribute "PN" "184"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.184" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:rstn_sc"
-				( attribute "PN" "66"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.66" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:start_adcb"
-				( attribute "PN" "116"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.116" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:v_bg"
-				( attribute "PN" "200"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.200" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vb_otafsu"
-				( attribute "PN" "203"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.203" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vbi_discri"
-				( attribute "PN" "104"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.104" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vbi_discriadc"
-				( attribute "PN" "117"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.117" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vbi_fsb"
-				( attribute "PN" "207"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.207" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vbi_pa"
-				( attribute "PN" "230"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.230" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vbi_tz"
-				( attribute "PN" "89"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.89" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vbm_discri"
-				( attribute "PN" "106"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.106" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vbo_discri"
-				( attribute "PN" "108"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.108" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vbo_fsb"
-				( attribute "PN" "205"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.205" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vbo_tz"
-				( attribute "PN" "93"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.93" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vcasc_fsu"
-				( attribute "PN" "94"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.94" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vcasc_nmos"
-				( attribute "PN" "229"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.229" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vcasc_pmos"
-				( attribute "PN" "71"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.71" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vgain_pa"
-				( attribute "PN" "69"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.69" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vh"
-				( attribute "PN" "190"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.190" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vl"
-				( attribute "PN" "187"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.187" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vref_dac"
-				( attribute "PN" "88"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.88" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vref_fsb"
-				( attribute "PN" "208"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.208" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vref_fsu"
-				( attribute "PN" "96"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.96" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vref_ramp"
-				( attribute "PN" "99"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.99" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vref_ss"
-				( attribute "PN" "75"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.75" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vslope"
-				( attribute "PN" "95"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.95" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vth0"
-				( attribute "PN" "196"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.196" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i1:vth1"
-				( attribute "PN" "194"
-					( Origin gPackager )
-				)
-				( objectStatus "U1.194" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i82:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C28.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i82:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C28.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i84:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK31.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i85:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK47.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i86:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C44.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i86:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C44.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i88:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK43.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i89:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C40.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i89:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C40.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i91:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK39.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i92:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C36.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i92:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C36.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i94:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK35.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i95:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C32.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i95:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C32.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i97:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK50.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i99:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C47.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i99:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C47.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i100:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK46.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i102:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C43.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i102:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C43.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i103:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK42.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i104:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C39.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i104:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C39.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i106:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK38.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i108:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C35.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i108:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C35.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i109:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK34.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i110:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C31.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i110:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C31.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i112:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK49.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i114:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C46.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i114:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C46.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i115:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK45.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i117:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C42.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i117:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C42.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i118:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK41.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i119:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C38.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i119:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C38.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i121:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK37.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i123:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C34.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i123:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C34.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i124:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK33.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i125:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C30.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i125:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C30.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i127:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK48.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i129:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C45.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i129:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C45.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i130:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK44.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i132:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C41.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i132:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
+				( objectStatus "PAGE3_I253" )
+				( pin "gnd"
 				)
-				( objectStatus "C41.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i133:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK40.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i134:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C37.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i134:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C37.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i136:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK36.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i138:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C33.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i138:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C33.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i139:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK32.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i140:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C29.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i140:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C29.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i142:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK24.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i143:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C26.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i143:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C26.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i145:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK25.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i146:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C27.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i146:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C27.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i148:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK22.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i149:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C24.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i149:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C24.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i151:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK23.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i152:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK20.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i153:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK21.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i154:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C22.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i154:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C22.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i156:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK18.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i157:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C20.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i157:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C20.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i159:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK19.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i160:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C25.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i160:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C25.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i162:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C23.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i162:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C23.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i164:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C21.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i164:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C21.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i166:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK16.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i167:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C18.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i167:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C18.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i168:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK17.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i170:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C19.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i170:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C19.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i173:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R26.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i173:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R26.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i176:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R25.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i176:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R25.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i178:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R28.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i178:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R28.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i179:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R29.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i179:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R29.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i182:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R30.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i182:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R30.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i183:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R31.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i183:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R31.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i184:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R23.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i184:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R23.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i186:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R22.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i186:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R22.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i187:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK27.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i188:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK30.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i190:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R21.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i190:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R21.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i192:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R20.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i192:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R20.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i193:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R27.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i193:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R27.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i195:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R33.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i195:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R33.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i197:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R32.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i197:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R32.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i198:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R37.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i198:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R37.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i200:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R36.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i200:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R36.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i201:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R24.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i201:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R24.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i203:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK28.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i204:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK29.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i206:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R35.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i206:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R35.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i208:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R34.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i208:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R34.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i209:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R19.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i209:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R19.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i210:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R18.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i210:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R18.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i211:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK57.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i212:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK60.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i213:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK63.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i214:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK66.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i215:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK62.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i216:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK65.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i217:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK53.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i218:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK61.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i219:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK64.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i220:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK67.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i221:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK56.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i222:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK54.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i223:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK59.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i224:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK68.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i225:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK55.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i227:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "LK58.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i228:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "J3.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i228:a(1)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "J3.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i228:a(2)"
-				( attribute "PN" "3"
-					( Origin gPackager )
-				)
-				( objectStatus "J3.3" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i231:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "J4.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i231:a(1)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "J4.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i231:a(2)"
-				( attribute "PN" "3"
-					( Origin gPackager )
-				)
-				( objectStatus "J4.3" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i236:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "R42.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i236:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "R42.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i237:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C51.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i237:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C51.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i238:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C50.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i238:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C50.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i242:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C54.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i242:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C54.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i245:k(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "D1.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i245:a(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "D1.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i246:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "J1.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i246:a(1)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "J1.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i246:a(2)"
-				( attribute "PN" "3"
-					( Origin gPackager )
-				)
-				( objectStatus "J1.3" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i246:a(3)"
-				( attribute "PN" "4"
-					( Origin gPackager )
-				)
-				( objectStatus "J1.4" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i246:a(4)"
-				( attribute "PN" "5"
-					( Origin gPackager )
-				)
-				( objectStatus "J1.5" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i246:a(5)"
-				( attribute "PN" "6"
-					( Origin gPackager )
-				)
-				( objectStatus "J1.6" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i252:a(0)"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "C48.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i252:b(0)"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "C48.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:\en*\"
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "RG1.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:gnd"
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "RG1.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:\in\(1)"
-				( attribute "PN" "3"
-					( Origin gPackager )
-				)
-				( objectStatus "RG1.3" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:\in\(2)"
-				( attribute "PN" "4"
-					( Origin gPackager )
-				)
-				( objectStatus "RG1.4" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:\out\(1)"
-				( attribute "PN" "5"
-					( Origin gPackager )
+				( pin "gnd_tab"
 				)
-				( objectStatus "RG1.5" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:\out\(2)"
-				( attribute "PN" "6"
-					( Origin gPackager )
+				( pin "pinput"
 				)
-				( objectStatus "RG1.6" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253:pg"
-				( attribute "PN" "8"
-					( Origin gPackager )
+				( pin "poutput"
 				)
-				( objectStatus "RG1.8" )
 			)
 			( bus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\or\"
 				( memberType ( signal ) )

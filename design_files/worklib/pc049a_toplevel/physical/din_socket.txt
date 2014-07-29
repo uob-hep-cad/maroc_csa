@@ -1,0 +1,124 @@
+LISTING: 1 element(s)
+
+       < COMPONENT INSTANCE >
+
+  Reference Designator: J3
+  Package Symbol:       HARTING_09732966801
+
+  Component Class:      IO
+  Device Type:          CONABC96-09 73 296 6801
+
+  Placement Status:     PLACED
+    origin-xy:         (-49.0000 -63.0000) 
+    rotation:           180.000  degrees
+    not_mirrored
+
+  Function(s):
+    Designator: F106
+    Type:       CONABC96-09 73 296 6801
+    Pin(s):     A1, A11, A12, A13, A14...
+
+  Properties attached to component definition
+    PART_NUMBER       = 09 73 296 6801
+
+  Pin IO Information:
+    Pin     Type      SigNoise Model          Net
+    ---     ----      --------------          ---
+    1       NC                                
+    2       NC                                
+    A1      UNSPEC                            P12V
+    A2      UNSPEC                            DGND
+    A3      UNSPEC                            UNNAMED_3_CONABC96_I74_A
+    A4      UNSPEC                            P3V3
+    A5      UNSPEC                            P3V3
+    A6      UNSPEC                            UNNAMED_3_CONABC96_I74_A
+    A7      UNSPEC                            LVPECL_TRIG_OUT_N
+    A8      UNSPEC                            LVPECL_TRIG_OUT_P
+    A9      UNSPEC                            UNNAMED_3_CONABC96_I74_A
+    A10     UNSPEC                            LVDS_DOUT_N<14>
+    A11     UNSPEC                            LVDS_DOUT_P<14>
+    A12     UNSPEC                            UNNAMED_3_CONABC96_I74_A
+    A13     UNSPEC                            LVDS_DOUT_N<12>
+    A14     UNSPEC                            LVDS_DOUT_P<12>
+    A15     UNSPEC                            UNNAMED_3_CONABC96_I74_A
+    A16     UNSPEC                            LVDS_DOUT_N<10>
+    A17     UNSPEC                            LVDS_DOUT_P<10>
+    A18     UNSPEC                            UNNAMED_3_CONABC96_I74_A
+    A19     UNSPEC                            LVDS_DOUT_N<8>
+    A20     UNSPEC                            LVDS_DOUT_P<8>
+    A21     UNSPEC                            UNNAMED_3_CONABC96_I74_A
+    A22     UNSPEC                            LVDS_DOUT_N<6>
+    A23     UNSPEC                            LVDS_DOUT_P<6>
+    A24     UNSPEC                            UNNAMED_3_CONABC96_I74_A
+    A25     UNSPEC                            LVDS_DOUT_N<4>
+    A26     UNSPEC                            LVDS_DOUT_P<4>
+    A27     UNSPEC                            UNNAMED_3_CONABC96_I74_A
+    A28     UNSPEC                            LVDS_DOUT_N<2>
+    A29     UNSPEC                            LVDS_DOUT_P<2>
+    A30     UNSPEC                            UNNAMED_3_CONABC96_I74_A
+    A31     UNSPEC                            LVDS_DOUT_N<0>
+    A32     UNSPEC                            LVDS_DOUT_P<0>
+    B1      UNSPEC                            P12V
+    B2      UNSPEC                            DGND
+    B3      UNSPEC                            GND_SIGNAL
+    B4      UNSPEC                            GND_SIGNAL
+    B5      UNSPEC                            MLVDS_GCLK_N
+    B6      UNSPEC                            MLVDS_GCLK_P
+    B7      UNSPEC                            GND_SIGNAL
+    B8      UNSPEC                            GND_SIGNAL
+    B9      UNSPEC                            GND_SIGNAL
+    B10     UNSPEC                            GND_SIGNAL
+    B11     UNSPEC                            GND_SIGNAL
+    B12     UNSPEC                            GND_SIGNAL
+    B13     UNSPEC                            GND_SIGNAL
+    B14     UNSPEC                            GND_SIGNAL
+    B15     UNSPEC                            GND_SIGNAL
+    B16     UNSPEC                            GND_SIGNAL
+    B17     UNSPEC                            GND_SIGNAL
+    B18     UNSPEC                            GND_SIGNAL
+    B19     UNSPEC                            GND_SIGNAL
+    B20     UNSPEC                            GND_SIGNAL
+    B21     UNSPEC                            GND_SIGNAL
+    B22     UNSPEC                            GND_SIGNAL
+    B23     UNSPEC                            GND_SIGNAL
+    B24     UNSPEC                            GND_SIGNAL
+    B25     UNSPEC                            GND_SIGNAL
+    B26     UNSPEC                            GND_SIGNAL
+    B27     UNSPEC                            GND_SIGNAL
+    B28     UNSPEC                            GND_SIGNAL
+    B29     UNSPEC                            GND_SIGNAL
+    B30     UNSPEC                            GND_SIGNAL
+    B31     UNSPEC                            GND_SIGNAL
+    B32     UNSPEC                            GND_SIGNAL
+    C1      UNSPEC                            P12V
+    C2      UNSPEC                            DGND
+    C3      UNSPEC                            GND_SIGNAL
+    C4      UNSPEC                            MLVDS_GLOBALTRIG_N
+    C5      UNSPEC                            MLVDS_GLOBALTRIG_P
+    C6      UNSPEC                            GND_SIGNAL
+    C7      UNSPEC                            LVDS_DOUT_N<15>
+    C8      UNSPEC                            LVDS_DOUT_P<15>
+    C9      UNSPEC                            GND_SIGNAL
+    C10     UNSPEC                            LVDS_DOUT_N<13>
+    C11     UNSPEC                            LVDS_DOUT_P<13>
+    C12     UNSPEC                            GND_SIGNAL
+    C13     UNSPEC                            LVDS_DOUT_N<11>
+    C14     UNSPEC                            LVDS_DOUT_P<11>
+    C15     UNSPEC                            GND_SIGNAL
+    C16     UNSPEC                            LVDS_DOUT_N<9>
+    C17     UNSPEC                            LVDS_DOUT_P<9>
+    C18     UNSPEC                            GND_SIGNAL
+    C19     UNSPEC                            LVDS_DOUT_N<7>
+    C20     UNSPEC                            LVDS_DOUT_P<7>
+    C21     UNSPEC                            GND_SIGNAL
+    C22     UNSPEC                            LVDS_DOUT_N<5>
+    C23     UNSPEC                            LVDS_DOUT_P<5>
+    C24     UNSPEC                            GND_SIGNAL
+    C25     UNSPEC                            LVDS_DOUT_N<3>
+    C26     UNSPEC                            LVDS_DOUT_P<3>
+    C27     UNSPEC                            GND_SIGNAL
+    C28     UNSPEC                            LVDS_DOUT_N<1>
+    C29     UNSPEC                            LVDS_DOUT_P<1>
+    C30     UNSPEC                            GND_SIGNAL
+    C31     UNSPEC                            LVDS_DOUT_CLK_N
+    C32     UNSPEC                            LVDS_DOUT_CLK_P

@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 197 )
+			( logicalViewRevNum 228 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -6706,11 +6706,11 @@
 				( objectFlag fObjectAlias )
 				( objectStatus "sata_txp<0>" )
 			)
-			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_7_capcersmdcl2_i10_a"
-				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_7_CAPCERSMDCL2_I10_A"
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_4_capcersmdcl2_i92_a"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_4_CAPCERSMDCL2_I92_A"
 					( Origin gPackager )
 				)
-				( objectStatus "UNNAMED_7_CAPCERSMDCL2_I10_A" )
+				( objectStatus "UNNAMED_4_CAPCERSMDCL2_I92_A" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_7_capcersmdcl2_i11_a"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_7_CAPCERSMDCL2_I11_A"
@@ -6736,23 +6736,23 @@
 				)
 				( objectStatus "UNNAMED_7_CAPCERSMDCL2_I5_A" )
 			)
-			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_7_capcersmdcl2_i6_a"
-				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_7_CAPCERSMDCL2_I6_A"
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_4_capcersmdcl2_i91_a"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_4_CAPCERSMDCL2_I91_A"
 					( Origin gPackager )
 				)
-				( objectStatus "UNNAMED_7_CAPCERSMDCL2_I6_A" )
+				( objectStatus "UNNAMED_4_CAPCERSMDCL2_I91_A" )
 			)
-			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_7_capcersmdcl2_i7_a"
-				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_7_CAPCERSMDCL2_I7_A"
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_4_capcersmdcl2_i90_a"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_4_CAPCERSMDCL2_I90_A"
 					( Origin gPackager )
 				)
-				( objectStatus "UNNAMED_7_CAPCERSMDCL2_I7_A" )
+				( objectStatus "UNNAMED_4_CAPCERSMDCL2_I90_A" )
 			)
-			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_7_capcersmdcl2_i9_a"
-				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_7_CAPCERSMDCL2_I9_A"
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_4_capcersmdcl2_i89_a"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_4_CAPCERSMDCL2_I89_A"
 					( Origin gPackager )
 				)
-				( objectStatus "UNNAMED_7_CAPCERSMDCL2_I9_A" )
+				( objectStatus "UNNAMED_4_CAPCERSMDCL2_I89_A" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):sfp0_los"
 				( alias ( signalRef "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page7_sfp0_los") )
@@ -7917,6 +7917,7 @@
 				( alias ( signalRef "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_10_pc049afpga_i1_vcco3(0)") )
 				( alias ( signalRef "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page6_p3v3") )
 				( alias ( signalRef "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page7_p3v3") )
+				( alias ( signalRef "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page9_p3v3") )
 				( attribute "CDS_PHYS_NET_NAME" "P3V3"
 					( Origin gPackager )
 				)
@@ -11409,12 +11410,6 @@
 				)
 				( objectStatus "UNNAMED_8_AD8031_I70_IN" )
 			)
-			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_8_ad8031_i70_in_1"
-				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_8_AD8031_I70_IN_1"
-					( Origin gPackager )
-				)
-				( objectStatus "UNNAMED_8_AD8031_I70_IN_1" )
-			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_8_rsmd0603_i73_a"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_8_RSMD0603_I73_A"
 					( Origin gPackager )
@@ -11534,11 +11529,14 @@
 				)
 				( objectStatus "UNNAMED_11_LP3874ADJ_I105_SD" )
 			)
-			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_lt1584_i8_gnd"
-				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_9_LT1584_I8_GND"
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_4_osc8poeclkpclknsdascl_i7_clkp"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_4_OSC8POECLKPCLKNSDASCL"
 					( Origin gPackager )
 				)
-				( objectStatus "UNNAMED_9_LT1584_I8_GND" )
+				( attribute "PNN" "UNNAMED_4_OSC8POECLKPCLKNSDASCL"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_4_OSC8POECLKPCLKNSDASCL" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_8_led_i115_k"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_8_LED_I115_K"
@@ -11674,6 +11672,22 @@
 					( Origin gPackager )
 				)
 				( objectStatus "UNNAMED_13_RSMD0402_I102_A" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_8_rsmd0603_i68_a"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_8_RSMD0603_I68_A"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_8_RSMD0603_I68_A" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_lt1585_i8_gnd"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_9_LT1585_I8_GND"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_9_LT1585_I8_GND" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page9_p3v3"
+				( objectFlag fObjectAlias )
+				( objectStatus "page9_p3v3" )
 			)
 			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page1_i3@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page1_i146"
 				( attribute "CDS_LIB" "cnpassive"
@@ -16420,9 +16434,6 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
-				( attribute "LOCATION" "R14_1"
-					( Origin gPackager )
-				)
 				( attribute "MAX_TEMP" "RTMAX"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
@@ -16467,7 +16478,7 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
-				( attribute "TOL" "0.1%_GEN"
+				( attribute "TOL" "1%"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
@@ -16479,7 +16490,7 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
-				( attribute "VER" "1"
+				( attribute "VER" "2"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
@@ -16491,9 +16502,6 @@
 				( attribute "XY" "(4725,-1750)"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
-				)
-				( attribute "CDS_LOCATION" "R14_1"
-					( Origin gPackager )
 				)
 				( attribute "CDS_SEC" "1"
 					( Status sBlockFlattened )
@@ -16507,7 +16515,10 @@
 					( Status sBlockFlattened )
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-100,0.1%_GEN"
+				( attribute "CDS_LOCATION" "R14_1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "R14_1"
 					( Origin gPackager )
 				)
 				( objectStatus "R14_1" )
@@ -18835,9 +18846,6 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
-				( attribute "LOCATION" "R17_1"
-					( Origin gPackager )
-				)
 				( attribute "MAX_TEMP" "RTMAX"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
@@ -18882,7 +18890,7 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
-				( attribute "TOL" "0.1%_GEN"
+				( attribute "TOL" "1%"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
@@ -18894,7 +18902,7 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
-				( attribute "VER" "1"
+				( attribute "VER" "2"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
@@ -18906,9 +18914,6 @@
 				( attribute "XY" "(5775,-1725)"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
-				)
-				( attribute "CDS_LOCATION" "R17_1"
-					( Origin gPackager )
 				)
 				( attribute "CDS_SEC" "1"
 					( Status sBlockFlattened )
@@ -18922,7 +18927,10 @@
 					( Status sBlockFlattened )
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-100,0.1%_GEN"
+				( attribute "CDS_LOCATION" "R17_1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "R17_1"
 					( Origin gPackager )
 				)
 				( objectStatus "R17_1" )
@@ -19037,7 +19045,7 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "10UF_X5R"
+				( attribute "VALUE" "10UF"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
@@ -19072,7 +19080,7 @@
 					( Status sBlockFlattened )
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF_X5R,6.3V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF,6.3V"
 					( Origin gPackager )
 				)
 				( objectStatus "C53_1" )
@@ -19227,7 +19235,7 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "10UF_X5R"
+				( attribute "VALUE" "10UF"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
@@ -19262,7 +19270,7 @@
 					( Status sBlockFlattened )
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF_X5R,6.3V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF,6.3V"
 					( Origin gPackager )
 				)
 				( objectStatus "C52_1" )
@@ -28141,7 +28149,7 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "10UF_X5R"
+				( attribute "VALUE" "10UF"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
@@ -28176,7 +28184,7 @@
 					( Status sBlockFlattened )
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF_X5R,6.3V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF,6.3V"
 					( Origin gPackager )
 				)
 				( objectStatus "C54_1" )
@@ -28368,35 +28376,11 @@
 					( Status sBlockFlattened )
 					( Origin gPackager )
 				)
-				( attribute "DIST" "FLAT"
-					( Status sBlockFlattened )
-					( Origin gFrontEnd )
-				)
-				( attribute "IC" "UNDEF"
-					( Status sBlockFlattened )
-					( Origin gFrontEnd )
-				)
-				( attribute "KNEE" "CBMAX"
-					( Status sBlockFlattened )
-					( Origin gFrontEnd )
-				)
-				( attribute "MAX_TEMP" "CTMAX"
-					( Status sBlockFlattened )
-					( Origin gFrontEnd )
-				)
-				( attribute "NEGTOL" "CTOL%"
-					( Status sBlockFlattened )
-					( Origin gFrontEnd )
-				)
-				( attribute "PACK_TYPE" "SMD_A"
+				( attribute "PACK_TYPE" "0603"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "3"
-					( Status sBlockFlattened )
-					( Origin gFrontEnd )
-				)
-				( attribute "POSTOL" "CTOL%"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
@@ -28408,19 +28392,7 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
-				( attribute "SLOPE" "CSMAX"
-					( Status sBlockFlattened )
-					( Origin gFrontEnd )
-				)
-				( attribute "TC" "0"
-					( Status sBlockFlattened )
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL_ON_OFF" "ON"
-					( Status sBlockFlattened )
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "22UF"
+				( attribute "VALUE" "10UF"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
@@ -28437,11 +28409,12 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "ELCAPTAN"
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Status sBlockFlattened )
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "ELCAPTAN_SMD_A-22UF,6.3V"
+				( attribute "CDS_SEC" "1"
+					( Status sBlockFlattened )
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C48_1"
@@ -28450,36 +28423,29 @@
 				( attribute "LOCATION" "C48_1"
 					( Origin gPackager )
 				)
-				( attribute "CDS_SEC" "1"
-					( Status sBlockFlattened )
-					( Origin gPackager )
-				)
 				( attribute "SEC" "1"
-					( Status sBlockFlattened )
 					( Origin gPackager )
 				)
 				( objectStatus "C48_1" )
 				( pin "a(0)"
 					( attribute "PN" "1"
-						( Status sBlockFlattened )
 						( Origin gPackager )
 					)
 					( objectStatus "C48_1.1" )
 				)
 				( pin "b(0)"
 					( attribute "PN" "2"
-						( Status sBlockFlattened )
 						( Origin gPackager )
 					)
 					( objectStatus "C48_1.2" )
 				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page1_i3@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253"
-				( attribute "CDS_LIB" "cnlinear"
+				( attribute "CDS_LIB" "bris_cds_analogue"
 					( Status sBlockFlattened )
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "SOIC"
+				( attribute "PACK_TYPE" "SOT223"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
@@ -28488,10 +28454,6 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "ROT" "2"
-					( Status sBlockFlattened )
-					( Origin gFrontEnd )
-				)
-				( attribute "TYPE" "TPS77625D"
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
@@ -28507,12 +28469,21 @@
 					( Status sBlockFlattened )
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "TPS776XX"
+				( attribute "CHIPS_PART_NAME" "LM2937IMP"
 					( Status sBlockFlattened )
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "TPS77625D"
+				( attribute "CDS_SEC" "1"
+					( Status sBlockFlattened )
 					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,150,150,-100"
+					( Status sBlockFlattened )
+					( Origin gPackager )
+				)
+				( attribute "MANUF" "TI"
+					( Status sBlockFlattened )
+					( Origin gFrontEnd )
 				)
 				( attribute "CDS_LOCATION" "RG1_1"
 					( Origin gPackager )
@@ -28520,63 +28491,33 @@
 				( attribute "LOCATION" "RG1_1"
 					( Origin gPackager )
 				)
-				( attribute "CDS_SEC" "1"
-					( Status sBlockFlattened )
-					( Origin gPackager )
-				)
 				( attribute "SEC" "1"
-					( Status sBlockFlattened )
 					( Origin gPackager )
 				)
 				( objectStatus "RG1_1" )
-				( pin "\en*\"
+				( pin "gnd"
 					( attribute "PN" "2"
-						( Status sBlockFlattened )
 						( Origin gPackager )
 					)
 					( objectStatus "RG1_1.2" )
 				)
-				( pin "gnd"
-					( attribute "PN" "1"
-						( Status sBlockFlattened )
-						( Origin gPackager )
-					)
-					( objectStatus "RG1_1.1" )
-				)
-				( pin "\in\(1)"
-					( attribute "PN" "3"
-						( Status sBlockFlattened )
-						( Origin gPackager )
-					)
-					( objectStatus "RG1_1.3" )
-				)
-				( pin "\in\(2)"
+				( pin "gnd_tab"
 					( attribute "PN" "4"
-						( Status sBlockFlattened )
 						( Origin gPackager )
 					)
 					( objectStatus "RG1_1.4" )
 				)
-				( pin "\out\(1)"
-					( attribute "PN" "5"
-						( Status sBlockFlattened )
+				( pin "pinput"
+					( attribute "PN" "1"
 						( Origin gPackager )
 					)
-					( objectStatus "RG1_1.5" )
+					( objectStatus "RG1_1.1" )
 				)
-				( pin "\out\(2)"
-					( attribute "PN" "6"
-						( Status sBlockFlattened )
+				( pin "poutput"
+					( attribute "PN" "3"
 						( Origin gPackager )
 					)
-					( objectStatus "RG1_1.6" )
-				)
-				( pin "pg"
-					( attribute "PN" "8"
-						( Status sBlockFlattened )
-						( Origin gPackager )
-					)
-					( objectStatus "RG1_1.8" )
+					( objectStatus "RG1_1.3" )
 				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page3_i74"
@@ -29220,7 +29161,7 @@
 				( attribute "LOCATION" "C6"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "0603"
+				( attribute "PACK_TYPE" "0402"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "4"
@@ -29241,7 +29182,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "16V"
+				( attribute "VOLTAGE" "16V_GEN"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -29251,7 +29192,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
 				( objectStatus "C6" )
@@ -29435,7 +29376,7 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "0603"
+				( attribute "PACK_TYPE" "0402"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "4"
@@ -29453,7 +29394,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "16V"
+				( attribute "VOLTAGE" "16V_GEN"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -29463,7 +29404,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C1"
@@ -29496,7 +29437,7 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "0603"
+				( attribute "PACK_TYPE" "0402"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "4"
@@ -29514,7 +29455,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "16V"
+				( attribute "VOLTAGE" "16V_GEN"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -29524,7 +29465,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C4"
@@ -29792,7 +29733,7 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "0603"
+				( attribute "PACK_TYPE" "0402"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "4"
@@ -29810,7 +29751,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "16V"
+				( attribute "VOLTAGE" "16V_GEN"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -29820,7 +29761,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C2"
@@ -29853,7 +29794,7 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "0603"
+				( attribute "PACK_TYPE" "0402"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "4"
@@ -29871,7 +29812,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "16V"
+				( attribute "VOLTAGE" "16V_GEN"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -29881,7 +29822,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C5"
@@ -30054,14 +29995,14 @@
 					( objectStatus "IC6.6" )
 				)
 			)
-			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page6_i33"
-				( attribute "CDS_LIB" "cn100e"
+			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page6_i52"
+				( attribute "CDS_LIB" "bris_cds_logic"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-250,175,250,-150"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,200,125,-200"
 					( Origin gPackager )
 				)
-				( attribute "HAS_FIXED_SIZE" "2"
+				( attribute "MANUF" "ON SEMICONDUCTOR"
 					( Origin gFrontEnd )
 				)
 				( attribute "PACK_TYPE" "SOIC"
@@ -30073,31 +30014,79 @@
 				( attribute "ROT" "0"
 					( Origin gFrontEnd )
 				)
-				( attribute "SIZE" "2"
-					( Origin gFrontEnd )
-				)
-				( attribute "TYPE" "MC100EP05DG"
-					( Origin gFrontEnd )
-				)
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
 				( attribute "XY" "(5425,1975)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "100EP05"
+				( attribute "CHIPS_PART_NAME" "MC100LVEL05"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "MC100EP05DG-VCC=PV3V;VEE=GND_SA"
+				( attribute "CDS_PART_NAME" "MC100LVEL05_SOIC-ON SEMICONDUCA"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "IC8"
+				( attribute "CDS_LOCATION" "U4"
 					( Origin gPackager )
 				)
-				( attribute "LOCATION" "IC8"
+				( attribute "LOCATION" "U4"
 					( Origin gPackager )
 				)
-				( objectStatus "IC8" )
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U4" )
+				( pin "d0"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "U4.1" )
+				)
+				( pin "\d0*\"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "U4.2" )
+				)
+				( pin "d1"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
+					( objectStatus "U4.3" )
+				)
+				( pin "\d1*\"
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
+					( objectStatus "U4.4" )
+				)
+				( pin "q"
+					( attribute "PN" "7"
+						( Origin gPackager )
+					)
+					( objectStatus "U4.7" )
+				)
+				( pin "\q*\"
+					( attribute "PN" "6"
+						( Origin gPackager )
+					)
+					( objectStatus "U4.6" )
+				)
+				( pin "vcc"
+					( attribute "PN" "8"
+						( Origin gPackager )
+					)
+					( objectStatus "U4.8" )
+				)
+				( pin "vee"
+					( attribute "PN" "5"
+						( Origin gPackager )
+					)
+					( objectStatus "U4.5" )
+				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page6_i35"
 				( attribute "CDS_LIB" "cnpassive"
@@ -30285,7 +30274,7 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "0603"
+				( attribute "PACK_TYPE" "0402"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "4"
@@ -30303,7 +30292,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "16V"
+				( attribute "VOLTAGE" "16V_GEN"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -30313,7 +30302,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C7"
@@ -30346,7 +30335,7 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "0603"
+				( attribute "PACK_TYPE" "0402"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "4"
@@ -30364,17 +30353,17 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "16V"
+				( attribute "VOLTAGE" "16V_GEN"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(5700,1375)"
+				( attribute "XY" "(5200,2475)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C8"
@@ -30495,8 +30484,23 @@
 				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page7_i4"
-				( attribute "CDS_LIB" "cnconnector"
+				( attribute "CDS_LIB" "bris_cds_connectors"
 					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,200,75,-200"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "J5"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "MANUF" "MOLEX"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMD_STR"
+					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "6"
 					( Origin gFrontEnd )
@@ -30513,19 +30517,13 @@
 				( attribute "XY" "(-675,-1150)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "CON7P"
+				( attribute "CHIPS_PART_NAME" "SK_SATA"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CON7P-47082-1000-GND=GND_SIGNAL"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "J5"
+				( attribute "CDS_PART_NAME" "SK_SATA_SMD_STR-MOLEX"
 					( Origin gPackager )
 				)
 				( attribute "LOCATION" "J5"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
 				( attribute "SEC" "1"
@@ -30597,7 +30595,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "10V"
+				( attribute "VOLTAGE" "16V_GEN"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -30607,7 +30605,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,10V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C20"
@@ -30820,7 +30818,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "10V"
+				( attribute "VOLTAGE" "16V_GEN"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -30830,7 +30828,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,10V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C17"
@@ -30859,14 +30857,14 @@
 					( objectStatus "C17.2" )
 				)
 			)
-			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page7_i6"
+			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page4_i92"
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
 				( attribute "PACK_TYPE" "0402"
 					( Origin gFrontEnd )
 				)
-				( attribute "PHYS_PAGE" "6"
+				( attribute "PHYS_PAGE" "5"
 					( Origin gFrontEnd )
 				)
 				( attribute "ROT" "0"
@@ -30881,23 +30879,23 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "10V"
+				( attribute "VOLTAGE" "16V_GEN"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(400,-1275)"
+				( attribute "XY" "(5325,2400)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,10V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "C15"
+				( attribute "CDS_LOCATION" "C19"
 					( Origin gPackager )
 				)
-				( attribute "LOCATION" "C15"
+				( attribute "LOCATION" "C19"
 					( Origin gPackager )
 				)
 				( attribute "CDS_SEC" "1"
@@ -30906,28 +30904,28 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
-				( objectStatus "C15" )
+				( objectStatus "C19" )
 				( pin "a(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
 					)
-					( objectStatus "C15.1" )
+					( objectStatus "C19.1" )
 				)
 				( pin "b(0)"
 					( attribute "PN" "2"
 						( Origin gPackager )
 					)
-					( objectStatus "C15.2" )
+					( objectStatus "C19.2" )
 				)
 			)
-			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page7_i7"
+			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page4_i91"
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
 				( attribute "PACK_TYPE" "0402"
 					( Origin gFrontEnd )
 				)
-				( attribute "PHYS_PAGE" "6"
+				( attribute "PHYS_PAGE" "5"
 					( Origin gFrontEnd )
 				)
 				( attribute "ROT" "0"
@@ -30942,23 +30940,23 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "10V"
+				( attribute "VOLTAGE" "16V_GEN"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(550,-1450)"
+				( attribute "XY" "(5600,2350)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,10V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "C21"
+				( attribute "CDS_LOCATION" "C49"
 					( Origin gPackager )
 				)
-				( attribute "LOCATION" "C21"
+				( attribute "LOCATION" "C49"
 					( Origin gPackager )
 				)
 				( attribute "CDS_SEC" "1"
@@ -30967,23 +30965,38 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
-				( objectStatus "C21" )
+				( objectStatus "C49" )
 				( pin "a(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
 					)
-					( objectStatus "C21.1" )
+					( objectStatus "C49.1" )
 				)
 				( pin "b(0)"
 					( attribute "PN" "2"
 						( Origin gPackager )
 					)
-					( objectStatus "C21.2" )
+					( objectStatus "C49.2" )
 				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page7_i8"
-				( attribute "CDS_LIB" "cnconnector"
+				( attribute "CDS_LIB" "bris_cds_connectors"
 					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,200,75,-200"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "J4"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "MANUF" "MOLEX"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMD_STR"
+					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "6"
 					( Origin gFrontEnd )
@@ -31000,19 +31013,13 @@
 				( attribute "XY" "(-675,-125)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "CON7P"
+				( attribute "CHIPS_PART_NAME" "SK_SATA"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CON7P-47082-1000-GND=GND_SIGNAL"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "J4"
+				( attribute "CDS_PART_NAME" "SK_SATA_SMD_STR-MOLEX"
 					( Origin gPackager )
 				)
 				( attribute "LOCATION" "J4"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
 				( attribute "SEC" "1"
@@ -31062,14 +31069,14 @@
 					( objectStatus "J4.7" )
 				)
 			)
-			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page7_i9"
+			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page4_i90"
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
 				( attribute "PACK_TYPE" "0402"
 					( Origin gFrontEnd )
 				)
-				( attribute "PHYS_PAGE" "6"
+				( attribute "PHYS_PAGE" "5"
 					( Origin gFrontEnd )
 				)
 				( attribute "ROT" "0"
@@ -31084,23 +31091,23 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "10V"
+				( attribute "VOLTAGE" "16V_GEN"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(550,25)"
+				( attribute "XY" "(5475,2500)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,10V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "C14"
+				( attribute "CDS_LOCATION" "C21"
 					( Origin gPackager )
 				)
-				( attribute "LOCATION" "C14"
+				( attribute "LOCATION" "C21"
 					( Origin gPackager )
 				)
 				( attribute "CDS_SEC" "1"
@@ -31109,28 +31116,28 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
-				( objectStatus "C14" )
+				( objectStatus "C21" )
 				( pin "a(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
 					)
-					( objectStatus "C14.1" )
+					( objectStatus "C21.1" )
 				)
 				( pin "b(0)"
 					( attribute "PN" "2"
 						( Origin gPackager )
 					)
-					( objectStatus "C14.2" )
+					( objectStatus "C21.2" )
 				)
 			)
-			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page7_i10"
+			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page4_i89"
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
 				( attribute "PACK_TYPE" "0402"
 					( Origin gFrontEnd )
 				)
-				( attribute "PHYS_PAGE" "6"
+				( attribute "PHYS_PAGE" "5"
 					( Origin gFrontEnd )
 				)
 				( attribute "ROT" "0"
@@ -31145,23 +31152,23 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "10V"
+				( attribute "VOLTAGE" "16V_GEN"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(400,250)"
+				( attribute "XY" "(5200,2550)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,10V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "C19"
+				( attribute "CDS_LOCATION" "C15"
 					( Origin gPackager )
 				)
-				( attribute "LOCATION" "C19"
+				( attribute "LOCATION" "C15"
 					( Origin gPackager )
 				)
 				( attribute "CDS_SEC" "1"
@@ -31170,18 +31177,18 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
-				( objectStatus "C19" )
+				( objectStatus "C15" )
 				( pin "a(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
 					)
-					( objectStatus "C19.1" )
+					( objectStatus "C15.1" )
 				)
 				( pin "b(0)"
 					( attribute "PN" "2"
 						( Origin gPackager )
 					)
-					( objectStatus "C19.2" )
+					( objectStatus "C15.2" )
 				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page7_i11"
@@ -31206,7 +31213,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "10V"
+				( attribute "VOLTAGE" "16V_GEN"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -31216,7 +31223,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,10V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C18"
@@ -31267,7 +31274,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "10V"
+				( attribute "VOLTAGE" "16V_GEN"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -31277,7 +31284,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,10V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C16"
@@ -32257,7 +32264,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "10V"
+				( attribute "VOLTAGE" "16V"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -32267,7 +32274,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-1UF,10V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-1UF,16V"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C12"
@@ -32318,7 +32325,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "10V"
+				( attribute "VOLTAGE" "16V"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -32328,7 +32335,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-1UF,10V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-1UF,16V"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C9"
@@ -32379,7 +32386,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "10V"
+				( attribute "VOLTAGE" "16V"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -32389,7 +32396,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-1UF,10V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-1UF,16V"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C10"
@@ -32899,7 +32906,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "10V"
+				( attribute "VOLTAGE" "16V"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -32909,7 +32916,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-1UF,10V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-1UF,16V"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C27"
@@ -33021,7 +33028,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "10V"
+				( attribute "VOLTAGE" "16V"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -33031,7 +33038,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-1UF,10V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-1UF,16V"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C25"
@@ -33082,7 +33089,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "10V"
+				( attribute "VOLTAGE" "16V"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -33092,7 +33099,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-1UF,10V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-1UF,16V"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C24"
@@ -36022,7 +36029,7 @@
 				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page9_i8"
-				( attribute "CDS_LIB" "cnlinear"
+				( attribute "CDS_LIB" "bris_cds_analogue"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,150,150,-100"
@@ -36055,10 +36062,10 @@
 				( attribute "XY" "(4725,550)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "LT1584"
+				( attribute "CHIPS_PART_NAME" "LT1585"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "LT1584_TO263-ADJ"
+				( attribute "CDS_PART_NAME" "LT1585_TO263-ADJ"
 					( Origin gPackager )
 				)
 				( attribute "SEC" "1"
@@ -36234,7 +36241,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(225,75)"
+				( attribute "XY" "(300,100)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "OSC_8P_OE_CLKP_CLKN_SDA_SCL"
@@ -36524,7 +36531,7 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "0603"
+				( attribute "PACK_TYPE" "0402"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "5"
@@ -36542,7 +36549,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "16V"
+				( attribute "VOLTAGE" "16V_GEN"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -36552,7 +36559,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C60"
@@ -36585,7 +36592,7 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "0603"
+				( attribute "PACK_TYPE" "0402"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "5"
@@ -36603,7 +36610,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "16V"
+				( attribute "VOLTAGE" "16V_GEN"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -36613,7 +36620,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C61"
@@ -36655,7 +36662,7 @@
 				( attribute "NEGTOL" "RTOL%"
 					( Origin gFrontEnd )
 				)
-				( attribute "PACK_TYPE" "<< NULL >>"
+				( attribute "PACK_TYPE" "1/10W"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "5"
@@ -36682,13 +36689,13 @@
 				( attribute "TC2" "RTMPQ"
 					( Origin gFrontEnd )
 				)
-				( attribute "TOL" "<< NULL >>"
+				( attribute "TOL" "1%"
 					( Origin gFrontEnd )
 				)
 				( attribute "TOL_ON_OFF" "ON"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "00"
+				( attribute "VALUE" "XX"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "2"
@@ -36704,7 +36711,7 @@
 				( attribute "CHIPS_PART_NAME" "RSMD0603"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "RSMD0603_-00,"
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-XX,1%"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "R18"
@@ -36746,7 +36753,7 @@
 				( attribute "NEGTOL" "RTOL%"
 					( Origin gFrontEnd )
 				)
-				( attribute "PACK_TYPE" "<< NULL >>"
+				( attribute "PACK_TYPE" "1/10W"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "5"
@@ -36773,13 +36780,13 @@
 				( attribute "TC2" "RTMPQ"
 					( Origin gFrontEnd )
 				)
-				( attribute "TOL" "<< NULL >>"
+				( attribute "TOL" "1%"
 					( Origin gFrontEnd )
 				)
 				( attribute "TOL_ON_OFF" "ON"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "00"
+				( attribute "VALUE" "XX"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "2"
@@ -36795,7 +36802,7 @@
 				( attribute "CHIPS_PART_NAME" "RSMD0603"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "RSMD0603_-00,"
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-XX,1%"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "R22"
@@ -36837,7 +36844,7 @@
 				( attribute "NEGTOL" "RTOL%"
 					( Origin gFrontEnd )
 				)
-				( attribute "PACK_TYPE" "<< NULL >>"
+				( attribute "PACK_TYPE" "1/10W"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "5"
@@ -36864,13 +36871,13 @@
 				( attribute "TC2" "RTMPQ"
 					( Origin gFrontEnd )
 				)
-				( attribute "TOL" "<< NULL >>"
+				( attribute "TOL" "1%"
 					( Origin gFrontEnd )
 				)
 				( attribute "TOL_ON_OFF" "ON"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "00"
+				( attribute "VALUE" "XX"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "2"
@@ -36886,7 +36893,7 @@
 				( attribute "CHIPS_PART_NAME" "RSMD0603"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "RSMD0603_-00,"
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-XX,1%"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "R19"
@@ -36928,7 +36935,7 @@
 				( attribute "NEGTOL" "RTOL%"
 					( Origin gFrontEnd )
 				)
-				( attribute "PACK_TYPE" "<< NULL >>"
+				( attribute "PACK_TYPE" "1/10W"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "5"
@@ -36955,13 +36962,13 @@
 				( attribute "TC2" "RTMPQ"
 					( Origin gFrontEnd )
 				)
-				( attribute "TOL" "<< NULL >>"
+				( attribute "TOL" "1%"
 					( Origin gFrontEnd )
 				)
 				( attribute "TOL_ON_OFF" "ON"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "00"
+				( attribute "VALUE" "XX"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "2"
@@ -36977,7 +36984,7 @@
 				( attribute "CHIPS_PART_NAME" "RSMD0603"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "RSMD0603_-00,"
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-XX,1%"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "R23"
@@ -37110,7 +37117,7 @@
 				( attribute "NEGTOL" "RTOL%"
 					( Origin gFrontEnd )
 				)
-				( attribute "PACK_TYPE" "<< NULL >>"
+				( attribute "PACK_TYPE" "1/10W"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "5"
@@ -37137,13 +37144,13 @@
 				( attribute "TC2" "RTMPQ"
 					( Origin gFrontEnd )
 				)
-				( attribute "TOL" "<< NULL >>"
+				( attribute "TOL" "1%"
 					( Origin gFrontEnd )
 				)
 				( attribute "TOL_ON_OFF" "ON"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "00"
+				( attribute "VALUE" "XX"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "2"
@@ -37159,7 +37166,7 @@
 				( attribute "CHIPS_PART_NAME" "RSMD0603"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "RSMD0603_-00,"
+				( attribute "CDS_PART_NAME" "RSMD0603_1/10W-XX,1%"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "R24"
@@ -37362,7 +37369,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "10V"
+				( attribute "VOLTAGE" "16V"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -37372,7 +37379,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-1UF,10V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-1UF,16V"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C71"
@@ -37462,7 +37469,7 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "0603"
+				( attribute "PACK_TYPE" "0805"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "5"
@@ -37480,7 +37487,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "4V"
+				( attribute "VOLTAGE" "6.3V"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -37490,7 +37497,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-22UF,4V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0805-22UF,6.3V"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C65"
@@ -37523,7 +37530,7 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "0603"
+				( attribute "PACK_TYPE" "0805"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "5"
@@ -37541,7 +37548,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "4V"
+				( attribute "VOLTAGE" "6.3V"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -37551,7 +37558,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-22UF,4V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0805-22UF,6.3V"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C67"
@@ -37792,7 +37799,7 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "0603"
+				( attribute "PACK_TYPE" "0805"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "5"
@@ -37810,7 +37817,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "4V"
+				( attribute "VOLTAGE" "6.3V"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -37820,7 +37827,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-22UF,4V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0805-22UF,6.3V"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C51"
@@ -38950,7 +38957,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "10V"
+				( attribute "VOLTAGE" "16V"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -38960,7 +38967,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-1UF,10V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-1UF,16V"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C59"
@@ -39111,7 +39118,7 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "0603"
+				( attribute "PACK_TYPE" "0805"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "5"
@@ -39129,7 +39136,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "4V"
+				( attribute "VOLTAGE" "6.3V"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -39139,7 +39146,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-22UF,4V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0805-22UF,6.3V"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C55"
@@ -39172,7 +39179,7 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "0603"
+				( attribute "PACK_TYPE" "0805"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "5"
@@ -39190,7 +39197,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "4V"
+				( attribute "VOLTAGE" "6.3V"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -39200,7 +39207,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-22UF,4V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0805-22UF,6.3V"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C54"
@@ -39290,7 +39297,7 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "0603"
+				( attribute "PACK_TYPE" "0805"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "5"
@@ -39308,7 +39315,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "4V"
+				( attribute "VOLTAGE" "6.3V"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -39318,7 +39325,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-22UF,4V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0805-22UF,6.3V"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C53"
@@ -39351,7 +39358,7 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "0603"
+				( attribute "PACK_TYPE" "0805"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "5"
@@ -39369,7 +39376,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "4V"
+				( attribute "VOLTAGE" "6.3V"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -39379,7 +39386,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-22UF,4V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0805-22UF,6.3V"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C52"
@@ -40774,7 +40781,7 @@
 				( attribute "LOCATION" "C77"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "0603"
+				( attribute "PACK_TYPE" "0402"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "9"
@@ -40792,7 +40799,7 @@
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "16V"
+				( attribute "VOLTAGE" "16V_GEN"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -40802,7 +40809,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-100NF,16V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C77"
@@ -40999,7 +41006,7 @@
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "10NF"
+				( attribute "VALUE" "100NF"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -41015,7 +41022,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-10NF,16V_GEN"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C45"
@@ -45653,10 +45660,10 @@
 					( objectStatus "U3.E9" )
 				)
 				( pin "sata_rxn_i(0)"
-					( attribute "PN" "D13"
+					( attribute "PN" "C13"
 						( Origin gPackager )
 					)
-					( objectStatus "U3.D13" )
+					( objectStatus "U3.C13" )
 				)
 				( pin "sata_rxn_i(1)"
 					( attribute "PN" "C9"
@@ -45665,10 +45672,10 @@
 					( objectStatus "U3.C9" )
 				)
 				( pin "sata_rxp_i(0)"
-					( attribute "PN" "C13"
+					( attribute "PN" "D13"
 						( Origin gPackager )
 					)
-					( objectStatus "U3.C13" )
+					( objectStatus "U3.D13" )
 				)
 				( pin "sata_rxp_i(1)"
 					( attribute "PN" "D9"
@@ -45677,10 +45684,10 @@
 					( objectStatus "U3.D9" )
 				)
 				( pin "sata_txn_o(0)"
-					( attribute "PN" "B14"
+					( attribute "PN" "A14"
 						( Origin gPackager )
 					)
-					( objectStatus "U3.B14" )
+					( objectStatus "U3.A14" )
 				)
 				( pin "sata_txn_o(1)"
 					( attribute "PN" "A8"
@@ -45689,10 +45696,10 @@
 					( objectStatus "U3.A8" )
 				)
 				( pin "sata_txp_o(0)"
-					( attribute "PN" "A14"
+					( attribute "PN" "B14"
 						( Origin gPackager )
 					)
-					( objectStatus "U3.A14" )
+					( objectStatus "U3.B14" )
 				)
 				( pin "sata_txp_o(1)"
 					( attribute "PN" "B8"
@@ -48108,13 +48115,16 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "RN1"
+					( Origin gPackager )
+				)
 				( attribute "HAS_FIXED_SIZE" "4"
 					( Origin gFrontEnd )
 				)
 				( attribute "LOCATION" "RN1"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "1206_TC164"
+				( attribute "PACK_TYPE" "1206"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "8"
@@ -48124,9 +48134,6 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SIZE" "4"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL" "1%"
 					( Origin gFrontEnd )
 				)
 				( attribute "VALUE" "150"
@@ -48138,13 +48145,10 @@
 				( attribute "XY" "(0,2725)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "RES_ARRAY_X4"
+				( attribute "CHIPS_PART_NAME" "R4ISMD"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "RES_ARRAY_X4_1206_TC164-150,1%"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "RN1"
+				( attribute "CDS_PART_NAME" "R4ISMD_1206-150"
 					( Origin gPackager )
 				)
 				( objectStatus "RN1" )
@@ -48153,13 +48157,16 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "RN2"
+					( Origin gPackager )
+				)
 				( attribute "HAS_FIXED_SIZE" "4"
 					( Origin gFrontEnd )
 				)
 				( attribute "LOCATION" "RN2"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "1206_TC164"
+				( attribute "PACK_TYPE" "1206"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "8"
@@ -48171,9 +48178,6 @@
 				( attribute "SIZE" "4"
 					( Origin gFrontEnd )
 				)
-				( attribute "TOL" "1%"
-					( Origin gFrontEnd )
-				)
 				( attribute "VALUE" "150"
 					( Origin gFrontEnd )
 				)
@@ -48183,13 +48187,10 @@
 				( attribute "XY" "(1375,2725)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "RES_ARRAY_X4"
+				( attribute "CHIPS_PART_NAME" "R4ISMD"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "RES_ARRAY_X4_1206_TC164-150,1%"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "RN2"
+				( attribute "CDS_PART_NAME" "R4ISMD_1206-150"
 					( Origin gPackager )
 				)
 				( objectStatus "RN2" )
@@ -49200,7 +49201,7 @@
 				( attribute "LOCATION" "C3"
 					( Origin gPackager )
 				)
-				( attribute "PACK_TYPE" "0603"
+				( attribute "PACK_TYPE" "0402"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "8"
@@ -49215,13 +49216,13 @@
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "1.0UF"
+				( attribute "VALUE" "1UF"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VOLTAGE" "6.3V"
+				( attribute "VOLTAGE" "16V"
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
@@ -49231,7 +49232,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-1.0UF,6.3V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-1UF,16V"
 					( Origin gPackager )
 				)
 				( objectStatus "C3" )
@@ -51367,7 +51368,7 @@
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "100UF"
+				( attribute "VALUE" "100UF_X5R"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -51383,7 +51384,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_1206-100UF,6.3V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_1206-100UF_X5R,6.A"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C115"
@@ -51977,7 +51978,7 @@
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "100UF"
+				( attribute "VALUE" "100UF_X5R"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -51993,7 +51994,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_1206-100UF,6.3V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_1206-100UF_X5R,6.A"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "C116"
@@ -52416,7 +52417,7 @@
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "100UF"
+				( attribute "VALUE" "100UF_X5R"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -52432,7 +52433,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_1206-100UF,6.3V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_1206-100UF_X5R,6.A"
 					( Origin gPackager )
 				)
 				( attribute "SEC" "1"
@@ -52904,7 +52905,7 @@
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "100UF"
+				( attribute "VALUE" "100UF_X5R"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -52920,7 +52921,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_1206-100UF,6.3V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_1206-100UF_X5R,6.A"
 					( Origin gPackager )
 				)
 				( attribute "SEC" "1"
@@ -52965,7 +52966,7 @@
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "100UF"
+				( attribute "VALUE" "100UF_X5R"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -52981,7 +52982,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_1206-100UF,6.3V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_1206-100UF_X5R,6.A"
 					( Origin gPackager )
 				)
 				( attribute "SEC" "1"
@@ -53026,7 +53027,7 @@
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "100UF"
+				( attribute "VALUE" "100UF_X5R"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -53042,7 +53043,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_1206-100UF,6.3V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_1206-100UF_X5R,6.A"
 					( Origin gPackager )
 				)
 				( attribute "SEC" "1"
@@ -53087,7 +53088,7 @@
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "100UF"
+				( attribute "VALUE" "100UF_X5R"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -53103,7 +53104,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_1206-100UF,6.3V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_1206-100UF_X5R,6.A"
 					( Origin gPackager )
 				)
 				( attribute "SEC" "1"
@@ -55866,6 +55867,238 @@
 					( objectStatus "IC22.9" )
 				)
 			)
+			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page6_i33"
+				( attribute "CHIPS_PART_NAME" "100EP05"
+					( Origin gPackager )
+				)
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page4_i85"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "5"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(6575,2250)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-100,1%"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R78"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "R78"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "R78" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "R78.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R78.2" )
+				)
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page4_i86"
+				( attribute "CDS_LIB" "bris_cds_logic"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-125,125,125,-125"
+					( Origin gPackager )
+				)
+				( attribute "MANUF" "TEXAS INSTRUMENTS"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SOT23-5"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "5"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(875,150)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "SN65LVDS1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "SN65LVDS1_SOT23-5-TEXAS INSTRUA"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U5"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U5"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U5" )
+				( pin "d"
+					( attribute "PN" "5"
+						( Origin gPackager )
+					)
+					( objectStatus "U5.5" )
+				)
+				( pin "gnd"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "U5.2" )
+				)
+				( pin "vcc"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "U5.1" )
+				)
+				( pin "y"
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
+					( objectStatus "U5.4" )
+				)
+				( pin "z"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
+					( objectStatus "U5.3" )
+				)
+			)
+			( gate "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page4_i88"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C14"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C14"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "0402"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "5"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V_GEN"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(1150,-1325)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
+					( Origin gPackager )
+				)
+				( objectStatus "C14" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "C14.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C14.2" )
+				)
+			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i88(2):b(2)"
 				( attribute "PN" "4"
 					( Origin gPackager )
@@ -55950,149 +56183,149 @@
 				)
 				( objectStatus "SW3.7" )
 			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(0):b(0)"
-				( attribute "SEC" "4"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "4"
-					( Origin gPackager )
-				)
-				( attribute "PN" "8"
-					( Origin gPackager )
-				)
-				( objectStatus "RN1.8" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(1):b(1)"
-				( attribute "SEC" "3"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "3"
-					( Origin gPackager )
-				)
-				( attribute "PN" "7"
-					( Origin gPackager )
-				)
-				( objectStatus "RN1.7" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(2):b(2)"
-				( attribute "SEC" "2"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "2"
-					( Origin gPackager )
-				)
-				( attribute "PN" "6"
-					( Origin gPackager )
-				)
-				( objectStatus "RN1.6" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(3):b(3)"
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "PN" "5"
-					( Origin gPackager )
-				)
-				( objectStatus "RN1.5" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(0):a(0)"
-				( attribute "SEC" "4"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "4"
-					( Origin gPackager )
-				)
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "RN2.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(1):a(1)"
-				( attribute "SEC" "3"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "3"
-					( Origin gPackager )
-				)
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "RN2.2" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(2):a(2)"
-				( attribute "SEC" "2"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "2"
-					( Origin gPackager )
-				)
-				( attribute "PN" "3"
-					( Origin gPackager )
-				)
-				( objectStatus "RN2.3" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(3):a(3)"
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
+			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(3):a(3)"
 				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
 				( attribute "PN" "4"
 					( Origin gPackager )
 				)
-				( objectStatus "RN2.4" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(0):b(0)"
-				( attribute "SEC" "4"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "4"
-					( Origin gPackager )
-				)
-				( attribute "PN" "8"
-					( Origin gPackager )
-				)
-				( objectStatus "RN2.8" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(1):b(1)"
-				( attribute "SEC" "3"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "3"
-					( Origin gPackager )
-				)
-				( attribute "PN" "7"
-					( Origin gPackager )
-				)
-				( objectStatus "RN2.7" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(2):b(2)"
-				( attribute "SEC" "2"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "2"
-					( Origin gPackager )
-				)
-				( attribute "PN" "6"
-					( Origin gPackager )
-				)
-				( objectStatus "RN2.6" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(3):b(3)"
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( objectStatus "RN1.4" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(2):a(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "RN1.3" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(1):a(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+				( objectStatus "RN1.2" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(0):a(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+				( objectStatus "RN1.1" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(3):b(3)"
 				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
 				( attribute "PN" "5"
 					( Origin gPackager )
 				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
 				( objectStatus "RN2.5" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(2):b(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "RN2.6" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(1):b(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+				( objectStatus "RN2.7" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(0):b(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+				( objectStatus "RN2.8" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(3):a(3)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "RN2.4" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(2):a(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "RN2.3" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(1):a(1)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+				( objectStatus "RN2.2" )
+			)
+			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(0):a(0)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+				( objectStatus "RN2.1" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page1_i3:adc_dav"
 			)
@@ -56458,113 +56691,53 @@
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page6_i33:\q*\"
 			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page6_i33(1):q"
-				( attribute "PN" "7"
+			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(3):b(3)"
+				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
-				( objectStatus "IC8.7" )
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "RN1.5" )
 			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page6_i33(1):\q*\"
+			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(2):b(2)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
 				( attribute "PN" "6"
 					( Origin gPackager )
 				)
-				( objectStatus "IC8.6" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page6_i33(1):\d*\(1)"
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "PN" "4"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "IC8.4" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page6_i33(0):\d*\(0)"
-				( attribute "CDS_SEC" "2"
-					( Origin gPackager )
-				)
-				( attribute "PN" "2"
-					( Origin gPackager )
-				)
 				( attribute "SEC" "2"
 					( Origin gPackager )
 				)
-				( objectStatus "IC8.2" )
+				( objectStatus "RN1.6" )
 			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page6_i33(1):d(1)"
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "PN" "3"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "IC8.3" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page6_i33(0):d(0)"
-				( attribute "CDS_SEC" "2"
-					( Origin gPackager )
-				)
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "2"
-					( Origin gPackager )
-				)
-				( objectStatus "IC8.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(0):a(0)"
-				( attribute "SEC" "4"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "4"
-					( Origin gPackager )
-				)
-				( attribute "PN" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "RN1.1" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(1):a(1)"
-				( attribute "SEC" "3"
-					( Origin gPackager )
-				)
+			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(1):b(1)"
 				( attribute "CDS_SEC" "3"
 					( Origin gPackager )
 				)
-				( attribute "PN" "2"
+				( attribute "PN" "7"
 					( Origin gPackager )
 				)
-				( objectStatus "RN1.2" )
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+				( objectStatus "RN1.7" )
 			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(2):a(2)"
-				( attribute "SEC" "2"
+			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(0):b(0)"
+				( attribute "CDS_SEC" "4"
 					( Origin gPackager )
 				)
-				( attribute "CDS_SEC" "2"
+				( attribute "PN" "8"
 					( Origin gPackager )
 				)
-				( attribute "PN" "3"
+				( attribute "SEC" "4"
 					( Origin gPackager )
 				)
-				( objectStatus "RN1.3" )
-			)
-			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(3):a(3)"
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "PN" "4"
-					( Origin gPackager )
-				)
-				( objectStatus "RN1.4" )
+				( objectStatus "RN1.8" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i88(3):b(3)"
 				( attribute "PN" "2"
@@ -58807,7 +58980,7 @@
 	( BaseCopy "pc043c_single_maroc"
 		( constraintHeader
 			( revisionNumber
-				( logicalViewRevNum 30 )
+				( logicalViewRevNum 34 )
 				( physicalViewRevNum 1 )
 				( otherViewRevNum 0 )
 			)
@@ -63200,6 +63373,12 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R14"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
 				( attribute "DIST" "FLAT"
 					( Origin gFrontEnd )
 				)
@@ -63227,6 +63406,9 @@
 				( attribute "ROT" "1"
 					( Origin gFrontEnd )
 				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
@@ -63239,7 +63421,7 @@
 				( attribute "TC2" "RTMPQ"
 					( Origin gFrontEnd )
 				)
-				( attribute "TOL" "0.1%_GEN"
+				( attribute "TOL" "1%"
 					( Origin gFrontEnd )
 				)
 				( attribute "TOL_ON_OFF" "ON"
@@ -63248,7 +63430,7 @@
 				( attribute "VALUE" "100"
 					( Origin gFrontEnd )
 				)
-				( attribute "VER" "1"
+				( attribute "VER" "2"
 					( Origin gFrontEnd )
 				)
 				( attribute "VOLTAGE" "RVMAX"
@@ -63258,33 +63440,22 @@
 				( attribute "XY" "(4725,-1750)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CDS_LOCATION" "R14"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( attribute "CHIPS_PART_NAME" "RSMD0402"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-100,0.1%_GEN"
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-100,1%"
 					( Origin gPackager )
 				)
-				( objectStatus "R14" )
+				( objectStatus "PAGE2_I30" )
 				( pin "a(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
 					)
-					( objectStatus "R14.1" )
 				)
 				( pin "b(0)"
 					( attribute "PN" "2"
 						( Origin gPackager )
 					)
-					( objectStatus "R14.2" )
 				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i31"
@@ -65139,6 +65310,12 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R17"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
 				( attribute "DIST" "FLAT"
 					( Origin gFrontEnd )
 				)
@@ -65166,6 +65343,9 @@
 				( attribute "ROT" "1"
 					( Origin gFrontEnd )
 				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
@@ -65178,7 +65358,7 @@
 				( attribute "TC2" "RTMPQ"
 					( Origin gFrontEnd )
 				)
-				( attribute "TOL" "0.1%_GEN"
+				( attribute "TOL" "1%"
 					( Origin gFrontEnd )
 				)
 				( attribute "TOL_ON_OFF" "ON"
@@ -65187,7 +65367,7 @@
 				( attribute "VALUE" "100"
 					( Origin gFrontEnd )
 				)
-				( attribute "VER" "1"
+				( attribute "VER" "2"
 					( Origin gFrontEnd )
 				)
 				( attribute "VOLTAGE" "RVMAX"
@@ -65197,33 +65377,22 @@
 				( attribute "XY" "(5775,-1725)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CDS_LOCATION" "R17"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
 				( attribute "CHIPS_PART_NAME" "RSMD0402"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-100,0.1%_GEN"
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W-100,1%"
 					( Origin gPackager )
 				)
-				( objectStatus "R17" )
+				( objectStatus "PAGE2_I79" )
 				( pin "a(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
 					)
-					( objectStatus "R17.1" )
 				)
 				( pin "b(0)"
 					( attribute "PN" "2"
 						( Origin gPackager )
 					)
-					( objectStatus "R17.2" )
 				)
 			)
 			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page2_i81"
@@ -65303,7 +65472,7 @@
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "10UF_X5R"
+				( attribute "VALUE" "10UF"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -65331,7 +65500,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF_X5R,6.3V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF,6.3V"
 					( Origin gPackager )
 				)
 				( objectStatus "C53" )
@@ -65455,7 +65624,7 @@
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "10UF_X5R"
+				( attribute "VALUE" "10UF"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -65483,7 +65652,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF_X5R,6.3V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF,6.3V"
 					( Origin gPackager )
 				)
 				( objectStatus "C52" )
@@ -72533,7 +72702,7 @@
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "VALUE" "10UF_X5R"
+				( attribute "VALUE" "10UF"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -72561,7 +72730,7 @@
 				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF_X5R,6.3V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF,6.3V"
 					( Origin gPackager )
 				)
 				( objectStatus "C54" )
@@ -73040,28 +73209,13 @@
 				( attribute "CDS_LIB" "cnpassive"
 					( Origin gPackager )
 				)
-				( attribute "DIST" "FLAT"
-					( Origin gFrontEnd )
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
 				)
-				( attribute "IC" "UNDEF"
-					( Origin gFrontEnd )
-				)
-				( attribute "KNEE" "CBMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "MAX_TEMP" "CTMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "NEGTOL" "CTOL%"
-					( Origin gFrontEnd )
-				)
-				( attribute "PACK_TYPE" "SMD_A"
+				( attribute "PACK_TYPE" "0603"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "3"
-					( Origin gFrontEnd )
-				)
-				( attribute "POSTOL" "CTOL%"
 					( Origin gFrontEnd )
 				)
 				( attribute "ROT" "1"
@@ -73070,16 +73224,7 @@
 				( attribute "SIZE" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "SLOPE" "CSMAX"
-					( Origin gFrontEnd )
-				)
-				( attribute "TC" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "TOL_ON_OFF" "ON"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "22UF"
+				( attribute "VALUE" "10UF"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "1"
@@ -73092,52 +73237,44 @@
 				( attribute "XY" "(3000,525)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "ELCAPTAN"
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "ELCAPTAN_SMD_A-22UF,6.3V"
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0603-10UF,6.3V"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "C48"
+				( objectStatus "PAGE3_I252" )
+				( pin "a(0)"
+					( attribute "PN" "#"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "#"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253"
+				( attribute "CDS_LIB" "bris_cds_analogue"
 					( Origin gPackager )
 				)
-				( attribute "LOCATION" "C48"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-150,150,150,-100"
 					( Origin gPackager )
 				)
 				( attribute "CDS_SEC" "1"
 					( Origin gPackager )
 				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
+				( attribute "MANUF" "TI"
+					( Origin gFrontEnd )
 				)
-				( objectStatus "C48" )
-				( pin "a(0)"
-					( attribute "PN" "1"
-						( Origin gPackager )
-					)
-					( objectStatus "C48.1" )
-				)
-				( pin "b(0)"
-					( attribute "PN" "2"
-						( Origin gPackager )
-					)
-					( objectStatus "C48.2" )
-				)
-			)
-			( gate "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):page3_i253"
-				( attribute "CDS_LIB" "cnlinear"
-					( Origin gPackager )
-				)
-				( attribute "PACK_TYPE" "SOIC"
+				( attribute "PACK_TYPE" "SOT223"
 					( Origin gFrontEnd )
 				)
 				( attribute "PHYS_PAGE" "3"
 					( Origin gFrontEnd )
 				)
 				( attribute "ROT" "2"
-					( Origin gFrontEnd )
-				)
-				( attribute "TYPE" "TPS77625D"
 					( Origin gFrontEnd )
 				)
 				( attribute "VALUE" "2.5V"
@@ -73149,66 +73286,20 @@
 				( attribute "XY" "(3425,600)"
 					( Origin gFrontEnd )
 				)
-				( attribute "CHIPS_PART_NAME" "TPS776XX"
+				( attribute "CHIPS_PART_NAME" "LM2937IMP"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "TPS77625D"
+				( attribute "CDS_PART_NAME" "LM2937IMP_SOT223-2.5V,TI"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LOCATION" "RG1"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "RG1"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "RG1" )
-				( pin "\en*\"
-					( attribute "PN" "2"
-						( Origin gPackager )
-					)
-					( objectStatus "RG1.2" )
-				)
+				( objectStatus "PAGE3_I253" )
 				( pin "gnd"
-					( attribute "PN" "1"
-						( Origin gPackager )
-					)
-					( objectStatus "RG1.1" )
 				)
-				( pin "\in\(1)"
-					( attribute "PN" "3"
-						( Origin gPackager )
-					)
-					( objectStatus "RG1.3" )
+				( pin "gnd_tab"
 				)
-				( pin "\in\(2)"
-					( attribute "PN" "4"
-						( Origin gPackager )
-					)
-					( objectStatus "RG1.4" )
+				( pin "pinput"
 				)
-				( pin "\out\(1)"
-					( attribute "PN" "5"
-						( Origin gPackager )
-					)
-					( objectStatus "RG1.5" )
-				)
-				( pin "\out\(2)"
-					( attribute "PN" "6"
-						( Origin gPackager )
-					)
-					( objectStatus "RG1.6" )
-				)
-				( pin "pg"
-					( attribute "PN" "8"
-						( Origin gPackager )
-					)
-					( objectStatus "RG1.8" )
+				( pin "poutput"
 				)
 			)
 			( bus "@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):\or\"

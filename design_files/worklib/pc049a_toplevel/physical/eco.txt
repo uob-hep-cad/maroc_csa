@@ -1,0 +1,171 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_28.brd    |
+|                                                    Mon Jul 28 20:45:51 2014  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND_SIGNAL   pins MOVED FROM this net (to net name listed on right)
+                                 IC20.5          48.9816 81.9922
+                                                                            VTT
+                                 R49.1           28.7430 96.8064
+                                                      UNNAMED_10_RSMD0603_I93_B
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P2V5         pins MOVED FROM this net (to net name listed on right)
+                                 C42.2           27.5296 116.125
+                                                                           P3V3
+                                 IC20.2          49.6316 80.0922
+                                                                     GND_SIGNAL
+                                 R13.2           20.2892 121.967
+                                                                           P3V3
+                                 RG1.23          -151.75 -85.500
+                                                                           P3V3
+                                 RG1.24          -152.25 -85.500
+                                                                           P3V3
+                                 RG1.27          -153.75 -85.500
+                                                                           P3V3
+                                 RG1.28          -154.25 -85.500
+                                                                           P3V3
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_10_CAPCERSMDCL1_I89_A pins MOVED FROM this net (to net name listed on right)
+                                 R49.2           30.2430 96.8064
+                                                                            VTT
+                                 R66.1           -17.584 96.8064
+                                                                     GND_SIGNAL
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_10_LP3874ADJ_I72_SD pins MOVED FROM this net (to net name listed on right)
+                                 IC20.1          48.9816 80.0922
+                                                                           P2V5
+                                 R48.2           -52.191 111.562
+                                                      UNNAMED_10_RSMD0603_I86_B
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_10_RSMD0603_I86_B pins ADDED TO this new net
+                                 IC20.3          50.2816 80.0922
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_10_RSMD0603_I93_B pins ADDED TO this new net
+                                 IC20.4          50.2816 81.9922
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_CAPCERSMDCL1_I102_A pins MOVED FROM this net (to net name listed on right)
+                                 IC21.4          43.1752 80.0922
+                                                  UNNAMED_11_CAPCERSMDCL2_I57_B
+                                 R68.2           12.0192 96.8064
+                                                    UNNAMED_11_LP38692_I115_ADJ
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_28.brd    |
+|                                                    Mon Jul 28 20:45:51 2014  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 R69.1           -8.9180 96.8064
+                                                    UNNAMED_11_LP38692_I115_ADJ
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_CAPCERSMDCL2_I57_B pins MOVED FROM this net (to net name listed on right)
+                                 IC21.2          40.1752 80.0922
+                                                    UNNAMED_11_LP38692_I115_ADJ
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_LP3874ADJ_I105_SD net RENAMED (to net name listed on right)           UNNAMED_11_LP38692_I115_EN 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VTT          pins MOVED FROM this net (to net name listed on right)
+                                 R66.2           -16.084 96.8064
+                                                      UNNAMED_10_RSMD0603_I93_B
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_28.brd    |
+|                                                    Mon Jul 28 20:45:51 2014  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CAPCERSMDCL2_0402-2.2UF,6.3V
+ LP38692_SOT223-ADJ,TEXAS INSTRA
+ RSMD0603_1/10W-270K,1%
+ RSMD0603_1/10W-300K,1%
+ RSMD0603_1/10W-36K,1%
+ TPS71701DCKRG4_SC70-TEXAS INSTA
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_28.brd    |
+|                                                    Mon Jul 28 20:45:51 2014  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C135                CAPCERSMDCL2_0805-22UF,6.3V -40.917 99.5096
+ C161                CAPCERSMDCL1_0603-220PF,50V 33.7564 99.3096
+ C162                CAPCERSMDCL1_0603-56PF,50V 33.0012 96.8064
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_28.brd    |
+|                                                    Mon Jul 28 20:45:51 2014  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C138                CAPCERSMDCL2_0402-2.2UF,6.3V -2.1240 97.2994 CAPCERSMDCL2_0402-4.7UF,4V
+ IC20                TPS71701DCKRG4_SC70-TEXAS INSTA 48.9816 80.0922 LP3874_ADJ_SOT223
+ IC21                LP38692_SOT223-ADJ,TEXAS INSTRA 38.6752 80.0922 LP3874_ADJ_SOT223
+ R49                 RSMD0603_1/10W-270K,1% 29.4930 96.8064 RSMD0603_1/10W-51K,1%
+ R66                 RSMD0603_1/10W-300K,1% -16.834 96.8064 RSMD0603_1/10W-16K,1%
+ R68                 RSMD0603_1/10W-36K,1% 11.2692 96.8064 RSMD0603_1/10W-33K,1%
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_28.brd    |
+|                                                    Mon Jul 28 20:45:51 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C138.2         -2.1240 97.2994 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C138.2         -2.1240 97.2994 SIZE           1
+ IC20.5         48.9816 80.0922 PRIM_FILE      /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_analogue/tps71701dckrg4/chips/chips.prt
+ IC21.3         38.6752 80.0922 PRIM_FILE      /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_analogue/lp38692/chips/chips.prt
+ R49.2          29.4930 96.8064 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R49.2          29.4930 96.8064 SIZE           1
+ R66.2          -16.834 96.8064 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R66.2          -16.834 96.8064 SIZE           1
+ R68.2          11.2692 96.8064 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R68.2          11.2692 96.8064 SIZE           1
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_28.brd    |
+|                                                    Mon Jul 28 20:45:51 2014  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC20.1         48.9816 80.0922 CDS_PINID      \in\
+ IC20.2         49.6316 80.0922 CDS_PINID      GND
+ IC20.3         50.2816 80.0922 CDS_PINID      EN
+ IC20.4         50.2816 81.9922 CDS_PINID      NR_FB
+ IC20.5         48.9816 81.9922 CDS_PINID      \out\
+ IC21.1         38.6752 80.0922 CDS_PINID      EN
+ IC21.2         40.1752 80.0922 CDS_PINID      ADJ
+ IC21.3         41.6752 80.0922 CDS_PINID      \out\
+ IC21.4         43.1752 80.0922 CDS_PINID      \in\
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  55                                             |
+|------------------------------------------------------------------------------|

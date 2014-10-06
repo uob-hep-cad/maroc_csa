@@ -2,355 +2,163 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_27.brd    |
-|                                                    Mon Jul 28 18:48:44 2014  |
+|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_37.brd    |
+|                                                    Fri Oct  3 09:25:33 2014  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  FPGA_PLL_REF_CLK101_N pins MOVED FROM this net (to net name listed on right)
-                                 IC11.5          -85.500  3.7500
-                                                   UNNAMED_4_CAPCERSMDCL2_I90_A
+  AVDD         pins MOVED FROM this net (to net name listed on right)
+                                 C3.2            -21.487 -18.421
+                                                                           P3V3
+                                 U2.5            -20.681 -18.360
+                                                                           P3V3
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FPGA_PLL_REF_CLK101_P pins MOVED FROM this net (to net name listed on right)
-                                 IC11.6          -85.500  3.2500
-                                                   UNNAMED_4_CAPCERSMDCL2_I89_A
+  DIP_SWITCH<0> pins MOVED FROM this net (to net name listed on right)
+                                 RZ2.4           -6.8400 -23.135
+                                                                     GND_SIGNAL
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FPGA_PLL_REF_CLK123_N pins MOVED FROM this net (to net name listed on right)
-                                 IC11.2          -85.500  5.2500
-                                                   UNNAMED_4_CAPCERSMDCL2_I91_A
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 C49.2                          
+  DIP_SWITCH<1> pins MOVED FROM this net (to net name listed on right)
+                                 RZ2.3           -7.6400 -23.135
+                                                                     GND_SIGNAL
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FPGA_PLL_REF_CLK123_P pins MOVED FROM this net (to net name listed on right)
-                                 IC11.3          -85.500  4.7500
-                                                   UNNAMED_4_CAPCERSMDCL2_I92_A
+  DIP_SWITCH<2> pins MOVED FROM this net (to net name listed on right)
+                                 RZ2.2           -8.4400 -23.135
+                                                                     GND_SIGNAL
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  GND_SIGNAL   pins ADDED TO this existing net (pins not previously on any net)
-                                 U5.2                           
+  DIP_SWITCH<3> pins MOVED FROM this net (to net name listed on right)
+                                 RZ2.1           -9.2400 -23.135
+                                                                     GND_SIGNAL
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SATA_MRX_N   pins MOVED FROM this net (to net name listed on right)
-                                 C14.2            6.4976 114.672
-                                                                      VDD_SI57X
+  FPGA_GPIO<0> pins MOVED FROM this net (to net name listed on right)
+                                 RN1.5           -19.822 -45.108
+                                                       UNNAMED_8_CON12P_I51_A_4
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SATA_MRX_P   pins MOVED FROM this net (to net name listed on right)
-                                 C19.2           22.4266 114.672
-                                                          FPGA_PLL_REF_CLK123_P
+  FPGA_GPIO<1> pins MOVED FROM this net (to net name listed on right)
+                                 RN1.6           -19.822 -44.308
+                                                       UNNAMED_8_CON12P_I51_A_3
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SATA_SRX_N   pins MOVED FROM this net (to net name listed on right)
-                                 C15.2            9.6834 114.672
-                                                          FPGA_PLL_REF_CLK101_P
-                                 U3.D13          -7.5000 -26.500
-                                                                     SATA_SRX_P
+  FPGA_GPIO<2> pins MOVED FROM this net (to net name listed on right)
+                                 RN1.7           -19.822 -43.508
+                                                       UNNAMED_8_CON12P_I51_A_2
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SATA_SRX_P   pins MOVED FROM this net (to net name listed on right)
-                                 C21.2           28.7982 114.672
-                                                          FPGA_PLL_REF_CLK101_N
-                                 U3.C13          -8.5000 -26.500
-                                                                     SATA_SRX_N
+  FPGA_GPIO<3> pins MOVED FROM this net (to net name listed on right)
+                                 RN1.8           -19.822 -42.708
+                                                       UNNAMED_8_CON12P_I51_A_1
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SATA_STX_N   pins MOVED FROM this net (to net name listed on right)
-                                 U3.B14          -9.5000 -25.500
-                                                                     SATA_STX_P
+  FPGA_GPIO<4> pins MOVED FROM this net (to net name listed on right)
+                                 RN2.4           -34.827 -45.108
+                                                       UNNAMED_8_CON12P_I51_A_6
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FPGA_GPIO<5> pins MOVED FROM this net (to net name listed on right)
+                                 RN2.3           -34.827 -44.308
+                                                       UNNAMED_8_CON12P_I51_A_5
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_27.brd    |
-|                                                    Mon Jul 28 18:48:44 2014  |
+|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_37.brd    |
+|                                                    Fri Oct  3 09:25:33 2014  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  SATA_STX_P   pins MOVED FROM this net (to net name listed on right)
-                                 U3.A14          -10.500 -25.500
-                                                                     SATA_STX_N
+  FPGA_GPIO<6> pins MOVED FROM this net (to net name listed on right)
+                                 RN2.2           -34.827 -43.508
+                                                       UNNAMED_8_CON12P_I51_A_7
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SFP_CLK_N    pins ADDED TO this existing net (pins not previously on any net)
-                                 R78.2                          
+  FPGA_GPIO<7> pins MOVED FROM this net (to net name listed on right)
+                                 RN2.1           -34.827 -42.708
+                                                         UNNAMED_8_CON12P_I51_A
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SFP_CLK_P    pins ADDED TO this existing net (pins not previously on any net)
-                                 R78.1                          
+  GND_SIGNAL   pins MOVED FROM this net (to net name listed on right)
+                                 RZ2.5           -6.8400 -21.630
+                                                                  DIP_SWITCH<0>
+                                 RZ2.6           -7.6400 -21.630
+                                                                  DIP_SWITCH<1>
+                                 RZ2.7           -8.4400 -21.630
+                                                                  DIP_SWITCH<2>
+                                 RZ2.8           -9.2400 -21.630
+                                                                  DIP_SWITCH<3>
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SI57X_CLK_N  pins DELETED FROM this net (pin now not on any net)
-                                 QZ1.5           -84.000 53.1000
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 U5.3                           
+  UNNAMED_8_CON12P_I51_A pins MOVED FROM this net (to net name listed on right)
+                                 RN2.8           -33.322 -42.708
+                                                                   FPGA_GPIO<7>
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SI57X_CLK_P  pins MOVED FROM this net (to net name listed on right)
-                                 QZ1.4           -81.460 53.1000
-                                                UNNAMED_4_OSC8POECLKPCLKNSDASCL
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 U5.4                           
+  UNNAMED_8_CON12P_I51_A_1 pins MOVED FROM this net (to net name listed on right)
+                                 RN1.1           -21.327 -42.708
+                                                                   FPGA_GPIO<3>
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_4_CAPCERSMDCL2_I91_A pins ADDED TO this new net
-                                 C49.1                          
+  UNNAMED_8_CON12P_I51_A_2 pins MOVED FROM this net (to net name listed on right)
+                                 RN1.2           -21.327 -43.508
+                                                                   FPGA_GPIO<2>
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_4_OSC8POECLKPCLKNSDASCL pins ADDED TO this new net
-                                 U5.5                           
+  UNNAMED_8_CON12P_I51_A_3 pins MOVED FROM this net (to net name listed on right)
+                                 RN1.3           -21.327 -44.308
+                                                                   FPGA_GPIO<1>
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_7_CAPCERSMDCL2_I10_A pins MOVED FROM this net (to net name listed on right)
-                                 C19.1           21.5266 114.672
-                                                   UNNAMED_4_CAPCERSMDCL2_I92_A
-                                 J4.6            -130.36 21.4300
-                                                                     SATA_MRX_P
+  UNNAMED_8_CON12P_I51_A_4 pins MOVED FROM this net (to net name listed on right)
+                                 RN1.4           -21.327 -45.108
+                                                                   FPGA_GPIO<0>
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_7_CAPCERSMDCL2_I6_A pins MOVED FROM this net (to net name listed on right)
-                                 C15.1            8.7834 114.672
-                                                   UNNAMED_4_CAPCERSMDCL2_I89_A
-                                 J5.3            -128.05  4.6300
-                                                                     SATA_SRX_N
+  UNNAMED_8_CON12P_I51_A_5 pins MOVED FROM this net (to net name listed on right)
+                                 RN2.6           -33.322 -44.308
+                                                                   FPGA_GPIO<5>
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_7_CAPCERSMDCL2_I7_A pins MOVED FROM this net (to net name listed on right)
-                                 C21.1           27.8982 114.672
-                                                   UNNAMED_4_CAPCERSMDCL2_I90_A
-                                 J5.2            -126.78  4.6300
+  UNNAMED_8_CON12P_I51_A_6 pins MOVED FROM this net (to net name listed on right)
+                                 RN2.5           -33.322 -45.108
+                                                                   FPGA_GPIO<4>
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_27.brd    |
-|                                                    Mon Jul 28 18:48:44 2014  |
+|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_37.brd    |
+|                                                    Fri Oct  3 09:25:33 2014  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-                                                                     SATA_SRX_P
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_7_CAPCERSMDCL2_I9_A pins MOVED FROM this net (to net name listed on right)
-                                 C14.1            5.5976 114.672
-                                                                     GND_SIGNAL
-                                 J4.5            -129.09 21.4300
-                                                                     SATA_MRX_N
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_9_LT1584_I8_GND net RENAMED (to net name listed on right)           UNNAMED_9_LT1585_I8_GND 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VDD_SI57X    pins ADDED TO this existing net (pins not previously on any net)
-                                 U5.1                           
+  UNNAMED_8_CON12P_I51_A_7 pins MOVED FROM this net (to net name listed on right)
+                                 RN2.7           -33.322 -43.508
+                                                                   FPGA_GPIO<6>
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_27.brd    |
-|                                                    Mon Jul 28 18:48:44 2014  |
-|------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- LT1585_TO263-ADJ
- PC049A_FPGA
- SN65LVDS1_SOT23-5-TEXAS INSTRUA
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
-|------------------------------------------------------------------------------|
-|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_27.brd    |
-|                                                    Mon Jul 28 18:48:44 2014  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C49                 CAPCERSMDCL2_0402-100NF,16V_GEN 
- R78                 RSMD0402_1/16W-100,1% 
- U5                  SN65LVDS1_SOT23-5-TEXAS INSTRUA 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   6  |
-|------------------------------------------------------------------------------|
-|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_27.brd    |
-|                                                    Mon Jul 28 18:48:44 2014  |
-|------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C51                 CAPCERSMDCL2_0805-22UF,6.3V 33.7960 116.125 CAPCERSMDCL2_0603-22UF,4V
- C52                 CAPCERSMDCL2_0805-22UF,6.3V 37.3042 116.125 CAPCERSMDCL2_0603-22UF,4V
- C53                 CAPCERSMDCL2_0805-22UF,6.3V 40.8124 116.125 CAPCERSMDCL2_0603-22UF,4V
- C54                 CAPCERSMDCL2_0805-22UF,6.3V 44.3206 116.125 CAPCERSMDCL2_0603-22UF,4V
- C55                 CAPCERSMDCL2_0805-22UF,6.3V 47.8288 116.125 CAPCERSMDCL2_0603-22UF,4V
- C65                 CAPCERSMDCL2_0805-22UF,6.3V 51.3370 116.125 CAPCERSMDCL2_0603-22UF,4V
- C67                 CAPCERSMDCL2_0805-22UF,6.3V -52.941 118.071 CAPCERSMDCL2_0603-22UF,4V
- R18                 RSMD0603_1/10W-XX,1%  -38.909 114.179 RSMD0603_-00,
- R19                 RSMD0603_1/10W-XX,1%  -35.400 114.179 RSMD0603_-00,
- R22                 RSMD0603_1/10W-XX,1%  -24.876 114.179 RSMD0603_-00,
- R23                 RSMD0603_1/10W-XX,1%  -21.368 114.179 RSMD0603_-00,
- R24                 RSMD0603_1/10W-XX,1%  -17.859 114.179 RSMD0603_-00,
- R14_1               RSMD0402_1/16W-100,1% -9.2325 36.6813 RSMD0402_1/16W-100,0.1%_GEN
- R17_1               RSMD0402_1/16W-100,1% 10.7500 33.7135 RSMD0402_1/16W-100,0.1%_GEN
- REG3                LT1585_TO263-ADJ      -109.00 -110.00 LT1584_TO263-ADJ
- RN1                 R4ISMD_1206-150       -114.00 -40.000 RES_ARRAY_X4_1206_TC164-150,1%
- RN2                 R4ISMD_1206-150       -113.00 -34.000 RES_ARRAY_X4_1206_TC164-150,1%
- U3                  PC049A_FPGA            0.0000 -28.000 PC049A_FPGA
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   7  |
-|------------------------------------------------------------------------------|
-|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_27.brd    |
-|                                                    Mon Jul 28 18:48:44 2014  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C49.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C49.2                          SIZE           1
- C51.2          33.7960 116.125 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C51.2          33.7960 116.125 SIZE           1
- C52.2          37.3042 116.125 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C52.2          37.3042 116.125 SIZE           1
- C53.2          40.8124 116.125 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C53.2          40.8124 116.125 SIZE           1
- C54.2          44.3206 116.125 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C54.2          44.3206 116.125 SIZE           1
- C55.2          47.8288 116.125 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C55.2          47.8288 116.125 SIZE           1
- C65.2          51.3370 116.125 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C65.2          51.3370 116.125 SIZE           1
- C67.2          -52.941 118.071 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C67.2          -52.941 118.071 SIZE           1
- R18.2          -38.909 114.179 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
- R18.2          -38.909 114.179 SIZE           1
- R19.2          -35.400 114.179 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
- R19.2          -35.400 114.179 SIZE           1
- R22.2          -24.876 114.179 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
- R22.2          -24.876 114.179 SIZE           1
- R23.2          -21.368 114.179 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
- R23.2          -21.368 114.179 SIZE           1
- R24.2          -17.859 114.179 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
- R24.2          -17.859 114.179 SIZE           1
- R78.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R78.2                          SIZE           1
- R14_1.2        -9.2325 36.6813 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R14_1.2        -9.2325 36.6813 SIZE           1
- R17_1.2        10.7500 33.7135 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R17_1.2        10.7500 33.7135 SIZE           1
- REG3.4         -109.00 -110.00 PRIM_FILE      /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_analogue/lt1585/chips/chips.prt
- RN1.5          -114.00 -40.000 HAS_FIXED_SIZE 4
- RN1.5          -114.00 -40.000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/r4ismd/chips/chips.prt
- RN1.5          -114.00 -40.000 SIZE           4
- RN1.5          -114.00 -40.000 SWAP_GROUP     @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I49@CNPASSIVE.R4ISMD(CHIPS)
- RN1.6          -114.00 -40.000 HAS_FIXED_SIZE 4
- RN1.6          -114.00 -40.000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/r4ismd/chips/chips.prt
- RN1.6          -114.00 -40.000 SIZE           4
- RN1.6          -114.00 -40.000 SWAP_GROUP     @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I49@CNPASSIVE.R4ISMD(CHIPS)
- RN1.7          -114.00 -40.000 HAS_FIXED_SIZE 4
- RN1.7          -114.00 -40.000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/r4ismd/chips/chips.prt
- RN1.7          -114.00 -40.000 SIZE           4
- RN1.7          -114.00 -40.000 SWAP_GROUP     @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I49@CNPASSIVE.R4ISMD(CHIPS)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   8  |
-|------------------------------------------------------------------------------|
-|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_27.brd    |
-|                                                    Mon Jul 28 18:48:44 2014  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- RN1.8          -114.00 -40.000 HAS_FIXED_SIZE 4
- RN1.8          -114.00 -40.000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/r4ismd/chips/chips.prt
- RN1.8          -114.00 -40.000 SIZE           4
- RN1.8          -114.00 -40.000 SWAP_GROUP     @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I49@CNPASSIVE.R4ISMD(CHIPS)
- RN2.5          -113.00 -34.000 HAS_FIXED_SIZE 4
- RN2.5          -113.00 -34.000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/r4ismd/chips/chips.prt
- RN2.5          -113.00 -34.000 SIZE           4
- RN2.5          -113.00 -34.000 SWAP_GROUP     @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I50@CNPASSIVE.R4ISMD(CHIPS)
- RN2.6          -113.00 -34.000 HAS_FIXED_SIZE 4
- RN2.6          -113.00 -34.000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/r4ismd/chips/chips.prt
- RN2.6          -113.00 -34.000 SIZE           4
- RN2.6          -113.00 -34.000 SWAP_GROUP     @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I50@CNPASSIVE.R4ISMD(CHIPS)
- RN2.7          -113.00 -34.000 HAS_FIXED_SIZE 4
- RN2.7          -113.00 -34.000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/r4ismd/chips/chips.prt
- RN2.7          -113.00 -34.000 SIZE           4
- RN2.7          -113.00 -34.000 SWAP_GROUP     @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I50@CNPASSIVE.R4ISMD(CHIPS)
- RN2.8          -113.00 -34.000 HAS_FIXED_SIZE 4
- RN2.8          -113.00 -34.000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/r4ismd/chips/chips.prt
- RN2.8          -113.00 -34.000 SIZE           4
- RN2.8          -113.00 -34.000 SWAP_GROUP     @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I50@CNPASSIVE.R4ISMD(CHIPS)
- U3.D20          0.0000 -28.000 PRIM_FILE      ./worklib/pc049a_fpga/chips/chips.prt
- U3.L6           0.0000 -28.000 PRIM_FILE      ./worklib/pc049a_fpga/chips/chips.prt
- U3.P2           0.0000 -28.000 PRIM_FILE      ./worklib/pc049a_fpga/chips/chips.prt
- U3.T5           0.0000 -28.000 PRIM_FILE      ./worklib/pc049a_fpga/chips/chips.prt
- U3.U17          0.0000 -28.000 PRIM_FILE      ./worklib/pc049a_fpga/chips/chips.prt
- U3.W9           0.0000 -28.000 PRIM_FILE      ./worklib/pc049a_fpga/chips/chips.prt
- U3.W17          0.0000 -28.000 PRIM_FILE      ./worklib/pc049a_fpga/chips/chips.prt
- U3.Y3           0.0000 -28.000 PRIM_FILE      ./worklib/pc049a_fpga/chips/chips.prt
- U5.3                           PRIM_FILE      /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_logic/sn65lvds1/chips/chips.prt
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   9  |
-|------------------------------------------------------------------------------|
-|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_27.brd    |
-|                                                    Mon Jul 28 18:48:44 2014  |
+|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_37.brd    |
+|                                                    Fri Oct  3 09:25:33 2014  |
 |------------------------------------------------------------------------------|
 | PIN PROPERTIES added to design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    pin_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C49.1                          CDS_PINID      A(0)
- C49.2                          CDS_PINID      B(0)
- C51.1          32.8960 116.125 CDS_PINID      A(0)
- C51.2          34.6960 116.125 CDS_PINID      B(0)
- C52.1          36.4042 116.125 CDS_PINID      A(0)
- C52.2          38.2042 116.125 CDS_PINID      B(0)
- C53.1          39.9124 116.125 CDS_PINID      A(0)
- C53.2          41.7124 116.125 CDS_PINID      B(0)
- C54.1          43.4206 116.125 CDS_PINID      A(0)
- C54.2          45.2206 116.125 CDS_PINID      B(0)
- C55.1          46.9288 116.125 CDS_PINID      A(0)
- C55.2          48.7288 116.125 CDS_PINID      B(0)
- C65.1          50.4370 116.125 CDS_PINID      A(0)
- C65.2          52.2370 116.125 CDS_PINID      B(0)
- C67.1          -53.841 118.071 CDS_PINID      A(0)
- C67.2          -52.041 118.071 CDS_PINID      B(0)
- R78.1                          CDS_PINID      A(0)
- R78.2                          CDS_PINID      B(0)
- RN1.1          -114.00 -40.000 CDS_PINID      A(0)
- RN1.2          -113.20 -40.000 CDS_PINID      A(1)
- RN1.3          -112.40 -40.000 CDS_PINID      A(2)
- RN1.4          -111.60 -40.000 CDS_PINID      A(3)
- RN1.5          -111.60 -38.495 CDS_PINID      B(3)
- RN1.6          -112.40 -38.495 CDS_PINID      B(2)
- RN1.7          -113.20 -38.495 CDS_PINID      B(1)
- RN1.8          -114.00 -38.495 CDS_PINID      B(0)
- RN2.1          -113.00 -34.000 CDS_PINID      A(0)
- RN2.2          -112.20 -34.000 CDS_PINID      A(1)
- RN2.3          -111.40 -34.000 CDS_PINID      A(2)
- RN2.4          -110.60 -34.000 CDS_PINID      A(3)
- RN2.5          -110.60 -32.495 CDS_PINID      B(3)
- RN2.6          -111.40 -32.495 CDS_PINID      B(2)
- RN2.7          -112.20 -32.495 CDS_PINID      B(1)
- RN2.8          -113.00 -32.495 CDS_PINID      B(0)
- U3.A14         -10.500 -25.500 CDS_PINID      SATA_TXN_O(0)
- U3.B14         -9.5000 -25.500 CDS_PINID      SATA_TXP_O(0)
- U3.C13         -8.5000 -26.500 CDS_PINID      SATA_RXN_I(0)
- U3.D13         -7.5000 -26.500 CDS_PINID      SATA_RXP_I(0)
- U5.1                           CDS_PINID      VCC
- U5.2                           CDS_PINID      GND
- U5.3                           CDS_PINID      Z
- U5.4                           CDS_PINID      Y
- U5.5                           CDS_PINID      D
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  10  |
+ RN1.1          -21.327 -42.708 CDS_PINID      A(0)
+ RN1.2          -21.327 -43.508 CDS_PINID      A(1)
+ RN1.3          -21.327 -44.308 CDS_PINID      A(2)
+ RN1.4          -21.327 -45.108 CDS_PINID      A(3)
+ RN1.5          -19.822 -45.108 CDS_PINID      B(3)
+ RN1.6          -19.822 -44.308 CDS_PINID      B(2)
+ RN1.7          -19.822 -43.508 CDS_PINID      B(1)
+ RN1.8          -19.822 -42.708 CDS_PINID      B(0)
+ RN2.1          -34.827 -42.708 CDS_PINID      A(0)
+ RN2.2          -34.827 -43.508 CDS_PINID      A(1)
+ RN2.3          -34.827 -44.308 CDS_PINID      A(2)
+ RN2.4          -34.827 -45.108 CDS_PINID      A(3)
+ RN2.5          -33.322 -45.108 CDS_PINID      B(3)
+ RN2.6          -33.322 -44.308 CDS_PINID      B(2)
+ RN2.7          -33.322 -43.508 CDS_PINID      B(1)
+ RN2.8          -33.322 -42.708 CDS_PINID      B(0)
+ RZ2.1          -9.2400 -23.135 CDS_PINID      A(0)
+ RZ2.2          -8.4400 -23.135 CDS_PINID      A(1)
+ RZ2.3          -7.6400 -23.135 CDS_PINID      A(2)
+ RZ2.4          -6.8400 -23.135 CDS_PINID      A(3)
+ RZ2.5          -6.8400 -21.630 CDS_PINID      B(3)
+ RZ2.6          -7.6400 -21.630 CDS_PINID      B(2)
+ RZ2.7          -8.4400 -21.630 CDS_PINID      B(1)
+ RZ2.8          -9.2400 -21.630 CDS_PINID      B(0)
 |------------------------------------------------------------------------------|
-|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_27.brd    |
-|                                                    Mon Jul 28 18:48:44 2014  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|------------------------------------------------------------------------------|
-|   total ECO changes reported  173                                            |
+|   total ECO changes reported  50                                             |
 |------------------------------------------------------------------------------|

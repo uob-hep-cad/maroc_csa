@@ -6,7 +6,7 @@
     Packager-XL 16.6-S013 (v16-6-112AL) lnx86 7/1/2013 12:00:00 IST
     (C) Copyright 1994, Cadence Design Systems, Inc.
 
-    Run on Mon Jul 28 20:45:38 2014
+    Run on Fri Oct  3 09:32:12 2014
 
 
  **********************************************
@@ -55,7 +55,7 @@
                      =  >  0  1  2  3  4  5  6  7  8  9
     NET_NAME_LENGTH 31
     NUM_OLD_VERSIONS 3
-    OPTIMIZE ON
+    OPTIMIZE OFF
     REUSE_REFDES ON
     OPF_OPTIMIZATION OFF
     HARD_LOC_SEC OFF
@@ -300,22 +300,12 @@ root design.
  *  End packaging  (00:00:00)  *
  *******************************
 
-
- ****************************
- *  Starting optimization.  *
- ****************************
-
-
- ***********************************
- *  End optimization.  (00:00:00)  *
- ***********************************
-
 INFO(SPCOPK-1442): No errors detected
 INFO(SPCOPK-1443): 1 warnings detected
 INFO(SPCOPK-1448): Use Tools->Markers->Packager in ConceptHDL to highlight ins~
 tances for the errors/warnings reported.
-    Start time   20:45:38
-    End time     20:45:45
+    Start time    9:32:12
+    End time      9:32:19
     CPU time      0:00:05
     Elapsed time  0:00:07
 

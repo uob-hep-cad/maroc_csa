@@ -10,6 +10,24 @@
 #CELL
   cnpassive capcersmdcl1 *
   page9_i101
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i102
+#CELL
+  bris_cds_connectors 1-hole *
+  page9_i103
+#CELL
+  bris_cds_connectors 1-hole *
+  page9_i104
+#CELL
+  bris_cds_connectors 1-hole *
+  page9_i105
+#CELL
+  bris_cds_connectors 1-hole *
+  page9_i106
+#CELL
+  bris_cds_connectors 1-hole *
+  page9_i107
 #ISCELL
   cnpower p2v5 *
   page9_i11

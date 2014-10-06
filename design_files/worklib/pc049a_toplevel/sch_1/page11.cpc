@@ -241,3 +241,6 @@
 #CELL
   cnpassive rsmd0603 *
   page10_i94
+#CELL
+  bris_cds_connectors 1-hole *
+  page10_i95

@@ -18,9 +18,6 @@ IC6              DS90LV001TM-GND=GND_SIGNAL,VCCA
 IC7              DS90LV001TM-GND=GND_SIGNAL,VCCA 
                         GND_SIGNAL P3V3     
                         1        5        
-IC8              MC100EP05DG-VCC=PV3V,VEE=GND_SA 
-                        GND_SIGNAL PV3V     
-                        5        8        
 IC9              AD5662BRMZ-1-GND=GND_SIGNAL,VDA 
                         GND_SIGNAL P3V3A    
                         8        1        
@@ -44,18 +41,6 @@ J1               CON150P-QTS75_03FDA-P1=GND_SIGA
                         160      
                         161      
                         162      
-J4               CON7P-47082-1000-GND=GND_SIGNAL 
-                        GND_SIGNAL 
-                        8        
-                        9        
-                        10       
-                        11       
-J5               CON7P-47082-1000-GND=GND_SIGNAL 
-                        GND_SIGNAL 
-                        8        
-                        9        
-                        10       
-                        11       
 QZ1              570CAC000121DG-GND=GND_SIGNAL,A 
                         GND_SIGNAL VDD_SI57X 
                         3        6        

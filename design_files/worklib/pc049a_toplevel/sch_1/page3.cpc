@@ -220,6 +220,12 @@
 #CELL
   uob_hep_pc049a_lib pc049a_fpga *
   page3_i77
+#CELL
+  cnpassive rsmd0805 *
+  page3_i78
+#CELL
+  cnpassive rsmd0805 *
+  page3_i79
 #ISCELL
   standard tap *
   page3_i8

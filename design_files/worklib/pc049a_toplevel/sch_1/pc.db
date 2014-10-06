@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.6-S014 (v16-6-112AQ) 7/29/2013 on Mon Jul 28 20:44:00 2014
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.6-S014 (v16-6-112AQ) 7/29/2013 on Fri Oct  3 09:21:28 2014
 #ISCELL
   bris_cds_standard a3-2000 *
   *
@@ -434,6 +434,12 @@
 #CELL
   uob_hep_pc049a_lib pc049a_fpga *
   page3_i77
+#CELL
+  cnpassive rsmd0805 *
+  page3_i78
+#CELL
+  cnpassive rsmd0805 *
+  page3_i79
 #ISCELL
   standard tap *
   page3_i8
@@ -1224,6 +1230,9 @@
   standard gnd_signal *
   page8_i117
 #ISCELL
+  cnpower p3v3 *
+  page8_i118
+#ISCELL
   standard gnd_signal *
   page8_i3
 #CELL
@@ -1286,9 +1295,6 @@
 #CELL
   cnpassive rsmd0603 *
   page8_i63
-#ISCELL
-  cnpower avdd *
-  page8_i64
 #ISCELL
   standard tap *
   page8_i65
@@ -1406,6 +1412,24 @@
 #CELL
   cnpassive capcersmdcl1 *
   page9_i101
+#CELL
+  cnpassive capcersmdcl2 *
+  page9_i102
+#CELL
+  bris_cds_connectors 1-hole *
+  page9_i103
+#CELL
+  bris_cds_connectors 1-hole *
+  page9_i104
+#CELL
+  bris_cds_connectors 1-hole *
+  page9_i105
+#CELL
+  bris_cds_connectors 1-hole *
+  page9_i106
+#CELL
+  bris_cds_connectors 1-hole *
+  page9_i107
 #ISCELL
   cnpower p2v5 *
   page9_i11
@@ -1709,6 +1733,18 @@
 #CELL
   bris_cds_analogue lp38692 *
   page11_i115
+#ISCELL
+  standard gnd_signal *
+  page11_i116
+#CELL
+  bris_cds_connectors 1-hole *
+  page11_i117
+#CELL
+  bris_cds_connectors 1-hole *
+  page11_i118
+#CELL
+  bris_cds_connectors 1-hole *
+  page11_i119
 #CELL
   cnpassive capcersmdcl2 *
   page11_i57
@@ -2057,3 +2093,6 @@
 #CELL
   cnpassive rsmd0603 *
   page10_i94
+#CELL
+  bris_cds_connectors 1-hole *
+  page10_i95

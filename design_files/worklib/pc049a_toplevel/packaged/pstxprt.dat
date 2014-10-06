@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 28-Jul-2014 AT 20:45:38 }
+{ Packager-XL run on 03-Oct-2014 AT 09:32:12 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PC049A_TOPLEVEL';
- POST_TIME='28-Jul-2014 AT 20:45:38';
+ POST_TIME='03-Oct-2014 AT 09:32:12';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -4165,6 +4165,30 @@ dcl2(chips)',
 bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
 
 PART_NAME
+ C101 'CAPCERSMDCL2_0402-1UF,16V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE9_I102@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page9_i102@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page9_i102@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I102',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE9',
+ SIZE='1',
+ PHYS_PAGE='9',
+ XY='(5200,-25)',
+ ROT='1',
+ VER='1',
+ VALUE='1UF',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-1UF,16V',
+ VOLTAGE='16V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
  C103 'CAPCERSMDCL2_0603-100NF,16V':;
 
 SECTION_NUMBER 1
@@ -6757,6 +6781,29 @@ ps)',
 bs/pe16/pe_cern_lib/cndiscrete/led/chips/chips.prt';
 
 PART_NAME
+ LK1 '1-HOLE_0-8-BASE':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE9_I103@BRIS_CDS_CONNECTORS.1-HOLE(CHIPS)':
+ C_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page9_i103@bris_cds_connecto~
+rs.\1-hole\(chips)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page9_i103@bris_cds_connecto~
+rs.\1-hole\(chips)',
+ PATH='I103',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE9',
+ SIZE='1',
+ NO_LIST='TRUE',
+ PHYS_PAGE='9',
+ XY='(2775,2850)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='0-8',
+ CDS_LIB='bris_cds_connectors',
+ CDS_PART_NAME='1-HOLE_0-8-BASE',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_connec~
+tors/1#2dhole/chips/chips.prt';
+
+PART_NAME
  LK1_1 '1-HOLE_0-8-BASE':
  REUSE_INSTANCE='PC043C_SINGLE_MAROC_1',
  REUSE_NAME='PC043C_SINGLE_MAROC',
@@ -6786,6 +6833,29 @@ tors/1#2dhole/chips/chips.prt',
  SUBDESIGN_NAME='PC043C_SINGLE_MAROC',
  REUSE_INSTANCE='PC043C_SINGLE_MAROC_1',
  REUSE_NAME='PC043C_SINGLE_MAROC';
+
+PART_NAME
+ LK2 '1-HOLE_0-8-BASE':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE9_I104@BRIS_CDS_CONNECTORS.1-HOLE(CHIPS)':
+ C_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page9_i104@bris_cds_connecto~
+rs.\1-hole\(chips)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page9_i104@bris_cds_connecto~
+rs.\1-hole\(chips)',
+ PATH='I104',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE9',
+ SIZE='1',
+ NO_LIST='TRUE',
+ PHYS_PAGE='9',
+ XY='(2800,975)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='0-8',
+ CDS_LIB='bris_cds_connectors',
+ CDS_PART_NAME='1-HOLE_0-8-BASE',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_connec~
+tors/1#2dhole/chips/chips.prt';
 
 PART_NAME
  LK2_1 '1-HOLE_0-8-BASE':
@@ -6819,6 +6889,29 @@ tors/1#2dhole/chips/chips.prt',
  REUSE_NAME='PC043C_SINGLE_MAROC';
 
 PART_NAME
+ LK3 '1-HOLE_0-8-BASE':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE9_I106@BRIS_CDS_CONNECTORS.1-HOLE(CHIPS)':
+ C_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page9_i106@bris_cds_connecto~
+rs.\1-hole\(chips)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page9_i106@bris_cds_connecto~
+rs.\1-hole\(chips)',
+ PATH='I106',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE9',
+ SIZE='1',
+ NO_LIST='TRUE',
+ PHYS_PAGE='9',
+ XY='(5300,650)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='0-8',
+ CDS_LIB='bris_cds_connectors',
+ CDS_PART_NAME='1-HOLE_0-8-BASE',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_connec~
+tors/1#2dhole/chips/chips.prt';
+
+PART_NAME
  LK3_1 '1-HOLE_0-8-BASE':
  REUSE_INSTANCE='PC043C_SINGLE_MAROC_1',
  REUSE_NAME='PC043C_SINGLE_MAROC',
@@ -6848,6 +6941,29 @@ tors/1#2dhole/chips/chips.prt',
  SUBDESIGN_NAME='PC043C_SINGLE_MAROC',
  REUSE_INSTANCE='PC043C_SINGLE_MAROC_1',
  REUSE_NAME='PC043C_SINGLE_MAROC';
+
+PART_NAME
+ LK4 '1-HOLE_0-8-BASE':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE9_I105@BRIS_CDS_CONNECTORS.1-HOLE(CHIPS)':
+ C_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page9_i105@bris_cds_connecto~
+rs.\1-hole\(chips)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page9_i105@bris_cds_connecto~
+rs.\1-hole\(chips)',
+ PATH='I105',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE9',
+ SIZE='1',
+ NO_LIST='TRUE',
+ PHYS_PAGE='9',
+ XY='(5575,2625)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='0-8',
+ CDS_LIB='bris_cds_connectors',
+ CDS_PART_NAME='1-HOLE_0-8-BASE',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_connec~
+tors/1#2dhole/chips/chips.prt';
 
 PART_NAME
  LK4_1 '1-HOLE_0-8-BASE':
@@ -6881,6 +6997,29 @@ tors/1#2dhole/chips/chips.prt',
  REUSE_NAME='PC043C_SINGLE_MAROC';
 
 PART_NAME
+ LK5 '1-HOLE_0-8-BASE':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE9_I107@BRIS_CDS_CONNECTORS.1-HOLE(CHIPS)':
+ C_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page9_i107@bris_cds_connecto~
+rs.\1-hole\(chips)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page9_i107@bris_cds_connecto~
+rs.\1-hole\(chips)',
+ PATH='I107',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE9',
+ SIZE='1',
+ NO_LIST='TRUE',
+ PHYS_PAGE='9',
+ XY='(5675,0)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='0-8',
+ CDS_LIB='bris_cds_connectors',
+ CDS_PART_NAME='1-HOLE_0-8-BASE',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_connec~
+tors/1#2dhole/chips/chips.prt';
+
+PART_NAME
  LK5_1 '1-HOLE_0-8-BASE':
  REUSE_INSTANCE='PC043C_SINGLE_MAROC_1',
  REUSE_NAME='PC043C_SINGLE_MAROC',
@@ -6910,6 +7049,29 @@ tors/1#2dhole/chips/chips.prt',
  SUBDESIGN_NAME='PC043C_SINGLE_MAROC',
  REUSE_INSTANCE='PC043C_SINGLE_MAROC_1',
  REUSE_NAME='PC043C_SINGLE_MAROC';
+
+PART_NAME
+ LK6 '1-HOLE_0-8-BASE':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE10_I95@BRIS_CDS_CONNECTORS.1-HOLE(CHIPS)':
+ C_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page10_i95@bris_cds_connecto~
+rs.\1-hole\(chips)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page11_i95@bris_cds_connecto~
+rs.\1-hole\(chips)',
+ PATH='I95',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE10',
+ SIZE='1',
+ NO_LIST='TRUE',
+ PHYS_PAGE='11',
+ XY='(5250,2650)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='0-8',
+ CDS_LIB='bris_cds_connectors',
+ CDS_PART_NAME='1-HOLE_0-8-BASE',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_connec~
+tors/1#2dhole/chips/chips.prt';
 
 PART_NAME
  LK6_1 '1-HOLE_0-8-BASE':
@@ -6943,6 +7105,29 @@ tors/1#2dhole/chips/chips.prt',
  REUSE_NAME='PC043C_SINGLE_MAROC';
 
 PART_NAME
+ LK7 '1-HOLE_0-8-BASE':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE11_I117@BRIS_CDS_CONNECTORS.1-HOLE(CHIPS)':
+ C_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page11_i117@bris_cds_connect~
+ors.\1-hole\(chips)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page10_i117@bris_cds_connect~
+ors.\1-hole\(chips)',
+ PATH='I117',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ NO_LIST='TRUE',
+ PHYS_PAGE='10',
+ XY='(5250,2425)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='0-8',
+ CDS_LIB='bris_cds_connectors',
+ CDS_PART_NAME='1-HOLE_0-8-BASE',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_connec~
+tors/1#2dhole/chips/chips.prt';
+
+PART_NAME
  LK7_1 '1-HOLE_0-8-BASE':
  REUSE_INSTANCE='PC043C_SINGLE_MAROC_1',
  REUSE_NAME='PC043C_SINGLE_MAROC',
@@ -6974,6 +7159,29 @@ tors/1#2dhole/chips/chips.prt',
  REUSE_NAME='PC043C_SINGLE_MAROC';
 
 PART_NAME
+ LK8 '1-HOLE_0-8-BASE':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE11_I118@BRIS_CDS_CONNECTORS.1-HOLE(CHIPS)':
+ C_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page11_i118@bris_cds_connect~
+ors.\1-hole\(chips)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page10_i118@bris_cds_connect~
+ors.\1-hole\(chips)',
+ PATH='I118',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ NO_LIST='TRUE',
+ PHYS_PAGE='10',
+ XY='(6025,725)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='0-8',
+ CDS_LIB='bris_cds_connectors',
+ CDS_PART_NAME='1-HOLE_0-8-BASE',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_connec~
+tors/1#2dhole/chips/chips.prt';
+
+PART_NAME
  LK8_1 '1-HOLE_0-8-BASE':
  REUSE_INSTANCE='PC043C_SINGLE_MAROC_1',
  REUSE_NAME='PC043C_SINGLE_MAROC',
@@ -7003,6 +7211,29 @@ tors/1#2dhole/chips/chips.prt',
  SUBDESIGN_NAME='PC043C_SINGLE_MAROC',
  REUSE_INSTANCE='PC043C_SINGLE_MAROC_1',
  REUSE_NAME='PC043C_SINGLE_MAROC';
+
+PART_NAME
+ LK9 '1-HOLE_0-8-BASE':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE11_I119@BRIS_CDS_CONNECTORS.1-HOLE(CHIPS)':
+ C_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page11_i119@bris_cds_connect~
+ors.\1-hole\(chips)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page10_i119@bris_cds_connect~
+ors.\1-hole\(chips)',
+ PATH='I119',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ NO_LIST='TRUE',
+ PHYS_PAGE='10',
+ XY='(6625,300)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='0-8',
+ CDS_LIB='bris_cds_connectors',
+ CDS_PART_NAME='1-HOLE_0-8-BASE',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_connec~
+tors/1#2dhole/chips/chips.prt';
 
 PART_NAME
  LK9_1 '1-HOLE_0-8-BASE':
@@ -12892,8 +13123,8 @@ SECTION_NUMBER 1
  MAX_TEMP='RTMAX',
  DIST='FLAT',
  PHYS_PAGE='10',
- XY='(5425,225)',
- ROT='0',
+ XY='(5725,75)',
+ ROT='1',
  VER='2',
  VALUE='36K',
  PACK_TYPE='1/10W',
@@ -13243,6 +13474,74 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
 bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R79 'RSMD0805_-00,':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I78@CNPASSIVE.RSMD0805(CHIPS)':
+ C_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page3_i78@cnpassive.rsmd0805~
+(chips)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page3_i78@cnpassive.rsmd0805~
+(chips)',
+ PATH='I78',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(700,0)',
+ ROT='1',
+ VER='2',
+ VALUE='00',
+ PACK_TYPE='',
+ TOL='',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0805_-00,',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0805/chips/chips.prt';
+
+PART_NAME
+ R80 'RSMD0805_-00,':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3_I79@CNPASSIVE.RSMD0805(CHIPS)':
+ C_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page3_i79@cnpassive.rsmd0805~
+(chips)',
+ P_PATH='@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page3_i79@cnpassive.rsmd0805~
+(chips)',
+ PATH='I79',
+ DRAWING='@UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(2950,3100)',
+ ROT='1',
+ VER='2',
+ VALUE='00',
+ PACK_TYPE='',
+ TOL='',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0805_-00,',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0805/chips/chips.prt';
 
 PART_NAME
  REG1 'LT1585_TO263-3V3':;

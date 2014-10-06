@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 28-Jul-2014 AT 13:20:44 }
+{ Packager-XL run on 03-Oct-2014 AT 09:25:18 }
 primitive '1-HOLE_0-8-BASE';
   pin
     'A'<0>:
@@ -336,92 +336,6 @@ primitive 'CAPCERSMDCL1_0603-100PF,50V';
       PARENT_PPT_PART='CAPCERSMDCL1_0603-100PF,50V';
   end_body;
 end_primitive;
-primitive 'CAPCERSMDCL1_0603-220PF,50V';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='CAPCERSMDCL1';
-      BODY_NAME='CAPCERSMDCL1';
-      UNKNOWN_LOADING='TRUE';
-      NO_LOAD_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-      STATUS='Preferred';
-      PART_NUMBER='CC0603_220PF_50V_5%_NP0';
-      MANUFACTURER='GENERIC';
-      DESCRIPTION='SMD Ceramic Capacitor - Class1 NP0/COG';
-      DATASHEET_URL='';
-      SMD='YES';
-      CASE='0603';
-      JEDEC_TYPE='C0603';
-      VALUE='220pF';
-      VOLT='50V';
-      TOL='5%';
-      PARENT_PART_TYPE='CAPCERSMDCL1_0603';
-      PARENT_PPT='CAPCERSMDCL1';
-      PARENT_PPT_PART='CAPCERSMDCL1_0603-220PF,50V';
-  end_body;
-end_primitive;
-primitive 'CAPCERSMDCL1_0603-56PF,50V';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='CAPCERSMDCL1';
-      BODY_NAME='CAPCERSMDCL1';
-      UNKNOWN_LOADING='TRUE';
-      NO_LOAD_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-      STATUS='Preferred';
-      PART_NUMBER='CC0603_56PF_50V_5%_NP0';
-      MANUFACTURER='GENERIC';
-      DESCRIPTION='SMD Ceramic Capacitor - Class1 NP0/COG';
-      DATASHEET_URL='';
-      SMD='YES';
-      CASE='0603';
-      JEDEC_TYPE='C0603';
-      VALUE='56pF';
-      VOLT='50V';
-      TOL='5%';
-      PARENT_PART_TYPE='CAPCERSMDCL1_0603';
-      PARENT_PPT='CAPCERSMDCL1';
-      PARENT_PPT_PART='CAPCERSMDCL1_0603-56PF,50V';
-  end_body;
-end_primitive;
 primitive 'CAPCERSMDCL2_0402-100NF,16V_GEN';
   pin
     'A'<0>:
@@ -549,6 +463,49 @@ primitive 'CAPCERSMDCL2_0402-1UF,16V';
       PARENT_PART_TYPE='CAPCERSMDCL2_0402';
       PARENT_PPT='CAPCERSMDCL2';
       PARENT_PPT_PART='CAPCERSMDCL2_0402-1UF,16V';
+  end_body;
+end_primitive;
+primitive 'CAPCERSMDCL2_0402-2.2UF,6.3V';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='CAPCERSMDCL2';
+      BODY_NAME='CAPCERSMDCL2';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      STATUS='Preferred';
+      PART_NUMBER='CC0402_2UF2_6V3_20%_X5R';
+      MANUFACTURER='GENERIC';
+      DESCRIPTION='SMD X5R Ceramic Capacitor';
+      DATASHEET_URL='';
+      SMD='YES';
+      CASE='0402';
+      JEDEC_TYPE='C0402';
+      VALUE='2.2uF';
+      VOLT='6.3V';
+      TOL='20%';
+      PARENT_PART_TYPE='CAPCERSMDCL2_0402';
+      PARENT_PPT='CAPCERSMDCL2';
+      PARENT_PPT_PART='CAPCERSMDCL2_0402-2.2UF,6.3V';
   end_body;
 end_primitive;
 primitive 'CAPCERSMDCL2_0402-4.7UF,4V';
@@ -2080,55 +2037,6 @@ f';
       PARENT_PPT_PART='CON6P-SSW-103-01-G-D';
   end_body;
 end_primitive;
-primitive 'CON7P-47082-1000-GND=GND_SIGNAL';
-  pin
-    'A'<6>:
-      PIN_NUMBER='(7)';
-      PINUSE='UNSPEC';
-    'A'<5>:
-      PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
-    'A'<4>:
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    'A'<3>:
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'A'<2>:
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'A'<1>:
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PART_NAME='CON7P';
-      BODY_NAME='CON7P';
-      NO_IO_CHECK='TRUE';
-      NO_LOAD_CHECK='TRUE';
-      UNKNOWN_LOADING='TRUE';
-      FAMILY='CONNECTOR';
-      ALLOW_CONNECT='TRUE';
-      SIZE='1';
-      PHYS_DES_PREFIX='J';
-      CLASS='IO';
-      JEDEC_TYPE='MOLEX_47082-001';
-      PINCOUNT='11';
-      PART_NUMBER='47082-1000';
-      MANUFACTURER='MOLEX';
-      DESCRIPTION='External SATA Receptacle SMT with Shell';
-      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/molex_47082.p~
-df';
-      POWER_PINS='(GND_SIGNAL:8,9,10,11)';
-      PARENT_PART_TYPE='CON7P';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='CON7P';
-      PARENT_PPT_PART='CON7P-47082-1000';
-  end_body;
-end_primitive;
 primitive 'CONABC96-09 03 196 6921';
   pin
     'C'<9>:
@@ -3264,88 +3172,43 @@ primitive 'LM4040-CIM3-2.5V,0.5%';
       PARENT_PPT_PART='LM4040-CIM3-2.5V,0.5%';
   end_body;
 end_primitive;
-primitive 'LP3874_ADJ_SOT223';
+primitive 'LP38692_SOT223-ADJ,TEXAS INSTRA';
   pin
-    'VIN':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      UNKNOWN_LOADING='TRUE';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'VOUT':
+    'OUT':
       PIN_NUMBER='(3)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      UNKNOWN_LOADING='TRUE';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'SD*':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      UNKNOWN_LOADING='TRUE';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'ADJ':
+      OUTPUT_LOAD='(*,*)';
+      PINUSE='OUT';
+    'IN':
       PIN_NUMBER='(4)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      UNKNOWN_LOADING='TRUE';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
+      INPUT_LOAD='(*,*)';
+      PINUSE='IN';
     'GND':
       PIN_NUMBER='(5)';
-      PINUSE='POWER';
-  end_pin;
-  body
-      CLASS='IC';
-      PART_NAME='LP3874_ADJ';
-      BODY_NAME='LP3874_ADJ';
-      JEDEC_TYPE='SOT223_5';
-      PART_NUMBER='LP3874EMP-ADJ';
-      MANUFACTURER='NATIONAL';
-      PHYS_DES_PREFIX='IC';
-      DESCRIPTION='0.8A FAST ULTRA LOW DROPOUT LINEAR REGULATOR';
-  end_body;
-end_primitive;
-primitive 'LT1584_TO263-ADJ';
-  pin
-    'VOUT2/CASE':
-      PIN_NUMBER='(4)';
-      OUTPUT_LOAD='(*,*)';
-      PINUSE='OUT';
-    'VOUT1':
+      PINUSE='GROUND';
+    'ADJ':
       PIN_NUMBER='(2)';
-      OUTPUT_LOAD='(*,*)';
-      PINUSE='OUT';
-    'VIN':
-      PIN_NUMBER='(3)';
       INPUT_LOAD='(*,*)';
       PINUSE='IN';
-    'GND/ADJ':
+    'EN':
       PIN_NUMBER='(1)';
       INPUT_LOAD='(*,*)';
       PINUSE='IN';
   end_pin;
   body
-      PART_NAME='LT1584';
-      BODY_NAME='LT1584';
-      MANUFACTURER='LINEAR';
-      FAMILY='REGULATOR';
-      PHYS_DES_PREFIX='REG';
-      CLASS='DISCRETE';
-      PART_NUMBER='LT1584CM';
-      JEDEC_TYPE='TO254P1435X460-4N';
-      PINCOUNT='4';
-      DESCRIPTION='Low dropout positive regulator adjustable';
-      PARENT_PART_TYPE='LT1584_TO263';
-      PARENT_PPT='LT1584';
-      PARENT_PPT_PART='LT1584_TO263-ADJ';
+      PART_NAME='LP38692';
+      BODY_NAME='LP38692';
+      JEDEC_TYPE='SOT223_5';
+      PHYS_DES_PREFIX='U';
+      CLASS='IC';
+      CI='03821A-3';
+      PART_NUMBER='LP38692MP-ADJ';
+      PART_DESCRIPTION='Adjustable, 1A Low Dropout Regulator';
+      OL_COMMENTS='Available from RS 660-6724, Farnell 1496843';
+      KL_COMMENTS='-';
+      PL_COMMENTS='-';
+      PARENT_PART_TYPE='LP38692_SOT223';
+      PARENT_PPT='LP38692';
+      PARENT_PPT_PART='LP38692_SOT223-ADJ,TEXAS INSTRUMENTS';
   end_body;
 end_primitive;
 primitive 'LT1585_TO263-3V3';
@@ -3381,6 +3244,41 @@ primitive 'LT1585_TO263-3V3';
       PARENT_PART_TYPE='LT1585_TO263';
       PARENT_PPT='LT1585';
       PARENT_PPT_PART='LT1585_TO263-3V3';
+  end_body;
+end_primitive;
+primitive 'LT1585_TO263-ADJ';
+  pin
+    'VOUT2/CASE':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(*,*)';
+      PINUSE='OUT';
+    'VOUT1':
+      PIN_NUMBER='(2)';
+      OUTPUT_LOAD='(*,*)';
+      PINUSE='OUT';
+    'VIN':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*,*)';
+      PINUSE='IN';
+    'GND/ADJ':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*,*)';
+      PINUSE='IN';
+  end_pin;
+  body
+      PART_NAME='LT1585';
+      BODY_NAME='LT1585';
+      MANUFACTURER='LINEAR';
+      FAMILY='REGULATOR';
+      PHYS_DES_PREFIX='REG';
+      CLASS='DISCRETE';
+      PART_NUMBER='LT1585CM';
+      JEDEC_TYPE='TO254P1435X460-4N';
+      PINCOUNT='4';
+      DESCRIPTION='Low dropout positive regulator adjustable';
+      PARENT_PART_TYPE='LT1585_TO263';
+      PARENT_PPT='LT1585';
+      PARENT_PPT_PART='LT1585_TO263-ADJ';
   end_body;
 end_primitive;
 primitive 'LT3070EUFD#PBF-GND=GND_SIGNAL';
@@ -6565,7 +6463,7 @@ primitive 'PC049A_FPGA';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='BI';
     'SATA_RXN_I'<0>:
-      PIN_NUMBER='(0,D13,0,0,0,0,0,0)';
+      PIN_NUMBER='(0,C13,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
       IO_REGISTER='NO';
       SIGNAL_INTEGRITY='NONE';
@@ -6581,7 +6479,7 @@ primitive 'PC049A_FPGA';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
     'SATA_RXP_I'<0>:
-      PIN_NUMBER='(0,C13,0,0,0,0,0,0)';
+      PIN_NUMBER='(0,D13,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
       IO_REGISTER='NO';
       SIGNAL_INTEGRITY='NONE';
@@ -6597,7 +6495,7 @@ primitive 'PC049A_FPGA';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
     'SATA_TXN_O'<0>:
-      PIN_NUMBER='(0,B14,0,0,0,0,0,0)';
+      PIN_NUMBER='(0,A14,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
       IO_REGISTER='NO';
       SIGNAL_INTEGRITY='NONE';
@@ -6611,7 +6509,7 @@ primitive 'PC049A_FPGA';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='OUT';
     'SATA_TXP_O'<0>:
-      PIN_NUMBER='(0,A14,0,0,0,0,0,0)';
+      PIN_NUMBER='(0,B14,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
       IO_REGISTER='NO';
       SIGNAL_INTEGRITY='NONE';
@@ -10145,44 +10043,6 @@ primitive 'R4ISMD_1206-4.7K';
       PARENT_PPT_PART='R4ISMD_1206-4.7K';
   end_body;
 end_primitive;
-primitive 'RES_ARRAY_X4_1206_TC164-150,1%';
-  pin
-    'B'<0>:
-      PIN_NUMBER='(5,6,7,8)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      PINUSE='IN';
-    'A'<0>:
-      PIN_NUMBER='(4,3,2,1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      PINUSE='IN';
-  end_pin;
-  body
-      CLASS='DISCRETE';
-      PART_NAME='RES_ARRAY_X4';
-      BODY_NAME='RES_ARRAY_X4';
-      TERMINATOR_PACK='TRUE';
-      NO_IO_CHECK='TRUE';
-      UNKNOWN_LOADING='TRUE';
-      NO_LOAD_CHECK='TRUE';
-      PHYS_DES_PREFIX='RN';
-      STATUS='Preferred';
-      PART_NUMBER='TC164-FR-##150RL';
-      MANUFACTURER='YAGEO/PHYCOMP';
-      DESCRIPTION='0.063W 1% 200ppm Concave Chip Resistor Array';
-      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/rn_yageo_yc-t~
-c124.pdf';
-      PINCOUNT='8';
-      SMD='YES';
-      CASE='1206_TC164';
-      JEDEC_TYPE='RN_YAGEO_TC164';
-      VALUE='150';
-      PARENT_PART_TYPE='RES_ARRAY_X4';
-      PARENT_PPT='RES_ARRAY_X4';
-      PARENT_PPT_PART='RES_ARRAY_X4_1206_TC164-150,1%';
-  end_body;
-end_primitive;
 primitive 'RSMD0402_-00,';
   pin
     'A'<0>:
@@ -10260,45 +10120,6 @@ primitive 'RSMD0402_0.0625W-XX,1%';
       PARENT_PART_TYPE='RSMD0402';
       PARENT_PPT='RSMD0402';
       PARENT_PPT_PART='RSMD0402_0.0625W-XX,1%';
-  end_body;
-end_primitive;
-primitive 'RSMD0402_1/16W-100,0.1%_GEN';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='RSMD0402';
-      BODY_NAME='RSMD0402';
-      CLASS='DISCRETE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='R';
-      DESCRIPTION='SMD Resistor';
-      CASE='0402';
-      SMD='YES';
-      STATUS='Not Preferred';
-      PART_NUMBER='R0402_100R_0.1%_0.063W_25PPM';
-      VALUE='100';
-      TOL='0.1%';
-      PWR='0.063W';
-      JEDEC_TYPE='C0402';
-      MANUFACTURER='GENERIC';
-      PARENT_PART_TYPE='RSMD0402_1/16W';
-      PARENT_PPT='RSMD0402';
-      PARENT_PPT_PART='RSMD0402_1/16W-100,0.1%_GEN';
   end_body;
 end_primitive;
 primitive 'RSMD0402_1/16W-100,1%';
@@ -10820,47 +10641,6 @@ primitive 'RSMD0603_1/10W-150,1%';
       PARENT_PPT_PART='RSMD0603_1/10W-150,1%';
   end_body;
 end_primitive;
-primitive 'RSMD0603_1/10W-16K,1%';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='RSMD0603';
-      BODY_NAME='RSMD0603';
-      CLASS='DISCRETE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='R';
-      DESCRIPTION='SMD Resistor';
-      CASE='0603';
-      SMD='YES';
-      STATUS='Preferred';
-      PART_NUMBER='R0603_16K_1%_0.1W_100PPM';
-      VALUE='16k';
-      TOL='1%';
-      PWR='0.1W';
-      JEDEC_TYPE='C0603';
-      MANUFACTURER='GENERIC';
-      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
-03.416.5';
-      PARENT_PART_TYPE='RSMD0603_1/10W';
-      PARENT_PPT='RSMD0603';
-      PARENT_PPT_PART='RSMD0603_1/10W-16K,1%';
-  end_body;
-end_primitive;
 primitive 'RSMD0603_1/10W-180,1%';
   pin
     'A'<0>:
@@ -10984,6 +10764,47 @@ primitive 'RSMD0603_1/10W-240,1%';
       PARENT_PPT_PART='RSMD0603_1/10W-240,1%';
   end_body;
 end_primitive;
+primitive 'RSMD0603_1/10W-270K,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0603';
+      BODY_NAME='RSMD0603';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0603';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0603_270K_1%_0.1W_100PPM';
+      VALUE='270k';
+      TOL='1%';
+      PWR='0.1W';
+      JEDEC_TYPE='C0603';
+      MANUFACTURER='GENERIC';
+      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
+03.527.9';
+      PARENT_PART_TYPE='RSMD0603_1/10W';
+      PARENT_PPT='RSMD0603';
+      PARENT_PPT_PART='RSMD0603_1/10W-270K,1%';
+  end_body;
+end_primitive;
 primitive 'RSMD0603_1/10W-3.3K,1%';
   pin
     'A'<0>:
@@ -11023,6 +10844,47 @@ primitive 'RSMD0603_1/10W-3.3K,1%';
       PARENT_PART_TYPE='RSMD0603_1/10W';
       PARENT_PPT='RSMD0603';
       PARENT_PPT_PART='RSMD0603_1/10W-3.3K,1%';
+  end_body;
+end_primitive;
+primitive 'RSMD0603_1/10W-300K,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0603';
+      BODY_NAME='RSMD0603';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0603';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0603_300K_1%_0.1W_100PPM';
+      VALUE='300k';
+      TOL='1%';
+      PWR='0.1W';
+      JEDEC_TYPE='C0603';
+      MANUFACTURER='GENERIC';
+      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
+03.530.4';
+      PARENT_PART_TYPE='RSMD0603_1/10W';
+      PARENT_PPT='RSMD0603';
+      PARENT_PPT_PART='RSMD0603_1/10W-300K,1%';
   end_body;
 end_primitive;
 primitive 'RSMD0603_1/10W-33,1%';
@@ -11107,7 +10969,7 @@ primitive 'RSMD0603_1/10W-330,1%';
       PARENT_PPT_PART='RSMD0603_1/10W-330,1%';
   end_body;
 end_primitive;
-primitive 'RSMD0603_1/10W-33K,1%';
+primitive 'RSMD0603_1/10W-36K,1%';
   pin
     'A'<0>:
       PIN_NUMBER='(1)';
@@ -11135,17 +10997,17 @@ primitive 'RSMD0603_1/10W-33K,1%';
       CASE='0603';
       SMD='YES';
       STATUS='Preferred';
-      PART_NUMBER='R0603_33K_1%_0.1W_100PPM';
-      VALUE='33k';
+      PART_NUMBER='R0603_36K_1%_0.1W_100PPM';
+      VALUE='36k';
       TOL='1%';
       PWR='0.1W';
       JEDEC_TYPE='C0603';
       MANUFACTURER='GENERIC';
       SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
-03.433.4';
+03.436.1';
       PARENT_PART_TYPE='RSMD0603_1/10W';
       PARENT_PPT='RSMD0603';
-      PARENT_PPT_PART='RSMD0603_1/10W-33K,1%';
+      PARENT_PPT_PART='RSMD0603_1/10W-36K,1%';
   end_body;
 end_primitive;
 primitive 'RSMD0603_1/10W-390K,1%';
@@ -11269,47 +11131,6 @@ primitive 'RSMD0603_1/10W-51,1%';
       PARENT_PART_TYPE='RSMD0603_1/10W';
       PARENT_PPT='RSMD0603';
       PARENT_PPT_PART='RSMD0603_1/10W-51,1%';
-  end_body;
-end_primitive;
-primitive 'RSMD0603_1/10W-51K,1%';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='RSMD0603';
-      BODY_NAME='RSMD0603';
-      CLASS='DISCRETE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='R';
-      DESCRIPTION='SMD Resistor';
-      CASE='0603';
-      SMD='YES';
-      STATUS='Preferred';
-      PART_NUMBER='R0603_51K_1%_0.1W_100PPM';
-      VALUE='51k';
-      TOL='1%';
-      PWR='0.1W';
-      JEDEC_TYPE='C0603';
-      MANUFACTURER='GENERIC';
-      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
-03.451.2';
-      PARENT_PART_TYPE='RSMD0603_1/10W';
-      PARENT_PPT='RSMD0603';
-      PARENT_PPT_PART='RSMD0603_1/10W-51K,1%';
   end_body;
 end_primitive;
 primitive 'RSMD0603_1/10W-62K,1%';
@@ -11590,6 +11411,47 @@ primitive 'RSMD0603_1/16W-9K,1%';
       PARENT_PPT_PART='RSMD0603_1/16W-9K,1%';
   end_body;
 end_primitive;
+primitive 'RSMD0805_-00,';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0805';
+      BODY_NAME='RSMD0805';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='0805 Size SMD Jumper';
+      CASE='0805';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0805_00_JUMPER';
+      VALUE='00';
+      TOL='';
+      PWR='';
+      JEDEC_TYPE='C0805';
+      MANUFACTURER='GENERIC';
+      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
+04.000.5';
+      PARENT_PART_TYPE='RSMD0805_';
+      PARENT_PPT='RSMD0805';
+      PARENT_PPT_PART='RSMD0805_-00,';
+  end_body;
+end_primitive;
 primitive 'S25FL128SAGMFIR01-VCC=P3V3,VSSA';
   pin
     'WP/IO2':
@@ -11715,6 +11577,109 @@ pdf';
       PARENT_PPT_PART='SFP_CAGE-6367035-1';
   end_body;
 end_primitive;
+primitive 'SK_SATA_SMD_STR-MOLEX';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'A'<1>:
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'A'<2>:
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'A'<4>:
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'A'<3>:
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'A'<5>:
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'A'<6>:
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='SK_SATA';
+      BODY_NAME='SK_SATA';
+      NO_IO_CHECK='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      FAMILY='CONNECTOR';
+      ALLOW_CONNECT='TRUE';
+      SIZE='1';
+      JEDEC_TYPE='SK_SATA_SMD_STR';
+      PHYS_DES_PREFIX='U';
+      CLASS='IO';
+      CI='02124A-2';
+      PART_NUMBER='Molex 67800-5025 ';
+      PART_DESCRIPTION='MOLEX - 67800-5025 - HEADER, SATA, SMT vertical, 1.27MM,~
+ 7WAY';
+      OL_COMMENTS='Available from Farnell 1519802';
+      KL_COMMENTS='-';
+      PL_COMMENTS='-';
+      PARENT_PART_TYPE='SK_SATA_SMD_STR';
+      PARENT_PPT='SK_SATA';
+      PARENT_PPT_PART='SK_SATA_SMD_STR-MOLEX';
+  end_body;
+end_primitive;
+primitive 'SN65LVDS1_SOT23-5-TEXAS INSTRUA';
+  pin
+    'VCC':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='GROUND';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'Z':
+      PIN_NUMBER='(3)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='OUT';
+    'Y':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='OUT';
+    'D':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(-0.01,0.01)';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='IN';
+  end_pin;
+  body
+      PART_NAME='SN65LVDS1';
+      BODY_NAME='SN65LVDS1';
+      JEDEC_TYPE='SOT23-5';
+      PHYS_DES_PREFIX='U';
+      CLASS='IC';
+      CI='';
+      PART_NUMBER='snlvds1dbv';
+      PART_DESCRIPTION='single high speed differential line driver';
+      OL_COMMENTS='RS 462-0210 ';
+      KL_COMMENTS='-';
+      PL_COMMENTS='-';
+      PARENT_PART_TYPE='SN65LVDS1_SOT23-5';
+      PARENT_PPT='SN65LVDS1';
+      PARENT_PPT_PART='SN65LVDS1_SOT23-5-TEXAS INSTRUMENTS';
+  end_body;
+end_primitive;
 primitive 'SN74LVC1G06DBVT';
   pin
     'A':
@@ -11823,6 +11788,45 @@ old contacts)';
       PARENT_PART_TYPE='SW_PUSHBUTTON_1SPSTA_4P_1';
       PARENT_PPT='SW_PUSHBUTTON_1SPSTA_4P';
       PARENT_PPT_PART='SW_PUSHBUTTON_1SPSTA_4P_1-OMRON_B3SN-3012';
+  end_body;
+end_primitive;
+primitive 'TPS71701DCKRG4_SC70-TEXAS INSTA';
+  pin
+    'OUT':
+      PIN_NUMBER='(5)';
+      OUTPUT_LOAD='(*,*)';
+      PINUSE='OUT';
+    'IN':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*,*)';
+      PINUSE='IN';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='GROUND';
+    'NR_FB':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*,*)';
+      PINUSE='IN';
+    'EN':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*,*)';
+      PINUSE='IN';
+  end_pin;
+  body
+      PART_NAME='TPS71701DCKRG4';
+      BODY_NAME='TPS71701DCKRG4';
+      JEDEC_TYPE='SC70';
+      PHYS_DES_PREFIX='U';
+      CLASS='IC';
+      CI='14216A-1';
+      PART_NUMBER='TI tps71701dckrg4';
+      PART_DESCRIPTION='0.9V - 6.2V adjustable LDO 150mA linear regulator';
+      OL_COMMENTS='RS 661-3801 , Farnell 1703393';
+      KL_COMMENTS='-';
+      PL_COMMENTS='-';
+      PARENT_PART_TYPE='TPS71701DCKRG4_SC70';
+      PARENT_PPT='TPS71701DCKRG4';
+      PARENT_PPT_PART='TPS71701DCKRG4_SC70-TEXAS INSTRUMENTS';
   end_body;
 end_primitive;
 END.

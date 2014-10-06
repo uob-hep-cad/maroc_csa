@@ -1,11 +1,10 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 28-Jul-2014 AT 18:48:31 }
+{ Packager-XL run on 03-Oct-2014 AT 09:30:52 }
 primitive '1-HOLE_0-8-BASE';
   pin
     'A'<0>:
       PIN_NUMBER='(1)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
   end_pin;
   body
       PART_NAME='1-HOLE';
@@ -26,31 +25,25 @@ primitive '24AA64T-I/MC';
     'A0':
       PIN_NUMBER='(1)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'A1':
       PIN_NUMBER='(2)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'A2':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'SDA':
       PIN_NUMBER='(5)';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'SCL':
       PIN_NUMBER='(6)';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'WP':
       PIN_NUMBER='(7)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'VCC':
       PIN_NUMBER='(8)';
       PINUSE='POWER';
@@ -83,23 +76,18 @@ primitive '570CAC000121DG-GND=GND_SIGNAL,A';
     'OE':
       PIN_NUMBER='(2)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'CLKP':
       PIN_NUMBER='(4)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'CLKN':
       PIN_NUMBER='(5)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SDA':
       PIN_NUMBER='(7)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'SCL':
       PIN_NUMBER='(8)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
   end_pin;
   body
       PART_NAME='OSC_8P_OE_CLKP_CLKN_SDA_SCL';
@@ -130,27 +118,21 @@ primitive 'AD5662BRMZ-1-GND=GND_SIGNAL,VDA';
     'VREF':
       PIN_NUMBER='(2)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'VFB':
       PIN_NUMBER='(3)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'VOUT':
       PIN_NUMBER='(4)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SYNC*':
       PIN_NUMBER='(5)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'SCLK':
       PIN_NUMBER='(6)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'DIN':
       PIN_NUMBER='(7)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
   end_pin;
   body
       PART_NAME='AD5662';
@@ -178,11 +160,9 @@ primitive 'AD8031_SOT23-5-AD';
     'IN*':
       PIN_NUMBER='(4)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'IN':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'VSMIN':
       PIN_NUMBER='(2)';
       PINUSE='POWER';
@@ -194,7 +174,6 @@ primitive 'AD8031_SOT23-5-AD';
     'OUT':
       PIN_NUMBER='(1)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'VSPLUS':
       PIN_NUMBER='(5)';
       PINUSE='POWER';
@@ -231,7 +210,6 @@ primitive 'BNX022-01';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'PSG':
       PIN_NUMBER='(3)';
       PINUSE='GROUND';
@@ -248,7 +226,6 @@ primitive 'BNX022-01';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'CG'<0>:
       PIN_NUMBER='(4)';
       PINUSE='GROUND';
@@ -301,14 +278,12 @@ primitive 'CAPCERSMDCL1_0603-100PF,50V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL1';
@@ -336,92 +311,6 @@ primitive 'CAPCERSMDCL1_0603-100PF,50V';
       PARENT_PPT_PART='CAPCERSMDCL1_0603-100PF,50V';
   end_body;
 end_primitive;
-primitive 'CAPCERSMDCL1_0603-220PF,50V';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='CAPCERSMDCL1';
-      BODY_NAME='CAPCERSMDCL1';
-      UNKNOWN_LOADING='TRUE';
-      NO_LOAD_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-      STATUS='Preferred';
-      PART_NUMBER='CC0603_220PF_50V_5%_NP0';
-      MANUFACTURER='GENERIC';
-      DESCRIPTION='SMD Ceramic Capacitor - Class1 NP0/COG';
-      DATASHEET_URL='';
-      SMD='YES';
-      CASE='0603';
-      JEDEC_TYPE='C0603';
-      VALUE='220pF';
-      VOLT='50V';
-      TOL='5%';
-      PARENT_PART_TYPE='CAPCERSMDCL1_0603';
-      PARENT_PPT='CAPCERSMDCL1';
-      PARENT_PPT_PART='CAPCERSMDCL1_0603-220PF,50V';
-  end_body;
-end_primitive;
-primitive 'CAPCERSMDCL1_0603-56PF,50V';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='CAPCERSMDCL1';
-      BODY_NAME='CAPCERSMDCL1';
-      UNKNOWN_LOADING='TRUE';
-      NO_LOAD_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-      STATUS='Preferred';
-      PART_NUMBER='CC0603_56PF_50V_5%_NP0';
-      MANUFACTURER='GENERIC';
-      DESCRIPTION='SMD Ceramic Capacitor - Class1 NP0/COG';
-      DATASHEET_URL='';
-      SMD='YES';
-      CASE='0603';
-      JEDEC_TYPE='C0603';
-      VALUE='56pF';
-      VOLT='50V';
-      TOL='5%';
-      PARENT_PART_TYPE='CAPCERSMDCL1_0603';
-      PARENT_PPT='CAPCERSMDCL1';
-      PARENT_PPT_PART='CAPCERSMDCL1_0603-56PF,50V';
-  end_body;
-end_primitive;
 primitive 'CAPCERSMDCL2_0402-100NF,16V_GEN';
   pin
     'A'<0>:
@@ -430,14 +319,12 @@ primitive 'CAPCERSMDCL2_0402-100NF,16V_GEN';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -473,14 +360,12 @@ primitive 'CAPCERSMDCL2_0402-1NF_X7R,50V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -516,14 +401,12 @@ primitive 'CAPCERSMDCL2_0402-1UF,16V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -551,6 +434,47 @@ primitive 'CAPCERSMDCL2_0402-1UF,16V';
       PARENT_PPT_PART='CAPCERSMDCL2_0402-1UF,16V';
   end_body;
 end_primitive;
+primitive 'CAPCERSMDCL2_0402-2.2UF,6.3V';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+  end_pin;
+  body
+      PART_NAME='CAPCERSMDCL2';
+      BODY_NAME='CAPCERSMDCL2';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      STATUS='Preferred';
+      PART_NUMBER='CC0402_2UF2_6V3_20%_X5R';
+      MANUFACTURER='GENERIC';
+      DESCRIPTION='SMD X5R Ceramic Capacitor';
+      DATASHEET_URL='';
+      SMD='YES';
+      CASE='0402';
+      JEDEC_TYPE='C0402';
+      VALUE='2.2uF';
+      VOLT='6.3V';
+      TOL='20%';
+      PARENT_PART_TYPE='CAPCERSMDCL2_0402';
+      PARENT_PPT='CAPCERSMDCL2';
+      PARENT_PPT_PART='CAPCERSMDCL2_0402-2.2UF,6.3V';
+  end_body;
+end_primitive;
 primitive 'CAPCERSMDCL2_0402-4.7UF,4V';
   pin
     'A'<0>:
@@ -559,14 +483,12 @@ primitive 'CAPCERSMDCL2_0402-4.7UF,4V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -602,14 +524,12 @@ primitive 'CAPCERSMDCL2_0603-100NF,16V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -645,14 +565,12 @@ primitive 'CAPCERSMDCL2_0603-10UF,6.3V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -688,14 +606,12 @@ primitive 'CAPCERSMDCL2_0603-2.2UF,10V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -731,14 +647,12 @@ primitive 'CAPCERSMDCL2_0603-22UF,4V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -774,14 +688,12 @@ primitive 'CAPCERSMDCL2_0603-4.7UF,6.3V_GA';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -817,14 +729,12 @@ primitive 'CAPCERSMDCL2_0603-XX,50V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -860,14 +770,12 @@ primitive 'CAPCERSMDCL2_0805-22UF,6.3V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -903,14 +811,12 @@ primitive 'CAPCERSMDCL2_1206-100UF_X5R,6.A';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -946,14 +852,12 @@ primitive 'CAPCERSMDCL2_1210-10UF,50V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -989,14 +893,12 @@ primitive 'CAPCERSMDCL2_1210-47UF_X5R,6.3V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -1037,11 +939,9 @@ primitive 'CDCM61004RHB';
     'OUT1*':
       PIN_NUMBER='(2)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT1':
       PIN_NUMBER='(3)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'VCC_OUT'<1>:
       PIN_NUMBER='(4)';
       PINUSE='POWER';
@@ -1053,15 +953,12 @@ primitive 'CDCM61004RHB';
     'OUT0*':
       PIN_NUMBER='(5)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT0':
       PIN_NUMBER='(6)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'CE':
       PIN_NUMBER='(7)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'VCC_VCO':
       PIN_NUMBER='(9)';
       PINUSE='POWER';
@@ -1073,27 +970,21 @@ primitive 'CDCM61004RHB';
     'OS1':
       PIN_NUMBER='(10)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'OS0':
       PIN_NUMBER='(11)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'RSTN*':
       PIN_NUMBER='(12)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'OD0':
       PIN_NUMBER='(13)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'OD1':
       PIN_NUMBER='(14)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'OD2':
       PIN_NUMBER='(15)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'VCC_PLL2':
       PIN_NUMBER='(16)';
       PINUSE='POWER';
@@ -1105,7 +996,6 @@ primitive 'CDCM61004RHB';
     'REG_CAP2':
       PIN_NUMBER='(17)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'VCC_PLL1':
       PIN_NUMBER='(18)';
       PINUSE='POWER';
@@ -1117,7 +1007,6 @@ primitive 'CDCM61004RHB';
     'REG_CAP1':
       PIN_NUMBER='(19)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'VCC_IN':
       PIN_NUMBER='(20)';
       PINUSE='POWER';
@@ -1129,7 +1018,6 @@ primitive 'CDCM61004RHB';
     'XIN':
       PIN_NUMBER='(21)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'GND'<0>:
       PIN_NUMBER='(22)';
       PINUSE='GROUND';
@@ -1141,15 +1029,12 @@ primitive 'CDCM61004RHB';
     'OSC_OUT':
       PIN_NUMBER='(23)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'PR0':
       PIN_NUMBER='(25)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'PR1':
       PIN_NUMBER='(26)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'VCC_OUT'<2>:
       PIN_NUMBER='(27)';
       PINUSE='POWER';
@@ -1161,11 +1046,9 @@ primitive 'CDCM61004RHB';
     'OUT3*':
       PIN_NUMBER='(28)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT3':
       PIN_NUMBER='(29)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'VCC_OUT'<3>:
       PIN_NUMBER='(30)';
       PINUSE='POWER';
@@ -1177,11 +1060,9 @@ primitive 'CDCM61004RHB';
     'OUT2*':
       PIN_NUMBER='(31)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT2':
       PIN_NUMBER='(32)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'GND'<1>:
       PIN_NUMBER='(33)';
       PINUSE='GROUND';
@@ -1217,40 +1098,28 @@ primitive 'CON12P-TSM-106-01-S-DV';
   pin
     'A'<9>:
       PIN_NUMBER='(10)';
-      PINUSE='UNSPEC';
     'A'<8>:
       PIN_NUMBER='(9)';
-      PINUSE='UNSPEC';
     'A'<7>:
       PIN_NUMBER='(8)';
-      PINUSE='UNSPEC';
     'A'<6>:
       PIN_NUMBER='(7)';
-      PINUSE='UNSPEC';
     'A'<5>:
       PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
     'A'<4>:
       PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
     'A'<3>:
       PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
     'A'<2>:
       PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
     'A'<1>:
       PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
     'A'<11>:
       PIN_NUMBER='(12)';
-      PINUSE='UNSPEC';
     'A'<10>:
       PIN_NUMBER='(11)';
-      PINUSE='UNSPEC';
     'A'<0>:
       PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='CON12P';
@@ -1283,46 +1152,32 @@ primitive 'CON14P-MOLEX_87831';
   pin
     'A'<9>:
       PIN_NUMBER='(10)';
-      PINUSE='UNSPEC';
     'A'<8>:
       PIN_NUMBER='(9)';
-      PINUSE='UNSPEC';
     'A'<7>:
       PIN_NUMBER='(8)';
-      PINUSE='UNSPEC';
     'A'<6>:
       PIN_NUMBER='(7)';
-      PINUSE='UNSPEC';
     'A'<5>:
       PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
     'A'<4>:
       PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
     'A'<3>:
       PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
     'A'<2>:
       PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
     'A'<1>:
       PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
     'A'<13>:
       PIN_NUMBER='(14)';
-      PINUSE='UNSPEC';
     'A'<12>:
       PIN_NUMBER='(13)';
-      PINUSE='UNSPEC';
     'A'<11>:
       PIN_NUMBER='(12)';
-      PINUSE='UNSPEC';
     'A'<10>:
       PIN_NUMBER='(11)';
-      PINUSE='UNSPEC';
     'A'<0>:
       PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='CON14P';
@@ -1354,454 +1209,304 @@ primitive 'CON150P-QTS75_03FDA-P1=GND_SIGA';
   pin
     'A'<149>:
       PIN_NUMBER='(150)';
-      PINUSE='UNSPEC';
     'A'<148>:
       PIN_NUMBER='(149)';
-      PINUSE='UNSPEC';
     'A'<147>:
       PIN_NUMBER='(148)';
-      PINUSE='UNSPEC';
     'A'<146>:
       PIN_NUMBER='(147)';
-      PINUSE='UNSPEC';
     'A'<145>:
       PIN_NUMBER='(146)';
-      PINUSE='UNSPEC';
     'A'<144>:
       PIN_NUMBER='(145)';
-      PINUSE='UNSPEC';
     'A'<143>:
       PIN_NUMBER='(144)';
-      PINUSE='UNSPEC';
     'A'<142>:
       PIN_NUMBER='(143)';
-      PINUSE='UNSPEC';
     'A'<141>:
       PIN_NUMBER='(142)';
-      PINUSE='UNSPEC';
     'A'<140>:
       PIN_NUMBER='(141)';
-      PINUSE='UNSPEC';
     'A'<139>:
       PIN_NUMBER='(140)';
-      PINUSE='UNSPEC';
     'A'<138>:
       PIN_NUMBER='(139)';
-      PINUSE='UNSPEC';
     'A'<137>:
       PIN_NUMBER='(138)';
-      PINUSE='UNSPEC';
     'A'<136>:
       PIN_NUMBER='(137)';
-      PINUSE='UNSPEC';
     'A'<135>:
       PIN_NUMBER='(136)';
-      PINUSE='UNSPEC';
     'A'<134>:
       PIN_NUMBER='(135)';
-      PINUSE='UNSPEC';
     'A'<133>:
       PIN_NUMBER='(134)';
-      PINUSE='UNSPEC';
     'A'<132>:
       PIN_NUMBER='(133)';
-      PINUSE='UNSPEC';
     'A'<131>:
       PIN_NUMBER='(132)';
-      PINUSE='UNSPEC';
     'A'<130>:
       PIN_NUMBER='(131)';
-      PINUSE='UNSPEC';
     'A'<129>:
       PIN_NUMBER='(130)';
-      PINUSE='UNSPEC';
     'A'<128>:
       PIN_NUMBER='(129)';
-      PINUSE='UNSPEC';
     'A'<127>:
       PIN_NUMBER='(128)';
-      PINUSE='UNSPEC';
     'A'<126>:
       PIN_NUMBER='(127)';
-      PINUSE='UNSPEC';
     'A'<125>:
       PIN_NUMBER='(126)';
-      PINUSE='UNSPEC';
     'A'<124>:
       PIN_NUMBER='(125)';
-      PINUSE='UNSPEC';
     'A'<123>:
       PIN_NUMBER='(124)';
-      PINUSE='UNSPEC';
     'A'<122>:
       PIN_NUMBER='(123)';
-      PINUSE='UNSPEC';
     'A'<121>:
       PIN_NUMBER='(122)';
-      PINUSE='UNSPEC';
     'A'<120>:
       PIN_NUMBER='(121)';
-      PINUSE='UNSPEC';
     'A'<119>:
       PIN_NUMBER='(120)';
-      PINUSE='UNSPEC';
     'A'<118>:
       PIN_NUMBER='(119)';
-      PINUSE='UNSPEC';
     'A'<117>:
       PIN_NUMBER='(118)';
-      PINUSE='UNSPEC';
     'A'<116>:
       PIN_NUMBER='(117)';
-      PINUSE='UNSPEC';
     'A'<115>:
       PIN_NUMBER='(116)';
-      PINUSE='UNSPEC';
     'A'<114>:
       PIN_NUMBER='(115)';
-      PINUSE='UNSPEC';
     'A'<113>:
       PIN_NUMBER='(114)';
-      PINUSE='UNSPEC';
     'A'<112>:
       PIN_NUMBER='(113)';
-      PINUSE='UNSPEC';
     'A'<111>:
       PIN_NUMBER='(112)';
-      PINUSE='UNSPEC';
     'A'<110>:
       PIN_NUMBER='(111)';
-      PINUSE='UNSPEC';
     'A'<109>:
       PIN_NUMBER='(110)';
-      PINUSE='UNSPEC';
     'A'<108>:
       PIN_NUMBER='(109)';
-      PINUSE='UNSPEC';
     'A'<107>:
       PIN_NUMBER='(108)';
-      PINUSE='UNSPEC';
     'A'<106>:
       PIN_NUMBER='(107)';
-      PINUSE='UNSPEC';
     'A'<105>:
       PIN_NUMBER='(106)';
-      PINUSE='UNSPEC';
     'A'<104>:
       PIN_NUMBER='(105)';
-      PINUSE='UNSPEC';
     'A'<103>:
       PIN_NUMBER='(104)';
-      PINUSE='UNSPEC';
     'A'<102>:
       PIN_NUMBER='(103)';
-      PINUSE='UNSPEC';
     'A'<101>:
       PIN_NUMBER='(102)';
-      PINUSE='UNSPEC';
     'A'<100>:
       PIN_NUMBER='(101)';
-      PINUSE='UNSPEC';
     'A'<99>:
       PIN_NUMBER='(100)';
-      PINUSE='UNSPEC';
     'A'<98>:
       PIN_NUMBER='(99)';
-      PINUSE='UNSPEC';
     'A'<97>:
       PIN_NUMBER='(98)';
-      PINUSE='UNSPEC';
     'A'<96>:
       PIN_NUMBER='(97)';
-      PINUSE='UNSPEC';
     'A'<95>:
       PIN_NUMBER='(96)';
-      PINUSE='UNSPEC';
     'A'<94>:
       PIN_NUMBER='(95)';
-      PINUSE='UNSPEC';
     'A'<93>:
       PIN_NUMBER='(94)';
-      PINUSE='UNSPEC';
     'A'<92>:
       PIN_NUMBER='(93)';
-      PINUSE='UNSPEC';
     'A'<91>:
       PIN_NUMBER='(92)';
-      PINUSE='UNSPEC';
     'A'<90>:
       PIN_NUMBER='(91)';
-      PINUSE='UNSPEC';
     'A'<89>:
       PIN_NUMBER='(90)';
-      PINUSE='UNSPEC';
     'A'<88>:
       PIN_NUMBER='(89)';
-      PINUSE='UNSPEC';
     'A'<87>:
       PIN_NUMBER='(88)';
-      PINUSE='UNSPEC';
     'A'<86>:
       PIN_NUMBER='(87)';
-      PINUSE='UNSPEC';
     'A'<85>:
       PIN_NUMBER='(86)';
-      PINUSE='UNSPEC';
     'A'<84>:
       PIN_NUMBER='(85)';
-      PINUSE='UNSPEC';
     'A'<83>:
       PIN_NUMBER='(84)';
-      PINUSE='UNSPEC';
     'A'<82>:
       PIN_NUMBER='(83)';
-      PINUSE='UNSPEC';
     'A'<81>:
       PIN_NUMBER='(82)';
-      PINUSE='UNSPEC';
     'A'<80>:
       PIN_NUMBER='(81)';
-      PINUSE='UNSPEC';
     'A'<79>:
       PIN_NUMBER='(80)';
-      PINUSE='UNSPEC';
     'A'<78>:
       PIN_NUMBER='(79)';
-      PINUSE='UNSPEC';
     'A'<77>:
       PIN_NUMBER='(78)';
-      PINUSE='UNSPEC';
     'A'<76>:
       PIN_NUMBER='(77)';
-      PINUSE='UNSPEC';
     'A'<75>:
       PIN_NUMBER='(76)';
-      PINUSE='UNSPEC';
     'A'<74>:
       PIN_NUMBER='(75)';
-      PINUSE='UNSPEC';
     'A'<73>:
       PIN_NUMBER='(74)';
-      PINUSE='UNSPEC';
     'A'<72>:
       PIN_NUMBER='(73)';
-      PINUSE='UNSPEC';
     'A'<71>:
       PIN_NUMBER='(72)';
-      PINUSE='UNSPEC';
     'A'<70>:
       PIN_NUMBER='(71)';
-      PINUSE='UNSPEC';
     'A'<69>:
       PIN_NUMBER='(70)';
-      PINUSE='UNSPEC';
     'A'<68>:
       PIN_NUMBER='(69)';
-      PINUSE='UNSPEC';
     'A'<67>:
       PIN_NUMBER='(68)';
-      PINUSE='UNSPEC';
     'A'<66>:
       PIN_NUMBER='(67)';
-      PINUSE='UNSPEC';
     'A'<65>:
       PIN_NUMBER='(66)';
-      PINUSE='UNSPEC';
     'A'<64>:
       PIN_NUMBER='(65)';
-      PINUSE='UNSPEC';
     'A'<63>:
       PIN_NUMBER='(64)';
-      PINUSE='UNSPEC';
     'A'<62>:
       PIN_NUMBER='(63)';
-      PINUSE='UNSPEC';
     'A'<61>:
       PIN_NUMBER='(62)';
-      PINUSE='UNSPEC';
     'A'<60>:
       PIN_NUMBER='(61)';
-      PINUSE='UNSPEC';
     'A'<59>:
       PIN_NUMBER='(60)';
-      PINUSE='UNSPEC';
     'A'<58>:
       PIN_NUMBER='(59)';
-      PINUSE='UNSPEC';
     'A'<57>:
       PIN_NUMBER='(58)';
-      PINUSE='UNSPEC';
     'A'<56>:
       PIN_NUMBER='(57)';
-      PINUSE='UNSPEC';
     'A'<55>:
       PIN_NUMBER='(56)';
-      PINUSE='UNSPEC';
     'A'<54>:
       PIN_NUMBER='(55)';
-      PINUSE='UNSPEC';
     'A'<53>:
       PIN_NUMBER='(54)';
-      PINUSE='UNSPEC';
     'A'<52>:
       PIN_NUMBER='(53)';
-      PINUSE='UNSPEC';
     'A'<51>:
       PIN_NUMBER='(52)';
-      PINUSE='UNSPEC';
     'A'<50>:
       PIN_NUMBER='(51)';
-      PINUSE='UNSPEC';
     'A'<49>:
       PIN_NUMBER='(50)';
-      PINUSE='UNSPEC';
     'A'<48>:
       PIN_NUMBER='(49)';
-      PINUSE='UNSPEC';
     'A'<47>:
       PIN_NUMBER='(48)';
-      PINUSE='UNSPEC';
     'A'<46>:
       PIN_NUMBER='(47)';
-      PINUSE='UNSPEC';
     'A'<45>:
       PIN_NUMBER='(46)';
-      PINUSE='UNSPEC';
     'A'<44>:
       PIN_NUMBER='(45)';
-      PINUSE='UNSPEC';
     'A'<43>:
       PIN_NUMBER='(44)';
-      PINUSE='UNSPEC';
     'A'<42>:
       PIN_NUMBER='(43)';
-      PINUSE='UNSPEC';
     'A'<41>:
       PIN_NUMBER='(42)';
-      PINUSE='UNSPEC';
     'A'<40>:
       PIN_NUMBER='(41)';
-      PINUSE='UNSPEC';
     'A'<39>:
       PIN_NUMBER='(40)';
-      PINUSE='UNSPEC';
     'A'<38>:
       PIN_NUMBER='(39)';
-      PINUSE='UNSPEC';
     'A'<37>:
       PIN_NUMBER='(38)';
-      PINUSE='UNSPEC';
     'A'<36>:
       PIN_NUMBER='(37)';
-      PINUSE='UNSPEC';
     'A'<35>:
       PIN_NUMBER='(36)';
-      PINUSE='UNSPEC';
     'A'<34>:
       PIN_NUMBER='(35)';
-      PINUSE='UNSPEC';
     'A'<33>:
       PIN_NUMBER='(34)';
-      PINUSE='UNSPEC';
     'A'<32>:
       PIN_NUMBER='(33)';
-      PINUSE='UNSPEC';
     'A'<31>:
       PIN_NUMBER='(32)';
-      PINUSE='UNSPEC';
     'A'<30>:
       PIN_NUMBER='(31)';
-      PINUSE='UNSPEC';
     'A'<29>:
       PIN_NUMBER='(30)';
-      PINUSE='UNSPEC';
     'A'<28>:
       PIN_NUMBER='(29)';
-      PINUSE='UNSPEC';
     'A'<27>:
       PIN_NUMBER='(28)';
-      PINUSE='UNSPEC';
     'A'<26>:
       PIN_NUMBER='(27)';
-      PINUSE='UNSPEC';
     'A'<25>:
       PIN_NUMBER='(26)';
-      PINUSE='UNSPEC';
     'A'<24>:
       PIN_NUMBER='(25)';
-      PINUSE='UNSPEC';
     'A'<23>:
       PIN_NUMBER='(24)';
-      PINUSE='UNSPEC';
     'A'<22>:
       PIN_NUMBER='(23)';
-      PINUSE='UNSPEC';
     'A'<21>:
       PIN_NUMBER='(22)';
-      PINUSE='UNSPEC';
     'A'<20>:
       PIN_NUMBER='(21)';
-      PINUSE='UNSPEC';
     'A'<19>:
       PIN_NUMBER='(20)';
-      PINUSE='UNSPEC';
     'A'<18>:
       PIN_NUMBER='(19)';
-      PINUSE='UNSPEC';
     'A'<17>:
       PIN_NUMBER='(18)';
-      PINUSE='UNSPEC';
     'A'<16>:
       PIN_NUMBER='(17)';
-      PINUSE='UNSPEC';
     'A'<15>:
       PIN_NUMBER='(16)';
-      PINUSE='UNSPEC';
     'A'<14>:
       PIN_NUMBER='(15)';
-      PINUSE='UNSPEC';
     'A'<13>:
       PIN_NUMBER='(14)';
-      PINUSE='UNSPEC';
     'A'<12>:
       PIN_NUMBER='(13)';
-      PINUSE='UNSPEC';
     'A'<11>:
       PIN_NUMBER='(12)';
-      PINUSE='UNSPEC';
     'A'<10>:
       PIN_NUMBER='(11)';
-      PINUSE='UNSPEC';
     'A'<9>:
       PIN_NUMBER='(10)';
-      PINUSE='UNSPEC';
     'A'<8>:
       PIN_NUMBER='(9)';
-      PINUSE='UNSPEC';
     'A'<7>:
       PIN_NUMBER='(8)';
-      PINUSE='UNSPEC';
     'A'<6>:
       PIN_NUMBER='(7)';
-      PINUSE='UNSPEC';
     'A'<5>:
       PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
     'A'<4>:
       PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
     'A'<3>:
       PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
     'A'<2>:
       PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
     'A'<1>:
       PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
     'A'<0>:
       PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='CON150P';
@@ -1829,7 +1534,6 @@ primitive 'CON20P_SFP-1367073-1';
     'TX_DISABLE':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'VEET1':
       PIN_NUMBER='(1)';
       PINUSE='GROUND';
@@ -1841,11 +1545,9 @@ primitive 'CON20P_SFP-1367073-1';
     'TX_FAULT':
       PIN_NUMBER='(2)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'LOS':
       PIN_NUMBER='(8)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'VEER1':
       PIN_NUMBER='(10)';
       PINUSE='GROUND';
@@ -1865,7 +1567,6 @@ primitive 'CON20P_SFP-1367073-1';
     'TD-':
       PIN_NUMBER='(19)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'VEET3':
       PIN_NUMBER='(20)';
       PINUSE='GROUND';
@@ -1877,7 +1578,6 @@ primitive 'CON20P_SFP-1367073-1';
     'TD+':
       PIN_NUMBER='(18)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'VCCT':
       PIN_NUMBER='(16)';
       PINUSE='POWER';
@@ -1905,11 +1605,9 @@ primitive 'CON20P_SFP-1367073-1';
     'RD+':
       PIN_NUMBER='(13)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'RD-':
       PIN_NUMBER='(12)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'VEER3':
       PIN_NUMBER='(14)';
       PINUSE='GROUND';
@@ -1921,23 +1619,18 @@ primitive 'CON20P_SFP-1367073-1';
     'MOD_DEF0/MOD_ABS':
       PIN_NUMBER='(6)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'RATE_SELECT/RS0':
       PIN_NUMBER='(7)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MOD_DEF2/SDA':
       PIN_NUMBER='(4)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MOD_DEF1/SCL':
       PIN_NUMBER='(5)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'VEER/RS1':
       PIN_NUMBER='(9)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
   end_pin;
   body
       PART_NAME='CON20P_SFP';
@@ -1964,10 +1657,8 @@ primitive 'CON2P-MSTBA2,5/2-G-5,08';
   pin
     'A'<1>:
       PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
     'A'<0>:
       PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='CON2P';
@@ -1999,13 +1690,10 @@ primitive 'CON3P-SIL254D';
   pin
     'A'<2>:
       PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
     'A'<1>:
       PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
     'A'<0>:
       PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='CON3P';
@@ -2036,22 +1724,16 @@ primitive 'CON6P-SSW-103-01-G-D';
   pin
     'A'<5>:
       PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
     'A'<4>:
       PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
     'A'<3>:
       PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
     'A'<2>:
       PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
     'A'<1>:
       PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
     'A'<0>:
       PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='CON6P';
@@ -2084,292 +1766,196 @@ primitive 'CONABC96-09 03 196 6921';
   pin
     'C'<9>:
       PIN_NUMBER='(C10)';
-      PINUSE='UNSPEC';
     'C'<8>:
       PIN_NUMBER='(C9)';
-      PINUSE='UNSPEC';
     'C'<7>:
       PIN_NUMBER='(C8)';
-      PINUSE='UNSPEC';
     'C'<6>:
       PIN_NUMBER='(C7)';
-      PINUSE='UNSPEC';
     'C'<5>:
       PIN_NUMBER='(C6)';
-      PINUSE='UNSPEC';
     'C'<4>:
       PIN_NUMBER='(C5)';
-      PINUSE='UNSPEC';
     'C'<3>:
       PIN_NUMBER='(C4)';
-      PINUSE='UNSPEC';
     'C'<31>:
       PIN_NUMBER='(C32)';
-      PINUSE='UNSPEC';
     'C'<30>:
       PIN_NUMBER='(C31)';
-      PINUSE='UNSPEC';
     'C'<2>:
       PIN_NUMBER='(C3)';
-      PINUSE='UNSPEC';
     'C'<29>:
       PIN_NUMBER='(C30)';
-      PINUSE='UNSPEC';
     'C'<28>:
       PIN_NUMBER='(C29)';
-      PINUSE='UNSPEC';
     'C'<27>:
       PIN_NUMBER='(C28)';
-      PINUSE='UNSPEC';
     'C'<26>:
       PIN_NUMBER='(C27)';
-      PINUSE='UNSPEC';
     'C'<25>:
       PIN_NUMBER='(C26)';
-      PINUSE='UNSPEC';
     'C'<24>:
       PIN_NUMBER='(C25)';
-      PINUSE='UNSPEC';
     'C'<23>:
       PIN_NUMBER='(C24)';
-      PINUSE='UNSPEC';
     'C'<22>:
       PIN_NUMBER='(C23)';
-      PINUSE='UNSPEC';
     'C'<21>:
       PIN_NUMBER='(C22)';
-      PINUSE='UNSPEC';
     'C'<20>:
       PIN_NUMBER='(C21)';
-      PINUSE='UNSPEC';
     'C'<1>:
       PIN_NUMBER='(C2)';
-      PINUSE='UNSPEC';
     'C'<19>:
       PIN_NUMBER='(C20)';
-      PINUSE='UNSPEC';
     'C'<18>:
       PIN_NUMBER='(C19)';
-      PINUSE='UNSPEC';
     'C'<17>:
       PIN_NUMBER='(C18)';
-      PINUSE='UNSPEC';
     'C'<16>:
       PIN_NUMBER='(C17)';
-      PINUSE='UNSPEC';
     'C'<15>:
       PIN_NUMBER='(C16)';
-      PINUSE='UNSPEC';
     'C'<14>:
       PIN_NUMBER='(C15)';
-      PINUSE='UNSPEC';
     'C'<13>:
       PIN_NUMBER='(C14)';
-      PINUSE='UNSPEC';
     'C'<12>:
       PIN_NUMBER='(C13)';
-      PINUSE='UNSPEC';
     'C'<11>:
       PIN_NUMBER='(C12)';
-      PINUSE='UNSPEC';
     'C'<10>:
       PIN_NUMBER='(C11)';
-      PINUSE='UNSPEC';
     'C'<0>:
       PIN_NUMBER='(C1)';
-      PINUSE='UNSPEC';
     'B'<9>:
       PIN_NUMBER='(B10)';
-      PINUSE='UNSPEC';
     'B'<8>:
       PIN_NUMBER='(B9)';
-      PINUSE='UNSPEC';
     'B'<7>:
       PIN_NUMBER='(B8)';
-      PINUSE='UNSPEC';
     'B'<6>:
       PIN_NUMBER='(B7)';
-      PINUSE='UNSPEC';
     'B'<5>:
       PIN_NUMBER='(B6)';
-      PINUSE='UNSPEC';
     'B'<4>:
       PIN_NUMBER='(B5)';
-      PINUSE='UNSPEC';
     'B'<3>:
       PIN_NUMBER='(B4)';
-      PINUSE='UNSPEC';
     'B'<31>:
       PIN_NUMBER='(B32)';
-      PINUSE='UNSPEC';
     'B'<30>:
       PIN_NUMBER='(B31)';
-      PINUSE='UNSPEC';
     'B'<2>:
       PIN_NUMBER='(B3)';
-      PINUSE='UNSPEC';
     'B'<29>:
       PIN_NUMBER='(B30)';
-      PINUSE='UNSPEC';
     'B'<28>:
       PIN_NUMBER='(B29)';
-      PINUSE='UNSPEC';
     'B'<27>:
       PIN_NUMBER='(B28)';
-      PINUSE='UNSPEC';
     'B'<26>:
       PIN_NUMBER='(B27)';
-      PINUSE='UNSPEC';
     'B'<25>:
       PIN_NUMBER='(B26)';
-      PINUSE='UNSPEC';
     'B'<24>:
       PIN_NUMBER='(B25)';
-      PINUSE='UNSPEC';
     'B'<23>:
       PIN_NUMBER='(B24)';
-      PINUSE='UNSPEC';
     'B'<22>:
       PIN_NUMBER='(B23)';
-      PINUSE='UNSPEC';
     'B'<21>:
       PIN_NUMBER='(B22)';
-      PINUSE='UNSPEC';
     'B'<20>:
       PIN_NUMBER='(B21)';
-      PINUSE='UNSPEC';
     'B'<1>:
       PIN_NUMBER='(B2)';
-      PINUSE='UNSPEC';
     'B'<19>:
       PIN_NUMBER='(B20)';
-      PINUSE='UNSPEC';
     'B'<18>:
       PIN_NUMBER='(B19)';
-      PINUSE='UNSPEC';
     'B'<17>:
       PIN_NUMBER='(B18)';
-      PINUSE='UNSPEC';
     'B'<16>:
       PIN_NUMBER='(B17)';
-      PINUSE='UNSPEC';
     'B'<15>:
       PIN_NUMBER='(B16)';
-      PINUSE='UNSPEC';
     'B'<14>:
       PIN_NUMBER='(B15)';
-      PINUSE='UNSPEC';
     'B'<13>:
       PIN_NUMBER='(B14)';
-      PINUSE='UNSPEC';
     'B'<12>:
       PIN_NUMBER='(B13)';
-      PINUSE='UNSPEC';
     'B'<11>:
       PIN_NUMBER='(B12)';
-      PINUSE='UNSPEC';
     'B'<10>:
       PIN_NUMBER='(B11)';
-      PINUSE='UNSPEC';
     'B'<0>:
       PIN_NUMBER='(B1)';
-      PINUSE='UNSPEC';
     'A'<9>:
       PIN_NUMBER='(A10)';
-      PINUSE='UNSPEC';
     'A'<8>:
       PIN_NUMBER='(A9)';
-      PINUSE='UNSPEC';
     'A'<7>:
       PIN_NUMBER='(A8)';
-      PINUSE='UNSPEC';
     'A'<6>:
       PIN_NUMBER='(A7)';
-      PINUSE='UNSPEC';
     'A'<5>:
       PIN_NUMBER='(A6)';
-      PINUSE='UNSPEC';
     'A'<4>:
       PIN_NUMBER='(A5)';
-      PINUSE='UNSPEC';
     'A'<3>:
       PIN_NUMBER='(A4)';
-      PINUSE='UNSPEC';
     'A'<31>:
       PIN_NUMBER='(A32)';
-      PINUSE='UNSPEC';
     'A'<30>:
       PIN_NUMBER='(A31)';
-      PINUSE='UNSPEC';
     'A'<2>:
       PIN_NUMBER='(A3)';
-      PINUSE='UNSPEC';
     'A'<29>:
       PIN_NUMBER='(A30)';
-      PINUSE='UNSPEC';
     'A'<28>:
       PIN_NUMBER='(A29)';
-      PINUSE='UNSPEC';
     'A'<27>:
       PIN_NUMBER='(A28)';
-      PINUSE='UNSPEC';
     'A'<26>:
       PIN_NUMBER='(A27)';
-      PINUSE='UNSPEC';
     'A'<25>:
       PIN_NUMBER='(A26)';
-      PINUSE='UNSPEC';
     'A'<24>:
       PIN_NUMBER='(A25)';
-      PINUSE='UNSPEC';
     'A'<23>:
       PIN_NUMBER='(A24)';
-      PINUSE='UNSPEC';
     'A'<22>:
       PIN_NUMBER='(A23)';
-      PINUSE='UNSPEC';
     'A'<21>:
       PIN_NUMBER='(A22)';
-      PINUSE='UNSPEC';
     'A'<20>:
       PIN_NUMBER='(A21)';
-      PINUSE='UNSPEC';
     'A'<1>:
       PIN_NUMBER='(A2)';
-      PINUSE='UNSPEC';
     'A'<19>:
       PIN_NUMBER='(A20)';
-      PINUSE='UNSPEC';
     'A'<18>:
       PIN_NUMBER='(A19)';
-      PINUSE='UNSPEC';
     'A'<17>:
       PIN_NUMBER='(A18)';
-      PINUSE='UNSPEC';
     'A'<16>:
       PIN_NUMBER='(A17)';
-      PINUSE='UNSPEC';
     'A'<15>:
       PIN_NUMBER='(A16)';
-      PINUSE='UNSPEC';
     'A'<14>:
       PIN_NUMBER='(A15)';
-      PINUSE='UNSPEC';
     'A'<13>:
       PIN_NUMBER='(A14)';
-      PINUSE='UNSPEC';
     'A'<12>:
       PIN_NUMBER='(A13)';
-      PINUSE='UNSPEC';
     'A'<11>:
       PIN_NUMBER='(A12)';
-      PINUSE='UNSPEC';
     'A'<10>:
       PIN_NUMBER='(A11)';
-      PINUSE='UNSPEC';
     'A'<0>:
       PIN_NUMBER='(A1)';
-      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='CONABC96';
@@ -2403,292 +1989,196 @@ primitive 'CONABC96-09 73 296 6801';
   pin
     'C'<9>:
       PIN_NUMBER='(C10)';
-      PINUSE='UNSPEC';
     'C'<8>:
       PIN_NUMBER='(C9)';
-      PINUSE='UNSPEC';
     'C'<7>:
       PIN_NUMBER='(C8)';
-      PINUSE='UNSPEC';
     'C'<6>:
       PIN_NUMBER='(C7)';
-      PINUSE='UNSPEC';
     'C'<5>:
       PIN_NUMBER='(C6)';
-      PINUSE='UNSPEC';
     'C'<4>:
       PIN_NUMBER='(C5)';
-      PINUSE='UNSPEC';
     'C'<3>:
       PIN_NUMBER='(C4)';
-      PINUSE='UNSPEC';
     'C'<31>:
       PIN_NUMBER='(C32)';
-      PINUSE='UNSPEC';
     'C'<30>:
       PIN_NUMBER='(C31)';
-      PINUSE='UNSPEC';
     'C'<2>:
       PIN_NUMBER='(C3)';
-      PINUSE='UNSPEC';
     'C'<29>:
       PIN_NUMBER='(C30)';
-      PINUSE='UNSPEC';
     'C'<28>:
       PIN_NUMBER='(C29)';
-      PINUSE='UNSPEC';
     'C'<27>:
       PIN_NUMBER='(C28)';
-      PINUSE='UNSPEC';
     'C'<26>:
       PIN_NUMBER='(C27)';
-      PINUSE='UNSPEC';
     'C'<25>:
       PIN_NUMBER='(C26)';
-      PINUSE='UNSPEC';
     'C'<24>:
       PIN_NUMBER='(C25)';
-      PINUSE='UNSPEC';
     'C'<23>:
       PIN_NUMBER='(C24)';
-      PINUSE='UNSPEC';
     'C'<22>:
       PIN_NUMBER='(C23)';
-      PINUSE='UNSPEC';
     'C'<21>:
       PIN_NUMBER='(C22)';
-      PINUSE='UNSPEC';
     'C'<20>:
       PIN_NUMBER='(C21)';
-      PINUSE='UNSPEC';
     'C'<1>:
       PIN_NUMBER='(C2)';
-      PINUSE='UNSPEC';
     'C'<19>:
       PIN_NUMBER='(C20)';
-      PINUSE='UNSPEC';
     'C'<18>:
       PIN_NUMBER='(C19)';
-      PINUSE='UNSPEC';
     'C'<17>:
       PIN_NUMBER='(C18)';
-      PINUSE='UNSPEC';
     'C'<16>:
       PIN_NUMBER='(C17)';
-      PINUSE='UNSPEC';
     'C'<15>:
       PIN_NUMBER='(C16)';
-      PINUSE='UNSPEC';
     'C'<14>:
       PIN_NUMBER='(C15)';
-      PINUSE='UNSPEC';
     'C'<13>:
       PIN_NUMBER='(C14)';
-      PINUSE='UNSPEC';
     'C'<12>:
       PIN_NUMBER='(C13)';
-      PINUSE='UNSPEC';
     'C'<11>:
       PIN_NUMBER='(C12)';
-      PINUSE='UNSPEC';
     'C'<10>:
       PIN_NUMBER='(C11)';
-      PINUSE='UNSPEC';
     'C'<0>:
       PIN_NUMBER='(C1)';
-      PINUSE='UNSPEC';
     'B'<9>:
       PIN_NUMBER='(B10)';
-      PINUSE='UNSPEC';
     'B'<8>:
       PIN_NUMBER='(B9)';
-      PINUSE='UNSPEC';
     'B'<7>:
       PIN_NUMBER='(B8)';
-      PINUSE='UNSPEC';
     'B'<6>:
       PIN_NUMBER='(B7)';
-      PINUSE='UNSPEC';
     'B'<5>:
       PIN_NUMBER='(B6)';
-      PINUSE='UNSPEC';
     'B'<4>:
       PIN_NUMBER='(B5)';
-      PINUSE='UNSPEC';
     'B'<3>:
       PIN_NUMBER='(B4)';
-      PINUSE='UNSPEC';
     'B'<31>:
       PIN_NUMBER='(B32)';
-      PINUSE='UNSPEC';
     'B'<30>:
       PIN_NUMBER='(B31)';
-      PINUSE='UNSPEC';
     'B'<2>:
       PIN_NUMBER='(B3)';
-      PINUSE='UNSPEC';
     'B'<29>:
       PIN_NUMBER='(B30)';
-      PINUSE='UNSPEC';
     'B'<28>:
       PIN_NUMBER='(B29)';
-      PINUSE='UNSPEC';
     'B'<27>:
       PIN_NUMBER='(B28)';
-      PINUSE='UNSPEC';
     'B'<26>:
       PIN_NUMBER='(B27)';
-      PINUSE='UNSPEC';
     'B'<25>:
       PIN_NUMBER='(B26)';
-      PINUSE='UNSPEC';
     'B'<24>:
       PIN_NUMBER='(B25)';
-      PINUSE='UNSPEC';
     'B'<23>:
       PIN_NUMBER='(B24)';
-      PINUSE='UNSPEC';
     'B'<22>:
       PIN_NUMBER='(B23)';
-      PINUSE='UNSPEC';
     'B'<21>:
       PIN_NUMBER='(B22)';
-      PINUSE='UNSPEC';
     'B'<20>:
       PIN_NUMBER='(B21)';
-      PINUSE='UNSPEC';
     'B'<1>:
       PIN_NUMBER='(B2)';
-      PINUSE='UNSPEC';
     'B'<19>:
       PIN_NUMBER='(B20)';
-      PINUSE='UNSPEC';
     'B'<18>:
       PIN_NUMBER='(B19)';
-      PINUSE='UNSPEC';
     'B'<17>:
       PIN_NUMBER='(B18)';
-      PINUSE='UNSPEC';
     'B'<16>:
       PIN_NUMBER='(B17)';
-      PINUSE='UNSPEC';
     'B'<15>:
       PIN_NUMBER='(B16)';
-      PINUSE='UNSPEC';
     'B'<14>:
       PIN_NUMBER='(B15)';
-      PINUSE='UNSPEC';
     'B'<13>:
       PIN_NUMBER='(B14)';
-      PINUSE='UNSPEC';
     'B'<12>:
       PIN_NUMBER='(B13)';
-      PINUSE='UNSPEC';
     'B'<11>:
       PIN_NUMBER='(B12)';
-      PINUSE='UNSPEC';
     'B'<10>:
       PIN_NUMBER='(B11)';
-      PINUSE='UNSPEC';
     'B'<0>:
       PIN_NUMBER='(B1)';
-      PINUSE='UNSPEC';
     'A'<9>:
       PIN_NUMBER='(A10)';
-      PINUSE='UNSPEC';
     'A'<8>:
       PIN_NUMBER='(A9)';
-      PINUSE='UNSPEC';
     'A'<7>:
       PIN_NUMBER='(A8)';
-      PINUSE='UNSPEC';
     'A'<6>:
       PIN_NUMBER='(A7)';
-      PINUSE='UNSPEC';
     'A'<5>:
       PIN_NUMBER='(A6)';
-      PINUSE='UNSPEC';
     'A'<4>:
       PIN_NUMBER='(A5)';
-      PINUSE='UNSPEC';
     'A'<3>:
       PIN_NUMBER='(A4)';
-      PINUSE='UNSPEC';
     'A'<31>:
       PIN_NUMBER='(A32)';
-      PINUSE='UNSPEC';
     'A'<30>:
       PIN_NUMBER='(A31)';
-      PINUSE='UNSPEC';
     'A'<2>:
       PIN_NUMBER='(A3)';
-      PINUSE='UNSPEC';
     'A'<29>:
       PIN_NUMBER='(A30)';
-      PINUSE='UNSPEC';
     'A'<28>:
       PIN_NUMBER='(A29)';
-      PINUSE='UNSPEC';
     'A'<27>:
       PIN_NUMBER='(A28)';
-      PINUSE='UNSPEC';
     'A'<26>:
       PIN_NUMBER='(A27)';
-      PINUSE='UNSPEC';
     'A'<25>:
       PIN_NUMBER='(A26)';
-      PINUSE='UNSPEC';
     'A'<24>:
       PIN_NUMBER='(A25)';
-      PINUSE='UNSPEC';
     'A'<23>:
       PIN_NUMBER='(A24)';
-      PINUSE='UNSPEC';
     'A'<22>:
       PIN_NUMBER='(A23)';
-      PINUSE='UNSPEC';
     'A'<21>:
       PIN_NUMBER='(A22)';
-      PINUSE='UNSPEC';
     'A'<20>:
       PIN_NUMBER='(A21)';
-      PINUSE='UNSPEC';
     'A'<1>:
       PIN_NUMBER='(A2)';
-      PINUSE='UNSPEC';
     'A'<19>:
       PIN_NUMBER='(A20)';
-      PINUSE='UNSPEC';
     'A'<18>:
       PIN_NUMBER='(A19)';
-      PINUSE='UNSPEC';
     'A'<17>:
       PIN_NUMBER='(A18)';
-      PINUSE='UNSPEC';
     'A'<16>:
       PIN_NUMBER='(A17)';
-      PINUSE='UNSPEC';
     'A'<15>:
       PIN_NUMBER='(A16)';
-      PINUSE='UNSPEC';
     'A'<14>:
       PIN_NUMBER='(A15)';
-      PINUSE='UNSPEC';
     'A'<13>:
       PIN_NUMBER='(A14)';
-      PINUSE='UNSPEC';
     'A'<12>:
       PIN_NUMBER='(A13)';
-      PINUSE='UNSPEC';
     'A'<11>:
       PIN_NUMBER='(A12)';
-      PINUSE='UNSPEC';
     'A'<10>:
       PIN_NUMBER='(A11)';
-      PINUSE='UNSPEC';
     'A'<0>:
       PIN_NUMBER='(A1)';
-      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='CONABC96';
@@ -2758,7 +2248,6 @@ primitive 'DS18B20U+';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'GND':
       PIN_NUMBER='(4)';
       PINUSE='GROUND';
@@ -2801,23 +2290,18 @@ primitive 'DS90LV001TM-GND=GND_SIGNAL,VCCA';
     'INM*':
       PIN_NUMBER='(2)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'INP':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'OUTM*':
       PIN_NUMBER='(7)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUTP':
       PIN_NUMBER='(6)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'EN':
       PIN_NUMBER='(8)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
   end_pin;
   body
       PART_NAME='DS90LV001';
@@ -2847,23 +2331,18 @@ primitive 'DS92001TMA-GND=GND_SIGNAL,VCC=A';
     'OUT+':
       PIN_NUMBER='(6)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT-':
       PIN_NUMBER='(7)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'IN-':
       PIN_NUMBER='(2)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'IN+':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'EN':
       PIN_NUMBER='(8)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
   end_pin;
   body
       PART_NAME='DS92001';
@@ -2895,13 +2374,11 @@ primitive 'ELCAPTAN_SMD-150UF,20V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='ELCAPTAN';
@@ -2933,13 +2410,11 @@ primitive 'ELCAPTAN_SMD-220UF,6.3V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='ELCAPTAN';
@@ -2971,14 +2446,12 @@ primitive 'FERRITE_C0805-LI0805H121R-10,LA';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'A'<0>:
       PIN_NUMBER='(1)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       CLASS='DISCRETE';
@@ -3011,14 +2484,12 @@ primitive 'FERRITE_SMD-220Z,ILBB_0603';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'A'<0>:
       PIN_NUMBER='(1)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       CLASS='DISCRETE';
@@ -3046,10 +2517,8 @@ primitive 'LED-HSMG-C150';
   pin
     'K':
       PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
     'A':
       PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='LED';
@@ -3080,10 +2549,8 @@ primitive 'LED-HSMH-C150';
   pin
     'K':
       PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
     'A':
       PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='LED';
@@ -3114,10 +2581,8 @@ primitive 'LED-HSMY-C150';
   pin
     'K':
       PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
     'A':
       PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='LED';
@@ -3151,13 +2616,11 @@ primitive 'LM2937IMP_SOT223-2.5V,TI';
       PIN_TYPE='ANALOG';
       NO_LOAD_CHECK='Both';
       UNKNOWN_LOADING='TRUE';
-      PINUSE='UNSPEC';
     'PINPUT':
       PIN_NUMBER='(1)';
       PIN_TYPE='ANALOG';
       NO_LOAD_CHECK='Both';
       UNKNOWN_LOADING='TRUE';
-      PINUSE='UNSPEC';
     'GND':
       PIN_NUMBER='(2)';
       PINUSE='POWER';
@@ -3192,11 +2655,9 @@ primitive 'LM4040-CIM3-2.5V,0.5%';
     'CAT':
       PIN_NUMBER='(1)';
       OUTPUT_LOAD='(1.0,-100.0)';
-      PINUSE='OUT';
     'AN':
       PIN_NUMBER='(2)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
   end_pin;
   body
       PHYS_DES_PREFIX='Z';
@@ -3215,53 +2676,39 @@ primitive 'LM4040-CIM3-2.5V,0.5%';
       PARENT_PPT_PART='LM4040-CIM3-2.5V,0.5%';
   end_body;
 end_primitive;
-primitive 'LP3874_ADJ_SOT223';
+primitive 'LP38692_SOT223-ADJ,TEXAS INSTRA';
   pin
-    'VIN':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      UNKNOWN_LOADING='TRUE';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'VOUT':
+    'OUT':
       PIN_NUMBER='(3)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      UNKNOWN_LOADING='TRUE';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'SD*':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      UNKNOWN_LOADING='TRUE';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'ADJ':
+      OUTPUT_LOAD='(*,*)';
+    'IN':
       PIN_NUMBER='(4)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      UNKNOWN_LOADING='TRUE';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
+      INPUT_LOAD='(*,*)';
     'GND':
       PIN_NUMBER='(5)';
-      PINUSE='POWER';
+      PINUSE='GROUND';
+    'ADJ':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*,*)';
+    'EN':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*,*)';
   end_pin;
   body
-      CLASS='IC';
-      PART_NAME='LP3874_ADJ';
-      BODY_NAME='LP3874_ADJ';
+      PART_NAME='LP38692';
+      BODY_NAME='LP38692';
       JEDEC_TYPE='SOT223_5';
-      PART_NUMBER='LP3874EMP-ADJ';
-      MANUFACTURER='NATIONAL';
-      PHYS_DES_PREFIX='IC';
-      DESCRIPTION='0.8A FAST ULTRA LOW DROPOUT LINEAR REGULATOR';
+      PHYS_DES_PREFIX='U';
+      CLASS='IC';
+      CI='03821A-3';
+      PART_NUMBER='LP38692MP-ADJ';
+      PART_DESCRIPTION='Adjustable, 1A Low Dropout Regulator';
+      OL_COMMENTS='Available from RS 660-6724, Farnell 1496843';
+      KL_COMMENTS='-';
+      PL_COMMENTS='-';
+      PARENT_PART_TYPE='LP38692_SOT223';
+      PARENT_PPT='LP38692';
+      PARENT_PPT_PART='LP38692_SOT223-ADJ,TEXAS INSTRUMENTS';
   end_body;
 end_primitive;
 primitive 'LT1585_TO263-3V3';
@@ -3269,19 +2716,15 @@ primitive 'LT1585_TO263-3V3';
     'VOUT2/CASE':
       PIN_NUMBER='(4)';
       OUTPUT_LOAD='(*,*)';
-      PINUSE='OUT';
     'VOUT1':
       PIN_NUMBER='(2)';
       OUTPUT_LOAD='(*,*)';
-      PINUSE='OUT';
     'VIN':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(*,*)';
-      PINUSE='IN';
     'GND/ADJ':
       PIN_NUMBER='(1)';
       INPUT_LOAD='(*,*)';
-      PINUSE='IN';
   end_pin;
   body
       PART_NAME='LT1585';
@@ -3304,19 +2747,15 @@ primitive 'LT1585_TO263-ADJ';
     'VOUT2/CASE':
       PIN_NUMBER='(4)';
       OUTPUT_LOAD='(*,*)';
-      PINUSE='OUT';
     'VOUT1':
       PIN_NUMBER='(2)';
       OUTPUT_LOAD='(*,*)';
-      PINUSE='OUT';
     'VIN':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(*,*)';
-      PINUSE='IN';
     'GND/ADJ':
       PIN_NUMBER='(1)';
       INPUT_LOAD='(*,*)';
-      PINUSE='IN';
   end_pin;
   body
       PART_NAME='LT1585';
@@ -3347,47 +2786,36 @@ primitive 'LT3070EUFD#PBF-GND=GND_SIGNAL';
     'SENSE':
       PIN_NUMBER='(19)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'REF/BYP':
       PIN_NUMBER='(3)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'BIAS':
       PIN_NUMBER='(27)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'IN2':
       PIN_NUMBER='(7)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'IN1':
       PIN_NUMBER='(6)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'IN0':
       PIN_NUMBER='(5)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'EN':
       PIN_NUMBER='(28)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'VO0':
       PIN_NUMBER='(23)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'IN3':
       PIN_NUMBER='(8)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'VO2':
       PIN_NUMBER='(25)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'VO1':
       PIN_NUMBER='(24)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'VIOC':
       PIN_NUMBER='(1)';
       PINUSE='POWER';
@@ -3404,7 +2832,6 @@ primitive 'LT3070EUFD#PBF-GND=GND_SIGNAL';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'MARGSEL':
       PIN_NUMBER='(21)';
       PIN_TYPE='ANALOG';
@@ -3413,23 +2840,18 @@ primitive 'LT3070EUFD#PBF-GND=GND_SIGNAL';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'OUT0':
       PIN_NUMBER='(15)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT1':
       PIN_NUMBER='(16)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT3':
       PIN_NUMBER='(18)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT2':
       PIN_NUMBER='(17)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
   end_pin;
   body
       PART_NAME='LT3070';
@@ -3459,7 +2881,6 @@ primitive 'LTM4606EV#PBF';
     'PLLIN':
       PIN_NUMBER='(A8)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'VOUT'<0>:
       PIN_NUMBER='(M11)';
       PINUSE='POWER';
@@ -3815,7 +3236,6 @@ primitive 'LTM4606EV#PBF';
     'VFB':
       PIN_NUMBER='(F12)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'VIN'<0>:
       PIN_NUMBER='(C6)';
       PINUSE='POWER';
@@ -3963,47 +3383,38 @@ primitive 'LTM4606EV#PBF';
     'PGOOD':
       PIN_NUMBER='(G12)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'RUN2':
       PIN_NUMBER='(B9)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'RUN1':
       PIN_NUMBER='(A10)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'COMP1':
       PIN_NUMBER='(A11)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'COMP2':
       PIN_NUMBER='(D11)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'INTVCC':
       PIN_NUMBER='(A7)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'DRVCC'<0>:
       PIN_NUMBER='(C10)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'DRVCC'<1>:
       PIN_NUMBER='(E11)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'DRVCC'<2>:
       PIN_NUMBER='(E12)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'FSET':
       PIN_NUMBER='(B12)';
       PIN_TYPE='ANALOG';
@@ -4012,7 +3423,6 @@ primitive 'LTM4606EV#PBF';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'VD'<0>:
       PIN_NUMBER='(B7)';
       PINUSE='UNSPEC';
@@ -4408,31 +3818,24 @@ primitive 'LTM4606EV#PBF';
     'MPGM1':
       PIN_NUMBER='(A12)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MPGM2':
       PIN_NUMBER='(B11)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MARG1_2':
       PIN_NUMBER='(C11)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MARG1_1':
       PIN_NUMBER='(D12)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'FCB':
       PIN_NUMBER='(M12)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MARG0':
       PIN_NUMBER='(C12)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'TRACK/SS':
       PIN_NUMBER='(A9)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
   end_pin;
   body
       PART_NAME='LTM4606';
@@ -4463,7 +3866,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN1':
       PIN_NUMBER='(239,0,0)';
       PIN_TYPE='ANALOG';
@@ -4472,7 +3874,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN2':
       PIN_NUMBER='(240,0,0)';
       PIN_TYPE='ANALOG';
@@ -4481,7 +3882,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN3':
       PIN_NUMBER='(1,0,0)';
       PIN_TYPE='ANALOG';
@@ -4490,7 +3890,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN4':
       PIN_NUMBER='(2,0,0)';
       PIN_TYPE='ANALOG';
@@ -4499,7 +3898,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN5':
       PIN_NUMBER='(3,0,0)';
       PIN_TYPE='ANALOG';
@@ -4508,7 +3906,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN6':
       PIN_NUMBER='(4,0,0)';
       PIN_TYPE='ANALOG';
@@ -4517,7 +3914,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN7':
       PIN_NUMBER='(5,0,0)';
       PIN_TYPE='ANALOG';
@@ -4526,7 +3922,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN8':
       PIN_NUMBER='(6,0,0)';
       PIN_TYPE='ANALOG';
@@ -4535,7 +3930,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN9':
       PIN_NUMBER='(7,0,0)';
       PIN_TYPE='ANALOG';
@@ -4544,7 +3938,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN10':
       PIN_NUMBER='(8,0,0)';
       PIN_TYPE='ANALOG';
@@ -4553,7 +3946,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN11':
       PIN_NUMBER='(9,0,0)';
       PIN_TYPE='ANALOG';
@@ -4562,7 +3954,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN12':
       PIN_NUMBER='(10,0,0)';
       PIN_TYPE='ANALOG';
@@ -4571,7 +3962,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN13':
       PIN_NUMBER='(11,0,0)';
       PIN_TYPE='ANALOG';
@@ -4580,7 +3970,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN14':
       PIN_NUMBER='(12,0,0)';
       PIN_TYPE='ANALOG';
@@ -4589,7 +3978,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN15':
       PIN_NUMBER='(13,0,0)';
       PIN_TYPE='ANALOG';
@@ -4598,7 +3986,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN16':
       PIN_NUMBER='(14,0,0)';
       PIN_TYPE='ANALOG';
@@ -4607,7 +3994,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN17':
       PIN_NUMBER='(15,0,0)';
       PIN_TYPE='ANALOG';
@@ -4616,7 +4002,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN18':
       PIN_NUMBER='(16,0,0)';
       PIN_TYPE='ANALOG';
@@ -4625,7 +4010,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN19':
       PIN_NUMBER='(17,0,0)';
       PIN_TYPE='ANALOG';
@@ -4634,7 +4018,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN20':
       PIN_NUMBER='(18,0,0)';
       PIN_TYPE='ANALOG';
@@ -4643,7 +4026,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN21':
       PIN_NUMBER='(19,0,0)';
       PIN_TYPE='ANALOG';
@@ -4652,7 +4034,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN22':
       PIN_NUMBER='(20,0,0)';
       PIN_TYPE='ANALOG';
@@ -4661,7 +4042,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN23':
       PIN_NUMBER='(21,0,0)';
       PIN_TYPE='ANALOG';
@@ -4670,7 +4050,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN24':
       PIN_NUMBER='(22,0,0)';
       PIN_TYPE='ANALOG';
@@ -4679,7 +4058,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN25':
       PIN_NUMBER='(23,0,0)';
       PIN_TYPE='ANALOG';
@@ -4688,7 +4066,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN26':
       PIN_NUMBER='(24,0,0)';
       PIN_TYPE='ANALOG';
@@ -4697,7 +4074,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN27':
       PIN_NUMBER='(25,0,0)';
       PIN_TYPE='ANALOG';
@@ -4706,7 +4082,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN28':
       PIN_NUMBER='(26,0,0)';
       PIN_TYPE='ANALOG';
@@ -4715,7 +4090,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN29':
       PIN_NUMBER='(27,0,0)';
       PIN_TYPE='ANALOG';
@@ -4724,7 +4098,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN30':
       PIN_NUMBER='(28,0,0)';
       PIN_TYPE='ANALOG';
@@ -4733,7 +4106,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN31':
       PIN_NUMBER='(29,0,0)';
       PIN_TYPE='ANALOG';
@@ -4742,7 +4114,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN32':
       PIN_NUMBER='(31,0,0)';
       PIN_TYPE='ANALOG';
@@ -4751,7 +4122,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN33':
       PIN_NUMBER='(32,0,0)';
       PIN_TYPE='ANALOG';
@@ -4760,7 +4130,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN34':
       PIN_NUMBER='(33,0,0)';
       PIN_TYPE='ANALOG';
@@ -4769,7 +4138,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN35':
       PIN_NUMBER='(34,0,0)';
       PIN_TYPE='ANALOG';
@@ -4778,7 +4146,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN36':
       PIN_NUMBER='(35,0,0)';
       PIN_TYPE='ANALOG';
@@ -4787,7 +4154,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN37':
       PIN_NUMBER='(36,0,0)';
       PIN_TYPE='ANALOG';
@@ -4796,7 +4162,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN38':
       PIN_NUMBER='(37,0,0)';
       PIN_TYPE='ANALOG';
@@ -4805,7 +4170,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN39':
       PIN_NUMBER='(38,0,0)';
       PIN_TYPE='ANALOG';
@@ -4814,7 +4178,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN40':
       PIN_NUMBER='(39,0,0)';
       PIN_TYPE='ANALOG';
@@ -4823,7 +4186,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN41':
       PIN_NUMBER='(40,0,0)';
       PIN_TYPE='ANALOG';
@@ -4832,7 +4194,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN42':
       PIN_NUMBER='(41,0,0)';
       PIN_TYPE='ANALOG';
@@ -4841,7 +4202,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN43':
       PIN_NUMBER='(42,0,0)';
       PIN_TYPE='ANALOG';
@@ -4850,7 +4210,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN44':
       PIN_NUMBER='(43,0,0)';
       PIN_TYPE='ANALOG';
@@ -4859,7 +4218,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN45':
       PIN_NUMBER='(44,0,0)';
       PIN_TYPE='ANALOG';
@@ -4868,7 +4226,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN46':
       PIN_NUMBER='(45,0,0)';
       PIN_TYPE='ANALOG';
@@ -4877,7 +4234,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN47':
       PIN_NUMBER='(46,0,0)';
       PIN_TYPE='ANALOG';
@@ -4886,7 +4242,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN48':
       PIN_NUMBER='(47,0,0)';
       PIN_TYPE='ANALOG';
@@ -4895,7 +4250,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN49':
       PIN_NUMBER='(48,0,0)';
       PIN_TYPE='ANALOG';
@@ -4904,7 +4258,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN50':
       PIN_NUMBER='(49,0,0)';
       PIN_TYPE='ANALOG';
@@ -4913,7 +4266,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN51':
       PIN_NUMBER='(50,0,0)';
       PIN_TYPE='ANALOG';
@@ -4922,7 +4274,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN52':
       PIN_NUMBER='(51,0,0)';
       PIN_TYPE='ANALOG';
@@ -4931,7 +4282,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN53':
       PIN_NUMBER='(52,0,0)';
       PIN_TYPE='ANALOG';
@@ -4940,7 +4290,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN54':
       PIN_NUMBER='(53,0,0)';
       PIN_TYPE='ANALOG';
@@ -4949,7 +4298,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN55':
       PIN_NUMBER='(54,0,0)';
       PIN_TYPE='ANALOG';
@@ -4958,7 +4306,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN56':
       PIN_NUMBER='(55,0,0)';
       PIN_TYPE='ANALOG';
@@ -4967,7 +4314,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN57':
       PIN_NUMBER='(56,0,0)';
       PIN_TYPE='ANALOG';
@@ -4976,7 +4322,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN58':
       PIN_NUMBER='(57,0,0)';
       PIN_TYPE='ANALOG';
@@ -4985,7 +4330,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN59':
       PIN_NUMBER='(58,0,0)';
       PIN_TYPE='ANALOG';
@@ -4994,7 +4338,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN60':
       PIN_NUMBER='(59,0,0)';
       PIN_TYPE='ANALOG';
@@ -5003,7 +4346,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN61':
       PIN_NUMBER='(60,0,0)';
       PIN_TYPE='ANALOG';
@@ -5012,7 +4354,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN62':
       PIN_NUMBER='(61,0,0)';
       PIN_TYPE='ANALOG';
@@ -5021,7 +4362,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'IN63':
       PIN_NUMBER='(62,0,0)';
       PIN_TYPE='ANALOG';
@@ -5030,271 +4370,204 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'OUT0':
       PIN_NUMBER='(182,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT1':
       PIN_NUMBER='(181,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT2':
       PIN_NUMBER='(180,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT3':
       PIN_NUMBER='(179,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT4':
       PIN_NUMBER='(178,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT5':
       PIN_NUMBER='(177,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT6':
       PIN_NUMBER='(176,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT7':
       PIN_NUMBER='(175,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT8':
       PIN_NUMBER='(174,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT9':
       PIN_NUMBER='(173,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT10':
       PIN_NUMBER='(172,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT11':
       PIN_NUMBER='(171,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT12':
       PIN_NUMBER='(170,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT13':
       PIN_NUMBER='(169,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT14':
       PIN_NUMBER='(168,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT15':
       PIN_NUMBER='(167,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT16':
       PIN_NUMBER='(166,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT17':
       PIN_NUMBER='(165,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT18':
       PIN_NUMBER='(164,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT19':
       PIN_NUMBER='(163,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT20':
       PIN_NUMBER='(162,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT21':
       PIN_NUMBER='(161,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT22':
       PIN_NUMBER='(160,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT23':
       PIN_NUMBER='(159,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT24':
       PIN_NUMBER='(158,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT25':
       PIN_NUMBER='(157,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT26':
       PIN_NUMBER='(156,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT27':
       PIN_NUMBER='(155,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT28':
       PIN_NUMBER='(154,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT29':
       PIN_NUMBER='(153,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT30':
       PIN_NUMBER='(152,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT31':
       PIN_NUMBER='(151,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT32':
       PIN_NUMBER='(149,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT33':
       PIN_NUMBER='(148,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT34':
       PIN_NUMBER='(147,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT35':
       PIN_NUMBER='(146,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT36':
       PIN_NUMBER='(145,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT37':
       PIN_NUMBER='(144,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT38':
       PIN_NUMBER='(143,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT39':
       PIN_NUMBER='(142,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT40':
       PIN_NUMBER='(141,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT41':
       PIN_NUMBER='(140,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT42':
       PIN_NUMBER='(139,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT43':
       PIN_NUMBER='(138,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT44':
       PIN_NUMBER='(137,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT45':
       PIN_NUMBER='(136,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT46':
       PIN_NUMBER='(135,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT47':
       PIN_NUMBER='(134,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT48':
       PIN_NUMBER='(133,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT49':
       PIN_NUMBER='(132,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT50':
       PIN_NUMBER='(131,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT51':
       PIN_NUMBER='(130,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT52':
       PIN_NUMBER='(129,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT53':
       PIN_NUMBER='(128,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT54':
       PIN_NUMBER='(127,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT55':
       PIN_NUMBER='(126,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT56':
       PIN_NUMBER='(125,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT57':
       PIN_NUMBER='(124,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT58':
       PIN_NUMBER='(123,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT59':
       PIN_NUMBER='(122,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT60':
       PIN_NUMBER='(121,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT61':
       PIN_NUMBER='(120,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT62':
       PIN_NUMBER='(119,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUT63':
       PIN_NUMBER='(118,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OR_0':
       PIN_NUMBER='(191,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OR_1':
       PIN_NUMBER='(192,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'NC':
       PIN_NUMBER='(232,0,0)';
       PINUSE='NC';
@@ -5370,7 +4643,6 @@ primitive 'MAROC3_PQFP-IN2P3';
     'D_SC':
       PIN_NUMBER='(0,64,0)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'CK_R':
       PIN_NUMBER='(0,78,0)';
       PINUSE='UNSPEC';
@@ -5507,7 +4779,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'VBI_DISCRI':
       PIN_NUMBER='(0,104,0)';
       PINUSE='UNSPEC';
@@ -5575,7 +4846,6 @@ primitive 'MAROC3_PQFP-IN2P3';
     'OUT_ADC':
       PIN_NUMBER='(0,114,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'START_ADCB':
       PIN_NUMBER='(0,116,0)';
       PINUSE='UNSPEC';
@@ -5824,7 +5094,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'VSSA':
       PIN_NUMBER='(0,0,65)';
       PIN_TYPE='ANALOG';
@@ -5833,7 +5102,6 @@ primitive 'MAROC3_PQFP-IN2P3';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
     'GND_DAC':
       PIN_NUMBER='(0,0,85)';
       PINUSE='GROUND';
@@ -6193,19 +5461,15 @@ primitive 'MC100LVEL05_SOIC-ON SEMICONDUCA';
     'D0':
       PIN_NUMBER='(1)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'D0*':
       PIN_NUMBER='(2)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'D1':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'D1*':
       PIN_NUMBER='(4)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'VEE':
       PIN_NUMBER='(5)';
       PINUSE='POWER';
@@ -6217,11 +5481,9 @@ primitive 'MC100LVEL05_SOIC-ON SEMICONDUCA';
     'Q*':
       PIN_NUMBER='(6)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'Q':
       PIN_NUMBER='(7)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'VCC':
       PIN_NUMBER='(8)';
       PINUSE='POWER';
@@ -6253,15 +5515,12 @@ primitive 'OSC_6P_VCTRL_ENDIS_OUT_124-CFPB';
     'VCTRL':
       PIN_NUMBER='(1)';
       INTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='UNSPEC';
     'EN/DIS':
       PIN_NUMBER='(2)';
       INTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='UNSPEC';
     'OUT':
       PIN_NUMBER='(4)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
   end_pin;
   body
       BODY_NAME='OSC_6P_VCTRL_ENDIS_OUT';
@@ -6293,7 +5552,6 @@ primitive 'OSC_VCXO_4P_OSC_4PIN_53S-25MHZA';
     'VC':
       PIN_NUMBER='(1)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'GND':
       PIN_NUMBER='(2)';
       PINUSE='GROUND';
@@ -6305,7 +5563,6 @@ primitive 'OSC_VCXO_4P_OSC_4PIN_53S-25MHZA';
     'OUT':
       PIN_NUMBER='(3)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'VDD':
       PIN_NUMBER='(4)';
       PINUSE='POWER';
@@ -6338,79 +5595,63 @@ primitive 'PC049A_FPGA';
     'CCLK':
       PIN_NUMBER='(Y20,0,0,0,0,0,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'CMPCS_B_2':
       PIN_NUMBER='(V18,0,0,0,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'CSO_B':
       PIN_NUMBER='(AA3,0,0,0,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'DIN':
       PIN_NUMBER='(AA20,0,0,0,0,0,0,0)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'DONE_2':
       PIN_NUMBER='(AB21,0,0,0,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'INIT_B':
       PIN_NUMBER='(Y4,0,0,0,0,0,0,0)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'M0':
       PIN_NUMBER='(AA21,0,0,0,0,0,0,0)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'M1':
       PIN_NUMBER='(Y19,0,0,0,0,0,0,0)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MOSI':
       PIN_NUMBER='(AB20,0,0,0,0,0,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'PROGRAM_B_2':
       PIN_NUMBER='(AB2,0,0,0,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'RFUSE':
       PIN_NUMBER='(P15,0,0,0,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'SUSPEND':
       PIN_NUMBER='(AA22,0,0,0,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'TCK':
       PIN_NUMBER='(A21,0,0,0,0,0,0,0)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'TDI':
       PIN_NUMBER='(E18,0,0,0,0,0,0,0)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'TDO':
       PIN_NUMBER='(G17,0,0,0,0,0,0,0)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'TMS':
       PIN_NUMBER='(D20,0,0,0,0,0,0,0)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'FPGA_PLL_REF_CLK_101_N_I':
       PIN_NUMBER='(0,F12,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6418,7 +5659,6 @@ primitive 'PC049A_FPGA';
       SIGNAL_INTEGRITY='NONE';
       IOB_DELAY='NONE';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'FPGA_PLL_REF_CLK_101_P_I':
       PIN_NUMBER='(0,E12,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6426,7 +5666,6 @@ primitive 'PC049A_FPGA';
       SIGNAL_INTEGRITY='NONE';
       IOB_DELAY='NONE';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'FPGA_PLL_REF_CLK_123_N_I':
       PIN_NUMBER='(0,D11,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6434,7 +5673,6 @@ primitive 'PC049A_FPGA';
       SIGNAL_INTEGRITY='NONE';
       IOB_DELAY='NONE';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'FPGA_PLL_REF_CLK_123_P_I':
       PIN_NUMBER='(0,C11,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6442,79 +5680,66 @@ primitive 'PC049A_FPGA';
       SIGNAL_INTEGRITY='NONE';
       IOB_DELAY='NONE';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MGTAVCCPLL0_101':
       PIN_NUMBER='(0,B9,0,0,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'MGTAVCCPLL0_123':
       PIN_NUMBER='(0,B13,0,0,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'MGTAVCCPLL1_101':
       PIN_NUMBER='(0,D12,0,0,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'MGTAVCCPLL1_123':
       PIN_NUMBER='(0,E13,0,0,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'MGTAVCC_101':
       PIN_NUMBER='(0,C10,0,0,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'MGTAVCC_123':
       PIN_NUMBER='(0,E10,0,0,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'MGTAVTTRCAL_101':
       PIN_NUMBER='(0,E8,0,0,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'MGTAVTTRX_101':
       PIN_NUMBER='(0,D8,0,0,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'MGTAVTTRX_123':
       PIN_NUMBER='(0,D14,0,0,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'MGTAVTTTX_101':
       PIN_NUMBER='(0,A7,0,0,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'MGTAVTTTX_123':
       PIN_NUMBER='(0,A15,0,0,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'MGTRREF_101':
       PIN_NUMBER='(0,E9,0,0,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'SATA_RXN_I'<0>:
       PIN_NUMBER='(0,C13,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6522,7 +5747,6 @@ primitive 'PC049A_FPGA';
       SIGNAL_INTEGRITY='NONE';
       IOB_DELAY='NONE';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'SATA_RXN_I'<1>:
       PIN_NUMBER='(0,C9,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6530,7 +5754,6 @@ primitive 'PC049A_FPGA';
       SIGNAL_INTEGRITY='NONE';
       IOB_DELAY='NONE';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'SATA_RXP_I'<0>:
       PIN_NUMBER='(0,D13,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6538,7 +5761,6 @@ primitive 'PC049A_FPGA';
       SIGNAL_INTEGRITY='NONE';
       IOB_DELAY='NONE';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'SATA_RXP_I'<1>:
       PIN_NUMBER='(0,D9,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6546,35 +5768,30 @@ primitive 'PC049A_FPGA';
       SIGNAL_INTEGRITY='NONE';
       IOB_DELAY='NONE';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'SATA_TXN_O'<0>:
       PIN_NUMBER='(0,A14,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
       IO_REGISTER='NO';
       SIGNAL_INTEGRITY='NONE';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SATA_TXN_O'<1>:
       PIN_NUMBER='(0,A8,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
       IO_REGISTER='NO';
       SIGNAL_INTEGRITY='NONE';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SATA_TXP_O'<0>:
       PIN_NUMBER='(0,B14,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
       IO_REGISTER='NO';
       SIGNAL_INTEGRITY='NONE';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SATA_TXP_O'<1>:
       PIN_NUMBER='(0,B8,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
       IO_REGISTER='NO';
       SIGNAL_INTEGRITY='NONE';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SFP_LOS_I'<0>:
       PIN_NUMBER='(0,P3,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6584,7 +5801,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVCMOS33';
       IO_BANK_NUMBER='3';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'SFP_LOS_I'<1>:
       PIN_NUMBER='(0,N4,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6594,7 +5810,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVCMOS33';
       IO_BANK_NUMBER='3';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'SFP_MOD_DEF0_B'<0>:
       PIN_NUMBER='(0,K4,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6604,7 +5819,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVCMOS33';
       IO_BANK_NUMBER='3';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SFP_MOD_DEF0_B'<1>:
       PIN_NUMBER='(0,K2,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6614,7 +5828,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVCMOS33';
       IO_BANK_NUMBER='3';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SFP_MOD_DEF1_B'<0>:
       PIN_NUMBER='(0,N3,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6626,7 +5839,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SFP_MOD_DEF1_B'<1>:
       PIN_NUMBER='(0,M2,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6637,7 +5849,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SFP_MOD_DEF2_B'<0>:
       PIN_NUMBER='(0,N1,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6649,7 +5860,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SFP_MOD_DEF2_B'<1>:
       PIN_NUMBER='(0,M1,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6660,7 +5870,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SFP_RATE_SELECT_B'<0>:
       PIN_NUMBER='(0,P5,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6671,7 +5880,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SFP_RATE_SELECT_B'<1>:
       PIN_NUMBER='(0,P4,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6682,7 +5890,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SFP_RXN_I'<0>:
       PIN_NUMBER='(0,C15,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6690,7 +5897,6 @@ primitive 'PC049A_FPGA';
       SIGNAL_INTEGRITY='NONE';
       IOB_DELAY='NONE';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'SFP_RXN_I'<1>:
       PIN_NUMBER='(0,C7,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6698,7 +5904,6 @@ primitive 'PC049A_FPGA';
       SIGNAL_INTEGRITY='NONE';
       IOB_DELAY='NONE';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'SFP_RXP_I'<0>:
       PIN_NUMBER='(0,D15,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6706,7 +5911,6 @@ primitive 'PC049A_FPGA';
       SIGNAL_INTEGRITY='NONE';
       IOB_DELAY='NONE';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'SFP_RXP_I'<1>:
       PIN_NUMBER='(0,D7,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6714,35 +5918,30 @@ primitive 'PC049A_FPGA';
       SIGNAL_INTEGRITY='NONE';
       IOB_DELAY='NONE';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'SFP_TXN_O'<0>:
       PIN_NUMBER='(0,A16,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
       IO_REGISTER='NO';
       SIGNAL_INTEGRITY='NONE';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SFP_TXN_O'<1>:
       PIN_NUMBER='(0,A6,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
       IO_REGISTER='NO';
       SIGNAL_INTEGRITY='NONE';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SFP_TXP_O'<0>:
       PIN_NUMBER='(0,B16,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
       IO_REGISTER='NO';
       SIGNAL_INTEGRITY='NONE';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SFP_TXP_O'<1>:
       PIN_NUMBER='(0,B6,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
       IO_REGISTER='NO';
       SIGNAL_INTEGRITY='NONE';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SFP_TX_DISABLE_O'<0>:
       PIN_NUMBER='(0,K5,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6753,7 +5952,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SFP_TX_DISABLE_O'<1>:
       PIN_NUMBER='(0,K6,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6764,7 +5962,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SFP_TX_FAULT_I'<0>:
       PIN_NUMBER='(0,K3,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6774,7 +5971,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVCMOS33';
       IO_BANK_NUMBER='3';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'SFP_TX_FAULT_I'<1>:
       PIN_NUMBER='(0,L6,0,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6784,7 +5980,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVCMOS33';
       IO_BANK_NUMBER='3';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'ADC_DAV_I':
       PIN_NUMBER='(0,0,W1,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6794,7 +5989,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='3';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'CK_40M_N_O':
       PIN_NUMBER='(0,0,AB4,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6802,7 +5996,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'CK_40M_P_O':
       PIN_NUMBER='(0,0,AA4,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6811,7 +6004,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'CK_R_O':
       PIN_NUMBER='(0,0,W4,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6822,7 +6014,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'CK_SC_O':
       PIN_NUMBER='(0,0,V1,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6833,7 +6024,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'D_R_O':
       PIN_NUMBER='(0,0,V2,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6844,7 +6034,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'D_SC_O':
       PIN_NUMBER='(0,0,V3,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6855,7 +6044,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'EN_OTAQ_O':
       PIN_NUMBER='(0,0,V5,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6866,7 +6054,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'HOLD1_O':
       PIN_NUMBER='(0,0,Y2,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6877,7 +6064,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'HOLD2_O':
       PIN_NUMBER='(0,0,AA2,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6888,7 +6074,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'MAROC_TRIGGER_I'<0>:
       PIN_NUMBER='(0,0,Y21,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6898,7 +6083,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<1>:
       PIN_NUMBER='(0,0,Y22,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6908,7 +6092,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<2>:
       PIN_NUMBER='(0,0,W20,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6918,7 +6101,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<3>:
       PIN_NUMBER='(0,0,W22,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6928,7 +6110,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<4>:
       PIN_NUMBER='(0,0,V21,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6938,7 +6119,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<5>:
       PIN_NUMBER='(0,0,V22,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6948,7 +6128,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<6>:
       PIN_NUMBER='(0,0,U19,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6958,7 +6137,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<7>:
       PIN_NUMBER='(0,0,U20,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6968,7 +6146,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<8>:
       PIN_NUMBER='(0,0,U22,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6978,7 +6155,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<9>:
       PIN_NUMBER='(0,0,T17,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6988,7 +6164,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<10>:
       PIN_NUMBER='(0,0,T18,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -6998,7 +6173,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<11>:
       PIN_NUMBER='(0,0,T19,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7008,7 +6182,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<12>:
       PIN_NUMBER='(0,0,T20,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7018,7 +6191,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<13>:
       PIN_NUMBER='(0,0,T21,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7028,7 +6200,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<14>:
       PIN_NUMBER='(0,0,T22,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7038,7 +6209,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<15>:
       PIN_NUMBER='(0,0,R20,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7048,7 +6218,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<16>:
       PIN_NUMBER='(0,0,R22,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7058,7 +6227,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<17>:
       PIN_NUMBER='(0,0,P17,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7068,7 +6236,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<18>:
       PIN_NUMBER='(0,0,P18,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7078,7 +6245,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<19>:
       PIN_NUMBER='(0,0,P19,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7088,7 +6254,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<20>:
       PIN_NUMBER='(0,0,P20,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7098,7 +6263,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<21>:
       PIN_NUMBER='(0,0,P21,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7108,7 +6272,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<22>:
       PIN_NUMBER='(0,0,P22,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7118,7 +6281,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<23>:
       PIN_NUMBER='(0,0,N19,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7128,7 +6290,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<24>:
       PIN_NUMBER='(0,0,N20,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7138,7 +6299,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<25>:
       PIN_NUMBER='(0,0,N22,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7148,7 +6308,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<26>:
       PIN_NUMBER='(0,0,M17,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7158,7 +6317,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<27>:
       PIN_NUMBER='(0,0,M18,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7168,7 +6326,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<28>:
       PIN_NUMBER='(0,0,M19,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7178,7 +6335,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<29>:
       PIN_NUMBER='(0,0,M20,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7188,7 +6344,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<30>:
       PIN_NUMBER='(0,0,M21,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7198,7 +6353,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<31>:
       PIN_NUMBER='(0,0,M22,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7208,7 +6362,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<32>:
       PIN_NUMBER='(0,0,L17,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7218,7 +6371,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<33>:
       PIN_NUMBER='(0,0,L19,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7228,7 +6380,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<34>:
       PIN_NUMBER='(0,0,L20,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7238,7 +6389,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<35>:
       PIN_NUMBER='(0,0,L22,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7248,7 +6398,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<36>:
       PIN_NUMBER='(0,0,K17,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7258,7 +6407,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<37>:
       PIN_NUMBER='(0,0,K18,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7268,7 +6416,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<38>:
       PIN_NUMBER='(0,0,K19,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7278,7 +6425,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<39>:
       PIN_NUMBER='(0,0,K20,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7288,7 +6434,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<40>:
       PIN_NUMBER='(0,0,J17,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7298,7 +6443,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<41>:
       PIN_NUMBER='(0,0,J19,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7308,7 +6452,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<42>:
       PIN_NUMBER='(0,0,J20,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7318,7 +6461,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<43>:
       PIN_NUMBER='(0,0,J22,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7328,7 +6470,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<44>:
       PIN_NUMBER='(0,0,H17,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7338,7 +6479,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<45>:
       PIN_NUMBER='(0,0,H18,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7348,7 +6488,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<46>:
       PIN_NUMBER='(0,0,H19,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7358,7 +6497,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<47>:
       PIN_NUMBER='(0,0,H20,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7368,7 +6506,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<48>:
       PIN_NUMBER='(0,0,H21,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7378,7 +6515,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<49>:
       PIN_NUMBER='(0,0,H22,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7388,7 +6524,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<50>:
       PIN_NUMBER='(0,0,G19,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7398,7 +6533,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<51>:
       PIN_NUMBER='(0,0,G20,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7408,7 +6542,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<52>:
       PIN_NUMBER='(0,0,G22,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7418,7 +6551,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<53>:
       PIN_NUMBER='(0,0,F18,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7428,7 +6560,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<54>:
       PIN_NUMBER='(0,0,F20,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7438,7 +6569,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<55>:
       PIN_NUMBER='(0,0,F21,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7448,7 +6578,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<56>:
       PIN_NUMBER='(0,0,F22,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7458,7 +6587,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<57>:
       PIN_NUMBER='(0,0,E20,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7468,7 +6596,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<58>:
       PIN_NUMBER='(0,0,E22,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7478,7 +6605,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<59>:
       PIN_NUMBER='(0,0,D21,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7488,7 +6614,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<60>:
       PIN_NUMBER='(0,0,C20,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7498,7 +6623,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<61>:
       PIN_NUMBER='(0,0,C22,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7508,7 +6632,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<62>:
       PIN_NUMBER='(0,0,B21,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7518,7 +6641,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'MAROC_TRIGGER_I'<63>:
       PIN_NUMBER='(0,0,B22,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7528,7 +6650,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'OR_I'<0>:
       PIN_NUMBER='(0,0,N6,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7538,7 +6659,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='3';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'OR_I'<1>:
       PIN_NUMBER='(0,0,P6,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7548,7 +6668,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='3';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'OUT_ADC_I':
       PIN_NUMBER='(0,0,W3,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7558,7 +6677,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='SSTL2_I';
       IO_BANK_NUMBER='3';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'Q_R_I':
       PIN_NUMBER='(0,0,U1,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7568,7 +6686,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVCMOS33';
       IO_BANK_NUMBER='3';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'Q_SC_I':
       PIN_NUMBER='(0,0,U3,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7578,7 +6695,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVCMOS33';
       IO_BANK_NUMBER='3';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'RST_ADC_N_O':
       PIN_NUMBER='(0,0,AA1,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7589,7 +6705,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'RST_R_N_O':
       PIN_NUMBER='(0,0,Y1,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7600,7 +6715,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'RST_SC_N_O':
       PIN_NUMBER='(0,0,U4,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7611,7 +6725,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'START_ADC_N_O':
       PIN_NUMBER='(0,0,Y3,0,0,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -7622,7 +6735,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'GND'<0>:
       PIN_NUMBER='(0,0,0,A1,0,0,0,0)';
       PINUSE='GROUND';
@@ -8252,7 +7364,6 @@ primitive 'PC049A_FPGA';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'VCCAUX'<0>:
       PIN_NUMBER='(0,0,0,F11,0,0,0,0)';
       PINUSE='POWER';
@@ -8818,7 +7929,6 @@ primitive 'PC049A_FPGA';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_LEFT_CLK_N_B':
       PIN_NUMBER='(0,0,0,0,F15,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -8827,7 +7937,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='0';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'LVDS_LEFT_CLK_P_B':
       PIN_NUMBER='(0,0,0,0,F14,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -8837,7 +7946,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='0';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'LVDS_LEFT_DATA_N_B'<0>:
       PIN_NUMBER='(0,0,0,0,A20,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -8847,7 +7955,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='0';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_LEFT_DATA_N_B'<1>:
       PIN_NUMBER='(0,0,0,0,A19,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -8857,7 +7964,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='0';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_LEFT_DATA_N_B'<2>:
       PIN_NUMBER='(0,0,0,0,D19,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -8867,7 +7973,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='0';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_LEFT_DATA_N_B'<3>:
       PIN_NUMBER='(0,0,0,0,A18,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -8877,7 +7982,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='0';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_LEFT_DATA_N_B'<4>:
       PIN_NUMBER='(0,0,0,0,A17,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -8887,7 +7991,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='0';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_LEFT_DATA_N_B'<5>:
       PIN_NUMBER='(0,0,0,0,C18,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -8897,7 +8000,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='0';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_LEFT_DATA_N_B'<6>:
       PIN_NUMBER='(0,0,0,0,F17,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -8907,7 +8009,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='0';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_LEFT_DATA_N_B'<7>:
       PIN_NUMBER='(0,0,0,0,F16,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -8917,7 +8018,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='0';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_LEFT_DATA_N_B'<8>:
       PIN_NUMBER='(0,0,0,0,F9,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -8927,7 +8027,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='0';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_LEFT_DATA_N_B'<9>:
       PIN_NUMBER='(0,0,0,0,F8,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -8937,7 +8036,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='0';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_LEFT_DATA_N_B'<10>:
       PIN_NUMBER='(0,0,0,0,E6,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -8947,7 +8045,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='0';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_LEFT_DATA_N_B'<11>:
       PIN_NUMBER='(0,0,0,0,D5,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -8957,7 +8054,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='0';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_LEFT_DATA_N_B'<12>:
       PIN_NUMBER='(0,0,0,0,A5,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -8967,7 +8063,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='0';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_LEFT_DATA_N_B'<13>:
       PIN_NUMBER='(0,0,0,0,A4,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -8977,7 +8072,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='0';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_LEFT_DATA_N_B'<14>:
       PIN_NUMBER='(0,0,0,0,A3,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -8987,7 +8081,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='0';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_LEFT_DATA_N_B'<15>:
       PIN_NUMBER='(0,0,0,0,A2,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -8997,7 +8090,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='0';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_LEFT_DATA_P_B'<0>:
       PIN_NUMBER='(0,0,0,0,B20,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9006,7 +8098,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='0';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_LEFT_DATA_P_B'<1>:
       PIN_NUMBER='(0,0,0,0,C19,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9015,7 +8106,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='0';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_LEFT_DATA_P_B'<2>:
       PIN_NUMBER='(0,0,0,0,D18,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9024,7 +8114,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='0';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_LEFT_DATA_P_B'<3>:
       PIN_NUMBER='(0,0,0,0,B18,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9033,7 +8122,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='0';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_LEFT_DATA_P_B'<4>:
       PIN_NUMBER='(0,0,0,0,C17,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9042,7 +8130,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='0';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_LEFT_DATA_P_B'<5>:
       PIN_NUMBER='(0,0,0,0,D17,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9051,7 +8138,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='0';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_LEFT_DATA_P_B'<6>:
       PIN_NUMBER='(0,0,0,0,G16,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9060,7 +8146,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='0';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_LEFT_DATA_P_B'<7>:
       PIN_NUMBER='(0,0,0,0,E16,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9069,7 +8154,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='0';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_LEFT_DATA_P_B'<8>:
       PIN_NUMBER='(0,0,0,0,G8,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9078,7 +8162,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='0';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_LEFT_DATA_P_B'<9>:
       PIN_NUMBER='(0,0,0,0,F7,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9087,7 +8170,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='0';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_LEFT_DATA_P_B'<10>:
       PIN_NUMBER='(0,0,0,0,E5,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9096,7 +8178,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='0';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_LEFT_DATA_P_B'<11>:
       PIN_NUMBER='(0,0,0,0,D4,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9105,7 +8186,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='0';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_LEFT_DATA_P_B'<12>:
       PIN_NUMBER='(0,0,0,0,C5,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9114,7 +8194,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='0';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_LEFT_DATA_P_B'<13>:
       PIN_NUMBER='(0,0,0,0,C4,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9123,7 +8202,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='0';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_LEFT_DATA_P_B'<14>:
       PIN_NUMBER='(0,0,0,0,B3,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9132,7 +8210,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='0';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_LEFT_DATA_P_B'<15>:
       PIN_NUMBER='(0,0,0,0,B2,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9141,7 +8218,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='0';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_RIGHT_CLK_N_B':
       PIN_NUMBER='(0,0,0,0,AB11,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9150,7 +8226,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'LVDS_RIGHT_CLK_P_B':
       PIN_NUMBER='(0,0,0,0,Y11,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9160,7 +8235,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'LVDS_RIGHT_DATA_N_B'<0>:
       PIN_NUMBER='(0,0,0,0,AB15,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -9170,7 +8244,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_RIGHT_DATA_N_B'<1>:
       PIN_NUMBER='(0,0,0,0,AB14,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -9180,7 +8253,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_RIGHT_DATA_N_B'<2>:
       PIN_NUMBER='(0,0,0,0,Y14,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -9190,7 +8262,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_RIGHT_DATA_N_B'<3>:
       PIN_NUMBER='(0,0,0,0,W13,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -9200,7 +8271,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_RIGHT_DATA_N_B'<4>:
       PIN_NUMBER='(0,0,0,0,Y12,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -9210,7 +8280,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_RIGHT_DATA_N_B'<5>:
       PIN_NUMBER='(0,0,0,0,W11,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -9220,7 +8289,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_RIGHT_DATA_N_B'<6>:
       PIN_NUMBER='(0,0,0,0,Y10,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -9230,7 +8298,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_RIGHT_DATA_N_B'<7>:
       PIN_NUMBER='(0,0,0,0,AB10,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -9240,7 +8307,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_RIGHT_DATA_N_B'<8>:
       PIN_NUMBER='(0,0,0,0,AB9,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -9250,7 +8316,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_RIGHT_DATA_N_B'<9>:
       PIN_NUMBER='(0,0,0,0,Y8,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -9260,7 +8325,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_RIGHT_DATA_N_B'<10>:
       PIN_NUMBER='(0,0,0,0,AB8,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -9270,7 +8334,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_RIGHT_DATA_N_B'<11>:
       PIN_NUMBER='(0,0,0,0,AB7,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -9280,7 +8343,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_RIGHT_DATA_N_B'<12>:
       PIN_NUMBER='(0,0,0,0,W8,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -9290,7 +8352,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_RIGHT_DATA_N_B'<13>:
       PIN_NUMBER='(0,0,0,0,Y6,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -9300,7 +8361,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_RIGHT_DATA_N_B'<14>:
       PIN_NUMBER='(0,0,0,0,AB6,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -9310,7 +8370,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_RIGHT_DATA_N_B'<15>:
       PIN_NUMBER='(0,0,0,0,AB5,0,0,0)';
       BIDIRECTIONAL='TRUE';
@@ -9320,7 +8379,6 @@ primitive 'PC049A_FPGA';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'LVDS_RIGHT_DATA_P_B'<0>:
       PIN_NUMBER='(0,0,0,0,Y15,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9329,7 +8387,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_RIGHT_DATA_P_B'<1>:
       PIN_NUMBER='(0,0,0,0,AA14,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9338,7 +8395,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_RIGHT_DATA_P_B'<2>:
       PIN_NUMBER='(0,0,0,0,W14,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9347,7 +8403,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_RIGHT_DATA_P_B'<3>:
       PIN_NUMBER='(0,0,0,0,V13,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9356,7 +8411,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_RIGHT_DATA_P_B'<4>:
       PIN_NUMBER='(0,0,0,0,W12,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9365,7 +8419,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_RIGHT_DATA_P_B'<5>:
       PIN_NUMBER='(0,0,0,0,V11,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9374,7 +8427,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_RIGHT_DATA_P_B'<6>:
       PIN_NUMBER='(0,0,0,0,W10,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9383,7 +8435,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_RIGHT_DATA_P_B'<7>:
       PIN_NUMBER='(0,0,0,0,AA10,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9392,7 +8443,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_RIGHT_DATA_P_B'<8>:
       PIN_NUMBER='(0,0,0,0,Y9,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9401,7 +8451,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_RIGHT_DATA_P_B'<9>:
       PIN_NUMBER='(0,0,0,0,W9,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9410,7 +8459,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_RIGHT_DATA_P_B'<10>:
       PIN_NUMBER='(0,0,0,0,AA8,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9419,7 +8467,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_RIGHT_DATA_P_B'<11>:
       PIN_NUMBER='(0,0,0,0,Y7,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9428,7 +8475,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_RIGHT_DATA_P_B'<12>:
       PIN_NUMBER='(0,0,0,0,V7,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9437,7 +8483,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_RIGHT_DATA_P_B'<13>:
       PIN_NUMBER='(0,0,0,0,W6,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9446,7 +8491,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_RIGHT_DATA_P_B'<14>:
       PIN_NUMBER='(0,0,0,0,AA6,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9455,7 +8499,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_RIGHT_DATA_P_B'<15>:
       PIN_NUMBER='(0,0,0,0,Y5,0,0,0)';
       CONSTRAINT='LOCATED';
@@ -9464,7 +8507,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'CLK_20M_VCXO_I':
       PIN_NUMBER='(0,0,0,0,0,L3,0,0)';
       CONSTRAINT='LOCATED';
@@ -9474,7 +8516,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVCMOS33';
       IO_BANK_NUMBER='3';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'CLK_125M_PLLREF_N_I':
       PIN_NUMBER='(0,0,0,0,0,K22,0,0)';
       CONSTRAINT='LOCATED';
@@ -9483,7 +8524,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'CLK_125M_PLLREF_P_I':
       PIN_NUMBER='(0,0,0,0,0,K21,0,0)';
       CONSTRAINT='LOCATED';
@@ -9493,7 +8533,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='1';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'PLL25DAC1_SYNC_N_O':
       PIN_NUMBER='(0,0,0,0,0,R1,0,0)';
       CONSTRAINT='LOCATED';
@@ -9504,7 +8543,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'PLL25DAC2_SYNC_N_O':
       PIN_NUMBER='(0,0,0,0,0,R3,0,0)';
       CONSTRAINT='LOCATED';
@@ -9515,7 +8553,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'PLL25DAC_DIN_O':
       PIN_NUMBER='(0,0,0,0,0,R4,0,0)';
       CONSTRAINT='LOCATED';
@@ -9526,7 +8563,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'PLL25DAC_SCLK_O':
       PIN_NUMBER='(0,0,0,0,0,P1,0,0)';
       CONSTRAINT='LOCATED';
@@ -9537,7 +8573,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'SI57X_CLK_N_I':
       PIN_NUMBER='(0,0,0,0,0,L4,0,0)';
       PINUSE='UNSPEC';
@@ -9560,7 +8595,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='3';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'SI57X_OE_O':
       PIN_NUMBER='(0,0,0,0,0,P2,0,0)';
       CONSTRAINT='LOCATED';
@@ -9571,7 +8605,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'BUTTON1_I':
       PIN_NUMBER='(0,0,0,0,0,0,H5,0)';
       CONSTRAINT='LOCATED';
@@ -9581,7 +8614,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVCMOS33';
       IO_BANK_NUMBER='3';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'BUTTON2_I':
       PIN_NUMBER='(0,0,0,0,0,0,H6,0)';
       CONSTRAINT='LOCATED';
@@ -9591,7 +8623,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVCMOS33';
       IO_BANK_NUMBER='3';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'CTEST_O'<0>:
       PIN_NUMBER='(0,0,0,0,0,0,E3,0)';
       CONSTRAINT='LOCATED';
@@ -9602,7 +8633,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'CTEST_O'<1>:
       PIN_NUMBER='(0,0,0,0,0,0,E1,0)';
       CONSTRAINT='LOCATED';
@@ -9613,7 +8643,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'CTEST_O'<2>:
       PIN_NUMBER='(0,0,0,0,0,0,D2,0)';
       CONSTRAINT='LOCATED';
@@ -9624,7 +8653,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'CTEST_O'<3>:
       PIN_NUMBER='(0,0,0,0,0,0,D1,0)';
       CONSTRAINT='LOCATED';
@@ -9635,7 +8663,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'CTEST_O'<4>:
       PIN_NUMBER='(0,0,0,0,0,0,C1,0)';
       CONSTRAINT='LOCATED';
@@ -9646,7 +8673,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'CTEST_O'<5>:
       PIN_NUMBER='(0,0,0,0,0,0,E4,0)';
       CONSTRAINT='LOCATED';
@@ -9657,7 +8683,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'DIP_SWITCH_I'<0>:
       PIN_NUMBER='(0,0,0,0,0,0,J6,0)';
       CONSTRAINT='LOCATED';
@@ -9667,7 +8692,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVCMOS33';
       IO_BANK_NUMBER='3';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'DIP_SWITCH_I'<1>:
       PIN_NUMBER='(0,0,0,0,0,0,J4,0)';
       CONSTRAINT='LOCATED';
@@ -9677,7 +8701,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVCMOS33';
       IO_BANK_NUMBER='3';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'DIP_SWITCH_I'<2>:
       PIN_NUMBER='(0,0,0,0,0,0,J3,0)';
       CONSTRAINT='LOCATED';
@@ -9687,7 +8710,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVCMOS33';
       IO_BANK_NUMBER='3';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'DIP_SWITCH_I'<3>:
       PIN_NUMBER='(0,0,0,0,0,0,K1,0)';
       CONSTRAINT='LOCATED';
@@ -9697,7 +8719,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVCMOS33';
       IO_BANK_NUMBER='3';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'FPGA_SCL_B':
       PIN_NUMBER='(0,0,0,0,0,0,T3,0)';
       BIDIRECTIONAL='TRUE';
@@ -9711,7 +8732,6 @@ primitive 'PC049A_FPGA';
       SLEW_RATE='SLOW';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'FPGA_SDA_B':
       PIN_NUMBER='(0,0,0,0,0,0,T4,0)';
       BIDIRECTIONAL='TRUE';
@@ -9725,7 +8745,6 @@ primitive 'PC049A_FPGA';
       SLEW_RATE='SLOW';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'GPIO'<0>:
       PIN_NUMBER='(0,0,0,0,0,0,G4,0)';
       CONSTRAINT='LOCATED';
@@ -9736,7 +8755,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'GPIO'<1>:
       PIN_NUMBER='(0,0,0,0,0,0,G3,0)';
       CONSTRAINT='LOCATED';
@@ -9747,7 +8765,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'GPIO'<2>:
       PIN_NUMBER='(0,0,0,0,0,0,G1,0)';
       CONSTRAINT='LOCATED';
@@ -9758,7 +8775,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'GPIO'<3>:
       PIN_NUMBER='(0,0,0,0,0,0,G6,0)';
       CONSTRAINT='LOCATED';
@@ -9769,7 +8785,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'GPIO'<4>:
       PIN_NUMBER='(0,0,0,0,0,0,F3,0)';
       CONSTRAINT='LOCATED';
@@ -9780,7 +8795,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'GPIO'<5>:
       PIN_NUMBER='(0,0,0,0,0,0,F2,0)';
       CONSTRAINT='LOCATED';
@@ -9791,7 +8805,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'GPIO'<6>:
       PIN_NUMBER='(0,0,0,0,0,0,F1,0)';
       CONSTRAINT='LOCATED';
@@ -9802,7 +8815,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'GPIO'<7>:
       PIN_NUMBER='(0,0,0,0,0,0,F5,0)';
       CONSTRAINT='LOCATED';
@@ -9812,7 +8824,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVCMOS33';
       IO_BANK_NUMBER='3';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LEDS_O'<0>:
       PIN_NUMBER='(0,0,0,0,0,0,H4,0)';
       CONSTRAINT='LOCATED';
@@ -9823,7 +8834,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LEDS_O'<1>:
       PIN_NUMBER='(0,0,0,0,0,0,H3,0)';
       CONSTRAINT='LOCATED';
@@ -9834,7 +8844,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LEDS_O'<2>:
       PIN_NUMBER='(0,0,0,0,0,0,H2,0)';
       CONSTRAINT='LOCATED';
@@ -9845,7 +8854,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LEDS_O'<3>:
       PIN_NUMBER='(0,0,0,0,0,0,H1,0)';
       CONSTRAINT='LOCATED';
@@ -9856,7 +8864,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LEDS_O'<4>:
       PIN_NUMBER='(0,0,0,0,0,0,J1,0)';
       CONSTRAINT='LOCATED';
@@ -9867,7 +8874,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'ONE_WIRE_B':
       PIN_NUMBER='(0,0,0,0,0,0,T5,0)';
       BIDIRECTIONAL='TRUE';
@@ -9881,7 +8887,6 @@ primitive 'PC049A_FPGA';
       SLEW_RATE='SLOW';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'ENABLE_GCLK_DRIVE_O':
       PIN_NUMBER='(0,0,0,0,0,0,0,T1)';
       CONSTRAINT='LOCATED';
@@ -9892,7 +8897,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'ENABLE_GLOBALTRIG_DRIVE_O':
       PIN_NUMBER='(0,0,0,0,0,0,0,T2)';
       CONSTRAINT='LOCATED';
@@ -9903,7 +8907,6 @@ primitive 'PC049A_FPGA';
       DRIVE__MA_='12';
       SLEW_RATE='SLOW';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_GCLK_FROM_FPGA_N_O':
       PIN_NUMBER='(0,0,0,0,0,0,0,AB17)';
       CONSTRAINT='LOCATED';
@@ -9911,7 +8914,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_GCLK_FROM_FPGA_P_O':
       PIN_NUMBER='(0,0,0,0,0,0,0,Y17)';
       CONSTRAINT='LOCATED';
@@ -9920,7 +8922,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_GCLK_TO_FPGA_N_I':
       PIN_NUMBER='(0,0,0,0,0,0,0,AB12)';
       CONSTRAINT='LOCATED';
@@ -9929,7 +8930,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'LVDS_GCLK_TO_FPGA_P_I':
       PIN_NUMBER='(0,0,0,0,0,0,0,AA12)';
       CONSTRAINT='LOCATED';
@@ -9939,7 +8939,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'LVDS_GLOBALTRIG_FROM_FPGA_N_O':
       PIN_NUMBER='(0,0,0,0,0,0,0,AB18)';
       CONSTRAINT='LOCATED';
@@ -9947,7 +8946,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_GLOBALTRIG_FROM_FPGA_P_O':
       PIN_NUMBER='(0,0,0,0,0,0,0,AA18)';
       CONSTRAINT='LOCATED';
@@ -9956,7 +8954,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_GLOBALTRIG_TO_FPGA_N_I':
       PIN_NUMBER='(0,0,0,0,0,0,0,AB13)';
       CONSTRAINT='LOCATED';
@@ -9965,7 +8962,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'LVDS_GLOBALTRIG_TO_FPGA_P_I':
       PIN_NUMBER='(0,0,0,0,0,0,0,Y13)';
       CONSTRAINT='LOCATED';
@@ -9975,7 +8971,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'LVDS_OTRIG_FROM_FPGA_N_O':
       PIN_NUMBER='(0,0,0,0,0,0,0,AB16)';
       CONSTRAINT='LOCATED';
@@ -9983,7 +8978,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_OTRIG_FROM_FPGA_P_O':
       PIN_NUMBER='(0,0,0,0,0,0,0,AA16)';
       CONSTRAINT='LOCATED';
@@ -9992,7 +8986,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'LVDS_OTRIG_TO_FPGA_N_I':
       PIN_NUMBER='(0,0,0,0,0,0,0,Y18)';
       CONSTRAINT='LOCATED';
@@ -10001,7 +8994,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'LVDS_OTRIG_TO_FPGA_P_I':
       PIN_NUMBER='(0,0,0,0,0,0,0,W17)';
       CONSTRAINT='LOCATED';
@@ -10011,7 +9003,6 @@ primitive 'PC049A_FPGA';
       IO_STANDARD='LVDS_25';
       IO_BANK_NUMBER='2';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
   end_pin;
   body
       PART_NAME='PC049A_FPGA';
@@ -10036,12 +9027,10 @@ primitive 'R4ISMD_1206-150';
       PIN_NUMBER='(5,6,7,8)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
-      PINUSE='IN';
     'A'<0>:
       PIN_NUMBER='(4,3,2,1)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
-      PINUSE='IN';
   end_pin;
   body
       CLASS='DISCRETE';
@@ -10069,12 +9058,10 @@ primitive 'R4ISMD_1206-4.7K';
       PIN_NUMBER='(5,6,7,8)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
-      PINUSE='IN';
     'A'<0>:
       PIN_NUMBER='(4,3,2,1)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
-      PINUSE='IN';
   end_pin;
   body
       CLASS='DISCRETE';
@@ -10104,14 +9091,12 @@ primitive 'RSMD0402_-00,';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -10143,14 +9128,12 @@ primitive 'RSMD0402_0.0625W-XX,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -10183,14 +9166,12 @@ primitive 'RSMD0402_1/16W-100,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -10222,14 +9203,12 @@ primitive 'RSMD0402_1/16W-10R,5%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -10261,14 +9240,12 @@ primitive 'RSMD0402_1/16W-1K,5%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -10300,14 +9277,12 @@ primitive 'RSMD0402_1/16W-3.3R,5%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -10339,14 +9314,12 @@ primitive 'RSMD0402_1/16W-33,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -10378,14 +9351,12 @@ primitive 'RSMD0402_1/16W-47K,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -10417,14 +9388,12 @@ primitive 'RSMD0402_1/16W-51,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -10456,14 +9425,12 @@ primitive 'RSMD0603_-00,';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -10497,14 +9464,12 @@ primitive 'RSMD0603_1/10W-100,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -10538,14 +9503,12 @@ primitive 'RSMD0603_1/10W-100K,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -10579,14 +9542,12 @@ primitive 'RSMD0603_1/10W-11K,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -10620,14 +9581,12 @@ primitive 'RSMD0603_1/10W-120,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -10661,14 +9620,12 @@ primitive 'RSMD0603_1/10W-150,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -10694,47 +9651,6 @@ primitive 'RSMD0603_1/10W-150,1%';
       PARENT_PPT_PART='RSMD0603_1/10W-150,1%';
   end_body;
 end_primitive;
-primitive 'RSMD0603_1/10W-16K,1%';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='RSMD0603';
-      BODY_NAME='RSMD0603';
-      CLASS='DISCRETE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='R';
-      DESCRIPTION='SMD Resistor';
-      CASE='0603';
-      SMD='YES';
-      STATUS='Preferred';
-      PART_NUMBER='R0603_16K_1%_0.1W_100PPM';
-      VALUE='16k';
-      TOL='1%';
-      PWR='0.1W';
-      JEDEC_TYPE='C0603';
-      MANUFACTURER='GENERIC';
-      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
-03.416.5';
-      PARENT_PART_TYPE='RSMD0603_1/10W';
-      PARENT_PPT='RSMD0603';
-      PARENT_PPT_PART='RSMD0603_1/10W-16K,1%';
-  end_body;
-end_primitive;
 primitive 'RSMD0603_1/10W-180,1%';
   pin
     'A'<0>:
@@ -10743,14 +9659,12 @@ primitive 'RSMD0603_1/10W-180,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -10784,14 +9698,12 @@ primitive 'RSMD0603_1/10W-2.4K,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -10825,14 +9737,12 @@ primitive 'RSMD0603_1/10W-240,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -10858,6 +9768,45 @@ primitive 'RSMD0603_1/10W-240,1%';
       PARENT_PPT_PART='RSMD0603_1/10W-240,1%';
   end_body;
 end_primitive;
+primitive 'RSMD0603_1/10W-270K,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+  end_pin;
+  body
+      PART_NAME='RSMD0603';
+      BODY_NAME='RSMD0603';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0603';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0603_270K_1%_0.1W_100PPM';
+      VALUE='270k';
+      TOL='1%';
+      PWR='0.1W';
+      JEDEC_TYPE='C0603';
+      MANUFACTURER='GENERIC';
+      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
+03.527.9';
+      PARENT_PART_TYPE='RSMD0603_1/10W';
+      PARENT_PPT='RSMD0603';
+      PARENT_PPT_PART='RSMD0603_1/10W-270K,1%';
+  end_body;
+end_primitive;
 primitive 'RSMD0603_1/10W-3.3K,1%';
   pin
     'A'<0>:
@@ -10866,14 +9815,12 @@ primitive 'RSMD0603_1/10W-3.3K,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -10899,6 +9846,45 @@ primitive 'RSMD0603_1/10W-3.3K,1%';
       PARENT_PPT_PART='RSMD0603_1/10W-3.3K,1%';
   end_body;
 end_primitive;
+primitive 'RSMD0603_1/10W-300K,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+  end_pin;
+  body
+      PART_NAME='RSMD0603';
+      BODY_NAME='RSMD0603';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0603';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0603_300K_1%_0.1W_100PPM';
+      VALUE='300k';
+      TOL='1%';
+      PWR='0.1W';
+      JEDEC_TYPE='C0603';
+      MANUFACTURER='GENERIC';
+      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
+03.530.4';
+      PARENT_PART_TYPE='RSMD0603_1/10W';
+      PARENT_PPT='RSMD0603';
+      PARENT_PPT_PART='RSMD0603_1/10W-300K,1%';
+  end_body;
+end_primitive;
 primitive 'RSMD0603_1/10W-33,1%';
   pin
     'A'<0>:
@@ -10907,14 +9893,12 @@ primitive 'RSMD0603_1/10W-33,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -10948,14 +9932,12 @@ primitive 'RSMD0603_1/10W-330,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -10981,7 +9963,7 @@ primitive 'RSMD0603_1/10W-330,1%';
       PARENT_PPT_PART='RSMD0603_1/10W-330,1%';
   end_body;
 end_primitive;
-primitive 'RSMD0603_1/10W-33K,1%';
+primitive 'RSMD0603_1/10W-36K,1%';
   pin
     'A'<0>:
       PIN_NUMBER='(1)';
@@ -10989,14 +9971,12 @@ primitive 'RSMD0603_1/10W-33K,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -11009,17 +9989,17 @@ primitive 'RSMD0603_1/10W-33K,1%';
       CASE='0603';
       SMD='YES';
       STATUS='Preferred';
-      PART_NUMBER='R0603_33K_1%_0.1W_100PPM';
-      VALUE='33k';
+      PART_NUMBER='R0603_36K_1%_0.1W_100PPM';
+      VALUE='36k';
       TOL='1%';
       PWR='0.1W';
       JEDEC_TYPE='C0603';
       MANUFACTURER='GENERIC';
       SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
-03.433.4';
+03.436.1';
       PARENT_PART_TYPE='RSMD0603_1/10W';
       PARENT_PPT='RSMD0603';
-      PARENT_PPT_PART='RSMD0603_1/10W-33K,1%';
+      PARENT_PPT_PART='RSMD0603_1/10W-36K,1%';
   end_body;
 end_primitive;
 primitive 'RSMD0603_1/10W-390K,1%';
@@ -11030,14 +10010,12 @@ primitive 'RSMD0603_1/10W-390K,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -11071,14 +10049,12 @@ primitive 'RSMD0603_1/10W-4.7K,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -11112,14 +10088,12 @@ primitive 'RSMD0603_1/10W-51,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -11145,47 +10119,6 @@ primitive 'RSMD0603_1/10W-51,1%';
       PARENT_PPT_PART='RSMD0603_1/10W-51,1%';
   end_body;
 end_primitive;
-primitive 'RSMD0603_1/10W-51K,1%';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='RSMD0603';
-      BODY_NAME='RSMD0603';
-      CLASS='DISCRETE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='R';
-      DESCRIPTION='SMD Resistor';
-      CASE='0603';
-      SMD='YES';
-      STATUS='Preferred';
-      PART_NUMBER='R0603_51K_1%_0.1W_100PPM';
-      VALUE='51k';
-      TOL='1%';
-      PWR='0.1W';
-      JEDEC_TYPE='C0603';
-      MANUFACTURER='GENERIC';
-      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
-03.451.2';
-      PARENT_PART_TYPE='RSMD0603_1/10W';
-      PARENT_PPT='RSMD0603';
-      PARENT_PPT_PART='RSMD0603_1/10W-51K,1%';
-  end_body;
-end_primitive;
 primitive 'RSMD0603_1/10W-62K,1%';
   pin
     'A'<0>:
@@ -11194,14 +10127,12 @@ primitive 'RSMD0603_1/10W-62K,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -11235,14 +10166,12 @@ primitive 'RSMD0603_1/10W-82,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -11276,14 +10205,12 @@ primitive 'RSMD0603_1/10W-XX,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -11316,14 +10243,12 @@ primitive 'RSMD0603_1/16W-1.2K,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -11355,14 +10280,12 @@ primitive 'RSMD0603_1/16W-2.4K,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -11394,14 +10317,12 @@ primitive 'RSMD0603_1/16W-40.2K,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -11433,14 +10354,12 @@ primitive 'RSMD0603_1/16W-9K,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -11464,6 +10383,45 @@ primitive 'RSMD0603_1/16W-9K,1%';
       PARENT_PPT_PART='RSMD0603_1/16W-9K,1%';
   end_body;
 end_primitive;
+primitive 'RSMD0805_-00,';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+  end_pin;
+  body
+      PART_NAME='RSMD0805';
+      BODY_NAME='RSMD0805';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='0805 Size SMD Jumper';
+      CASE='0805';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0805_00_JUMPER';
+      VALUE='00';
+      TOL='';
+      PWR='';
+      JEDEC_TYPE='C0805';
+      MANUFACTURER='GENERIC';
+      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
+04.000.5';
+      PARENT_PART_TYPE='RSMD0805_';
+      PARENT_PPT='RSMD0805';
+      PARENT_PPT_PART='RSMD0805_-00,';
+  end_body;
+end_primitive;
 primitive 'S25FL128SAGMFIR01-VCC=P3V3,VSSA';
   pin
     'WP/IO2':
@@ -11471,7 +10429,6 @@ primitive 'S25FL128SAGMFIR01-VCC=P3V3,VSSA';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'VIO':
       PIN_NUMBER='(14)';
       PINUSE='POWER';
@@ -11485,31 +10442,25 @@ primitive 'S25FL128SAGMFIR01-VCC=P3V3,VSSA';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'SO/IO1':
       PIN_NUMBER='(8)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
     'RESET*':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'CS*':
       PIN_NUMBER='(7)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'SCK':
       PIN_NUMBER='(16)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'HOLD/IO3':
       PIN_NUMBER='(1)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
   end_pin;
   body
       PART_NAME='S25FL128S_RESET_VIO';
@@ -11539,7 +10490,6 @@ primitive 'SFP_CAGE-6367034-1';
   pin
     'NC':
       PIN_NUMBER='(NC)';
-      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='SFP_CAGE';
@@ -11566,7 +10516,6 @@ primitive 'SFP_CAGE-6367035-1';
   pin
     'NC':
       PIN_NUMBER='(NC)';
-      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='SFP_CAGE';
@@ -11659,21 +10608,18 @@ primitive 'SN65LVDS1_SOT23-5-TEXAS INSTRUA';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='OUT';
     'Y':
       PIN_NUMBER='(4)';
       OUTPUT_LOAD='(1.0,-1.0)';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='OUT';
     'D':
       PIN_NUMBER='(5)';
       INPUT_LOAD='(-0.01,0.01)';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-      PINUSE='IN';
   end_pin;
   body
       PART_NAME='SN65LVDS1';
@@ -11697,11 +10643,9 @@ primitive 'SN74LVC1G06DBVT';
     'A':
       PIN_NUMBER='(2)';
       INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
     'Y':
       PIN_NUMBER='(4)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
   end_pin;
   body
       PART_NAME='74LVC1G06';
@@ -11734,14 +10678,12 @@ primitive 'SW4INT-1571983-4';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2,4,6,8)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
   end_pin;
   body
       FAMILY='DISCRETE';
@@ -11772,16 +10714,12 @@ primitive 'SW_PUSHBUTTON_1SPSTA_4P_1-OMROA';
   pin
     'A':
       PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
     'B':
       PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
     'C':
       PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
     'D':
       PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='SW_PUSHBUTTON_1SPSTA_4P';
@@ -11800,6 +10738,41 @@ old contacts)';
       PARENT_PART_TYPE='SW_PUSHBUTTON_1SPSTA_4P_1';
       PARENT_PPT='SW_PUSHBUTTON_1SPSTA_4P';
       PARENT_PPT_PART='SW_PUSHBUTTON_1SPSTA_4P_1-OMRON_B3SN-3012';
+  end_body;
+end_primitive;
+primitive 'TPS71701DCKRG4_SC70-TEXAS INSTA';
+  pin
+    'OUT':
+      PIN_NUMBER='(5)';
+      OUTPUT_LOAD='(*,*)';
+    'IN':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*,*)';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='GROUND';
+    'NR_FB':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*,*)';
+    'EN':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*,*)';
+  end_pin;
+  body
+      PART_NAME='TPS71701DCKRG4';
+      BODY_NAME='TPS71701DCKRG4';
+      JEDEC_TYPE='SC70';
+      PHYS_DES_PREFIX='U';
+      CLASS='IC';
+      CI='14216A-1';
+      PART_NUMBER='TI tps71701dckrg4';
+      PART_DESCRIPTION='0.9V - 6.2V adjustable LDO 150mA linear regulator';
+      OL_COMMENTS='RS 661-3801 , Farnell 1703393';
+      KL_COMMENTS='-';
+      PL_COMMENTS='-';
+      PARENT_PART_TYPE='TPS71701DCKRG4_SC70';
+      PARENT_PPT='TPS71701DCKRG4';
+      PARENT_PPT_PART='TPS71701DCKRG4_SC70-TEXAS INSTRUMENTS';
   end_body;
 end_primitive;
 END.

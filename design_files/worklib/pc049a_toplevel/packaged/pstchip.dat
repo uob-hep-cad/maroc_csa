@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 28-Jul-2014 AT 20:45:38 }
+{ Packager-XL run on 03-Oct-2014 AT 09:32:12 }
 primitive '1-HOLE_0-8-BASE';
   pin
     'A'<0>:
@@ -11409,6 +11409,47 @@ primitive 'RSMD0603_1/16W-9K,1%';
       PARENT_PART_TYPE='RSMD0603_1/16W';
       PARENT_PPT='RSMD0603';
       PARENT_PPT_PART='RSMD0603_1/16W-9K,1%';
+  end_body;
+end_primitive;
+primitive 'RSMD0805_-00,';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0805';
+      BODY_NAME='RSMD0805';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='0805 Size SMD Jumper';
+      CASE='0805';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0805_00_JUMPER';
+      VALUE='00';
+      TOL='';
+      PWR='';
+      JEDEC_TYPE='C0805';
+      MANUFACTURER='GENERIC';
+      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
+04.000.5';
+      PARENT_PART_TYPE='RSMD0805_';
+      PARENT_PPT='RSMD0805';
+      PARENT_PPT_PART='RSMD0805_-00,';
   end_body;
 end_primitive;
 primitive 'S25FL128SAGMFIR01-VCC=P3V3,VSSA';

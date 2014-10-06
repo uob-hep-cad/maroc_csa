@@ -1,6 +1,6 @@
-Log File: /tmp/fileH2qq1v
-Markers File: /tmp/fileyizyOO
-Debug File: /tmp/fileKBIHvq
+Log File: /tmp/fileoxdfVg
+Markers File: /tmp/fileO2gz7J
+Debug File: /tmp/fileKiNUDG
      Debug[0] := TRUE
 Elapsed time since start = (00:00:00)
 
@@ -17,13 +17,6 @@ INFO(SPCODD-216): Created merged part 'SW_PUSHBUTTON_1SPSTA_4P_1-OMRON_B3SN-3012
  *  Loading State Files  *
  *************************
 
-INFO(SPCODD-95): State file primitive @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE11_I102@CNPASSIVE.CAPCERSMDCL1(CHIPS) has been deleted from the design.
-INFO(SPCODD-95): State file primitive @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE11_I105@CNLINEAR.LP3874_ADJ(CHIPS) has been deleted from the design.
-INFO(SPCODD-95): State file primitive @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE10_I72@CNLINEAR.LP3874_ADJ(CHIPS) has been deleted from the design.
-INFO(SPCODD-95): State file primitive @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE10_I80@CNPASSIVE.CAPCERSMDCL2(CHIPS) has been deleted from the design.
-INFO(SPCODD-95): State file primitive @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE10_I87@CNPASSIVE.RSMD0603(CHIPS) has been deleted from the design.
-INFO(SPCODD-95): State file primitive @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE10_I88@CNPASSIVE.RSMD0603(CHIPS) has been deleted from the design.
-INFO(SPCODD-95): State file primitive @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE10_I89@CNPASSIVE.CAPCERSMDCL1(CHIPS) has been deleted from the design.
 Force load the state file for subdesign @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1) of type PC043C_SINGLE_MAROC
 Ref des for prim inst @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE1_I1@BRIS_CDS_ANALOGUE.MAROC3(CHIPS) changed from U1_1:1 to U1_1:1.
 Ref des for prim inst @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE1_I148@BRIS_CDS_CONNECTORS.1-HOLE(CHIPS) changed from LK51_1:1 to LK51_1:1.
@@ -558,17 +551,6 @@ Ref des for prim inst @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HE
 Ref des for prim inst @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I245@CNDISCRETE.DIODE_CA(CHIPS) changed from D1_1:1 to D1_1:1.
 Ref des for prim inst @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I245@CNDISCRETE.DIODE_CA(CHIPS) changed from D1_1:1 to D1_1:1.
 Ref des for prim inst @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I245@CNDISCRETE.DIODE_CA(CHIPS) changed from D1_1:1 to D1_1:1.
-
- ****************************
- *  Starting optimization.  *
- ****************************
-
-Elapsed time since start = (00:00:06)
-
- ***********************************
- *  End optimization.  (00:00:00)  *
- ***********************************
-
 DDB_INFO: State file for design PC049A_TOPLEVEL successfully written.
 DDB_INFO: Pst files for design PC049A_TOPLEVEL successfully written.
 system time  0

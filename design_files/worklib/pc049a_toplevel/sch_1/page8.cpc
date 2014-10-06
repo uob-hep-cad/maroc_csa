@@ -62,6 +62,9 @@
   standard gnd_signal *
   page8_i117
 #ISCELL
+  cnpower p3v3 *
+  page8_i118
+#ISCELL
   standard gnd_signal *
   page8_i3
 #CELL
@@ -124,9 +127,6 @@
 #CELL
   cnpassive rsmd0603 *
   page8_i63
-#ISCELL
-  cnpower avdd *
-  page8_i64
 #ISCELL
   standard tap *
   page8_i65

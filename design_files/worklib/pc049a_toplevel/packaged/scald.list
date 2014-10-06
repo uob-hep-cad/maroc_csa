@@ -3,25 +3,25 @@ Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/
 Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstxprt.dat 
    Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstxprt.dat (00:00:00.02)
 Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstxnet.dat 
-   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstxnet.dat (00:00:00.03)
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstxnet.dat (00:00:00.02)
 Starting to generate /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/dialcnet.dat 
-   Finished generating /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/dialcnet.dat (00:00:00.09)
+   Finished generating /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/dialcnet.dat (00:00:00.10)
 Starting to generate /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/dialbonl.dat 
    Finished generating /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/dialbonl.dat (00:00:00.05)
 Starting to generate /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/dialcprt.dat 
-   Finished generating /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/dialcprt.dat (00:00:00.03)
+   Finished generating /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/dialcprt.dat (00:00:00.04)
 Starting to generate /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/dialstf.dat 
-   Finished generating /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/dialstf.dat (00:00:00.03)
+   Finished generating /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/dialstf.dat (00:00:00.04)
 Starting to generate /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/dialpgnd.dat 
    Finished generating /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/dialpgnd.dat (00:00:00.03)
 Starting to generate /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/dialpgnd_new.dat 
-   Finished generating /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/dialpgnd_new.dat (00:00:00.03)
+   Finished generating /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/dialpgnd_new.dat (00:00:00.04)
 Starting to generate /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/scald.xref 
-   Finished generating /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/scald.xref (00:00:00.04)
+   Finished generating /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/scald.xref (00:00:00.05)
 
-SCALD Lists Interface run on Jun 9 13:12:51 2014
+SCALD Lists Interface run on Jul 29 17:21:32 2014
    DESIGN NAME : 'PC049A_TOPLEVEL'
-   PACKAGING ON 06-Jun-2014 AT 15:05:59
+   PACKAGING ON 29-Jul-2014 AT 17:05:48
 
    DIRECTORIES  <none>
    LIBRARIES  'uob_hep_pc049a_lib' 'bris_cds_analogue' 'bris_cds_connectors'
@@ -44,5 +44,5 @@ SCALD Lists Interface run on Jun 9 13:12:51 2014
  No warning detected
 
 cpu time      0:00:00
-elapsed time  0:00:00
+elapsed time  0:00:01
 

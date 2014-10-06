@@ -37,6 +37,18 @@
 #CELL
   bris_cds_analogue lp38692 *
   page11_i115
+#ISCELL
+  standard gnd_signal *
+  page11_i116
+#CELL
+  bris_cds_connectors 1-hole *
+  page11_i117
+#CELL
+  bris_cds_connectors 1-hole *
+  page11_i118
+#CELL
+  bris_cds_connectors 1-hole *
+  page11_i119
 #CELL
   cnpassive capcersmdcl2 *
   page11_i57

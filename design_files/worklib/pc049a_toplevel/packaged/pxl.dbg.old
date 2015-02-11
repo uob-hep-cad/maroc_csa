@@ -1,6 +1,6 @@
-Log File: /tmp/file15LSwy
-Markers File: /tmp/filetnhC31
-Debug File: /tmp/filehci7eZ
+Log File: /tmp/fileL31Cel
+Markers File: /tmp/fileQsSF9K
+Debug File: /tmp/filew9DL7A
      Debug[0] := TRUE
 Elapsed time since start = (00:00:00)
 
@@ -185,7 +185,7 @@ Ref des for prim inst @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HE
 Ref des for prim inst @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I242@CNPASSIVE.CAPCERSMDCL2(CHIPS) changed from C54_1:1 to C54_1:1.
 Ref des for prim inst @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I246@CNCONNECTOR.CON6P(CHIPS) changed from J1_1:1 to J1_1:1.
 Ref des for prim inst @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):PAGE3_I245@CNDISCRETE.DIODE_CA(CHIPS) changed from D1_1:1 to D1_1:1.
-Elapsed time since start = (00:00:06)
+Elapsed time since start = (00:00:08)
 
  *****************************************
  *  End loading State Files  (00:00:00)  *
@@ -196,8 +196,8 @@ Elapsed time since start = (00:00:06)
  *  Starting to feedback.  *
  ***************************
 
-Board name: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/02_09_2014_pc049a_toplevel_36_a16-5.brd
-Feedback time: Fri Oct  3 09:30:51 2014
+Board name: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd
+Feedback time: Mon Oct  6 12:04:23 2014
 Root Drawing name: PC049A_TOPLEVEL
 Header Properties: 
     A
@@ -11754,7 +11754,7 @@ Creating Pin Inst: A<0>
 Creating Node: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I59@CNPASSIVE.CAPCERSMDCL2(CHIPS) A<0>    Net: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):GND_SIGNAL
 Line Values: 
     S
-    AVDD
+    P3V3
     C3
     2
     @uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i59@cnpassive.capcersmdcl2(chips)
@@ -11767,7 +11767,7 @@ Line Values:
     
     
 Creating Pin Inst: B<0>
-Creating Node: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I59@CNPASSIVE.CAPCERSMDCL2(CHIPS) B<0>    Net: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):AVDD
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I59@CNPASSIVE.CAPCERSMDCL2(CHIPS) B<0>    Net: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):P3V3
 Line Values: 
     S
     GND_SIGNAL
@@ -17524,7 +17524,7 @@ Creating Pin Inst: VSMIN
 Creating Node: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I70@BRIS_CDS_ANALOGUE.AD8031(CHIPS) VSMIN    Net: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):GND_SIGNAL
 Line Values: 
     S
-    AVDD
+    P3V3
     U2
     5
     @uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i70@bris_cds_analogue.ad8031(chips)
@@ -17537,7 +17537,7 @@ Line Values:
     
     
 Creating Pin Inst: VSPLUS
-Creating Node: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I70@BRIS_CDS_ANALOGUE.AD8031(CHIPS) VSPLUS    Net: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):AVDD
+Creating Node: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I70@BRIS_CDS_ANALOGUE.AD8031(CHIPS) VSPLUS    Net: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):P3V3
 Line Values: 
     S
     UNNAMED_8_RSMD0603_I73_A
@@ -61658,7 +61658,7 @@ desPinArray for @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I59@CNPASSIVE.C
 fdbkPinArray for @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I59@CNPASSIVE.CAPCERSMDCL2(CHIPS).
      pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
       1   A<0>   A<0>    1   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):GND_SIGNAL
-      2   B<0>   B<0>    1   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):AVDD
+      2   B<0>   B<0>    1   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):P3V3
 
 chipsPinArray for @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE7_I23@CNPASSIVE.CAPCERSMDCL2(CHIPS).
      pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
@@ -63102,7 +63102,7 @@ fdbkPinArray for @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I70@BRIS_CDS_A
       4    IN*    IN*    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):UNNAMED_8_AD8031_I70_IN
       1    OUT    OUT    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):UNNAMED_8_AD8031_I70_IN
       2  VSMIN  VSMIN    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):GND_SIGNAL
-      5 VSPLUS VSPLUS    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):AVDD
+      5 VSPLUS VSPLUS    -   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):P3V3
 
 chipsPinArray for @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I76@CNPASSIVE.RSMD0603(CHIPS).
      pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
@@ -70417,7 +70417,7 @@ fdbkPinArray for @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC0
      pn   name   base pGrp sec ofst  hardP hardS mtchOff mtchInd netName
       1   A<0>   A<0>    1   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE1_I3@UOB_HEP_PC049A_LIB.PC043C_SINGLE_MAROC(SCH_1):VL
       2   B<0>   B<0>    1   1    1 FALSE FALSE  -1  -1 @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):AVDD
-Elapsed time since start = (00:00:06)
+Elapsed time since start = (00:00:08)
 
  *******************************
  *  End feedback.  (00:00:00)  *
@@ -70428,7 +70428,7 @@ Elapsed time since start = (00:00:06)
  *  Starting to assign physical parts.  *
  ****************************************
 
-Elapsed time since start = (00:00:06)
+Elapsed time since start = (00:00:08)
 
  ***********************************************
  *  End assigning physical parts.  (00:00:00)  *
@@ -70439,7 +70439,7 @@ Elapsed time since start = (00:00:06)
  *  Packaging  *
  ***************
 
-Elapsed time since start = (00:00:06)
+Elapsed time since start = (00:00:08)
 
  *******************************
  *  End packaging  (00:00:00)  *

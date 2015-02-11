@@ -1,4 +1,4 @@
-; Packager-XL run on 03-Oct-2014 AT 09:32:12 CONSTRAINTS_VIEW_GENERATED
+; Packager-XL run on 06-Oct-2014 AT 12:40:31 CONSTRAINTS_VIEW_GENERATED
 ( ConstraintFile "pc049a_toplevel"
 	( constraintHeader
 		( objectKey
@@ -8,8 +8,8 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 247 )
-			( physicalViewRevNum 3 )
+			( logicalViewRevNum 251 )
+			( physicalViewRevNum 4 )
 			( otherViewRevNum 0 )
 		)
 		( contents
@@ -564,9 +564,6 @@
 		( ruleChanges
 			( allRules )
 			( design "pc049a_toplevel"
-				( attribute "SQ_LINE_WIDTH_VALUES" "SINGLE_IMPEDANCE OFF|DIFF_IMPEDANCE OFF|TOP|0.1300 MM|NONE|0.1800 MM|L3|0.1300 MM|NONE|0.2000 MM|L5|0.1300 MM|NONE|0.2000 MM|L6|0.1300 MM|NONE|0.2000 MM|L8|0.1300 MM|NONE|0.2000 MM|BOTTOM|0.1300 MM|NONE|0.1800 MM"
-					( Origin gBackEnd )
-				)
 				( objectFlag fObjectReadOnly )
 				( objectStatus sObjectLogicalNet )
 			)

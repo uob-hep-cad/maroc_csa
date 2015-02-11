@@ -124,51 +124,5 @@
         Add the property name to the COMP_INST_PROP directive in order for future runs of the Packager-XL to treat it correctly.
 ")
   )
-  (
-   (tool "Packager-XL")
-   (class "LOGICAL")
-   (severity 30)
-   (error_num 2154)
-   (short_msg "WARNING(SPCOPF-2154): Connectivity has changed between the design and feedback.")
-   (long_msg "WARNING(SPCOPF-2154): Connectivity has changed between the design and feedback.
-        Feedback changes to pin for this instance have been ignored.
-        Design instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I59@CNPASSIVE.CAPCERSMDCL2(CHIPS)
-        Physical Path: @uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i59@cnpassive.capcersmdcl2(chips)
-        The pin numbers for logical pins might have got interchanged in chips.prt. 
-        Load the part in Part Developer and correct the pin numbers for the interchanged pins. 
-        Or, run Export Physical to update the board with the corrected pin numbers for the interchanged pins before bringing the board data to the schematic.
-")
-   (location
-    (
-     (object_kind "instance")
-     (canonical_name "_!drawerror inst I59;")
-     (parent_canonical_name "DRAWERROR inst I59")
-     (drawing_name "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8")
-    )
-   )
-  )
-  (
-   (tool "Packager-XL")
-   (class "LOGICAL")
-   (severity 30)
-   (error_num 2154)
-   (short_msg "WARNING(SPCOPF-2154): Connectivity has changed between the design and feedback.")
-   (long_msg "WARNING(SPCOPF-2154): Connectivity has changed between the design and feedback.
-        Feedback changes to pin for this instance have been ignored.
-        Design instance: @UOB_HEP_PC049A_LIB.PC049A_TOPLEVEL(SCH_1):PAGE8_I70@BRIS_CDS_ANALOGUE.AD8031(CHIPS)
-        Physical Path: @uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i70@bris_cds_analogue.ad8031(chips)
-        The pin numbers for logical pins might have got interchanged in chips.prt. 
-        Load the part in Part Developer and correct the pin numbers for the interchanged pins. 
-        Or, run Export Physical to update the board with the corrected pin numbers for the interchanged pins before bringing the board data to the schematic.
-")
-   (location
-    (
-     (object_kind "instance")
-     (canonical_name "_!drawerror inst I70;")
-     (parent_canonical_name "DRAWERROR inst I70")
-     (drawing_name "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8")
-    )
-   )
-  )
  )
 )

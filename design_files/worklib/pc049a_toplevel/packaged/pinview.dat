@@ -1,5 +1,5 @@
 A!NET_NAME!REFDES!PIN_NUMBER!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!PIN_CDS_PINID!PIN_TERMINATION!PIN_TERM_IDENT!PIN_NET_SHORT!
-J!/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/02_09_2014_pc049a_toplevel_36_a16-5.brd!Fri Oct  3 09:30:51 2014!-300.0000!-200.0000!500.0000!350.0000!0.0001!millimeters!PC049A_TOPLEVEL!62.755906 mil!10!UP TO DATE!
+J!/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd!Mon Oct  6 12:04:23 2014!-300.0000!-200.0000!500.0000!350.0000!0.0001!millimeters!PC049A_TOPLEVEL!62.755906 mil!10!UP TO DATE!
 S!UNNAMED_3_CONABC96_I1_A!R79!1!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page3_i78@cnpassive.rsmd0805(chips)!RSMD0805_-00,!1!!F14!A(0)!!!!
 S!P3V3!R79!2!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page3_i78@cnpassive.rsmd0805(chips)!RSMD0805_-00,!1!!F14!B(0)!!!!
 S!UNNAMED_3_CONABC96_I74_A!R80!1!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page3_i79@cnpassive.rsmd0805(chips)!RSMD0805_-00,!1!!F13!A(0)!!!!
@@ -710,7 +710,7 @@ S!UNNAMED_10_PC049AFPGA_I1_VBATT!R65!2!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1
 S!GND_SIGNAL!C101!1!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page9_i102@cnpassive.capcersmdcl2(chips)!CAPCERSMDCL2_0402-1UF,16V!1!!F287!A(0)!!!!
 S!UNNAMED_9_LT1585_I8_GND!C101!2!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page9_i102@cnpassive.capcersmdcl2(chips)!CAPCERSMDCL2_0402-1UF,16V!1!!F287!B(0)!!!!
 S!GND_SIGNAL!C3!1!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i59@cnpassive.capcersmdcl2(chips)!CAPCERSMDCL2_0402-1UF,16V!1!!F296!A(0)!!!!
-S!AVDD!C3!2!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i59@cnpassive.capcersmdcl2(chips)!CAPCERSMDCL2_0402-1UF,16V!1!!F296!B(0)!!!!
+S!P3V3!C3!2!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i59@cnpassive.capcersmdcl2(chips)!CAPCERSMDCL2_0402-1UF,16V!1!!F296!B(0)!!!!
 S!GND_SIGNAL!C9!1!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page7_i23@cnpassive.capcersmdcl2(chips)!CAPCERSMDCL2_0402-1UF,16V!1!!F295!A(0)!!!!
 S!P3V3!C9!2!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page7_i23@cnpassive.capcersmdcl2(chips)!CAPCERSMDCL2_0402-1UF,16V!1!!F295!B(0)!!!!
 S!GND_SIGNAL!C10!1!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page7_i24@cnpassive.capcersmdcl2(chips)!CAPCERSMDCL2_0402-1UF,16V!1!!F294!A(0)!!!!
@@ -1057,7 +1057,7 @@ S!UNBUF_CTEST!U2!3!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i70@bris_cds
 S!UNNAMED_8_AD8031_I70_IN!U2!4!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i70@bris_cds_analogue.ad8031(chips)!AD8031_SOT23-5-AD!!!F424!\in*\!!!!
 S!UNNAMED_8_AD8031_I70_IN!U2!1!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i70@bris_cds_analogue.ad8031(chips)!AD8031_SOT23-5-AD!!!F424!\out\!!!!
 S!GND_SIGNAL!U2!2!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i70@bris_cds_analogue.ad8031(chips)!AD8031_SOT23-5-AD!!!F424!VSMIN!!!!
-S!AVDD!U2!5!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i70@bris_cds_analogue.ad8031(chips)!AD8031_SOT23-5-AD!!!F424!VSPLUS!!!!
+S!P3V3!U2!5!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i70@bris_cds_analogue.ad8031(chips)!AD8031_SOT23-5-AD!!!F424!VSPLUS!!!!
 S!UNNAMED_8_RSMD0603_I73_A!R32!1!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i76@cnpassive.rsmd0603(chips)!RSMD0603_1/16W-1.2K,1%!1!!F25!A(0)!!!!
 S!UNNAMED_8_RSMD0603_I68_A!R32!2!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i76@cnpassive.rsmd0603(chips)!RSMD0603_1/16W-1.2K,1%!1!!F25!B(0)!!!!
 S!UNNAMED_8_RSMD0603_I68_A!R34!1!@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i71@cnpassive.rsmd0603(chips)!RSMD0603_1/16W-1.2K,1%!1!!F24!A(0)!!!!

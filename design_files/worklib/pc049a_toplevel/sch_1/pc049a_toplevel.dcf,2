@@ -7,8 +7,8 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 247 )
-			( physicalViewRevNum 1 )
+			( logicalViewRevNum 249 )
+			( physicalViewRevNum 4 )
 			( otherViewRevNum 0 )
 		)
 		( contents
@@ -1332,9 +1332,6 @@
 				)
 				( attribute "CDS_EDIT_PNS_STATUS" "0"
 					( Origin gFrontEnd )
-				)
-				( attribute "SQ_LINE_WIDTH_VALUES" "SINGLE_IMPEDANCE OFF|DIFF_IMPEDANCE OFF|TOP|0.1300 MM|NONE|0.1800 MM|L3|0.1300 MM|NONE|0.2000 MM|L5|0.1300 MM|NONE|0.2000 MM|L6|0.1300 MM|NONE|0.2000 MM|L8|0.1300 MM|NONE|0.2000 MM|BOTTOM|0.1300 MM|NONE|0.1800 MM"
-					( Origin gBackEnd )
 				)
 			)
 			( physicalCSet "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):\DEFAULT\"
@@ -9811,6 +9808,9 @@
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_9_CAPCERSMDCL2_I44_B"
 					( Origin gPackager )
 				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I44_B" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i55_b"
@@ -9828,6 +9828,9 @@
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i79_b"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_9_CAPCERSMDCL2_I79_B"
 					( Origin gPackager )
+				)
+				( attribute "MAX_LINE_WIDTH" "10.0000"
+					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I79_B" )
 			)
@@ -9900,6 +9903,9 @@
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_11_capcersmdcl2_i79_b"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_11_CAPCERSMDCL2_I79_B"
 					( Origin gPackager )
+				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_11_CAPCERSMDCL2_I79_B" )
 			)
@@ -11555,17 +11561,26 @@
 				( attribute "PNN" "UNNAMED_9_CAPCERSMDCL2_I30_B<0>"
 					( Origin gPackager )
 				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I30_B<0>" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i40_b"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_9_CAPCERSMDCL2_I40_B"
 					( Origin gPackager )
 				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I40_B" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i45_b"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_9_CAPCERSMDCL2_I45_B"
 					( Origin gPackager )
+				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I45_B" )
 			)
@@ -11632,6 +11647,9 @@
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_11_capcersmdcl2_i57_b"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_11_CAPCERSMDCL2_I57_B"
 					( Origin gPackager )
+				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_11_CAPCERSMDCL2_I57_B" )
 			)
@@ -12975,11 +12993,17 @@
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_8_RSMD0603_I92_B"
 					( Origin gPackager )
 				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( objectStatus "UNNAMED_8_RSMD0603_I92_B" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_8_rsmd0603_i97_b"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_8_RSMD0603_I97_B"
 					( Origin gPackager )
+				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_8_RSMD0603_I97_B" )
 			)
@@ -13111,11 +13135,17 @@
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_8_RSMD0603_I73_A"
 					( Origin gPackager )
 				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( objectStatus "UNNAMED_8_RSMD0603_I73_A" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_8_rsmd0603_i75_a"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_8_RSMD0603_I75_A"
 					( Origin gPackager )
+				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_8_RSMD0603_I75_A" )
 			)
@@ -13123,11 +13153,17 @@
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_8_RSMD0603_I78_A"
 					( Origin gPackager )
 				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( objectStatus "UNNAMED_8_RSMD0603_I78_A" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_8_rsmd0603_i82_a"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_8_RSMD0603_I82_A"
 					( Origin gPackager )
+				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_8_RSMD0603_I82_A" )
 			)
@@ -14258,11 +14294,17 @@
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_8_RSMD0603_I68_A"
 					( Origin gPackager )
 				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( objectStatus "UNNAMED_8_RSMD0603_I68_A" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_lt1585_i8_gnd"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_9_LT1585_I8_GND"
 					( Origin gPackager )
+				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_9_LT1585_I8_GND" )
 			)
@@ -14282,11 +14324,17 @@
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_11_LP38692_I115_ADJ"
 					( Origin gPackager )
 				)
+				( attribute "MAX_LINE_WIDTH" "1.0000"
+					( Origin gBackEnd )
+				)
 				( objectStatus "UNNAMED_11_LP38692_I115_ADJ" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_11_lp38692_i115_en"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_11_LP38692_I115_EN"
 					( Origin gPackager )
+				)
+				( attribute "MAX_LINE_WIDTH" "1.0000"
+					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_11_LP38692_I115_EN" )
 			)
@@ -51602,7 +51650,7 @@
 				( attribute "CHIPS_PART_NAME" "74LVC1G06"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SN74LVC1G06DBVT"
+				( attribute "CDS_PART_NAME" "SN74LVC1G06DBVT-VCC=P3V3;GND=GA"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "IC16"
@@ -59343,7 +59391,7 @@
 				( attribute "CDS_PN" "5"
 					( Origin gPackager )
 				)
-				( objectStatus "RN1.4" )
+				( objectStatus "RN1.5" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(2):a(2)"
 				( attribute "CDS_SEC" "2"
@@ -59358,7 +59406,7 @@
 				( attribute "CDS_PN" "6"
 					( Origin gPackager )
 				)
-				( objectStatus "RN1.3" )
+				( objectStatus "RN1.6" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(1):a(1)"
 				( attribute "CDS_SEC" "3"
@@ -59373,7 +59421,7 @@
 				( attribute "CDS_PN" "7"
 					( Origin gPackager )
 				)
-				( objectStatus "RN1.2" )
+				( objectStatus "RN1.7" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(0):a(0)"
 				( attribute "CDS_SEC" "4"
@@ -59388,7 +59436,7 @@
 				( attribute "CDS_PN" "8"
 					( Origin gPackager )
 				)
-				( objectStatus "RN1.1" )
+				( objectStatus "RN1.8" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(3):b(3)"
 				( attribute "CDS_SEC" "1"
@@ -59403,7 +59451,7 @@
 				( attribute "CDS_PN" "4"
 					( Origin gPackager )
 				)
-				( objectStatus "RN2.5" )
+				( objectStatus "RN2.4" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(2):b(2)"
 				( attribute "CDS_SEC" "2"
@@ -59418,7 +59466,7 @@
 				( attribute "CDS_PN" "3"
 					( Origin gPackager )
 				)
-				( objectStatus "RN2.6" )
+				( objectStatus "RN2.3" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(1):b(1)"
 				( attribute "CDS_SEC" "3"
@@ -59433,7 +59481,7 @@
 				( attribute "CDS_PN" "2"
 					( Origin gPackager )
 				)
-				( objectStatus "RN2.7" )
+				( objectStatus "RN2.2" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(0):b(0)"
 				( attribute "CDS_SEC" "4"
@@ -59448,7 +59496,7 @@
 				( attribute "CDS_PN" "1"
 					( Origin gPackager )
 				)
-				( objectStatus "RN2.8" )
+				( objectStatus "RN2.1" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(3):a(3)"
 				( attribute "CDS_SEC" "1"
@@ -59463,7 +59511,7 @@
 				( attribute "CDS_PN" "5"
 					( Origin gPackager )
 				)
-				( objectStatus "RN2.4" )
+				( objectStatus "RN2.5" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(2):a(2)"
 				( attribute "CDS_SEC" "2"
@@ -59478,7 +59526,7 @@
 				( attribute "CDS_PN" "6"
 					( Origin gPackager )
 				)
-				( objectStatus "RN2.3" )
+				( objectStatus "RN2.6" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(1):a(1)"
 				( attribute "CDS_SEC" "3"
@@ -59493,7 +59541,7 @@
 				( attribute "CDS_PN" "7"
 					( Origin gPackager )
 				)
-				( objectStatus "RN2.2" )
+				( objectStatus "RN2.7" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i50(0):a(0)"
 				( attribute "CDS_SEC" "4"
@@ -59508,7 +59556,7 @@
 				( attribute "CDS_PN" "8"
 					( Origin gPackager )
 				)
-				( objectStatus "RN2.1" )
+				( objectStatus "RN2.8" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page6_i33:d(0)"
 				( attribute "PN" "1"
@@ -59571,7 +59619,7 @@
 				( attribute "CDS_PN" "4"
 					( Origin gPackager )
 				)
-				( objectStatus "RN1.5" )
+				( objectStatus "RN1.4" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(2):b(2)"
 				( attribute "CDS_SEC" "2"
@@ -59586,7 +59634,7 @@
 				( attribute "CDS_PN" "3"
 					( Origin gPackager )
 				)
-				( objectStatus "RN1.6" )
+				( objectStatus "RN1.3" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(1):b(1)"
 				( attribute "CDS_SEC" "3"
@@ -59601,7 +59649,7 @@
 				( attribute "CDS_PN" "2"
 					( Origin gPackager )
 				)
-				( objectStatus "RN1.7" )
+				( objectStatus "RN1.2" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i49(0):b(0)"
 				( attribute "CDS_SEC" "4"
@@ -59616,7 +59664,7 @@
 				( attribute "CDS_PN" "1"
 					( Origin gPackager )
 				)
-				( objectStatus "RN1.8" )
+				( objectStatus "RN1.1" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i88(3):b(3)"
 				( attribute "PN" "2"
@@ -59643,7 +59691,7 @@
 				( attribute "CDS_PN" "8"
 					( Origin gPackager )
 				)
-				( objectStatus "RZ2.1" )
+				( objectStatus "RZ2.8" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i90(1):a(1)"
 				( attribute "PN" "7"
@@ -59658,7 +59706,7 @@
 				( attribute "CDS_PN" "7"
 					( Origin gPackager )
 				)
-				( objectStatus "RZ2.2" )
+				( objectStatus "RZ2.7" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i90(2):a(2)"
 				( attribute "PN" "6"
@@ -59673,7 +59721,7 @@
 				( attribute "CDS_PN" "6"
 					( Origin gPackager )
 				)
-				( objectStatus "RZ2.3" )
+				( objectStatus "RZ2.6" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i90(3):a(3)"
 				( attribute "PN" "5"
@@ -59688,7 +59736,7 @@
 				( attribute "CDS_PN" "5"
 					( Origin gPackager )
 				)
-				( objectStatus "RZ2.4" )
+				( objectStatus "RZ2.5" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i90(0):b(0)"
 				( attribute "PN" "1"
@@ -59703,7 +59751,7 @@
 				( attribute "CDS_PN" "1"
 					( Origin gPackager )
 				)
-				( objectStatus "RZ2.8" )
+				( objectStatus "RZ2.1" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i90(1):b(1)"
 				( attribute "PN" "2"
@@ -59718,7 +59766,7 @@
 				( attribute "CDS_PN" "2"
 					( Origin gPackager )
 				)
-				( objectStatus "RZ2.7" )
+				( objectStatus "RZ2.2" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i90(2):b(2)"
 				( attribute "PN" "3"
@@ -59733,7 +59781,7 @@
 				( attribute "CDS_PN" "3"
 					( Origin gPackager )
 				)
-				( objectStatus "RZ2.6" )
+				( objectStatus "RZ2.3" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i90(3):b(3)"
 				( attribute "PN" "4"
@@ -59748,7 +59796,7 @@
 				( attribute "CDS_PN" "4"
 					( Origin gPackager )
 				)
-				( objectStatus "RZ2.5" )
+				( objectStatus "RZ2.4" )
 			)
 			( pin "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page8_i91(0):a(0)"
 				( attribute "PN" "1"
@@ -61224,6 +61272,9 @@
 			( bus "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_11_capcersmdcl2_i82_b"
 				( memberType ( signal ) )
 				( alias ( busRef "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page11_unnamed_11_capcersmdcl2_i82_b") )
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_11_capcersmdcl2_i82_b(0)") )
 				( objectStatus "UNNAMED_11_CAPCERSMDCL2_I82_B" )
 			)
@@ -61360,6 +61411,9 @@
 			( bus "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i82_b"
 				( memberType ( signal ) )
 				( alias ( busRef "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page9_unnamed_9_capcersmdcl2_i82_b") )
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i82_b(0)") )
 				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I82_B" )
 			)

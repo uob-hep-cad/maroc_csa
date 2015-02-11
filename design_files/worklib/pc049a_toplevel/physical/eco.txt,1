@@ -2,8 +2,8 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_37.brd    |
-|                                                    Fri Oct  3 09:25:33 2014  |
+|  .../pc049a_toplevel/physical/02_09_2014_pc049a_toplevel_36_a16-5.brd        |
+|                                                    Fri Oct  3 09:32:25 2014  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -14,151 +14,6 @@
                                                                            P3V3
                                  U2.5            -20.681 -18.360
                                                                            P3V3
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DIP_SWITCH<0> pins MOVED FROM this net (to net name listed on right)
-                                 RZ2.4           -6.8400 -23.135
-                                                                     GND_SIGNAL
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DIP_SWITCH<1> pins MOVED FROM this net (to net name listed on right)
-                                 RZ2.3           -7.6400 -23.135
-                                                                     GND_SIGNAL
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DIP_SWITCH<2> pins MOVED FROM this net (to net name listed on right)
-                                 RZ2.2           -8.4400 -23.135
-                                                                     GND_SIGNAL
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DIP_SWITCH<3> pins MOVED FROM this net (to net name listed on right)
-                                 RZ2.1           -9.2400 -23.135
-                                                                     GND_SIGNAL
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FPGA_GPIO<0> pins MOVED FROM this net (to net name listed on right)
-                                 RN1.5           -19.822 -45.108
-                                                       UNNAMED_8_CON12P_I51_A_4
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FPGA_GPIO<1> pins MOVED FROM this net (to net name listed on right)
-                                 RN1.6           -19.822 -44.308
-                                                       UNNAMED_8_CON12P_I51_A_3
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FPGA_GPIO<2> pins MOVED FROM this net (to net name listed on right)
-                                 RN1.7           -19.822 -43.508
-                                                       UNNAMED_8_CON12P_I51_A_2
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FPGA_GPIO<3> pins MOVED FROM this net (to net name listed on right)
-                                 RN1.8           -19.822 -42.708
-                                                       UNNAMED_8_CON12P_I51_A_1
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FPGA_GPIO<4> pins MOVED FROM this net (to net name listed on right)
-                                 RN2.4           -34.827 -45.108
-                                                       UNNAMED_8_CON12P_I51_A_6
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FPGA_GPIO<5> pins MOVED FROM this net (to net name listed on right)
-                                 RN2.3           -34.827 -44.308
-                                                       UNNAMED_8_CON12P_I51_A_5
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_37.brd    |
-|                                                    Fri Oct  3 09:25:33 2014  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  FPGA_GPIO<6> pins MOVED FROM this net (to net name listed on right)
-                                 RN2.2           -34.827 -43.508
-                                                       UNNAMED_8_CON12P_I51_A_7
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FPGA_GPIO<7> pins MOVED FROM this net (to net name listed on right)
-                                 RN2.1           -34.827 -42.708
-                                                         UNNAMED_8_CON12P_I51_A
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  GND_SIGNAL   pins MOVED FROM this net (to net name listed on right)
-                                 RZ2.5           -6.8400 -21.630
-                                                                  DIP_SWITCH<0>
-                                 RZ2.6           -7.6400 -21.630
-                                                                  DIP_SWITCH<1>
-                                 RZ2.7           -8.4400 -21.630
-                                                                  DIP_SWITCH<2>
-                                 RZ2.8           -9.2400 -21.630
-                                                                  DIP_SWITCH<3>
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_8_CON12P_I51_A pins MOVED FROM this net (to net name listed on right)
-                                 RN2.8           -33.322 -42.708
-                                                                   FPGA_GPIO<7>
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_8_CON12P_I51_A_1 pins MOVED FROM this net (to net name listed on right)
-                                 RN1.1           -21.327 -42.708
-                                                                   FPGA_GPIO<3>
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_8_CON12P_I51_A_2 pins MOVED FROM this net (to net name listed on right)
-                                 RN1.2           -21.327 -43.508
-                                                                   FPGA_GPIO<2>
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_8_CON12P_I51_A_3 pins MOVED FROM this net (to net name listed on right)
-                                 RN1.3           -21.327 -44.308
-                                                                   FPGA_GPIO<1>
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_8_CON12P_I51_A_4 pins MOVED FROM this net (to net name listed on right)
-                                 RN1.4           -21.327 -45.108
-                                                                   FPGA_GPIO<0>
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_8_CON12P_I51_A_5 pins MOVED FROM this net (to net name listed on right)
-                                 RN2.6           -33.322 -44.308
-                                                                   FPGA_GPIO<5>
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_8_CON12P_I51_A_6 pins MOVED FROM this net (to net name listed on right)
-                                 RN2.5           -33.322 -45.108
-                                                                   FPGA_GPIO<4>
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_37.brd    |
-|                                                    Fri Oct  3 09:25:33 2014  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  UNNAMED_8_CON12P_I51_A_7 pins MOVED FROM this net (to net name listed on right)
-                                 RN2.7           -33.322 -43.508
-                                                                   FPGA_GPIO<6>
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  .../design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_37.brd    |
-|                                                    Fri Oct  3 09:25:33 2014  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- RN1.1          -21.327 -42.708 CDS_PINID      A(0)
- RN1.2          -21.327 -43.508 CDS_PINID      A(1)
- RN1.3          -21.327 -44.308 CDS_PINID      A(2)
- RN1.4          -21.327 -45.108 CDS_PINID      A(3)
- RN1.5          -19.822 -45.108 CDS_PINID      B(3)
- RN1.6          -19.822 -44.308 CDS_PINID      B(2)
- RN1.7          -19.822 -43.508 CDS_PINID      B(1)
- RN1.8          -19.822 -42.708 CDS_PINID      B(0)
- RN2.1          -34.827 -42.708 CDS_PINID      A(0)
- RN2.2          -34.827 -43.508 CDS_PINID      A(1)
- RN2.3          -34.827 -44.308 CDS_PINID      A(2)
- RN2.4          -34.827 -45.108 CDS_PINID      A(3)
- RN2.5          -33.322 -45.108 CDS_PINID      B(3)
- RN2.6          -33.322 -44.308 CDS_PINID      B(2)
- RN2.7          -33.322 -43.508 CDS_PINID      B(1)
- RN2.8          -33.322 -42.708 CDS_PINID      B(0)
- RZ2.1          -9.2400 -23.135 CDS_PINID      A(0)
- RZ2.2          -8.4400 -23.135 CDS_PINID      A(1)
- RZ2.3          -7.6400 -23.135 CDS_PINID      A(2)
- RZ2.4          -6.8400 -23.135 CDS_PINID      A(3)
- RZ2.5          -6.8400 -21.630 CDS_PINID      B(3)
- RZ2.6          -7.6400 -21.630 CDS_PINID      B(2)
- RZ2.7          -8.4400 -21.630 CDS_PINID      B(1)
- RZ2.8          -9.2400 -21.630 CDS_PINID      B(0)
-|------------------------------------------------------------------------------|
-|   total ECO changes reported  50                                             |
+|   total ECO changes reported  2                                              |
 |------------------------------------------------------------------------------|

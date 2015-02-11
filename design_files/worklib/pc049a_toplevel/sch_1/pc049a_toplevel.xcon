@@ -5,7 +5,7 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>concepthdl</creatorTool>
     <modifierTool>concepthdl</modifierTool>
-    <modificationTime>2014-10-03T09:21:28</modificationTime>
+    <modificationTime>2014-10-06T12:34:11</modificationTime>
     <savedLibrary>uob_hep_pc049a_lib</savedLibrary>
   </header>
   <designs>
@@ -13,7 +13,7 @@
       <lastids>
         <instanceid>555</instanceid>
         <netid>744</netid>
-        <insttermid>1818</insttermid>
+        <insttermid>1820</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -14394,6 +14394,14 @@
           <masks>
           </masks>
           <powers>
+            <power>
+              <name>vcc</name>
+              <override>N213</override>
+            </power>
+            <power>
+              <name>gnd</name>
+              <override>N5</override>
+            </power>
           </powers>
           <pins>
             <pin>
@@ -18849,6 +18857,10 @@
           <masks>
           </masks>
           <powers>
+            <power>
+              <name>gnd</name>
+              <override>N5</override>
+            </power>
           </powers>
           <pins>
             <pin>
@@ -18876,6 +18888,10 @@
           <masks>
           </masks>
           <powers>
+            <power>
+              <name>gnd</name>
+              <override>N5</override>
+            </power>
           </powers>
           <pins>
             <pin>
@@ -18903,6 +18919,10 @@
           <masks>
           </masks>
           <powers>
+            <power>
+              <name>gnd</name>
+              <override>N5</override>
+            </power>
           </powers>
           <pins>
             <pin>
@@ -18930,6 +18950,10 @@
           <masks>
           </masks>
           <powers>
+            <power>
+              <name>gnd</name>
+              <override>N5</override>
+            </power>
           </powers>
           <pins>
             <pin>

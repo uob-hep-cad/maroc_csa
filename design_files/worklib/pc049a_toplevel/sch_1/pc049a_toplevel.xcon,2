@@ -5,7 +5,7 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>concepthdl</creatorTool>
     <modifierTool>concepthdl</modifierTool>
-    <modificationTime>2014-09-09T11:05:50</modificationTime>
+    <modificationTime>2014-10-03T09:21:28</modificationTime>
     <savedLibrary>uob_hep_pc049a_lib</savedLibrary>
   </header>
   <designs>
@@ -13,7 +13,7 @@
       <lastids>
         <instanceid>555</instanceid>
         <netid>744</netid>
-        <insttermid>1814</insttermid>
+        <insttermid>1818</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -3853,10 +3853,6 @@
           <name>unnamed_13_led_i46_a</name>
         </net>
         <net>
-          <id>N638</id>
-          <name>page8_avdd</name>
-        </net>
-        <net>
           <id>N639</id>
           <name>fpga_leds</name>
           <msb>4</msb>
@@ -4730,7 +4726,6 @@
         <alias net1="N601" lsb1="-1" msb1="-1" net2="N213" lsb2="-1" msb2="-1" />
         <alias net1="N617" lsb1="-1" msb1="-1" net2="N5" lsb2="-1" msb2="-1" />
         <alias net1="N619" lsb1="-1" msb1="-1" net2="N213" lsb2="-1" msb2="-1" />
-        <alias net1="N638" lsb1="-1" msb1="-1" net2="N1" lsb2="-1" msb2="-1" />
         <alias net1="N654" lsb1="0" msb1="1" net2="N653" lsb2="0" msb2="1" />
         <alias net1="N656" lsb1="0" msb1="1" net2="N655" lsb2="0" msb2="1" />
         <alias net1="N658" lsb1="0" msb1="1" net2="N657" lsb2="0" msb2="1" />
@@ -14108,14 +14103,14 @@
               <id>M1397</id>
               <termid>T376</termid>
               <connections>
-                <connection net="N213" />
+                <connection net="N689" />
               </connections>
             </pin>
             <pin>
               <id>M1398</id>
               <termid>T377</termid>
               <connections>
-                <connection net="N213" />
+                <connection net="N690" />
               </connections>
             </pin>
             <pin>
@@ -14529,7 +14524,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N1" />
+                <connection pinmsb="0" pinlsb="0" net="N213" />
               </connections>
             </pin>
           </pins>
@@ -14741,7 +14736,7 @@
               <id>M1441</id>
               <termid>T322</termid>
               <connections>
-                <connection net="N1" />
+                <connection net="N213" />
               </connections>
             </pin>
           </pins>
@@ -20325,9 +20320,6 @@
             <pageScope number="1">
               <scope>global</scope>
             </pageScope>
-            <pageScope number="8">
-              <scope>global</scope>
-            </pageScope>
             <pageScope number="11">
               <scope>global</scope>
             </pageScope>
@@ -20889,7 +20881,6 @@
             <physicalPageNumber>8</physicalPageNumber>
             <errorStatus>false</errorStatus>
             <nets>
-              <net ref="avdd"></net>
               <net ref="ctest_ana"></net>
               <net ref="dig_ctest">
                 <msb>5</msb>

@@ -1,4 +1,4 @@
-( ConstraintFile "02_09_2014_pc049a_toplevel_36_a16-5"
+( ConstraintFile "05_10_2014_pc049a_toplevel_39_a16-5"
 	( constraintHeader
 		( objectKey
 			( physical )
@@ -7,8 +7,8 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 247 )
-			( physicalViewRevNum 3 )
+			( logicalViewRevNum 251 )
+			( physicalViewRevNum 4 )
 			( otherViewRevNum 0 )
 		)
 		( contents
@@ -126,10 +126,7 @@
 	( designConstraints
 		( ruleChanges
 			( allRules )
-			( design "02_09_2014_pc049a_toplevel_36_a16-5"
-				( attribute "SQ_LINE_WIDTH_VALUES" "SINGLE_IMPEDANCE OFF|DIFF_IMPEDANCE OFF|TOP|0.1300 MM|NONE|0.1800 MM|L3|0.1300 MM|NONE|0.2000 MM|L5|0.1300 MM|NONE|0.2000 MM|L6|0.1300 MM|NONE|0.2000 MM|L8|0.1300 MM|NONE|0.2000 MM|BOTTOM|0.1300 MM|NONE|0.1800 MM"
-					( Origin gBackEnd )
-				)
+			( design "05_10_2014_pc049a_toplevel_39_a16-5"
 			)
 			( signal "AVDD"
 				( attribute "WEIGHT" "0"

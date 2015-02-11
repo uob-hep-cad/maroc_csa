@@ -4,7 +4,7 @@
     Bomhdl 16.6-S013 (v16-6-112AL) 7/1/2013
     Copyright 2011 Cadence Design Systems, Inc, Cadence Design Systems, Inc.
 
-    Run on Thu Jul 31 16:05:02 2014
+    Run on Mon Nov  3 14:49:09 2014
 
 
 *****************************
@@ -24,7 +24,7 @@
     INCLUDE_PPT ''
     EXCLUDE_PPT ''
     SPREADSHEET 'OFF'
-    LAST_OUTPUT_FILE './worklib/pc049a_toplevel/bom/pc049a_one_per_line.csv'
+    LAST_OUTPUT_FILE './worklib/pc049a_toplevel/bom/pc049a_one_per_line1.csv'
     TEMPLATE_FILE 'template.bom'
     LAST_TEMPLATE_FILE '/projects/HEP_Instrumentation/cad/tools/cadence_templates/spreadsheet-format_1per_line.bom'
     LAST_STANDARD_OPTION '1'
@@ -160,15 +160,29 @@ Design loaded successfully.
 Report generated successfully.
 
 Output file list :
-/projects/HEP_Instrumentation/cad/designs/uob-hep-pc050a/trunk/design_files/worklib/pc050a_clock_board/pc050a_clock_board_1_per_line.csv
+/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/bom/pc049a_one_per_line2.csv
 
 *********************************
 *  End generating bom reports   *
 *********************************
 
-    Start time   16:05:02
-    End time     16:06:36
-    Elapsed time  0:01:34
+
+**********************************
+*  Start generating bom reports. *
+**********************************
+
+Report generated successfully.
+
+Output file list :
+/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/bom/pc049a_summary2.csv
+
+*********************************
+*  End generating bom reports   *
+*********************************
+
+    Start time   14:49:09
+    End time     17:21:06
+    Elapsed time 26:31:57
 
 *********************************
 *  BOM-HDL execution done.      *

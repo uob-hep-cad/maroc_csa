@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 03-Oct-2014 AT 09:32:12 }
-TIME=' COMPILATION ON 03-Oct-2014 AT 09:32:12';
+{ Packager-XL run on 06-Oct-2014 AT 12:40:31 }
+TIME=' COMPILATION ON 06-Oct-2014 AT 12:40:31';
 primitive '1-HOLE_0-8-BASE';body '1-HOLE';
     'A'<0>:'(1)';IN;
 end_primitive;
@@ -1629,10 +1629,10 @@ primitive 'S25FL128SAGMFIR01-VCC=P3V3,VSSA';body 'S25FL128S_RESET_VIO';
     'SCK':'(16)';IN;
     'HOLD/IO3':'(1)';BIDI;
 end_primitive;
-primitive 'SFP_CAGE-6367034-1';body 'SFP_CAGE';
+primitive 'SFP_CAGE-6367034-1-GND=GND_SIGA';body 'SFP_CAGE';
     'NC':'(NC)';
 end_primitive;
-primitive 'SFP_CAGE-6367035-1';body 'SFP_CAGE';
+primitive 'SFP_CAGE-6367035-1-GND=GND_SIGA';body 'SFP_CAGE';
     'NC':'(NC)';
 end_primitive;
 primitive 'SK_SATA_SMD_STR-MOLEX';body 'SK_SATA';
@@ -1651,7 +1651,7 @@ primitive 'SN65LVDS1_SOT23-5-TEXAS INSTRUA';body 'SN65LVDS1';
     'Y':'(4)';OUT;
     'D':'(5)';IN;
 end_primitive;
-primitive 'SN74LVC1G06DBVT';body '74LVC1G06';
+primitive 'SN74LVC1G06DBVT-GND=GND_SIGNALA';body '74LVC1G06';
     'A':'(2)';IN;
     'Y':'(4)';OUT;
 end_primitive;

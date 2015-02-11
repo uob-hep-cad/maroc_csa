@@ -9,7 +9,7 @@
     (lastIds
       (lastInstanceId 555)
       (lastNetId 744)
-      (lastInstTermId 1818)
+      (lastInstTermId 1820)
     )
     (cells
       ("S2" "conabc96" "cnconnector" "sym_1"
@@ -5950,6 +5950,10 @@
         )
       )
       ("I396" "page13_i92" "S53"
+        (power_overrides
+          ( "vcc" "N213" )
+          ( "gnd" "N5" )
+        )
         (pins
           ("M1421" "T502" -1 -1
             (conn
@@ -7620,24 +7624,36 @@
         )
       )
       ("I519" "page7_i85" "S62"
+        (power_overrides
+          ( "gnd" "N5" )
+        )
         (pins
           ("M1711" "T570" -1 -1
           )
         )
       )
       ("I520" "page7_i86" "S62"
+        (power_overrides
+          ( "gnd" "N5" )
+        )
         (pins
           ("M1712" "T570" -1 -1
           )
         )
       )
       ("I521" "page7_i87" "S62"
+        (power_overrides
+          ( "gnd" "N5" )
+        )
         (pins
           ("M1713" "T570" -1 -1
           )
         )
       )
       ("I522" "page7_i88" "S62"
+        (power_overrides
+          ( "gnd" "N5" )
+        )
         (pins
           ("M1714" "T570" -1 -1
           )

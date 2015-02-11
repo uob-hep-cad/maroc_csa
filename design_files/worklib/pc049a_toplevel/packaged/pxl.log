@@ -6,7 +6,7 @@
     Packager-XL 16.6-S013 (v16-6-112AL) lnx86 7/1/2013 12:00:00 IST
     (C) Copyright 1994, Cadence Design Systems, Inc.
 
-    Run on Fri Oct  3 09:32:12 2014
+    Run on Mon Oct  6 12:40:31 2014
 
 
  **********************************************
@@ -128,7 +128,7 @@ e_cern_lib/parttables/cnpassive.ptf
     ERROR_ON_PARTIAL_INSTANTIATION_OF_HSS OFF
 
  **************************************************************
- *  End processing project file and command line  (00:00:00)  *
+ *  End processing project file and command line  (00:00:01)  *
  **************************************************************
 
 
@@ -304,8 +304,8 @@ INFO(SPCOPK-1442): No errors detected
 INFO(SPCOPK-1443): 1 warnings detected
 INFO(SPCOPK-1448): Use Tools->Markers->Packager in ConceptHDL to highlight ins~
 tances for the errors/warnings reported.
-    Start time    9:32:12
-    End time      9:32:19
+    Start time   12:40:31
+    End time     12:40:38
     CPU time      0:00:05
     Elapsed time  0:00:07
 

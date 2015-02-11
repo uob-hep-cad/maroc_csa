@@ -3,15 +3,15 @@
 (    STEP Export                                                      )
 (                                                                     )
 (    Software Version : 16.6S014                                      )
-(    Date/Time        : Mon May 12 16:35:04 2014                      )
+(    Date/Time        : Fri Oct 10 14:14:37 2014                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 
 
-STEP file: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_05_dummy_tst.stp
-Design file: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_05_dummy.brd
+STEP file: pc049a_toplevel_40_a16-6
+Design file: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_40_a16-6.brd
 Export units: Millimeter
 STEP protocol: AP-214
 Source identification: allegro_16.6S014

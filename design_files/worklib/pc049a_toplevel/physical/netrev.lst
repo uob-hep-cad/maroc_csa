@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : 02_09_2014_pc049a_toplevel_36_a16-5.brd       )
+(    Drawing          : 05_10_2014_pc049a_toplevel_39_a16-5.brd       )
 (    Software Version : 16.6S014                                      )
-(    Date/Time        : Fri Oct  3 09:32:25 2014                      )
+(    Date/Time        : Mon Oct  6 12:40:44 2014                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -18,10 +18,10 @@ RIPUP_SYMBOLS ALWAYS;
 Missing symbol has error FALSE;
 SCHEMATIC_DIRECTORY '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged';
 BOARD_DIRECTORY '';
-OLD_BOARD_NAME '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/02_09_2014_pc049a_toplevel_36_a16-5.brd';
-NEW_BOARD_NAME 'pc049a_toplevel_39.brd';
+OLD_BOARD_NAME '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd';
+NEW_BOARD_NAME 'pc049a_toplevel_40_a16-5.brd';
 
-CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/pc049a_toplevel.cpm -y 1 -O /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/02_09_2014_pc049a_toplevel_36_a16-5.brd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_39.brd -$
+CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/pc049a_toplevel.cpm -y 1 -O /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_40_a16-5.brd -$
 
 ------ Preparing to read pst files ------
 
@@ -40,12 +40,12 @@ Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/
 ===========================================================
 Start Constraint Diff3 Import
 	Constraint File:    /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstcmdb.dat
-	Allegro Baseline:   /tmp/#Taaaaad21981.tmp
+	Allegro Baseline:   /tmp/#Taaaaad05628.tmp
 	Schematic Baseline: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/packaged/pstcmbc.dat
-	Start time: Fri Oct  3 09:32:26 2014
+	Start time: Mon Oct  6 12:40:45 2014
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Fri Oct  3 09:32:26 2014
+Finished Constraint Update	Time: Mon Oct  6 12:40:45 2014
 ===========================================================
 
 ------ Library Paths ------
@@ -90,9 +90,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Oct 3 9:32:25 2014
+netrev run on Oct 6 12:40:44 2014
    DESIGN NAME : 'PC049A_TOPLEVEL'
-   PACKAGING ON 03-Oct-2014 AT 09:32:12
+   PACKAGING ON 06-Oct-2014 AT 12:40:31
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF

@@ -7,8 +7,8 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 248 )
-			( physicalViewRevNum 3 )
+			( logicalViewRevNum 251 )
+			( physicalViewRevNum 4 )
 			( otherViewRevNum 0 )
 		)
 		( contents
@@ -1332,9 +1332,6 @@
 				)
 				( attribute "CDS_EDIT_PNS_STATUS" "0"
 					( Origin gFrontEnd )
-				)
-				( attribute "SQ_LINE_WIDTH_VALUES" "SINGLE_IMPEDANCE OFF|DIFF_IMPEDANCE OFF|TOP|0.1300 MM|NONE|0.1800 MM|L3|0.1300 MM|NONE|0.2000 MM|L5|0.1300 MM|NONE|0.2000 MM|L6|0.1300 MM|NONE|0.2000 MM|L8|0.1300 MM|NONE|0.2000 MM|BOTTOM|0.1300 MM|NONE|0.1800 MM"
-					( Origin gBackEnd )
 				)
 			)
 			( physicalCSet "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):\DEFAULT\"
@@ -9811,6 +9808,9 @@
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_9_CAPCERSMDCL2_I44_B"
 					( Origin gPackager )
 				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I44_B" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i55_b"
@@ -9828,6 +9828,9 @@
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i79_b"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_9_CAPCERSMDCL2_I79_B"
 					( Origin gPackager )
+				)
+				( attribute "MAX_LINE_WIDTH" "10.0000"
+					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I79_B" )
 			)
@@ -9900,6 +9903,9 @@
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_11_capcersmdcl2_i79_b"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_11_CAPCERSMDCL2_I79_B"
 					( Origin gPackager )
+				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_11_CAPCERSMDCL2_I79_B" )
 			)
@@ -11555,17 +11561,26 @@
 				( attribute "PNN" "UNNAMED_9_CAPCERSMDCL2_I30_B<0>"
 					( Origin gPackager )
 				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I30_B<0>" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i40_b"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_9_CAPCERSMDCL2_I40_B"
 					( Origin gPackager )
 				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I40_B" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i45_b"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_9_CAPCERSMDCL2_I45_B"
 					( Origin gPackager )
+				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I45_B" )
 			)
@@ -11632,6 +11647,9 @@
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_11_capcersmdcl2_i57_b"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_11_CAPCERSMDCL2_I57_B"
 					( Origin gPackager )
+				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_11_CAPCERSMDCL2_I57_B" )
 			)
@@ -12975,11 +12993,17 @@
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_8_RSMD0603_I92_B"
 					( Origin gPackager )
 				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( objectStatus "UNNAMED_8_RSMD0603_I92_B" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_8_rsmd0603_i97_b"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_8_RSMD0603_I97_B"
 					( Origin gPackager )
+				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_8_RSMD0603_I97_B" )
 			)
@@ -13111,11 +13135,17 @@
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_8_RSMD0603_I73_A"
 					( Origin gPackager )
 				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( objectStatus "UNNAMED_8_RSMD0603_I73_A" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_8_rsmd0603_i75_a"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_8_RSMD0603_I75_A"
 					( Origin gPackager )
+				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_8_RSMD0603_I75_A" )
 			)
@@ -13123,11 +13153,17 @@
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_8_RSMD0603_I78_A"
 					( Origin gPackager )
 				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( objectStatus "UNNAMED_8_RSMD0603_I78_A" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_8_rsmd0603_i82_a"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_8_RSMD0603_I82_A"
 					( Origin gPackager )
+				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_8_RSMD0603_I82_A" )
 			)
@@ -14258,11 +14294,17 @@
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_8_RSMD0603_I68_A"
 					( Origin gPackager )
 				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( objectStatus "UNNAMED_8_RSMD0603_I68_A" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_lt1585_i8_gnd"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_9_LT1585_I8_GND"
 					( Origin gPackager )
+				)
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_9_LT1585_I8_GND" )
 			)
@@ -14282,11 +14324,17 @@
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_11_LP38692_I115_ADJ"
 					( Origin gPackager )
 				)
+				( attribute "MAX_LINE_WIDTH" "1.0000"
+					( Origin gBackEnd )
+				)
 				( objectStatus "UNNAMED_11_LP38692_I115_ADJ" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_11_lp38692_i115_en"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_11_LP38692_I115_EN"
 					( Origin gPackager )
+				)
+				( attribute "MAX_LINE_WIDTH" "1.0000"
+					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_11_LP38692_I115_EN" )
 			)
@@ -51602,7 +51650,7 @@
 				( attribute "CHIPS_PART_NAME" "74LVC1G06"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SN74LVC1G06DBVT"
+				( attribute "CDS_PART_NAME" "SN74LVC1G06DBVT-GND=GND_SIGNALA"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "IC16"
@@ -58061,7 +58109,7 @@
 				( attribute "CHIPS_PART_NAME" "SFP_CAGE"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SFP_CAGE-6367034-1"
+				( attribute "CDS_PART_NAME" "SFP_CAGE-6367034-1-GND=GND_SIGA"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "SFP1"
@@ -58106,7 +58154,7 @@
 				( attribute "CHIPS_PART_NAME" "SFP_CAGE"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SFP_CAGE-6367035-1"
+				( attribute "CDS_PART_NAME" "SFP_CAGE-6367035-1-GND=GND_SIGA"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "SFP2"
@@ -58151,7 +58199,7 @@
 				( attribute "CHIPS_PART_NAME" "SFP_CAGE"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SFP_CAGE-6367034-1"
+				( attribute "CDS_PART_NAME" "SFP_CAGE-6367034-1-GND=GND_SIGA"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "SFP3"
@@ -58196,7 +58244,7 @@
 				( attribute "CHIPS_PART_NAME" "SFP_CAGE"
 					( Origin gPackager )
 				)
-				( attribute "CDS_PART_NAME" "SFP_CAGE-6367035-1"
+				( attribute "CDS_PART_NAME" "SFP_CAGE-6367035-1-GND=GND_SIGA"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "SFP4"
@@ -61224,6 +61272,9 @@
 			( bus "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_11_capcersmdcl2_i82_b"
 				( memberType ( signal ) )
 				( alias ( busRef "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page11_unnamed_11_capcersmdcl2_i82_b") )
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_11_capcersmdcl2_i82_b(0)") )
 				( objectStatus "UNNAMED_11_CAPCERSMDCL2_I82_B" )
 			)
@@ -61360,6 +61411,9 @@
 			( bus "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i82_b"
 				( memberType ( signal ) )
 				( alias ( busRef "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page9_unnamed_9_capcersmdcl2_i82_b") )
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i82_b(0)") )
 				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I82_B" )
 			)

@@ -1,0 +1,272 @@
+\t (00:00:03) allegro 16.6 S014 (v16-6-112AU) Linux I32
+\t (00:00:03)     Journal start - Tue Feb 10 11:23:31 2015
+\t (00:00:03)         Host=calgary.phy.bris.ac.uk User=phdgc Pid=25636 CPUs=4
+\t (00:00:03) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Database opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_47.brd
+\i (00:00:06) trapsize 5532
+\i (00:00:06) trapsize 5419
+\i (00:00:07) trapsize 5551
+\i (00:00:08) trapsize 4865
+\i (00:00:08) trapsize 4954
+\i (00:00:09) ifp 
+\i (00:00:13) odb_out 
+\t (00:00:13) Valor: Extract out files
+\i (00:00:15) fillin yes 
+\t (00:00:15) extracting technology file
+\t (00:00:15) Starting techfile...
+\t (00:00:18) extracting Component Properties
+\t (00:00:22)  ----- Valor extract completed successfully ----- 
+
+\t (00:00:22) Starting brd2odb translator...
+   (00:06:42) Loading cmds.cxt 
+   (00:06:42) Loading mfg.cxt 
+   (00:06:42) Loading signal.cxt 
+\i (00:06:42) ifp 
+\i (00:06:45) artwork 
+\i (00:40:39) color192 
+\i (00:40:40) setwindow cvf.dialog
+\i (00:40:40) cvf layer_mode
+\i (00:40:45) setwindow form.film_control
+\i (00:40:45) FORM film_control filmtree  SP10 
+\i (00:40:47) FORM film_control filmtree popup 'Display for Visibility' SP10 
+\i (00:40:56) FORM film_control filmtree  SP1 
+\i (00:40:58) FORM film_control filmtree popup 'Display for Visibility' SP1 
+\i (00:41:00) FORM film_control filmtree  SP10 
+\i (00:41:01) FORM film_control filmtree popup 'Display for Visibility' SP10 
+\i (00:41:05) setwindow cvf.dialog
+\i (00:41:05) cvf layers_visible stack-up pin/pastemask_bottom TRUE
+\i (00:41:06) cvf apply
+\i (00:41:09) cvf layers_visible stack-up pin/pastemask_top FALSE
+\i (00:41:11) cvf apply
+\i (00:41:26) setwindow form.film_control
+\i (00:41:26) FORM film_control filmtree popup 'Match Display' SP10 
+\i (00:41:30) FORM film_control filmtree popup 'Display for Visibility' SP10 
+\i (00:41:34) FORM film_control filmtree popup 'Display for Visibility' SP1 
+\i (00:41:36) FORM film_control filmtree  SP10 
+\i (00:41:42) setwindow cvf.dialog
+\i (00:41:42) cvf okay
+\i (00:41:44) setwindow pcb
+\i (00:41:44) zoom fit 
+\i (00:41:44) trapsize 16986
+\i (00:41:48) setwindow form.film_control
+\i (00:41:48) FORM film_control filmtree popup 'Display for Visibility' SP10 
+\i (00:41:54) FORM film_control filmtree  SS10 
+\i (00:41:55) FORM film_control filmtree popup 'Display for Visibility' SS10 
+\i (00:41:59) FORM film_control filmtree  SP10 
+\i (00:42:00) FORM film_control filmtree popup 'Display for Visibility' SP10 
+\i (00:42:09) setwindow form.vf_vis
+\i (00:42:09) FORM vf_vis 10 pin_colorvisible 1 
+\i (00:42:10) FORM vf_vis 10 pin_colorvisible 0 
+\i (00:42:11) FORM vf_vis 10 pin_colorvisible 1 
+\i (00:42:12) FORM vf_vis 10 pin_colorvisible 0 
+\i (00:42:15) setwindow pcb
+\i (00:42:15) trapsize 15108
+\i (00:42:20) zoom fit 
+\i (00:42:20) trapsize 11554
+\i (00:42:25) setwindow form.vf_vis
+\i (00:42:25) FORM vf_vis 10 pin_colorvisible 1 
+\i (00:42:25) FORM vf_vis 10 pin_colorvisible 0 
+\i (00:42:26) FORM vf_vis 10 pin_colorvisible 1 
+\i (00:42:29) FORM vf_vis 10 pin_colorvisible 0 
+\i (00:42:29) FORM vf_vis 10 pin_colorvisible 1 
+\i (00:42:30) FORM vf_vis 10 pin_colorvisible 0 
+\i (00:42:32) FORM vf_vis 10 pin_colorvisible 1 
+\i (00:42:33) FORM vf_vis 10 pin_colorvisible 0 
+\i (00:42:34) FORM vf_vis 10 pin_colorvisible 1 
+\i (00:42:35) FORM vf_vis 10 pin_colorvisible 0 
+\i (00:42:40) setwindow pcb
+\i (00:42:40) drc update 
+\t (00:42:41) Performing DRC...
+\t (00:42:41) Multithreaded DRC update (4 threads).
+\t (00:42:41) No DRC errors detected.
+\i (00:42:41) ifp 
+\i (00:42:45) artwork 
+\i (00:42:48) setwindow form.film_control
+\i (00:42:48) FORM film_control select_all  
+\i (00:42:49) FORM film_control create  
+\t (00:42:49) Checking db records
+\t (00:42:49)     checking for orphans...
+\t (00:42:49)     Checked   8 percent
+\t (00:42:49)     Checked  17 percent
+\t (00:42:49)     Checked  26 percent
+\t (00:42:49)     Checked  35 percent
+\t (00:42:49)     Checked  44 percent
+\t (00:42:49)     Checked  53 percent
+\t (00:42:49)     Checked  62 percent
+\t (00:42:49)     Checked  71 percent
+\t (00:42:49)     Checked  80 percent
+\t (00:42:49)     Checked  89 percent
+\t (00:42:49)     Checked  98 percent
+\t (00:42:49)     Checked 100 percent
+\t (00:42:50) Done dbdoctor.
+\t (00:42:50) Starting Create artwork films...
+\w (00:42:53) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:42:54) Artwork generated with warnings.
+\i (00:42:56) FORM film_control general_parameters  
+\i (00:42:57) FORM film_control film_control  
+\i (00:42:59) FORM film_control viewlog  
+\i (00:43:13) FORM film_control filmtree 'MULTISEL NO' DD 
+\i (00:43:15) FORM film_control create  
+\t (00:43:15) Starting Create artwork films...
+\w (00:43:17) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:43:19) Artwork generated with warnings.
+\i (00:43:29) FORM film_control filmtree 'MULTISEL NO' SS1 
+\i (00:43:29) FORM film_control filmtree  SS1 
+\i (00:43:30) FORM film_control filmtree 'MULTISEL NO' SS10 
+\i (00:43:30) FORM film_control filmtree  SS10 
+\i (00:43:32) FORM film_control create  
+\t (00:43:32) Starting Create artwork films...
+\t (00:43:35) Plot generated.
+\i (00:43:42) setwindow pcb
+\i (00:43:42) viewlog -last 
+\i (00:43:57) nctape_full 
+\i (00:44:02) setwindow form.nc_drill
+\i (00:44:02) FORM nc_drill parameters  
+\i (00:44:11) setwindow form.nc_parameters
+\i (00:44:11) FORM nc_parameters done  
+\i (00:44:14) setwindow form.nc_drill
+\i (00:44:14) FORM nc_drill execute  
+\t (00:44:14) Starting NC Drill...
+\i (00:44:21) FORM nc_drill close  
+\i (00:44:22) setwindow pcb
+\i (00:44:22) ifp 
+\i (00:44:54) trapsize 12991
+\i (00:44:56) new 
+\e (00:44:57) Do you want to save the changes you made to pc049a_toplevel_47.brd?
+\i (00:44:59) fillin menu_cancel 
+\i (00:45:00) ifp 
+\i (00:45:05) odb_out 
+\t (00:45:05) Valor: Extract out files
+\i (00:45:07) fillin yes 
+\t (00:45:08) extracting technology file
+\t (00:45:08) Starting techfile...
+\t (00:45:11) extracting Component Properties
+\t (00:45:14)  ----- Valor extract completed successfully ----- 
+
+\t (00:45:14) Starting brd2odb translator...
+   (00:55:26) function valor_extract_info redefined
+   (00:55:26) function odbGenFilmsParameters redefined
+   (00:55:26) function odbGenDraFiles redefined
+\i (00:55:26) setwindow text
+close
+\i (00:55:27) ifp 
+\i (00:55:32) setwindow text
+close
+\i (00:55:36) setwindow text
+close
+\i (01:01:05) setwindow form.vf_vis
+\i (01:01:05) FORM vf_vis 1 all_colorvisible YES 
+\i (01:01:08) setwindow pcb
+\i (01:01:08) roam start
+\i (01:01:08) roam x -32
+\i (01:01:08) roam y -96
+\i (01:01:08) roam x -16
+\i (01:01:08) roam y -96
+\i (01:01:08) roam x -16
+\i (01:01:08) roam y -32
+\i (01:01:08) roam y -32
+\i (01:01:08) roam x -16
+\i (01:01:08) roam y -32
+\i (01:01:08) roam y -16
+\i (01:01:08) roam y -16
+\i (01:01:09) roam y 16
+\i (01:01:09) roam y 48
+\i (01:01:09) roam y 32
+\i (01:01:09) roam y 32
+\i (01:01:09) roam y 16
+\i (01:01:09) roam y 16
+\i (01:01:09) roam y 16
+\i (01:01:09) roam y 16
+\i (01:01:09) roam y 16
+\i (01:01:09) roam x 16
+\i (01:01:09) roam y 16
+\i (01:01:09) roam y 16
+\i (01:01:10) roam x 16
+\i (01:01:10) roam y 16
+\i (01:01:10) roam x 16
+\i (01:01:10) roam y 16
+\i (01:01:10) roam y 16
+\i (01:01:10) roam x 16
+\i (01:01:10) roam y 16
+\i (01:01:10) roam x 16
+\i (01:01:10) roam y 16
+\i (01:01:10) roam y 16
+\i (01:01:10) roam x 16
+\i (01:01:10) roam y 16
+\i (01:01:10) roam y 16
+\i (01:01:10) roam y 16
+\i (01:01:11) roam end
+\i (01:04:43) plctxt out 
+\i (01:04:47) setwindow form.plctxt
+\i (01:04:47) FORM plctxt pin_1 YES 
+\i (01:04:54) FORM plctxt filename placement_pin1.txt 
+\i (01:04:55) FORM plctxt execute  
+\t (01:04:55) Starting Place symbols by text file...
+\i (01:07:04) FORM plctxt cancel  
+\i (01:07:04) setwindow pcb
+\i (01:07:04) ifp 
+\i (01:20:38) artwork 
+\i (01:20:42) setwindow form.film_control
+\i (01:20:42) FORM film_control filmtree  SS1 
+\i (01:20:43) FORM film_control filmtree popup 'Display for Visibility' SS1 
+\i (01:20:51) setwindow pcb
+\i (01:20:51) show element 
+\i (01:20:56) setwindow form.find
+\i (01:20:56) FORM find name_type Symbol (or Pin) 
+\i (01:21:00) FORM find find_name C47 
+\i (01:21:00) setwindow pcb
+\i (01:21:00) trapsize 486
+\i (01:21:44) setwindow form.find
+\i (01:21:44) FORM find find_name C74 
+\i (01:21:44) setwindow pcb
+\i (01:21:44) trapsize 622
+\i (01:21:49) setwindow form.vf_vis
+\i (01:21:49) FORM vf_vis 1 pin_colorvisible 1 
+\i (01:22:02) setwindow pcb
+\i (01:22:02) move 
+\t (01:22:03) Select element(s) to move.
+\i (01:22:05) setwindow form.find
+\i (01:22:05) FORM find all_off  
+\i (01:22:06) FORM find text YES 
+\i (01:22:09) setwindow pcb
+\i (01:22:09) pick grid 35.7194 9.8915
+\t (01:22:09) last pick:  35.7200  9.8900
+\t (01:22:09) last pick:  35.4313  9.7247
+\t (01:22:09) Pick new location for the element(s).
+\i (01:22:11) pick grid 34.6120 10.0159
+\t (01:22:11) last pick:  34.6100  10.0200
+\i (01:22:18) setwindow form.find
+\i (01:22:18) FORM find find_name C47 
+\i (01:22:18) setwindow pcb
+\i (01:22:18) trapsize 486
+\t (01:22:18) last pick:  18.5600  101.1500
+\t (01:22:18) Moving C47 / CAPCERSMDCL2_0603-4.7UF,6.3V_GA / C0603.
+\t (01:22:18) Pick new location for the element(s).
+\i (01:22:20) prepopup 20.3076 101.7185
+\i (01:22:22) cancel 
+\i (01:22:23) ifp 
+\i (01:22:27) show element 
+\i (01:22:32) setwindow form.find
+\i (01:22:32) FORM find find_name C47 
+\i (01:22:32) setwindow pcb
+\i (01:22:32) trapsize 486
+\i (01:24:11) setwindow form.find
+\i (01:24:11) FORM find find_name c79 
+\i (01:24:11) setwindow pcb
+\i (01:24:11) trapsize 569
+\i (01:24:44) setwindow form.find
+\i (01:24:44) FORM find find_name C47 
+\i (01:24:44) setwindow pcb
+\i (01:24:44) trapsize 486
+\i (01:25:03) setwindow form.find
+\i (01:25:03) FORM find find_name C126 
+\i (01:25:03) setwindow pcb
+\i (01:25:03) trapsize 838
+\i (01:25:26) zoom fit 
+\i (01:25:26) trapsize 16986
+\i (01:25:28) save 
+\i (01:25:33) fillin yes 
+\i (01:25:34) ifp 
+\i (06:58:08) exit 
+\t (06:58:10)     Journal end - Tue Feb 10 18:21:38 2015

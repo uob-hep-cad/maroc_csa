@@ -1,11 +1,11 @@
-Log File: /tmp/fileoxdfVg
-Markers File: /tmp/fileO2gz7J
-Debug File: /tmp/fileKiNUDG
+Log File: /tmp/fileeqCFm3
+Markers File: /tmp/file5EjRpS
+Debug File: /tmp/fileqBYCEw
      Debug[0] := TRUE
-Elapsed time since start = (00:00:00)
+Elapsed time since start = (00:00:01)
 
  **************************************************************
- *  End processing project file and command line  (00:00:00)  *
+ *  End processing project file and command line  (00:00:01)  *
  **************************************************************
 
 INFO(SPCODD-215): Merging part rows for PPT 'SW_PUSHBUTTON_1SPSTA_4P'.

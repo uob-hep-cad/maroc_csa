@@ -1,4 +1,4 @@
-; run on Fri Oct  3 09:30:52 2014 CONSTRAINTS_VIEW_GENERATED
+; run on Mon Oct  6 12:04:24 2014 CONSTRAINTS_VIEW_GENERATED
 ( ConstraintFile "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1)"
 	( constraintHeader
 		( objectKey
@@ -8,8 +8,8 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 242 )
-			( physicalViewRevNum 1 )
+			( logicalViewRevNum 247 )
+			( physicalViewRevNum 4 )
 			( otherViewRevNum 0 )
 		)
 		( contents
@@ -110,6 +110,419 @@
 			)
 			( Objects
 				( ValidObjects  oDesign )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$pn" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CDS_LMAN_SPLIT_NUMBER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MANUF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DIST" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MAX_TEMP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NEGTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POSTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC1" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC2" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TOL_ON_OFF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_LIST" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "ABBREV" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DIELECTRIC" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "KL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "OL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "PL_COMMENTS" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CDS_PN" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "IC" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "KNEE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MODEL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TOLERANCE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SYMNAME" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn  oIODriver  oSymbolDefn  oSymbol )
+				( NoInherit
+					( oGate oPin )
+				)
 			)
 			( Analysis
 			)
@@ -894,7 +1307,7 @@
 				( attribute "SQ_LINE_WIDTH_VALUES" "SINGLE_IMPEDANCE OFF|DIFF_IMPEDANCE OFF|TOP|0.1300 MM|NONE|0.1800 MM|L3|0.1300 MM|NONE|0.2000 MM|L5|0.1300 MM|NONE|0.2000 MM|L6|0.1300 MM|NONE|0.2000 MM|L8|0.1300 MM|NONE|0.2000 MM|BOTTOM|0.1300 MM|NONE|0.1800 MM"
 					( Origin gBackEnd )
 				)
-				( objectStatus "02_09_2014_pc049a_toplevel_36_a16-5" )
+				( objectStatus "05_10_2014_pc049a_toplevel_39_a16-5" )
 			)
 			( physicalCSet "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):\50R\"
 				( attribute "DIFFP_PRIMARY_GAP" "0.2200,0.2200,0.2200,0.2200,0.2200,0.2200,0.2200,0.2200,0.2200,0.2200"
@@ -3260,18 +3673,102 @@
 				( physicalCSetRef "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):\DIFF_PAIR\" )
 				( objectStatus "LVDS_DRIGHT_CLK_N" )
 			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_11_lp38692_i115_adj"
+				( attribute "MAX_LINE_WIDTH" "1.0000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "UNNAMED_11_LP38692_I115_ADJ" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_11_lp38692_i115_en"
+				( attribute "MAX_LINE_WIDTH" "1.0000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "UNNAMED_11_LP38692_I115_EN" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_8_rsmd0603_i97_b"
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "UNNAMED_8_RSMD0603_I97_B" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_8_rsmd0603_i92_b"
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "UNNAMED_8_RSMD0603_I92_B" )
+			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):spi_cclk"
 				( physicalCSetRef "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):\CLK\" )
 				( objectStatus "SPI_CCLK" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_8_rsmd0603_i73_a"
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "UNNAMED_8_RSMD0603_I73_A" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_lt1585_i8_gnd"
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "UNNAMED_9_LT1585_I8_GND" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i79_b"
+				( attribute "MAX_LINE_WIDTH" "10.0000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I79_B" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i57_b"
 				( attribute "MIN_LINE_WIDTH" "0.2540"
 					( Origin gBackEnd )
 				)
-				( attribute "MAX_LINE_WIDTH" "105.0000"
+				( attribute "MAX_LINE_WIDTH" "10.0000"
 					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I57_B" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i40_b"
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I40_B" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i30_b(0)"
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I30_B<0>" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_11_capcersmdcl2_i57_b"
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "UNNAMED_11_CAPCERSMDCL2_I57_B" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_8_rsmd0603_i75_a"
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "UNNAMED_8_RSMD0603_I75_A" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_8_rsmd0603_i78_a"
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "UNNAMED_8_RSMD0603_I78_A" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_8_rsmd0603_i82_a"
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "UNNAMED_8_RSMD0603_I82_A" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_8_rsmd0603_i68_a"
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "UNNAMED_8_RSMD0603_I68_A" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):fpga_tck"
 				( physicalCSetRef "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):\DEFAULT\" )
@@ -3293,6 +3790,24 @@
 					( Origin gBackEnd )
 				)
 				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I55_B" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i45_b"
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I45_B" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i44_b"
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I44_B" )
+			)
+			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_11_capcersmdcl2_i79_b"
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "UNNAMED_11_CAPCERSMDCL2_I79_B" )
 			)
 			( signal "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page1_i3@uob_hep_pc049a_lib.pc043c_single_maroc(sch_1):vdd_w"
 				( physicalCSetRef "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):\PWR\" )
@@ -5574,11 +6089,17 @@
 			)
 			( bus "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i82_b"
 				( memberType ( signal ) )
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_9_capcersmdcl2_i82_b(0)") )
 				( objectStatus "UNNAMED_9_CAPCERSMDCL2_I82_B" )
 			)
 			( bus "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_11_capcersmdcl2_i82_b"
 				( memberType ( signal ) )
+				( attribute "MAX_LINE_WIDTH" "2.0000"
+					( Origin gBackEnd )
+				)
 				( member ( signalRef "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):unnamed_11_capcersmdcl2_i82_b(0)") )
 				( objectStatus "UNNAMED_11_CAPCERSMDCL2_I82_B" )
 			)

@@ -1,6 +1,6 @@
 FILE_TYPE = PXL_HDL_CENTRIC_STATE_FILE;
 VERSION = PXL_HDL_CENTRIC_VERSION_1;
-TIME = '03-Oct-2014 AT 09:32:18.00';
+TIME = '06-Oct-2014 AT 12:40:37.00';
 
 {--------------------------------------------------------------------------}
 
@@ -5359,7 +5359,9 @@ SEC = '1';
 
 BEGIN_LIB_INFO:
  PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnmech/sfp_cage/chips/chips.prt';
- PART_NAME = 'SFP_CAGE-6367034-1';
+ PART_NAME = 'SFP_CAGE-6367034-1-GND=GND_SIGA';
+ LONG_PART_NAME = 'SFP_CAGE-6367034-1-GND=GND_SIGNAL';
+ PARENT_PPT_PHYS_PART = 'SFP_CAGE-6367034-1';
  PARENT_PPT = 'SFP_CAGE';
  PARENT_PPT_PART = 'SFP_CAGE-6367034-1';
  PARENT_CHIPS_PHYS_PART = 'SFP_CAGE';
@@ -5373,7 +5375,9 @@ SEC = '1';
 
 BEGIN_LIB_INFO:
  PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnmech/sfp_cage/chips/chips.prt';
- PART_NAME = 'SFP_CAGE-6367035-1';
+ PART_NAME = 'SFP_CAGE-6367035-1-GND=GND_SIGA';
+ LONG_PART_NAME = 'SFP_CAGE-6367035-1-GND=GND_SIGNAL';
+ PARENT_PPT_PHYS_PART = 'SFP_CAGE-6367035-1';
  PARENT_PPT = 'SFP_CAGE';
  PARENT_PPT_PART = 'SFP_CAGE-6367035-1';
  PARENT_CHIPS_PHYS_PART = 'SFP_CAGE';
@@ -5387,7 +5391,9 @@ SEC = '1';
 
 BEGIN_LIB_INFO:
  PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnmech/sfp_cage/chips/chips.prt';
- PART_NAME = 'SFP_CAGE-6367034-1';
+ PART_NAME = 'SFP_CAGE-6367034-1-GND=GND_SIGA';
+ LONG_PART_NAME = 'SFP_CAGE-6367034-1-GND=GND_SIGNAL';
+ PARENT_PPT_PHYS_PART = 'SFP_CAGE-6367034-1';
  PARENT_PPT = 'SFP_CAGE';
  PARENT_PPT_PART = 'SFP_CAGE-6367034-1';
  PARENT_CHIPS_PHYS_PART = 'SFP_CAGE';
@@ -5401,7 +5407,9 @@ SEC = '1';
 
 BEGIN_LIB_INFO:
  PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnmech/sfp_cage/chips/chips.prt';
- PART_NAME = 'SFP_CAGE-6367035-1';
+ PART_NAME = 'SFP_CAGE-6367035-1-GND=GND_SIGA';
+ LONG_PART_NAME = 'SFP_CAGE-6367035-1-GND=GND_SIGNAL';
+ PARENT_PPT_PHYS_PART = 'SFP_CAGE-6367035-1';
  PARENT_PPT = 'SFP_CAGE';
  PARENT_PPT_PART = 'SFP_CAGE-6367035-1';
  PARENT_CHIPS_PHYS_PART = 'SFP_CAGE';
@@ -8311,7 +8319,9 @@ SEC = '1';
 
 BEGIN_LIB_INFO:
  PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lvc1g06/chips/chips.prt';
- PART_NAME = 'SN74LVC1G06DBVT';
+ PART_NAME = 'SN74LVC1G06DBVT-GND=GND_SIGNALA';
+ LONG_PART_NAME = 'SN74LVC1G06DBVT-GND=GND_SIGNAL,VCC=P3V3';
+ PARENT_PPT_PHYS_PART = 'SN74LVC1G06DBVT';
  PARENT_PPT = '74LVC1G06';
  PARENT_PPT_PART = 'SN74LVC1G06DBVT';
  PARENT_CHIPS_PHYS_PART = '74LVC1G06_SOT23';

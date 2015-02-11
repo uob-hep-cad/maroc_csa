@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 03-Oct-2014 AT 09:32:12 }
+{ Packager-XL run on 06-Oct-2014 AT 12:40:31 }
 primitive '1-HOLE_0-8-BASE';
   pin
     'A'<0>:
@@ -11523,7 +11523,7 @@ ry with Versatile I/O SPI with Multi-I/O';
       PARENT_PPT_PART='S25FL128SAGMFIR01';
   end_body;
 end_primitive;
-primitive 'SFP_CAGE-6367034-1';
+primitive 'SFP_CAGE-6367034-1-GND=GND_SIGA';
   pin
     'NC':
       PIN_NUMBER='(NC)';
@@ -11544,13 +11544,14 @@ pdf';
       SMD='NO';
       CASE='SFP_CAGE';
       JEDEC_TYPE='TYCO_6367034-1';
-      POWER_PINS='(GND:1..17)';
+      POWER_PINS='(GND_SIGNAL:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17)';
       PARENT_PART_TYPE='SFP_CAGE';
+      SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='SFP_CAGE';
       PARENT_PPT_PART='SFP_CAGE-6367034-1';
   end_body;
 end_primitive;
-primitive 'SFP_CAGE-6367035-1';
+primitive 'SFP_CAGE-6367035-1-GND=GND_SIGA';
   pin
     'NC':
       PIN_NUMBER='(NC)';
@@ -11571,8 +11572,9 @@ pdf';
       SMD='NO';
       CASE='SFP_CAGE';
       JEDEC_TYPE='TYCO_6367035-1';
-      POWER_PINS='(GND:1..3)';
+      POWER_PINS='(GND_SIGNAL:1,2,3)';
       PARENT_PART_TYPE='SFP_CAGE';
+      SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='SFP_CAGE';
       PARENT_PPT_PART='SFP_CAGE-6367035-1';
   end_body;
@@ -11680,7 +11682,7 @@ primitive 'SN65LVDS1_SOT23-5-TEXAS INSTRUA';
       PARENT_PPT_PART='SN65LVDS1_SOT23-5-TEXAS INSTRUMENTS';
   end_body;
 end_primitive;
-primitive 'SN74LVC1G06DBVT';
+primitive 'SN74LVC1G06DBVT-GND=GND_SIGNALA';
   pin
     'A':
       PIN_NUMBER='(2)';
@@ -11707,9 +11709,10 @@ df';
       PINCOUNT='5';
       SMD='';
       CASE='SOT23';
-      POWER_PINS='(GND:3;VCC:5)';
       NC_PINS='(1)';
+      POWER_PINS='(GND_SIGNAL:3;P3V3:5)';
       PARENT_PART_TYPE='74LVC1G06_SOT23';
+      SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='74LVC1G06';
       PARENT_PPT_PART='SN74LVC1G06DBVT';
   end_body;

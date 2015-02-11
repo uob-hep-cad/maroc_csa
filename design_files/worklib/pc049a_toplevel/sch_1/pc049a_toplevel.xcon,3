@@ -5,7 +5,7 @@
     <schemaVersion>16.6</schemaVersion>
     <creatorTool>concepthdl</creatorTool>
     <modifierTool>concepthdl</modifierTool>
-    <modificationTime>2014-07-29T17:04:49</modificationTime>
+    <modificationTime>2014-09-09T11:27:01</modificationTime>
     <savedLibrary>uob_hep_pc049a_lib</savedLibrary>
   </header>
   <designs>
@@ -13,7 +13,7 @@
       <lastids>
         <instanceid>555</instanceid>
         <netid>744</netid>
-        <insttermid>1812</insttermid>
+        <insttermid>1816</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -4027,14 +4027,6 @@
           <name>page7_p1v2</name>
         </net>
         <net>
-          <id>N682</id>
-          <name>unnamed_7_capcersmdcl2_i70_b</name>
-        </net>
-        <net>
-          <id>N683</id>
-          <name>unnamed_7_capcersmdcl2_i74_b</name>
-        </net>
-        <net>
           <id>N684</id>
           <name>dip_switch</name>
           <msb>3</msb>
@@ -5807,12 +5799,12 @@
           </masks>
           <powers>
             <power>
-              <name>gnd</name>
-              <override>N5</override>
-            </power>
-            <power>
               <name>vcc</name>
               <override>N213</override>
+            </power>
+            <power>
+              <name>gnd</name>
+              <override>N5</override>
             </power>
           </powers>
           <pins>
@@ -5871,12 +5863,12 @@
           </masks>
           <powers>
             <power>
-              <name>gnd</name>
-              <override>N5</override>
-            </power>
-            <power>
               <name>vcc</name>
               <override>N213</override>
+            </power>
+            <power>
+              <name>gnd</name>
+              <override>N5</override>
             </power>
           </powers>
           <pins>
@@ -6052,12 +6044,12 @@
           </masks>
           <powers>
             <power>
-              <name>gnd</name>
-              <override>N5</override>
-            </power>
-            <power>
               <name>vcc</name>
               <override>N213</override>
+            </power>
+            <power>
+              <name>gnd</name>
+              <override>N5</override>
             </power>
           </powers>
           <pins>
@@ -6116,12 +6108,12 @@
           </masks>
           <powers>
             <power>
-              <name>gnd</name>
-              <override>N5</override>
-            </power>
-            <power>
               <name>vcc</name>
               <override>N213</override>
+            </power>
+            <power>
+              <name>gnd</name>
+              <override>N5</override>
             </power>
           </powers>
           <pins>
@@ -8338,12 +8330,12 @@
           </masks>
           <powers>
             <power>
-              <name>gnd</name>
-              <override>N5</override>
-            </power>
-            <power>
               <name>+vs</name>
               <override>N184</override>
+            </power>
+            <power>
+              <name>gnd</name>
+              <override>N5</override>
             </power>
           </powers>
           <pins>
@@ -9557,12 +9549,12 @@
           </masks>
           <powers>
             <power>
-              <name>gnd</name>
-              <override>N5</override>
-            </power>
-            <power>
               <name>vcc</name>
               <override>N213</override>
+            </power>
+            <power>
+              <name>gnd</name>
+              <override>N5</override>
             </power>
           </powers>
           <pins>
@@ -14116,14 +14108,14 @@
               <id>M1397</id>
               <termid>T376</termid>
               <connections>
-                <connection net="N213" />
+                <connection net="N689" />
               </connections>
             </pin>
             <pin>
               <id>M1398</id>
               <termid>T377</termid>
               <connections>
-                <connection net="N213" />
+                <connection net="N690" />
               </connections>
             </pin>
             <pin>
@@ -15178,7 +15170,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N682" />
+                <connection pinmsb="0" pinlsb="0" net="N518" />
               </connections>
             </pin>
           </pins>
@@ -15217,7 +15209,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N682" />
+                <connection pinmsb="0" pinlsb="0" net="N518" />
               </connections>
             </pin>
           </pins>
@@ -15256,7 +15248,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N682" />
+                <connection pinmsb="0" pinlsb="0" net="N518" />
               </connections>
             </pin>
           </pins>
@@ -15295,7 +15287,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N682" />
+                <connection pinmsb="0" pinlsb="0" net="N518" />
               </connections>
             </pin>
           </pins>
@@ -15334,7 +15326,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N683" />
+                <connection pinmsb="0" pinlsb="0" net="N518" />
               </connections>
             </pin>
           </pins>
@@ -15373,7 +15365,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N683" />
+                <connection pinmsb="0" pinlsb="0" net="N518" />
               </connections>
             </pin>
           </pins>
@@ -15412,7 +15404,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N683" />
+                <connection pinmsb="0" pinlsb="0" net="N518" />
               </connections>
             </pin>
           </pins>
@@ -15451,7 +15443,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N683" />
+                <connection pinmsb="0" pinlsb="0" net="N518" />
               </connections>
             </pin>
           </pins>
@@ -20844,8 +20836,6 @@
               <net ref="unnamed_7_capcersmdcl2_i31_b"></net>
               <net ref="unnamed_7_capcersmdcl2_i3_a"></net>
               <net ref="unnamed_7_capcersmdcl2_i5_a"></net>
-              <net ref="unnamed_7_capcersmdcl2_i70_b"></net>
-              <net ref="unnamed_7_capcersmdcl2_i74_b"></net>
               <net ref="unnamed_7_pc049afpga_i38_mgtrref101"></net>
             </nets>
             <instances>

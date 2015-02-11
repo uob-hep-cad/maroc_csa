@@ -1,4 +1,4 @@
-{ Packager-XL run on 03-Oct-2014 AT 09:32:12 }
+{ Packager-XL run on 06-Oct-2014 AT 12:40:31 }
 FILE_TYPE = BACK_ANNOTATION;
 DRAWING = "@uob_hep_pc049a_lib.pc049a_toplevel(sch_1):page1";
 BODY = "CON150P","I2": LOCATION = "J1" #&CDS_LOCATION = "J1" &SEC = "1" #&CDS_SEC = "1";

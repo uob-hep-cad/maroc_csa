@@ -2,18 +2,1623 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../pc049a_toplevel/physical/02_09_2014_pc049a_toplevel_36_a16-5.brd        |
-|                                                    Fri Oct  3 09:32:25 2014  |
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  AVDD         pins MOVED FROM this net (to net name listed on right)
-                                 C3.2            -21.487 -18.421
-                                                                           P3V3
-                                 U2.5            -20.681 -18.360
-                                                                           P3V3
+  GND          pins MOVED FROM this net (to net name listed on right)
+                                 IC16.3          14.5830 15.1880
+                                                                     GND_SIGNAL
+                                 SFP1.1          -19.942 -102.35
+                                                                     GND_SIGNAL
+                                 SFP1.2          -19.942 -92.353
+                                                                     GND_SIGNAL
+                                 SFP1.3          -19.942 -82.353
+                                                                     GND_SIGNAL
+                                 SFP1.4          -19.942 -72.353
+                                                                     GND_SIGNAL
+                                 SFP1.5          -5.6920 -97.353
+                                                                     GND_SIGNAL
+                                 SFP1.6          -5.6920 -87.353
+                                                                     GND_SIGNAL
+                                 SFP1.7          -5.6920 -77.353
+                                                                     GND_SIGNAL
+                                 SFP1.8          -5.6920 -67.353
+                                                                     GND_SIGNAL
+                                 SFP1.9          -11.362 -102.35
+                                                                     GND_SIGNAL
+                                 SFP1.10         -14.262 -82.353
+                                                                     GND_SIGNAL
+                                 SFP1.11         -8.8620 -82.353
+                                                                     GND_SIGNAL
+                                 SFP1.12         -19.942 -79.553
+                                                                     GND_SIGNAL
+                                 SFP1.13         -19.942 -74.853
+                                                                     GND_SIGNAL
+                                 SFP1.14         -19.942 -69.853
+                                                                     GND_SIGNAL
+                                 SFP1.15         -5.6920 -79.553
+                                                                     GND_SIGNAL
+                                 SFP1.16         -5.6920 -74.853
+                                                                     GND_SIGNAL
+                                 SFP1.17         -5.6920 -69.853
+                                                                     GND_SIGNAL
+                                 SFP2.1          -17.612 -65.253
+                                                                     GND_SIGNAL
+                                 SFP2.2          -12.812 -65.253
+                                                                     GND_SIGNAL
+                                 SFP2.3          -8.0120 -65.253
+                                                                     GND_SIGNAL
+                                 SFP3.1          -38.942 -102.35
+                                                                     GND_SIGNAL
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|   total ECO changes reported  2                                              |
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 SFP3.2          -38.942 -92.353
+                                                                     GND_SIGNAL
+                                 SFP3.3          -38.942 -82.353
+                                                                     GND_SIGNAL
+                                 SFP3.4          -38.942 -72.353
+                                                                     GND_SIGNAL
+                                 SFP3.5          -24.692 -97.353
+                                                                     GND_SIGNAL
+                                 SFP3.6          -24.692 -87.353
+                                                                     GND_SIGNAL
+                                 SFP3.7          -24.692 -77.353
+                                                                     GND_SIGNAL
+                                 SFP3.8          -24.692 -67.353
+                                                                     GND_SIGNAL
+                                 SFP3.9          -30.362 -102.35
+                                                                     GND_SIGNAL
+                                 SFP3.10         -33.262 -82.353
+                                                                     GND_SIGNAL
+                                 SFP3.11         -27.862 -82.353
+                                                                     GND_SIGNAL
+                                 SFP3.12         -38.942 -79.553
+                                                                     GND_SIGNAL
+                                 SFP3.13         -38.942 -74.853
+                                                                     GND_SIGNAL
+                                 SFP3.14         -38.942 -69.853
+                                                                     GND_SIGNAL
+                                 SFP3.15         -24.692 -79.553
+                                                                     GND_SIGNAL
+                                 SFP3.16         -24.692 -74.853
+                                                                     GND_SIGNAL
+                                 SFP3.17         -24.692 -69.853
+                                                                     GND_SIGNAL
+                                 SFP4.1          -36.612 -65.253
+                                                                     GND_SIGNAL
+                                 SFP4.2          -31.812 -65.253
+                                                                     GND_SIGNAL
+                                 SFP4.3          -27.012 -65.253
+                                                                     GND_SIGNAL
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins MOVED FROM this net (to net name listed on right)
+                                 IC16.5          17.1830 17.0880
+                                                                           P3V3
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ SFP_CAGE-6367034-1-GND=GND_SIGA
+ SFP_CAGE-6367035-1-GND=GND_SIGA
+ SN74LVC1G06DBVT-GND=GND_SIGNALA
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC16                SN74LVC1G06DBVT-GND=GND_SIGNALA 14.5830 17.0880 SN74LVC1G06DBVT
+ SFP1                SFP_CAGE-6367034-1-GND=GND_SIGA -12.817 -71.453 SFP_CAGE-6367034-1
+ SFP2                SFP_CAGE-6367035-1-GND=GND_SIGA -12.817 -71.453 SFP_CAGE-6367035-1
+ SFP3                SFP_CAGE-6367034-1-GND=GND_SIGA -31.817 -71.453 SFP_CAGE-6367034-1
+ SFP4                SFP_CAGE-6367035-1-GND=GND_SIGA -31.817 -71.453 SFP_CAGE-6367035-1
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C32.2          36.4156 -87.400 DIST           FLAT
+ C32.2          36.4156 -87.400 IC             UNDEF
+ C32.2          36.4156 -87.400 KNEE           CBMAX
+ C32.2          36.4156 -87.400 MAX_TEMP       CTMAX
+ C32.2          36.4156 -87.400 NEGTOL         CTOL%
+ C32.2          36.4156 -87.400 POSTOL         CTOL%
+ C32.2          36.4156 -87.400 SLOPE          CSMAX
+ C32.2          36.4156 -87.400 TC             0
+ C32.2          36.4156 -87.400 TOL_ON_OFF     ON
+ C40.2          24.2396 -87.580 DIST           FLAT
+ C40.2          24.2396 -87.580 IC             UNDEF
+ C40.2          24.2396 -87.580 KNEE           CBMAX
+ C40.2          24.2396 -87.580 MAX_TEMP       CTMAX
+ C40.2          24.2396 -87.580 NEGTOL         CTOL%
+ C40.2          24.2396 -87.580 POSTOL         CTOL%
+ C40.2          24.2396 -87.580 SLOPE          CSMAX
+ C40.2          24.2396 -87.580 TC             0
+ C40.2          24.2396 -87.580 TOL_ON_OFF     ON
+ C75.2          36.7966 -64.667 DIST           FLAT
+ C75.2          36.7966 -64.667 IC             UNDEF
+ C75.2          36.7966 -64.667 KNEE           CBMAX
+ C75.2          36.7966 -64.667 MAX_TEMP       CTMAX
+ C75.2          36.7966 -64.667 NEGTOL         CTOL%
+ C75.2          36.7966 -64.667 POSTOL         CTOL%
+ C75.2          36.7966 -64.667 SLOPE          CSMAX
+ C75.2          36.7966 -64.667 TC             0
+ C75.2          36.7966 -64.667 TOL_ON_OFF     ON
+ C83.2          24.4682 -64.847 DIST           FLAT
+ C83.2          24.4682 -64.847 IC             UNDEF
+ C83.2          24.4682 -64.847 KNEE           CBMAX
+ C83.2          24.4682 -64.847 MAX_TEMP       CTMAX
+ C83.2          24.4682 -64.847 NEGTOL         CTOL%
+ C83.2          24.4682 -64.847 POSTOL         CTOL%
+ C83.2          24.4682 -64.847 SLOPE          CSMAX
+ C83.2          24.4682 -64.847 TC             0
+ C83.2          24.4682 -64.847 TOL_ON_OFF     ON
+ C85.2          -28.321 -8.2550 DIST           FLAT
+ C85.2          -28.321 -8.2550 IC             UNDEF
+ C85.2          -28.321 -8.2550 KNEE           CBMAX
+ C85.2          -28.321 -8.2550 MAX_TEMP       CTMAX
+ C85.2          -28.321 -8.2550 NEGTOL         CTOL%
+ C85.2          -28.321 -8.2550 POSTOL         CTOL%
+ C85.2          -28.321 -8.2550 SLOPE          CSMAX
+ C85.2          -28.321 -8.2550 TC             0
+ C85.2          -28.321 -8.2550 TOL_ON_OFF     ON
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C86.2          36.9636 -41.737 DIST           FLAT
+ C86.2          36.9636 -41.737 IC             UNDEF
+ C86.2          36.9636 -41.737 KNEE           CBMAX
+ C86.2          36.9636 -41.737 MAX_TEMP       CTMAX
+ C86.2          36.9636 -41.737 NEGTOL         CTOL%
+ C86.2          36.9636 -41.737 POSTOL         CTOL%
+ C86.2          36.9636 -41.737 SLOPE          CSMAX
+ C86.2          36.9636 -41.737 TC             0
+ C86.2          36.9636 -41.737 TOL_ON_OFF     ON
+ C94.2          24.5110 -41.910 DIST           FLAT
+ C94.2          24.5110 -41.910 IC             UNDEF
+ C94.2          24.5110 -41.910 KNEE           CBMAX
+ C94.2          24.5110 -41.910 MAX_TEMP       CTMAX
+ C94.2          24.5110 -41.910 NEGTOL         CTOL%
+ C94.2          24.5110 -41.910 POSTOL         CTOL%
+ C94.2          24.5110 -41.910 SLOPE          CSMAX
+ C94.2          24.5110 -41.910 TC             0
+ C94.2          24.5110 -41.910 TOL_ON_OFF     ON
+ D1_1.1         15.2130 46.3865 ABBREV         PT6911
+ IC1.2          22.0910 -31.709 TYPE           AD5662BRMZ-1
+ IC2.7          40.0000 -34.000 TYPE           DS92001TMA
+ IC3.7          40.0000 -27.500 TYPE           DS92001TMA
+ IC4.M2         30.3958 -75.995 TYPE           LTM4606EV#PBF
+ IC5.6          30.5000 -34.000 TYPE           DS90LV001TM
+ IC6.6          30.5000 -27.500 TYPE           DS90LV001TM
+ IC7.6          40.0000 -21.500 TYPE           DS90LV001TM
+ IC9.2          22.0910 -26.709 TYPE           AD5662BRMZ-1
+ IC10.M2        29.9894 -98.728 TYPE           LTM4606EV#PBF
+ IC11.21        -21.831 23.8770 TYPE           CDCM61004RHB
+ IC13.8         26.9160 16.1810 TYPE           DS18B20U+
+ IC14.M2        30.5482 -53.059 TYPE           LTM4606EV#PBF
+ IC15.7          0.1250 -32.818 TYPE           24AA64T-I/MC
+ IC16.4         14.5830 17.0880 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lvc1g06/chips/chips.prt
+ IC16.4         14.5830 17.0880 TYPE           SN74LVC1G06DBVT
+ IC20.5         -3.8170 29.0470 MANUF          TEXAS INSTRUMENTS
+ IC20.5         -3.8170 29.0470 SYMNAME        tps71701dckrg4
+ IC21.3         -43.817 50.5470 MANUF          TEXAS INSTRUMENTS
+ IC21.3         -43.817 50.5470 SYMNAME        lp38692
+ IC22.9         29.7470 27.1030 TYPE           S25FL128SAGMFIR0
+ J1.10          31.8030 96.6330 TYPE           QTS75_03FDA
+ J2.C10         53.8830 32.2870 TYPE           09 03 196 6921
+ J3.C10         -45.517 -46.453 TYPE           09 73 296 6801
+ J4.7           -34.691 -12.191 MANUF          MOLEX
+ J4.7           -34.691 -12.191 TYPE           47082-1000
+ J5.7           -34.691  7.8090 MANUF          MOLEX
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J5.7           -34.691  7.8090 TYPE           47082-1000
+ J6.20          -31.817 -71.453 TYPE           1367073-1
+ J7.20          -12.817 -71.453 TYPE           1367073-1
+ J8.10          -14.994 39.6760 TYPE           MOLEX_87831
+ J9.2           48.1830 -91.453 TYPE           MSTBA2,5/2-G-5,08
+ J10.10         -27.327 -38.708 TYPE           TSM-106-01-S-DV
+ J1_1.6         39.3130 76.6865 TYPE           SSW-103-01-G-D
+ J3_1.3         30.4450 49.7025 ABBREV         PT6911
+ J3_1.3         30.4450 49.7025 TYPE           SIL254D
+ J4_1.3         30.4450 75.3565 ABBREV         PT6911
+ J4_1.3         30.4450 75.3565 TYPE           SIL254D
+ L1.2           -29.218 -57.479 MODEL          LI0805H121R-10
+ L2.2           -31.504 -57.479 MODEL          LI0805H121R-10
+ L3.2           -11.692 -57.352 MODEL          LI0805H121R-10
+ L4.2           -13.978 -57.352 MODEL          LI0805H121R-10
+ L5.2           18.5000 -21.000 MODEL          ILBB_0603
+ L6.2           23.0000 -18.500 MODEL          ILBB_0603
+ L7.2            9.5000 -20.000 MODEL          ILBB_0603
+ L8.2           -12.696 20.8850 MODEL          ILBB_0603
+ L9.2           -16.500  2.0000 MODEL          LI0805H121R-10
+ LC1.3          10.8886 -101.54 TYPE           BNX022-01
+ LC2.3          12.4380 -76.910 TYPE           BNX022-01
+ LC3.3          12.5904 -56.132 TYPE           BNX022-01
+ LD1.2          19.4600 18.4840 TYPE           HSMH-C150
+ LD2.2          -16.510 -22.905 TYPE           HSMH-C150
+ LD3.2          -19.510 -22.905 TYPE           HSMY-C150
+ LD4.2          -22.510 -22.905 TYPE           HSMG-C150
+ LD5.2          -25.510 -22.905 TYPE           HSMH-C150
+ LD6.2          -13.510 -22.905 TYPE           HSMG-C150
+ LD7.2          55.8466 -77.494 TYPE           HSMG-C150
+ LK1.1          21.2264 -81.050 NO_LIST        TRUE
+ LK2.1          21.3534 -58.114 NO_LIST        TRUE
+ LK3.1          26.9240  5.3340 NO_LIST        TRUE
+ LK4.1          -19.431  2.0320 NO_LIST        TRUE
+ LK5.1          24.7650  0.6350 NO_LIST        TRUE
+ LK6.1           4.1910 28.0670 NO_LIST        TRUE
+ LK7.1          -2.6670 -91.059 NO_LIST        TRUE
+ LK8.1          -40.521 45.3910 NO_LIST        TRUE
+ LK9.1          -44.331 45.5180 NO_LIST        TRUE
+ LK10_1.1       36.5410 59.1005 NO_LIST        TRUE
+ LK11_1.1       -28.483 60.6245 NO_LIST        TRUE
+ LK12_1.1       -22.895 53.5125 NO_LIST        TRUE
+ LK13_1.1       40.6050 54.0205 NO_LIST        TRUE
+ LK14_1.1       -28.483 50.4645 NO_LIST        TRUE
+ LK15_1.1       -22.895 45.3845 NO_LIST        TRUE
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ LK16_1.1       -22.895 75.8645 NO_LIST        TRUE
+ LK17_1.1       -28.483 52.4965 NO_LIST        TRUE
+ LK18_1.1       -22.895 73.8325 NO_LIST        TRUE
+ LK19_1.1       -22.895 55.5445 NO_LIST        TRUE
+ LK1_1.1        40.6050 45.8925 NO_LIST        TRUE
+ LK20_1.1       -22.895 61.6405 NO_LIST        TRUE
+ LK21_1.1       36.5410 57.0685 NO_LIST        TRUE
+ LK22_1.1       -28.483 64.6885 NO_LIST        TRUE
+ LK23_1.1       40.6050 51.9885 NO_LIST        TRUE
+ LK24_1.1       -28.483 56.5605 NO_LIST        TRUE
+ LK25_1.1       -22.895 59.6085 NO_LIST        TRUE
+ LK26_1.1       40.6050 43.8605 NO_LIST        TRUE
+ LK27_1.1       -28.483 54.5285 NO_LIST        TRUE
+ LK28_1.1       40.6050 49.9565 NO_LIST        TRUE
+ LK29_1.1       36.5410 48.9405 NO_LIST        TRUE
+ LK2_1.1        -22.895 47.4165 NO_LIST        TRUE
+ LK30_1.1       -31.277 54.5285 NO_LIST        TRUE
+ LK31_1.1       -28.483 77.1345 NO_LIST        TRUE
+ LK32_1.1       -22.895 63.6725 NO_LIST        TRUE
+ LK33_1.1       -22.895 49.4485 NO_LIST        TRUE
+ LK34_1.1       40.6050 58.0845 NO_LIST        TRUE
+ LK35_1.1       -22.895 80.1825 NO_LIST        TRUE
+ LK36_1.1       -28.483 58.5925 NO_LIST        TRUE
+ LK37_1.1       -28.483 44.3685 NO_LIST        TRUE
+ LK38_1.1       40.6050 60.1165 NO_LIST        TRUE
+ LK39_1.1       -28.483 79.1665 NO_LIST        TRUE
+ LK3_1.1        -28.483 70.7845 NO_LIST        TRUE
+ LK40_1.1       36.5410 53.0045 NO_LIST        TRUE
+ LK41_1.1       40.6050 66.2125 NO_LIST        TRUE
+ LK42_1.1       -28.483 74.8485 NO_LIST        TRUE
+ LK43_1.1       -22.895 65.7045 NO_LIST        TRUE
+ LK44_1.1       -28.483 48.4325 NO_LIST        TRUE
+ LK45_1.1       40.6050 56.0525 NO_LIST        TRUE
+ LK46_1.1       36.5410 65.1965 NO_LIST        TRUE
+ LK47_1.1       -22.895 43.3525 NO_LIST        TRUE
+ LK48_1.1       -22.895 51.4805 NO_LIST        TRUE
+ LK49_1.1       36.5410 55.0365 NO_LIST        TRUE
+ LK4_1.1        40.6050 68.2445 NO_LIST        TRUE
+ LK50_1.1       -22.895 57.5765 NO_LIST        TRUE
+ LK51_1.1       36.5410 46.9085 NO_LIST        TRUE
+ LK52_1.1       40.6050 47.9245 NO_LIST        TRUE
+ LK53_1.1       -22.895 67.7365 NO_LIST        TRUE
+ LK54_1.1       -6.1310 38.2725 NO_LIST        TRUE
+ LK55_1.1       -4.0990 36.1135 NO_LIST        TRUE
+ LK56_1.1       -2.0670 38.2725 NO_LIST        TRUE
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ LK57_1.1       -22.895 78.1505 NO_LIST        TRUE
+ LK58_1.1       36.5410 61.1325 NO_LIST        TRUE
+ LK59_1.1       -28.483 46.4005 NO_LIST        TRUE
+ LK5_1.1        40.6050 64.1805 NO_LIST        TRUE
+ LK60_1.1       -22.895 82.2145 NO_LIST        TRUE
+ LK61_1.1       -22.895 71.8005 NO_LIST        TRUE
+ LK62_1.1       -28.483 68.7525 NO_LIST        TRUE
+ LK63_1.1       36.5410 50.9725 NO_LIST        TRUE
+ LK64_1.1       -22.895 69.7685 NO_LIST        TRUE
+ LK65_1.1       -28.483 66.7205 NO_LIST        TRUE
+ LK66_1.1       -28.483 81.1985 NO_LIST        TRUE
+ LK67_1.1       -28.483 62.6565 NO_LIST        TRUE
+ LK68_1.1       36.5410 44.8765 NO_LIST        TRUE
+ LK6_1.1        36.5410 67.2285 NO_LIST        TRUE
+ LK7_1.1        36.5410 63.1645 NO_LIST        TRUE
+ LK8_1.1        -28.483 72.8165 NO_LIST        TRUE
+ LK9_1.1        40.6050 62.1485 NO_LIST        TRUE
+ QZ1.7           0.4740 -25.905 TYPE           570CAC000121DG
+ QZ2.1           9.0800 -32.566 TYPE           CFPV-45
+ R1.2           43.0000 -34.000 DIST           FLAT
+ R1.2           43.0000 -34.000 MAX_TEMP       RTMAX
+ R1.2           43.0000 -34.000 NEGTOL         RTOL%
+ R1.2           43.0000 -34.000 POSTOL         RTOL%
+ R1.2           43.0000 -34.000 SLOPE          RSMAX
+ R1.2           43.0000 -34.000 TC1            RTMPL
+ R1.2           43.0000 -34.000 TC2            RTMPQ
+ R1.2           43.0000 -34.000 TOL_ON_OFF     ON
+ R2.2           43.0000 -27.500 DIST           FLAT
+ R2.2           43.0000 -27.500 MAX_TEMP       RTMAX
+ R2.2           43.0000 -27.500 NEGTOL         RTOL%
+ R2.2           43.0000 -27.500 POSTOL         RTOL%
+ R2.2           43.0000 -27.500 SLOPE          RSMAX
+ R2.2           43.0000 -27.500 TC1            RTMPL
+ R2.2           43.0000 -27.500 TC2            RTMPQ
+ R2.2           43.0000 -27.500 TOL_ON_OFF     ON
+ R3.2           -2.2860 -19.177 DIST           FLAT
+ R3.2           -2.2860 -19.177 MAX_TEMP       RTMAX
+ R3.2           -2.2860 -19.177 NEGTOL         RTOL%
+ R3.2           -2.2860 -19.177 POSTOL         RTOL%
+ R3.2           -2.2860 -19.177 SLOPE          RSMAX
+ R3.2           -2.2860 -19.177 TC1            RTMPL
+ R3.2           -2.2860 -19.177 TC2            RTMPQ
+ R3.2           -2.2860 -19.177 TOL_ON_OFF     ON
+ R4.2           32.8930 -19.685 DIST           FLAT
+ R4.2           32.8930 -19.685 MAX_TEMP       RTMAX
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R4.2           32.8930 -19.685 NEGTOL         RTOL%
+ R4.2           32.8930 -19.685 POSTOL         RTOL%
+ R4.2           32.8930 -19.685 SLOPE          RSMAX
+ R4.2           32.8930 -19.685 TC1            RTMPL
+ R4.2           32.8930 -19.685 TC2            RTMPQ
+ R4.2           32.8930 -19.685 TOL_ON_OFF     ON
+ R5.2           32.8930 -20.955 DIST           FLAT
+ R5.2           32.8930 -20.955 MAX_TEMP       RTMAX
+ R5.2           32.8930 -20.955 NEGTOL         RTOL%
+ R5.2           32.8930 -20.955 POSTOL         RTOL%
+ R5.2           32.8930 -20.955 SLOPE          RSMAX
+ R5.2           32.8930 -20.955 TC1            RTMPL
+ R5.2           32.8930 -20.955 TC2            RTMPQ
+ R5.2           32.8930 -20.955 TOL_ON_OFF     ON
+ R6.2           33.6550 -22.860 DIST           FLAT
+ R6.2           33.6550 -22.860 MAX_TEMP       RTMAX
+ R6.2           33.6550 -22.860 NEGTOL         RTOL%
+ R6.2           33.6550 -22.860 POSTOL         RTOL%
+ R6.2           33.6550 -22.860 SLOPE          RSMAX
+ R6.2           33.6550 -22.860 TC1            RTMPL
+ R6.2           33.6550 -22.860 TC2            RTMPQ
+ R6.2           33.6550 -22.860 TOL_ON_OFF     ON
+ R7.2           26.9320 13.4100 DIST           FLAT
+ R7.2           26.9320 13.4100 MAX_TEMP       RTMAX
+ R7.2           26.9320 13.4100 NEGTOL         RTOL%
+ R7.2           26.9320 13.4100 POSTOL         RTOL%
+ R7.2           26.9320 13.4100 SLOPE          RSMAX
+ R7.2           26.9320 13.4100 TC1            RTMPL
+ R7.2           26.9320 13.4100 TC2            RTMPQ
+ R7.2           26.9320 13.4100 TOL_ON_OFF     ON
+ R8.2           37.0840 -103.75 DIST           FLAT
+ R8.2           37.0840 -103.75 MAX_TEMP       RTMAX
+ R8.2           37.0840 -103.75 NEGTOL         RTOL%
+ R8.2           37.0840 -103.75 POSTOL         RTOL%
+ R8.2           37.0840 -103.75 SLOPE          RSMAX
+ R8.2           37.0840 -103.75 TC1            RTMPL
+ R8.2           37.0840 -103.75 TC2            RTMPQ
+ R8.2           37.0840 -103.75 TOL_ON_OFF     ON
+ R9.2           37.0840 -105.15 DIST           FLAT
+ R9.2           37.0840 -105.15 MAX_TEMP       RTMAX
+ R9.2           37.0840 -105.15 NEGTOL         RTOL%
+ R9.2           37.0840 -105.15 POSTOL         RTOL%
+ R9.2           37.0840 -105.15 SLOPE          RSMAX
+ R9.2           37.0840 -105.15 TC1            RTMPL
+ R9.2           37.0840 -105.15 TC2            RTMPQ
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R9.2           37.0840 -105.15 TOL_ON_OFF     ON
+ R10.2          36.9490 -100.70 DIST           FLAT
+ R10.2          36.9490 -100.70 MAX_TEMP       RTMAX
+ R10.2          36.9490 -100.70 NEGTOL         RTOL%
+ R10.2          36.9490 -100.70 POSTOL         RTOL%
+ R10.2          36.9490 -100.70 SLOPE          RSMAX
+ R10.2          36.9490 -100.70 TC1            RTMPL
+ R10.2          36.9490 -100.70 TC2            RTMPQ
+ R10.2          36.9490 -100.70 TOL_ON_OFF     ON
+ R11.2          31.2594 -101.97 DIST           FLAT
+ R11.2          31.2594 -101.97 MAX_TEMP       RTMAX
+ R11.2          31.2594 -101.97 NEGTOL         RTOL%
+ R11.2          31.2594 -101.97 POSTOL         RTOL%
+ R11.2          31.2594 -101.97 SLOPE          RSMAX
+ R11.2          31.2594 -101.97 TC1            RTMPL
+ R11.2          31.2594 -101.97 TC2            RTMPQ
+ R11.2          31.2594 -101.97 TOL_ON_OFF     ON
+ R12.2          40.8606 -105.18 DIST           FLAT
+ R12.2          40.8606 -105.18 MAX_TEMP       RTMAX
+ R12.2          40.8606 -105.18 NEGTOL         RTOL%
+ R12.2          40.8606 -105.18 POSTOL         RTOL%
+ R12.2          40.8606 -105.18 SLOPE          RSMAX
+ R12.2          40.8606 -105.18 TC1            RTMPL
+ R12.2          40.8606 -105.18 TC2            RTMPQ
+ R12.2          40.8606 -105.18 TOL_ON_OFF     ON
+ R13.2          -29.210 -0.7620 DIST           FLAT
+ R13.2          -29.210 -0.7620 MAX_TEMP       RTMAX
+ R13.2          -29.210 -0.7620 NEGTOL         RTOL%
+ R13.2          -29.210 -0.7620 POSTOL         RTOL%
+ R13.2          -29.210 -0.7620 SLOPE          RSMAX
+ R13.2          -29.210 -0.7620 TC1            RTMPL
+ R13.2          -29.210 -0.7620 TC2            RTMPQ
+ R13.2          -29.210 -0.7620 TOL_ON_OFF     ON
+ R14.2          15.6530 -30.047 DIST           FLAT
+ R14.2          15.6530 -30.047 MAX_TEMP       RTMAX
+ R14.2          15.6530 -30.047 NEGTOL         RTOL%
+ R14.2          15.6530 -30.047 POSTOL         RTOL%
+ R14.2          15.6530 -30.047 SLOPE          RSMAX
+ R14.2          15.6530 -30.047 TC1            RTMPL
+ R14.2          15.6530 -30.047 TC2            RTMPQ
+ R14.2          15.6530 -30.047 TOL_ON_OFF     ON
+ R15.2          13.2080 -28.067 DIST           FLAT
+ R15.2          13.2080 -28.067 MAX_TEMP       RTMAX
+ R15.2          13.2080 -28.067 NEGTOL         RTOL%
+ R15.2          13.2080 -28.067 POSTOL         RTOL%
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R15.2          13.2080 -28.067 SLOPE          RSMAX
+ R15.2          13.2080 -28.067 TC1            RTMPL
+ R15.2          13.2080 -28.067 TC2            RTMPQ
+ R15.2          13.2080 -28.067 TOL_ON_OFF     ON
+ R16.2          16.9230 -27.761 DIST           FLAT
+ R16.2          16.9230 -27.761 MAX_TEMP       RTMAX
+ R16.2          16.9230 -27.761 NEGTOL         RTOL%
+ R16.2          16.9230 -27.761 POSTOL         RTOL%
+ R16.2          16.9230 -27.761 SLOPE          RSMAX
+ R16.2          16.9230 -27.761 TC1            RTMPL
+ R16.2          16.9230 -27.761 TC2            RTMPQ
+ R16.2          16.9230 -27.761 TOL_ON_OFF     ON
+ R17.2          10.9620 -35.127 DIST           FLAT
+ R17.2          10.9620 -35.127 MAX_TEMP       RTMAX
+ R17.2          10.9620 -35.127 NEGTOL         RTOL%
+ R17.2          10.9620 -35.127 POSTOL         RTOL%
+ R17.2          10.9620 -35.127 SLOPE          RSMAX
+ R17.2          10.9620 -35.127 TC1            RTMPL
+ R17.2          10.9620 -35.127 TC2            RTMPQ
+ R17.2          10.9620 -35.127 TOL_ON_OFF     ON
+ R18.2          -18.423 29.0080 DIST           FLAT
+ R18.2          -18.423 29.0080 MAX_TEMP       RTMAX
+ R18.2          -18.423 29.0080 NEGTOL         RTOL%
+ R18.2          -18.423 29.0080 POSTOL         RTOL%
+ R18.2          -18.423 29.0080 SLOPE          RSMAX
+ R18.2          -18.423 29.0080 TC1            RTMPL
+ R18.2          -18.423 29.0080 TC2            RTMPQ
+ R18.2          -18.423 29.0080 TOL_ON_OFF     ON
+ R19.2          -21.471 18.4670 DIST           FLAT
+ R19.2          -21.471 18.4670 MAX_TEMP       RTMAX
+ R19.2          -21.471 18.4670 NEGTOL         RTOL%
+ R19.2          -21.471 18.4670 POSTOL         RTOL%
+ R19.2          -21.471 18.4670 SLOPE          RSMAX
+ R19.2          -21.471 18.4670 TC1            RTMPL
+ R19.2          -21.471 18.4670 TC2            RTMPQ
+ R19.2          -21.471 18.4670 TOL_ON_OFF     ON
+ R20.2          -18.677 18.4670 DIST           FLAT
+ R20.2          -18.677 18.4670 MAX_TEMP       RTMAX
+ R20.2          -18.677 18.4670 NEGTOL         RTOL%
+ R20.2          -18.677 18.4670 POSTOL         RTOL%
+ R20.2          -18.677 18.4670 SLOPE          RSMAX
+ R20.2          -18.677 18.4670 TC1            RTMPL
+ R20.2          -18.677 18.4670 TC2            RTMPQ
+ R20.2          -18.677 18.4670 TOL_ON_OFF     ON
+ R21.2          -24.519 18.4670 DIST           FLAT
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  13  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R21.2          -24.519 18.4670 MAX_TEMP       RTMAX
+ R21.2          -24.519 18.4670 NEGTOL         RTOL%
+ R21.2          -24.519 18.4670 POSTOL         RTOL%
+ R21.2          -24.519 18.4670 SLOPE          RSMAX
+ R21.2          -24.519 18.4670 TC1            RTMPL
+ R21.2          -24.519 18.4670 TC2            RTMPQ
+ R21.2          -24.519 18.4670 TOL_ON_OFF     ON
+ R22.2          -19.820 29.0080 DIST           FLAT
+ R22.2          -19.820 29.0080 MAX_TEMP       RTMAX
+ R22.2          -19.820 29.0080 NEGTOL         RTOL%
+ R22.2          -19.820 29.0080 POSTOL         RTOL%
+ R22.2          -19.820 29.0080 SLOPE          RSMAX
+ R22.2          -19.820 29.0080 TC1            RTMPL
+ R22.2          -19.820 29.0080 TC2            RTMPQ
+ R22.2          -19.820 29.0080 TOL_ON_OFF     ON
+ R23.2          -20.074 18.4670 DIST           FLAT
+ R23.2          -20.074 18.4670 MAX_TEMP       RTMAX
+ R23.2          -20.074 18.4670 NEGTOL         RTOL%
+ R23.2          -20.074 18.4670 POSTOL         RTOL%
+ R23.2          -20.074 18.4670 SLOPE          RSMAX
+ R23.2          -20.074 18.4670 TC1            RTMPL
+ R23.2          -20.074 18.4670 TC2            RTMPQ
+ R23.2          -20.074 18.4670 TOL_ON_OFF     ON
+ R24.2          -23.122 18.4670 DIST           FLAT
+ R24.2          -23.122 18.4670 MAX_TEMP       RTMAX
+ R24.2          -23.122 18.4670 NEGTOL         RTOL%
+ R24.2          -23.122 18.4670 POSTOL         RTOL%
+ R24.2          -23.122 18.4670 SLOPE          RSMAX
+ R24.2          -23.122 18.4670 TC1            RTMPL
+ R24.2          -23.122 18.4670 TC2            RTMPQ
+ R24.2          -23.122 18.4670 TOL_ON_OFF     ON
+ R25.2          -3.2540 -15.143 DIST           FLAT
+ R25.2          -3.2540 -15.143 MAX_TEMP       RTMAX
+ R25.2          -3.2540 -15.143 NEGTOL         RTOL%
+ R25.2          -3.2540 -15.143 POSTOL         RTOL%
+ R25.2          -3.2540 -15.143 SLOPE          RSMAX
+ R25.2          -3.2540 -15.143 TC1            RTMPL
+ R25.2          -3.2540 -15.143 TC2            RTMPQ
+ R25.2          -3.2540 -15.143 TOL_ON_OFF     ON
+ R26.2          -3.7540 -17.643 DIST           FLAT
+ R26.2          -3.7540 -17.643 MAX_TEMP       RTMAX
+ R26.2          -3.7540 -17.643 NEGTOL         RTOL%
+ R26.2          -3.7540 -17.643 POSTOL         RTOL%
+ R26.2          -3.7540 -17.643 SLOPE          RSMAX
+ R26.2          -3.7540 -17.643 TC1            RTMPL
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  14  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R26.2          -3.7540 -17.643 TC2            RTMPQ
+ R26.2          -3.7540 -17.643 TOL_ON_OFF     ON
+ R27.2          -4.7540 -15.143 DIST           FLAT
+ R27.2          -4.7540 -15.143 MAX_TEMP       RTMAX
+ R27.2          -4.7540 -15.143 NEGTOL         RTOL%
+ R27.2          -4.7540 -15.143 POSTOL         RTOL%
+ R27.2          -4.7540 -15.143 SLOPE          RSMAX
+ R27.2          -4.7540 -15.143 TC1            RTMPL
+ R27.2          -4.7540 -15.143 TC2            RTMPQ
+ R27.2          -4.7540 -15.143 TOL_ON_OFF     ON
+ R28.2          -5.2540 -19.143 DIST           FLAT
+ R28.2          -5.2540 -19.143 MAX_TEMP       RTMAX
+ R28.2          -5.2540 -19.143 NEGTOL         RTOL%
+ R28.2          -5.2540 -19.143 POSTOL         RTOL%
+ R28.2          -5.2540 -19.143 SLOPE          RSMAX
+ R28.2          -5.2540 -19.143 TC1            RTMPL
+ R28.2          -5.2540 -19.143 TC2            RTMPQ
+ R28.2          -5.2540 -19.143 TOL_ON_OFF     ON
+ R29.2          -6.2540 -15.143 DIST           FLAT
+ R29.2          -6.2540 -15.143 MAX_TEMP       RTMAX
+ R29.2          -6.2540 -15.143 NEGTOL         RTOL%
+ R29.2          -6.2540 -15.143 POSTOL         RTOL%
+ R29.2          -6.2540 -15.143 SLOPE          RSMAX
+ R29.2          -6.2540 -15.143 TC1            RTMPL
+ R29.2          -6.2540 -15.143 TC2            RTMPQ
+ R29.2          -6.2540 -15.143 TOL_ON_OFF     ON
+ R30.2          -7.6350 -17.643 DIST           FLAT
+ R30.2          -7.6350 -17.643 MAX_TEMP       RTMAX
+ R30.2          -7.6350 -17.643 NEGTOL         RTOL%
+ R30.2          -7.6350 -17.643 POSTOL         RTOL%
+ R30.2          -7.6350 -17.643 SLOPE          RSMAX
+ R30.2          -7.6350 -17.643 TC1            RTMPL
+ R30.2          -7.6350 -17.643 TC2            RTMPQ
+ R30.2          -7.6350 -17.643 TOL_ON_OFF     ON
+ R31.2          -8.1350 -15.143 DIST           FLAT
+ R31.2          -8.1350 -15.143 MAX_TEMP       RTMAX
+ R31.2          -8.1350 -15.143 NEGTOL         RTOL%
+ R31.2          -8.1350 -15.143 POSTOL         RTOL%
+ R31.2          -8.1350 -15.143 SLOPE          RSMAX
+ R31.2          -8.1350 -15.143 TC1            RTMPL
+ R31.2          -8.1350 -15.143 TC2            RTMPQ
+ R31.2          -8.1350 -15.143 TOL_ON_OFF     ON
+ R32.2          -10.635 -17.643 DIST           FLAT
+ R32.2          -10.635 -17.643 MAX_TEMP       RTMAX
+ R32.2          -10.635 -17.643 NEGTOL         RTOL%
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  15  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R32.2          -10.635 -17.643 POSTOL         RTOL%
+ R32.2          -10.635 -17.643 SLOPE          RSMAX
+ R32.2          -10.635 -17.643 TC1            RTMPL
+ R32.2          -10.635 -17.643 TC2            RTMPQ
+ R32.2          -10.635 -17.643 TOL_ON_OFF     ON
+ R33.2          -9.6350 -15.143 DIST           FLAT
+ R33.2          -9.6350 -15.143 MAX_TEMP       RTMAX
+ R33.2          -9.6350 -15.143 NEGTOL         RTOL%
+ R33.2          -9.6350 -15.143 POSTOL         RTOL%
+ R33.2          -9.6350 -15.143 SLOPE          RSMAX
+ R33.2          -9.6350 -15.143 TC1            RTMPL
+ R33.2          -9.6350 -15.143 TC2            RTMPQ
+ R33.2          -9.6350 -15.143 TOL_ON_OFF     ON
+ R34.2          -11.135 -15.143 DIST           FLAT
+ R34.2          -11.135 -15.143 MAX_TEMP       RTMAX
+ R34.2          -11.135 -15.143 NEGTOL         RTOL%
+ R34.2          -11.135 -15.143 POSTOL         RTOL%
+ R34.2          -11.135 -15.143 SLOPE          RSMAX
+ R34.2          -11.135 -15.143 TC1            RTMPL
+ R34.2          -11.135 -15.143 TC2            RTMPQ
+ R34.2          -11.135 -15.143 TOL_ON_OFF     ON
+ R35.2          -13.135 -13.643 DIST           FLAT
+ R35.2          -13.135 -13.643 MAX_TEMP       RTMAX
+ R35.2          -13.135 -13.643 NEGTOL         RTOL%
+ R35.2          -13.135 -13.643 POSTOL         RTOL%
+ R35.2          -13.135 -13.643 SLOPE          RSMAX
+ R35.2          -13.135 -13.643 TC1            RTMPL
+ R35.2          -13.135 -13.643 TC2            RTMPQ
+ R35.2          -13.135 -13.643 TOL_ON_OFF     ON
+ R36.2          37.4824 -80.847 DIST           FLAT
+ R36.2          37.4824 -80.847 MAX_TEMP       RTMAX
+ R36.2          37.4824 -80.847 NEGTOL         RTOL%
+ R36.2          37.4824 -80.847 POSTOL         RTOL%
+ R36.2          37.4824 -80.847 SLOPE          RSMAX
+ R36.2          37.4824 -80.847 TC1            RTMPL
+ R36.2          37.4824 -80.847 TC2            RTMPQ
+ R36.2          37.4824 -80.847 TOL_ON_OFF     ON
+ R37.2          37.4824 -82.320 DIST           FLAT
+ R37.2          37.4824 -82.320 MAX_TEMP       RTMAX
+ R37.2          37.4824 -82.320 NEGTOL         RTOL%
+ R37.2          37.4824 -82.320 POSTOL         RTOL%
+ R37.2          37.4824 -82.320 SLOPE          RSMAX
+ R37.2          37.4824 -82.320 TC1            RTMPL
+ R37.2          37.4824 -82.320 TC2            RTMPQ
+ R37.2          37.4824 -82.320 TOL_ON_OFF     ON
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  16  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R38.2          37.3554 -77.976 DIST           FLAT
+ R38.2          37.3554 -77.976 MAX_TEMP       RTMAX
+ R38.2          37.3554 -77.976 NEGTOL         RTOL%
+ R38.2          37.3554 -77.976 POSTOL         RTOL%
+ R38.2          37.3554 -77.976 SLOPE          RSMAX
+ R38.2          37.3554 -77.976 TC1            RTMPL
+ R38.2          37.3554 -77.976 TC2            RTMPQ
+ R38.2          37.3554 -77.976 TOL_ON_OFF     ON
+ R39.2          31.6658 -79.246 DIST           FLAT
+ R39.2          31.6658 -79.246 MAX_TEMP       RTMAX
+ R39.2          31.6658 -79.246 NEGTOL         RTOL%
+ R39.2          31.6658 -79.246 POSTOL         RTOL%
+ R39.2          31.6658 -79.246 SLOPE          RSMAX
+ R39.2          31.6658 -79.246 TC1            RTMPL
+ R39.2          31.6658 -79.246 TC2            RTMPQ
+ R39.2          31.6658 -79.246 TOL_ON_OFF     ON
+ R40.2          41.2670 -82.447 DIST           FLAT
+ R40.2          41.2670 -82.447 MAX_TEMP       RTMAX
+ R40.2          41.2670 -82.447 NEGTOL         RTOL%
+ R40.2          41.2670 -82.447 POSTOL         RTOL%
+ R40.2          41.2670 -82.447 SLOPE          RSMAX
+ R40.2          41.2670 -82.447 TC1            RTMPL
+ R40.2          41.2670 -82.447 TC2            RTMPQ
+ R40.2          41.2670 -82.447 TOL_ON_OFF     ON
+ R41.2          37.5920 -57.912 DIST           FLAT
+ R41.2          37.5920 -57.912 MAX_TEMP       RTMAX
+ R41.2          37.5920 -57.912 NEGTOL         RTOL%
+ R41.2          37.5920 -57.912 POSTOL         RTOL%
+ R41.2          37.5920 -57.912 SLOPE          RSMAX
+ R41.2          37.5920 -57.912 TC1            RTMPL
+ R41.2          37.5920 -57.912 TC2            RTMPQ
+ R41.2          37.5920 -57.912 TOL_ON_OFF     ON
+ R42.2          37.5920 -59.436 DIST           FLAT
+ R42.2          37.5920 -59.436 MAX_TEMP       RTMAX
+ R42.2          37.5920 -59.436 NEGTOL         RTOL%
+ R42.2          37.5920 -59.436 POSTOL         RTOL%
+ R42.2          37.5920 -59.436 SLOPE          RSMAX
+ R42.2          37.5920 -59.436 TC1            RTMPL
+ R42.2          37.5920 -59.436 TC2            RTMPQ
+ R42.2          37.5920 -59.436 TOL_ON_OFF     ON
+ R43.2          37.5078 -55.040 DIST           FLAT
+ R43.2          37.5078 -55.040 MAX_TEMP       RTMAX
+ R43.2          37.5078 -55.040 NEGTOL         RTOL%
+ R43.2          37.5078 -55.040 POSTOL         RTOL%
+ R43.2          37.5078 -55.040 SLOPE          RSMAX
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  17  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R43.2          37.5078 -55.040 TC1            RTMPL
+ R43.2          37.5078 -55.040 TC2            RTMPQ
+ R43.2          37.5078 -55.040 TOL_ON_OFF     ON
+ R44.2          31.8182 -56.310 DIST           FLAT
+ R44.2          31.8182 -56.310 MAX_TEMP       RTMAX
+ R44.2          31.8182 -56.310 NEGTOL         RTOL%
+ R44.2          31.8182 -56.310 POSTOL         RTOL%
+ R44.2          31.8182 -56.310 SLOPE          RSMAX
+ R44.2          31.8182 -56.310 TC1            RTMPL
+ R44.2          31.8182 -56.310 TC2            RTMPQ
+ R44.2          31.8182 -56.310 TOL_ON_OFF     ON
+ R45.2          41.4194 -59.511 DIST           FLAT
+ R45.2          41.4194 -59.511 MAX_TEMP       RTMAX
+ R45.2          41.4194 -59.511 NEGTOL         RTOL%
+ R45.2          41.4194 -59.511 POSTOL         RTOL%
+ R45.2          41.4194 -59.511 SLOPE          RSMAX
+ R45.2          41.4194 -59.511 TC1            RTMPL
+ R45.2          41.4194 -59.511 TC2            RTMPQ
+ R45.2          41.4194 -59.511 TOL_ON_OFF     ON
+ R46.2          27.1780  8.6360 DIST           FLAT
+ R46.2          27.1780  8.6360 MAX_TEMP       RTMAX
+ R46.2          27.1780  8.6360 NEGTOL         RTOL%
+ R46.2          27.1780  8.6360 POSTOL         RTOL%
+ R46.2          27.1780  8.6360 SLOPE          RSMAX
+ R46.2          27.1780  8.6360 TC1            RTMPL
+ R46.2          27.1780  8.6360 TC2            RTMPQ
+ R46.2          27.1780  8.6360 TOL_ON_OFF     ON
+ R47.2          25.0190  7.8740 DIST           FLAT
+ R47.2          25.0190  7.8740 MAX_TEMP       RTMAX
+ R47.2          25.0190  7.8740 NEGTOL         RTOL%
+ R47.2          25.0190  7.8740 POSTOL         RTOL%
+ R47.2          25.0190  7.8740 SLOPE          RSMAX
+ R47.2          25.0190  7.8740 TC1            RTMPL
+ R47.2          25.0190  7.8740 TC2            RTMPQ
+ R47.2          25.0190  7.8740 TOL_ON_OFF     ON
+ R48.2          -5.6010 28.4940 DIST           FLAT
+ R48.2          -5.6010 28.4940 MAX_TEMP       RTMAX
+ R48.2          -5.6010 28.4940 NEGTOL         RTOL%
+ R48.2          -5.6010 28.4940 POSTOL         RTOL%
+ R48.2          -5.6010 28.4940 SLOPE          RSMAX
+ R48.2          -5.6010 28.4940 TC1            RTMPL
+ R48.2          -5.6010 28.4940 TC2            RTMPQ
+ R48.2          -5.6010 28.4940 TOL_ON_OFF     ON
+ R49.2          -0.0130 28.4940 DIST           FLAT
+ R49.2          -0.0130 28.4940 MAX_TEMP       RTMAX
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  18  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R49.2          -0.0130 28.4940 NEGTOL         RTOL%
+ R49.2          -0.0130 28.4940 POSTOL         RTOL%
+ R49.2          -0.0130 28.4940 SLOPE          RSMAX
+ R49.2          -0.0130 28.4940 TC1            RTMPL
+ R49.2          -0.0130 28.4940 TC2            RTMPQ
+ R49.2          -0.0130 28.4940 TOL_ON_OFF     ON
+ R50.2          -21.937 -15.421 DIST           FLAT
+ R50.2          -21.937 -15.421 MAX_TEMP       RTMAX
+ R50.2          -21.937 -15.421 NEGTOL         RTOL%
+ R50.2          -21.937 -15.421 POSTOL         RTOL%
+ R50.2          -21.937 -15.421 SLOPE          RSMAX
+ R50.2          -21.937 -15.421 TC1            RTMPL
+ R50.2          -21.937 -15.421 TC2            RTMPQ
+ R50.2          -21.937 -15.421 TOL_ON_OFF     ON
+ R51.2          -19.437 -14.421 DIST           FLAT
+ R51.2          -19.437 -14.421 MAX_TEMP       RTMAX
+ R51.2          -19.437 -14.421 NEGTOL         RTOL%
+ R51.2          -19.437 -14.421 POSTOL         RTOL%
+ R51.2          -19.437 -14.421 SLOPE          RSMAX
+ R51.2          -19.437 -14.421 TC1            RTMPL
+ R51.2          -19.437 -14.421 TC2            RTMPQ
+ R51.2          -19.437 -14.421 TOL_ON_OFF     ON
+ R52.2          21.9710 17.9070 DIST           FLAT
+ R52.2          21.9710 17.9070 MAX_TEMP       RTMAX
+ R52.2          21.9710 17.9070 NEGTOL         RTOL%
+ R52.2          21.9710 17.9070 POSTOL         RTOL%
+ R52.2          21.9710 17.9070 SLOPE          RSMAX
+ R52.2          21.9710 17.9070 TC1            RTMPL
+ R52.2          21.9710 17.9070 TC2            RTMPQ
+ R52.2          21.9710 17.9070 TOL_ON_OFF     ON
+ R53.2          -15.875 -2.1590 DIST           FLAT
+ R53.2          -15.875 -2.1590 MAX_TEMP       RTMAX
+ R53.2          -15.875 -2.1590 NEGTOL         RTOL%
+ R53.2          -15.875 -2.1590 POSTOL         RTOL%
+ R53.2          -15.875 -2.1590 SLOPE          RSMAX
+ R53.2          -15.875 -2.1590 TC1            RTMPL
+ R53.2          -15.875 -2.1590 TC2            RTMPQ
+ R53.2          -15.875 -2.1590 TOL_ON_OFF     ON
+ R54.2          15.6190  8.5000 DIST           FLAT
+ R54.2          15.6190  8.5000 MAX_TEMP       RTMAX
+ R54.2          15.6190  8.5000 NEGTOL         RTOL%
+ R54.2          15.6190  8.5000 POSTOL         RTOL%
+ R54.2          15.6190  8.5000 SLOPE          RSMAX
+ R54.2          15.6190  8.5000 TC1            RTMPL
+ R54.2          15.6190  8.5000 TC2            RTMPQ
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  19  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R54.2          15.6190  8.5000 TOL_ON_OFF     ON
+ R55.2          12.8270 15.2400 DIST           FLAT
+ R55.2          12.8270 15.2400 MAX_TEMP       RTMAX
+ R55.2          12.8270 15.2400 NEGTOL         RTOL%
+ R55.2          12.8270 15.2400 POSTOL         RTOL%
+ R55.2          12.8270 15.2400 SLOPE          RSMAX
+ R55.2          12.8270 15.2400 TC1            RTMPL
+ R55.2          12.8270 15.2400 TC2            RTMPQ
+ R55.2          12.8270 15.2400 TOL_ON_OFF     ON
+ R56.2           7.0000 -14.500 DIST           FLAT
+ R56.2           7.0000 -14.500 MAX_TEMP       RTMAX
+ R56.2           7.0000 -14.500 NEGTOL         RTOL%
+ R56.2           7.0000 -14.500 POSTOL         RTOL%
+ R56.2           7.0000 -14.500 SLOPE          RSMAX
+ R56.2           7.0000 -14.500 TC1            RTMPL
+ R56.2           7.0000 -14.500 TC2            RTMPQ
+ R56.2           7.0000 -14.500 TOL_ON_OFF     ON
+ R57.2          -0.1270 -40.513 DIST           FLAT
+ R57.2          -0.1270 -40.513 MAX_TEMP       RTMAX
+ R57.2          -0.1270 -40.513 NEGTOL         RTOL%
+ R57.2          -0.1270 -40.513 POSTOL         RTOL%
+ R57.2          -0.1270 -40.513 SLOPE          RSMAX
+ R57.2          -0.1270 -40.513 TC1            RTMPL
+ R57.2          -0.1270 -40.513 TC2            RTMPQ
+ R57.2          -0.1270 -40.513 TOL_ON_OFF     ON
+ R58.2           8.5090 -40.513 DIST           FLAT
+ R58.2           8.5090 -40.513 MAX_TEMP       RTMAX
+ R58.2           8.5090 -40.513 NEGTOL         RTOL%
+ R58.2           8.5090 -40.513 POSTOL         RTOL%
+ R58.2           8.5090 -40.513 SLOPE          RSMAX
+ R58.2           8.5090 -40.513 TC1            RTMPL
+ R58.2           8.5090 -40.513 TC2            RTMPQ
+ R58.2           8.5090 -40.513 TOL_ON_OFF     ON
+ R59.2           5.5000 -14.500 DIST           FLAT
+ R59.2           5.5000 -14.500 MAX_TEMP       RTMAX
+ R59.2           5.5000 -14.500 NEGTOL         RTOL%
+ R59.2           5.5000 -14.500 POSTOL         RTOL%
+ R59.2           5.5000 -14.500 SLOPE          RSMAX
+ R59.2           5.5000 -14.500 TC1            RTMPL
+ R59.2           5.5000 -14.500 TC2            RTMPQ
+ R59.2           5.5000 -14.500 TOL_ON_OFF     ON
+ R60.2          17.0000 -9.0000 DIST           FLAT
+ R60.2          17.0000 -9.0000 MAX_TEMP       RTMAX
+ R60.2          17.0000 -9.0000 NEGTOL         RTOL%
+ R60.2          17.0000 -9.0000 POSTOL         RTOL%
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  20  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R60.2          17.0000 -9.0000 SLOPE          RSMAX
+ R60.2          17.0000 -9.0000 TC1            RTMPL
+ R60.2          17.0000 -9.0000 TC2            RTMPQ
+ R60.2          17.0000 -9.0000 TOL_ON_OFF     ON
+ R61.2          16.7640 12.9540 DIST           FLAT
+ R61.2          16.7640 12.9540 MAX_TEMP       RTMAX
+ R61.2          16.7640 12.9540 NEGTOL         RTOL%
+ R61.2          16.7640 12.9540 POSTOL         RTOL%
+ R61.2          16.7640 12.9540 SLOPE          RSMAX
+ R61.2          16.7640 12.9540 TC1            RTMPL
+ R61.2          16.7640 12.9540 TC2            RTMPQ
+ R61.2          16.7640 12.9540 TOL_ON_OFF     ON
+ R62.2          16.9940 -6.0440 DIST           FLAT
+ R62.2          16.9940 -6.0440 MAX_TEMP       RTMAX
+ R62.2          16.9940 -6.0440 NEGTOL         RTOL%
+ R62.2          16.9940 -6.0440 POSTOL         RTOL%
+ R62.2          16.9940 -6.0440 SLOPE          RSMAX
+ R62.2          16.9940 -6.0440 TC1            RTMPL
+ R62.2          16.9940 -6.0440 TC2            RTMPQ
+ R62.2          16.9940 -6.0440 TOL_ON_OFF     ON
+ R63.2          17.0000 -7.5000 DIST           FLAT
+ R63.2          17.0000 -7.5000 MAX_TEMP       RTMAX
+ R63.2          17.0000 -7.5000 NEGTOL         RTOL%
+ R63.2          17.0000 -7.5000 POSTOL         RTOL%
+ R63.2          17.0000 -7.5000 SLOPE          RSMAX
+ R63.2          17.0000 -7.5000 TC1            RTMPL
+ R63.2          17.0000 -7.5000 TC2            RTMPQ
+ R63.2          17.0000 -7.5000 TOL_ON_OFF     ON
+ R64.2           6.5000 14.7620 DIST           FLAT
+ R64.2           6.5000 14.7620 MAX_TEMP       RTMAX
+ R64.2           6.5000 14.7620 NEGTOL         RTOL%
+ R64.2           6.5000 14.7620 POSTOL         RTOL%
+ R64.2           6.5000 14.7620 SLOPE          RSMAX
+ R64.2           6.5000 14.7620 TC1            RTMPL
+ R64.2           6.5000 14.7620 TC2            RTMPQ
+ R64.2           6.5000 14.7620 TOL_ON_OFF     ON
+ R65.2           5.5000 14.7620 DIST           FLAT
+ R65.2           5.5000 14.7620 MAX_TEMP       RTMAX
+ R65.2           5.5000 14.7620 NEGTOL         RTOL%
+ R65.2           5.5000 14.7620 POSTOL         RTOL%
+ R65.2           5.5000 14.7620 SLOPE          RSMAX
+ R65.2           5.5000 14.7620 TC1            RTMPL
+ R65.2           5.5000 14.7620 TC2            RTMPQ
+ R65.2           5.5000 14.7620 TOL_ON_OFF     ON
+ R66.2          -0.0130 25.7000 DIST           FLAT
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  21  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R66.2          -0.0130 25.7000 MAX_TEMP       RTMAX
+ R66.2          -0.0130 25.7000 NEGTOL         RTOL%
+ R66.2          -0.0130 25.7000 POSTOL         RTOL%
+ R66.2          -0.0130 25.7000 SLOPE          RSMAX
+ R66.2          -0.0130 25.7000 TC1            RTMPL
+ R66.2          -0.0130 25.7000 TC2            RTMPQ
+ R66.2          -0.0130 25.7000 TOL_ON_OFF     ON
+ R67.2          -43.053 50.5460 DIST           FLAT
+ R67.2          -43.053 50.5460 MAX_TEMP       RTMAX
+ R67.2          -43.053 50.5460 NEGTOL         RTOL%
+ R67.2          -43.053 50.5460 POSTOL         RTOL%
+ R67.2          -43.053 50.5460 SLOPE          RSMAX
+ R67.2          -43.053 50.5460 TC1            RTMPL
+ R67.2          -43.053 50.5460 TC2            RTMPQ
+ R67.2          -43.053 50.5460 TOL_ON_OFF     ON
+ R68.2          -44.704 52.3240 DIST           FLAT
+ R68.2          -44.704 52.3240 MAX_TEMP       RTMAX
+ R68.2          -44.704 52.3240 NEGTOL         RTOL%
+ R68.2          -44.704 52.3240 POSTOL         RTOL%
+ R68.2          -44.704 52.3240 SLOPE          RSMAX
+ R68.2          -44.704 52.3240 TC1            RTMPL
+ R68.2          -44.704 52.3240 TC2            RTMPQ
+ R68.2          -44.704 52.3240 TOL_ON_OFF     ON
+ R69.2          -40.005 52.3240 DIST           FLAT
+ R69.2          -40.005 52.3240 MAX_TEMP       RTMAX
+ R69.2          -40.005 52.3240 NEGTOL         RTOL%
+ R69.2          -40.005 52.3240 POSTOL         RTOL%
+ R69.2          -40.005 52.3240 SLOPE          RSMAX
+ R69.2          -40.005 52.3240 TC1            RTMPL
+ R69.2          -40.005 52.3240 TC2            RTMPQ
+ R69.2          -40.005 52.3240 TOL_ON_OFF     ON
+ R70.2          -13.510 -28.905 DIST           FLAT
+ R70.2          -13.510 -28.905 MAX_TEMP       RTMAX
+ R70.2          -13.510 -28.905 NEGTOL         RTOL%
+ R70.2          -13.510 -28.905 POSTOL         RTOL%
+ R70.2          -13.510 -28.905 SLOPE          RSMAX
+ R70.2          -13.510 -28.905 TC1            RTMPL
+ R70.2          -13.510 -28.905 TC2            RTMPQ
+ R70.2          -13.510 -28.905 TOL_ON_OFF     ON
+ R71.2          55.7704 -71.296 DIST           FLAT
+ R71.2          55.7704 -71.296 MAX_TEMP       RTMAX
+ R71.2          55.7704 -71.296 NEGTOL         RTOL%
+ R71.2          55.7704 -71.296 POSTOL         RTOL%
+ R71.2          55.7704 -71.296 SLOPE          RSMAX
+ R71.2          55.7704 -71.296 TC1            RTMPL
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  22  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R71.2          55.7704 -71.296 TC2            RTMPQ
+ R71.2          55.7704 -71.296 TOL_ON_OFF     ON
+ R72.2          28.7020 -82.296 DIST           FLAT
+ R72.2          28.7020 -82.296 MAX_TEMP       RTMAX
+ R72.2          28.7020 -82.296 NEGTOL         RTOL%
+ R72.2          28.7020 -82.296 POSTOL         RTOL%
+ R72.2          28.7020 -82.296 SLOPE          RSMAX
+ R72.2          28.7020 -82.296 TC1            RTMPL
+ R72.2          28.7020 -82.296 TC2            RTMPQ
+ R72.2          28.7020 -82.296 TOL_ON_OFF     ON
+ R73.2          28.8290 -59.309 DIST           FLAT
+ R73.2          28.8290 -59.309 MAX_TEMP       RTMAX
+ R73.2          28.8290 -59.309 NEGTOL         RTOL%
+ R73.2          28.8290 -59.309 POSTOL         RTOL%
+ R73.2          28.8290 -59.309 SLOPE          RSMAX
+ R73.2          28.8290 -59.309 TC1            RTMPL
+ R73.2          28.8290 -59.309 TC2            RTMPQ
+ R73.2          28.8290 -59.309 TOL_ON_OFF     ON
+ R74.2          28.1940 -105.02 DIST           FLAT
+ R74.2          28.1940 -105.02 MAX_TEMP       RTMAX
+ R74.2          28.1940 -105.02 NEGTOL         RTOL%
+ R74.2          28.1940 -105.02 POSTOL         RTOL%
+ R74.2          28.1940 -105.02 SLOPE          RSMAX
+ R74.2          28.1940 -105.02 TC1            RTMPL
+ R74.2          28.1940 -105.02 TC2            RTMPQ
+ R74.2          28.1940 -105.02 TOL_ON_OFF     ON
+ R75.2          11.0000 15.2300 DIST           FLAT
+ R75.2          11.0000 15.2300 MAX_TEMP       RTMAX
+ R75.2          11.0000 15.2300 NEGTOL         RTOL%
+ R75.2          11.0000 15.2300 POSTOL         RTOL%
+ R75.2          11.0000 15.2300 SLOPE          RSMAX
+ R75.2          11.0000 15.2300 TC1            RTMPL
+ R75.2          11.0000 15.2300 TC2            RTMPQ
+ R75.2          11.0000 15.2300 TOL_ON_OFF     ON
+ R76.2           9.5000 15.2300 DIST           FLAT
+ R76.2           9.5000 15.2300 MAX_TEMP       RTMAX
+ R76.2           9.5000 15.2300 NEGTOL         RTOL%
+ R76.2           9.5000 15.2300 POSTOL         RTOL%
+ R76.2           9.5000 15.2300 SLOPE          RSMAX
+ R76.2           9.5000 15.2300 TC1            RTMPL
+ R76.2           9.5000 15.2300 TC2            RTMPQ
+ R76.2           9.5000 15.2300 TOL_ON_OFF     ON
+ R77.2          33.1120 33.2300 DIST           FLAT
+ R77.2          33.1120 33.2300 MAX_TEMP       RTMAX
+ R77.2          33.1120 33.2300 NEGTOL         RTOL%
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  23  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R77.2          33.1120 33.2300 POSTOL         RTOL%
+ R77.2          33.1120 33.2300 SLOPE          RSMAX
+ R77.2          33.1120 33.2300 TC1            RTMPL
+ R77.2          33.1120 33.2300 TC2            RTMPQ
+ R77.2          33.1120 33.2300 TOL_ON_OFF     ON
+ R78.2          -24.182 28.4400 DIST           FLAT
+ R78.2          -24.182 28.4400 MAX_TEMP       RTMAX
+ R78.2          -24.182 28.4400 NEGTOL         RTOL%
+ R78.2          -24.182 28.4400 POSTOL         RTOL%
+ R78.2          -24.182 28.4400 SLOPE          RSMAX
+ R78.2          -24.182 28.4400 TC1            RTMPL
+ R78.2          -24.182 28.4400 TC2            RTMPQ
+ R78.2          -24.182 28.4400 TOL_ON_OFF     ON
+ R79.2          45.7200 -34.925 DIST           FLAT
+ R79.2          45.7200 -34.925 MAX_TEMP       RTMAX
+ R79.2          45.7200 -34.925 NEGTOL         RTOL%
+ R79.2          45.7200 -34.925 POSTOL         RTOL%
+ R79.2          45.7200 -34.925 SLOPE          RSMAX
+ R79.2          45.7200 -34.925 TC1            RTMPL
+ R79.2          45.7200 -34.925 TC2            RTMPQ
+ R79.2          45.7200 -34.925 TOL_ON_OFF     ON
+ R80.2          -36.817 -37.453 DIST           FLAT
+ R80.2          -36.817 -37.453 MAX_TEMP       RTMAX
+ R80.2          -36.817 -37.453 NEGTOL         RTOL%
+ R80.2          -36.817 -37.453 POSTOL         RTOL%
+ R80.2          -36.817 -37.453 SLOPE          RSMAX
+ R80.2          -36.817 -37.453 TC1            RTMPL
+ R80.2          -36.817 -37.453 TC2            RTMPQ
+ R80.2          -36.817 -37.453 TOL_ON_OFF     ON
+ R10_1.2        -5.5157 64.8046 DIST           FLAT
+ R10_1.2        -5.5157 64.8046 MAX_TEMP       RTMAX
+ R10_1.2        -5.5157 64.8046 NEGTOL         RTOL%
+ R10_1.2        -5.5157 64.8046 POSTOL         RTOL%
+ R10_1.2        -5.5157 64.8046 SLOPE          RSMAX
+ R10_1.2        -5.5157 64.8046 TC1            RTMPL
+ R10_1.2        -5.5157 64.8046 TC2            RTMPQ
+ R10_1.2        -5.5157 64.8046 TOL_ON_OFF     ON
+ R11_1.2        16.5944 63.7348 DIST           FLAT
+ R11_1.2        16.5944 63.7348 MAX_TEMP       RTMAX
+ R11_1.2        16.5944 63.7348 NEGTOL         RTOL%
+ R11_1.2        16.5944 63.7348 POSTOL         RTOL%
+ R11_1.2        16.5944 63.7348 SLOPE          RSMAX
+ R11_1.2        16.5944 63.7348 TC1            RTMPL
+ R11_1.2        16.5944 63.7348 TC2            RTMPQ
+ R11_1.2        16.5944 63.7348 TOL_ON_OFF     ON
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  24  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R12_1.2        -14.947 54.8465 DIST           FLAT
+ R12_1.2        -14.947 54.8465 MAX_TEMP       RTMAX
+ R12_1.2        -14.947 54.8465 NEGTOL         RTOL%
+ R12_1.2        -14.947 54.8465 POSTOL         RTOL%
+ R12_1.2        -14.947 54.8465 SLOPE          RSMAX
+ R12_1.2        -14.947 54.8465 TC1            RTMPL
+ R12_1.2        -14.947 54.8465 TC2            RTMPQ
+ R12_1.2        -14.947 54.8465 TOL_ON_OFF     ON
+ R13_1.2        16.5530 59.3465 DIST           FLAT
+ R13_1.2        16.5530 59.3465 MAX_TEMP       RTMAX
+ R13_1.2        16.5530 59.3465 NEGTOL         RTOL%
+ R13_1.2        16.5530 59.3465 POSTOL         RTOL%
+ R13_1.2        16.5530 59.3465 SLOPE          RSMAX
+ R13_1.2        16.5530 59.3465 TC1            RTMPL
+ R13_1.2        16.5530 59.3465 TC2            RTMPQ
+ R13_1.2        16.5530 59.3465 TOL_ON_OFF     ON
+ R14_1.2        -3.4295 59.3143 DIST           FLAT
+ R14_1.2        -3.4295 59.3143 MAX_TEMP       RTMAX
+ R14_1.2        -3.4295 59.3143 NEGTOL         RTOL%
+ R14_1.2        -3.4295 59.3143 POSTOL         RTOL%
+ R14_1.2        -3.4295 59.3143 SLOPE          RSMAX
+ R14_1.2        -3.4295 59.3143 TC1            RTMPL
+ R14_1.2        -3.4295 59.3143 TC2            RTMPQ
+ R14_1.2        -3.4295 59.3143 TOL_ON_OFF     ON
+ R15_1.2        -14.947 52.3465 DIST           FLAT
+ R15_1.2        -14.947 52.3465 MAX_TEMP       RTMAX
+ R15_1.2        -14.947 52.3465 NEGTOL         RTOL%
+ R15_1.2        -14.947 52.3465 POSTOL         RTOL%
+ R15_1.2        -14.947 52.3465 SLOPE          RSMAX
+ R15_1.2        -14.947 52.3465 TC1            RTMPL
+ R15_1.2        -14.947 52.3465 TC2            RTMPQ
+ R15_1.2        -14.947 52.3465 TOL_ON_OFF     ON
+ R16_1.2        -14.947 50.3465 DIST           FLAT
+ R16_1.2        -14.947 50.3465 MAX_TEMP       RTMAX
+ R16_1.2        -14.947 50.3465 NEGTOL         RTOL%
+ R16_1.2        -14.947 50.3465 POSTOL         RTOL%
+ R16_1.2        -14.947 50.3465 SLOPE          RSMAX
+ R16_1.2        -14.947 50.3465 TC1            RTMPL
+ R16_1.2        -14.947 50.3465 TC2            RTMPQ
+ R16_1.2        -14.947 50.3465 TOL_ON_OFF     ON
+ R17_1.2        16.5530 56.3465 DIST           FLAT
+ R17_1.2        16.5530 56.3465 MAX_TEMP       RTMAX
+ R17_1.2        16.5530 56.3465 NEGTOL         RTOL%
+ R17_1.2        16.5530 56.3465 POSTOL         RTOL%
+ R17_1.2        16.5530 56.3465 SLOPE          RSMAX
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  25  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R17_1.2        16.5530 56.3465 TC1            RTMPL
+ R17_1.2        16.5530 56.3465 TC2            RTMPQ
+ R17_1.2        16.5530 56.3465 TOL_ON_OFF     ON
+ R18_1.2        -7.4470 47.3965 DIST           FLAT
+ R18_1.2        -7.4470 47.3965 MAX_TEMP       RTMAX
+ R18_1.2        -7.4470 47.3965 NEGTOL         RTOL%
+ R18_1.2        -7.4470 47.3965 POSTOL         RTOL%
+ R18_1.2        -7.4470 47.3965 SLOPE          RSMAX
+ R18_1.2        -7.4470 47.3965 TC1            RTMPL
+ R18_1.2        -7.4470 47.3965 TC2            RTMPQ
+ R18_1.2        -7.4470 47.3965 TOL_ON_OFF     ON
+ R19_1.2        -7.4470 48.4065 DIST           FLAT
+ R19_1.2        -7.4470 48.4065 MAX_TEMP       RTMAX
+ R19_1.2        -7.4470 48.4065 NEGTOL         RTOL%
+ R19_1.2        -7.4470 48.4065 POSTOL         RTOL%
+ R19_1.2        -7.4470 48.4065 SLOPE          RSMAX
+ R19_1.2        -7.4470 48.4065 TC1            RTMPL
+ R19_1.2        -7.4470 48.4065 TC2            RTMPQ
+ R19_1.2        -7.4470 48.4065 TOL_ON_OFF     ON
+ R1_1.2         27.1430 49.1945 DIST           FLAT
+ R1_1.2         27.1430 49.1945 MAX_TEMP       RTMAX
+ R1_1.2         27.1430 49.1945 NEGTOL         RTOL%
+ R1_1.2         27.1430 49.1945 POSTOL         RTOL%
+ R1_1.2         27.1430 49.1945 SLOPE          RSMAX
+ R1_1.2         27.1430 49.1945 TC1            RTMPL
+ R1_1.2         27.1430 49.1945 TC2            RTMPQ
+ R1_1.2         27.1430 49.1945 TOL_ON_OFF     ON
+ R20_1.2        -5.4470 55.3465 DIST           FLAT
+ R20_1.2        -5.4470 55.3465 MAX_TEMP       RTMAX
+ R20_1.2        -5.4470 55.3465 NEGTOL         RTOL%
+ R20_1.2        -5.4470 55.3465 POSTOL         RTOL%
+ R20_1.2        -5.4470 55.3465 SLOPE          RSMAX
+ R20_1.2        -5.4470 55.3465 TC1            RTMPL
+ R20_1.2        -5.4470 55.3465 TC2            RTMPQ
+ R20_1.2        -5.4470 55.3465 TOL_ON_OFF     ON
+ R21_1.2        -3.4470 55.3465 DIST           FLAT
+ R21_1.2        -3.4470 55.3465 MAX_TEMP       RTMAX
+ R21_1.2        -3.4470 55.3465 NEGTOL         RTOL%
+ R21_1.2        -3.4470 55.3465 POSTOL         RTOL%
+ R21_1.2        -3.4470 55.3465 SLOPE          RSMAX
+ R21_1.2        -3.4470 55.3465 TC1            RTMPL
+ R21_1.2        -3.4470 55.3465 TC2            RTMPQ
+ R21_1.2        -3.4470 55.3465 TOL_ON_OFF     ON
+ R22_1.2        -5.4470 57.3465 DIST           FLAT
+ R22_1.2        -5.4470 57.3465 MAX_TEMP       RTMAX
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  26  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R22_1.2        -5.4470 57.3465 NEGTOL         RTOL%
+ R22_1.2        -5.4470 57.3465 POSTOL         RTOL%
+ R22_1.2        -5.4470 57.3465 SLOPE          RSMAX
+ R22_1.2        -5.4470 57.3465 TC1            RTMPL
+ R22_1.2        -5.4470 57.3465 TC2            RTMPQ
+ R22_1.2        -5.4470 57.3465 TOL_ON_OFF     ON
+ R23_1.2        -3.4470 57.3465 DIST           FLAT
+ R23_1.2        -3.4470 57.3465 MAX_TEMP       RTMAX
+ R23_1.2        -3.4470 57.3465 NEGTOL         RTOL%
+ R23_1.2        -3.4470 57.3465 POSTOL         RTOL%
+ R23_1.2        -3.4470 57.3465 SLOPE          RSMAX
+ R23_1.2        -3.4470 57.3465 TC1            RTMPL
+ R23_1.2        -3.4470 57.3465 TC2            RTMPQ
+ R23_1.2        -3.4470 57.3465 TOL_ON_OFF     ON
+ R24_1.2        24.8570 47.9245 DIST           FLAT
+ R24_1.2        24.8570 47.9245 MAX_TEMP       RTMAX
+ R24_1.2        24.8570 47.9245 NEGTOL         RTOL%
+ R24_1.2        24.8570 47.9245 POSTOL         RTOL%
+ R24_1.2        24.8570 47.9245 SLOPE          RSMAX
+ R24_1.2        24.8570 47.9245 TC1            RTMPL
+ R24_1.2        24.8570 47.9245 TC2            RTMPQ
+ R24_1.2        24.8570 47.9245 TOL_ON_OFF     ON
+ R25_1.2        -7.4596 62.7635 DIST           FLAT
+ R25_1.2        -7.4596 62.7635 MAX_TEMP       RTMAX
+ R25_1.2        -7.4596 62.7635 NEGTOL         RTOL%
+ R25_1.2        -7.4596 62.7635 POSTOL         RTOL%
+ R25_1.2        -7.4596 62.7635 SLOPE          RSMAX
+ R25_1.2        -7.4596 62.7635 TC1            RTMPL
+ R25_1.2        -7.4596 62.7635 TC2            RTMPQ
+ R25_1.2        -7.4596 62.7635 TOL_ON_OFF     ON
+ R26_1.2        -14.947 62.8465 DIST           FLAT
+ R26_1.2        -14.947 62.8465 MAX_TEMP       RTMAX
+ R26_1.2        -14.947 62.8465 NEGTOL         RTOL%
+ R26_1.2        -14.947 62.8465 POSTOL         RTOL%
+ R26_1.2        -14.947 62.8465 SLOPE          RSMAX
+ R26_1.2        -14.947 62.8465 TC1            RTMPL
+ R26_1.2        -14.947 62.8465 TC2            RTMPQ
+ R26_1.2        -14.947 62.8465 TOL_ON_OFF     ON
+ R27_1.2        -4.4870 49.0365 DIST           FLAT
+ R27_1.2        -4.4870 49.0365 MAX_TEMP       RTMAX
+ R27_1.2        -4.4870 49.0365 NEGTOL         RTOL%
+ R27_1.2        -4.4870 49.0365 POSTOL         RTOL%
+ R27_1.2        -4.4870 49.0365 SLOPE          RSMAX
+ R27_1.2        -4.4870 49.0365 TC1            RTMPL
+ R27_1.2        -4.4870 49.0365 TC2            RTMPQ
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  27  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R27_1.2        -4.4870 49.0365 TOL_ON_OFF     ON
+ R28_1.2        -5.4470 60.3465 DIST           FLAT
+ R28_1.2        -5.4470 60.3465 MAX_TEMP       RTMAX
+ R28_1.2        -5.4470 60.3465 NEGTOL         RTOL%
+ R28_1.2        -5.4470 60.3465 POSTOL         RTOL%
+ R28_1.2        -5.4470 60.3465 SLOPE          RSMAX
+ R28_1.2        -5.4470 60.3465 TC1            RTMPL
+ R28_1.2        -5.4470 60.3465 TC2            RTMPQ
+ R28_1.2        -5.4470 60.3465 TOL_ON_OFF     ON
+ R29_1.2        -3.4470 60.3465 DIST           FLAT
+ R29_1.2        -3.4470 60.3465 MAX_TEMP       RTMAX
+ R29_1.2        -3.4470 60.3465 NEGTOL         RTOL%
+ R29_1.2        -3.4470 60.3465 POSTOL         RTOL%
+ R29_1.2        -3.4470 60.3465 SLOPE          RSMAX
+ R29_1.2        -3.4470 60.3465 TC1            RTMPL
+ R29_1.2        -3.4470 60.3465 TC2            RTMPQ
+ R29_1.2        -3.4470 60.3465 TOL_ON_OFF     ON
+ R2_1.2         27.1430 50.4645 DIST           FLAT
+ R2_1.2         27.1430 50.4645 MAX_TEMP       RTMAX
+ R2_1.2         27.1430 50.4645 NEGTOL         RTOL%
+ R2_1.2         27.1430 50.4645 POSTOL         RTOL%
+ R2_1.2         27.1430 50.4645 SLOPE          RSMAX
+ R2_1.2         27.1430 50.4645 TC1            RTMPL
+ R2_1.2         27.1430 50.4645 TC2            RTMPQ
+ R2_1.2         27.1430 50.4645 TOL_ON_OFF     ON
+ R30_1.2        -14.947 58.8465 DIST           FLAT
+ R30_1.2        -14.947 58.8465 MAX_TEMP       RTMAX
+ R30_1.2        -14.947 58.8465 NEGTOL         RTOL%
+ R30_1.2        -14.947 58.8465 POSTOL         RTOL%
+ R30_1.2        -14.947 58.8465 SLOPE          RSMAX
+ R30_1.2        -14.947 58.8465 TC1            RTMPL
+ R30_1.2        -14.947 58.8465 TC2            RTMPQ
+ R30_1.2        -14.947 58.8465 TOL_ON_OFF     ON
+ R31_1.2        -14.947 59.8465 DIST           FLAT
+ R31_1.2        -14.947 59.8465 MAX_TEMP       RTMAX
+ R31_1.2        -14.947 59.8465 NEGTOL         RTOL%
+ R31_1.2        -14.947 59.8465 POSTOL         RTOL%
+ R31_1.2        -14.947 59.8465 SLOPE          RSMAX
+ R31_1.2        -14.947 59.8465 TC1            RTMPL
+ R31_1.2        -14.947 59.8465 TC2            RTMPQ
+ R31_1.2        -14.947 59.8465 TOL_ON_OFF     ON
+ R32_1.2        -7.4444 50.9039 DIST           FLAT
+ R32_1.2        -7.4444 50.9039 MAX_TEMP       RTMAX
+ R32_1.2        -7.4444 50.9039 NEGTOL         RTOL%
+ R32_1.2        -7.4444 50.9039 POSTOL         RTOL%
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  28  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R32_1.2        -7.4444 50.9039 SLOPE          RSMAX
+ R32_1.2        -7.4444 50.9039 TC1            RTMPL
+ R32_1.2        -7.4444 50.9039 TC2            RTMPQ
+ R32_1.2        -7.4444 50.9039 TOL_ON_OFF     ON
+ R33_1.2        -7.4444 49.6579 DIST           FLAT
+ R33_1.2        -7.4444 49.6579 MAX_TEMP       RTMAX
+ R33_1.2        -7.4444 49.6579 NEGTOL         RTOL%
+ R33_1.2        -7.4444 49.6579 POSTOL         RTOL%
+ R33_1.2        -7.4444 49.6579 SLOPE          RSMAX
+ R33_1.2        -7.4444 49.6579 TC1            RTMPL
+ R33_1.2        -7.4444 49.6579 TC2            RTMPQ
+ R33_1.2        -7.4444 49.6579 TOL_ON_OFF     ON
+ R34_1.2        15.0530 69.3465 DIST           FLAT
+ R34_1.2        15.0530 69.3465 MAX_TEMP       RTMAX
+ R34_1.2        15.0530 69.3465 NEGTOL         RTOL%
+ R34_1.2        15.0530 69.3465 POSTOL         RTOL%
+ R34_1.2        15.0530 69.3465 SLOPE          RSMAX
+ R34_1.2        15.0530 69.3465 TC1            RTMPL
+ R34_1.2        15.0530 69.3465 TC2            RTMPQ
+ R34_1.2        15.0530 69.3465 TOL_ON_OFF     ON
+ R35_1.2        15.0530 68.3465 DIST           FLAT
+ R35_1.2        15.0530 68.3465 MAX_TEMP       RTMAX
+ R35_1.2        15.0530 68.3465 NEGTOL         RTOL%
+ R35_1.2        15.0530 68.3465 POSTOL         RTOL%
+ R35_1.2        15.0530 68.3465 SLOPE          RSMAX
+ R35_1.2        15.0530 68.3465 TC1            RTMPL
+ R35_1.2        15.0530 68.3465 TC2            RTMPQ
+ R35_1.2        15.0530 68.3465 TOL_ON_OFF     ON
+ R36_1.2        -7.4674 45.3661 DIST           FLAT
+ R36_1.2        -7.4674 45.3661 MAX_TEMP       RTMAX
+ R36_1.2        -7.4674 45.3661 NEGTOL         RTOL%
+ R36_1.2        -7.4674 45.3661 POSTOL         RTOL%
+ R36_1.2        -7.4674 45.3661 SLOPE          RSMAX
+ R36_1.2        -7.4674 45.3661 TC1            RTMPL
+ R36_1.2        -7.4674 45.3661 TC2            RTMPQ
+ R36_1.2        -7.4674 45.3661 TOL_ON_OFF     ON
+ R37_1.2        -14.947 45.7903 DIST           FLAT
+ R37_1.2        -14.947 45.7903 MAX_TEMP       RTMAX
+ R37_1.2        -14.947 45.7903 NEGTOL         RTOL%
+ R37_1.2        -14.947 45.7903 POSTOL         RTOL%
+ R37_1.2        -14.947 45.7903 SLOPE          RSMAX
+ R37_1.2        -14.947 45.7903 TC1            RTMPL
+ R37_1.2        -14.947 45.7903 TC2            RTMPQ
+ R37_1.2        -14.947 45.7903 TOL_ON_OFF     ON
+ R3_1.2         19.3915 45.5858 DIST           FLAT
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  29  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R3_1.2         19.3915 45.5858 MAX_TEMP       RTMAX
+ R3_1.2         19.3915 45.5858 NEGTOL         RTOL%
+ R3_1.2         19.3915 45.5858 POSTOL         RTOL%
+ R3_1.2         19.3915 45.5858 SLOPE          RSMAX
+ R3_1.2         19.3915 45.5858 TC1            RTMPL
+ R3_1.2         19.3915 45.5858 TC2            RTMPQ
+ R3_1.2         19.3915 45.5858 TOL_ON_OFF     ON
+ R42_1.2        16.0101 48.1575 DIST           FLAT
+ R42_1.2        16.0101 48.1575 MAX_TEMP       RTMAX
+ R42_1.2        16.0101 48.1575 NEGTOL         RTOL%
+ R42_1.2        16.0101 48.1575 POSTOL         RTOL%
+ R42_1.2        16.0101 48.1575 SLOPE          RSMAX
+ R42_1.2        16.0101 48.1575 TC1            RTMPL
+ R42_1.2        16.0101 48.1575 TC2            RTMPQ
+ R42_1.2        16.0101 48.1575 TOL_ON_OFF     ON
+ R46_1.2        24.0323 44.8375 DIST           FLAT
+ R46_1.2        24.0323 44.8375 MAX_TEMP       RTMAX
+ R46_1.2        24.0323 44.8375 NEGTOL         RTOL%
+ R46_1.2        24.0323 44.8375 POSTOL         RTOL%
+ R46_1.2        24.0323 44.8375 SLOPE          RSMAX
+ R46_1.2        24.0323 44.8375 TC1            RTMPL
+ R46_1.2        24.0323 44.8375 TC2            RTMPQ
+ R46_1.2        24.0323 44.8375 TOL_ON_OFF     ON
+ R47_1.2        -18.741 46.6559 DIST           FLAT
+ R47_1.2        -18.741 46.6559 MAX_TEMP       RTMAX
+ R47_1.2        -18.741 46.6559 NEGTOL         RTOL%
+ R47_1.2        -18.741 46.6559 POSTOL         RTOL%
+ R47_1.2        -18.741 46.6559 SLOPE          RSMAX
+ R47_1.2        -18.741 46.6559 TC1            RTMPL
+ R47_1.2        -18.741 46.6559 TC2            RTMPQ
+ R47_1.2        -18.741 46.6559 TOL_ON_OFF     ON
+ R4_1.2         -14.947 48.2132 DIST           FLAT
+ R4_1.2         -14.947 48.2132 MAX_TEMP       RTMAX
+ R4_1.2         -14.947 48.2132 NEGTOL         RTOL%
+ R4_1.2         -14.947 48.2132 POSTOL         RTOL%
+ R4_1.2         -14.947 48.2132 SLOPE          RSMAX
+ R4_1.2         -14.947 48.2132 TC1            RTMPL
+ R4_1.2         -14.947 48.2132 TC2            RTMPQ
+ R4_1.2         -14.947 48.2132 TOL_ON_OFF     ON
+ R5_1.2         -7.4444 61.5525 DIST           FLAT
+ R5_1.2         -7.4444 61.5525 MAX_TEMP       RTMAX
+ R5_1.2         -7.4444 61.5525 NEGTOL         RTOL%
+ R5_1.2         -7.4444 61.5525 POSTOL         RTOL%
+ R5_1.2         -7.4444 61.5525 SLOPE          RSMAX
+ R5_1.2         -7.4444 61.5525 TC1            RTMPL
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  30  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R5_1.2         -7.4444 61.5525 TC2            RTMPQ
+ R5_1.2         -7.4444 61.5525 TOL_ON_OFF     ON
+ R6_1.2         17.4558 72.4034 DIST           FLAT
+ R6_1.2         17.4558 72.4034 MAX_TEMP       RTMAX
+ R6_1.2         17.4558 72.4034 NEGTOL         RTOL%
+ R6_1.2         17.4558 72.4034 POSTOL         RTOL%
+ R6_1.2         17.4558 72.4034 SLOPE          RSMAX
+ R6_1.2         17.4558 72.4034 TC1            RTMPL
+ R6_1.2         17.4558 72.4034 TC2            RTMPQ
+ R6_1.2         17.4558 72.4034 TOL_ON_OFF     ON
+ R7_1.2         16.5530 66.8465 DIST           FLAT
+ R7_1.2         16.5530 66.8465 MAX_TEMP       RTMAX
+ R7_1.2         16.5530 66.8465 NEGTOL         RTOL%
+ R7_1.2         16.5530 66.8465 POSTOL         RTOL%
+ R7_1.2         16.5530 66.8465 SLOPE          RSMAX
+ R7_1.2         16.5530 66.8465 TC1            RTMPL
+ R7_1.2         16.5530 66.8465 TC2            RTMPQ
+ R7_1.2         16.5530 66.8465 TOL_ON_OFF     ON
+ R8_1.2         -7.4470 71.3465 DIST           FLAT
+ R8_1.2         -7.4470 71.3465 MAX_TEMP       RTMAX
+ R8_1.2         -7.4470 71.3465 NEGTOL         RTOL%
+ R8_1.2         -7.4470 71.3465 POSTOL         RTOL%
+ R8_1.2         -7.4470 71.3465 SLOPE          RSMAX
+ R8_1.2         -7.4470 71.3465 TC1            RTMPL
+ R8_1.2         -7.4470 71.3465 TC2            RTMPQ
+ R8_1.2         -7.4470 71.3465 TOL_ON_OFF     ON
+ R9_1.2         16.5433 65.5407 DIST           FLAT
+ R9_1.2         16.5433 65.5407 MAX_TEMP       RTMAX
+ R9_1.2         16.5433 65.5407 NEGTOL         RTOL%
+ R9_1.2         16.5433 65.5407 POSTOL         RTOL%
+ R9_1.2         16.5433 65.5407 SLOPE          RSMAX
+ R9_1.2         16.5433 65.5407 TC1            RTMPL
+ R9_1.2         16.5433 65.5407 TC2            RTMPQ
+ R9_1.2         16.5433 65.5407 TOL_ON_OFF     ON
+ RG1.25         -24.950 -2.3356 TYPE           LT3070EUFD#PBF
+ RG1_1.3        12.8480 57.0230 MANUF          TI
+ SFP1.NC        -12.817 -71.453 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnmech/sfp_cage/chips/chips.prt
+ SFP1.NC        -12.817 -71.453 TYPE           6367034-1
+ SFP2.NC        -12.817 -71.453 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnmech/sfp_cage/chips/chips.prt
+ SFP2.NC        -12.817 -71.453 TYPE           6367035-1
+ SFP3.NC        -31.817 -71.453 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnmech/sfp_cage/chips/chips.prt
+ SFP3.NC        -31.817 -71.453 TYPE           6367034-1
+ SFP4.NC        -31.817 -71.453 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnmech/sfp_cage/chips/chips.prt
+ SFP4.NC        -31.817 -71.453 TYPE           6367035-1
+ SW1.4           1.9050 -43.942 TYPE           OMRON_B3SN-3012
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  31  |
+|------------------------------------------------------------------------------|
+|  .../pc049a_toplevel/physical/05_10_2014_pc049a_toplevel_39_a16-5.brd        |
+|                                                    Mon Oct  6 12:40:44 2014  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ SW2.4          10.5410 -43.942 TYPE           OMRON_B3SN-3012
+ SW3.2          -7.7400 -30.151 TYPE           1571983-4
+ SW3.4          -7.7400 -30.151 TYPE           1571983-4
+ SW3.6          -7.7400 -30.151 TYPE           1571983-4
+ SW3.8          -7.7400 -30.151 TYPE           1571983-4
+ SW4.4          23.6250 -6.8350 TYPE           OMRON_B3SN-3012
+ U1.4            9.0560 -25.209 MANUF          MERCURY
+ U2.5           -19.437 -17.421 MANUF          AD
+ U4.5           33.0000 -23.500 MANUF          ON SEMICONDUCTOR
+ U5.3            4.3180 -20.193 MANUF          TEXAS INSTRUMENTS
+ U1_1.197       20.5530 76.6265 MANUF          IN2P3
+ U1_1.200       20.5530 76.6265 MANUF          IN2P3
+ U1_1.214       20.5530 76.6265 MANUF          IN2P3
+ Z1.1           17.3930 -32.590 TOLERANCE      0.5%
+ Z1.1           17.3930 -32.590 TYPE           CIM3-2.5V
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  1235                                           |
 |------------------------------------------------------------------------------|

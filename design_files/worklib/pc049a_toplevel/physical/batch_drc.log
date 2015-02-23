@@ -2,9 +2,9 @@
 (                                                                     )
 (    DRC Update                                                       )
 (                                                                     )
-(    Drawing          : pc049a_toplevel_48.brd                        )
+(    Drawing          : pc049a_toplevel_51.brd                        )
 (    Software Version : 16.6S014                                      )
-(    Date/Time        : Thu Feb 12 09:21:56 2015                      )
+(    Date/Time        : Mon Feb 23 12:25:43 2015                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,8 +20,8 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  0
+ ..... Total number of DRC errors  2
 
- ..... DRC update completed, total CPU time   0:00:02
+ ..... DRC update completed, total CPU time   0:00:05
  *************************************************************************
 

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    PLCTXT Log                                                       )
+(                                                                     )
+(    Drawing          : pc049a_toplevel_51.brd                        )
+(    Software Version : 16.6S014                                      )
+(    Date/Time        : Mon Feb 23 12:48:27 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Create a placement by text file: placement_pin1.txt
+
+ Error retrieving pin 1 of U3 ... using origin instead
+
+ Error retrieving pin 1 of IC10 ... using origin instead
+
+ Error retrieving pin 1 of IC14 ... using origin instead
+
+ Error retrieving pin 1 of IC4 ... using origin instead
+
+ Successfully processed 486 placed components

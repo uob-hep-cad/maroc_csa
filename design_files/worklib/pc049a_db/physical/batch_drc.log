@@ -2,9 +2,9 @@
 (                                                                     )
 (    DRC Update                                                       )
 (                                                                     )
-(    Drawing          : pc049a_lemo_db_04.brd                         )
-(    Software Version : 16.5S030                                      )
-(    Date/Time        : Mon Mar 31 12:54:23 2014                      )
+(    Drawing          : pc049a_lemo_db_12.brd                         )
+(    Software Version : 16.6S014                                      )
+(    Date/Time        : Wed Mar  4 14:00:05 2015                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  14
+ ..... Total number of DRC errors  0
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

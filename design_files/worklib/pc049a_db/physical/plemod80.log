@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : plemod80.dra                                  )
+(    Software Version : 16.6S014                                      )
+(    Date/Time        : Wed Mar  4 13:00:49 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical
+    Name      = plemod80.psm
+    User      = phdgc
+    Machine   = voltar.phy.bris.ac.uk
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

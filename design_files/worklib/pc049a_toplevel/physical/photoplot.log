@@ -1,0 +1,857 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : pc049a_toplevel_51.brd                        )
+(    Software Version : 16.6S014                                      )
+(    Date/Time        : Mon Feb 23 12:27:32 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          MM
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+================================================================
+     PROCESSING FILM < L1 >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/PC049A_L1.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1270
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10100                                  DARK 
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.15300                                  DARK 
+  CIRCLE     0.17000                                  DARK 
+  CIRCLE     0.18000                                  DARK 
+  CIRCLE     0.25000                                  DARK 
+  CIRCLE     0.25400                                  DARK 
+  CIRCLE     0.38100                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     0.70000                                  DARK 
+  CIRCLE     0.80000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.37160                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.60020                                  DARK 
+  CIRCLE     1.65000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     2.03200                                  DARK 
+  CIRCLE     2.13400                                  DARK 
+  CIRCLE     5.00000                                  DARK 
+  CIRCLE     6.60400                                  DARK 
+  SQUARE     0.60000                     0.000 NO     DARK 
+  SQUARE     0.65000                     0.000 NO     DARK 
+  SQUARE     1.55000                     0.000 NO     DARK 
+  SQUARE     1.75000                     0.000 NO     DARK 
+  SQUARE     2.50000                     0.000 NO     DARK 
+  SQUARE     3.55000                     0.000 NO     DARK 
+  RECTANGLE  0.25400     x 2.41300      90.000 NO     DARK 
+  RECTANGLE  0.40640     x 0.76200      90.000 NO     DARK 
+  RECTANGLE  0.50800     x 0.81280       0.000 NO     DARK 
+  RECTANGLE  0.50800     x 0.81280      90.000 NO     DARK 
+  RECTANGLE  0.63500     x 0.50800       0.000 NO     DARK 
+  RECTANGLE  0.63500     x 0.76200      90.000 NO     DARK 
+  RECTANGLE  0.63500     x 1.65100      90.000 NO     DARK 
+  RECTANGLE  0.63500     x 2.03200      90.000 NO     DARK 
+  RECTANGLE  0.71120     x 1.01600      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  0.85000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.85000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.90000       0.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.90000      90.000 NO     DARK 
+  RECTANGLE  1.01600     x 1.52400       0.000 NO     DARK 
+  RECTANGLE  1.01600     x 1.77800      90.000 NO     DARK 
+  RECTANGLE  1.20000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  1.40000     x 1.20000       0.000 NO     DARK 
+  RECTANGLE  1.40000     x 1.20000      90.000 NO     DARK 
+  RECTANGLE  1.45000     x 0.45000       0.000 NO     DARK 
+  RECTANGLE  1.45000     x 1.10000       0.000 NO     DARK 
+  RECTANGLE  1.45000     x 1.10000      90.000 NO     DARK 
+  RECTANGLE  1.55000     x 0.55000      90.000 NO     DARK 
+  RECTANGLE  1.55000     x 1.30000       0.000 NO     DARK 
+  RECTANGLE  1.60000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  1.75000     x 1.55000      90.000 NO     DARK 
+  RECTANGLE  1.80000     x 1.30000       0.000 NO     DARK 
+  RECTANGLE  1.80000     x 1.30000      90.000 NO     DARK 
+  RECTANGLE  1.80000     x 1.55000       0.000 NO     DARK 
+  RECTANGLE  2.00000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  2.00000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  2.03200     x 3.17500       0.000 NO     DARK 
+  RECTANGLE  2.15000     x 1.70000      90.000 NO     DARK 
+  RECTANGLE  2.40000     x 0.90000       0.000 NO     DARK 
+  RECTANGLE  2.41300     x 0.25400      90.000 NO     DARK 
+  RECTANGLE  2.43840     x 2.92100       0.000 NO     DARK 
+  RECTANGLE  2.70000     x 1.15000      90.000 NO     DARK 
+  RECTANGLE  2.70000     x 1.20000      90.000 NO     DARK 
+  RECTANGLE  2.80000     x 1.05000       0.000 NO     DARK 
+  RECTANGLE  2.80000     x 1.40000      90.000 NO     DARK 
+  RECTANGLE  3.40000     x 1.40000       0.000 NO     DARK 
+  RECTANGLE  3.42900     x 1.77800       0.000 NO     DARK 
+  RECTANGLE  3.60000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  3.75000     x 2.75000      90.000 NO     DARK 
+  RECTANGLE  7.90000     x 1.40000       0.000 NO     DARK 
+  RECTANGLE  10.50000    x 7.50000      90.000 NO     DARK 
+
+     PC049A_L1 created.
+
+
+================================================================
+     PROCESSING FILM < L2 >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/PC049A_L2.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1270
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10100                                  DARK 
+  CIRCLE     0.25400                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     0.80000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.27000                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.55000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.60020                                  DARK 
+  CIRCLE     1.65000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.75000                                  DARK 
+  CIRCLE     2.03200                                  DARK 
+  CIRCLE     5.00000                                  DARK 
+  CIRCLE     6.60400                                  DARK 
+
+     PC049A_L2 created.
+
+
+================================================================
+     PROCESSING FILM < L3 >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/PC049A_L3.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1270
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10100                                  DARK 
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.18000                                  DARK 
+  CIRCLE     0.25400                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     0.80000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.27000                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.55000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.60020                                  DARK 
+  CIRCLE     1.65000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.75000                                  DARK 
+  CIRCLE     2.03200                                  DARK 
+  CIRCLE     5.00000                                  DARK 
+  CIRCLE     6.60400                                  DARK 
+
+     PC049A_L3 created.
+
+
+================================================================
+     PROCESSING FILM < L8 >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/PC049A_L8.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1270
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10100                                  DARK 
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.25400                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     0.80000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.27000                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.55000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.60020                                  DARK 
+  CIRCLE     1.65000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.75000                                  DARK 
+  CIRCLE     2.03200                                  DARK 
+  CIRCLE     5.00000                                  DARK 
+  CIRCLE     6.60400                                  DARK 
+
+     PC049A_L8 created.
+
+
+================================================================
+     PROCESSING FILM < L9 >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/PC049A_L9.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1270
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10100                                  DARK 
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.25400                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     0.80000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.27000                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.55000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.60020                                  DARK 
+  CIRCLE     1.65000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.75000                                  DARK 
+  CIRCLE     2.03200                                  DARK 
+  CIRCLE     5.00000                                  DARK 
+  CIRCLE     6.60400                                  DARK 
+
+     PC049A_L9 created.
+
+
+================================================================
+     PROCESSING FILM < L10 >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/PC049A_L10.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1270
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10100                                  DARK 
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.15000                                  DARK 
+  CIRCLE     0.17000                                  DARK 
+  CIRCLE     0.18000                                  DARK 
+  CIRCLE     0.25000                                  DARK 
+  CIRCLE     0.25400                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.35500                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     0.70000                                  DARK 
+  CIRCLE     0.80000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.37160                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.60020                                  DARK 
+  CIRCLE     1.65000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     2.00000                                  DARK 
+  CIRCLE     2.03200                                  DARK 
+  CIRCLE     2.13400                                  DARK 
+  CIRCLE     5.00000                                  DARK 
+  CIRCLE     6.60400                                  DARK 
+  SQUARE     0.60000                     0.000 NO     DARK 
+  SQUARE     1.55000                     0.000 NO     DARK 
+  SQUARE     1.75000                     0.000 NO     DARK 
+  RECTANGLE  0.63500     x 2.54000      90.000 NO     DARK 
+  RECTANGLE  0.63500     x 4.69900      90.000 NO     DARK 
+  RECTANGLE  0.90000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.90000       0.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.90000      90.000 NO     DARK 
+  RECTANGLE  1.20000     x 2.20000      90.000 NO     DARK 
+  RECTANGLE  1.44780     x 0.40640      90.000 NO     DARK 
+  RECTANGLE  3.60000     x 2.20000      90.000 NO     DARK 
+
+     PC049A_L10 created.
+
+
+================================================================
+     PROCESSING FILM < L4 >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/PC049A_L4.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1270
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10100                                  DARK 
+  CIRCLE     0.25400                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     0.80000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.27000                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.55000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.60020                                  DARK 
+  CIRCLE     1.65000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.75000                                  DARK 
+  CIRCLE     2.03200                                  DARK 
+  CIRCLE     5.00000                                  DARK 
+  CIRCLE     6.60400                                  DARK 
+
+     PC049A_L4 created.
+
+
+================================================================
+     PROCESSING FILM < L5 >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/PC049A_L5.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1270
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10100                                  DARK 
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     0.80000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.27000                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.55000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.60020                                  DARK 
+  CIRCLE     1.65000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.75000                                  DARK 
+  CIRCLE     2.03200                                  DARK 
+  CIRCLE     5.00000                                  DARK 
+  CIRCLE     6.60400                                  DARK 
+
+     PC049A_L5 created.
+
+
+================================================================
+     PROCESSING FILM < L6 >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/PC049A_L6.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1270
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10100                                  DARK 
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.13000                                  DARK 
+  CIRCLE     0.25400                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     0.80000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.27000                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.55000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.60020                                  DARK 
+  CIRCLE     1.65000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.75000                                  DARK 
+  CIRCLE     2.03200                                  DARK 
+  CIRCLE     5.00000                                  DARK 
+  CIRCLE     6.60400                                  DARK 
+
+     PC049A_L6 created.
+
+
+================================================================
+     PROCESSING FILM < L7 >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/PC049A_L7.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1270
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10100                                  DARK 
+  CIRCLE     0.25400                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     0.80000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.27000                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.55000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.60020                                  DARK 
+  CIRCLE     1.65000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.75000                                  DARK 
+  CIRCLE     2.03200                                  DARK 
+  CIRCLE     5.00000                                  DARK 
+  CIRCLE     6.60400                                  DARK 
+
+     PC049A_L7 created.
+
+
+================================================================
+     PROCESSING FILM < SM1 >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/PC049A_SM1.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1270
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10100                                  DARK 
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.38100                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     1.11760                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.55000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.65000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.77800                                  DARK 
+  CIRCLE     1.90500                                  DARK 
+  CIRCLE     2.00000                                  DARK 
+  CIRCLE     2.28600                                  DARK 
+  CIRCLE     4.26720                                  DARK 
+  CIRCLE     5.00000                                  DARK 
+  CIRCLE     7.11200                                  DARK 
+  SQUARE     0.65000                     0.000 NO     DARK 
+  SQUARE     0.85000                     0.000 NO     DARK 
+  SQUARE     1.55000                     0.000 NO     DARK 
+  SQUARE     1.75000                     0.000 NO     DARK 
+  SQUARE     2.50000                     0.000 NO     DARK 
+  SQUARE     3.55000                     0.000 NO     DARK 
+  RECTANGLE  0.38100     x 2.54000      90.000 NO     DARK 
+  RECTANGLE  0.63500     x 1.01600      90.000 NO     DARK 
+  RECTANGLE  0.76200     x 1.06680       0.000 NO     DARK 
+  RECTANGLE  0.76200     x 1.06680      90.000 NO     DARK 
+  RECTANGLE  0.78740     x 0.66040       0.000 NO     DARK 
+  RECTANGLE  0.78740     x 0.91440      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  0.85000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.85000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  0.88900     x 1.90500      90.000 NO     DARK 
+  RECTANGLE  0.88900     x 2.28600      90.000 NO     DARK 
+  RECTANGLE  1.01600     x 1.27000      90.000 NO     DARK 
+  RECTANGLE  1.25000     x 1.15000       0.000 NO     DARK 
+  RECTANGLE  1.25000     x 1.15000      90.000 NO     DARK 
+  RECTANGLE  1.27000     x 1.77800       0.000 NO     DARK 
+  RECTANGLE  1.27000     x 2.03200      90.000 NO     DARK 
+  RECTANGLE  1.45000     x 0.45000       0.000 NO     DARK 
+  RECTANGLE  1.45000     x 1.10000       0.000 NO     DARK 
+  RECTANGLE  1.45000     x 1.10000      90.000 NO     DARK 
+  RECTANGLE  1.55000     x 0.55000      90.000 NO     DARK 
+  RECTANGLE  1.55000     x 1.30000       0.000 NO     DARK 
+  RECTANGLE  1.60000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  1.65000     x 1.45000       0.000 NO     DARK 
+  RECTANGLE  1.65000     x 1.45000      90.000 NO     DARK 
+  RECTANGLE  1.75000     x 1.55000      90.000 NO     DARK 
+  RECTANGLE  1.80000     x 1.55000       0.000 NO     DARK 
+  RECTANGLE  2.00000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  2.00000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  2.05000     x 1.55000       0.000 NO     DARK 
+  RECTANGLE  2.05000     x 1.55000      90.000 NO     DARK 
+  RECTANGLE  2.15000     x 1.70000      90.000 NO     DARK 
+  RECTANGLE  2.28600     x 3.42900       0.000 NO     DARK 
+  RECTANGLE  2.54000     x 0.38100      90.000 NO     DARK 
+  RECTANGLE  2.54000     x 3.04800       0.000 NO     DARK 
+  RECTANGLE  2.55000     x 1.10000       0.000 NO     DARK 
+  RECTANGLE  2.70000     x 1.15000      90.000 NO     DARK 
+  RECTANGLE  2.80000     x 1.05000       0.000 NO     DARK 
+  RECTANGLE  2.80000     x 1.40000      90.000 NO     DARK 
+  RECTANGLE  2.95000     x 1.45000      90.000 NO     DARK 
+  RECTANGLE  3.40000     x 1.40000       0.000 NO     DARK 
+  RECTANGLE  3.60000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  3.68300     x 2.03200       0.000 NO     DARK 
+  RECTANGLE  3.75000     x 2.75000      90.000 NO     DARK 
+  RECTANGLE  7.90000     x 1.40000       0.000 NO     DARK 
+  RECTANGLE  10.50000    x 7.50000      90.000 NO     DARK 
+
+     PC049A_SM1 created.
+
+
+================================================================
+     PROCESSING FILM < SM10 >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/PC049A_SM10.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1270
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10100                                  DARK 
+  CIRCLE     0.38100                                  DARK 
+  CIRCLE     1.11760                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.55000                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.65000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.77800                                  DARK 
+  CIRCLE     1.90500                                  DARK 
+  CIRCLE     2.28600                                  DARK 
+  CIRCLE     4.26720                                  DARK 
+  CIRCLE     5.00000                                  DARK 
+  CIRCLE     7.11200                                  DARK 
+  SQUARE     0.85000                     0.000 NO     DARK 
+  SQUARE     1.55000                     0.000 NO     DARK 
+  SQUARE     1.75000                     0.000 NO     DARK 
+  RECTANGLE  0.88900     x 2.79400      90.000 NO     DARK 
+  RECTANGLE  0.88900     x 4.95300      90.000 NO     DARK 
+  RECTANGLE  1.15000     x 0.75000       0.000 NO     DARK 
+  RECTANGLE  1.25000     x 1.15000       0.000 NO     DARK 
+  RECTANGLE  1.25000     x 1.15000      90.000 NO     DARK 
+  RECTANGLE  1.45000     x 2.45000      90.000 NO     DARK 
+  RECTANGLE  1.70180     x 0.66040      90.000 NO     DARK 
+  RECTANGLE  3.85000     x 2.45000      90.000 NO     DARK 
+
+     PC049A_SM10 created.
+
+
+================================================================
+     PROCESSING FILM < SS10 >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/PC049A_SS10.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.10100                                  DARK 
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.20300                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+
+     PC049A_SS10 created.
+
+
+================================================================
+     PROCESSING FILM < SP1 >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/PC049A_SP1.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10100                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  SQUARE     0.60000                     0.000 NO     DARK 
+  SQUARE     0.65000                     0.000 NO     DARK 
+  SQUARE     2.50000                     0.000 NO     DARK 
+  SQUARE     3.55000                     0.000 NO     DARK 
+  RECTANGLE  0.25400     x 2.41300      90.000 NO     DARK 
+  RECTANGLE  0.40640     x 0.76200      90.000 NO     DARK 
+  RECTANGLE  0.50800     x 0.81280       0.000 NO     DARK 
+  RECTANGLE  0.50800     x 0.81280      90.000 NO     DARK 
+  RECTANGLE  0.55880     x 0.45720       0.000 NO     DARK 
+  RECTANGLE  0.55880     x 0.68580      90.000 NO     DARK 
+  RECTANGLE  0.63500     x 1.65100      90.000 NO     DARK 
+  RECTANGLE  0.63500     x 2.03200      90.000 NO     DARK 
+  RECTANGLE  0.71120     x 1.01600      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  0.85000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.85000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.90000       0.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.90000      90.000 NO     DARK 
+  RECTANGLE  1.01600     x 1.52400       0.000 NO     DARK 
+  RECTANGLE  1.01600     x 1.77800      90.000 NO     DARK 
+  RECTANGLE  1.08000     x 0.90000       0.000 NO     DARK 
+  RECTANGLE  1.40000     x 1.20000       0.000 NO     DARK 
+  RECTANGLE  1.40000     x 1.20000      90.000 NO     DARK 
+  RECTANGLE  1.45000     x 0.45000       0.000 NO     DARK 
+  RECTANGLE  1.45000     x 1.10000       0.000 NO     DARK 
+  RECTANGLE  1.45000     x 1.10000      90.000 NO     DARK 
+  RECTANGLE  1.55000     x 0.55000      90.000 NO     DARK 
+  RECTANGLE  1.55000     x 1.30000       0.000 NO     DARK 
+  RECTANGLE  1.60000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  1.75000     x 1.55000      90.000 NO     DARK 
+  RECTANGLE  1.80000     x 1.30000       0.000 NO     DARK 
+  RECTANGLE  1.80000     x 1.30000      90.000 NO     DARK 
+  RECTANGLE  1.80000     x 1.55000       0.000 NO     DARK 
+  RECTANGLE  2.00000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  2.00000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  2.03200     x 3.17500       0.000 NO     DARK 
+  RECTANGLE  2.15000     x 1.70000      90.000 NO     DARK 
+  RECTANGLE  2.16000     x 0.75000       0.000 NO     DARK 
+  RECTANGLE  2.41300     x 0.25400      90.000 NO     DARK 
+  RECTANGLE  2.43840     x 2.92100       0.000 NO     DARK 
+  RECTANGLE  2.70000     x 1.15000      90.000 NO     DARK 
+  RECTANGLE  2.70000     x 1.20000      90.000 NO     DARK 
+  RECTANGLE  2.80000     x 1.05000       0.000 NO     DARK 
+  RECTANGLE  2.80000     x 1.40000      90.000 NO     DARK 
+  RECTANGLE  3.40000     x 1.40000       0.000 NO     DARK 
+  RECTANGLE  3.42900     x 1.77800       0.000 NO     DARK 
+  RECTANGLE  3.60000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  3.75000     x 2.75000      90.000 NO     DARK 
+  RECTANGLE  7.90000     x 1.40000       0.000 NO     DARK 
+  RECTANGLE  10.50000    x 7.50000      90.000 NO     DARK 
+
+     PC049A_SP1 created.
+
+
+================================================================
+     PROCESSING FILM < SP10 >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/PC049A_SP10.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10100                                  DARK 
+  SQUARE     0.60000                     0.000 NO     DARK 
+  RECTANGLE  0.63500     x 2.54000      90.000 NO     DARK 
+  RECTANGLE  0.63500     x 4.69900      90.000 NO     DARK 
+  RECTANGLE  0.90000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.90000       0.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.90000      90.000 NO     DARK 
+  RECTANGLE  1.20000     x 2.20000      90.000 NO     DARK 
+  RECTANGLE  1.44780     x 0.40640      90.000 NO     DARK 
+  RECTANGLE  3.60000     x 2.20000      90.000 NO     DARK 
+
+     PC049A_SP10 created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        PC049A_L1 created.
+        PC049A_L2 created.
+        PC049A_L3 created.
+        PC049A_L8 created.
+        PC049A_L9 created.
+        PC049A_L10 created.
+        PC049A_L4 created.
+        PC049A_L5 created.
+        PC049A_L6 created.
+        PC049A_L7 created.
+        PC049A_SM1 created.
+        PC049A_SM10 created.
+        PC049A_SS10 created.
+        PC049A_SP1 created.
+        PC049A_SP10 created.
+
+ ARTWORK finished

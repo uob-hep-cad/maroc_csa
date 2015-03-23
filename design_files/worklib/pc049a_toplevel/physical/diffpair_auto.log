@@ -1,0 +1,66 @@
+		Auto Differential Pair Results
+
+	Using net suffixes: _P / _N
+	Number generated: 57
+
+
+Diffpair                   Net+                     Net-                    
+---------------------------------------------------------------------
+LVDS_DRIGHT9               LVDS_DRIGHT_P<9>         LVDS_DRIGHT_N<9>        
+LVDS_DRIGHT8               LVDS_DRIGHT_P<8>         LVDS_DRIGHT_N<8>        
+LVDS_DRIGHT7               LVDS_DRIGHT_P<7>         LVDS_DRIGHT_N<7>        
+LVDS_DRIGHT6               LVDS_DRIGHT_P<6>         LVDS_DRIGHT_N<6>        
+LVDS_DRIGHT5               LVDS_DRIGHT_P<5>         LVDS_DRIGHT_N<5>        
+LVDS_DRIGHT4               LVDS_DRIGHT_P<4>         LVDS_DRIGHT_N<4>        
+LVDS_DRIGHT3               LVDS_DRIGHT_P<3>         LVDS_DRIGHT_N<3>        
+LVDS_DRIGHT2               LVDS_DRIGHT_P<2>         LVDS_DRIGHT_N<2>        
+LVDS_DRIGHT1               LVDS_DRIGHT_P<1>         LVDS_DRIGHT_N<1>        
+LVDS_DRIGHT15              LVDS_DRIGHT_P<15>        LVDS_DRIGHT_N<15>       
+LVDS_DRIGHT14              LVDS_DRIGHT_P<14>        LVDS_DRIGHT_N<14>       
+LVDS_DRIGHT13              LVDS_DRIGHT_P<13>        LVDS_DRIGHT_N<13>       
+LVDS_DRIGHT12              LVDS_DRIGHT_P<12>        LVDS_DRIGHT_N<12>       
+LVDS_DRIGHT11              LVDS_DRIGHT_P<11>        LVDS_DRIGHT_N<11>       
+LVDS_DRIGHT10              LVDS_DRIGHT_P<10>        LVDS_DRIGHT_N<10>       
+LVDS_DRIGHT0               LVDS_DRIGHT_P<0>         LVDS_DRIGHT_N<0>        
+LVDS_DRIGHT_CLK            LVDS_DRIGHT_CLK_P        LVDS_DRIGHT_CLK_N       
+LVDS_DLEFT9                LVDS_DLEFT_P<9>          LVDS_DLEFT_N<9>         
+LVDS_DLEFT8                LVDS_DLEFT_P<8>          LVDS_DLEFT_N<8>         
+LVDS_DLEFT7                LVDS_DLEFT_P<7>          LVDS_DLEFT_N<7>         
+LVDS_DLEFT6                LVDS_DLEFT_P<6>          LVDS_DLEFT_N<6>         
+LVDS_DLEFT5                LVDS_DLEFT_P<5>          LVDS_DLEFT_N<5>         
+LVDS_DLEFT4                LVDS_DLEFT_P<4>          LVDS_DLEFT_N<4>         
+LVDS_DLEFT3                LVDS_DLEFT_P<3>          LVDS_DLEFT_N<3>         
+LVDS_DLEFT2                LVDS_DLEFT_P<2>          LVDS_DLEFT_N<2>         
+LVDS_DLEFT1                LVDS_DLEFT_P<1>          LVDS_DLEFT_N<1>         
+LVDS_DLEFT15               LVDS_DLEFT_P<15>         LVDS_DLEFT_N<15>        
+LVDS_DLEFT14               LVDS_DLEFT_P<14>         LVDS_DLEFT_N<14>        
+LVDS_DLEFT13               LVDS_DLEFT_P<13>         LVDS_DLEFT_N<13>        
+LVDS_DLEFT12               LVDS_DLEFT_P<12>         LVDS_DLEFT_N<12>        
+LVDS_DLEFT11               LVDS_DLEFT_P<11>         LVDS_DLEFT_N<11>        
+LVDS_DLEFT10               LVDS_DLEFT_P<10>         LVDS_DLEFT_N<10>        
+LVDS_DLEFT0                LVDS_DLEFT_P<0>          LVDS_DLEFT_N<0>         
+LVDS_DLEFT_CLK             LVDS_DLEFT_CLK_P         LVDS_DLEFT_CLK_N        
+LVPECL_OTRIG_OUT           LVPECL_OTRIG_OUT_P       LVPECL_OTRIG_OUT_N      
+LVPECL_OTRIG_IN            LVPECL_OTRIG_IN_P        LVPECL_OTRIG_IN_N       
+SI57X_CLK                  SI57X_CLK_P              SI57X_CLK_N             
+SFP_CLK                    SFP_CLK_P                SFP_CLK_N               
+FPGA_PLL_REF_CLK123        FPGA_PLL_REF_CLK123_P    FPGA_PLL_REF_CLK123_N   
+FPGA_PLL_REF_CLK101        FPGA_PLL_REF_CLK101_P    FPGA_PLL_REF_CLK101_N   
+CLK_125M_PLLREF            CLK_125M_PLLREF_P        CLK_125M_PLLREF_N       
+SFP1_TX                    SFP1_TX_P                SFP1_TX_N               
+SFP1_RX                    SFP1_RX_P                SFP1_RX_N               
+SFP0_TX                    SFP0_TX_P                SFP0_TX_N               
+SFP0_RX                    SFP0_RX_P                SFP0_RX_N               
+SATA_STX                   SATA_STX_P               SATA_STX_N              
+SATA_SRX                   SATA_SRX_P               SATA_SRX_N              
+SATA_MTX                   SATA_MTX_P               SATA_MTX_N              
+SATA_MRX                   SATA_MRX_P               SATA_MRX_N              
+LVDS_OTRIG_FROM_FPGA       LVDS_OTRIG_FROM_FPGA_P   LVDS_OTRIG_FROM_FPGA_N  
+LVDS_GLOBALTRIG_TO_FPGA    LVDS_GLOBALTRIG_TO_FPGA_P LVDS_GLOBALTRIG_TO_FPGA_N
+LVDS_GLOBALTRIG_FROM_FPGA   LVDS_GLOBALTRIG_FROM_FPGA_P LVDS_GLOBALTRIG_FROM_FPGA_N
+LVDS_OTRIG_TO_FPGA         LVDS_OTRIG_TO_FPGA_P     LVDS_OTRIG_TO_FPGA_N    
+LVDS_GCLK_TO_FPGA          LVDS_GCLK_TO_FPGA_P      LVDS_GCLK_TO_FPGA_N     
+LVDS_GCLK_FROM_FPGA        LVDS_GCLK_FROM_FPGA_P    LVDS_GCLK_FROM_FPGA_N   
+MLVDS_GLOBALTRIG           MLVDS_GLOBALTRIG_P       MLVDS_GLOBALTRIG_N      
+MLVDS_GCLK                 MLVDS_GCLK_P             MLVDS_GCLK_N            
+

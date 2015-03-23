@@ -1,0 +1,9 @@
+Uses hdmlmake ( from ohwr.org ) to make Xilinx ISE project.
+
+Look at wrpc-v2.1 , then
+
+cd uob-hep-pc049a/trunk/firmware/syn/pc049a/demo
+
+hdlmake-v1.0 --make-ise --ise-proj
+
+make

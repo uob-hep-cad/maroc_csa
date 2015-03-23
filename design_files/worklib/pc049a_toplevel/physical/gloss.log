@@ -1,0 +1,92 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Glossing                                                         )
+(                                                                     )
+(    Drawing          : pc049a_toplevel_50.brd                        )
+(    Software Version : 16.6S014                                      )
+(    Date/Time        : Wed Feb 18 10:47:34 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+**WARNING: Disabling dynamic shapes
+Glossing Corners to Arcs initiated on Wed Feb 18 10:47:34 2015
+
+Maximum Radius = 1.0000.
+Minimum Radius = 0.0500.
+Number of Executions = 10
+
+Corners to Arcs Stats
+
+
+Number of Glossing Attempts                   : 5989
+Number of Actual Glossings                    : 2152
+Number of Failed Glossing Attempts: 3837
+Number of by No-Gloss nets  : 0
+
+
+Number of Glossing Attempts                   : 2887
+Number of Actual Glossings                    : 4
+Number of Failed Glossing Attempts: 2883
+Number of by No-Gloss nets  : 0
+
+
+Number of Glossing Attempts                   : 2880
+Number of Actual Glossings                    : 0
+Number of Failed Glossing Attempts: 2880
+Number of by No-Gloss nets  : 0
+
+
+Number of Glossing Attempts                   : 2880
+Number of Actual Glossings                    : 0
+Number of Failed Glossing Attempts: 2880
+Number of by No-Gloss nets  : 0
+
+
+Number of Glossing Attempts                   : 2880
+Number of Actual Glossings                    : 0
+Number of Failed Glossing Attempts: 2880
+Number of by No-Gloss nets  : 0
+
+
+Number of Glossing Attempts                   : 2880
+Number of Actual Glossings                    : 0
+Number of Failed Glossing Attempts: 2880
+Number of by No-Gloss nets  : 0
+
+
+Number of Glossing Attempts                   : 2880
+Number of Actual Glossings                    : 0
+Number of Failed Glossing Attempts: 2880
+Number of by No-Gloss nets  : 0
+
+
+Number of Glossing Attempts                   : 2880
+Number of Actual Glossings                    : 0
+Number of Failed Glossing Attempts: 2880
+Number of by No-Gloss nets  : 0
+
+
+Number of Glossing Attempts                   : 2880
+Number of Actual Glossings                    : 0
+Number of Failed Glossing Attempts: 2880
+Number of by No-Gloss nets  : 0
+
+
+Number of Glossing Attempts                   : 2880
+Number of Actual Glossings                    : 0
+Number of Failed Glossing Attempts: 2880
+Number of by No-Gloss nets  : 0
+There were 2156 Corners Converted to Arcs.
+
+Elapsed time:  0 hr 0 min 10 sec ( 0.00 hr)
+Actual time of completion: Wed Feb 18 10:47:44 2015
+
+
+Glossing Corners to Arcs finished.
+
+
+WARNING: Glossing operations may leave fillets out of date.
+
+
+Glossing complete.

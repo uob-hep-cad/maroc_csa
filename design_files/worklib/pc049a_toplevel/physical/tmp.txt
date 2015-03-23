@@ -1,0 +1,9 @@
+
+SFP0_RX_N      
+SFP0_RX_P      
+SFP0_TX_N     
+SFP0_TX_P     
+SFP1_RX_N     
+SFP1_RX_P     
+SFP1_TX_N     
+SFP1_TX_P     

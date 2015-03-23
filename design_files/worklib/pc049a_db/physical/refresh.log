@@ -1,0 +1,89 @@
+Wed Mar  4 13:01:01 2015				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Wed Mar  4 13:01:01 2015
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : pc049a_lemo_db_11.brd                         )
+(    Software Version : 16.6S014                                      )
+(    Date/Time        : Wed Mar  4 13:01:01 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Wed Mar  4 13:01:01 2015				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design = '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo~
+_db_11.brd'
+Output design = ''
+Update mechanical symbols = 'NO'
+Update format symbols = 'NO'
+Update package symbols = 'NO'
+Update shape/flash symbols = 'NO'
+Update symbol padstacks = 'NO'
+Reset symbol text and size locations = 'NO'
+Reset Pin Escapes (fanouts) = 'NO'
+Ripup Etch = 'NO'
+Reset custom drill data = 'NO'
+Symbol list file = '/tmp/#Taaaaal22601.tmp'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/symbols 
+           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/formats 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/connector 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/soic 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/discrete 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/dip 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/so 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/bga 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/qfp 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/passif 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/cap 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/led 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/rel 
+           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/symbols 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/sw 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/mec 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           /software/CAD/Cadence/SPB16.60.000/share/local/pcb/padstacks 
+           /software/CAD/Cadence/SPB16.60.000/share/pcb/pcb_lib/symbols 
+           /software/CAD/Cadence/SPB16.60.000/share/pcb/allegrolib/symbols 
+           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/pads 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/padstacks/padstack_smd 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/padstacks/padstack3 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/padstacks/padstackm 
+           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/pads 
+
+
+------ Symbol Refresh Messages ------
+
+'PLEMOD80'  symbol refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 1 out 1
+    Design updated.
+

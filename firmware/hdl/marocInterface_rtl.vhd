@@ -65,7 +65,9 @@ architecture rtl of marocInterface is
   signal s_timeStamp : std_logic_vector(c_BUSWIDTH-1 downto 0);
 
   signal s_tree_or : std_logic_vector( maroc_trigger_i'left+1 downto 0);
-  
+
+  signal ck_40m : std_logic := '0'; -- internal MAROC clock.
+
 begin  -- rtl
 
 
@@ -80,8 +82,8 @@ begin  -- rtl
  --     q => register_data
  --     );
 
-  -- Slave 1: slow control shift register controller
-  slave1: entity work.ipbusMarocShiftReg
+  -- Slave 0: slow control shift register controller
+  slave0: entity work.ipbusMarocShiftReg
     generic map(
       g_NBITS    => 829,  --! Number of bits to shift out to MAROC
       g_NWORDS   => c_NWORDS,    --! Number of words in IPBUS space to store data
@@ -103,8 +105,8 @@ begin  -- rtl
       rst_sr_n_o => rst_sc_n_o
       );
 
-  -- Slave 2: "R" register shift register controller
-  slave2: entity work.ipbusMarocShiftReg
+  -- Slave 1: "R" register shift register controller
+  slave1: entity work.ipbusMarocShiftReg
     generic map(
       g_NBITS    => 128,  --! Number of bits to shift out to MAROC
       g_NWORDS   => c_NWORDS,    --! Number of words in IPBUS space to store data
@@ -126,8 +128,8 @@ begin  -- rtl
       rst_sr_n_o => rst_r_n_o
       );
 
--- Slave 3: Simple ADC controller
-  slave3: entity work.ipbusMarocADC
+-- Slave 2: Simple ADC controller
+  slave2: entity work.ipbusMarocADC
     generic map(
       g_ADDRWIDTH => 10 )
     port map(
@@ -163,8 +165,8 @@ begin  -- rtl
 
   -- FIXME - clk fast
   
-  -- Slave 4: Trigger generator
-  slave4: entity work.ipbusMarocTriggerGenerator 
+  -- Slave 3: Trigger generator
+  slave3: entity work.ipbusMarocTriggerGenerator 
     port map (
       -- signals to IPBus
       clk_i => ipb_clk_i,
@@ -206,15 +208,28 @@ begin  -- rtl
     s_tree_or(i+1) <= s_tree_or(i) or maroc_trigger_i(i);
   end generate gen_maroc_or;
   
-  -- FIXME - for now, just wire up any old signal to an OBUFDS
-  -- to get correct signal type for CK_40M
+
+  -- For now use IPBus clock as MAROC clock
   ck_40m_obuf : OBUFDS
     port map (
-      I  => s_externalTrigger_o or s_tree_or(s_tree_or'left),
-      O  =>  CK_40M_P_O,
+      I  => CK_40M,
+      O  => CK_40M_P_O,
       OB => CK_40M_N_O
       );
-  
+
+  -- Use a DDR output register to get from clock net onto output. 
+  maroc_clock_buf  : ODDR2
+    port map (
+      Q => CK_40M, -- 1-bit output data
+      C0 => ipb_clk_i , -- 1-bit clock input
+      C1 => not ipb_clk_i , -- 1-bit clock input
+      CE => '1',  -- 1-bit clock enable input
+      D0 => '0',   -- 1-bit data input (associated with C0)
+      D1 => '1',   -- 1-bit data input (associated with C1)
+      R => '0',    -- 1-bit reset input
+      S => '0'     -- 1-bit set input
+      );
+
 
   EN_OTAQ_O <= '1';
   

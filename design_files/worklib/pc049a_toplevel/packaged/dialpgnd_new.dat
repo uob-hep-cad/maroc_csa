@@ -21,8 +21,8 @@ IC7              DS90LV001TM-GND=GND_SIGNAL,VCCA
 IC9              AD5662BRMZ-1-GND=GND_SIGNAL,VDA 
                         GND_SIGNAL P3V3A    
                         8        1        
-IC16             SN74LVC1G06DBVT  
-                        GND      VCC      
+IC16             SN74LVC1G06DBVT-GND=GND_SIGNALA 
+                        GND_SIGNAL P3V3     
                         3        5        
 IC22             S25FL128SAGMFIR01-VCC=P3V3,VSSA 
                         GND_SIGNAL P3V3     
@@ -59,8 +59,8 @@ RG1              LT3070EUFD#PBF-GND=GND_SIGNAL
                         20       
                         26       
                         29       
-SFP1             SFP_CAGE-6367034-1 
-                        GND      
+SFP1             SFP_CAGE-6367034-1-GND=GND_SIGA 
+                        GND_SIGNAL 
                         1        
                         2        
                         3        
@@ -78,13 +78,13 @@ SFP1             SFP_CAGE-6367034-1
                         15       
                         16       
                         17       
-SFP2             SFP_CAGE-6367035-1 
-                        GND      
+SFP2             SFP_CAGE-6367035-1-GND=GND_SIGA 
+                        GND_SIGNAL 
                         1        
                         2        
                         3        
-SFP3             SFP_CAGE-6367034-1 
-                        GND      
+SFP3             SFP_CAGE-6367034-1-GND=GND_SIGA 
+                        GND_SIGNAL 
                         1        
                         2        
                         3        
@@ -102,8 +102,8 @@ SFP3             SFP_CAGE-6367034-1
                         15       
                         16       
                         17       
-SFP4             SFP_CAGE-6367035-1 
-                        GND      
+SFP4             SFP_CAGE-6367035-1-GND=GND_SIGA 
+                        GND_SIGNAL 
                         1        
                         2        
                         3        

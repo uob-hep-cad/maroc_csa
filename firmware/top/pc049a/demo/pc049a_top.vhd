@@ -1,4 +1,3 @@
-
 --=============================================================================
 --! @file pc049a_top.vhd
 --=============================================================================
@@ -21,6 +20,12 @@
 --
 --! @details
 --! Includes white-rabbit core, and IPBus core.
+--! LEDs:
+--! LED(0) - White Rabbit link active
+--! LED(1) - White Rabbit link present
+--! LED(2) - IPBus clocks locked. ( should be on )
+--! LED(3) - One Hz heart-beat    ( should strobe at 1Hz)
+--! LED(4) - LOS for IPBus SFP    ( should be off )
 --!
 --! <b>Dependencies:</b>\n
 --!
@@ -62,7 +67,7 @@ use work.wishbone_pkg.all;
 entity pc049a_top is
   generic
     (
-      TAR_ADDR_WDTH : integer := 13     -- not used for this project
+      BUILD_WHITERABBIT : integer := 1     -- set to 1 to synthesize White Rabbit cores
       );
   port
     (
@@ -91,11 +96,10 @@ entity pc049a_top is
       dip_switch_i : in std_logic_vector(3 downto 0);
 
       -- SPI interface for DACs that tune VCXO frequencies 
-      pll25dac_sclk_o  : out std_logic;
-      pll25dac_din_o   : out std_logic;
-      -- dac_clr_n_o : out std_logic; -- not used.
-      pll25dac1_sync_n_o : out std_logic;
-      pll25dac2_sync_n_o : out std_logic;
+      pll25dac_sclk_o  : out std_logic := '0';
+      pll25dac_din_o   : out std_logic := '0';
+      pll25dac1_sync_n_o : out std_logic := '1';
+      pll25dac2_sync_n_o : out std_logic := '1';
 
       -- I2C bus
       fpga_scl_b : inout std_logic;
@@ -192,17 +196,7 @@ entity pc049a_top is
       lvds_gclk_from_fpga_n_o: out std_logic;
       enable_gclk_drive_o: out std_logic;
       lvds_gclk_to_fpga_p_i: in std_logic;
-      lvds_gclk_to_fpga_n_i: in std_logic
-
-      -- Daughter-board SPI lines
-      --dboard_miso_p_i : in std_logic;
-      --dboard_miso_n_i : in std_logic;
-      --dboard_sclk_p_o : out std_logic;
-      --dboard_sclk_n_o : out std_logic;
-      --dboard_mosi_p_o : out std_logic;
-      --dboard_mosi_n_o : out std_logic;            
-      --dboard_ssn_p_o : out std_logic;
-      --dboard_ssn_n_o : out std_logic      
+      lvds_gclk_to_fpga_n_i: in std_logic     
       
       );
 
@@ -238,9 +232,6 @@ architecture rtl of pc049a_top is
   signal  s_otrig_to_fpga , s_otrig_from_fpga : std_logic;
   signal  s_gclk_to_fpga , s_gclk_from_fpga : std_logic;
 
-  -- signals for daugher-board SPI over LVDS connections.
-  signal  s_dboard_mosi, s_dboard_ssn,s_dboard_sclk, s_dboard_miso : std_logic;
-    
   -- Dedicated clock for GTP transceiver
   signal gtp_dedicated_clk : std_logic_vector(1 downto 0);
 
@@ -286,7 +277,7 @@ architecture rtl of pc049a_top is
   signal wrc_sda_o : std_logic;
   signal wrc_sda_i : std_logic;
 
-  signal sfp_scl_o : std_logic_vector(1 downto 0);
+  signal sfp_scl_o : std_logic_vector(1 downto 0) := ( others => '0' );
   signal sfp_scl_i : std_logic_vector(1 downto 0);
   signal sfp_sda_o : std_logic_vector(1 downto 0);
   signal sfp_sda_i : std_logic_vector(1 downto 0);
@@ -356,15 +347,6 @@ architecture rtl of pc049a_top is
   -- Signals that used to be connected at the top level...
   signal uart_rxd , uart_txd  :  std_logic;
 
-  --signal dboard_miso_p_i :  std_logic;
-  --signal dboard_miso_n_i :  std_logic;
-  --signal dboard_sclk_p_o :  std_logic;
-  --signal dboard_sclk_n_o :  std_logic;
-  --signal dboard_mosi_p_o :  std_logic;
-  --signal dboard_mosi_n_o :  std_logic;            
-  --signal dboard_ssn_p_o  :  std_logic;
-  --signal dboard_ssn_n_o  :  std_logic;
---
 
 begin
 
@@ -506,6 +488,10 @@ begin
   one_wire_b <= '0' when owr_en(0) = '1' else 'Z';
   owr_i(0)  <= one_wire_b;
 
+  -- The White Rabbit cores use up space in the FPGA and consume power. 
+  -- Don't build them unless we want them.
+  generate_whiterabbit: if ( BUILD_WHITERABBIT = 1 ) generate
+  
   U_WR_CORE : xwr_core
     generic map (
       g_simulation                => 0,
@@ -695,15 +681,17 @@ begin
       dac_sclk_o    => pll25dac_sclk_o,
       dac_din_o     => pll25dac_din_o);
 
-
-  U_Extend_PPS : gc_extend_pulse
-    generic map (
-      g_width => 10000000)
-    port map (
-      clk_i      => clk_125m_pllref,
-      rst_n_i    => local_reset_n,
-      pulse_i    => pps_led,
-      extended_o => leds_o(4) );
+  end generate generate_whiterabbit;
+  
+  -- for now connect leds_o(4) to IPBus LOS
+  --U_Extend_PPS : gc_extend_pulse
+  --  generic map (
+  --    g_width => 10000000)
+  --  port map (
+  --    clk_i      => clk_125m_pllref,
+  --    rst_n_i    => local_reset_n,
+  --    pulse_i    => pps_led,
+  --    extended_o => leds_o(4) );
 
 
   si57x_oe_o <= '1';  
@@ -827,43 +815,6 @@ begin
   enable_gclk_drive_o <= '1';
   enable_globaltrig_drive_o <= '1';
 
-  --
-  -- Differential buffers to Daughter-board SPI connection
-  --dboard_mosi_obuf : OBUFDS
-  --  port map (
-  --    I  => s_dboard_mosi,
-  --    O  => dboard_mosi_p_o,
-  --    OB => dboard_mosi_n_o
-  --    );
-
-  --dboard_ssn_obuf : OBUFDS
-  --  port map (
-  --    I  => s_dboard_ssn,
-  --    O  => dboard_ssn_p_o,
-  --    OB => dboard_ssn_n_o
-  --    );
-
-  --dboard_sclk_obuf : OBUFDS
-  --  port map (
-  --    I  => s_dboard_sclk,
-  --    O  => dboard_sclk_p_o,
-  --    OB => dboard_sclk_n_o
-  --    );
-
-  --dboard_miso_ibuf : IBUFDS
-  --    generic map (
-  --      DIFF_TERM => true)
-  --    port map (
-  --      O  => s_dboard_miso,
-  --      I  => dboard_miso_p_i,
-  --      IB => dboard_miso_n_i
-  --      );
-
-  -- FIXME dummy wiring to stop buffers being optimized away.
-  --s_dboard_mosi <= s_dboard_miso;
-  --s_dboard_ssn <= s_dboard_miso;
-  --s_dboard_sclk <= s_dboard_miso;
-
   -- FIXME - loop dip_switches to gpio to stop GPIO being optimized away
   gpio(3 downto 0) <= dip_switch_i;
   gpio(4) <= si57x_clk;
@@ -883,15 +834,17 @@ begin
       IB => si57x_clk_n_i 
       );
 
-  -- FIXME - connnect input to output to avoid optimization.
-  sfp_rate_select_b <= sfp_los_i or sfp_tx_fault_i;
+  sfp_rate_select_b(0) <= '1'; --! Connect high for full rate.
+  sfp_rate_select_b(1) <= '1';
+  
   -----------------------------------------------------------------------------
   -- IPBus interface
   -----------------------------------------------------------------------------
 
   IPBusInterface_inst : entity work.IPBusInterfaceGTP
     GENERIC MAP (
-      NUM_EXT_SLAVES => 6
+      NUM_EXT_SLAVES => c_NMAROC_SLAVES+1 --! Total number of IPBus slave
+                                          --busses = number in MAROC +1
       )
     PORT MAP (
 		
@@ -932,6 +885,8 @@ begin
       clk_logic_xtal_o => s_clk_logic_xtal
       );
 
+  leds_o(4) <=  sfp_los_i(1);
+
   -- SFP control signals for IPBus SFP
   sfp_mod_def1_b(1) <= '0' when sfp_scl_o(1) = '0' else 'Z';
   sfp_mod_def2_b(1) <= '0' when sfp_sda_o(1) = '0' else 'Z';
@@ -947,8 +902,8 @@ begin
       -- IPBus
       ipbus_clk_i   => s_ipb_clk,
       ipbus_reset_i => s_ipb_rst,
-      ipbus_wbus_i  => s_ipb_wbus(5),
-      ipbus_rbus_o  => s_ipb_rbus(5),
+      ipbus_wbus_i  => s_ipb_wbus(c_NMAROC_SLAVES),
+      ipbus_rbus_o  => s_ipb_rbus(c_NMAROC_SLAVES),
 
       -- Data....
       lvds_left_data_p_b => lvds_left_data_p_b,

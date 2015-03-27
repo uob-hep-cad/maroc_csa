@@ -110,8 +110,8 @@ BEGIN
   
 
   -- FIXME - connect SFP control signals
-  sfp_scl_o <= '0';
-  sfp_sda_o <= sfp_det_i;
+  sfp_scl_o <= '1';
+  sfp_sda_o <= '1';
   
 --	DCM clock generation for internal bus, ethernet
 	clocks: entity work.clocks_s6_basex port map(
@@ -129,8 +129,9 @@ BEGIN
         -- Connect IPBus clock and reset to output ports.
         ipb_clk_o <= s_ipb_clk;
         ipb_rst_o <= rst_ipb;
-        
-	-- leds <= ('0', '0', locked, onehz);
+
+  -- connect up locked signal
+  clocks_locked_o <= locked;
 	
 --	Ethernet MAC core and PHY interface
 --      In this version, consists of hard MAC core + GTP transceiver

@@ -751,13 +751,13 @@ S25FL128SAGMFIR01-VCC=P3V3,VSSA S25FL128SAGMFIR01        IC22
 
 ----------------
 
-SFP_CAGE-6367034-1 6367034-1                SFP1            
-SFP_CAGE-6367034-1 6367034-1                SFP3            
+SFP_CAGE-6367034-1-GND=GND_SIGA 6367034-1                SFP1            
+SFP_CAGE-6367034-1-GND=GND_SIGA 6367034-1                SFP3            
 
 ----------------
 
-SFP_CAGE-6367035-1 6367035-1                SFP2            
-SFP_CAGE-6367035-1 6367035-1                SFP4            
+SFP_CAGE-6367035-1-GND=GND_SIGA 6367035-1                SFP2            
+SFP_CAGE-6367035-1-GND=GND_SIGA 6367035-1                SFP4            
 
 ----------------
 
@@ -770,7 +770,7 @@ SN65LVDS1_SOT23-5-TEXAS INSTRUA snlvds1dbv               U5
 
 ----------------
 
-SN74LVC1G06DBVT  SN74LVC1G06DBVT          IC16            
+SN74LVC1G06DBVT-GND=GND_SIGNALA SN74LVC1G06DBVT          IC16            
 
 ----------------
 

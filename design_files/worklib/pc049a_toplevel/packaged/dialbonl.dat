@@ -8,7 +8,7 @@ C2               CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND_SIGNAL
 C2_1             CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND_SIGNAL              
                                   2        VDDD2_1                 
 C3               CAPCERSMDCL2_0402-1UF,16V 1        GND_SIGNAL              
-                                  2        AVDD                    
+                                  2        P3V3                    
 C3_1             CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND_SIGNAL              
                                   2        VDD_DAC_1               
 C4               CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND_SIGNAL              
@@ -312,25 +312,25 @@ C103             CAPCERSMDCL2_0603-100NF,16V 1        P2V5
 C104             CAPCERSMDCL2_0805-22UF,6.3V 1        GND_SIGNAL              
                                   2        MGT_AVCC_A              
 C105             CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND_SIGNAL              
-                                  2        UNNAMED_7_CAPCERSMDCL2_I74_B
+                                  2        MGT_AVCC_A              
 C106             CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND_SIGNAL              
-                                  2        UNNAMED_7_CAPCERSMDCL2_I70_B
+                                  2        MGT_AVCC_A              
 C107             CAPCERSMDCL2_0402-1UF,16V 1        GND_SIGNAL              
                                   2        MGT_AVCC_A              
 C108             CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND_SIGNAL              
-                                  2        UNNAMED_7_CAPCERSMDCL2_I74_B
+                                  2        MGT_AVCC_A              
 C109             CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND_SIGNAL              
-                                  2        UNNAMED_7_CAPCERSMDCL2_I70_B
+                                  2        MGT_AVCC_A              
 C110             CAPCERSMDCL2_0402-1UF,16V 1        GND_SIGNAL              
                                   2        MGT_AVCC_A              
 C111             CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND_SIGNAL              
-                                  2        UNNAMED_7_CAPCERSMDCL2_I74_B
+                                  2        MGT_AVCC_A              
 C112             CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND_SIGNAL              
-                                  2        UNNAMED_7_CAPCERSMDCL2_I70_B
+                                  2        MGT_AVCC_A              
 C113             CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND_SIGNAL              
-                                  2        UNNAMED_7_CAPCERSMDCL2_I74_B
+                                  2        MGT_AVCC_A              
 C114             CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND_SIGNAL              
-                                  2        UNNAMED_7_CAPCERSMDCL2_I70_B
+                                  2        MGT_AVCC_A              
 C115             CAPCERSMDCL2_1206-100UF_X5R,6.A 1        GND_SIGNAL              
                                   2        P1V2                    
 C116             CAPCERSMDCL2_1206-100UF_X5R,6.A 1        GND_SIGNAL              
@@ -879,7 +879,7 @@ IC15             24AA64T-I/MC     1        GND_SIGNAL
                                   6        FPGA_SCL                
                                   7        GND_SIGNAL              
                                   8        P3V3                    
-IC16             SN74LVC1G06DBVT  2        FPGA_DONE               
+IC16             SN74LVC1G06DBVT-GND=GND_SIGNALA 2        FPGA_DONE               
                                   4        UNNAMED_13_LED_I46_K    
 IC20             TPS71701DCKRG4_SC70-TEXAS INSTA 1        P2V5                    
                                   2        GND_SIGNAL              
@@ -1726,22 +1726,22 @@ RG1_1            LM2937IMP_SOT223-2.5V,TI 1        AVDD
                                   2        GND_SIGNAL              
                                   3        VH_1                    
                                   4        GND_SIGNAL              
-RN1              R4ISMD_1206-150  1        FPGA_GPIO<3>            
-                                  2        FPGA_GPIO<2>            
-                                  3        FPGA_GPIO<1>            
-                                  4        FPGA_GPIO<0>            
-                                  5        UNNAMED_8_CON12P_I51_A_4
-                                  6        UNNAMED_8_CON12P_I51_A_3
-                                  7        UNNAMED_8_CON12P_I51_A_2
-                                  8        UNNAMED_8_CON12P_I51_A_1
-RN2              R4ISMD_1206-150  1        UNNAMED_8_CON12P_I51_A  
-                                  2        UNNAMED_8_CON12P_I51_A_7
-                                  3        UNNAMED_8_CON12P_I51_A_5
-                                  4        UNNAMED_8_CON12P_I51_A_6
-                                  5        FPGA_GPIO<4>            
-                                  6        FPGA_GPIO<5>            
-                                  7        FPGA_GPIO<6>            
-                                  8        FPGA_GPIO<7>            
+RN1              R4ISMD_1206-150  1        UNNAMED_8_CON12P_I51_A_1
+                                  2        UNNAMED_8_CON12P_I51_A_2
+                                  3        UNNAMED_8_CON12P_I51_A_3
+                                  4        UNNAMED_8_CON12P_I51_A_4
+                                  5        FPGA_GPIO<0>            
+                                  6        FPGA_GPIO<1>            
+                                  7        FPGA_GPIO<2>            
+                                  8        FPGA_GPIO<3>            
+RN2              R4ISMD_1206-150  1        FPGA_GPIO<7>            
+                                  2        FPGA_GPIO<6>            
+                                  3        FPGA_GPIO<5>            
+                                  4        FPGA_GPIO<4>            
+                                  5        UNNAMED_8_CON12P_I51_A_6
+                                  6        UNNAMED_8_CON12P_I51_A_5
+                                  7        UNNAMED_8_CON12P_I51_A_7
+                                  8        UNNAMED_8_CON12P_I51_A  
 RZ1              R4ISMD_1206-150  1        GND_SIGNAL              
                                   2        GND_SIGNAL              
                                   3        GND_SIGNAL              
@@ -1750,14 +1750,14 @@ RZ1              R4ISMD_1206-150  1        GND_SIGNAL
                                   6        UNNAMED_8_LED_I108_K    
                                   7        UNNAMED_8_LED_I107_K    
                                   8        UNNAMED_8_LED_I105_K    
-RZ2              R4ISMD_1206-4.7K 1        GND_SIGNAL              
-                                  2        GND_SIGNAL              
-                                  3        GND_SIGNAL              
-                                  4        GND_SIGNAL              
-                                  5        DIP_SWITCH<0>           
-                                  6        DIP_SWITCH<1>           
-                                  7        DIP_SWITCH<2>           
-                                  8        DIP_SWITCH<3>           
+RZ2              R4ISMD_1206-4.7K 1        DIP_SWITCH<3>           
+                                  2        DIP_SWITCH<2>           
+                                  3        DIP_SWITCH<1>           
+                                  4        DIP_SWITCH<0>           
+                                  5        GND_SIGNAL              
+                                  6        GND_SIGNAL              
+                                  7        GND_SIGNAL              
+                                  8        GND_SIGNAL              
 SW1              SW_PUSHBUTTON_1SPSTA_4P_1-OMROA 1        UNNAMED_8_RSMD0603_I92_B
                                   2        P3V3                    
                                   3        UNNAMED_8_RSMD0603_I92_B
@@ -2017,7 +2017,7 @@ U2               AD8031_SOT23-5-AD 1        UNNAMED_8_AD8031_I70_IN
                                   2        GND_SIGNAL              
                                   3        UNBUF_CTEST             
                                   4        UNNAMED_8_AD8031_I70_IN 
-                                  5        AVDD                    
+                                  5        P3V3                    
 U3               PC049A_FPGA      A1       GND_SIGNAL              
                                   A2       LVDS_DLEFT_N<15>        
                                   A3       LVDS_DLEFT_N<14>        
@@ -2207,8 +2207,8 @@ U3               PC049A_FPGA      A1       GND_SIGNAL
                                   H2       FPGA_LEDS<2>            
                                   H3       FPGA_LEDS<1>            
                                   H4       FPGA_LEDS<0>            
-                                  H5       P3V3                    
-                                  H6       P3V3                    
+                                  H5       UNNAMED_8_RSMD0603_I92_B
+                                  H6       UNNAMED_8_RSMD0603_I97_B
                                   H7       GND_SIGNAL              
                                   H9       P2V5                    
                                   H15      P2V5                    

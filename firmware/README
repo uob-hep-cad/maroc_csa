@@ -7,3 +7,12 @@ cd uob-hep-pc049a/trunk/firmware/syn/pc049a/demo
 hdlmake-v1.0 --make-ise --ise-proj
 
 make
+
+
+..... for newer versions....
+
+ python /projects/HEP_Instrumentation/cad/designs/hdl-make/git-2.1/hdl-make/hdlmake  ise-project
+
+......... For HDLMake 2.x
+
+

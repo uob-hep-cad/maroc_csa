@@ -1,10 +1,11 @@
 -- clocks_s6_basex
 --
--- Generates a 25MHz ipbus clock from 200MHz xtal reference
+-- Generates a 31.25MHz ipbus clock from 125MHz xtal reference
 -- Includes reset logic for ipbus
 --
 -- Dave Newbold, April 2011
 --
+-- DGC , 26/March/2015 Modified original (which generated a 25MHz ipbus clock from 200MHz xtal reference)
 -- $Id$
 
 library ieee;
@@ -43,11 +44,12 @@ begin
 		o => clk_ipb_b
 	);
 
+      -- 125MHz input ( 8ns period ), 31.25MHz output ( 32ns )
 	dcm0: DCM_CLKGEN
 		generic map(
-			CLKIN_PERIOD => 5.0,
+			CLKIN_PERIOD => 8.0,
 			CLKFX_MULTIPLY => 2,
-			CLKFX_DIVIDE => 16
+			CLKFX_DIVIDE => 8
 		)
 		port map(
 			clkin => sysclk_i,

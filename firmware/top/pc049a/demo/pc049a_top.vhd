@@ -67,7 +67,7 @@ use work.wishbone_pkg.all;
 entity pc049a_top is
   generic
     (
-      BUILD_WHITERABBIT : integer := 1     -- set to 1 to synthesize White Rabbit cores
+      BUILD_WHITERABBIT : integer := 0     -- set to 1 to synthesize White Rabbit cores
       );
   port
     (
@@ -611,7 +611,38 @@ begin
       master_o(0) => wrc_slave_i);
 
   ---------------------
+  
+  U_DAC_ARB : spec_serial_dac_arb
+    generic map (
+      g_invert_sclk    => false,
+      g_num_extra_bits => 8)
 
+    port map (
+      clk_i   => clk_sys,
+      rst_n_i => local_reset_n,
+
+      val1_i  => dac_dpll_data,
+      load1_i => dac_dpll_load_p1,
+
+      val2_i  => dac_hpll_data,
+      load2_i => dac_hpll_load_p1,
+
+      dac_cs_n_o(0) => pll25dac1_sync_n_o,
+      dac_cs_n_o(1) => pll25dac2_sync_n_o,
+      dac_clr_n_o   => open, -- Not used 
+      dac_sclk_o    => pll25dac_sclk_o,
+      dac_din_o     => pll25dac_din_o);
+
+  end generate generate_whiterabbit;
+
+  -- messy hack to connect up LEDs even if White Rabbit not built.
+  generate_whiterabbit_leds: if ( BUILD_WHITERABBIT /= 1 ) generate
+	leds_o(0) <= '0';
+   leds_o(1) <= '0';
+  end generate generate_whiterabbit_leds;
+		
+  -- for now always instantiate the White rabbit GTP + interface
+  -- MAP complains otherwise and I can't figure out why.
   U_GTP : wr_gtp_phy_spartan6
     generic map (
       g_enable_ch0 => 0,
@@ -659,29 +690,6 @@ begin
 
   
 
-  
-  U_DAC_ARB : spec_serial_dac_arb
-    generic map (
-      g_invert_sclk    => false,
-      g_num_extra_bits => 8)
-
-    port map (
-      clk_i   => clk_sys,
-      rst_n_i => local_reset_n,
-
-      val1_i  => dac_dpll_data,
-      load1_i => dac_dpll_load_p1,
-
-      val2_i  => dac_hpll_data,
-      load2_i => dac_hpll_load_p1,
-
-      dac_cs_n_o(0) => pll25dac1_sync_n_o,
-      dac_cs_n_o(1) => pll25dac2_sync_n_o,
-      dac_clr_n_o   => open, -- Not used 
-      dac_sclk_o    => pll25dac_sclk_o,
-      dac_din_o     => pll25dac_din_o);
-
-  end generate generate_whiterabbit;
   
   -- for now connect leds_o(4) to IPBus LOS
   --U_Extend_PPS : gc_extend_pulse

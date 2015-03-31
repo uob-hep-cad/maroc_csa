@@ -32,9 +32,9 @@ package body ipbus_addr_decode is
 			sel := 0; -- scshiftreg / base 00000080 / mask 0000007f
 		elsif std_match(addr, "-------------------0--010-------") then
 			sel := 1; -- rshiftreg / base 00000100 / mask 0000007f 
-	   elsif std_match(addr, "-------------------0--110-------") then
+                elsif std_match(addr, "-------------------0--110-------") then
 			sel := 2; -- triggerctrl / base 00000300 / mask 000007f
-      elsif std_match(addr, "-------------------1--000-------") then                  
+                elsif std_match(addr, "-------------------1--000-------") then                  
 			sel := 3; -- adc / base 00001000 / mask 00000fff
 		elsif std_match(addr, "-------------------0--000-------") then
 			sel := 5; -- firmwareid / base 00000000 / mask 00000000 

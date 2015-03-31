@@ -46,7 +46,8 @@ use work.emac_hostbus_decl.all;
 
 ENTITY IPBusInterfaceGTP IS
    GENERIC( 
-      NUM_EXT_SLAVES : positive := 5
+      NUM_EXT_SLAVES : positive := 5; --! Number of IPBus slaves outside IPBusInterfaceGTP module 
+      BUILD_SIMULATED_ETHERNET : integer := 0 --! Set to 1 to build simulated Ethernet interface using Modelsim FLI
    );
    PORT(
 
@@ -137,7 +138,10 @@ BEGIN
 --      In this version, consists of hard MAC core + GTP transceiver
 --      Can be replaced by any other MAC / PHY combination
 
-        eth: entity work.eth_s6_1000basex port map(
+  --! By default generate a Gigabit serial MAC
+    generate_physicalmac: if ( BUILD_SIMULATED_ETHERNET /= 1 ) generate
+
+      eth: entity work.eth_s6_1000basex port map(
           gtp_clkp => gtp_clkp,
           gtp_clkn => gtp_clkn,
           gtp_txp => gtp_txp,
@@ -161,13 +165,30 @@ BEGIN
           rx_last => mac_rx_last,
           rx_error => mac_rx_error
           );
-	
+    end generate generate_physicalmac;
+
+  --! Set generic BUILD_SIMULATED_ETHERNET to 1 to generate a simulated MAC
+    generate_simulatedmac: if ( BUILD_SIMULATED_ETHERNET = 1 ) generate
+      simulated_eth: entity work.eth_mac_sim
+        port map(
+          clk => clk125,
+          rst => rst,
+          tx_data => mac_tx_data,
+          tx_valid => mac_tx_valid,
+          tx_last => mac_tx_last,
+          tx_error => mac_tx_error,
+          tx_ready => mac_tx_ready,
+          rx_data => mac_rx_data,
+          rx_valid => mac_rx_valid,
+          rx_last => mac_rx_last,
+          rx_error => mac_rx_error
+          );
+    end generate generate_simulatedmac;
+  
 	phy_rstb_o <= '1';
 	
 -- ipbus control logic
         ipbus: entity work.ipbus_ctrl
-          generic map (
-            BUFWIDTH => 2)
           port map(
             mac_clk => clk125,
             rst_macclk => rst_125,

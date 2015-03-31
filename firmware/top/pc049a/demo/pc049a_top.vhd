@@ -67,7 +67,8 @@ use work.wishbone_pkg.all;
 entity pc049a_top is
   generic
     (
-      BUILD_WHITERABBIT : integer := 0     -- set to 1 to synthesize White Rabbit cores
+      BUILD_WHITERABBIT : integer := 0;       --! set to 1 to synthesize White Rabbit cores
+      BUILD_SIMULATED_ETHERNET : integer := 0 --! set to 1 to build with simulated Ethernet interface using Modelsim FLI
       );
   port
     (
@@ -637,8 +638,8 @@ begin
 
   -- messy hack to connect up LEDs even if White Rabbit not built.
   generate_whiterabbit_leds: if ( BUILD_WHITERABBIT /= 1 ) generate
-	leds_o(0) <= '0';
-   leds_o(1) <= '0';
+    leds_o(0) <= '0';
+    leds_o(1) <= '0';
   end generate generate_whiterabbit_leds;
 		
   -- for now always instantiate the White rabbit GTP + interface
@@ -851,8 +852,7 @@ begin
 
   IPBusInterface_inst : entity work.IPBusInterfaceGTP
     GENERIC MAP (
-      NUM_EXT_SLAVES => c_NMAROC_SLAVES+1 --! Total number of IPBus slave
-                                          --busses = number in MAROC +1
+      NUM_EXT_SLAVES => c_NMAROC_SLAVES+1 --! Total number of IPBus slave busses = number in MAROC plus one for External IO
       )
     PORT MAP (
 		

@@ -37,7 +37,8 @@ USE UNISIM.vcomponents.all;
 --! Delays trigger by hold1Delay_i cycles of clk_fast_i and then asserts hold1.
 --! Delays hold1 by hold2Delay_i cycles of clk_fast_i then asserts hold2
 --! After asserting hold2 outputs a pulse on adcStartConversion_o , last for single cycle of clk_sys_i
---! When the ADC controller signals end of conversion by pulsing adcConversionEnd_i then
+--! When the ADC controller signals end of conversion by pulsing adcConversionEnd_i
+--high then
 --! hold1,hold2 are deasserted.
 --!
 --! <b>Dependencies:</b>\n
@@ -66,7 +67,7 @@ ENTITY marocTriggerGenerator IS
   generic (
     g_BUSWIDTH : integer := 32);
    PORT( 
-      adcConversionEnd_i   : IN     std_logic;                      --! end of conversion signal from ADC controller. Sync with rising edge of clk_sys_i
+      adcConversionEnd_i   : IN     std_logic;                      --! end of conversion signal from ADC controller. Goes high for one clock, Sync with rising edge of clk_sys_i
       clk_fast_i           : IN     std_logic;                      --! Fast clock used to register and delay trigger signals
       clk_sys_i            : IN     std_logic;                      --! system clock used for adcConversionEnd_o , adcConversionStart_i
       reset_i              : in     std_logic;                       --! Active high. Resets s_preDelayHold and counter value

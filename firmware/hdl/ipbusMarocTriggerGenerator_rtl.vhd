@@ -96,7 +96,7 @@ architecture rtl of ipbusMarocTriggerGenerator is
 
   signal s_ack: std_logic;
 
-  signal s_counter_reset , s_counter_reset_ipb : std_logic;
+  signal s_counter_reset , s_counter_reset_ipb , s_counter_reset_ipb_d1: std_logic;
   signal s_conversion_counter : std_logic_vector(g_BUSWIDTH-1 downto 0) := (others => '0');
   signal s_timeStamp : std_logic_vector(g_BUSWIDTH-1 downto 0) := (others => '0');
 
@@ -196,12 +196,13 @@ begin
         s_counter_reset_ipb <= '0';
       end if;
     end if;
+	 s_counter_reset_ipb_d1 <= s_counter_reset_ipb; -- Extra register to ease routing.
   end process p_resetCounter;
 
   ipbus_o.ipb_ack <= s_ack;
   ipbus_o.ipb_err <= '0';
 
-  s_counter_reset <= s_counter_reset_ipb or logic_reset_i or reset_i;
+  s_counter_reset <= s_counter_reset_ipb_d1 or logic_reset_i or reset_i;
                      
   -- Instantiate the TriggerGenerator
   cmp_TriggerGeneratorInterface: entity work.marocTriggerGenerator

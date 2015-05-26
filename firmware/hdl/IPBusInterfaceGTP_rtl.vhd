@@ -105,7 +105,7 @@ ARCHITECTURE rtl OF IPBusInterfaceGTP IS
   signal s_ipbw_internal: ipb_wbus_array (NUM_EXT_SLAVES+c_NUM_INTERNAL_SLAVES-1 DOWNTO 0);
   signal s_ipbr_internal: ipb_rbus_array (NUM_EXT_SLAVES+c_NUM_INTERNAL_SLAVES-1 DOWNTO 0);
   signal s_sysclk : std_logic;
-  signal pkt_rx, pkt_tx, pkt_rx_led, pkt_tx_led, sys_rst: std_logic;
+  signal pkt_rx, pkt_tx, pkt_rx_led, pkt_tx_led, sys_rst: std_logic := '0';
   
 BEGIN
   
@@ -114,18 +114,6 @@ BEGIN
   sfp_scl_o <= '1';
   sfp_sda_o <= '1';
   
---	DCM clock generation for internal bus, ethernet
-	clocks: entity work.clocks_s6_basex port map(
-		sysclk_i => sysclk_i,
-		clki_125 => clk125,
-		clko_ipb => s_ipb_clk,
-		sysclko => s_sysclk,
-		locked => locked,
-		nuke => sys_rst,
-		rsto_125 => rst_125,
-		rsto_ipb => rst_ipb,
-		onehz => onehz_o
-	);
         
         -- Connect IPBus clock and reset to output ports.
         ipb_clk_o <= s_ipb_clk;
@@ -140,6 +128,19 @@ BEGIN
 
   --! By default generate a Gigabit serial MAC
     generate_physicalmac: if ( BUILD_SIMULATED_ETHERNET /= 1 ) generate
+
+      --	DCM clock generation for internal bus, ethernet
+      clocks: entity work.clocks_s6_basex port map(
+        sysclk_i => sysclk_i,
+        clki_125 => clk125,
+        clko_ipb => s_ipb_clk,
+        sysclko => s_sysclk,
+        locked => locked,
+        nuke => sys_rst,
+        rsto_125 => rst_125,
+        rsto_ipb => rst_ipb,
+        onehz => onehz_o
+	);
 
       eth: entity work.eth_s6_1000basex port map(
           gtp_clkp => gtp_clkp,
@@ -169,10 +170,23 @@ BEGIN
 
   --! Set generic BUILD_SIMULATED_ETHERNET to 1 to generate a simulated MAC
     generate_simulatedmac: if ( BUILD_SIMULATED_ETHERNET = 1 ) generate
+
+      sim_clocks: entity work.clock_sim
+	port map (
+	  clko125 => clk125,
+	  clko25 => s_ipb_clk,
+	  clko40 => open,
+	  nuke   => '0',
+	  rsto   => rst_125
+          );
+      rst_ipb <= rst_125;
+      locked <= '1';
+      
+      -- clk125 <= sysclk_i; -- *must* run this simulation with 125MHz sysclk...
       simulated_eth: entity work.eth_mac_sim
         port map(
           clk => clk125,
-          rst => rst,
+          rst => rst_125,
           tx_data => mac_tx_data,
           tx_valid => mac_tx_valid,
           tx_last => mac_tx_last,

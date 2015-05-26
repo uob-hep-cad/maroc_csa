@@ -20,15 +20,17 @@ use work.ipbus.all;
 --
 --! @brief Interfaces between IPBus and Maroc ADC\n
 --! Addresses ( with respect to base address)\n
---! 0x00 - 0x2FF : ADC data ( ro )\n
---! 0x200        : control/status.
+--! Data bus:\n
+--! 0x000 - 0xFFF : ADC data ( ro )\n
+--! Control bus:\n
+--! 0x0         : control/status.
 --!               Writing '1' to bit-0 starts conversion.\n
 --!               Reading bit-0 returns high if conversion is in progress\n
 --!               Writing '1' to bit-1 resets write pointer\n
---! 0x201       : returns the number of bits shifted out by MAROC ADC\n
+--! 0x1         : returns the number of bits shifted out by MAROC ADC\n
 --!               during last conversion ( ro )\n
---! 0x202       : DPRAM write-pointer (next address to be written to ( ro )\n
---
+--! 0x2         : DPRAM write-pointer (next address to be written to ( ro )\n
+--! 0x3         : Returns an identification word set by generic. Useful if more than 1 maroc on board.
 --! @author David Cussans , David.Cussans@bristol.ac.uk
 --
 --! @date 4\Jan\2012
@@ -42,12 +44,12 @@ use work.ipbus.all;
 --!
 --! There are two ways to trigger an ADC conversion:
 --! a) A pulse on adcConversionStart_i 
---! b) Writing to bit-0 of address 0x20
+--! b) Writing to bit-0 of address 0x0 on the control IPBus
 --!
 --! As serial data arrives from ADC the earliest data ends up in highest bits of
 --! the lowest words in the DPRAM.
 --!
---! Data are written to a DPRAM. Address 0x402 stores the location that the next
+--! Data are written to a DPRAM. Address 0x2 in the control IPBus stores the location that the next
 --! word that will be written (the "write pointer").
 --! The ADC data are preceeded by a trigger number word
 --! and a timestamp word. Hence with the Maroc set to 12-bit samples the total
@@ -74,7 +76,9 @@ use work.ipbus.all;
 --! 7/March/2012 DGC Got rid of FIFO and make DPRAM big enough to act as a
 --!                  circular buffer\n
 --! 17/March/2012 DGC Add internal reset, to reset state of ADC\n
---! 9/May/2013    DGC Reduced buffer size to 512 words
+--! 9/May/2013    DGC Reduced buffer size to 512 words\n
+--! 1/Apr/2015   DGC Increased buffer size to 4096 words. Documented split in\
+--!                  data and control address spaces.
 -------------------------------------------------------------------------------
 --! @todo 
 ---------------------------------------------------------------------------------
@@ -82,7 +86,7 @@ use work.ipbus.all;
 
 entity ipbusMarocADC is
   generic(
-    g_ADDRWIDTH : positive                      := 9;  --! Number of words in the data  buffer
+    g_ADDRWIDTH : positive                      := 12;  --! Number of words in the data  buffer
                                                        --! is 2^g_ADDRWIDTH
     g_BUSWIDTH  : positive                      := 32;  --! Width of data bus
     g_IDENT     : std_logic_vector(31 downto 0) := X"DEADBEEF"
@@ -188,7 +192,6 @@ begin
     if rising_edge(clk_i) then
 
       if control_ipbus_i.ipb_strobe = '1' and control_ipbus_i.ipb_write = '1' and
-        control_ipbus_i.ipb_addr(g_ADDRWIDTH) = '1' and
         control_ipbus_i.ipb_addr(1 downto 0) = "00"
       then
         s_internal_start_p <= control_ipbus_i.ipb_wdata(0);

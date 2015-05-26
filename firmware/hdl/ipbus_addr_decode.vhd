@@ -28,16 +28,20 @@ package body ipbus_addr_decode is
     variable sel : integer;
   begin
 
-		if    std_match(addr, "-------------------0--001-------") then
+		if    std_match(addr, "-----------------00---001-------") then
 			sel := 0; -- scshiftreg / base 00000080 / mask 0000007f
-		elsif std_match(addr, "-------------------0--010-------") then
+		elsif std_match(addr, "-----------------00---010-------") then
 			sel := 1; -- rshiftreg / base 00000100 / mask 0000007f 
-                elsif std_match(addr, "-------------------0--110-------") then
+                elsif std_match(addr, "-----------------00---110-------") then
 			sel := 2; -- triggerctrl / base 00000300 / mask 000007f
-                elsif std_match(addr, "-------------------1--000-------") then                  
-			sel := 3; -- adc / base 00001000 / mask 00000fff
-		elsif std_match(addr, "-------------------0--000-------") then
-			sel := 5; -- firmwareid / base 00000000 / mask 00000000 
+                elsif std_match(addr, "-----------------01-------------") then                  
+			sel := 3; -- adcData / base 00002000 / mask 00000fff
+                elsif std_match(addr, "-----------------10-------------") then                  
+			sel := 4; -- adcCtrl / base 00004000 / mask 00000fff
+		elsif std_match(addr, "-----------------11-------------") then
+			sel := 5; -- expansionIO/ base 00006000 / mask 00000fff                         
+		elsif std_match(addr, "-----------------00---000-------") then
+			sel := 6; -- firmwareid / base 00000000 / mask 00000000 
 		else
 			sel := 99;
 		end if;

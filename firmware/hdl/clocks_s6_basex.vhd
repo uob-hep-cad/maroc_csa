@@ -6,7 +6,7 @@
 -- Dave Newbold, April 2011
 --
 -- DGC , 26/March/2015 Modified original (which generated a 25MHz ipbus clock from 200MHz xtal reference)
--- $Id$
+-- change for 15.625 MHz clock to help debug timing. 9/apr/15
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -44,12 +44,14 @@ begin
 		o => clk_ipb_b
 	);
 
-      -- 125MHz input ( 8ns period ), 31.25MHz output ( 32ns )
+        -- 125MHz input ( 8ns period ), 31.25MHz output ( 32ns )
+        -- 125MHz input ( 8ns period ), 15.625MHz output ( 64ns ) --- put in to make timing clearer
 	dcm0: DCM_CLKGEN
 		generic map(
 			CLKIN_PERIOD => 8.0,
 			CLKFX_MULTIPLY => 2,
-			CLKFX_DIVIDE => 8
+			CLKFX_DIVIDE => 8 -- 31.25MHz
+         -- CLKFX_DIVIDE => 16  -- 15.625MHz
 		)
 		port map(
 			clkin => sysclk_i,
@@ -82,11 +84,12 @@ begin
 	begin
 		if rising_edge(clk_ipb_b) then
 			rst_ipb <= rst;
+			rsto_ipb <= rst_ipb; -- Delay by extrac clock cycle to give extra time for routing.
 			nuke_i <= nuke;
 		end if;
 	end process;
 	
-	rsto_ipb <= rst_ipb;
+	
 	
 	process(clki_125)
 	begin

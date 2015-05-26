@@ -56,7 +56,6 @@ end marocInterface;
 
 architecture rtl of marocInterface is
 
-  signal register_data: std_logic_vector(c_BUSWIDTH-1 downto 0);
   signal s_adcConversionStatus  : std_logic;
   signal s_adcConversionEnd  : std_logic;
   signal s_adcConversionStart  : std_logic;
@@ -70,17 +69,6 @@ architecture rtl of marocInterface is
 
 begin  -- rtl
 
-
- -- --! Slave 1: 32b register ( output from FPGA to MAROC)
- -- slave0: entity work.ipbus_reg
- --   generic map(addr_width => 0)
- --   port map(
- --     clk => ipb_clk_i,
- --     reset => rst_i,
- --     ipbus_in => ipb_in(0),
- --     ipbus_out => ipb_out(0),
- --     q => register_data
- --     );
 
   -- Slave 0: slow control shift register controller
   slave0: entity work.ipbusMarocShiftReg
@@ -128,51 +116,14 @@ begin  -- rtl
       rst_sr_n_o => rst_r_n_o
       );
 
--- Slave 2: Simple ADC controller
-  slave2: entity work.ipbusMarocADC
-    generic map(
-      g_ADDRWIDTH => 10 )
-    port map(
-
-      -- signals to IPBus
-      clk_i => ipb_clk_i,
-      reset_i  => rst_i,
- 
-      control_ipbus_i  => ipb_in(2),
-      control_ipbus_o => ipb_out(2),
-      data_ipbus_i  => ipb_in(3),
-      data_ipbus_o => ipb_out(3),
-
-      -- global reset signal
-      logic_reset_i => '0',
-      
-      -- Signals to trigger controller
-      adcStatus_o   => s_adcConversionStatus,
-      adcConversionStart_i => s_adcConversionStart,
-      triggerNumber_i => s_triggerNumber ,
-      timeStamp_i => s_timeStamp ,
-       
-      -- Signals to MAROC
-      START_ADC_N_O => START_ADC_N_O,
-      RST_ADC_N_O => RST_ADC_N_O,
-      ADC_DAV_I => ADC_DAV_I,
-      OUT_ADC_I => OUT_ADC_I
-      );
-
-  -- FIXME - this should be edge sensitive.... ir trigger generator changed to
-  -- be level sensitive.
-  s_adcConversionEnd <= s_adcConversionStatus;
-
-  -- FIXME - clk fast
-  
-  -- Slave 3: Trigger generator
-  slave3: entity work.ipbusMarocTriggerGenerator 
+  -- Slave 2: Trigger generator
+  slave2: entity work.ipbusMarocTriggerGenerator 
     port map (
       -- signals to IPBus
       clk_i => ipb_clk_i,
       reset_i  => rst_i,
-      ipbus_i  => ipb_in(4),
-      ipbus_o  => ipb_out(4),
+      ipbus_i  => ipb_in(2),
+      ipbus_o  => ipb_out(2),
 
       -- Signals to MAROC and ADC controller
       adcConversionEnd_i   => s_adcConversionEnd,
@@ -201,6 +152,48 @@ begin  -- rtl
   trigger_o    <= s_externalTrigger_o;
 --  gpio_o(5) <= s_externalTrigger_o;
 
+-- Slave 3&4: Simple ADC controller
+  slave3_4: entity work.ipbusMarocADC
+    generic map(
+      g_ADDRWIDTH => 12 )
+    port map(
+
+      -- signals to IPBus
+      clk_i => ipb_clk_i,
+      reset_i  => rst_i,
+ 
+      control_ipbus_i  => ipb_in(4),
+      control_ipbus_o => ipb_out(4),
+      data_ipbus_i  => ipb_in(3),
+      data_ipbus_o => ipb_out(3),
+
+      -- global reset signal
+      logic_reset_i => '0',
+      
+      -- Signals to trigger controller
+      adcStatus_o   => s_adcConversionStatus,
+      adcConversionStart_i => s_adcConversionStart,
+      triggerNumber_i => s_triggerNumber ,
+      timeStamp_i => s_timeStamp ,
+       
+      -- Signals to MAROC
+      START_ADC_N_O => START_ADC_N_O,
+      RST_ADC_N_O => RST_ADC_N_O,
+      ADC_DAV_I => ADC_DAV_I,
+      OUT_ADC_I => OUT_ADC_I
+      );
+
+  -- Look for adc conversion status going from high ( ADC busy ) to low ( ADC
+  -- idle ) and produce an adcConversionEnd signal. This extra step makes more
+  -- sense with multiple ADCs......
+  edgeDetect: entity work.fallingEdgeDetect
+    port map (
+      clk_i   => ipb_clk_i,
+      level_i => s_adcConversionStatus,
+      pulse_o =>  s_adcConversionEnd
+      );
+
+  -- FIXME - clk fast
 
   -- FIXME - connect combination of MAROC signals to an output
   s_tree_or(0) <= '0';

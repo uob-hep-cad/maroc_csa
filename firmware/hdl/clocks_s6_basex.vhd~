@@ -1,10 +1,11 @@
 -- clocks_s6_basex
 --
--- Generates a 25MHz ipbus clock from 200MHz xtal reference
+-- Generates a 31.25MHz ipbus clock from 125MHz xtal reference
 -- Includes reset logic for ipbus
 --
 -- Dave Newbold, April 2011
 --
+-- DGC , 26/March/2015 Modified original (which generated a 25MHz ipbus clock from 200MHz xtal reference)
 -- $Id$
 
 library ieee;
@@ -14,8 +15,7 @@ library unisim;
 use unisim.VComponents.all;
 
 entity clocks_s6_basex is port(
-		sysclk_p: in std_logic;
-		sysclk_n: in std_logic;
+		sysclk_i: in std_logic;
 		clki_125: in std_logic;
 		clko_ipb: out std_logic;
 		sysclko: out std_logic;
@@ -36,13 +36,7 @@ architecture rtl of clocks_s6_basex is
 
 begin
 
-	ibufgds0: IBUFGDS port map(
-		i => sysclk_p,
-		ib => sysclk_n,
-		o => sysclk
-	);
-		
-	sysclko <= sysclk;
+	sysclko <= sysclk_i;
 	clko_ipb <= clk_ipb_b;
 
 	bufg_ipb: BUFG port map(
@@ -50,28 +44,29 @@ begin
 		o => clk_ipb_b
 	);
 
+      -- 125MHz input ( 8ns period ), 31.25MHz output ( 32ns )
 	dcm0: DCM_CLKGEN
 		generic map(
-			CLKIN_PERIOD => 5.0,
+			CLKIN_PERIOD => 8.0,
 			CLKFX_MULTIPLY => 2,
-			CLKFX_DIVIDE => 16
+			CLKFX_DIVIDE => 8
 		)
 		port map(
-			clkin => sysclk,
+			clkin => sysclk_i,
 			clkfx => clk_ipb_i,
 			locked => dcm_locked,
 			rst => '0'
 		);
 		
 	clkdiv: entity work.clock_div port map(
-		clk => sysclk,
+		clk => sysclk_i,
 		d17 => d17,
 		d28 => onehz
 	);
 	
-	process(sysclk)
+	process(sysclk_i)
 	begin
-		if rising_edge(sysclk) then
+		if rising_edge(sysclk_i) then
 			d17_d <= d17;
 			if d17='1' and d17_d='0' then
 				rst <= nuke_d2 or not dcm_locked;

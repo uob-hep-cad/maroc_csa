@@ -56,18 +56,25 @@ ENTITY counterWithReset IS
 END counterWithReset;
 
 ARCHITECTURE rtl OF counterWithReset IS
-	SIGNAL s_result_reg : UNSIGNED ( g_COUNTER_WIDTH-1 downto 0);
+  SIGNAL s_result_reg : UNSIGNED ( g_COUNTER_WIDTH-1 downto 0);
+  signal s_reset_d1 , s_reset_d2 : std_logic := '0';
+        
 BEGIN
-	PROCESS (clock_i)
-	BEGIN
-		IF (clock_i'event AND clock_i = '1' ) THEN
-			IF (reset_i = '1') THEN
-				s_result_reg <= (others => '0');
-			ELSIF (enable_i='1') THEN
-				s_result_reg <= s_result_reg + 1;
-			END IF;
-		END IF;
-	END PROCESS;
+  PROCESS (clock_i)
+  BEGIN
+    IF rising_edge(clock_i) THEN
 
-	result_o <= STD_LOGIC_VECTOR(s_result_reg);
+      -- Put some register stages in reset to ease timing
+      s_reset_d1 <= reset_i;
+      s_reset_d2 <= s_reset_d1;
+      
+      IF (s_reset_d2 = '1') THEN
+        s_result_reg <= (others => '0');
+      ELSIF (enable_i='1') THEN
+        s_result_reg <= s_result_reg + 1;
+      END IF;
+    END IF;
+  END PROCESS;
+
+  result_o <= STD_LOGIC_VECTOR(s_result_reg);
 END rtl;		

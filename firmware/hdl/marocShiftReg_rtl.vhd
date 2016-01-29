@@ -68,6 +68,7 @@ entity marocShiftReg is
   port (
     clk_system_i : in  std_logic;   --! System clock ( probably IPBUS clock)
     rst_i        : in  std_logic;   --! active high. synchronous. Resets shift-reg controler.
+    rst_before_shift_n_i : in  std_logic;   --! if low shift reg is reset before shifting in new data.
     start_p_i      : in  std_logic;   --! take high for one cycle to initiate serial transer to MAROC;
 
     --! Data to be written to MAROC shift reg. Integer number of IPBus words wide.
@@ -134,6 +135,7 @@ architecture rtl of marocShiftReg is
       clk_system_i      : in std_logic;
       rst_i             : in std_logic;  --! Take high to reset state machine.
       sr_clk_rising_p_i : in std_logic;  --! Goes high on rising edge of shift-reg clock
+      rst_before_shift_n_i : in  std_logic;   --! if low shift reg is reset before shifting in new data.
       start_p_i         : in std_logic;
       rst_sr_n_o        : out std_logic;  --! reset to MAROC SR
       load_sr_o         : out std_logic;
@@ -194,6 +196,7 @@ begin  -- rtl
       clk_system_i      => clk_system_i,
       rst_i             => rst_i,
       sr_clk_rising_p_i => s_clk_sr_rising_p ,
+      rst_before_shift_n_i =>     rst_before_shift_n_i,
       start_p_i         => start_p_i,
       rst_sr_n_o        => rst_sr_n_o,
       load_sr_o         => s_load_sr,

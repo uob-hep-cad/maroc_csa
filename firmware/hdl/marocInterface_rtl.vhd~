@@ -5,9 +5,14 @@ use IEEE.numeric_std.ALL;
 use work.ipbus.ALL;
 use work.maroc.all;
 
+--! Xilinx primitives
+LIBRARY UNISIM;
+USE UNISIM.vcomponents.all;
+
+
 entity marocInterface is
   generic (
-    g_NSLAVES : positive := 5);  -- number of IPBus slaves inside the maroc interface.
+    g_NSLAVES : positive := 6);  -- number of IPBus slaves inside the maroc interface.
   port (
 
     -- Interface to IPBus
@@ -51,7 +56,6 @@ end marocInterface;
 
 architecture rtl of marocInterface is
 
-  signal register_data: std_logic_vector(c_BUSWIDTH-1 downto 0);
   signal s_adcConversionStatus  : std_logic;
   signal s_adcConversionEnd  : std_logic;
   signal s_adcConversionStart  : std_logic;
@@ -59,23 +63,13 @@ architecture rtl of marocInterface is
   signal s_triggerNumber : std_logic_vector(c_BUSWIDTH-1 downto 0);
   signal s_timeStamp : std_logic_vector(c_BUSWIDTH-1 downto 0);
 
-  
+  signal ck_40m : std_logic := '0'; -- internal MAROC clock.
+
 begin  -- rtl
 
 
- -- --! Slave 1: 32b register ( output from FPGA to MAROC)
- -- slave0: entity work.ipbus_reg
- --   generic map(addr_width => 0)
- --   port map(
- --     clk => ipb_clk_i,
- --     reset => rst_i,
- --     ipbus_in => ipb_in(0),
- --     ipbus_out => ipb_out(0),
- --     q => register_data
- --     );
-
-  -- Slave 1: slow control shift register controller
-  slave1: entity work.ipbusMarocShiftReg
+  -- Slave 0: slow control shift register controller
+  slave0_sc_control: entity work.ipbusMarocShiftReg
     generic map(
       g_NBITS    => 829,  --! Number of bits to shift out to MAROC
       g_NWORDS   => c_NWORDS,    --! Number of words in IPBUS space to store data
@@ -97,8 +91,8 @@ begin  -- rtl
       rst_sr_n_o => rst_sc_n_o
       );
 
-  -- Slave 2: "R" register shift register controller
-  slave2: entity work.ipbusMarocShiftReg
+  -- Slave 1: "R" register shift register controller
+  slave1_r_control: entity work.ipbusMarocShiftReg
     generic map(
       g_NBITS    => 128,  --! Number of bits to shift out to MAROC
       g_NWORDS   => c_NWORDS,    --! Number of words in IPBUS space to store data
@@ -120,51 +114,14 @@ begin  -- rtl
       rst_sr_n_o => rst_r_n_o
       );
 
--- Slave 3: Simple ADC controller
-  slave3: entity work.ipbusMarocADC
-    generic map(
-      g_ADDRWIDTH => 10 )
-    port map(
-
-      -- signals to IPBus
-      clk_i => ipb_clk_i,
-      reset_i  => rst_i,
- 
-      control_ipbus_i  => ipb_in(2),
-      control_ipbus_o => ipb_out(2),
-      data_ipbus_i  => ipb_in(3),
-      data_ipbus_o => ipb_out(3),
-
-      -- global reset signal
-      logic_reset_i => '0',
-      
-      -- Signals to trigger controller
-      adcStatus_o   => s_adcConversionStatus,
-      adcConversionStart_i => s_adcConversionStart,
-      triggerNumber_i => s_triggerNumber ,
-      timeStamp_i => s_timeStamp ,
-       
-      -- Signals to MAROC
-      START_ADC_N_O => START_ADC_N_O,
-      RST_ADC_N_O => RST_ADC_N_O,
-      ADC_DAV_I => ADC_DAV_I,
-      OUT_ADC_I => OUT_ADC_I
-      );
-
-  -- FIXME - this should be edge sensitive.... ir trigger generator changed to
-  -- be level sensitive.
-  s_adcConversionEnd <= s_adcConversionStatus;
-
-  -- FIXME - clk fast
-  
-  -- Slave 4: Trigger generator
-  slave4: entity work.ipbusMarocTriggerGenerator 
+  -- Slave 2: Trigger generator
+  slave2_trigger: entity work.ipbusMarocTriggerGenerator 
     port map (
       -- signals to IPBus
       clk_i => ipb_clk_i,
       reset_i  => rst_i,
-      ipbus_i  => ipb_in(4),
-      ipbus_o  => ipb_out(4),
+      ipbus_i  => ipb_in(2),
+      ipbus_o  => ipb_out(2),
 
       -- Signals to MAROC and ADC controller
       adcConversionEnd_i   => s_adcConversionEnd,
@@ -193,15 +150,88 @@ begin  -- rtl
   trigger_o    <= s_externalTrigger_o;
 --  gpio_o(5) <= s_externalTrigger_o;
 
+-- Slave 3&4: Simple ADC controller
+  slave3_4_adc: entity work.ipbusMarocADC
+    generic map(
+      g_ADDRWIDTH => 12 )
+    port map(
 
-  -- FIXME - for now, just wire up any old signal to an OBUFDS
-  -- to get correct signal type for CK_40M
+      -- signals to IPBus
+      clk_i => ipb_clk_i,
+      reset_i  => rst_i,
+ 
+      control_ipbus_i  => ipb_in(4),
+      control_ipbus_o => ipb_out(4),
+      data_ipbus_i  => ipb_in(3),
+      data_ipbus_o => ipb_out(3),
+
+      -- global reset signal
+      logic_reset_i => '0',
+      
+      -- Signals to trigger controller
+      adcStatus_o   => s_adcConversionStatus,
+      adcConversionStart_i => s_adcConversionStart,
+      triggerNumber_i => s_triggerNumber ,
+      timeStamp_i => s_timeStamp ,
+       
+      -- Signals to MAROC
+      START_ADC_N_O => START_ADC_N_O,
+      RST_ADC_N_O => RST_ADC_N_O,
+      ADC_DAV_I => ADC_DAV_I,
+      OUT_ADC_I => OUT_ADC_I
+      );
+
+  -- Look for adc conversion status going from high ( ADC busy ) to low ( ADC
+  -- idle ) and produce an adcConversionEnd signal. This extra step makes more
+  -- sense with multiple ADCs......
+  edgeDetect: entity work.fallingEdgeDetect
+    port map (
+      clk_i   => ipb_clk_i,
+      level_i => s_adcConversionStatus,
+      pulse_o =>  s_adcConversionEnd
+      );
+
+  -- FIXME - clk fast
+
+  slave5_triggerCounter : entity work.ipbusCounters
+    generic map (
+      g_DATAWIDTH => 32,
+      g_ADDRWIDTH => 6 --! 64 counters
+      )
+    port map (
+      counter_clk_i => clk_fast_i,
+      triggers_i => maroc_trigger_i,
+      
+      -- signals to IPBus
+      ipb_clk_i => ipb_clk_i,
+      reset_i  => rst_i,
+      ipbus_i  => ipb_in(5),
+      ipbus_o  => ipb_out(5)
+      );
+
+    
+  -- For now use IPBus clock as MAROC clock
   ck_40m_obuf : OBUFDS
     port map (
-      I  => s_externalTrigger_o,
-      O  =>  CK_40M_P_O,
+      I  => CK_40M,
+      O  => CK_40M_P_O,
       OB => CK_40M_N_O
       );
-  
+
+  -- Use a DDR output register to get from clock net onto output. 
+  maroc_clock_buf  : ODDR2
+    port map (
+      Q => CK_40M, -- 1-bit output data
+      C0 => ipb_clk_i , -- 1-bit clock input
+      C1 => not ipb_clk_i , -- 1-bit clock input
+      CE => '1',  -- 1-bit clock enable input
+      D0 => '0',   -- 1-bit data input (associated with C0)
+      D1 => '1',   -- 1-bit data input (associated with C1)
+      R => '0',    -- 1-bit reset input
+      S => '0'     -- 1-bit set input
+      );
+
+
+  EN_OTAQ_O <= '1';
   
 end rtl;

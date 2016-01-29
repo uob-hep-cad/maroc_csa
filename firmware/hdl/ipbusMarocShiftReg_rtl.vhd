@@ -22,6 +22,7 @@ use work.ipbus.all;
 --! addresses 0x00 - 0x1F : data to be written to MAROC ( r/w )\n
 --! addresses 0x20 - 0x3F : data returned from MAROC ( ro )\n
 --! address   0x40        : control/status. Writing to bit-0 starts transfer.
+--!                         Setting bit-0 to zero resets sr before shifting.  
 --! Reading bit-0 returns high if transfer is in progress\n
 --
 --! @author David Cussans , David.Cussans@bristol.ac.uk
@@ -85,6 +86,7 @@ architecture rtl of ipbusMarocShiftReg is
   signal s_ack: std_logic;
 
   signal s_start_p : std_logic := '0';  --! Control signal to shift reg controller. Take high for one cycle to start transfer
+  signal s_reset_sr_n : std_logic := '0'; --! Set to zero to reset shift register before clocking in values.
   signal s_status : std_logic ;  --! From shift reg controller. Goes high while transfer in progress
 
   signal s_data_to_maroc , s_data_from_maroc : std_logic_vector( (g_NWORDS*g_BUSWIDTH)-1 downto 0) := (others => '0');  --! register storing data going to/from MAROC shift reg.
@@ -143,7 +145,8 @@ begin
       if ipbus_i.ipb_strobe='1' and ipbus_i.ipb_write='1' and
         ipbus_i.ipb_addr(g_ADDRWIDTH+1)='1' 
       then
-        s_start_p <= ipbus_i.ipb_wdata(0) ;
+        s_start_p <= '1';
+        s_reset_sr_n <= ipbus_i.ipb_wdata(0) ;
       else
         s_start_p <= '0';
       end if;
@@ -168,6 +171,7 @@ begin
     PORT MAP (
       clk_system_i => clk_i,
       rst_i => reset_i,
+      rst_before_shift_n_i => s_reset_sr_n ,
       start_p_i => s_start_p,
       data_i => s_data_to_maroc,
       data_o => s_data_from_maroc,

@@ -56,6 +56,7 @@ entity marocShiftRegFSM is
       clk_system_i      : in std_logic;
       rst_i             : in std_logic;  --! Take high to reset state machine.
       sr_clk_rising_p_i : in std_logic;  --! Goes high on rising edge of shift-reg clock
+      rst_before_shift_n_i : in  std_logic;   --! if low shift reg is reset before shifting in new data.
       start_p_i         : in std_logic;
       rst_sr_n_o        : out std_logic;  --! reset to MAROC SR
       load_sr_o         : out std_logic;
@@ -185,9 +186,9 @@ begin  -- rtl
   end process p_startJK;
   
   --! Set output signals on basis of state
-  rst_sr_n_o <= '0' when s_state = RESETTING else '1';  --! reset to MAROC goes low when state=resetting
+  rst_sr_n_o <= rst_before_shift_n_i when s_state = RESETTING else '1';  --! reset to MAROC goes low when state=resetting
 
-  load_sr_o <= '1' when s_state = RESETTING else '0';  --! load shift-reg whilerst is low
+  load_sr_o <= '1' when s_state = RESETTING else '0';  --! load shift-reg while rst is low
 
   enable_sr_clk_o <= '1' when s_state = SHIFTINGOUT  else '0';
   

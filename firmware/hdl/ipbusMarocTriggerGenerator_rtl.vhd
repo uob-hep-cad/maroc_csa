@@ -18,7 +18,9 @@ use work.ipbus.all;
 ------------------------------------------------------------------------------- --
 -- unit name: ipbusMarocTriggerGenerator_rtl (ipbusMarocTriggerGenerator / rtl)
 --
---! @brief Interfaces between IPBus and Maroc TriggerGenerator\n
+--! @brief Interfaces between IPBus and Maroc TriggerGenerator
+--
+--! @details
 --! Addresses ( with respect to base address)\n
 --! 0x00 : Status register. Writing 1 to bit-0 resets trigger and timestamp counters\n
 --! 0x01 : Manual trigger register. Write 1 to bit 0 to cause internal trigger\n
@@ -34,8 +36,6 @@ use work.ipbus.all;
 --! @date 21\1\2012
 --
 --! @version v0.1
---
---! @details
 --!
 --!
 --! <b>Dependencies:</b>\n

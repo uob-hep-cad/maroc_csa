@@ -12,7 +12,7 @@ USE UNISIM.vcomponents.all;
 
 entity marocInterface is
   generic (
-    g_NSLAVES : positive := 5);  -- number of IPBus slaves inside the maroc interface.
+    g_NSLAVES : positive := 6);  -- number of IPBus slaves inside the maroc interface.
   port (
 
     -- Interface to IPBus
@@ -33,7 +33,7 @@ entity marocInterface is
     CK_40M_N_O: out STD_LOGIC;
     HOLD2_O: out STD_LOGIC;
     HOLD1_O: out STD_LOGIC;
-    OR_I: in STD_LOGIC_VECTOR(1 downto 0);
+    OR_I: in STD_LOGIC_VECTOR(2 downto 1);
     MAROC_TRIGGER_I: in std_logic_vector(63 downto 0);
     EN_OTAQ_O: out STD_LOGIC;
     CTEST_O: out STD_LOGIC_VECTOR(5 downto 0); -- 4-bit R/2R DAC
@@ -63,15 +63,13 @@ architecture rtl of marocInterface is
   signal s_triggerNumber : std_logic_vector(c_BUSWIDTH-1 downto 0);
   signal s_timeStamp : std_logic_vector(c_BUSWIDTH-1 downto 0);
 
-  signal s_tree_or : std_logic_vector( maroc_trigger_i'left+1 downto 0);
-
   signal ck_40m : std_logic := '0'; -- internal MAROC clock.
 
 begin  -- rtl
 
 
   -- Slave 0: slow control shift register controller
-  slave0: entity work.ipbusMarocShiftReg
+  slave0_sc_control: entity work.ipbusMarocShiftReg
     generic map(
       g_NBITS    => 829,  --! Number of bits to shift out to MAROC
       g_NWORDS   => c_NWORDS,    --! Number of words in IPBUS space to store data
@@ -94,7 +92,7 @@ begin  -- rtl
       );
 
   -- Slave 1: "R" register shift register controller
-  slave1: entity work.ipbusMarocShiftReg
+  slave1_r_control: entity work.ipbusMarocShiftReg
     generic map(
       g_NBITS    => 128,  --! Number of bits to shift out to MAROC
       g_NWORDS   => c_NWORDS,    --! Number of words in IPBUS space to store data
@@ -117,7 +115,7 @@ begin  -- rtl
       );
 
   -- Slave 2: Trigger generator
-  slave2: entity work.ipbusMarocTriggerGenerator 
+  slave2_trigger: entity work.ipbusMarocTriggerGenerator 
     port map (
       -- signals to IPBus
       clk_i => ipb_clk_i,
@@ -140,8 +138,8 @@ begin  -- rtl
       externalTrigger_o    => s_externalTrigger_o,
 
       -- Signals to MAROC
-      or1_a_i              => OR_I(0),
-      or2_a_i              => OR_I(1),
+      or1_a_i              => OR_I(1),
+      or2_a_i              => OR_I(2),
       hold1_o              => hold1_o  ,
       hold2_o              => hold2_o  ,
 
@@ -153,7 +151,7 @@ begin  -- rtl
 --  gpio_o(5) <= s_externalTrigger_o;
 
 -- Slave 3&4: Simple ADC controller
-  slave3_4: entity work.ipbusMarocADC
+  slave3_4_adc: entity work.ipbusMarocADC
     generic map(
       g_ADDRWIDTH => 12 )
     port map(
@@ -195,13 +193,23 @@ begin  -- rtl
 
   -- FIXME - clk fast
 
-  -- FIXME - connect combination of MAROC signals to an output
-  s_tree_or(0) <= '0';
-  gen_maroc_or: for i in maroc_trigger_i'range generate
-    s_tree_or(i+1) <= s_tree_or(i) or maroc_trigger_i(i);
-  end generate gen_maroc_or;
-  
+  slave5_triggerCounter : entity work.ipbusCounters
+    generic map (
+      g_DATAWIDTH => 32,
+      g_ADDRWIDTH => 6 --! 64 counters
+      )
+    port map (
+      counter_clk_i => clk_fast_i,
+      triggers_i => maroc_trigger_i,
+      
+      -- signals to IPBus
+      ipb_clk_i => ipb_clk_i,
+      reset_i  => rst_i,
+      ipbus_i  => ipb_in(5),
+      ipbus_o  => ipb_out(5)
+      );
 
+    
   -- For now use IPBus clock as MAROC clock
   ck_40m_obuf : OBUFDS
     port map (

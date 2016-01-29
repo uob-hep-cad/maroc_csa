@@ -7,6 +7,7 @@ files = [
 #    "clocks_s6_extclk.vhd" ,
     "clocks_s6_basex.vhd" ,
     "counterWithReset_rtl.vhd" ,
+    "ipbusCounters_rtl.vhd",
     "fineTimeStamp_rtl.vhd" ,
     "marocTriggerGenerator_rtl.vhd" ,
 #    "generate_test_signals.vhd" ,
@@ -32,6 +33,10 @@ files = [
     "singleFineTimeStamp_rtl.vhd" ,
     "stretchPulse_rtl.vhd" ,
     "timeStampDPRAM_rtl.vhd",
+    "fallingEdgeDetect_rtl.vhd",
+    "risingEdgeDetect_rtl.vhd",
 #    "dpram.vhdl" , 
-    "ipbusDPRAM.vhdl"
+    "ipbusDPRAM.vhdl",
+    "synchronizeRegisters_rtl.vhd",
+    "i2c_master_rtl.vhd"
          ]

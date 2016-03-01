@@ -26,9 +26,13 @@ print "Firmware = " , hex(firmwareID)
 
 marocSC = MarocSC.MarocSC()
 
-marocSC.setFlagValue("ON/OFF_dac",1)
+#marocSC.setFlagValue("ON/OFF_dac",1)
+marocSC.setParameterValue("DAC",[650,450])
+marocSC.setFlagValue("d1_d2",0)
+marocSC.setFlagValue("cmd_fsb_fsu",1) # Select FSU 
+marocSC.setParameterValue("mask_OR",0x3,54) # Mask hot channel
 
-SCData = marocSC.getLocalWordArray()
+SCData = marocSC.getWordArray()
 
 print SCData
 
@@ -38,7 +42,7 @@ board.blockWrite("scSrDataOut",SCData)
 scdata0 = board.blockRead("scSrDataOut",len(SCData))
 print "SC SR words to write = " , scdata0
 
-writeWithReset = 0
+writeWithReset = 1
 writeNoReset = 1
 
 if writeWithReset:

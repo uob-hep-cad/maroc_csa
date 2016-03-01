@@ -1,0 +1,105 @@
+#
+# Python class to read ADC data from readout thread and unpack into ADC values.
+#
+import logging
+from marocLogging import marocLogging
+
+# NB. binstr isn't a standard Python library. Install from
+# https://pypi.python.org/pypi/binstr/1.3
+import binstr
+
+from PyChipsUser import *
+
+import threading
+
+import time
+
+import Queue
+
+class MarocUnpackingThread(threading.Thread):
+    """Class with functions that can read unpack raw MAROC3 ADC data and pack into an array of integers. Inherits from threading class, so has a 'start' method"""
+    def __init__(self, threadID, name , rawDataQueue , unpackedDataQueue , debugLevel=logging.DEBUG ):
+        threading.Thread.__init__(self)
+        self.threadID = threadID
+        self.name = name
+        self.rawDataQueue = rawDataQueue
+        self.unpackedDataQueue = unpackedDataQueue
+        self.debugLevel = debugLevel
+        self.logger = logging.getLogger(__name__)
+
+    def run(self):
+
+        marocLogging(self.logger,self.debugLevel)
+
+        self.logger.info( "Starting thread" )
+
+        unpack_maroc_data(self.name, self.rawDataQueue , self.unpackedDataQueue , self.logger)
+
+        self.logger.info( "Ending thread" )
+
+
+
+def int2bin(n):
+	'From positive integer to list of binary bits, msb at index 0'
+	if n:
+		bits = []
+		while n:
+			n,remainder = divmod(n, 2)
+			bits.insert(0, remainder)
+		return bits
+	else: return [0]
+  
+def bin2int(bits):
+	'From binary bits, msb at index 0 to integer'
+	i = 0
+	for bit in bits:
+		i = i * 2 + bit
+	return i
+
+def gray2bin(bits):
+	b = [bits[0]]
+	for nextb in bits[1:]: b.append(b[-1] ^ nextb)
+	return b
+
+def greyIntToInt(greyInt):
+        greyBin = int2bin(greyInt)
+        normalBin = gray2bin(greyBin)
+        return bin2int(normalBin)
+
+exitFlag = 0
+def unpack_maroc_data(name, rawDataQueue , unpackedDataQueue , logger):
+    
+    while not exitFlag:
+        adcData = rawDataQueue.get()
+        logger.debug("Read data from raw data queue = \n%s"%( '  , '.join([format(i,'08x') for i in adcData ]) ))
+
+        nBits = 12
+        busWidth = 32
+        nADC = 64
+        adcDataSize = 26
+        logger.info("event number , time-stamp , event size = %i %i %i"%( adcData[0],adcData[1],len(adcData)))
+                      
+        #assert adcDataSize == len(adcData)
+        
+        unpackedData = [adcData[0],adcData[1]] # fill first and second words with trigger number and timestamp
+        
+        for adcNumber in range(0 , nADC) :
+	    lowBit = adcNumber*nBits
+	    lowWord = (adcDataSize-1) - (lowBit /busWidth)  # rounds to integer
+	    lowBitPos = lowBit % busWidth
+	
+	    if adcNumber > (nADC-3): # for adc's 62,63
+	        longWord = adcData[lowWord]
+	    else:
+	        longWord = adcData[lowWord] + (adcData[lowWord-1] << busWidth)
+
+	    adcValue = 0x0FFF & (longWord >> lowBitPos)
+
+            adcValueBin = greyIntToInt(adcValue)
+
+            unpackedData.append(adcValueBin)
+
+        logger.debug("Unpacked data = \n%s"%( '  , '.join([format(i,'08x') for i in unpackedData ]) ))
+            
+        unpackedDataQueue.put(unpackedData)
+        

@@ -5,7 +5,7 @@
 
 from PyChipsUser import *
 
-import sys
+import sys , time
 from optparse import OptionParser
 
 
@@ -27,14 +27,18 @@ print "Firmware = " , hex(firmwareID)
 
 
 nChan = 64
+oldTriggerCounterVals = nChan*[0]
 
-#trigCounters = board.blockRead("trigCounterBase", nChan )
-for chan in range(0 , nChan) :
-	trigCounterVal = board.read("trigCounterBase", nChan )
-	print "chan, count = " , chan , trigCounterVal
+looping = True
+tSleep = 1.0
+
+while looping:
+	trigCounterVals = board.blockRead("trigCounterBase", nChan )
+	for chan in range(0 , nChan) :
+		delta = trigCounterVals[chan] - oldTriggerCounterVals[chan]
+		print "chan, count , delta = " , chan , trigCounterVals[chan] , delta
+	oldTriggerCounterVals = trigCounterVals
+	time.sleep(tSleep)
 
 #board.blockWrite("trigCounterBase", nChan*[0] )
 
-#trigCounters = board.blockRead("trigCounterBase", nChan )
-#for chan in range(0 , nChan) :
-#	print "chan, count = " , chan , trigCounters[chan]

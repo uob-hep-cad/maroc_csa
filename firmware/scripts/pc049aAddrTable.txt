@@ -1,0 +1,35 @@
+*RegName                RegAddr        RegMask       R    W
+*-------------------------------------------------------------
+FirmwareId              0x00000000     0xffffffff    1    0
+*-------------------------------------------------------------
+scSrDataOut		0x00000080     0xffffffff    1    1
+scSrDataIn		0x000000A0     0xffffffff    1    0
+scSrCtrl		0x000000C0     0xffffffff    1    1
+*-------------------------------------------------------------
+rSrDataOut		0x00000100     0xffffffff    1    1
+rSrDataIn		0x00000120     0xffffffff    1    0
+rSrCtrl			0x00000140     0xffffffff    1    1
+*-------------------------------------------------------------
+adc0Data		0x00002000     0xffffffff    1    0
+adc0Ctrl		0x00004000     0xffffffff    1    1
+adc0BitCount		0x00004001     0xffffffff    1    0
+adc0WritePointer	0x00004002     0xffffffff    1    0
+adc0TestLocation	0x00004003     0xffffffff    1    0
+*-------------------------------------------------------------
+trigStatus		0x00000300     0xffffffff    1    1
+trigManualTrigger	0x00000301     0xffffffff    0    1
+trigHold1Delay		0x00000302     0xffffffff    1    1
+trigHold2Delay		0x00000303     0xffffffff    1    1
+trigSourceSelect	0x00000304     0xffffffff    1    1
+*-------------------------------------------------------------
+trigCounterBase		0x00006000     0xffffffff    1    1
+*-------------------------------------------------------------
+* I2C = 0x0000A000
+i2c_pre_lo                0x0000A000     0x000000ff    1    1
+i2c_pre_hi                0x0000A001     0x000000ff    1    1
+i2c_ctrl                  0x0000A002     0x000000ff    1    1
+i2c_tx                    0x0000A003     0x000000ff    0    1
+i2c_rx                    0x0000A003     0x000000ff    1    0
+i2c_cmd                   0x0000A004     0x000000ff    0    1
+i2c_status                0x0000A004     0x000000ff    1    0
+*

@@ -36,19 +36,26 @@ class MarocHistogrammingThread(threading.Thread):
 
         while not exitFlag:
 
-            unpackedAdcData = self.unpackedDataQueue.get()
-            self.logger.debug("Read data from unpacked data queue = \n%s"%( '  , '.join([format(i,'08x') for i in unpackedAdcData ]) ))
+            unpackedData = self.unpackedDataQueue.get()
+            if len(unpackedData) == 1:
+                self.logger.info("Swallowed poison pill from readout thread.")
+                exitFlag = True
+                continue
 
-            self.logger.debug("event size = %i"%( len(unpackedAdcData)))
-                      
-            eventNumber = unpackedAdcData.pop(0)
-            timeStamp =  unpackedAdcData.pop(0)
+        
+            [ eventNumber , timeStamp , AdcData ] = unpackedData
 
             self.logger.info("Event number , timestamp = %i %i "%(eventNumber, timeStamp))
+            self.logger.debug("Read ADC data from unpacked data queue = \n%s"%( '  , '.join([format(i,'08x') for i in AdcData ]) ))
 
-            self.histogramObject.fillHistograms(eventNumber,timeStamp,unpackedAdcData)
+            self.logger.debug("event size = %i"%( len(AdcData)))
+                      
+            #eventNumber = unpackedAdcData.pop(0)
+            #timeStamp =  unpackedAdcData.pop(0)
+
+            self.histogramObject.fillHistograms(eventNumber,timeStamp,AdcData)
         
-        print "Exiting " + self.name
+        self.logger.info( "Ending thread" )
 
 
         

@@ -16,14 +16,17 @@ import time
 
 import Queue
 
+import array
+
 class MarocUnpackingThread(threading.Thread):
     """Class with functions that can read unpack raw MAROC3 ADC data and pack into an array of integers. Inherits from threading class, so has a 'start' method"""
-    def __init__(self, threadID, name , rawDataQueue , unpackedDataQueue , debugLevel=logging.DEBUG ):
+    def __init__(self, threadID, name , rawDataQueue , recordingDataQueue, histogramDataQueue , debugLevel=logging.DEBUG ):
         threading.Thread.__init__(self)
         self.threadID = threadID
         self.name = name
         self.rawDataQueue = rawDataQueue
-        self.unpackedDataQueue = unpackedDataQueue
+        self.recordingDataQueue = recordingDataQueue
+        self.histogramDataQueue = histogramDataQueue
         self.debugLevel = debugLevel
         self.logger = logging.getLogger(__name__)
 
@@ -33,7 +36,7 @@ class MarocUnpackingThread(threading.Thread):
 
         self.logger.info( "Starting thread" )
 
-        unpack_maroc_data(self.name, self.rawDataQueue , self.unpackedDataQueue , self.logger)
+        unpack_maroc_data(self.name, self.rawDataQueue , self.recordingDataQueue , self.histogramDataQueue , self.logger)
 
         self.logger.info( "Ending thread" )
 
@@ -66,13 +69,19 @@ def greyIntToInt(greyInt):
         normalBin = gray2bin(greyBin)
         return bin2int(normalBin)
 
-exitFlag = 0
-def unpack_maroc_data(name, rawDataQueue , unpackedDataQueue , logger):
-    
+
+def unpack_maroc_data(name, rawDataQueue , recordingDataQueue, histogramDataQueue , logger):
+
+    exitFlag = False
     while not exitFlag:
         adcData = rawDataQueue.get()
         logger.debug("Read data from raw data queue = \n%s"%( '  , '.join([format(i,'08x') for i in adcData ]) ))
 
+        if len(adcData) == 1:
+            logger.info("Swallowed poison pill from readout thread.")
+            exitFlag = True
+            continue
+        
         nBits = 12
         busWidth = 32
         nADC = 64
@@ -80,9 +89,10 @@ def unpack_maroc_data(name, rawDataQueue , unpackedDataQueue , logger):
         logger.info("event number , time-stamp , event size = %i %i %i"%( adcData[0],adcData[1],len(adcData)))
                       
         #assert adcDataSize == len(adcData)
-        
-        unpackedData = [adcData[0],adcData[1]] # fill first and second words with trigger number and timestamp
-        
+        unpackedAdcData = array.array('H')
+        eventNumber = adcData[0]
+        eventTimeStamp = adcData[1]
+                
         for adcNumber in range(0 , nADC) :
 	    lowBit = adcNumber*nBits
 	    lowWord = (adcDataSize-1) - (lowBit /busWidth)  # rounds to integer
@@ -97,9 +107,23 @@ def unpack_maroc_data(name, rawDataQueue , unpackedDataQueue , logger):
 
             adcValueBin = greyIntToInt(adcValue)
 
-            unpackedData.append(adcValueBin)
+            unpackedAdcData.append(adcValueBin)
 
-        logger.debug("Unpacked data = \n%s"%( '  , '.join([format(i,'08x') for i in unpackedData ]) ))
-            
-        unpackedDataQueue.put(unpackedData)
-        
+        logger.debug("Event number, timestamp, Unpacked ADC data = %i %i \n%s"%( eventNumber, eventTimeStamp , '  , '.join([format(i,'08x') for i in unpackedAdcData ]) ))
+
+        unpackedData = [eventNumber, eventTimeStamp, unpackedAdcData]
+
+        # Push the data to histogramming
+        # only push data if the queue has space in it
+        if not histogramDataQueue.full():
+            histogramDataQueue.put(unpackedData)
+
+        # Push data to recording.
+        recordingDataQueue.put(unpackedData)
+
+    poisonPill = [-1]
+    histogramDataQueue.put(poisonPill)
+    logger.info("Fed poison pill to histogrammer")
+    recordingDataQueue.put(poisonPill)
+    logger.info("Fed poison pill to data recorder")
+    

@@ -36,20 +36,14 @@ class MarocRecordingThread(threading.Thread):
         while not exitFlag:
 
             unpackedData = self.unpackedDataQueue.get()
-            
-            if len(unpackedData) == 1:
-                self.logger.info("Swallowed poison pill from unpacking thread.")
-                exitFlag = True
-                continue
-        
             [ eventNumber , timeStamp , unpackedAdcData ] = unpackedData
 
-            self.logger.debug("Read ADC data from unpacked data queue event number , timestamp, ADC-data = %i %i \n%s"%( (eventNumber, timeStamp , '  , '.join([format(i,'08x') for i in unpackedAdcData ]) )))
+            self.logger.debug("Read ADC data from unpacked data queue event number , timestamp, ADC-data = %i %i \n%s"%( (eventNumber, timeStamp , '  , '.join([format(i,'08x') for i in AdcData ]) )))
+
+            #self.logger.debug("Read unpacked data from unpacked data queue = \n%s"%( '  , '.join([format(i,'08x') for i in unpackedAdcData ]) ))
 
             self.logger.debug("event size = %i"%( len(unpackedAdcData)))
                       
             self.fileObject.writeEvent(eventNumber,timeStamp,unpackedAdcData)
 
-        self.fileObject.closeFile()
-        
         self.logger.info( "Ending thread" )

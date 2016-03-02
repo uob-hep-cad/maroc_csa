@@ -4,14 +4,10 @@
 
 
 from ROOT import TFile, TTree
-from array import array
-
-from time import sleep , time
+from ROOT import gROOT
 
 import logging
 from marocLogging import marocLogging
-
-from array import array
 
 class MarocRecording(object):
 
@@ -24,31 +20,42 @@ class MarocRecording(object):
 
         self.fileName = fileName
         self.fileHandle = TFile( fileName, 'RECREATE' )
-        
+
+        gROOT.ProcessLine(
+            "struct ADCStruct {\
+            UInt_t     fMarocEventNumber;\
+            UInt_t     fMarocTimeStamp;\
+            UShort_t  fMarocAdcData[64];\
+            };" );
+
+        from ROOT import ADCStruct
+        self.adcStruct = ADCStruct()
+
         # Create a root "tree"
         self.rootTree = TTree( 'T', 'Maroc ADC Data' )
 
-        self.eventNumber = array( 'l' , [0] )
-        self.timeStamp   = array( 'l' , [0] )
-        self.adcData     = array( 's' , self.nADC*[0] )
+        self.rootTree.Branch( 'marocEventHeader'  , self.adcStruct  , "EventNumber/I:TimeStamp/I:ADCData[64]/s")
         
-        # create a branch for each piece of data
-        tree.Branch( 'marocEventNumber'  , self.eventNumber  , "EventNumber/l") 
-        tree.Branch( 'marocTimeStamp'    , self.timeStamp    , "TimeStamp/l")
-        tree.Branch( 'marcoADCData'      , self.adcData      , "ADCData[64]/s")
-        
-    def writeEvent( self, eventNumber, timeStamp , ADCData ):
+    def writeEvent( self, eventNumber, timeStamp , adcData ):
         """Write an event to ROOT file"""
-        self.eventNumber = eventNumber
-        self.timeStamp = timeStamp
-        self.adcData = ADCData
 
+        # copy data into ROOT data-structure
+        # This is a Nasty, Nasty hack. Improve when possible. This is just copying data.....
+        
+        self.adcStruct.fMarocEventNumber = eventNumber
+        self.adcStruct.fMarocTimeStamp    = timeStamp
+        for idx in range(64):
+            self.adcStruct.fMarocAdcData[idx] = adcData[idx]
+
+        self.logger.debug("event number, timestamp = %i %i "%(self.adcStruct.fMarocEventNumber , self.adcStruct.fMarocTimeStamp))
+        
         self.rootTree.Fill()
-        self.fileHandle.Write()
 
 
     def closeFile( self ):
+        """Flush data to file and close file"""
         
         self.logger.info("Closing ROOT file %s"%(self.fileName))
+        self.fileHandle.Write()
         self.fileHandle.Close()
         

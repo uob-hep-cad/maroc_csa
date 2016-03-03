@@ -34,6 +34,8 @@ parser.add_option("-o", dest = 'outputFile' , default = 'marocTimeStamps.root' )
 
 parser.add_option("-n" , dest = 'numTriggers' , default = 1000 )
 
+parser.add_option("-c" , dest = 'configFile' , default = 'testADC_marocSC.csv' )
+
 (options, args) = parser.parse_args()
 
 logger.info("IP address = %s"%( options.ipAddress))
@@ -49,10 +51,10 @@ board = ChipsBusUdp(bAddrTab,options.ipAddress,50001)
 
 firmwareID = board.read("FirmwareId")
 
-print "Firmware ID = " , hex(firmwareID)
+logger.info("Firmware ID = %s" % (hex(firmwareID)))
 
 # Create object with configuration information - in the long run this should be done in a separate thread with a GUI
-marocConfiguration = MarocConfiguration.MarocConfiguration(board,debugLevel=logging.DEBUG)
+marocConfiguration = MarocConfiguration.MarocConfiguration(board,configurationFile = options.configFile , debugLevel=logging.DEBUG)
 
 
 rawDataQueue = Queue.Queue()
@@ -69,10 +71,16 @@ unpackerThread = MarocUnpackingThread.MarocUnpackingThread(2,"unpackingThread",r
 
 histogramThread = MarocHistogrammingThread.MarocHistogrammingThread(3,"histogrammingThread",histogramDataQueue,debugLevel=logging.INFO)
 
-recordingThread = MarocRecordingThread.MarocRecordingThread(3,"recordingThread",recordingDataQueue,fileName=options.outputFile, debugLevel=logging.DEBUG)
+recordingThread = MarocRecordingThread.MarocRecordingThread(3,"recordingThread",recordingDataQueue,fileName=options.outputFile, debugLevel=logging.INFO)
 
 
-# Send configuration to board. 
+# Send configuration to board.
+#marocConfiguration.slowControlObject.setParameterValue("DAC",[650,450])
+#marocConfiguration.slowControlObject.setFlagValue("d1_d2",0)
+#marocConfiguration.slowControlObject.setFlagValue("cmd_fsb_fsu",1) # Select FSU
+#marocConfiguration.slowControlObject.setParameterValue("mask_OR",0x3,54) # Mask hot channel
+
+# Send configuration to the board ( read from configuration file)
 marocConfiguration.configure()
 
 # Having created the threads, now start them running

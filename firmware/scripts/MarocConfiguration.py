@@ -17,16 +17,16 @@ class MarocConfiguration(object):
         self.logger = logging.getLogger(__name__)
         marocLogging(self.logger,debugLevel)
 
-        self.slowControlObject = MarocSC.MarocSC()
+        self.slowControlObject = MarocSC.MarocSC(debugLevel=debugLevel)
 
+        self.configurationFile = configurationFile 
+
+        self.slowControlObject.readConfigFile(configurationFile )
+                
     def configure(self):
 
         self.logger.info("Configuring board")
-        
-        self.slowControlObject.setParameterValue("DAC",[650,450])
-        self.slowControlObject.setFlagValue("d1_d2",0)
-        self.slowControlObject.setFlagValue("cmd_fsb_fsu",1) # Select FSU 
-        self.slowControlObject.setParameterValue("mask_OR",0x3,54) # Mask hot channel
+
         SCData = self.slowControlObject.getWordArray() # Get data to write
         
         self.logger.debug("Slow control data = %s"%( '  , '.join([format(i,'08x') for i in SCData ]) ))
@@ -35,13 +35,14 @@ class MarocConfiguration(object):
         self.board.blockWrite("scSrDataOut",SCData)
         self.board.write("scSrCtrl" , 0x00000000)
 
-        # set up triggers
-        #triggerSource = 0x0000000D
-        triggerSource = 0x00000008
-        self.board.write("trigSourceSelect",triggerSource) # Set OR1,OR2 and internal triggers active
-
-        trigSourceReadback = self.board.read("trigSourceSelect")
-        self.logger.debug( "Trigger source select register = %s" % (hex(trigSourceReadback)))
+        # set up the registers.
+        for regName in self.slowControlObject.registers.keys():
+            regValue = self.slowControlObject.getRegisterValue(regName)
+            self.logger.info("Writing %i to register %s"%( int(regValue) , regName ))
+            self.board.write(regName,regValue)
+            regReadValue = self.board.read(regName)
+            self.logger.info("Read back %i from %s"%( int(regReadValue) , regName ))
+            
 
         self.logger.debug( "Resetting timestamp and trigger counters")
         self.board.write("trigStatus",0x00000001) 

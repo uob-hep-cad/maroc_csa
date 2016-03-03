@@ -43,8 +43,8 @@ class MarocHistograms(object):
         self.canvasNames = [ "c%s"%canvas for canvas in range(nCanvas) ]
         self.canvasTitles = [ "ADC Value for Channels %s - %s"%(canvas*self.nPlotsPerCanvas , (canvas+1)*self.nPlotsPerCanvas -1) for canvas in range(nCanvas) ]
 
-        print self.canvasNames
-        print self.canvasTitles
+        #print self.canvasNames
+        #print self.canvasTitles
 
         self.canvasList = [ TCanvas(self.canvasNames[chan],self.canvasTitles[chan],600,400) for chan in range(nCanvas) ]
 
@@ -62,7 +62,7 @@ class MarocHistograms(object):
 
                 plot = canvasIndex*self.nPlotsPerCanvas + plotIndex # look the other way please....
 
-                print canvasIndex , plotIndex , plot
+                self.logger.debug("Booking histogram. Canvas , plot within canvas, plot = %i %i %i "%( canvasIndex , plotIndex , plot))
 
                 canvas.cd(plotIndex+1) # Change current pad. (plotIndex counts from 0. Root expects count from 1 (0 is the parent))
 

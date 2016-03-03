@@ -166,7 +166,7 @@ class MarocSC(object):
     def getFlagLocations(self):
         """Return the list of flags, positions and defaults"""
         return self.flagLocation
-
+        
     def setParameterValue(self,paramName,newParamValue,index=-1):
         """Writes to the parameter array with name paramName at index the value n"""
         [ paramLocation , paramWidth , paramDefault, description, comment ,oldParamValue] = self.parameterLocation[paramName]
@@ -211,6 +211,9 @@ class MarocSC(object):
         parameters , where the parameter entries are ( pName: p(1),p(2),....,p(N) . N.B. no bounds checking is done on the parameter indices, so don't add too many to the list
         registers , values to write to FPGA registers
         """
+        
+        self.logger.info("Reading Configuration from %s" %(fName))
+        
         config = ConfigParser.SafeConfigParser()
         config.optionxform = str # stop parser from changing to lower case.
         config.read(fName)
@@ -226,7 +229,7 @@ class MarocSC(object):
         # read the parameters
         for ( parameter , valueList ) in parameters:
             values = valueList.split(",")
-            self.setParameter( parameter , values )
+            self.setParameterValue( parameter , values , index=-1)
         # read the register values...
         for ( registerName , value ) in registers:
             self.setRegisterValue( registerName , int(value) )
@@ -254,8 +257,8 @@ class MarocSC(object):
             config.set('parameters',paramName,paramString)
 
         # Set register values
-        for registerName in self.flagLocation.keys():
-            registerValue  =  self.getRegisterValues(registerName)
+        for registerName in self.registers.keys():
+            registerValue  =  self.getRegisterValue(registerName)
             self.logger.debug("Setting Register name %s in config file to %i " %(registerName,registerValue))
             config.set('registers',registerName,str(registerValue))
             
@@ -263,15 +266,6 @@ class MarocSC(object):
         config.write(cfgFile)
         cfgFile.close()
 
-#    def configure(self,board):
-#        """Writes contents of local data-structure to MAROC slow control.
-#        board      - a PyChips object pointing to correct MAROC board"""
-#
-#        SCData = self.getWordArray()
-#        # write data into buffer
-#        board.blockWrite("scSrDataOut",SCData)
-#        # trigger writing of buffer to slow control shift register
-#        board.write("scSrCtrl" , 0x00000001)
 
 
         

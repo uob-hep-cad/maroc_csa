@@ -5,20 +5,22 @@ import logging
 
 from PyChipsUser import *
 
-import threading
+#import threading
+from threading import Thread
 
 import time
 
-import Queue
+#import Queue
+from Queue import Queue
 
 import MarocDAQ
 
 from marocLogging import marocLogging
 
-class MarocReadoutThread(threading.Thread):
+class MarocReadoutThread(Thread):
     """Class with functions that can read out MAROC3 using IPBus. Inherits from threading class, so has a 'start' method"""
     def __init__(self, threadID, name, board , rawDataQueue , numTriggers, debugLevel=logging.DEBUG ):
-        threading.Thread.__init__(self)
+        Thread.__init__(self)
         self.threadID = threadID
         self.board = board
         self.name = name

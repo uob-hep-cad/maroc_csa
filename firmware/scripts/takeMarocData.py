@@ -20,7 +20,8 @@ import MarocConfiguration
 
 from PyChipsUser import *
 
-import Queue
+#import Queue
+from Queue import Queue
 
 logger = logging.getLogger(__name__)
 marocLogging(logger,logging.DEBUG)
@@ -57,11 +58,11 @@ logger.info("Firmware ID = %s" % (hex(firmwareID)))
 marocConfiguration = MarocConfiguration.MarocConfiguration(board,configurationFile = options.configFile , debugLevel=logging.DEBUG)
 
 
-rawDataQueue = Queue.Queue()
-recordingDataQueue = Queue.Queue()
+rawDataQueue = Queue()
+recordingDataQueue = Queue()
 
 histogramQueueSize = 100
-histogramDataQueue = Queue.Queue(histogramQueueSize)
+histogramDataQueue = Queue(histogramQueueSize)
 
 # Create a readout thread. Pass down an event limit. When the event limit is reached the readout thread will pass a message along chain and threads will terminate.
 

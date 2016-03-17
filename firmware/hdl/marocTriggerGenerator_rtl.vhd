@@ -93,18 +93,27 @@ END marocTriggerGenerator ;
 --
 ARCHITECTURE rtl OF marocTriggerGenerator IS
 
+      attribute shreg_extract : string; -- Don't want synchronizer registers optimized to SRL16
+      
       signal s_or1_d1 : std_logic;       -- ! OR1 signal delayed by one-clock of clk_fast_i
       signal s_or1_d2 : std_logic;             --!
-      
+      attribute shreg_extract of s_or1_d1: signal is "no";
+      attribute shreg_extract of s_or1_d2: signal is "no";
+
       signal s_or2_d1 : std_logic;             --!
       signal s_or2_d2 : std_logic;             --!
-
+      attribute shreg_extract of s_or2_d1: signal is "no";
+      attribute shreg_extract of s_or2_d2: signal is "no";
+      
       signal s_externalTrigger_d1 : std_logic;             --!
       signal s_externalTrigger_d2 : std_logic;             --!
-
+      attribute shreg_extract of s_externalTrigger_d1: signal is "no";
+      attribute shreg_extract of s_externalTrigger_d2: signal is "no";
+      
+      
       signal s_internalTrigger_d1 : std_logic;             --!
       signal s_internalTrigger_d2 : std_logic;             --!
-
+      
       signal s_hold1 : std_logic;             --!
 
       --! hold1,hold2 are active low. This signal gets put through a delay.

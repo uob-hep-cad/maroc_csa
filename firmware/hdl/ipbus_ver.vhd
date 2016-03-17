@@ -20,7 +20,7 @@ architecture rtl of ipbus_ver is
 
 begin
 
-  ipbus_out.ipb_rdata <= X"a623" & X"1008"; -- Lower 16b are ipbus firmware build ID (temporary arrangement).
+  ipbus_out.ipb_rdata <= X"a625" & X"1008"; -- Lower 16b are ipbus firmware build ID (temporary arrangement).
   ipbus_out.ipb_ack <= ipbus_in.ipb_strobe;
   ipbus_out.ipb_err <= '0';
 

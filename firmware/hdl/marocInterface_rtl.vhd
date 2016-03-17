@@ -26,6 +26,7 @@ entity marocInterface is
     
     -- Trigger signals
     external_Trigger_i : in std_logic;
+    gpio_Trigger_i : in std_logic;
     trigger_o : out std_logic;
     
     -- Pins connected to MAROC
@@ -134,7 +135,7 @@ begin  -- rtl
  
       -- Fast clock and external trigger signals
       clk_fast_i           => clk_fast_i,
-      externalTrigger_a_i  => external_trigger_i,
+      externalTrigger_a_i  => external_trigger_i or gpio_trigger_i,
       externalTrigger_o    => s_externalTrigger_o,
 
       -- Signals to MAROC

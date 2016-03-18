@@ -84,7 +84,8 @@ class MarocSC(object):
 
         # Data structure to store the names of FPGA registers to write into. The key name is the register name value is [default,description,comment]
         self.registers = {
-            'trigSourceSelect':[ 0x0000000D , 'Set source of triggers.' , 'There can be more than one trigger input active at the same time. 0xD turns on OR1 , OR2 and internal triggers']  
+            'trigSourceSelect':[ 0x0000000D , 'Set source of triggers.' , 'There can be more than one trigger input active at the same time. 0xD turns on OR1 , OR2 and internal triggers']  ,
+            'trigHold1Delay':[ 0x00000000 , 'Set delay between trigger and Hold1 being asserted' , 'In units of fastClock ticks = 8ns']  
             }
         # Copy default register values into dictionary
         for registerName in self.registers.keys():

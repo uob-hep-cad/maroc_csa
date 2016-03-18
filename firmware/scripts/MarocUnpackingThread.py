@@ -12,11 +12,13 @@ from PyChipsUser import *
 
 #import threading
 from threading import Thread
+#from multiprocessing import Process as Thread
 
 import time
 
 #import Queue
 from Queue import Queue
+#from multiprocessing import Queue
 
 import array
 
@@ -126,6 +128,11 @@ def unpack_maroc_data(name, rawDataQueue , recordingDataQueue, histogramDataQueu
     poisonPill = [-1]
     histogramDataQueue.put(poisonPill)
     logger.info("Fed poison pill to histogrammer")
+
+    # Bodge - give time for histogrammer to fill the last histogram before sending poison pill to data recorder.
+    # If the ROOT file is closed the histograms become undefined....
+    time.sleep(2.0)
+
     recordingDataQueue.put(poisonPill)
     logger.info("Fed poison pill to data recorder")
     

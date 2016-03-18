@@ -5,6 +5,7 @@ import logging
 
 from PyChipsUser import *
 
+# N.B. Root Histogramming doesn't play nicely with multi-processing
 #import threading
 from threading import Thread
 
@@ -12,6 +13,7 @@ import time
 
 #import Queue
 from Queue import Queue
+#from multiprocessing import Queue
 
 import MarocHistograms
 

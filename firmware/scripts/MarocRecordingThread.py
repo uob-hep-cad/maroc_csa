@@ -7,11 +7,13 @@ from PyChipsUser import *
 
 #import threading
 from threading import Thread
+#from multiprocessing import Process as Thread
 
 import time
 
 #import Queue
 from Queue import Queue
+#from multiprocessing import Queue
 
 import MarocRecording
 

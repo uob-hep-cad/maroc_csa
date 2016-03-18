@@ -49,4 +49,5 @@ DAC = 650,450
 
 [registers]
 trigSourceSelect = 13
+trigHold1Delay = 0
 

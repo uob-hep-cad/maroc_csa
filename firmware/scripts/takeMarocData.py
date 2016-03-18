@@ -22,6 +22,7 @@ from PyChipsUser import *
 
 #import Queue
 from Queue import Queue
+#from multiprocessing import Queue
 
 logger = logging.getLogger(__name__)
 marocLogging(logger,logging.DEBUG)
@@ -54,8 +55,10 @@ firmwareID = board.read("FirmwareId")
 
 logger.info("Firmware ID = %s" % (hex(firmwareID)))
 
+debugLevel = logging.INFO
+
 # Create object with configuration information - in the long run this should be done in a separate thread with a GUI
-marocConfiguration = MarocConfiguration.MarocConfiguration(board,configurationFile = options.configFile , debugLevel=logging.DEBUG)
+marocConfiguration = MarocConfiguration.MarocConfiguration(board,configurationFile = options.configFile , debugLevel=debugLevel)
 
 
 rawDataQueue = Queue()
@@ -64,15 +67,17 @@ recordingDataQueue = Queue()
 histogramQueueSize = 100
 histogramDataQueue = Queue(histogramQueueSize)
 
+
+
 # Create a readout thread. Pass down an event limit. When the event limit is reached the readout thread will pass a message along chain and threads will terminate.
 
-readoutThread = MarocReadoutThread.MarocReadoutThread(1,"readoutThread",board,rawDataQueue,numTriggers,debugLevel=logging.INFO)
+readoutThread = MarocReadoutThread.MarocReadoutThread(1,"readoutThread",board,rawDataQueue,numTriggers,debugLevel=debugLevel)
 
-unpackerThread = MarocUnpackingThread.MarocUnpackingThread(2,"unpackingThread",rawDataQueue,recordingDataQueue,histogramDataQueue,debugLevel=logging.INFO)
+unpackerThread = MarocUnpackingThread.MarocUnpackingThread(2,"unpackingThread",rawDataQueue,recordingDataQueue,histogramDataQueue,debugLevel=debugLevel)
 
-histogramThread = MarocHistogrammingThread.MarocHistogrammingThread(3,"histogrammingThread",histogramDataQueue,debugLevel=logging.INFO)
+histogramThread = MarocHistogrammingThread.MarocHistogrammingThread(3,"histogrammingThread",histogramDataQueue,debugLevel=debugLevel)
 
-recordingThread = MarocRecordingThread.MarocRecordingThread(3,"recordingThread",recordingDataQueue,fileName=options.outputFile, debugLevel=logging.INFO)
+recordingThread = MarocRecordingThread.MarocRecordingThread(3,"recordingThread",recordingDataQueue,fileName=options.outputFile, debugLevel=debugLevel)
 
 
 # Send configuration to board.

@@ -90,7 +90,7 @@ end ipbusMarocTriggerGenerator;
 
 architecture rtl of ipbusMarocTriggerGenerator is
 
-  signal s_internalTrigger_p : std_logic;
+  signal s_internalTrigger_p ,s_internalTrigger_p_d1 : std_logic;
   signal s_triggerSourceSelect : std_logic_vector(3 downto 0) := (others => '0');
   signal s_hold1Delay  ,  s_hold2Delay : std_logic_vector(4 downto 0);
 
@@ -178,6 +178,9 @@ begin
         s_internalTrigger_p <= '0';
         ctest_o <= ( others => '0');
       end if;
+
+      s_internalTrigger_p_d1 <= s_internalTrigger_p;
+      
     end if;
   end process p_internalTrigger;
 
@@ -215,7 +218,7 @@ begin
       reset_i              => s_counter_reset,
 --      conversion_counter_o => s_conversion_counter,
       externalTrigger_a_i  => externalTrigger_a_i ,
-      internalTrigger_i    => s_internalTrigger_p,
+      internalTrigger_i    => s_internalTrigger_p_d1,
       triggerSourceSelect_i=> s_triggerSourceSelect,
       hold1Delay_i         => s_hold1Delay,
       hold2Delay_i         => s_hold2Delay,

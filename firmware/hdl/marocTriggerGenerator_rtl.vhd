@@ -131,7 +131,9 @@ ARCHITECTURE rtl OF marocTriggerGenerator IS
                                                 --from output port...
       signal s_hold1_d1 : std_logic;  --! 
       signal s_hold1_d2 : std_logic;  --! 
-      signal s_hold1_d3 : std_logic;  --! 
+      signal s_hold1_d3 : std_logic;  --!
+      signal s_hold1_d4 : std_logic;  --! 
+      signal s_hold1_d5 : std_logic;  --! 
 
 BEGIN
 
@@ -226,6 +228,15 @@ BEGIN
       D => s_hold1 -- SRL data input
       ); -- End of SRLC32E_inst instantiation
 
+
+  -- Having timing closure problems with this signal. Put in some more registers....
+  p_RegisterHold1: process (clk_fast_i, s_hold1)
+  begin  -- process p_RegisterHold1
+    if rising_edge(clk_fast_i) then  -- rising clock edge
+      s_hold1_d1 <= s_hold1;
+      s_hold1_d2 <= s_hold1_d1;
+    end if;
+  end process p_RegisterHold1;
   
   -- purpose: registers s_hold1 onto system (slow) clock and detect rising edge to form adcConversionStart_o
   -- type   : sequential
@@ -235,11 +246,11 @@ BEGIN
   begin  -- process p_GenerateADCStart
     if rising_edge(clk_sys_i) then  -- rising clock edge
       
-      s_hold1_d1 <= s_hold1;
-      s_hold1_d2 <= s_hold1_d1;
       s_hold1_d3 <= s_hold1_d2;
+      s_hold1_d4 <= s_hold1_d3;
+      s_hold1_d5 <= s_hold1_d4;
 
-      s_adcConversionStart <= (not s_hold1_d2) and s_hold1_d3 ;
+      s_adcConversionStart <= (not s_hold1_d4) and s_hold1_d5 ;
     end if;
   end process p_GenerateADCStart;
 

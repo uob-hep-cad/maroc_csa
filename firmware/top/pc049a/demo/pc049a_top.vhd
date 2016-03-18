@@ -149,7 +149,7 @@ entity pc049a_top is
 
       HOLD2_O: out STD_LOGIC;
       HOLD1_O: out STD_LOGIC;
-      OR_I: in STD_LOGIC_VECTOR(1 downto 0);
+      OR_I: in STD_LOGIC_VECTOR(2 downto 1);
       MAROC_TRIGGER_I: in std_logic_vector(63 downto 0);
       EN_OTAQ_O: out STD_LOGIC;
       CTEST_O: out STD_LOGIC_VECTOR(5 downto 0); -- 4-bit R/2R DAC
@@ -273,10 +273,17 @@ architecture rtl of pc049a_top is
   signal dac_rst_n        : std_logic;
   signal led_divider      : unsigned(23 downto 0);
 
-  signal wrc_scl_o : std_logic;
-  signal wrc_scl_i : std_logic;
+  --! I2C signals from white rabbit core.
+  signal wrc_scl_o : std_logic := '1'; --! By default, don't drive from WRC.
+  signal wrc_scl_i : std_logic := '1'; --! ... ie. set high.
   signal wrc_sda_o : std_logic;
   signal wrc_sda_i : std_logic;
+
+  --! I2C signals from IPBus.
+  signal ipb_scl_o : std_logic := '1'; --! By default, don't drive from IPBus
+  signal ipb_scl_i : std_logic := '1'; --! ... ie. set high.
+  signal ipb_sda_o : std_logic;
+  signal ipb_sda_i : std_logic;
 
   signal sfp_scl_o : std_logic_vector(1 downto 0) := ( others => '0' );
   signal sfp_scl_i : std_logic_vector(1 downto 0);
@@ -334,9 +341,9 @@ architecture rtl of pc049a_top is
   signal etherbone_cfg_in  : t_wishbone_slave_in;
   signal etherbone_cfg_out : t_wishbone_slave_out;
 
-  constant c_NMAROC_SLAVES     : integer := 5;
-  -- expansion IO block has one IPBus slave.
-  constant c_NSLAVES : positive := c_NMAROC_SLAVES+1;   -- number of IPBus slaves in system
+  constant c_NMAROC_SLAVES     : integer := 6;
+  -- expansion IO block has one IPBus slave. I2C has another
+  constant c_NSLAVES : positive := c_NMAROC_SLAVES+2;   -- number of IPBus slaves in system
   signal s_ipb_clk : std_logic;
   signal s_ipb_wbus : ipb_wbus_array(c_NSLAVES-1 downto 0);
   signal s_ipb_rbus : ipb_rbus_array(c_NSLAVES-1 downto 0);
@@ -348,10 +355,90 @@ architecture rtl of pc049a_top is
   -- Signals that used to be connected at the top level...
   signal uart_rxd , uart_txd  :  std_logic;
 
+  -- FIXME Move to separate process
+  
+  signal s_ADC_DAV_d1, s_ADC_DAV_d2: STD_LOGIC;
+  signal s_OUT_ADC_d1, s_OUT_ADC_d2:  STD_LOGIC;
 
+  attribute shreg_extract : string; -- Don't want synchronizer registers optimized to SRL16
+  attribute shreg_extract of s_ADC_DAV_d1: signal is "no";
+  attribute shreg_extract of s_ADC_DAV_d2: signal is "no";
+  attribute shreg_extract of s_OUT_ADC_d1: signal is "no";
+  attribute shreg_extract of s_OUT_ADC_d2: signal is "no";
+
+  -- trigger on GPIO connector
+  signal s_gpio_trigger: STD_LOGIC;
+  
 begin
 
-  cmp_sys_clk_pll : PLL_BASE
+
+  cmp_clk_vcxo : BUFG
+    port map (
+      O => clk_20m_vcxo_buf,
+      I => clk_20m_vcxo_i);
+
+
+  cmp_pllrefclk_buf : IBUFGDS
+    generic map (
+      DIFF_TERM    => true,             -- Differential Termination
+      IBUF_LOW_PWR => true,  -- Low power (TRUE) vs. performance (FALSE) setting for referenced I/O standards
+      IOSTANDARD   => "DEFAULT")
+    port map (
+      O  => clk_125m_pllref,            -- Buffer output
+      I  => clk_125m_pllref_p_i,  -- Diff_p buffer input (connect directly to top-level port)
+      IB => clk_125m_pllref_n_i  -- Diff_n buffer input (connect directly to top-level port)
+      );
+
+
+  ------------------------------------------------------------------------------
+  -- Dedicated clock for GTP used for WhiteRabbit
+  ------------------------------------------------------------------------------
+  cmp_gtp_dedicated_clk_buf0 : IBUFGDS
+    generic map(
+      DIFF_TERM    => true,
+      IBUF_LOW_PWR => true,
+      IOSTANDARD   => "DEFAULT")
+    port map (
+      O  => gtp_dedicated_clk(0),
+      I  => fpga_pll_ref_clk_101_p_i,
+      IB => fpga_pll_ref_clk_101_n_i
+      );
+
+  ------------------------------------------------------------------------------
+  -- Active high reset
+  ------------------------------------------------------------------------------
+
+  --process(clk_sys)
+  --begin
+  --  if rising_edge(clk_sys) then
+  --    led_divider <= led_divider + 1;
+  --  end if;
+  --end process;
+
+  -- The I2C lines can be driven from either the WhiteRabbit
+  -- or the IPBus controlled lines.
+  fpga_scl_b <= '0' when  ((wrc_scl_o = '0') or (ipb_scl_o = '0') ) else 'Z';
+  fpga_sda_b <= '0' when ((wrc_sda_o = '0') or (ipb_sda_o = '0' )) else 'Z';
+  wrc_scl_i  <= fpga_scl_b;
+  wrc_sda_i  <= fpga_sda_b;
+  ipb_scl_i  <= fpga_scl_b;
+  ipb_sda_i  <= fpga_sda_b;  
+
+  -- SFP control signals for White-Rabit SFP
+  sfp_mod_def1_b(0) <= '0' when sfp_scl_o(0) = '0' else 'Z';
+  sfp_mod_def2_b(0) <= '0' when sfp_sda_o(0) = '0' else 'Z';
+  sfp_scl_i(0)      <= sfp_mod_def1_b(0);
+  sfp_sda_i(0)      <= sfp_mod_def2_b(0);
+  sfp_tx_disable_o(0) <= '0';
+  
+  one_wire_b <= '0' when owr_en(0) = '1' else 'Z';
+  owr_i(0)  <= one_wire_b;
+
+  -- The White Rabbit cores use up space in the FPGA and consume power. 
+  -- Don't build them unless we want them.
+  generate_whiterabbit: if ( BUILD_WHITERABBIT = 1 ) generate
+
+      cmp_sys_clk_pll : PLL_BASE
     generic map (
       BANDWIDTH          => "OPTIMIZED",
       CLK_FEEDBACK       => "CLKFBOUT",
@@ -431,68 +518,6 @@ begin
       O => clk_dmtd,
       I => pllout_clk_dmtd);
 
-  cmp_clk_vcxo : BUFG
-    port map (
-      O => clk_20m_vcxo_buf,
-      I => clk_20m_vcxo_i);
-
-
-  cmp_pllrefclk_buf : IBUFGDS
-    generic map (
-      DIFF_TERM    => true,             -- Differential Termination
-      IBUF_LOW_PWR => true,  -- Low power (TRUE) vs. performance (FALSE) setting for referenced I/O standards
-      IOSTANDARD   => "DEFAULT")
-    port map (
-      O  => clk_125m_pllref,            -- Buffer output
-      I  => clk_125m_pllref_p_i,  -- Diff_p buffer input (connect directly to top-level port)
-      IB => clk_125m_pllref_n_i  -- Diff_n buffer input (connect directly to top-level port)
-      );
-
-
-  ------------------------------------------------------------------------------
-  -- Dedicated clock for GTP used for WhiteRabbit
-  ------------------------------------------------------------------------------
-  cmp_gtp_dedicated_clk_buf0 : IBUFGDS
-    generic map(
-      DIFF_TERM    => true,
-      IBUF_LOW_PWR => true,
-      IOSTANDARD   => "DEFAULT")
-    port map (
-      O  => gtp_dedicated_clk(0),
-      I  => fpga_pll_ref_clk_101_p_i,
-      IB => fpga_pll_ref_clk_101_n_i
-      );
-
-  ------------------------------------------------------------------------------
-  -- Active high reset
-  ------------------------------------------------------------------------------
-
-  process(clk_sys)
-  begin
-    if rising_edge(clk_sys) then
-      led_divider <= led_divider + 1;
-    end if;
-  end process;
-
-  fpga_scl_b <= '0' when wrc_scl_o = '0' else 'Z';
-  fpga_sda_b <= '0' when wrc_sda_o = '0' else 'Z';
-  wrc_scl_i  <= fpga_scl_b;
-  wrc_sda_i  <= fpga_sda_b;
-
-  -- SFP control signals for White-Rabit SFP
-  sfp_mod_def1_b(0) <= '0' when sfp_scl_o(0) = '0' else 'Z';
-  sfp_mod_def2_b(0) <= '0' when sfp_sda_o(0) = '0' else 'Z';
-  sfp_scl_i(0)      <= sfp_mod_def1_b(0);
-  sfp_sda_i(0)      <= sfp_mod_def2_b(0);
-  sfp_tx_disable_o(0) <= '0';
-  
-  one_wire_b <= '0' when owr_en(0) = '1' else 'Z';
-  owr_i(0)  <= one_wire_b;
-
-  -- The White Rabbit cores use up space in the FPGA and consume power. 
-  -- Don't build them unless we want them.
-  generate_whiterabbit: if ( BUILD_WHITERABBIT = 1 ) generate
-  
   U_WR_CORE : xwr_core
     generic map (
       g_simulation                => 0,
@@ -643,8 +668,11 @@ begin
   end generate generate_whiterabbit_leds;
 		
   -- for now always instantiate the White rabbit GTP + interface
-  -- MAP complains otherwise and I can't figure out why.
-  U_GTP : wr_gtp_phy_spartan6
+  -- MAP complains otherwise and I can't figure out how to stop it
+  -- if we are running in simulation and we don't want WhiteRabbit then
+  -- we can happily leave it out....
+  generate_whiterabbit_phy: if (  BUILD_SIMULATED_ETHERNET = 0 ) generate
+  U_GTP : entity work.wr_gtp_phy_spartan6
     generic map (
       g_enable_ch0 => 0,
       g_enable_ch1 => 1,
@@ -688,7 +716,7 @@ begin
       pad_rxn1_i         => sfp_rxn_i(0),
       pad_rxp1_i         => sfp_rxp_i(0)
       );
-
+  end generate generate_whiterabbit_phy;
   
 
   
@@ -711,6 +739,21 @@ begin
   -------------------------------------------------------------------------
 
   -- FIXME - s_ipb_rst should be connected to something sensible...
+
+  -- BODGE BODGE
+  p_register_adc_data: process (s_ipb_clk) is
+  begin  -- process p_register_data
+    if falling_edge(s_ipb_clk) then  -- falling clock edge
+      s_ADC_DAV_d1 <= ADC_DAV_I;
+      s_OUT_ADC_d1 <= OUT_ADC_I;
+    end if;
+    if rising_edge(s_ipb_clk) then  -- rising clock edge
+      s_ADC_DAV_d2 <= s_ADC_DAV_d1;
+      s_OUT_ADC_d2 <= s_OUT_ADC_d1;
+    end if;
+  end process p_register_adc_data;
+  -- BODGE BODGE - put down in MAROC interface
+
   
     maroc: entity work.marocInterface 
     generic map (
@@ -727,6 +770,7 @@ begin
       
     -- Trigger signals
       external_Trigger_i => s_globaltrig_to_fpga,
+      gpio_Trigger_i => s_gpio_trigger,
       trigger_o => s_globaltrig_from_fpga,
     
       -- Pins connected to MAROC
@@ -738,8 +782,8 @@ begin
       MAROC_TRIGGER_I => MAROC_TRIGGER_I,
       EN_OTAQ_O =>  EN_OTAQ_O,
       CTEST_O =>  CTEST_O,
-      ADC_DAV_I => ADC_DAV_I,
-      OUT_ADC_I => OUT_ADC_I,
+      ADC_DAV_I => s_ADC_DAV_d2 , -- ADC_DAV_I,
+      OUT_ADC_I => s_OUT_ADC_d2 , -- OUT_ADC_I,
       START_ADC_N_O => START_ADC_N_O,
       RST_ADC_N_O => RST_ADC_N_O,
       RST_SC_N_O => RST_SC_N_O,
@@ -824,12 +868,18 @@ begin
   enable_gclk_drive_o <= '1';
   enable_globaltrig_drive_o <= '1';
 
-  -- FIXME - loop dip_switches to gpio to stop GPIO being optimized away
-  gpio(3 downto 0) <= dip_switch_i;
+  -- N.B. connect any GPIO disconnected, unused gpio pins to '0' to stop them being optimized away
+  gpio(0) <= ADC_DAV_I; 
+  gpio(1) <= OUT_ADC_I;
+  gpio(2) <= s_ADC_DAV_d1;
+  gpio(3) <= s_OUT_ADC_d1;
   gpio(4) <= si57x_clk;
   gpio(5) <= '0';
-  gpio(6) <= uart_txd;
-  uart_rxd <= gpio(7);
+--  gpio(6) <= uart_txd;
+--  uart_rxd <= gpio(7);
+  gpio(6) <= '0';
+  s_gpio_trigger <= gpio(7);
+
   
   -- FIXME - buffer input clock signal to avoid optimiziation
   cmp_si57x_buffer : IBUFGDS
@@ -852,7 +902,8 @@ begin
 
   IPBusInterface_inst : entity work.IPBusInterfaceGTP
     GENERIC MAP (
-      NUM_EXT_SLAVES => c_NMAROC_SLAVES+1 --! Total number of IPBus slave busses = number in MAROC plus one for External IO
+      NUM_EXT_SLAVES => c_NMAROC_SLAVES+2, --! Total number of IPBus slave busses = number in MAROC plus one for External IO
+      BUILD_SIMULATED_ETHERNET => BUILD_SIMULATED_ETHERNET
       )
     PORT MAP (
 		
@@ -924,7 +975,20 @@ begin
       lvds_right_clk_n_b =>  lvds_right_clk_n_b
       );
 
-  
+  -----------------------------------------------------------------------------
+  --  I2C master
+  -----------------------------------------------------------------------------
+  i2cMaster_inst: entity work.i2c_master
+      PORT MAP (
+         i2c_scl_i     => ipb_scl_i,
+         i2c_sda_i     => ipb_sda_i,
+         ipbus_clk_i   => s_ipb_clk,
+         ipbus_i       => s_ipb_wbus(c_NMAROC_SLAVES+1),
+         ipbus_reset_i => s_ipb_rst,
+         i2c_scl_enb_o => ipb_scl_o,
+         i2c_sda_enb_o => ipb_sda_o,
+         ipbus_o       => s_ipb_rbus(c_NMAROC_SLAVES+1)
+      );
   
 end rtl;
 

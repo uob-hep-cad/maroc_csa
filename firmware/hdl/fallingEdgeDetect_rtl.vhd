@@ -16,7 +16,8 @@ end entity fallingEdgeDetect;
 architecture rtl of fallingEdgeDetect is
 
   signal level_d1 , level_d2 : std_logic := '0';  -- delayed version of input
-  
+  signal pulse , pulse_d1 : std_logic := '0'; -- register output.
+                                         
 begin  -- architecture rtl
 
   p_levelDetect: process (clk_i) is
@@ -25,10 +26,13 @@ begin  -- architecture rtl
      level_d1 <=  level_i;
      level_d2 <=  level_d1;
      if (( level_d2 = '1' ) and ( level_d1 = '0')) then
-       pulse_o <= '1';
+       pulse <= '1';
      else
-       pulse_o <= '0';
+       pulse <= '0';
      end if;
+
+     pulse_d1 <= pulse;
+     pulse_o <= pulse_d1;
     end if;
   end process p_levelDetect;
 

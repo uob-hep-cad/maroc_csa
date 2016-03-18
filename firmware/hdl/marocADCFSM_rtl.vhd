@@ -56,6 +56,7 @@ entity marocADCFSM is
       adc_dav_i         : in std_logic;  --! "Transmitting data" signal from MAROC
       reset_sr_o        : out std_logic;  --! reset ADC and internal shift reg.
       start_adc_n_o     : out std_logic;  --! Goes low during conversion.
+      end_of_sequence_o : out std_logic;  --! Goes high for one clock cycle immediately after DAV goes low
       status_o          : out std_logic --! Zero when FSM is idle , one otherwise
       );        
 end marocADCFSM;
@@ -66,8 +67,10 @@ end marocADCFSM;
 architecture rtl of marocADCFSM is
 
   --! Define an enumerated type corresponding to FSM states
-  type t_state_type is (IDLE , RESETTING , WAIT_FOR_DAV_HIGH , WAIT_FOR_DAV_LOW );
+  type t_state_type is (IDLE , RESETTING , WAIT_FOR_DAV_HIGH , WAIT_FOR_DAV_LOW , END_OF_READOUT );
   signal s_state , s_next_state : t_state_type := IDLE ;
+
+  signal s_end_of_sequence , s_status , s_start_adc_n, s_reset_sr: std_logic := '0';
   
 --============================================================================
 -- architecture begin
@@ -88,6 +91,12 @@ begin  -- rtl
       else
         s_state <= s_next_state;
       end if;
+
+      end_of_sequence_o <= s_end_of_sequence;
+      status_o <= s_status;
+      start_adc_n_o <= s_start_adc_n;
+      reset_sr_o <= s_reset_sr;
+      
     end if;
   end process p_state_register;
 
@@ -119,11 +128,14 @@ begin  -- rtl
 
       when WAIT_FOR_DAV_LOW =>
         if (adc_dav_i = '0') then
-          s_next_state <= IDLE;
+          s_next_state <= END_OF_READOUT;
         else
           s_next_state <= WAIT_FOR_DAV_LOW;
         end if;
-                    
+
+      when END_OF_READOUT =>
+        s_next_state <= IDLE;
+        
       when others =>
         s_next_state <= IDLE;
         
@@ -135,12 +147,14 @@ begin  -- rtl
   --==========================================================================
   
   --! reset goes high-when state=resetting
-  reset_sr_o  <= '1' when s_state = RESETTING else '0';  
+  s_reset_sr  <= '1' when s_state = RESETTING else '0';  
 
   --! start_adc_n_o goes low during conversion
-  start_adc_n_o  <= '0' when (s_state = WAIT_FOR_DAV_HIGH) or (s_state = WAIT_FOR_DAV_LOW )  else '1';
+  s_start_adc_n  <= '0' when (s_state = WAIT_FOR_DAV_HIGH) or (s_state = WAIT_FOR_DAV_LOW )  else '1';
  
-  status_o <= '0' when s_state = IDLE else '1';
+  s_status <= '0' when s_state = IDLE else '1';
+
+  s_end_of_sequence <= '1' when s_state = END_OF_READOUT else '0';
   
 end rtl;
 --============================================================================

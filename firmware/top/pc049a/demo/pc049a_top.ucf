@@ -14,8 +14,8 @@ CONFIG PROHIBIT = Y4;
 CONFIG VCCAUX=2.5;
 
 INST "cmp_gtp_dedicated_clk_buf0" LOC = BUFDS_X2Y5;
-INST "IPBusInterface_inst/eth/ibuf0" LOC = BUFDS_X1Y5;
-INST "IPBusInterface_inst/eth/phy/transceiver_inst/GTP_1000X/tile0_s6_gtpwizard_i/gtpa1_dual_i" LOC = GTPA1_DUAL_X0Y1;
+INST "IPBusInterface_inst/generate_physicalmac.eth/ibuf0" LOC = BUFDS_X1Y5;
+INST "IPBusInterface_inst/generate_physicalmac.eth/phy/transceiver_inst/GTP_1000X/tile0_s6_gtpwizard_i/gtpa1_dual_i" LOC = GTPA1_DUAL_X0Y1;
 # INST "U_GTP/U_GTP_TILE_INST/gtpa1_dual_i" LOC = GTPA1_DUAL_X1Y1;
 
 NET "ADC_DAV_I" IOSTANDARD = SSTL2_I;
@@ -142,6 +142,7 @@ NET "GPIO[6]" LOC = F1;
 NET "GPIO[6]" SLEW = SLOW;
 NET "GPIO[7]" IOSTANDARD = LVCMOS33;
 NET "GPIO[7]" LOC = F5;
+NET "GPIO[7]" PULLDOWN=true;
 NET "HOLD1_O" DRIVE = 12;
 NET "HOLD1_O" IOSTANDARD = LVCMOS33;
 NET "HOLD1_O" LOC = Y2;
@@ -464,10 +465,10 @@ NET "one_wire_b" DRIVE = 12;
 NET "one_wire_b" IOSTANDARD = LVCMOS33;
 NET "one_wire_b" LOC = T5;
 NET "one_wire_b" SLEW = SLOW;
-NET "OR_I[0]" IOSTANDARD = SSTL2_I;
-NET "OR_I[0]" LOC = N6;
 NET "OR_I[1]" IOSTANDARD = SSTL2_I;
-NET "OR_I[1]" LOC = P6;
+NET "OR_I[1]" LOC = N6;
+NET "OR_I[2]" IOSTANDARD = SSTL2_I;
+NET "OR_I[2]" LOC = P6;
 NET "OUT_ADC_I" IOSTANDARD = SSTL2_I;
 NET "OUT_ADC_I" LOC = W3;
 NET "pll25dac1_sync_n_o" DRIVE = 12;
@@ -486,10 +487,10 @@ NET "pll25dac_sclk_o" DRIVE = 12;
 NET "pll25dac_sclk_o" IOSTANDARD = LVCMOS33;
 NET "pll25dac_sclk_o" LOC = P1;
 NET "pll25dac_sclk_o" SLEW = SLOW;
-NET "Q_R_I_IBUF" IOSTANDARD = LVCMOS33;
+#NET "Q_R_I_IBUF" IOSTANDARD = LVCMOS33;
 NET "Q_R_I" IOSTANDARD = LVCMOS33;
 NET "Q_R_I" LOC = U1;
-NET "Q_SC_I_IBUF" IOSTANDARD = LVCMOS33;
+#NET "Q_SC_I_IBUF" IOSTANDARD = LVCMOS33;
 NET "Q_SC_I" IOSTANDARD = LVCMOS33;
 NET "Q_SC_I" LOC = U3;
 NET "RST_ADC_N_O" DRIVE = 12;
@@ -499,12 +500,12 @@ NET "RST_ADC_N_O" SLEW = SLOW;
 NET "RST_R_N_O" DRIVE = 12;
 NET "RST_R_N_O" IOSTANDARD = LVCMOS33;
 NET "RST_R_N_O" LOC = Y1;
-NET "RST_R_N_O_OBUF" IOSTANDARD = LVCMOS33;
+#NET "RST_R_N_O_OBUF" IOSTANDARD = LVCMOS33;
 NET "RST_R_N_O" SLEW = SLOW;
 NET "RST_SC_N_O" DRIVE = 12;
 NET "RST_SC_N_O" IOSTANDARD = LVCMOS33;
 NET "RST_SC_N_O" LOC = U4;
-NET "RST_SC_N_O_OBUF" IOSTANDARD = LVCMOS33;
+#NET "RST_SC_N_O_OBUF" IOSTANDARD = LVCMOS33;
 NET "RST_SC_N_O" SLEW = SLOW;
 NET "sata_rxp_i[0]" LOC = D13;
 NET "sata_rxn_i[1]" LOC = C9;
@@ -589,4 +590,15 @@ TIMESPEC TS_fpga_pll_ref_clk_123_p_i = PERIOD "fpga_pll_ref_clk_123_p_i" 125 MHz
 TIMESPEC TS_lvds_left_clk_p_b = PERIOD "lvds_left_clk_p_b" 125 MHz HIGH 50 %;
 TIMESPEC TS_lvds_right_clk_p_b = PERIOD "lvds_right_clk_p_b" 125 MHz HIGH 50 %;
 
-NET "IPBusInterface_inst/clocks/rst" TIG;
+# Don't care about the timing of these signals w.r.t. clock, since they are static during data acqusition
+NET "*s_triggerSourceSelect*" TIG;
+NET "*s_hold1Delay*" TIG;
+NET "*s_hold2Delay*" TIG;
+# Don't care about timing of reset signal
+NET "IPBusInterface_inst/generate_physicalmac.clocks/rst*" TIG;
+NET "maroc/slave2_trigger/s_counter_reset_ipb" TIG;
+
+# Bodge, bodge
+NET "maroc/slave5_triggerCounter/*reset*" TIG;
+NET "maroc/slave5_triggerCounter/inst_sync_reg/*ring*" TIG;
+NET "maroc/slave5_triggerCounter/inst_sync_reg/*data*" TIG;

@@ -133,15 +133,14 @@ begin
   --==========================================================================
   -- purpose: Shift register to deserialize data from MAROC
   -- type   : combinational
-  -- inputs : clk_i , out_adc_i
+  -- inputs : clk_i , reset_i , out_adc_i
   -- outputs: s_shiftReg
   --==========================================================================
-  p_shiftReg: process (clk_i , out_adc_i)
+  p_shiftReg: process (clk_i , reset_i, out_adc_i)
   begin  -- process p_shiftReg
     if rising_edge(clk_i) then
 
       if (reset_i = '1') then
-        s_writeAddr <= (others => '0');
         s_shiftRegCounter <= (others => '0');
       elsif (s_reset_sr='1') then
         s_shiftRegCounter <= (others => '0');
@@ -150,23 +149,30 @@ begin
         s_shiftRegCounter <=  s_shiftRegCounter + 1;
       end if;
 
-      -- Increment write address if a complete word has been shifted or if end
-      -- of ADC readout has been reached.
-      s_shiftRegFull_d1 <= s_shiftRegFull;
-
-
-      if (s_wen = '1') then
-        s_writeAddr <= s_writeAddr + 1;
-      end if;
-
       --! Delay reset shift-reg signal to act as flag for
       --! writing timestamp into DPR.
       s_reset_sr_d1 <= s_reset_sr;
+
+      s_shiftRegFull_d1 <= s_shiftRegFull;
       
     end if;                             -- rising_edge(clk_i)
     
   end process p_shiftReg;
 
+  p_writeAddrControl: process(clk_i , s_wen , reset_i )
+    begin
+      if rising_edge(clk_i) then
+        if (reset_i = '1') then
+          s_writeAddr <= (others => '0');
+        elsif (s_wen = '1') then
+          -- Increment write address if a complete word has been shifted or if end
+          -- of ADC readout has been reached.
+          s_writeAddr <= s_writeAddr + 1;
+        end if;
+      end if;
+  end process p_writeAddrControl;
+
+  
   --! Generate write enable for DPRAM ( also increments write address
   s_shiftRegFull <= '1' when (s_shiftRegCounter(4 downto 0) = "11111" ) else '0';
   
@@ -187,6 +193,7 @@ begin
       adc_dav_i      => adc_dav_i,
       reset_sr_o     => s_reset_sr,
       start_adc_n_o  => start_adc_n_o,
+      end_of_sequence_o => open,
       status_o       => status_o
       ); 
 

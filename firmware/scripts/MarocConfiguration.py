@@ -44,8 +44,8 @@ class MarocConfiguration(object):
             self.logger.info("Read back %i from %s"%( int(regReadValue) , regName ))
             
 
-        self.logger.debug( "Resetting timestamp and trigger counters")
-        self.board.write("trigStatus",0x00000001) 
+#        self.logger.debug( "Resetting timestamp and trigger counters")
+#        self.board.write("trigStatus",0x00000001) 
 
-        # Reset ADC buffer write buffer
-        self.board.write("adc0Ctrl",0x00000002)
+#        # Reset ADC buffer write buffer
+#        self.board.write("adc0Ctrl",0x00000002)

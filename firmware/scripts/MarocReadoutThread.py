@@ -50,6 +50,13 @@ class MarocReadoutThread(Thread):
         # Create pointer to MAROC board and set up structures.
         marocData = MarocDAQ.MarocDAQ(board,debugLevel)
 
+        # BODGE - wait for histogram thread to book histograms.
+        time.sleep(5)
+
+        # Reset pointers
+        marocData.resetCounters()
+        marocData.resetADCPointers()
+
         while not exitFlag:
 
             # Read data from MAROC

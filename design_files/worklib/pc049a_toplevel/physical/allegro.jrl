@@ -1,19 +1,12 @@
-\t (00:00:06) allegro 16.6 S014 (v16-6-112AU) Linux I32
-\t (00:00:06)     Journal start - Mon Mar  2 13:38:05 2015
-\t (00:00:06)         Host=voltar.phy.bris.ac.uk User=phdgc Pid=8751 CPUs=8
-\t (00:00:06) 
-\t (00:00:08) Opening existing design...
-\d (00:00:09) Database opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_52.brd
-\i (00:00:09) trapsize 17235
-\i (00:00:10) trapsize 16883
-\i (00:00:10) trapsize 17296
-\i (00:00:10) trapsize 15027
-\i (00:00:10) trapsize 15027
-\i (00:00:12) ifp 
-\i (00:00:31) open 
-\i (00:02:54) fillin "/projects/HEP_Instrumentation/cad/designs/uob-hep-pc035a/trunk/design_files/worklib/pc035a_mpickup_toplevel/physical/pc035b_mpickup_600mm_1800mm_05.brd"
-\i (00:02:54) cd "/projects/HEP_Instrumentation/cad/designs/uob-hep-pc035a/trunk/design_files/worklib/pc035a_mpickup_toplevel/physical"
-\t (00:02:54) Opening existing design...
-\i (00:02:56) fillin yes 
-\i (00:02:56) trapsize 8149
-\t (00:02:56)     Journal end - Mon Mar  2 13:40:55 2015
+\t (46:40:47) allegro 16.6-2015 S055 (v16-6-112EH) Linux I32
+\t (46:40:47)     Journal start - Thu Feb 18 12:00:53 2016
+\t (46:40:47)         Host=fortis.phy.bris.ac.uk User=phdgc Pid=27642 CPUs=4
+\t (46:40:47) CmdLine= /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055//tools/pcb/bin/allegro.exe
+\t (46:40:47) 
+\d (46:40:47) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_52.brd
+\i (46:40:47) ifp 
+\i (46:40:56) opencd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_12.brd 
+\t (46:40:57) Opening existing design...
+\t (46:40:57) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (46:40:57) trapsize 7128
+\t (46:40:57)     Journal end - Thu Feb 18 12:01:03 2016

@@ -3,19 +3,19 @@
 (    STEP Export                                                      )
 (                                                                     )
 (    Software Version : 16.6S014                                      )
-(    Date/Time        : Fri Oct 10 14:14:37 2014                      )
+(    Date/Time        : Mon Apr 13 14:34:18 2015                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 
 
-STEP file: pc049a_toplevel_40_a16-6
-Design file: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_40_a16-6.brd
+STEP file: pc049a_toplevel_52
+Design file: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_52.brd
 Export units: Millimeter
 STEP protocol: AP-214
 Source identification: allegro_16.6S014
-Export parts with mapped STEP Models?: YES
+Export parts with mapped STEP Models?: NO
 Export parts without mapped STEP Models?: YES
 Export assemblies and enclosures parts?: NO
 Export mechincal drills?: YES

@@ -138,8 +138,14 @@ class MarocDAQ(object):
 
     def resetADCPointers(self):
         """Resets read and write pointers. Hopefully doesn't reset event counter ...."""
+        self.logger.info( "Resetting ADC data read and write pointers")
         self.board.write("adc0Ctrl",0x00000002)
         self.adcReadPointer = self.numMaroc*[0]
+
+    def resetCounters(self):
+        """Reset timestamp and trigger counters"""
+        self.logger.info( "Resetting timestamp and trigger counters")
+        self.board.write("trigStatus",0x00000001) 
 
     def decodeADCData(self,adcEventData):
         """Takes data from a single ADC, unpacks it into 12-bit words, performs Gray coding and returns an array of 64-ADC values.

@@ -24,8 +24,10 @@ from PyChipsUser import *
 from Queue import Queue
 #from multiprocessing import Queue
 
+debugLevel = logging.INFO
+
 logger = logging.getLogger(__name__)
-marocLogging(logger,logging.DEBUG)
+marocLogging(logger,debugLevel)
 
 parser = OptionParser()
 parser.add_option("-i", dest = 'ipAddress' , default="192.168.200.16")
@@ -54,8 +56,6 @@ board = ChipsBusUdp(bAddrTab,options.ipAddress,50001)
 firmwareID = board.read("FirmwareId")
 
 logger.info("Firmware ID = %s" % (hex(firmwareID)))
-
-debugLevel = logging.INFO
 
 # Create object with configuration information - in the long run this should be done in a separate thread with a GUI
 marocConfiguration = MarocConfiguration.MarocConfiguration(board,configurationFile = options.configFile , debugLevel=debugLevel)

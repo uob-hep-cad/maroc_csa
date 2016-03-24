@@ -2,9 +2,9 @@
 (                                                                     )
 (    ARTWORK LOG                                                      )
 (                                                                     )
-(    Drawing          : pc049a_lemo_db_12.brd                         )
-(    Software Version : 16.6S014                                      )
-(    Date/Time        : Wed Mar  4 14:55:25 2015                      )
+(    Drawing          : pc049a_lemo_db_4l_13.brd                      )
+(    Software Version : 16.6-2015S055                                 )
+(    Date/Time        : Wed Mar 16 12:12:19 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -26,9 +26,263 @@ Results from parameter file ...
     UNDEF-APT-CONT        NO
 
 
+
+================================================================
+     PROCESSING FILM < PASTEMASK_BOTTOM >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_4l_PASTEMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:  NONE
+     pc049a_lemo_db_4l_PASTEMASK_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < ASSEMBLY_BOTTOM >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_4l_ASSEMBLY_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (-211.7450 -214.2850)
+           ... using undefined line width of 0.2000
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.2000
+
+    WARNING: 0 width line found at (-218.7300 -207.9350)
+           ... using undefined line width of 0.2000
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.2000
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.25000                                  DARK 
+  CIRCLE     0.30480                                  DARK 
+
+     pc049a_lemo_db_4l_ASSEMBLY_BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_TOP >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_4l_SOLDERMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     1.65100                                  DARK 
+  CIRCLE     1.90500                                  DARK 
+  CIRCLE     4.26720                                  DARK 
+  CIRCLE     7.11200                                  DARK 
+  RECTANGLE  0.50800     x 3.04800      90.000 NO     DARK 
+  RECTANGLE  0.50800     x 4.95300      90.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.20000       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.20000      90.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.40000       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.40000      90.000 NO     DARK 
+  RECTANGLE  0.76200     x 1.06680       0.000 NO     DARK 
+  RECTANGLE  0.76200     x 1.06680      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.35000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.35000      90.000 NO     DARK 
+  RECTANGLE  2.54000     x 0.63500      90.000 NO     DARK 
+
+     pc049a_lemo_db_4l_SOLDERMASK_TOP created.
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_BOTTOM >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_4l_SOLDERMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     1.65100                                  DARK 
+  CIRCLE     1.90500                                  DARK 
+  CIRCLE     4.26720                                  DARK 
+  CIRCLE     7.11200                                  DARK 
+
+     pc049a_lemo_db_4l_SOLDERMASK_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_TOP >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_4l_SILKSCREEN_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2500
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.25000                                  DARK 
+  CIRCLE     0.30500                                  DARK 
+
+     pc049a_lemo_db_4l_SILKSCREEN_TOP created.
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_BOTTOM >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_4l_SILKSCREEN_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2500
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.25000                                  DARK 
+
+     pc049a_lemo_db_4l_SILKSCREEN_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < DRILL_FIGURE >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_4l_DRILL_FIGURE.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.5000
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.30480                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+
+     pc049a_lemo_db_4l_DRILL_FIGURE created.
+
+
+================================================================
+     PROCESSING FILM < OUTLINE >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_4l_OUTLINE.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1000
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+
+     pc049a_lemo_db_4l_OUTLINE created.
+
+
 ================================================================
      PROCESSING FILM < PASTEMASK_TOP >
-     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_PASTEMASK_TOP.art > ...
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_4l_PASTEMASK_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -61,11 +315,202 @@ Results from parameter file ...
   RECTANGLE  0.80000     x 0.35000      90.000 NO     DARK 
   RECTANGLE  2.28600     x 0.30000      90.000 NO     DARK 
 
-     pc049a_lemo_db_PASTEMASK_TOP created.
+     pc049a_lemo_db_4l_PASTEMASK_TOP created.
+
+
+================================================================
+     PROCESSING FILM < ASSEMBLY_TOP >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_4l_ASSEMBLY_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.12500                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.20300                                  DARK 
+  CIRCLE     0.25000                                  DARK 
+  CIRCLE     0.30480                                  DARK 
+  CIRCLE     0.30500                                  DARK 
+
+     pc049a_lemo_db_4l_ASSEMBLY_TOP created.
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_4l_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.22570                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     1.39700                                  DARK 
+  CIRCLE     1.60020                                  DARK 
+  CIRCLE     5.00000                                  DARK 
+  CIRCLE     6.60400                                  DARK 
+
+     pc049a_lemo_db_4l_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_4l_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.18000                                  DARK 
+  CIRCLE     0.22570                                  DARK 
+  CIRCLE     0.23070                                  DARK 
+  CIRCLE     0.26000                                  DARK 
+  CIRCLE     0.35000                                  DARK 
+  CIRCLE     0.40000                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     1.39700                                  DARK 
+  CIRCLE     1.60020                                  DARK 
+  CIRCLE     5.00000                                  DARK 
+  CIRCLE     6.60400                                  DARK 
+  RECTANGLE  0.43180     x 2.79400      90.000 NO     DARK 
+  RECTANGLE  0.43180     x 4.69900      90.000 NO     DARK 
+  RECTANGLE  0.50800     x 0.81280       0.000 NO     DARK 
+  RECTANGLE  0.50800     x 0.81280      90.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.20000       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.20000      90.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.40000       0.000 NO     DARK 
+  RECTANGLE  0.70000     x 0.40000      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.35000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.35000      90.000 NO     DARK 
+  RECTANGLE  2.28600     x 0.40640      90.000 NO     DARK 
+
+     pc049a_lemo_db_4l_TOP created.
+
+
+================================================================
+     PROCESSING FILM < L2 >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_4l_L2.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.22570                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     1.39700                                  DARK 
+  CIRCLE     1.60020                                  DARK 
+  CIRCLE     6.60400                                  DARK 
+
+     pc049a_lemo_db_4l_L2 created.
+
+
+================================================================
+     PROCESSING FILM < L3 >
+     TO FILE < /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_4l_L3.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.22570                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     1.39700                                  DARK 
+  CIRCLE     1.60020                                  DARK 
+  CIRCLE     6.60400                                  DARK 
+
+     pc049a_lemo_db_4l_L3 created.
 
 
 ------------------------------------------------------
  SUMMARY:
-        pc049a_lemo_db_PASTEMASK_TOP created.
+        pc049a_lemo_db_4l_PASTEMASK_BOTTOM created.
+        pc049a_lemo_db_4l_ASSEMBLY_BOTTOM created with warnings
+        pc049a_lemo_db_4l_SOLDERMASK_TOP created.
+        pc049a_lemo_db_4l_SOLDERMASK_BOTTOM created.
+        pc049a_lemo_db_4l_SILKSCREEN_TOP created.
+        pc049a_lemo_db_4l_SILKSCREEN_BOTTOM created.
+        pc049a_lemo_db_4l_DRILL_FIGURE created.
+        pc049a_lemo_db_4l_OUTLINE created.
+        pc049a_lemo_db_4l_PASTEMASK_TOP created.
+        pc049a_lemo_db_4l_ASSEMBLY_TOP created.
+        pc049a_lemo_db_4l_BOTTOM created.
+        pc049a_lemo_db_4l_TOP created.
+        pc049a_lemo_db_4l_L2 created.
+        pc049a_lemo_db_4l_L3 created.
 
- ARTWORK finished
+ ARTWORK had warnings

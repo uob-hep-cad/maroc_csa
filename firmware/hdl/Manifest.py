@@ -38,5 +38,6 @@ files = [
 #    "dpram.vhdl" , 
     "ipbusDPRAM.vhdl",
     "synchronizeRegisters_rtl.vhd",
-    "i2c_master_rtl.vhd"
-         ]
+    "i2c_master_rtl.vhd",
+    "marocTriggerTimeStamp_rtl.vhd"
+]

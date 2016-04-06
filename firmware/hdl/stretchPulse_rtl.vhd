@@ -1,58 +1,59 @@
+--=============================================================================
 --! @file stretchPulse_rtl.vhd
-library IEEE;
-use IEEE.std_logic_1164.all;
-use IEEE.numeric_std.ALL;
-
+--=============================================================================
+--
 -------------------------------------------------------------------------------
 -- --
 -- University of Bristol, High Energy Physics Group.
 -- --
-------------------------------------------------------------------------------- -
---! @brief looks for rising edge of input level then shifts out a pulse.
+------------------------------------------------------------------------------- --
+-- VHDL Architecture fmc_mTLU_lib.triggerLogic.rtl
 --
---! @author David Cussans , David.Cussans@bristol.ac.uk
---! @date 1/July/2013
+--! @brief Takes a pulse on input, stretches it and delays it.
+--
+-------------------------------------------------------------------------------
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.numeric_std.all;
 
 entity stretchPulse is
   
   generic (
-    --g_OUTPUT_PATTERN : std_logic_vector -- gets shifted out
-    g_PULSE_LENGTH : positive := 8
-    ) ;  
+    g_PARAM_WIDTH : positive := 5);  --! number of bits in parameters (width,  delay)
 
   port (
-    clk_i     : in  std_logic;          -- active high
-    level_i   : in  std_logic;          -- active high
-    pulse_out : out std_logic);         -- rises high
+    clk_i        : in  std_logic;       --! Active high
+    pulse_i      : in  std_logic;       --! Active high
+    pulseWidth_i : in  std_logic_vector(g_PARAM_WIDTH-1 downto 0);  --! Minimum pulse width ( in clock cycles )
+    
+    pulse_o      : out std_logic       --! delayed and stretched
 
-end stretchPulse;
+    );      
 
+end entity stretchPulse;
 
+-- For now just delay the pulse.
 architecture rtl of stretchPulse is
 
-  signal s_level_d1 , s_level_d2 : std_logic := '0';
+  signal s_stretchSR : std_logic_vector( (2**g_PARAM_WIDTH) -1 downto 0) := ( others => '0' );  -- --! Shift register to generate delay
 
-  constant c_OUTPUT_PATTERN : std_logic_vector(0 to g_PULSE_LENGTH-1) := (others => '1');  -- Gets shifted out
-  
-  signal s_shiftReg : std_logic_vector( c_OUTPUT_PATTERN'range ) := ( others => '0');
-  
-begin  -- rtl
+begin  -- architecture rtl
 
-p_shift_data: process (clk_i)
-  begin  -- process p_shift_data
-    if rising_edge(clk_i) then  -- rising clock edge
-      s_level_d1 <= level_i;
-      s_level_d2 <= s_level_d1;
-
-      if (s_level_d1='1' and s_level_d2='0') then
-        s_shiftReg <= c_OUTPUT_PATTERN;
+  --! Stretch pulse. the output pulse is always at least as long as the input pulse
+  p_stretchPulse: process (clk_i , pulse_i) is
+  begin  -- process p_stretchPulse
+    if rising_edge(clk_i) then
+      if pulse_i = '1' then
+        s_stretchSR <= ( others => '1' ) ;
+        pulse_o <= pulse_i ;
       else
-        s_shiftReg <=  s_shiftReg( 1 to s_shiftReg'right) & '0' ;
+        s_stretchSR <= s_stretchSR( (s_stretchSR'left -1) downto 0 ) & '0';
+        pulse_o <= s_stretchSR( to_integer(unsigned(pulseWidth_i)) );
       end if;
 
-      pulse_out <= s_shiftReg(0);
-      
     end if;
-  end process p_shift_data;  
+  end process p_stretchPulse;
 
-end rtl;
+end architecture rtl;
+

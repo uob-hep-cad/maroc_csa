@@ -65,6 +65,8 @@ package maroc is
   type t_integer_array is array (natural range <>) of integer;  -- ! Used to pass clock domain values into fineTimestap
   type t_bool_array is array (natural range <>) of boolean;  -- ! Used to pass single/dual ISERDES flag to fineTimestamp
 
+  type t_timeStampArray is array(natural range <>) of std_logic_vector(c_BUSWIDTH-1 downto 0) ;
+  
   type maroc_input_signals is record          -- Signals going to MAROC
     CK_40M:  STD_LOGIC;
     HOLD2_2V5:  STD_LOGIC;

@@ -1,0 +1,36 @@
+# Xilinx ISE setup fragment for ipbus core
+files = [
+	"../hdl/ipbus_package.vhd" ,
+	"../hdl/ipbus_trans_decl.vhd" ,
+	"../hdl/ipbus_ctrl.vhd" ,
+	"../hdl/udp_if_flat.vhd" ,
+	"../hdl/udp_buffer_selector.vhd" ,
+	"../hdl/udp_build_arp.vhd" ,
+	"../hdl/udp_build_payload.vhd" ,
+	"../hdl/udp_build_ping.vhd" ,
+	"../hdl/udp_build_resend.vhd" ,
+	"../hdl/udp_build_status.vhd" ,
+	"../hdl/udp_byte_sum.vhd" ,
+	"../hdl/udp_clock_crossing_if.vhd" ,
+	"../hdl/udp_do_rx_reset.vhd" ,
+	"../hdl/udp_dualportram.vhd" ,
+	"../hdl/udp_dualportram_rx.vhd" ,
+	"../hdl/udp_dualportram_tx.vhd" ,
+	"../hdl/udp_ipaddr_block.vhd" ,
+	"../hdl/udp_packet_parser.vhd" ,
+	"../hdl/udp_rarp_block.vhd" ,
+	"../hdl/udp_rxram_mux.vhd" ,
+	"../hdl/udp_rxram_shim.vhd" ,
+	"../hdl/udp_rxtransactor_if_simple.vhd" ,
+	"../hdl/udp_status_buffer.vhd" ,
+	"../hdl/udp_tx_mux.vhd" ,
+	"../hdl/udp_txtransactor_if_simple.vhd" ,
+	"../hdl/trans_arb.vhd" ,
+	"../hdl/transactor.vhd" ,
+	"../hdl/transactor_if.vhd" ,
+	"../hdl/transactor_sm.vhd" ,
+	"../hdl/transactor_cfg.vhd" ,
+	"../hdl/stretcher.vhd" 
+]
+
+#	"ipbus/firmware/example_designs/hdl/clock_div.vhd" 

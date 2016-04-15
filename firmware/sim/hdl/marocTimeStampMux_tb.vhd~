@@ -1,0 +1,111 @@
+--------------------------------------------------------------------------------
+-- Company: 
+-- Engineer:
+--
+-- Create Date:   09:47:25 04/04/2016
+-- Design Name:   
+-- Module Name:   /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/firmware/sim/hdl/marocTimeStampMux_tb.vhd
+-- Project Name:  pc049a_top_demo
+-- Target Device:  
+-- Tool versions:  
+-- Description:   
+-- 
+-- VHDL Test Bench Created by ISE for module: marocTimeStampMux
+-- 
+-- Dependencies:
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+--
+-- Notes: 
+-- This testbench has been automatically generated using types std_logic and
+-- std_logic_vector for the ports of the unit under test.  Xilinx recommends
+-- that these types always be used for the top-level I/O of a design in order
+-- to guarantee that the testbench will bind correctly to the post-implementation 
+-- simulation model.
+--------------------------------------------------------------------------------
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+ 
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--USE ieee.numeric_std.ALL;
+ 
+ENTITY marocTimeStampMux_tb IS
+END marocTimeStampMux_tb;
+ 
+ARCHITECTURE behavior OF marocTimeStampMux_tb IS 
+ 
+    -- Component Declaration for the Unit Under Test (UUT)
+ 
+    COMPONENT marocTimeStampMux
+    PORT(
+         clk_i : IN  std_logic;
+         upstream_data_i : IN  std_logic_vector(31 downto 0);
+         upstream_data_present_i : IN  std_logic;
+         read_upstream_data_o : OUT  std_logic;
+         input_data_i : IN  std_logic_vector(31 downto 0);
+         input_data_present_i : IN  std_logic;
+         read_input_data_o : OUT  std_logic;
+         downstream_data_o : OUT  std_logic_vector(31 downto 0);
+         downstream_data_present_o : OUT  std_logic
+        );
+    END COMPONENT;
+    
+
+   --Inputs
+   signal clk_i : std_logic := '0';
+   signal upstream_data_i : std_logic_vector(31 downto 0) := (others => '0');
+   signal upstream_data_present_i : std_logic := '0';
+   signal input_data_i : std_logic_vector(31 downto 0) := (others => '0');
+   signal input_data_present_i : std_logic := '0';
+
+ 	--Outputs
+   signal read_upstream_data_o : std_logic;
+   signal read_input_data_o : std_logic;
+   signal downstream_data_o : std_logic_vector(31 downto 0);
+   signal downstream_data_present_o : std_logic;
+
+   -- Clock period definitions
+   constant clk_i_period : time := 10 ns;
+ 
+BEGIN
+ 
+	-- Instantiate the Unit Under Test (UUT)
+   uut: marocTimeStampMux PORT MAP (
+          clk_i => clk_i,
+          upstream_data_i => upstream_data_i,
+          upstream_data_present_i => upstream_data_present_i,
+          read_upstream_data_o => read_upstream_data_o,
+          input_data_i => input_data_i,
+          input_data_present_i => input_data_present_i,
+          read_input_data_o => read_input_data_o,
+          downstream_data_o => downstream_data_o,
+          downstream_data_present_o => downstream_data_present_o
+        );
+
+   -- Clock process definitions
+   clk_i_process :process
+   begin
+		clk_i <= '0';
+		wait for clk_i_period/2;
+		clk_i <= '1';
+		wait for clk_i_period/2;
+   end process;
+ 
+
+   -- Stimulus process
+   stim_proc: process
+   begin		
+      -- hold reset state for 100 ns.
+      wait for 100 ns;	
+
+      wait for clk_i_period*10;
+
+      -- insert stimulus here 
+
+      wait;
+   end process;
+
+END;

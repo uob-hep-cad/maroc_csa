@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#python2.7 /projects/HEP_Instrumentation/cad/designs/hdl-make/git-2.1/hdl-make/hdlmake/__main__.py
+python2.7  /projects/HEP_Instrumentation/cad/designs/hdl-make/git-2.x/hdl-make/hdlmake/__main__.py 

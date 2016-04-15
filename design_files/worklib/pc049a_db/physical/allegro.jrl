@@ -1,863 +1,162 @@
-\t (00:00:07) allegro 16.6-2015 S055 (v16-6-112EH) Linux I32
-\t (00:00:07)     Journal start - Wed Mar 16 11:58:41 2016
-\t (00:00:07)         Host=voltar.phy.bris.ac.uk User=phdgc Pid=16081 CPUs=8
-\t (00:00:07) CmdLine= /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055/tools/pcb/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files//pc049a_lemo_db.cpm -product Concept_HDL_studio -mpssession phdgc_ProjectMgr27973 -mpshost voltar.phy.bris.ac.uk
-\t (00:00:07) 
-\t (00:00:09) Opening existing design...
-\d (00:00:09) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_12.brd
-\t (00:00:10) Grids are drawn 3.2000, 3.2000 apart for enhanced viewability.
-\t (00:00:10) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
-\i (00:00:10) trapsize 6116
-\i (00:00:10) trapsize 6247
-\i (00:00:10) trapsize 5518
-\t (00:00:10) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
-\i (00:00:10) trapsize 5518
-\i (00:00:11) ifp 
-\i (00:00:18) roam start
-\i (00:00:18) roam x -16
-\i (00:00:18) roam y -32
-\i (00:00:18) roam y -16
-\i (00:00:18) roam y -16
-\i (00:00:18) roam y -16
-\i (00:00:18) roam x -16
-\i (00:00:18) roam y -48
-\i (00:00:18) roam x -16
-\i (00:00:18) roam y -32
-\i (00:00:18) roam y -48
-\i (00:00:18) roam x -16
-\i (00:00:18) roam y -16
-\i (00:00:18) roam y -32
-\i (00:00:18) roam y -32
-\i (00:00:19) roam y -32
-\i (00:00:19) roam x 16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam x 16
-\i (00:00:19) roam y -32
-\i (00:00:19) roam y -16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam x 16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam x 16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam x 16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam x 16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam y -16
-\i (00:00:19) roam y -16
-\i (00:00:20) roam x 16
-\i (00:00:20) roam y -16
-\i (00:00:20) roam y -16
-\i (00:00:20) roam y -16
-\i (00:00:20) roam y -16
-\i (00:00:20) roam y -16
-\i (00:00:20) roam y -16
-\i (00:00:20) roam x 16
-\i (00:00:20) roam y -16
-\i (00:00:20) roam y -16
-\i (00:00:20) roam y -16
-\i (00:00:20) roam y -16
-\i (00:00:20) roam y -16
-\i (00:00:20) roam x 16
-\i (00:00:20) roam y -16
-\i (00:00:20) roam y -16
-\i (00:00:20) roam y -16
-\i (00:00:20) roam y -16
-\i (00:00:20) roam y -16
-\i (00:00:20) roam y -16
-\i (00:00:20) roam end
-\i (00:00:23) setwindow form.vf_vis
-\i (00:00:23) FORM vf_vis 1 all_colorvisible YES 
-\i (00:00:25) setwindow pcb
-\i (00:00:25) roam start
-\i (00:00:25) roam x -48
-\i (00:00:25) roam y 48
-\i (00:00:25) roam x -64
-\i (00:00:25) roam y 48
-\i (00:00:25) roam x -64
-\i (00:00:25) roam y 96
-\i (00:00:25) roam x -64
-\i (00:00:25) roam y 80
-\i (00:00:25) roam x -64
-\i (00:00:25) roam y 64
-\i (00:00:25) roam x -48
-\i (00:00:25) roam y 80
-\i (00:00:25) roam x -64
-\i (00:00:25) roam y 64
-\i (00:00:25) roam x -32
-\i (00:00:25) roam y 64
-\i (00:00:25) roam x -48
-\i (00:00:25) roam y 80
-\i (00:00:25) roam x -32
-\i (00:00:25) roam y 64
-\i (00:00:25) roam x -16
-\i (00:00:25) roam y 48
-\i (00:00:25) roam y 16
-\i (00:00:25) roam y 16
-\i (00:00:25) roam y 32
-\i (00:00:25) roam x 16
-\i (00:00:25) roam y 32
-\i (00:00:25) roam x 16
-\i (00:00:25) roam y 48
-\i (00:00:25) roam x 16
-\i (00:00:25) roam y 48
-\i (00:00:25) roam x 16
-\i (00:00:25) roam y 64
-\i (00:00:25) roam x 16
-\i (00:00:25) roam y 64
-\i (00:00:25) roam x 16
-\i (00:00:25) roam y 32
-\i (00:00:26) roam x 16
-\i (00:00:26) roam y 48
-\i (00:00:26) roam x 16
-\i (00:00:26) roam y 32
-\i (00:00:26) roam y 16
-\i (00:00:26) roam x 16
-\i (00:00:26) roam x 16
-\i (00:00:26) roam y -16
-\i (00:00:26) roam x 16
-\i (00:00:26) roam y -16
-\i (00:00:26) roam y -16
-\i (00:00:26) roam x 16
-\i (00:00:26) roam y -16
-\i (00:00:26) roam x 16
-\i (00:00:26) roam y -16
-\i (00:00:26) roam x 16
-\i (00:00:26) roam y -16
-\i (00:00:26) roam x 16
-\i (00:00:26) roam y -16
-\i (00:00:26) roam x 16
-\i (00:00:26) roam y -16
-\i (00:00:26) roam y -16
-\i (00:00:26) roam x 16
-\i (00:00:26) roam y -16
-\i (00:00:26) roam x 16
-\i (00:00:26) roam y -32
-\i (00:00:26) roam x 16
-\i (00:00:26) roam y -16
-\i (00:00:26) roam y -16
-\i (00:00:26) roam x 16
-\i (00:00:26) roam y -32
-\i (00:00:26) roam x 16
-\i (00:00:26) roam y -16
-\i (00:00:26) roam y -16
-\i (00:00:26) roam x 16
-\i (00:00:26) roam y -16
-\i (00:00:26) roam y -16
-\i (00:00:29) roam end
-\i (00:00:39) save_as 
-\i (00:00:46) fillin "pc049a_lemo_db_4l_13.brd"
-\i (00:00:47) ifp 
-\i (00:00:53) xsection 
-   (00:00:54) Loading floor.cxt 
-   (00:00:54) Loading skillExt.cxt 
-   (00:00:54) Loading axlcore.cxt 
-   (00:00:54) Loading signal.cxt 
-\i (00:00:54) setwindow form.fplyrstack
-\i (00:00:54) FORM fplyrstack lsgrid cell 1,number 
-\i (00:00:57) FORM fplyrstack lsgrid cell 3,number 
-\i (00:00:57) FORM fplyrstack lsgrid rprepopup 3,number 
-\i (00:00:59) FORM fplyrstack lsgrid rpopup 3,number 'Add Layer Above' 
-\i (00:01:00) FORM fplyrstack lsgrid rprepopup 4,number 
-\i (00:01:01) FORM fplyrstack lsgrid rpopup 4,number 'Add Layer Above' 
-\i (00:01:02) FORM fplyrstack lsgrid rprepopup 5,number 
-\i (00:01:03) FORM fplyrstack lsgrid rpopup 5,number 'Add Layer Above' 
-\i (00:01:07) FORM fplyrstack lsgrid lprepopup 4,type 
-\i (00:01:07) FORM fplyrstack lsgrid cell 4,type 
-\i (00:01:09) FORM fplyrstack lsgrid change 4,type PLANE 
-\i (00:01:11) FORM fplyrstack lsgrid cell 6,number 
-\i (00:01:12) FORM fplyrstack lsgrid rprepopup 6,number 
-\i (00:01:13) FORM fplyrstack lsgrid rpopup 6,number 'Add Layer Above' 
-\i (00:01:16) FORM fplyrstack lsgrid lprepopup 6,type 
-\i (00:01:16) FORM fplyrstack lsgrid cell 6,type 
-\i (00:01:17) FORM fplyrstack lsgrid change 6,type PLANE 
-\i (00:01:19) FORM fplyrstack lsgrid cell 4,name 
-\i (00:01:22) FORM fplyrstack lsgrid change 4,name L2 
-\i (00:01:24) FORM fplyrstack lsgrid cell 6,name 
-\i (00:01:29) FORM fplyrstack lsgrid change 6,name L3 
-\i (00:01:44) FORM fplyrstack lsgrid cell 7,thickness 
-\i (00:01:50) FORM fplyrstack lsgrid change 7,thickness 0.2 
-\i (00:01:52) FORM fplyrstack lsgrid cell 7,thickness 
-\i (00:01:56) FORM fplyrstack lsgrid change 7,thickness 0.2032 
-\i (00:02:00) FORM fplyrstack lsgrid cell 5,thickness 
-\i (00:02:03) FORM fplyrstack lsgrid change 5,thickness 0.9 
-\i (00:02:04) FORM fplyrstack lsgrid cell 5,thickness 
-\i (00:02:09) FORM fplyrstack lsgrid change 5,thickness 1.1 
-\i (00:03:17) FORM fplyrstack done  
-\i (00:03:17) setwindow pcb
-\i (00:03:17) ifp 
-\i (00:03:19) trapsize 6205
-\i (00:04:53) pick grid 92.0211 -12.1513
-\t (00:04:53) last pick:  92.0000 -12.2000
-\i (00:04:55) setwindow form.vf_vis
-\i (00:04:55) FORM vf_vis 1 all_colorvisible NO 
-\i (00:04:56) FORM vf_vis 2 all_colorvisible NO 
-\i (00:04:57) FORM vf_vis 3 all_colorvisible NO 
-\i (00:04:58) FORM vf_vis 4 all_colorvisible YES 
-\i (00:05:07) setwindow pcb
-\i (00:05:07) zcopy shape 
-\t (00:05:07) Select cline, shape, rectangle or closed polygon.
-   (00:05:07) Loading cmds.cxt 
-\i (00:05:11) setwindow form.mini
-\i (00:05:11) FORM mini subclass_name L3 
-\i (00:05:12) setwindow pcb
-\i (00:05:12) pick -27.9923 -28.4095
-\t (00:05:12) last pick:  -27.9923 -28.4095
-\i (00:05:19) setwindow form.mini
-\i (00:05:19) FORM mini subclass_name L2 
-\i (00:05:20) setwindow pcb
-\i (00:05:20) pick 17.0593 -37.7177
-\t (00:05:20) last pick:  17.0593 -37.7177
-\i (00:05:22) prepopup 17.0593 -37.7177
-\i (00:05:23) pop Done 
-\i (00:05:23) ifp 
-\i (00:05:37) artwork 
-\i (00:05:44) setwindow form.vf_vis
-\i (00:05:44) FORM vf_vis 4 all_colorvisible NO 
-\i (00:05:45) FORM vf_vis 3 all_colorvisible YES 
-\i (00:05:52) setwindow pcb
-\i (00:05:52) shape change type 
-\i (00:05:53) pick grid -55.4203 -11.4066
-\t (00:05:53) last pick:  -55.4000 -11.4000
-\w (00:05:53) WARNING(SPMHGE-486): Shape is already static, not changed.
-\w (00:05:53) WARNING(SPMHGE-486): Shape is already static, not changed.
-\i (00:05:55) prepopup -55.4203 -11.4066
-\i (00:05:59) shape select 
-\i (00:06:00) pick grid -51.9453 -11.7790
-\t (00:06:00) last pick:  -51.9000 -11.8000
-\t (00:06:00) DRC errors detected.
-\i (00:06:01) prepopup -51.9453 -11.7790
-\i (00:06:04) pop shape change type 
-\i (00:06:06) fillin yes 
-\i (00:06:08) roam start
-\i (00:06:08) roam y -48
-\i (00:06:08) roam y -32
-\i (00:06:08) roam y -16
-\i (00:06:09) roam end
-\i (00:06:16) setwindow form.vf_vis
-\i (00:06:16) FORM vf_vis 3 all_colorvisible NO 
-\i (00:06:17) FORM vf_vis 2 all_colorvisible YES 
-\i (00:06:23) setwindow pcb
-\i (00:06:23) shape select 
-\i (00:06:24) pick grid -57.4061 -0.3771
-\t (00:06:24) last pick:  -57.4000 -0.4000
-\i (00:06:30) pick grid -7.3902 -4.1004
-\t (00:06:30) last pick:  -7.4000 -4.1000
-\i (00:06:30) prepopup -7.3902 -4.1004
-\i (00:06:32) done 
-\i (00:06:32) ifp 
-\i (00:06:35) shape select 
-\i (00:06:36) pick grid -61.2535 13.7713
-\t (00:06:36) last pick:  -61.3000 13.8000
-\i (00:06:37) prepopup -61.2535 13.7713
-\i (00:06:40) pop shape param 
-\i (00:06:43) setwindow form.dyn_xshape
-\i (00:06:43) FORM dyn_xshape void_controls  
-\i (00:06:44) FORM dyn_xshape clearances  
-\i (00:06:45) FORM dyn_xshape thermal_relief_connects  
-\i (00:06:47) FORM dyn_xshape done  
-\i (00:06:48) setwindow pcb
-\i (00:06:48) prepopup -26.0065 -15.3943
-\i (00:06:53) pick grid -45.9881 -42.0777
-\t (00:06:53) last pick:  -46.0000 -42.1000
-\w (00:06:53) WARNING(SPMHGE-604): No editable vertex was found.
-\i (00:07:01) shape change type 
-\i (00:07:04) pick grid -51.8212 11.9097
-\t (00:07:04) last pick:  -51.8000 11.9000
-\w (00:07:04) WARNING(SPMHGE-487): Shape is already dynamic, not changed.
-\i (00:07:05) prepopup -48.0979 11.4133
-\i (00:07:06) done 
-\i (00:07:06) ifp 
-\i (00:07:07) roam start
-\i (00:07:07) roam y -48
-\i (00:07:07) roam y -32
-\i (00:07:07) roam y -48
-\i (00:07:07) roam y -16
-\i (00:07:07) roam x 16
-\i (00:07:07) roam y -32
-\i (00:07:07) roam y -32
-\i (00:07:07) roam y -32
-\i (00:07:07) roam y -32
-\i (00:07:08) roam y -32
-\i (00:07:08) roam x 16
-\i (00:07:08) roam y -48
-\i (00:07:08) roam y -16
-\i (00:07:08) roam y -16
-\i (00:07:08) roam y -16
-\i (00:07:08) roam y -16
-\i (00:07:08) roam y -16
-\i (00:07:08) roam y -16
-\i (00:07:08) roam y -16
-\i (00:07:08) roam y -16
-\i (00:07:08) roam y -16
-\i (00:07:08) roam y -16
-\i (00:07:08) roam y -16
-\i (00:07:08) roam y -16
-\i (00:07:08) roam y -16
-\i (00:07:08) roam y -16
-\i (00:07:08) roam y -16
-\i (00:07:08) roam y -16
-\i (00:07:08) roam y -16
-\i (00:07:08) roam y -16
-\i (00:07:09) roam end
-\i (00:07:15) save 
-\i (00:07:17) fillin yes 
-\i (00:07:17) ifp 
-\i (00:07:22) setwindow form.vf_vis
-\i (00:07:22) FORM vf_vis 2 all_colorvisible NO 
-\i (00:07:23) FORM vf_vis 1 all_colorvisible YES 
-\i (00:07:25) FORM vf_vis 1 all_colorvisible NO 
-\i (00:07:30) FORM vf_vis 2 all_colorvisible YES 
-\i (00:07:34) setwindow pcb
-\i (00:07:34) artwork 
-\i (00:07:36) setwindow form.film_control
-\i (00:07:36) FORM film_control filmtree  TOP 
-\i (00:07:38) FORM film_control filmtree popup Add TOP 
-\i (00:07:40) fillin "L2"
-\i (00:08:06) setwindow pcb
-\i (00:08:06) artwork 
-\i (00:08:08) color192 
-\i (00:08:08) setwindow cvf.dialog
-\i (00:08:08) cvf layer_mode
-\i (00:08:12) cvf global_invisible
-\i (00:08:13) cvf okay
-\i (00:08:17) setwindow form.vf_vis
-\i (00:08:17) FORM vf_vis 2 all_colorvisible YES 
-\i (00:08:20) setwindow form.film_control
-\i (00:08:20) FORM film_control filmtree  L2 
-\i (00:08:23) FORM film_control filmtree popup 'Match Display' L2 
-\i (00:08:32) setwindow form.vf_vis
-\i (00:08:32) FORM vf_vis 2 all_colorvisible NO 
-\i (00:08:33) FORM vf_vis 3 all_colorvisible YES 
-\i (00:08:38) setwindow pcb
-\i (00:08:38) shape select 
-\i (00:08:39) pick grid -55.0259 76.5704
-\t (00:08:39) last pick:  -55.0000 76.6000
-\t (00:08:39) DRC errors detected.
-\i (00:08:39) prepopup -55.1500 76.8187
-\i (00:08:41) pop shape change type 
-\i (00:08:43) fillin yes 
-\i (00:08:44) prepopup -37.8989 59.1952
-\i (00:08:45) done 
-\i (00:08:45) ifp 
-\i (00:08:49) artwork 
-\i (00:08:51) setwindow form.film_control
-\i (00:08:51) FORM film_control filmtree  TOP 
-\i (00:08:54) FORM film_control filmtree popup Add TOP 
-\i (00:08:56) fillin "L3"
-\i (00:09:05) FORM film_control filmtree  SILKSCREEN_TOP 
-\i (00:09:09) FORM film_control filmtree popup 'Display for Visibility' SILKSCREEN_TOP 
-\i (00:09:28) setwindow form.vf_vis
-\i (00:09:28) FORM vf_vis 1 pin_colorvisible 1 
-\i (00:09:33) setwindow pcb
-\i (00:09:33) roam start
-\i (00:09:33) roam y 32
-\i (00:09:33) roam x 16
-\i (00:09:33) roam y 16
-\i (00:09:33) roam y 16
-\i (00:09:33) roam y 16
-\i (00:09:33) roam x 16
-\i (00:09:34) roam y 16
-\i (00:09:34) roam y 16
-\i (00:09:34) roam x 16
-\i (00:09:34) roam y 16
-\i (00:09:34) roam y 16
-\i (00:09:34) roam y 16
-\i (00:09:35) roam y 16
-\i (00:09:35) roam y 16
-\i (00:09:35) roam y 16
-\i (00:09:35) roam x 16
-\i (00:09:35) roam y 16
-\i (00:09:36) roam end
-\i (00:09:38) move 
-\t (00:09:38) Select element(s) to move.
-\i (00:09:42) roam start
-\i (00:09:42) roam y 32
-\i (00:09:42) roam y 16
-\i (00:09:42) roam y 32
-\i (00:09:42) roam x -16
-\i (00:09:43) roam y 32
-\i (00:09:43) roam y 16
-\i (00:09:43) roam y 16
-\i (00:09:43) roam y 16
-\i (00:09:43) roam y 16
-\i (00:09:43) roam x -16
-\i (00:09:43) roam y 16
-\i (00:09:43) roam y 16
-\i (00:09:43) roam y 16
-\i (00:09:43) roam y 16
-\i (00:09:44) roam y 16
-\i (00:09:44) roam y 16
-\i (00:09:44) roam x -16
-\i (00:09:44) roam y 16
-\i (00:09:44) roam y 16
-\i (00:09:44) roam y 16
-\i (00:09:44) roam y 16
-\i (00:09:44) roam x -16
-\i (00:09:44) roam y 16
-\i (00:09:44) roam y 32
-\i (00:09:44) roam y 16
-\i (00:09:44) roam y 16
-\i (00:09:44) roam x -16
-\i (00:09:44) roam y 16
-\i (00:09:44) roam y 16
-\i (00:09:44) roam y 16
-\i (00:09:45) roam y 16
-\i (00:09:45) roam y 16
-\i (00:09:45) roam y 16
-\i (00:09:45) roam y 16
-\i (00:09:45) roam y 16
-\i (00:09:45) roam y 16
-\i (00:09:45) roam y 16
-\i (00:09:45) roam x -16
-\i (00:09:45) roam y 16
-\i (00:09:45) roam y 16
-\i (00:09:48) roam x -16
-\i (00:09:48) roam x -16
-\i (00:09:48) roam x -16
-\i (00:09:48) roam x -16
-\i (00:09:48) roam x -16
-\i (00:09:48) roam x -16
-\i (00:09:48) roam x -16
-\i (00:09:48) roam x -16
-\i (00:09:48) roam x -32
-\i (00:09:48) roam x -16
-\i (00:09:48) roam y -16
-\i (00:09:48) roam x -32
-\i (00:09:48) roam x -16
-\i (00:09:48) roam x -16
-\i (00:09:48) roam x -16
-\i (00:09:48) roam x -16
-\i (00:09:48) roam y -16
-\i (00:09:48) roam x -16
-\i (00:09:48) roam x -16
-\i (00:09:48) roam y -16
-\i (00:09:49) roam y -16
-\i (00:09:49) roam y -16
-\i (00:09:49) roam y -16
-\i (00:09:49) roam x -16
-\i (00:09:49) roam y -16
-\i (00:09:49) roam y -16
-\i (00:09:49) roam y -16
-\i (00:09:49) roam y -16
-\i (00:09:49) roam x -16
-\i (00:09:49) roam y -16
-\i (00:09:49) roam y -16
-\i (00:09:49) roam y -16
-\i (00:09:50) roam y -16
-\i (00:09:51) roam y -16
-\i (00:09:51) roam y -16
-\i (00:09:51) roam y -16
-\i (00:09:52) roam end
-\i (00:09:56) show element 
-\i (00:09:58) pick grid -54.7777 -9.9335
-\t (00:09:58) last pick:  -54.8000 -9.9000
-\i (00:10:11) pick grid -25.9844 7.1935
-\t (00:10:11) last pick:  -26.0000 7.2000
-\i (00:10:20) pick grid -55.3982 -29.9150
-\t (00:10:20) last pick:  -55.4000 -29.9000
-\i (00:10:34) zoom points 
-\t (00:10:34) Pick 1st corner of the new window.
-\i (00:10:35) pick -84.6879 -13.6568
-\t (00:10:35) last pick:  -84.6879 -13.6568
-\t (00:10:35) Pick to complete the window.
-\i (00:10:36) pick -55.8947 -40.7125
-\t (00:10:36) last pick:  -55.8947 -40.7125
-\t (00:10:36) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
-\i (00:10:36) trapsize 1636
-\i (00:10:43) zoom out 
-\i (00:10:43) setwindow pcb
-\i (00:10:43) zoom out -57.7958 -27.2010
-\t (00:10:43) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
-\i (00:10:43) trapsize 3272
-\i (00:10:43) zoom out 
-\i (00:10:43) setwindow pcb
-\i (00:10:43) zoom out -57.7957 -27.2010
-\t (00:10:43) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
-\i (00:10:43) trapsize 6543
-\i (00:10:43) zoom out 
-\i (00:10:43) setwindow pcb
-\i (00:10:43) zoom out -57.7957 -27.2010
-\t (00:10:43) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
-\i (00:10:43) trapsize 13086
-\i (00:10:44) roam start
-\i (00:10:44) roam x 32
-\i (00:10:44) roam y -32
-\i (00:10:44) roam x 16
-\i (00:10:44) roam y -32
-\i (00:10:44) roam y -16
-\i (00:10:44) roam x 16
-\i (00:10:44) roam y -16
-\i (00:10:45) roam x 16
-\i (00:10:45) roam x 16
-\i (00:10:45) roam x 16
-\i (00:10:45) roam x 16
-\i (00:10:45) roam x 16
-\i (00:10:46) roam end
-\i (00:10:50) status 
-\i (00:10:52) setwindow form.status
-\i (00:10:52) FORM status fill_update  
-\w (00:10:52) Shape Update can not be run while command active.
-\i (00:10:55) setwindow pcb
-\i (00:10:55) prepopup -167.4696 -77.2384
-\i (00:10:55) done 
-\i (00:10:56) ifp 
-\i (00:10:57) setwindow form.status
-\i (00:10:57) FORM status drc_update  
-\t (00:10:57) Running DRC, wait...
-\t (00:10:57) Performing DRC...
-\t (00:10:57) Multithreaded DRC update (8 threads).
-\t (00:10:57) No DRC errors detected.
-\t (00:10:57) DRC done.
-\i (00:11:00) FORM status fill_update  
-\t (00:11:00) Updating dynamic shape (1 of 4) Dummy Net, Boundary/L3 @ (-89.0000 -89.0000) ...
-\t (00:11:00) Updating dynamic shape (2 of 4) Dummy Net, Boundary/L2 @ (-89.0000 -89.0000) ...
-\t (00:11:00) Updating dynamic shape (3 of 4) Gnd_Signal, Boundary/Top @ (-89.0000 -89.0000) ...
-\t (00:11:01) Updating dynamic shape (4 of 4) Gnd_Signal, Boundary/Bottom @ (-89.0000 -89.0000) ...
-\i (00:11:03) FORM status done  
-\i (00:11:06) setwindow form.vf_vis
-\i (00:11:06) FORM vf_vis 1 all_colorvisible YES 
-\i (00:11:09) FORM vf_vis 1 all_colorvisible NO 
-\i (00:11:10) FORM vf_vis 2 all_colorvisible YES 
-\i (00:11:14) setwindow pcb
-\i (00:11:14) zoom points 
-\t (00:11:14) Pick 1st corner of the new window.
-\i (00:11:15) pick -107.7965 88.9564
-\t (00:11:15) last pick:  -107.7965 88.9564
-\t (00:11:15) Pick to complete the window.
-\i (00:11:15) pick -37.9161 33.9944
-\t (00:11:15) last pick:  -37.9161 33.9944
-\t (00:11:15) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
-\i (00:11:15) trapsize 3323
-\i (00:11:15) ifp 
-\i (00:11:19) setwindow form.vf_vis
-\i (00:11:19) FORM vf_vis 2 all_colorvisible NO 
-\i (00:11:20) FORM vf_vis 3 all_colorvisible YES 
-\i (00:11:20) FORM vf_vis 3 all_colorvisible NO 
-\i (00:11:21) FORM vf_vis 4 all_colorvisible YES 
-\i (00:11:23) FORM vf_vis 4 all_colorvisible NO 
-\i (00:11:24) FORM vf_vis 3 all_colorvisible YES 
-\i (00:11:26) FORM vf_vis 3 all_colorvisible NO 
-\i (00:11:26) FORM vf_vis 2 all_colorvisible YES 
-\i (00:11:27) FORM vf_vis 2 all_colorvisible NO 
-\i (00:11:27) FORM vf_vis 2 all_colorvisible YES 
-\i (00:11:31) setwindow pcb
-\i (00:11:31) shape select 
-\i (00:11:31) pick grid -79.4183 82.2440
-\t (00:11:31) last pick:  -79.4000 82.2000
-\i (00:11:32) pick grid -75.3643 82.1775
-\t (00:11:32) last pick:  -75.4000 82.2000
-\i (00:11:37) setwindow form.mini
-\i (00:11:37) FORM mini dyns_netname_list  
-\i (00:11:43) fillin "Gnd_Signal"
-\t (00:11:43) Assigning selected shape to net: GND_SIGNAL
-\i (00:11:48) setwindow form.vf_vis
-\i (00:11:48) FORM vf_vis 2 all_colorvisible NO 
-\i (00:11:49) FORM vf_vis 3 all_colorvisible YES 
-\i (00:11:59) setwindow pcb
-\i (00:11:59) shape select 
-\i (00:11:59) pick grid -79.8835 78.7217
-\t (00:11:59) last pick:  -79.9000 78.7000
-\i (00:12:00) pick grid -67.3227 78.5887
-\t (00:12:00) last pick:  -67.3000 78.6000
-\i (00:12:03) setwindow form.mini
-\i (00:12:03) FORM mini dyns_netname_list  
-\i (00:12:08) fillin "Gnd_Signal"
-\t (00:12:08) Assigning selected shape to net: GND_SIGNAL
-\i (00:12:11) setwindow pcb
-\i (00:12:11) prepopup -98.8909 80.4496
-\i (00:12:12) done 
-\i (00:12:12) ifp 
-\i (00:12:16) status 
-\i (00:12:16) ifp 
-\i (00:12:18) setwindow form.status
-\i (00:12:18) FORM status fill_update  
-\t (00:12:18) Updating dynamic shape (1 of 2) Gnd_Signal, Boundary/L3 @ (-89.0000 -89.0000) ...
-\t (00:12:18) Updating dynamic shape (2 of 2) Gnd_Signal, Boundary/L2 @ (-89.0000 -89.0000) ...
-\i (00:12:20) FORM status done  
-\i (00:12:20) setwindow pcb
-\i (00:12:20) roam start
-\i (00:12:20) roam x 16
-\i (00:12:20) roam y 96
-\i (00:12:21) roam y 96
-\i (00:12:21) roam x 16
-\i (00:12:21) roam y 112
-\i (00:12:21) roam x 16
-\i (00:12:21) roam y 128
-\i (00:12:21) roam x 16
-\i (00:12:21) roam y 112
-\i (00:12:21) roam y 32
-\i (00:12:21) roam x 16
-\i (00:12:21) roam y 64
-\i (00:12:21) roam y 32
-\i (00:12:21) roam x 16
-\i (00:12:21) roam y 16
-\i (00:12:21) roam y 16
-\i (00:12:21) roam y 16
-\i (00:12:21) roam y 16
-\i (00:12:21) roam x 16
-\i (00:12:21) roam y 16
-\i (00:12:21) roam y 16
-\i (00:12:21) roam y 64
-\i (00:12:21) roam x -16
-\i (00:12:21) roam y 48
-\i (00:12:21) roam x -16
-\i (00:12:21) roam y 48
-\i (00:12:21) roam y 64
-\i (00:12:21) roam x -16
-\i (00:12:21) roam y 48
-\i (00:12:21) roam y 48
-\i (00:12:21) roam x -16
-\i (00:12:21) roam y 64
-\i (00:12:21) roam y 48
-\i (00:12:21) roam x -16
-\i (00:12:21) roam y 48
-\i (00:12:21) roam y 48
-\i (00:12:21) roam x -16
-\i (00:12:21) roam y 64
-\i (00:12:21) roam y 16
-\i (00:12:21) roam y 48
-\i (00:12:21) roam x -16
-\i (00:12:21) roam y 64
-\i (00:12:21) roam y 32
-\i (00:12:22) roam y 32
-\i (00:12:22) roam y 16
-\i (00:12:22) roam y 16
-\i (00:12:22) roam x -16
-\i (00:12:22) roam y 48
-\i (00:12:22) roam y 48
-\i (00:12:22) roam y 64
-\i (00:12:22) roam x -16
-\i (00:12:22) roam y 80
-\i (00:12:22) roam y 64
-\i (00:12:22) roam x -16
-\i (00:12:22) roam y 96
-\i (00:12:22) roam y 80
-\i (00:12:22) roam x -16
-\i (00:12:22) roam y 80
-\i (00:12:22) roam y 64
-\i (00:12:22) roam y 80
-\i (00:12:22) roam y 64
-\i (00:12:22) roam y 80
-\i (00:12:22) roam y 48
-\i (00:12:22) roam y 32
-\i (00:12:22) roam y 32
-\i (00:12:22) roam y 16
-\i (00:12:22) roam x 16
-\i (00:12:22) roam y -16
-\i (00:12:22) roam y -16
-\i (00:12:22) roam x 16
-\i (00:12:22) roam y -48
-\i (00:12:22) roam x 32
-\i (00:12:22) roam y -48
-\i (00:12:22) roam x 32
-\i (00:12:22) roam y -48
-\i (00:12:22) roam x 64
-\i (00:12:22) roam y -96
-\i (00:12:22) roam x 48
-\i (00:12:22) roam y -64
-\i (00:12:22) roam x 48
-\i (00:12:22) roam y -64
-\i (00:12:22) roam x 48
-\i (00:12:22) roam y -64
-\i (00:12:22) roam x 32
-\i (00:12:22) roam y -64
-\i (00:12:22) roam x 48
-\i (00:12:22) roam y -48
-\i (00:12:22) roam x 32
-\i (00:12:22) roam y -64
-\i (00:12:22) roam x 48
-\i (00:12:22) roam y -32
-\i (00:12:22) roam x 32
-\i (00:12:22) roam y -48
-\i (00:12:22) roam x 32
-\i (00:12:22) roam y -32
-\i (00:12:22) roam x 48
-\i (00:12:22) roam y -48
-\i (00:12:22) roam x 32
-\i (00:12:22) roam y -32
-\i (00:12:22) roam x 16
-\i (00:12:22) roam y -16
-\i (00:12:22) roam x 32
-\i (00:12:22) roam y -32
-\i (00:12:22) roam x 16
-\i (00:12:22) roam y -16
-\i (00:12:23) roam x 16
-\i (00:12:23) roam x 16
-\i (00:12:23) roam x 16
-\i (00:12:23) roam x 16
-\i (00:12:23) roam x 16
-\i (00:12:23) roam y -16
-\i (00:12:23) roam x 32
-\i (00:12:23) roam y -16
-\i (00:12:23) roam x 48
-\i (00:12:23) roam y -32
-\i (00:12:23) roam x 48
-\i (00:12:23) roam y -48
-\i (00:12:23) roam x 48
-\i (00:12:23) roam y -48
-\i (00:12:23) roam x 48
-\i (00:12:23) roam y -64
-\i (00:12:23) roam x 48
-\i (00:12:23) roam y -64
-\i (00:12:23) roam x 48
-\i (00:12:23) roam y -64
-\i (00:12:23) roam x 32
-\i (00:12:23) roam y -80
-\i (00:12:23) roam x 32
-\i (00:12:23) roam y -80
-\i (00:12:23) roam x 32
-\i (00:12:23) roam y -80
-\i (00:12:23) roam y -64
-\i (00:12:23) roam x 16
-\i (00:12:23) roam y -80
-\i (00:12:23) roam y -64
-\i (00:12:23) roam x 16
-\i (00:12:23) roam y -64
-\i (00:12:23) roam y -64
-\i (00:12:23) roam y -48
-\i (00:12:23) roam y -32
-\i (00:12:23) roam y -32
-\i (00:12:23) roam y -16
-\i (00:12:23) roam y -16
-\i (00:12:23) roam y -16
-\i (00:12:23) roam y -16
-\i (00:12:23) roam y -16
-\i (00:12:23) roam y -16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam x 16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam x 16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam x 16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam x 16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam x 16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam x 16
-\i (00:12:24) roam x 16
-\i (00:12:24) roam y -32
-\i (00:12:24) roam x 16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam x 16
-\i (00:12:24) roam y -32
-\i (00:12:24) roam y -16
-\i (00:12:24) roam x 16
-\i (00:12:24) roam y -32
-\i (00:12:24) roam x 16
-\i (00:12:24) roam y -48
-\i (00:12:24) roam x 16
-\i (00:12:24) roam y -32
-\i (00:12:24) roam y -48
-\i (00:12:24) roam x 16
-\i (00:12:24) roam y -48
-\i (00:12:24) roam x 16
-\i (00:12:24) roam y -32
-\i (00:12:24) roam y -32
-\i (00:12:24) roam x 16
-\i (00:12:24) roam y -48
-\i (00:12:24) roam y -48
-\i (00:12:24) roam y -32
-\i (00:12:24) roam y -16
-\i (00:12:24) roam x 16
-\i (00:12:24) roam y -32
-\i (00:12:24) roam y -16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam x 16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam y -16
-\i (00:12:24) roam y -16
-\i (00:12:25) roam end
-\i (00:12:27) save 
-\i (00:12:28) fillin yes 
-\i (00:12:28) ifp 
-\i (00:12:38) artwork 
-\i (00:12:45) setwindow form.film_control
-\i (00:12:45) FORM film_control general_parameters  
-\i (00:12:55) FORM film_control filename_prefix pc049a_lemo_db_4l_ 
-\i (00:12:55) FORM film_control film_control  
-\i (00:13:05) FORM film_control select_all  
-\i (00:13:06) FORM film_control create  
-\t (00:13:06) Checking db records
-\t (00:13:06)     checking for orphans...
-\t (00:13:06)     Checked  19 percent
-\t (00:13:06)     Checked  39 percent
-\t (00:13:06)     Checked  59 percent
-\t (00:13:06)     Checked  79 percent
-\t (00:13:06)     Checked  99 percent
-\t (00:13:06)     Checked 100 percent
-\w (00:13:06) Run batch DRC to correctly regenerate DRC errs.
-
-\t (00:13:06) Done dbdoctor.
-\t (00:13:06) Starting Create artwork films...
-\w (00:13:12) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (00:13:13) Artwork generated with warnings.
-\i (00:13:26) setwindow pcb
-\i (00:13:26) drc update 
-\t (00:13:26) Performing DRC...
-\t (00:13:26) Multithreaded DRC update (8 threads).
-\t (00:13:26) No DRC errors detected.
-\i (00:13:26) ifp 
-\i (00:13:29) setwindow text
-close
-\i (00:13:40) artwork 
-\i (00:13:43) setwindow form.film_control
-\i (00:13:43) FORM film_control select_all  
-\i (00:13:44) FORM film_control create  
-\t (00:13:44) Checking db records
-\t (00:13:44)     checking for orphans...
-\t (00:13:44)     Checked  19 percent
-\t (00:13:44)     Checked  39 percent
-\t (00:13:44)     Checked  59 percent
-\t (00:13:44)     Checked  79 percent
-\t (00:13:44)     Checked  99 percent
-\t (00:13:44)     Checked 100 percent
-\t (00:13:44) Done dbdoctor.
-\t (00:13:44) Starting Create artwork films...
-\w (00:13:45) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (00:13:46) Artwork generated with warnings.
-\i (00:13:55) setwindow pcb
-\i (00:13:55) setwindow text
-close
-\i (00:21:20) setwindow form.film_control
-\i (00:21:20) FORM film_control cancel  
-\i (00:21:21) setwindow pcb
-\i (00:21:21) ifp 
-\i (01:06:03) pick grid 15.7792 93.9183
-\t (01:06:03) last pick:  15.8000 93.9000
-\i (01:06:14) pick grid 22.3587 96.2444
-\t (01:06:14) last pick:  22.4000 96.2000
-\i (50:23:19) exit 
-\e (50:23:20) Do you want to save the changes you made to /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_4l_13.brd?
-\i (50:23:22) fillin no 
-\t (50:23:23)     Journal end - Fri Mar 18 14:21:57 2016
+\t (00:00:04) allegro 16.6-2015 S055 (v16-6-112EH) Linux I32
+\t (00:00:04)     Journal start - Thu Apr 14 13:23:40 2016
+\t (00:00:04)         Host=voltar.phy.bris.ac.uk User=phdgc Pid=3926 CPUs=8
+\t (00:00:04) CmdLine= /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055/tools/pcb/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/pc049a_lemo_db.cpm -product Concept_HDL_studio -mpssession phdgc_ProjectMgr7061 -mpshost voltar.phy.bris.ac.uk
+\t (00:00:04) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_4l_13.brd
+\t (00:00:06) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:06) trapsize 4725
+\i (00:00:06) trapsize 4605
+\i (00:00:07) trapsize 4745
+\i (00:00:07) trapsize 3996
+\t (00:00:07) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:07) trapsize 3996
+\i (00:00:08) ifp 
+\i (00:00:11) zoom fit 
+\t (00:00:11) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\i (00:00:11) trapsize 10169
+\i (00:01:41) pick grid 3.4574 -44.2338
+\t (00:01:41) last pick:  3.5000 -44.2000
+\i (00:01:49) plctxt out 
+\i (00:02:01) setwindow form.plctxt
+\i (00:02:01) FORM plctxt filename placement_pin1.txt 
+\i (00:02:01) FORM plctxt pin_1 YES 
+\i (00:02:03) FORM plctxt execute  
+\t (00:02:03) Starting Place symbols by text file...
+\i (00:03:00) FORM plctxt cancel  
+\i (00:03:01) setwindow pcb
+\i (00:03:01) ifp 
+\i (00:08:23) zoom points 
+\t (00:08:23) Pick 1st corner of the new window.
+\i (00:08:24) pick -39.0477 18.4053
+\t (00:08:24) last pick:  -39.0477 18.4053
+\t (00:08:24) Pick to complete the window.
+\i (00:08:25) pick 36.6072 -12.3041
+\t (00:08:25) last pick:  36.6072 -12.3041
+\t (00:08:25) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:08:25) trapsize 2765
+\i (00:08:25) ifp 
+\i (00:08:47) pick grid -5.1468 -15.7168
+\t (00:08:47) last pick:  -5.1000 -15.7000
+\i (00:08:48) roam y 96 
+\i (00:08:48) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:50) roam y -96 
+\i (00:08:50) roam y -96
+\i (00:08:50) roam y -96 
+\i (00:08:50) roam y -96
+\i (00:08:50) roam y -96 
+\i (00:08:50) roam y -96
+\i (00:08:50) roam y -96 
+\i (00:08:50) roam y -96
+\i (00:08:50) roam y -96 
+\i (00:08:50) roam y -96
+\i (00:08:50) roam y -96 
+\i (00:08:50) roam y -96
+\i (00:08:50) roam y -96 
+\i (00:08:50) roam y -96
+\i (00:08:50) roam y -96 
+\i (00:08:50) roam y -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:52) roam x -96 
+\i (00:08:52) roam x -96
+\i (00:08:54) show element 
+\i (00:11:26) pick grid -57.0313 -82.5654
+\t (00:11:26) last pick:  -57.0000 -82.6000
+\i (00:11:28) zoom out 
+\i (00:11:28) setwindow pcb
+\i (00:11:28) zoom out -70.2487 -91.3033
+\t (00:11:28) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:11:28) trapsize 5530
+\i (00:11:29) zoom out 
+\i (00:11:29) setwindow pcb
+\i (00:11:29) zoom out -70.2488 -91.3034
+\t (00:11:29) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\i (00:11:29) trapsize 11061
+\i (00:11:29) zoom out 
+\i (00:11:29) setwindow pcb
+\i (00:11:29) zoom out -70.2487 -91.3033
+\t (00:11:29) Grids are drawn 3.2000, 3.2000 apart for enhanced viewability.
+\i (00:11:29) trapsize 22121
+\i (00:11:45) show element 
+\i (00:11:50) setwindow form.find
+\i (00:11:50) FORM find shapes YES 
+\i (00:11:52) setwindow pcb
+\i (00:11:52) pick grid -88.6647 4.0949
+\t (00:11:52) last pick:  -88.7000 4.1000
+\i (00:15:10) odb_out 
+\i (00:15:18) fillin no 
+   (00:15:18) Loading mfg.cxt 
+\i (00:15:31) exit 
+\e (00:15:32) Do you want to save the changes you made to pc049a_lemo_db_4l_13.brd?
+\i (00:15:35) fillin no 
+\t (00:15:38)     Journal end - Thu Apr 14 13:39:13 2016

@@ -1,12 +1,22 @@
-\t (00:02:09) allegro 16.5 S030 (v16-5-13BU) Linux IA32
-\t (00:02:09)     Journal start - Mon Mar 24 18:25:07 2014
-\t (00:02:09)         Host=calgary.phy.bris.ac.uk User=phdgc Pid=10809 CPUs=4
-\t (00:02:09) 
-\d (00:02:09) Database opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_lemo_daughter_board/physical/pc049a_lemo_daughter_board_blank.brd
-\i (00:02:10) generaledit 
-\i (00:02:12) open 
-\i (00:03:07) fillin "/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_04.brd"
-\i (00:03:07) cd "/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical"
-\t (00:03:07) Opening existing design...
-\i (00:03:07) trapsize 8585
-\t (00:03:08)     Journal end - Mon Mar 24 18:26:06 2014
+\t (00:00:21) allegro 16.6-2015 S055 (v16-6-112EH) Linux I32
+\t (00:00:21)     Journal start - Thu Apr 14 12:38:17 2016
+\t (00:00:21)         Host=voltar.phy.bris.ac.uk User=phdgc Pid=1851 CPUs=8
+\t (00:00:21) CmdLine= /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055/tools/pcb/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/pc049a_lemo_daughter_board.cpm -product Concept_HDL_studio -mpssession phdgc_ProjectMgr7061 -mpshost voltar.phy.bris.ac.uk
+\t (00:00:21) 
+\t (00:00:21) Opening existing design...
+\i (00:00:24) fillin yes 
+\d (00:00:24) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_lemo_daughter_board/physical/pc049a_lemo_daughter_board_blank.brd
+\i (00:00:26) trapsize 13353
+\i (00:00:26) trapsize 13113
+\i (00:00:27) trapsize 13394
+\i (00:00:27) trapsize 11830
+\i (00:00:27) trapsize 11830
+\i (00:00:28) ifp 
+\i (00:00:30) open 
+\i (00:00:50) fillin "/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_4l_13.brd"
+\i (00:00:50) cd "/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical"
+\t (00:00:50) Opening existing design...
+\t (00:00:50) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\t (00:00:50) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:50) trapsize 3077
+\t (00:00:50)     Journal end - Thu Apr 14 12:38:46 2016

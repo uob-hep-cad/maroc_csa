@@ -1,0 +1,9 @@
+White-rabbit core....
+
+http://www.ohwr.org/projects/hdl-make/files
+http://www.ohwr.org/projects/wr-cores
+
+export PATH=$PATH:/projects/HEP_Instrumentation/cad/tools
+
+follow instructions in wrpc-v2.1.pdf
+

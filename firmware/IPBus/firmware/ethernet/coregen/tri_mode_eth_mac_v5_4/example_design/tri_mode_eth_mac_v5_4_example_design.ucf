@@ -1,8 +1,8 @@
 # the part selection and associated pin choices (if any) are intended as 
 # an example for the family selected.  Please refer to the User Guide
 # for more information about IO selection.
-# part selected is spartan6 xc6slx100tfgg484
-CONFIG PART = xc6slx16csg324-2;
+# part selected is spartan6 xc6slx45tfgg484
+CONFIG PART = xc6slx45tfgg484-2;
 
 #
 ####
@@ -13,60 +13,65 @@ CONFIG PART = xc6slx16csg324-2;
 ## System level constraints
 
 ########## GMII LOC CONSTRAINTS ##########
-########## SP601 Board ##########
-NET  clk_in_p        LOC = K15  | IOSTANDARD = LVDS_25  | DIFF_TERM = TRUE;
-NET  clk_in_n        LOC = K16  | IOSTANDARD = LVDS_25  | DIFF_TERM = TRUE;
+########## SP605 Board ##########
+NET  clk_in_p        LOC = K21  | IOSTANDARD = LVDS_25  | DIFF_TERM = TRUE;
+NET  clk_in_n        LOC = K22  | IOSTANDARD = LVDS_25  | DIFF_TERM = TRUE;
 
-Net glbl_rst         LOC = N4   | IOSTANDARD = LVCMOS25 | TIG;
+Net glbl_rst         LOC = H8   | IOSTANDARD = LVCMOS15 | TIG;
 
 #### Module LEDs_8Bit constraints
-Net frame_error      LOC = A4   | IOSTANDARD = LVCMOS25;
-Net frame_errorn     LOC = C4   | IOSTANDARD = LVCMOS25;
-Net activity_flash   LOC = C14  | IOSTANDARD = LVCMOS25;
-Net activity_flashn  LOC = E13  | IOSTANDARD = LVCMOS25;
+Net frame_error      LOC = D17  | IOSTANDARD = LVCMOS25;
+Net frame_errorn     LOC = AB4  | IOSTANDARD = LVCMOS25;
+Net activity_flash   LOC = D21  | IOSTANDARD = LVCMOS25;
+Net activity_flashn  LOC = W15  | IOSTANDARD = LVCMOS25;
 
 #### Module Push_Buttons_4Bit constraints
-Net update_speed     LOC = P4   | IOSTANDARD = LVCMOS15;
-Net config_board     LOC = F6   | IOSTANDARD = LVCMOS15;
-Net pause_req_s      LOC = E4   | IOSTANDARD = LVCMOS15;
-Net reset_error      LOC = F5   | IOSTANDARD = LVCMOS15;
+Net update_speed     LOC = F3   | IOSTANDARD = LVCMOS15;
+Net config_board     LOC = G6   | IOSTANDARD = LVCMOS15;
+Net pause_req_s      LOC = F5   | IOSTANDARD = LVCMOS15;
+Net reset_error      LOC = C1   | IOSTANDARD = LVCMOS15;
 
 #### Module DIP_Switches_4Bit constraints
-Net mac_speed<0>     LOC = D14  | IOSTANDARD = LVCMOS25;
-Net mac_speed<1>     LOC = E12  | IOSTANDARD = LVCMOS25;
-Net gen_tx_data      LOC = F12  | IOSTANDARD = LVCMOS25;
-Net chk_tx_data      LOC = V13  | IOSTANDARD = LVCMOS25 | TIG;
+Net mac_speed<0>     LOC = C18  | IOSTANDARD = LVCMOS25;
+Net mac_speed<1>     LOC = Y6   | IOSTANDARD = LVCMOS25;
+Net gen_tx_data      LOC = W6   | IOSTANDARD = LVCMOS25;
+Net chk_tx_data      LOC = E4   | IOSTANDARD = LVCMOS25 | TIG;
 
-Net phy_resetn       LOC = L13  | IOSTANDARD = LVCMOS25 | TIG;
+Net phy_resetn       LOC = J22  | IOSTANDARD = LVCMOS25 | TIG;
 
-Net gmii_txd<0>      LOC = F8   | IOSTANDARD = LVCMOS25;
-Net gmii_txd<1>      LOC = G8   | IOSTANDARD = LVCMOS25;
-Net gmii_txd<2>      LOC = A6   | IOSTANDARD = LVCMOS25;
-Net gmii_txd<3>      LOC = B6   | IOSTANDARD = LVCMOS25;
-Net gmii_txd<4>      LOC = E6   | IOSTANDARD = LVCMOS25;
-Net gmii_txd<5>      LOC = F7   | IOSTANDARD = LVCMOS25;
-Net gmii_txd<6>      LOC = A5   | IOSTANDARD = LVCMOS25;
-Net gmii_txd<7>      LOC = C5   | IOSTANDARD = LVCMOS25;
-Net gmii_tx_en       LOC = B8   | IOSTANDARD = LVCMOS25;
-Net gmii_tx_er       LOC = A8   | IOSTANDARD = LVCMOS25;
-Net gmii_tx_clk      LOC = A9   | IOSTANDARD = LVCMOS25;
-Net gmii_rxd<0>      LOC = M14  | IOSTANDARD = LVCMOS25;
-Net gmii_rxd<1>      LOC = U18  | IOSTANDARD = LVCMOS25;
-Net gmii_rxd<2>      LOC = U17  | IOSTANDARD = LVCMOS25;
-Net gmii_rxd<3>      LOC = T18  | IOSTANDARD = LVCMOS25;
-Net gmii_rxd<4>      LOC = T17  | IOSTANDARD = LVCMOS25;
-Net gmii_rxd<5>      LOC = N16  | IOSTANDARD = LVCMOS25;
-Net gmii_rxd<6>      LOC = N15  | IOSTANDARD = LVCMOS25;
-Net gmii_rxd<7>      LOC = P18  | IOSTANDARD = LVCMOS25;
-Net gmii_rx_dv       LOC = N18  | IOSTANDARD = LVCMOS25;
-Net gmii_rx_er       LOC = P17  | IOSTANDARD = LVCMOS25;
-Net gmii_rx_clk      LOC = L16  | IOSTANDARD = LVCMOS25 | PERIOD = 8000 ps;
+Net gmii_rxd<7>      LOC = U22  | IOSTANDARD = LVCMOS25;
+Net gmii_rxd<6>      LOC = V21  | IOSTANDARD = LVCMOS25;
+Net gmii_rxd<5>      LOC = V22  | IOSTANDARD = LVCMOS25;
+Net gmii_rxd<4>      LOC = W20  | IOSTANDARD = LVCMOS25;
+Net gmii_rxd<3>      LOC = W22  | IOSTANDARD = LVCMOS25;
+Net gmii_rxd<2>      LOC = Y21  | IOSTANDARD = LVCMOS25;
+Net gmii_rxd<1>      LOC = Y22  | IOSTANDARD = LVCMOS25;
+Net gmii_rxd<0>      LOC = P19  | IOSTANDARD = LVCMOS25;
+
+Net gmii_txd<7>      LOC = W12  | IOSTANDARD = LVCMOS25;
+Net gmii_txd<6>      LOC = Y12  | IOSTANDARD = LVCMOS25;
+Net gmii_txd<5>      LOC = Y9   | IOSTANDARD = LVCMOS25;
+Net gmii_txd<4>      LOC = AB9  | IOSTANDARD = LVCMOS25;
+Net gmii_txd<3>      LOC = AA8  | IOSTANDARD = LVCMOS25;
+Net gmii_txd<2>      LOC = AB8  | IOSTANDARD = LVCMOS25;
+Net gmii_txd<1>      LOC = T10  | IOSTANDARD = LVCMOS25;
+Net gmii_txd<0>      LOC = U10  | IOSTANDARD = LVCMOS25;
+
+
+Net gmii_tx_en       LOC = T8   | IOSTANDARD = LVCMOS25;
+Net gmii_tx_er       LOC = U8   | IOSTANDARD = LVCMOS25;
+Net gmii_tx_clk      LOC = AB7  | IOSTANDARD = LVCMOS25;
+
+Net gmii_rx_dv       LOC = T22  | IOSTANDARD = LVCMOS25;
+Net gmii_rx_er       LOC = U20  | IOSTANDARD = LVCMOS25;
+# P20 - GCLK7 
+Net gmii_rx_clk      LOC = P20  | IOSTANDARD = LVCMOS25;
 
 
 # lock to unused header 
-Net serial_response  LOC = A13  | IOSTANDARD = LVCMOS25;
-Net tx_statistics_s  LOC = C13  | IOSTANDARD = LVCMOS25;
-Net rx_statistics_s  LOC = C12  | IOSTANDARD = LVCMOS25;
+Net serial_response  LOC = A20  | IOSTANDARD = LVCMOS25;
+Net tx_statistics_s  LOC = B20  | IOSTANDARD = LVCMOS25;
+Net rx_statistics_s  LOC = A19  | IOSTANDARD = LVCMOS25;
 
 
 #
@@ -190,11 +195,11 @@ INST "gmii_tx_clk"                                                SLEW = FAST;
 # For more information on IDELAYCTRL and IODELAY, please
 # refer to the Spartan-6 User Guide.
 #
-INST "*trimac_block*gmii_interface*delay_gmii_rx_dv"              IDELAY_VALUE = 15;
-INST "*trimac_block*gmii_interface*delay_gmii_rx_er"              IDELAY_VALUE = 15;
-INST "*trimac_block*gmii_interface*delay_gmii_rxd"                IDELAY_VALUE = 15;
+INST "*trimac_block*gmii_interface*delay_gmii_rx_dv"              IDELAY_VALUE = 25;
+INST "*trimac_block*gmii_interface*delay_gmii_rx_er"              IDELAY_VALUE = 25;
+INST "*trimac_block*gmii_interface*delay_gmii_rxd"                IDELAY_VALUE = 25;
 
-INST *trimac_block*gmii_interface*bufio_gmii_rx_clk               LOC = BUFIO2_X3Y13;
+INST *trimac_block*gmii_interface*bufio_gmii_rx_clk               LOC = BUFIO2_X3Y12;
 #INST *trimac_block*gmii_interface*bufg_gmii_rx_clk                LOC = BUFGMUX_X3Y5;
 
 ############################################################

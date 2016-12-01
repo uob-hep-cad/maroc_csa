@@ -11,10 +11,10 @@ if {[catch {group new -name {System Signals} -overlay 0}] != ""} {
     group clear 0 end
 }
 group insert \
-    :reset \
-    :brefclk_p \
-    :brefclk_n
-    :signal_detect0 \
+    demo_tb.reset \
+    demo_tb.brefclk_p \
+    demo_tb.brefclk_n
+    demo_tb.signal_detect0 \
 
 if {[catch {group new -name {Management I/F 0} -overlay 0}] != ""} {
     group using {Management I/F}
@@ -23,8 +23,8 @@ if {[catch {group new -name {Management I/F 0} -overlay 0}] != ""} {
     group clear 0 end
 }
 group insert \
-    :dut.configuration_vector0 \
-    :status_vector0
+    {demo_tb.dut.configuration_vector0[3:0]} \
+    demo_tb.status_vector0
 
 if {[catch {group new -name {Tx GMII 0} -overlay 0}] != ""} {
     group using {Tx GMII}
@@ -33,9 +33,9 @@ if {[catch {group new -name {Tx GMII 0} -overlay 0}] != ""} {
     group clear 0 end
 }
 group insert \
-    :gmii_txd0 \
-    :gmii_tx_en0 \
-    :gmii_tx_er0
+    {demo_tb.gmii_txd0[7:0]} \
+    demo_tb.gmii_tx_en0 \
+    demo_tb.gmii_tx_er0
 
 if {[catch {group new -name {Rx GMII 0} -overlay 0}] != ""} {
     group using {Rx GMII}
@@ -44,9 +44,9 @@ if {[catch {group new -name {Rx GMII 0} -overlay 0}] != ""} {
     group clear 0 end
 }
 group insert \
-    :gmii_rxd0 \
-    :gmii_rx_dv0 \
-    :gmii_rx_er0
+    {demo_tb.gmii_rxd0[7:0]} \
+    demo_tb.gmii_rx_dv0 \
+    demo_tb.gmii_rx_er0
 
 if {[catch {group new -name {Transceiver Tx 0} -overlay 0}] != ""} {
     group using {Transceiver Tx}
@@ -55,8 +55,8 @@ if {[catch {group new -name {Transceiver Tx 0} -overlay 0}] != ""} {
     group clear 0 end
 }
 group insert \
-    :txp0 \
-    :txn0
+    demo_tb.txp0 \
+    demo_tb.txn0
 
 if {[catch {group new -name {Transceiver Rx 0} -overlay 0}] != ""} {
     group using {Transceiver Rx}
@@ -65,8 +65,8 @@ if {[catch {group new -name {Transceiver Rx 0} -overlay 0}] != ""} {
     group clear 0 end
 }
 group insert \
-    :rxp0 \
-    :rxn0
+    demo_tb.rxp0 \
+    demo_tb.rxn0
 
 if {[catch {group new -name {Tx Monitor 0} -overlay 0}] != ""} {
     group using {Tx Monitor}
@@ -75,10 +75,10 @@ if {[catch {group new -name {Tx Monitor 0} -overlay 0}] != ""} {
     group clear 0 end
 }
 group insert \
-    :stimulus_0.mon_tx_clk \
-    :stimulus_0.tx_pdata \
-    :stimulus_0.tx_is_k \
-    :stimulus_0.bitclock
+    demo_tb.stimulus_0.mon_tx_clk \
+    {demo_tb.stimulus_0.tx_pdata[7:0]} \
+    demo_tb.stimulus_0.tx_is_k \
+    demo_tb.stimulus_0.bitclock
 if {[catch {group new -name {Rx Stimulus 0} -overlay 0}] != ""} {
     group using {Rx Stimulus}
     group set -overlay 0
@@ -86,11 +86,11 @@ if {[catch {group new -name {Rx Stimulus 0} -overlay 0}] != ""} {
     group clear 0 end
 }
 group insert \
-    :stimulus_0.stim_rx_clk \
-    :stimulus_0.rx_even \
-    :stimulus_0.rx_pdata \
-    :stimulus_0.rx_is_k \
-    :stimulus_0.rx_rundisp_pos
+    demo_tb.stimulus_0.stim_rx_clk \
+    demo_tb.stimulus_0.rx_even \
+    {demo_tb.stimulus_0.rx_pdata[7:0]} \
+    demo_tb.stimulus_0.rx_is_k \
+    demo_tb.stimulus_0.rx_rundisp_pos
 
 if {[catch {group new -name {Test semaphores} -overlay 0}] != ""} {
     group using {Test semaphores}
@@ -98,10 +98,10 @@ if {[catch {group new -name {Test semaphores} -overlay 0}] != ""} {
     group set -comment {}
     group clear 0 end
 }
-    :configuration_finished \
-    :tx_monitor_finished0 \
-    :rx_monitor_finished0 \
-    :simulation_finished
+    demo_tb.configuration_finished \
+    demo_tb.tx_monitor_finished0 \
+    demo_tb.rx_monitor_finished0 \
+    demo_tb.simulation_finished
 #
 # Waveform windows
 #

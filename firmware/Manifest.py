@@ -2,8 +2,8 @@
 fetchto = "ip_cores"
 
 modules =  {"local" : 
-            [ "whiteRabbit/wr-cores",
-              "IPBus/firmware",
+            [ "IPBus/firmware",
               "hdl"
-              ]
+              ],
+            "git" : "git://ohwr.org/hdl-core-lib/wr-cores.git"
             }

@@ -8,6 +8,7 @@ from PyChipsUser import *
 # N.B. Root Histogramming doesn't play nicely with multi-processing
 #import threading
 from threading import Thread
+#from multiprocessing import Process as Thread
 
 import time
 

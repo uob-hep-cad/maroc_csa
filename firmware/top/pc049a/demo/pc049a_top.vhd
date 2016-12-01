@@ -289,7 +289,8 @@ architecture rtl of pc049a_top is
   signal sfp_scl_i : std_logic_vector(1 downto 0);
   signal sfp_sda_o : std_logic_vector(1 downto 0);
   signal sfp_sda_i : std_logic_vector(1 downto 0);
-  
+
+  --! White Rabbit Signals
   signal dio       : std_logic_vector(3 downto 0);
 
   signal dac_hpll_load_p1 : std_logic;
@@ -302,11 +303,13 @@ architecture rtl of pc049a_top is
 
   signal phy_tx_data      : std_logic_vector(7 downto 0);
   signal phy_tx_k         : std_logic;
+--  signal phy_tx_k         : std_logic_vector(1 downto 0);
   signal phy_tx_disparity : std_logic;
   signal phy_tx_enc_err   : std_logic;
   signal phy_rx_data      : std_logic_vector(7 downto 0);
   signal phy_rx_rbclk     : std_logic;
   signal phy_rx_k         : std_logic;
+--  signal phy_rx_k         : std_logic_vector(1 downto 0);
   signal phy_rx_enc_err   : std_logic;
   signal phy_rx_bitslide  : std_logic_vector(3 downto 0);
   signal phy_rst          : std_logic;
@@ -547,12 +550,14 @@ begin
 
       phy_ref_clk_i      => clk_125m_pllref,
       phy_tx_data_o      => phy_tx_data,
-      phy_tx_k_o         => phy_tx_k,
+      -- phy_tx_k_o         => phy_tx_k,
+      phy_tx_k_o(0)         => phy_tx_k,
       phy_tx_disparity_i => phy_tx_disparity,
       phy_tx_enc_err_i   => phy_tx_enc_err,
       phy_rx_data_i      => phy_rx_data,
       phy_rx_rbclk_i     => phy_rx_rbclk,
-      phy_rx_k_i         => phy_rx_k,
+      phy_rx_k_i(0)         => phy_rx_k,
+      -- phy_rx_k_i         => phy_rx_k,
       phy_rx_enc_err_i   => phy_rx_enc_err,
       phy_rx_bitslide_i  => phy_rx_bitslide,
       phy_rst_o          => phy_rst,

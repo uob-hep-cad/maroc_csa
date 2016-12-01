@@ -4,8 +4,8 @@
 rm -rf results
 mkdir results
 
-#Synthesize the VHDL Wrapper Files
-echo 'Synthesizing VHDL example design with XST';
+#Synthesize the Verilog Wrapper Files
+echo 'Synthesizing verilog example design with XST';
 xst -ifn xst.scr
 cp tri_mode_eth_mac_v5_4_example_design.ngc ./results/
 
@@ -34,5 +34,5 @@ trce -u -e 10 routed -o routed mapped.pcf
 echo 'Running design through bitgen'
 bitgen -w routed routed mapped.pcf
 
-echo 'Running netgen to create gate level VHDL model'
-netgen -ofmt vhdl -pcf mapped.pcf -sim -dir . -tm tri_mode_eth_mac_v5_4_example_design -w routed.ncd routed.vhd
+echo 'Running netgen to create gate level Verilog model'
+netgen -ofmt verilog -pcf mapped.pcf -sim -dir . -tm tri_mode_eth_mac_v5_4_example_design -w -sdf_anno false routed.ncd routed.v

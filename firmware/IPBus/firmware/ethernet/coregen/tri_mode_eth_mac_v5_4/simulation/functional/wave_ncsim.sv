@@ -11,8 +11,8 @@ if {[catch {group new -name {System Signals} -overlay 0}] != ""} {
     group clear 0 end
 }
 group insert \
-    :reset \
-    :gtx_clk
+    :demo_tb.reset \
+    :demo_tb.gtx_clk
 
 if {[catch {group new -name {TX MAC Interface} -overlay 0}] != ""} {
     group using {TX MAC Interface}
@@ -21,13 +21,13 @@ if {[catch {group new -name {TX MAC Interface} -overlay 0}] != ""} {
     group clear 0 end
 }
 group insert \
-    :dut.trimac_fifo_block.tx_mac_resetn \
-    :dut.trimac_fifo_block.tx_axis_mac_tvalid \
-    :dut.trimac_fifo_block.tx_axis_mac_tdata \
-    :dut.trimac_fifo_block.tx_axis_mac_tready \
-    :dut.trimac_fifo_block.tx_axis_mac_tlast \
-    :dut.trimac_fifo_block.tx_axis_mac_tuser
-
+    :demo_tb.dut.trimac_fifo_block.tx_mac_resetn \
+    :demo_tb.dut.trimac_fifo_block.tx_axis_mac_tvalid \
+    :demo_tb.dut.trimac_fifo_block.tx_axis_mac_tdata \
+    :demo_tb.dut.trimac_fifo_block.tx_axis_mac_tready \
+    :demo_tb.dut.trimac_fifo_block.tx_axis_mac_tlast \
+    :demo_tb.dut.trimac_fifo_block.tx_axis_mac_tuser
+    
 
 if {[catch {group new -name {TX Statistics Vector} -overlay 0}] != ""} {
     group using {TX Statistics Vector}
@@ -36,8 +36,8 @@ if {[catch {group new -name {TX Statistics Vector} -overlay 0}] != ""} {
     group clear 0 end
 }
 group insert \
-    :dut.tx_statistics_vector \
-    :dut.tx_statistics_valid
+    :demo_tb.dut.tx_statistics_vector \
+    :demo_tb.dut.tx_statistics_valid
 
 if {[catch {group new -name {RX MAC Interface} -overlay 0}] != ""} {
     group using {RX MAC Interface}
@@ -46,12 +46,12 @@ if {[catch {group new -name {RX MAC Interface} -overlay 0}] != ""} {
     group clear 0 end
 }
 group insert \
-    :dut.trimac_fifo_block.rx_mac_aclk \
-    :dut.trimac_fifo_block.rx_mac_resetn \
-    :dut.trimac_fifo_block.rx_axis_mac_tvalid \
-    :dut.trimac_fifo_block.rx_axis_mac_tdata \
-    :dut.trimac_fifo_block.rx_axis_mac_tlast \
-    :dut.trimac_fifo_block.rx_axis_mac_tuser
+    :demo_tb.dut.trimac_fifo_block.rx_mac_aclk \
+    :demo_tb.dut.trimac_fifo_block.rx_mac_resetn \
+    :demo_tb.dut.trimac_fifo_block.rx_axis_mac_tvalid \
+    :demo_tb.dut.trimac_fifo_block.rx_axis_mac_tdata \
+    :demo_tb.dut.trimac_fifo_block.rx_axis_mac_tlast \
+    :demo_tb.dut.trimac_fifo_block.rx_axis_mac_tuser
 
 
 if {[catch {group new -name {RX Statistics Vector} -overlay 0}] != ""} {
@@ -61,8 +61,8 @@ if {[catch {group new -name {RX Statistics Vector} -overlay 0}] != ""} {
     group clear 0 end
 }
 group insert \
-    :dut.rx_statistics_vector \
-    :dut.rx_statistics_valid
+    :demo_tb.dut.rx_statistics_vector \
+    :demo_tb.dut.rx_statistics_valid
 
 
 if {[catch {group new -name {Flow Control} -overlay 0}] != ""} {
@@ -72,8 +72,8 @@ if {[catch {group new -name {Flow Control} -overlay 0}] != ""} {
     group clear 0 end
 }
 group insert \
-    :dut.pause_val \
-    :dut.pause_req
+    :demo_tb.dut.pause_val \
+    :demo_tb.dut.pause_req
 
 if {[catch {group new -name {Rx FIFO Interface} -overlay 0}] != ""} {
     group using {Rx FIFO Interface}
@@ -83,12 +83,12 @@ if {[catch {group new -name {Rx FIFO Interface} -overlay 0}] != ""} {
     group clear 0 end
 }
 group insert \
-    :dut.trimac_fifo_block.rx_fifo_clock \
-    :dut.trimac_fifo_block.rx_fifo_resetn \
-    :dut.trimac_fifo_block.rx_axis_fifo_tdata \
-    :dut.trimac_fifo_block.rx_axis_fifo_tlast \
-    :dut.trimac_fifo_block.rx_axis_fifo_tready \
-    :dut.trimac_fifo_block.rx_axis_fifo_tvalid
+    :demo_tb.dut.trimac_fifo_block.rx_fifo_clock \
+    :demo_tb.dut.trimac_fifo_block.rx_fifo_resetn \
+    :demo_tb.dut.trimac_fifo_block.rx_axis_fifo_tdata \
+    :demo_tb.dut.trimac_fifo_block.rx_axis_fifo_tlast \
+    :demo_tb.dut.trimac_fifo_block.rx_axis_fifo_tready \
+    :demo_tb.dut.trimac_fifo_block.rx_axis_fifo_tvalid
 
 if {[catch {group new -name {Tx FIFO Interface} -overlay 0}] != ""} {
     group using {Tx FIFO Interface}
@@ -97,12 +97,12 @@ if {[catch {group new -name {Tx FIFO Interface} -overlay 0}] != ""} {
     group clear 0 end
 }
 group insert \
-    :dut.trimac_fifo_block.tx_fifo_clock \
-    :dut.trimac_fifo_block.tx_fifo_resetn \
-    :dut.trimac_fifo_block.tx_axis_fifo_tdata \
-    :dut.trimac_fifo_block.tx_axis_fifo_tlast \
-    :dut.trimac_fifo_block.tx_axis_fifo_tready \
-    :dut.trimac_fifo_block.tx_axis_fifo_tvalid
+    :demo_tb.dut.trimac_fifo_block.tx_fifo_clock \
+    :demo_tb.dut.trimac_fifo_block.tx_fifo_resetn \
+    :demo_tb.dut.trimac_fifo_block.tx_axis_fifo_tdata \
+    :demo_tb.dut.trimac_fifo_block.tx_axis_fifo_tlast \
+    :demo_tb.dut.trimac_fifo_block.tx_axis_fifo_tready \
+    :demo_tb.dut.trimac_fifo_block.tx_axis_fifo_tvalid
 
 if {[catch {group new -name {TX GMII/MII Interface} -overlay 0}] != ""} {
     group using {TX GMII/MII Interface}
@@ -111,10 +111,10 @@ if {[catch {group new -name {TX GMII/MII Interface} -overlay 0}] != ""} {
     group clear 0 end
 }
 group insert \
-    :gmii_tx_clk \
-    :gmii_tx_en \
-    :gmii_tx_er \
-    :gmii_txd
+    :demo_tb.gmii_tx_clk \
+    :demo_tb.gmii_tx_en \
+    :demo_tb.gmii_tx_er \
+    :demo_tb.gmii_txd
 
 if {[catch {group new -name {RX GMII/MII Interface} -overlay 0}] != ""} {
     group using {RX GMII/MII Interface}
@@ -123,10 +123,10 @@ if {[catch {group new -name {RX GMII/MII Interface} -overlay 0}] != ""} {
     group clear 0 end
 }
 group insert \
-    :gmii_rx_clk \
-    :gmii_rx_dv \
-    :gmii_rx_er \
-    :gmii_rxd 
+    :demo_tb.gmii_rx_clk \
+    :demo_tb.gmii_rx_dv \
+    :demo_tb.gmii_rx_er \
+    :demo_tb.gmii_rxd 
 
 
 
@@ -138,8 +138,8 @@ if {[catch {group new -name {Configuration Interface} -overlay 0}] != ""} {
     group clear 0 end
 }
 group insert \
-    :dut.rx_configuration_vector \
-    :dut.tx_configuration_vector
+    :demo_tb.dut.rx_configuration_vector \
+    :demo_tb.dut.tx_configuration_vector
 
 
 #

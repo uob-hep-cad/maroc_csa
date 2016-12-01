@@ -38,6 +38,8 @@ parser.add_option("-o", dest = 'outputFile' , default = 'marocTimeStamps.root' )
 
 parser.add_option("-n" , dest = 'numTriggers' , default = 1000 )
 
+parser.add_option("-t" , dest = 'numInternalTriggers' , default = 0 )
+
 parser.add_option("-c" , dest = 'configFile' , default = 'testADC_marocSC.csv' )
 
 (options, args) = parser.parse_args()
@@ -46,6 +48,8 @@ logger.info("IP address = %s"%( options.ipAddress))
 logger.info("Board address table %s"%( options.boardAddressTable))
 
 numTriggers = int(options.numTriggers)
+
+numInternalTriggers = int(options.numInternalTriggers)
 
 logger.info("Event limit = %i "%( numTriggers))
 
@@ -71,7 +75,7 @@ histogramDataQueue = Queue(histogramQueueSize)
 
 # Create a readout thread. Pass down an event limit. When the event limit is reached the readout thread will pass a message along chain and threads will terminate.
 
-readoutThread = MarocReadoutThread.MarocReadoutThread(1,"readoutThread",board,rawDataQueue,numTriggers,debugLevel=debugLevel)
+readoutThread = MarocReadoutThread.MarocReadoutThread(1,"readoutThread",board,rawDataQueue,numTriggers,numInternalTriggers,debugLevel=debugLevel)
 
 unpackerThread = MarocUnpackingThread.MarocUnpackingThread(2,"unpackingThread",rawDataQueue,recordingDataQueue,histogramDataQueue,debugLevel=debugLevel)
 

@@ -1,13 +1,162 @@
-\t (00:00:51) allegro 16.6-2015 S055 (v16-6-112EH) Linux I32
-\t (00:00:51)     Journal start - Thu Apr 14 12:38:47 2016
-\t (00:00:51)         Host=voltar.phy.bris.ac.uk User=phdgc Pid=1851 CPUs=8
-\t (00:00:51) CmdLine= /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055/tools/pcb/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/pc049a_lemo_daughter_board.cpm -product Concept_HDL_studio -mpssession phdgc_ProjectMgr7061 -mpshost voltar.phy.bris.ac.uk
-\t (00:00:51) 
-\d (00:00:51) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_4l_13.brd
-\i (00:00:51) ifp 
-\i (00:00:54) zoom fit 
-\t (00:00:54) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
-\i (00:00:54) trapsize 10169
-\i (00:43:42) trapsize 13752
-\i (00:44:11) exit 
-\t (00:44:12)     Journal end - Thu Apr 14 13:22:07 2016
+\t (00:00:04) allegro 16.6-2015 S055 (v16-6-112EH) Linux I32
+\t (00:00:04)     Journal start - Thu Apr 14 13:23:40 2016
+\t (00:00:04)         Host=voltar.phy.bris.ac.uk User=phdgc Pid=3926 CPUs=8
+\t (00:00:04) CmdLine= /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055/tools/pcb/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/pc049a_lemo_db.cpm -product Concept_HDL_studio -mpssession phdgc_ProjectMgr7061 -mpshost voltar.phy.bris.ac.uk
+\t (00:00:04) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_4l_13.brd
+\t (00:00:06) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:06) trapsize 4725
+\i (00:00:06) trapsize 4605
+\i (00:00:07) trapsize 4745
+\i (00:00:07) trapsize 3996
+\t (00:00:07) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:07) trapsize 3996
+\i (00:00:08) ifp 
+\i (00:00:11) zoom fit 
+\t (00:00:11) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\i (00:00:11) trapsize 10169
+\i (00:01:41) pick grid 3.4574 -44.2338
+\t (00:01:41) last pick:  3.5000 -44.2000
+\i (00:01:49) plctxt out 
+\i (00:02:01) setwindow form.plctxt
+\i (00:02:01) FORM plctxt filename placement_pin1.txt 
+\i (00:02:01) FORM plctxt pin_1 YES 
+\i (00:02:03) FORM plctxt execute  
+\t (00:02:03) Starting Place symbols by text file...
+\i (00:03:00) FORM plctxt cancel  
+\i (00:03:01) setwindow pcb
+\i (00:03:01) ifp 
+\i (00:08:23) zoom points 
+\t (00:08:23) Pick 1st corner of the new window.
+\i (00:08:24) pick -39.0477 18.4053
+\t (00:08:24) last pick:  -39.0477 18.4053
+\t (00:08:24) Pick to complete the window.
+\i (00:08:25) pick 36.6072 -12.3041
+\t (00:08:25) last pick:  36.6072 -12.3041
+\t (00:08:25) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:08:25) trapsize 2765
+\i (00:08:25) ifp 
+\i (00:08:47) pick grid -5.1468 -15.7168
+\t (00:08:47) last pick:  -5.1000 -15.7000
+\i (00:08:48) roam y 96 
+\i (00:08:48) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:50) roam y -96 
+\i (00:08:50) roam y -96
+\i (00:08:50) roam y -96 
+\i (00:08:50) roam y -96
+\i (00:08:50) roam y -96 
+\i (00:08:50) roam y -96
+\i (00:08:50) roam y -96 
+\i (00:08:50) roam y -96
+\i (00:08:50) roam y -96 
+\i (00:08:50) roam y -96
+\i (00:08:50) roam y -96 
+\i (00:08:50) roam y -96
+\i (00:08:50) roam y -96 
+\i (00:08:50) roam y -96
+\i (00:08:50) roam y -96 
+\i (00:08:50) roam y -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:51) roam x -96 
+\i (00:08:51) roam x -96
+\i (00:08:52) roam x -96 
+\i (00:08:52) roam x -96
+\i (00:08:54) show element 
+\i (00:11:26) pick grid -57.0313 -82.5654
+\t (00:11:26) last pick:  -57.0000 -82.6000
+\i (00:11:28) zoom out 
+\i (00:11:28) setwindow pcb
+\i (00:11:28) zoom out -70.2487 -91.3033
+\t (00:11:28) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:11:28) trapsize 5530
+\i (00:11:29) zoom out 
+\i (00:11:29) setwindow pcb
+\i (00:11:29) zoom out -70.2488 -91.3034
+\t (00:11:29) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\i (00:11:29) trapsize 11061
+\i (00:11:29) zoom out 
+\i (00:11:29) setwindow pcb
+\i (00:11:29) zoom out -70.2487 -91.3033
+\t (00:11:29) Grids are drawn 3.2000, 3.2000 apart for enhanced viewability.
+\i (00:11:29) trapsize 22121
+\i (00:11:45) show element 
+\i (00:11:50) setwindow form.find
+\i (00:11:50) FORM find shapes YES 
+\i (00:11:52) setwindow pcb
+\i (00:11:52) pick grid -88.6647 4.0949
+\t (00:11:52) last pick:  -88.7000 4.1000
+\i (00:15:10) odb_out 
+\i (00:15:18) fillin no 
+   (00:15:18) Loading mfg.cxt 
+\i (00:15:31) exit 
+\e (00:15:32) Do you want to save the changes you made to pc049a_lemo_db_4l_13.brd?
+\i (00:15:35) fillin no 
+\t (00:15:38)     Journal end - Thu Apr 14 13:39:13 2016

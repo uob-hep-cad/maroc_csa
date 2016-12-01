@@ -568,7 +568,8 @@ begin
   gpio(5) <= '0';
 --  gpio(6) <= uart_txd;
 --  uart_rxd <= gpio(7);
-  gpio(6) <= '0';
+  gpio(6) <= s_globaltrig_from_fpga;
+--  gpio(6) <= '0';
   s_gpio_trigger <= gpio(7);
 
   

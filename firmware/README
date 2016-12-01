@@ -8,11 +8,15 @@ hdlmake-v1.0 --make-ise --ise-proj
 
 make
 
+----------------------
 
-..... for newer versions....
+*NB* Tested with ISE version 14.7 . Other versions may not work.
 
- python /projects/HEP_Instrumentation/cad/designs/hdl-make/git-2.1/hdl-make/hdlmake  ise-project
+Hacked version of hdlmake that can (just about) work with ISE Coregen *.xco 
+files copied into firmware directory.
 
-......... For HDLMake 2.x
+cd maroc_csa/firmware/syn/pc049a/demo
+
+python ../../../hdl-make/hdlmake  ise-project
 
 

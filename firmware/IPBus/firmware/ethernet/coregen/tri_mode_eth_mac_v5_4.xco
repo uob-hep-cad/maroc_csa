@@ -1,7 +1,7 @@
 ##############################################################
 #
 # Xilinx Core Generator version 14.7
-# Date: Mon Mar 23 15:05:09 2015
+# Date: Thu Oct  6 13:06:35 2016
 #
 ##############################################################
 #
@@ -21,8 +21,8 @@ SET addpads = false
 SET asysymbol = true
 SET busformat = BusFormatAngleBracketNotRipped
 SET createndf = false
-SET designentry = VHDL
-SET device = xc6slx100t
+SET designentry = Verilog
+SET device = xc6slx45t
 SET devicefamily = spartan6
 SET flowvendor = Foundation_ISE
 SET formalverification = false
@@ -32,8 +32,8 @@ SET package = fgg484
 SET removerpms = false
 SET simulationfiles = Behavioral
 SET speedgrade = -3
-SET verilogsim = false
-SET vhdlsim = true
+SET verilogsim = true
+SET vhdlsim = false
 # END Project Options
 # BEGIN Select
 SELECT Tri_Mode_Ethernet_MAC xilinx.com:ip:tri_mode_eth_mac:5.4
@@ -55,4 +55,4 @@ CSET statistics_width=64bit
 MISC pkg_timestamp=2012-06-05T21:10:47Z
 # END Extra information
 GENERATE
-# CRC: c525364d
+# CRC: bb83dd46

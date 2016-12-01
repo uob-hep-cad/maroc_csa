@@ -33,5 +33,5 @@ trce -u -e 10 routed -o routed mapped.pcf
 echo 'Running design through bitgen'
 bitgen -w routed.ncd routed mapped.pcf
 
-echo 'Running netgen to create gate level VHDL model'
-netgen -ofmt vhdl -pcf mapped.pcf -sim -dir . -tm gig_eth_pcs_pma_v11_4_example_design -w routed.ncd routed.vhd
+echo 'Running netgen to create gate level Verilog model'
+netgen -ofmt verilog -pcf mapped.pcf -sim -dir . -tm gig_eth_pcs_pma_v11_4_example_design -w -sdf_anno false routed.ncd routed.v

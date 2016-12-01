@@ -10,9 +10,10 @@ numMaroc = 1
 
 class MarocDAQ(object):
 
-    def __init__(self,board,debugLevel):
+    def __init__(self,board,debugLevel,internalTriggers=0):
         """Class to interface to MAROC-3 via IPBus"""
         self.board = board # pointer to PyChips object
+        self.internalTriggers = internalTriggers # Set to > 0 to fire internal triggers.
         self.timeStampEventSize = 12
         self.timeStampBufferSize = 512
         self.adcEventSize = 26 # size of each event
@@ -86,8 +87,15 @@ class MarocDAQ(object):
         
     def readADCData(self):
         """Reads the whole ADC buffer for a MAROC, takes the portion after the read pointer and spits it into events.
-        It can cope with wrap-round of circular buffer. Returns an array of arrays of 32-bit integers"""
+        It can cope with wrap-round of circular buffer. Returns an array of arrays of 32-bit integers. If self.internalTriggers = N ( N>0) then fires internal trigger N times"""
+
+        for internalTrigger in range(self.internalTriggers):
+            self.logger.info("Firing internal trigger , number %i" % internalTrigger )
+            self.board.write("trigManualTrigger", 1 )
+
+        # We only have one maroc per board in this type of hardware....
         marocNumber = 0
+
         eventData = []
         writePointerName= 'adc'+format(marocNumber,'1d')+'WritePointer'
         dataName= 'adc'+format(marocNumber,'1d')+'Data'

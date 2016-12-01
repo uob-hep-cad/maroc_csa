@@ -43,7 +43,7 @@ utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/example_design/gig_eth_pcs_pma_v11_4_block.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/example_design/gig_eth_pcs_pma_v11_4_block.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
@@ -51,23 +51,27 @@ utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/example_design/gig_eth_pcs_pma_v11_4_example_design.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/example_design/gig_eth_pcs_pma_v11_4_example_design.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/example_design/gig_eth_pcs_pma_v11_4_reset_sync.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/example_design/gig_eth_pcs_pma_v11_4_mod.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/example_design/gig_eth_pcs_pma_v11_4_sync_block.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/example_design/gig_eth_pcs_pma_v11_4_reset_sync.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/example_design/gig_eth_pcs_pma_v11_4_tx_elastic_buffer.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/example_design/gig_eth_pcs_pma_v11_4_sync_block.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/example_design/transceiver/gig_eth_pcs_pma_v11_4_s6_gtpwizard.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/example_design/gig_eth_pcs_pma_v11_4_tx_elastic_buffer.v
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/example_design/transceiver/gig_eth_pcs_pma_v11_4_s6_gtpwizard.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
@@ -75,11 +79,11 @@ utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/example_design/transceiver/gig_eth_pcs_pma_v11_4_s6_gtpwizard_tile.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/example_design/transceiver/gig_eth_pcs_pma_v11_4_s6_gtpwizard_tile.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/example_design/transceiver/gig_eth_pcs_pma_v11_4_transceiver_A.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/example_design/transceiver/gig_eth_pcs_pma_v11_4_transceiver_A.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
@@ -107,7 +111,7 @@ utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/simulation/demo_tb.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/simulation/demo_tb.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
@@ -119,6 +123,18 @@ utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/simulation/functional/simulate_vcs.sh
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/simulation/functional/ucli_commands.key
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/simulation/functional/vcs_session.tcl
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
 utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/simulation/functional/wave_mti.do
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
@@ -127,7 +143,7 @@ utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/simulation/stimulus_tb.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4/simulation/stimulus_tb.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
@@ -143,12 +159,12 @@ utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type symbol
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4.vhd
-utilities_xmdf::xmdfSetData $instance FileSet $fcount type vhdl
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4.v
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type verilog
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4.vho
-utilities_xmdf::xmdfSetData $instance FileSet $fcount type vhdl_template
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4.veo
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type verilog_template
 incr fcount
 
 utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path gig_eth_pcs_pma_v11_4.xco

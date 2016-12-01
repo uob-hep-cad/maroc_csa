@@ -22,7 +22,7 @@ proc findRtfPath { relativePath } {
 
 source [ findRtfPath "data/projnav/scripts/dpm_cgUtils.tcl" ]
 
-set result [ run_cg_regen "gig_eth_pcs_pma_v11_4" xc6slx100t-3fgg484 VHDL CURRENT ]
+set result [ run_cg_regen "gig_eth_pcs_pma_v11_4" xc6slx100t-3fgg484 Verilog CURRENT ]
 
 if { $result == 0 } {
    puts "Core Generator regen command completed successfully."

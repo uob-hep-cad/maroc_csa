@@ -11,7 +11,7 @@
 <msg type="warning" file="sim" num="100" delta="old" >The Simulation File Type &lt;<arg fmt="%s" index="1">Behavioral</arg>&gt; is not valid for this core. Overriding with File Type &lt;<arg fmt="%s" index="2">Structural</arg>&gt;.
 </msg>
 
-<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">VHDL simulation file type &apos;Behavioral&apos; is not valid for this core. Overriding with simulation file type &apos;Structural&apos;.</arg>
+<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Verilog simulation file type &apos;Behavioral&apos; is not valid for this core. Overriding with simulation file type &apos;Structural&apos;.</arg>
 </msg>
 
 <msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">A core named &apos;gig_eth_pcs_pma_v11_4&apos; already exists in the project. Output products for this core may be overwritten.</arg>
@@ -26,10 +26,10 @@
 <msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">BlackBox generator run option &apos;-p&apos; found multiple times. Only the first occurence is considered.</arg>
 </msg>
 
-<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">VHDL simulation file type &apos;Behavioral&apos; is not valid for this core. Overriding with simulation file type &apos;Structural&apos;.</arg>
+<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Verilog simulation file type &apos;Behavioral&apos; is not valid for this core. Overriding with simulation file type &apos;Structural&apos;.</arg>
 </msg>
 
-<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Overwriting existing file /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/firmware/IPBus/firmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4/doc/pg047-gig-eth-pcs-pma.pdf with file from view xilinx_documentation</arg>
+<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Overwriting existing file /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/Git/maroc_csa/firmware/IPBus/firmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4/doc/pg047-gig-eth-pcs-pma.pdf with file from view xilinx_documentation</arg>
 </msg>
 
 <msg type="info" file="sim" num="949" delta="old" >Finished generation of ASY schematic symbol.

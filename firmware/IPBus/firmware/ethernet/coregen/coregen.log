@@ -4,8 +4,8 @@ WARNING:sim:100 - The Simulation File Type <Behavioral> is not valid for this
 Applying current project options...
 Finished applying current project options.
 Resolving generics for 'gig_eth_pcs_pma_v11_4'...
-WARNING:sim - VHDL simulation file type 'Behavioral' is not valid for this core.
-   Overriding with simulation file type 'Structural'.
+WARNING:sim - Verilog simulation file type 'Behavioral' is not valid for this
+   core. Overriding with simulation file type 'Structural'.
 WARNING:sim - A core named 'gig_eth_pcs_pma_v11_4' already exists in the
    project. Output products for this core may be overwritten.
 Applying external generics to 'gig_eth_pcs_pma_v11_4'...
@@ -19,17 +19,17 @@ WARNING:sim - BlackBox generator run option '-p' found multiple times. Only the
    first occurence is considered.
 Running synthesis for 'gig_eth_pcs_pma_v11_4'
 Running ngcbuild...
-Writing VHO instantiation template for 'gig_eth_pcs_pma_v11_4'...
-WARNING:sim - VHDL simulation file type 'Behavioral' is not valid for this core.
-   Overriding with simulation file type 'Structural'.
-Writing VHDL structural simulation model for 'gig_eth_pcs_pma_v11_4'...
+Writing VEO instantiation template for 'gig_eth_pcs_pma_v11_4'...
+WARNING:sim - Verilog simulation file type 'Behavioral' is not valid for this
+   core. Overriding with simulation file type 'Structural'.
+Writing Verilog structural simulation model for 'gig_eth_pcs_pma_v11_4'...
 WARNING:sim - Overwriting existing file
-   /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/firmware/IPBus
-   /firmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4/doc/pg047-gig-eth-pc
-   s-pma.pdf with file from view xilinx_documentation
+   /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/Git/maroc_csa/firmwa
+   re/IPBus/firmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4/doc/pg047-gi
+   g-eth-pcs-pma.pdf with file from view xilinx_documentation
 Delivered 2 files into directory
-/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/firmware/IPBus/fi
-rmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4
+/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/Git/maroc_csa/firmware/
+IPBus/firmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4
 Generating ASY schematic symbol...
 INFO:sim:949 - Finished generation of ASY schematic symbol.
 Generating SYM schematic symbol for 'gig_eth_pcs_pma_v11_4'...
@@ -38,38 +38,38 @@ Generating ISE project...
 XCO file found: gig_eth_pcs_pma_v11_4.xco
 XMDF file found: gig_eth_pcs_pma_v11_4_xmdf.tcl
 Adding
-/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/firmware/IPBus/fi
-rmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4.asy -view all -origin_type
-imported
+/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/Git/maroc_csa/firmware/
+IPBus/firmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4.asy -view all
+-origin_type imported
 Adding
-/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/firmware/IPBus/fi
-rmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4.ngc -view all -origin_type
-created
+/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/Git/maroc_csa/firmware/
+IPBus/firmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4.ngc -view all
+-origin_type created
 Checking file
-"/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/firmware/IPBus/f
-irmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4.ngc" for project device
-match ...
+"/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/Git/maroc_csa/firmware
+/IPBus/firmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4.ngc" for project
+device match ...
 File
-"/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/firmware/IPBus/f
-irmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4.ngc" device information
-matches project device.
+"/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/Git/maroc_csa/firmware
+/IPBus/firmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4.ngc" device
+information matches project device.
 Adding
-/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/firmware/IPBus/fi
-rmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4.sym -view all -origin_type
-imported
+/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/Git/maroc_csa/firmware/
+IPBus/firmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4.sym -view all
+-origin_type imported
 Adding
-/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/firmware/IPBus/fi
-rmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4.vhd -view all -origin_type
-created
-INFO:HDLCompiler:1061 - Parsing VHDL file
-   "/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/firmware/IPBu
-   s/firmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4.vhd" into library
-   work
+/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/Git/maroc_csa/firmware/
+IPBus/firmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4.v -view all
+-origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/Git/maroc_csa/firmw
+   are/IPBus/firmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4.v" into
+   library work
 INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
 Adding
-/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/firmware/IPBus/fi
-rmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4.vho -view all -origin_type
-imported
+/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/Git/maroc_csa/firmware/
+IPBus/firmware/ethernet/coregen/tmp/_cg/gig_eth_pcs_pma_v11_4.veo -view all
+-origin_type imported
 INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
    Please set the new top explicitly by running the "project set top" command.
    To re-calculate the new top automatically, set the "Auto Implementation Top"

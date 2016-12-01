@@ -43,91 +43,87 @@ utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/axi_ipif/tri_mode_eth_mac_v5_4_address_decoder.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/axi_ipif/tri_mode_eth_mac_v5_4_address_decoder.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/axi_ipif/tri_mode_eth_mac_v5_4_axi4_lite_ipif_wrapper.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/axi_ipif/tri_mode_eth_mac_v5_4_axi4_lite_ipif_wrapper.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/axi_ipif/tri_mode_eth_mac_v5_4_axi_lite_ipif.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/axi_ipif/tri_mode_eth_mac_v5_4_axi_lite_ipif.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/axi_ipif/tri_mode_eth_mac_v5_4_counter_f.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/axi_ipif/tri_mode_eth_mac_v5_4_counter_f.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/axi_ipif/tri_mode_eth_mac_v5_4_ipif_pkg.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/axi_ipif/tri_mode_eth_mac_v5_4_pselect_f.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/axi_ipif/tri_mode_eth_mac_v5_4_pselect_f.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/axi_ipif/tri_mode_eth_mac_v5_4_slave_attachment.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/axi_ipif/tri_mode_eth_mac_v5_4_slave_attachment.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/common/tri_mode_eth_mac_v5_4_reset_sync.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/common/tri_mode_eth_mac_v5_4_reset_sync.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/common/tri_mode_eth_mac_v5_4_sync_block.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/common/tri_mode_eth_mac_v5_4_sync_block.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/control/tri_mode_eth_mac_v5_4_config_vector_sm.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/control/tri_mode_eth_mac_v5_4_config_vector_sm.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/fifo/tri_mode_eth_mac_v5_4_rx_client_fifo.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/fifo/tri_mode_eth_mac_v5_4_rx_client_fifo.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/fifo/tri_mode_eth_mac_v5_4_ten_100_1g_eth_fifo.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/fifo/tri_mode_eth_mac_v5_4_ten_100_1g_eth_fifo.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/fifo/tri_mode_eth_mac_v5_4_tx_client_fifo.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/fifo/tri_mode_eth_mac_v5_4_tx_client_fifo.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/pat_gen/tri_mode_eth_mac_v5_4_address_swap.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/pat_gen/tri_mode_eth_mac_v5_4_address_swap.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/pat_gen/tri_mode_eth_mac_v5_4_axi_mux.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/pat_gen/tri_mode_eth_mac_v5_4_axi_mux.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/pat_gen/tri_mode_eth_mac_v5_4_axi_pat_check.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/pat_gen/tri_mode_eth_mac_v5_4_axi_pat_check.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/pat_gen/tri_mode_eth_mac_v5_4_axi_pat_gen.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/pat_gen/tri_mode_eth_mac_v5_4_axi_pat_gen.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/pat_gen/tri_mode_eth_mac_v5_4_axi_pipe.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/pat_gen/tri_mode_eth_mac_v5_4_axi_pipe.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/pat_gen/tri_mode_eth_mac_v5_4_basic_pat_gen.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/pat_gen/tri_mode_eth_mac_v5_4_basic_pat_gen.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/physical/tri_mode_eth_mac_v5_4_gmii_if.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/physical/tri_mode_eth_mac_v5_4_gmii_if.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/tri_mode_eth_mac_v5_4_block.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/tri_mode_eth_mac_v5_4_block.vhd
-utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
-incr fcount
-
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/tri_mode_eth_mac_v5_4_clk_wiz.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/tri_mode_eth_mac_v5_4_clk_wiz.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
@@ -135,11 +131,15 @@ utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/tri_mode_eth_mac_v5_4_example_design.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/tri_mode_eth_mac_v5_4_example_design.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/tri_mode_eth_mac_v5_4_fifo_block.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/tri_mode_eth_mac_v5_4_fifo_block.v
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/example_design/tri_mode_eth_mac_v5_4_mod.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
@@ -159,7 +159,7 @@ utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/simulation/demo_tb.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/simulation/demo_tb.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
@@ -171,11 +171,27 @@ utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/simulation/functional/simulate_vcs.sh
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/simulation/functional/ucli_commands.key
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/simulation/functional/vcs_session.tcl
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
 utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/simulation/functional/wave_mti.do
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
 utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/simulation/functional/wave_ncsim.sv
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4/simulation/tri_mode_eth_mac_v5_4_frame_typ.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
@@ -195,12 +211,12 @@ utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type symbol
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4.vhd
-utilities_xmdf::xmdfSetData $instance FileSet $fcount type vhdl
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4.v
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type verilog
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4.vho
-utilities_xmdf::xmdfSetData $instance FileSet $fcount type vhdl_template
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4.veo
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type verilog_template
 incr fcount
 
 utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path tri_mode_eth_mac_v5_4.xco

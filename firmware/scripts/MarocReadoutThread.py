@@ -21,13 +21,14 @@ from marocLogging import marocLogging
 
 class MarocReadoutThread(Thread):
     """Class with functions that can read out MAROC3 using IPBus. Inherits from threading class, so has a 'start' method"""
-    def __init__(self, threadID, name, board , rawDataQueue , numTriggers, debugLevel=logging.DEBUG ):
+    def __init__(self, threadID, name, board , rawDataQueue , numTriggers, numInternalTriggers , debugLevel=logging.DEBUG ):
         Thread.__init__(self)
         self.threadID = threadID
         self.board = board
         self.name = name
         self.rawDataQueue = rawDataQueue
         self.numTriggers = numTriggers
+        self.numInternalTriggers = numInternalTriggers
         self.debugLevel = debugLevel
         self.logger = logging.getLogger(__name__)
         self.lastEventRead = -1
@@ -38,17 +39,17 @@ class MarocReadoutThread(Thread):
 
         self.logger.info( "Starting thread. Event limit = %i" %(self.numTriggers) )
 
-        self.readout_maroc(self.name, self.board , self.rawDataQueue , self.numTriggers , self.logger , self.debugLevel)
+        self.readout_maroc(self.name, self.board , self.rawDataQueue , self.numTriggers , self.numInternalTriggers , self.logger , self.debugLevel)
 
         self.logger.info( "Exiting thread" )
 
 
-    def readout_maroc(self, name, board , rawDataQueue , numTriggers , logger , debugLevel):
+    def readout_maroc(self, name, board , rawDataQueue , numTriggers , numInternalTriggers, logger , debugLevel):
 
         exitFlag = False
 
         # Create pointer to MAROC board and set up structures.
-        marocData = MarocDAQ.MarocDAQ(board,debugLevel)
+        marocData = MarocDAQ.MarocDAQ(board,debugLevel,numInternalTriggers)
 
         # BODGE - wait for histogram thread to book histograms.
         time.sleep(5)
@@ -68,9 +69,10 @@ class MarocReadoutThread(Thread):
 
                 # Try to detect and recover from buffer over-run
                 if (eventNumber != self.lastEventRead +1) and (self.lastEventRead != -1) :
-                    logger.warn("Buffer over-run detected! Event read = %i , previous event = %i . Resetting read and write pointers " %(eventNumber,self.lastEventRead))
+                    logger.warn("Buffer over-run detected!! Event read = %i , previous event = %i . Resetting read and write pointers " %(eventNumber,self.lastEventRead))
                     marocData.resetADCPointers()
                     self.lastEventRead = -1
+                    eventNumber = -1
                     break # break out of loop and read another block of data.
 
                 self.lastEventRead = eventNumber

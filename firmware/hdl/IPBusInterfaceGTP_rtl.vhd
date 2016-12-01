@@ -71,7 +71,7 @@ ENTITY IPBusInterfaceGTP IS
 
      ipbr_i           : IN     ipb_rbus_array (NUM_EXT_SLAVES-1 DOWNTO 0);  -- ! IPBus read signals
      sysclk_i         : IN     std_logic;                                   -- ! 125 MHz xtal clock
-      clocks_locked_o  : OUT    std_logic;
+      clocks_locked_o,pkt_rx_led_o, pkt_tx_led_o  : OUT    std_logic;
       ipb_clk_o        : OUT    std_logic;                                   -- ! IPBus clock to slaves
       ipb_rst_o        : OUT    std_logic;                                   -- ! IPBus reset to slaves
       ipbw_o           : OUT    ipb_wbus_array (NUM_EXT_SLAVES-1 DOWNTO 0);  -- ! IBus write signals
@@ -105,7 +105,7 @@ ARCHITECTURE rtl OF IPBusInterfaceGTP IS
   signal s_ipbw_internal: ipb_wbus_array (NUM_EXT_SLAVES+c_NUM_INTERNAL_SLAVES-1 DOWNTO 0);
   signal s_ipbr_internal: ipb_rbus_array (NUM_EXT_SLAVES+c_NUM_INTERNAL_SLAVES-1 DOWNTO 0);
   signal s_sysclk : std_logic;
-  signal pkt_rx, pkt_tx, pkt_rx_led, pkt_tx_led, sys_rst: std_logic := '0';
+  signal pkt_rx, pkt_tx, sys_rst: std_logic := '0';
   
 BEGIN
   
@@ -223,8 +223,8 @@ BEGIN
             ip_addr => ip_addr,
             pkt_rx => pkt_rx,
             pkt_tx => pkt_tx,
-            pkt_rx_led => pkt_rx_led,
-            pkt_tx_led => pkt_tx_led
+            pkt_rx_led => pkt_rx_led_o,
+            pkt_tx_led => pkt_tx_led_o
             );
 
 	

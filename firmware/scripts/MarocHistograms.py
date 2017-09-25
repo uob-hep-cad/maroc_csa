@@ -112,7 +112,7 @@ class MarocHistograms(object):
         self.logger.debug("Histogramming data = \n%s"%( '  , '.join([format(i,'08x') for i in ADCData ]) ))
 
         for ADCIndex in range(0,len(ADCData)):
-            self.logger.debug("Filling histogram for channel %i"%ADCIndex)
+            self.logger.debug("Filling histogram for channel %i , value %i"%(ADCIndex,ADCData[ADCIndex]))
             self.adcHistograms[ADCIndex].Fill(ADCData[ADCIndex])
 
         # Fill time-stamp histogram

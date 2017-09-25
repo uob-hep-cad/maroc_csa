@@ -24,6 +24,7 @@ from PyChipsUser import *
 from Queue import Queue
 #from multiprocessing import Queue
 
+#debugLevel = logging.DEBUG
 debugLevel = logging.INFO
 
 logger = logging.getLogger(__name__)

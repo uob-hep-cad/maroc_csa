@@ -125,6 +125,10 @@ def unpack_maroc_data(name, rawDataQueue , recordingDataQueue, histogramDataQueu
         # Push data to recording.
         recordingDataQueue.put(unpackedData)
 
+    # Bodge - give time for histogrammer to fill the last histogram before sending poison pill to data recorder.
+    # If the ROOT file is closed the histograms become undefined....
+    time.sleep(2.0)
+
     poisonPill = [-1]
     histogramDataQueue.put(poisonPill)
     logger.info("Fed poison pill to histogrammer")

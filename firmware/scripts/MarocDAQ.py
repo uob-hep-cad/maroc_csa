@@ -16,7 +16,8 @@ class MarocDAQ(object):
         self.internalTriggers = internalTriggers # Set to > 0 to fire internal triggers.
         self.timeStampEventSize = 12
         self.timeStampBufferSize = 512
-        self.adcEventSize = 26 # size of each event
+        # self.adcEventSize = 26 # size of each event
+        self.adcEventSize = 32 # size of each event in firmware that rounds up to 2^5
         self.adcBufferSize = 4096 # size of rolling buffer. Be careful - buffer size changes with firmware version.....
 
         self.numMaroc = 1

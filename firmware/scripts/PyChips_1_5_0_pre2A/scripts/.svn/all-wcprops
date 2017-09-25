@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/934/trunk/PyChips/scripts
+END
+example1.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/499/trunk/PyChips/scripts/example1.py
+END
+soakTest.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/934/trunk/PyChips/scripts/soakTest.py
+END
+bandwidthRxTest.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/499/trunk/PyChips/scripts/bandwidthRxTest.py
+END
+configureJumboMac.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/863/trunk/PyChips/scripts/configureJumboMac.py
+END

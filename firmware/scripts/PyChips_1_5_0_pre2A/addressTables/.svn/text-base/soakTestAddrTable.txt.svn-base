@@ -1,0 +1,10 @@
+*RegName                RegAddr        RegMask       R    W
+*----------------------------------------------------------------------------------
+Test_readOnly           0x00000000     0xffffffff    1    1   # Put write-flag to 1, in order to test read-only-ness!
+Test                    0x00000001     0xffffffff    1    1
+
+TestRam                 0x00000010     0xffffffff    1    1
+TestRam_end             0x0000001f     0xffffffff    1    1
+
+BigTestRam              0x00001000     0xffffffff    1    1
+BigTestRam_end          0x00001fff     0xffffffff    1    1

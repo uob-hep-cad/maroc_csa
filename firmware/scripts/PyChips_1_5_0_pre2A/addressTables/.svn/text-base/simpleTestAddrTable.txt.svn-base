@@ -1,0 +1,38 @@
+*RegName                RegAddr        RegMask       R    W
+*----------------------------------------------------------------------------------
+SysId                   0x00001000     0xffffffff    1    0
+BoardId                 0x00001004     0xffffffff    1    0
+SlaveId                 0x00001008     0xffffffff    1    0
+FirmwareId              0x0000100C     0xffffffff    1    0
+Test                    0x00001010     0xffffffff    1    1
+TestRam                 0x08000000     0xffffffff    1    1   Should be at least 4K deep.
+
+i2c_reset               0x00004000     0xffffffff    0    1
+i2c_data                0x00004004     0xffffffff    0    1
+i2c_trigger             0x00004008     0xffffffff    0    1
+i2c_status              0x0000400c     0xffffffff    1    0
+
+*----------------------------------------------------------------------------------
+* The registers are for the purposes of unit-testing the code, and do not exist
+* on the mini-T itself
+UnitTest1               0xffff0000     0xffffffff    1    1
+UnitTest1_mask1         0xffff0000     0xff000000    1    1
+UnitTest1_mask2         0xffff0000     0x00ff0000    1    1
+UnitTest1_mask3         0xffff0000     0x0000fffe    1    1
+UnitTest1_mask4         0xffff0000     0x00000001    1    1
+
+UnitTest2               0xffff0001     0xffffffff    1    1
+UnitTest2_mask1         0xffff0001     0xff000000    1    1
+UnitTest2_mask2         0xffff0001     0x00ff0000    1    1
+UnitTest2_mask3         0xffff0001     0x0000fffe    1    1
+UnitTest2_mask4         0xffff0001     0x00000001    1    1
+
+UnitTest3               0xffff0002     0xffffffff    1    1
+UnitTest4               0xffff0003     0xffffffff    1    1
+UnitTest5               0xffff0004     0xffffffff    1    1
+UnitTest6               0xffff0005     0xffffffff    1    1
+UnitTest7               0xffff0006     0xffffffff    1    1
+UnitTest8               0xffff0007     0xffffffff    1    1
+
+UnitTest_ResetDummyHW   0xffffffff     0xffffffff    1    1   Reading from this address resets the dummy hardware.
+*----------------------------------------------------------------------------------

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/1570/trunk/PyChips/src
+END
+ChipsLog.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/472/trunk/PyChips/src/ChipsLog.py
+END
+CommonTools.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1546/trunk/PyChips/src/CommonTools.py
+END
+DummyHardware.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1537/trunk/PyChips/src/DummyHardware.py
+END
+IPbusHeader.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1537/trunk/PyChips/src/IPbusHeader.py
+END
+AddressTableItem.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/472/trunk/PyChips/src/AddressTableItem.py
+END
+AddressTable.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/506/trunk/PyChips/src/AddressTable.py
+END
+PyChipsUser.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/924/trunk/PyChips/src/PyChipsUser.py
+END
+TransactionElement.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1251/trunk/PyChips/src/TransactionElement.py
+END
+ChipsBus.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1547/trunk/PyChips/src/ChipsBus.py
+END
+ChipsException.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/472/trunk/PyChips/src/ChipsException.py
+END
+PyChipsUserDebug.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/924/trunk/PyChips/src/PyChipsUserDebug.py
+END
+SerDes.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1570/trunk/PyChips/src/SerDes.py
+END
+Transaction.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/956/trunk/PyChips/src/Transaction.py
+END

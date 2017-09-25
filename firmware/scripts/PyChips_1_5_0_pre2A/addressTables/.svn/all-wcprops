@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/933/trunk/PyChips/addressTables
+END
+simpleTestAddrTable.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/231/trunk/PyChips/addressTables/simpleTestAddrTable.txt
+END
+soakTestAddrTable.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/933/trunk/PyChips/addressTables/soakTestAddrTable.txt
+END

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #
 # Python class to configure single Maroc board pc049a
 #
@@ -24,8 +25,7 @@ class MarocConfiguration(object):
         self.slowControlObject.readConfigFile(configurationFile )
                 
     def configure(self):
-
-        self.logger.info("Configuring board")
+	self.logger.info("Configuring board")
 
         SCData = self.slowControlObject.getWordArray() # Get data to write
         

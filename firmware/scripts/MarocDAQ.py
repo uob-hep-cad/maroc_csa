@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #
 # Python class to perform basic DAQ operations on MAROC readout board.
 #
@@ -101,7 +102,7 @@ class MarocDAQ(object):
         writePointerName= 'adc'+format(marocNumber,'1d')+'WritePointer'
         dataName= 'adc'+format(marocNumber,'1d')+'Data'
 
-        self.logger.info("Reading ADC data read , write pointers = %i , %i " %(self.adcReadPointer[marocNumber] , self.adcWritePointer[marocNumber]) )
+        self.logger.debug("Reading ADC data read , write pointers = %i , %i " %(self.adcReadPointer[marocNumber] , self.adcWritePointer[marocNumber]) )
         
         # get current write pointer
         self.adcWritePointer[marocNumber] = self.board.read(writePointerName)

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #
 # Python class to book histograms for MAROC data.
 #
@@ -78,7 +79,8 @@ class MarocHistograms(object):
                 histo = TH1F("chan%s"%plot,"ADC Counts for channel %s"%plot,nBins,-0.5,nBins-0.5)
                 histo.SetFillColor(self.histoColour)
 
-                histo.Draw("elp")
+	# don't draw for now
+        #        histo.Draw("elp")
                 canvas.Update()
 
                 self.adcHistograms.append( histo )
@@ -101,8 +103,9 @@ class MarocHistograms(object):
         self.timingHistograms = [ timingHisto ]
         #print "Timing Histo (booking) = " , self.timingHistograms[0]
         self.timingCanvasList[0].cd()
-        timingHisto.Draw("elp")
-        self.timingCanvasList[0].Update()
+# don't draw for now
+#        timingHisto.Draw("elp")
+#        self.timingCanvasList[0].Update()
 
 
     def fillHistograms( self, eventNumber, timeStamp , ADCData ):

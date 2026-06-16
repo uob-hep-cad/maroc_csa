@@ -14,15 +14,15 @@ parser.add_option("-i", dest = 'ipAddress' , default="192.168.200.16")
 parser.add_option("-a", dest = 'boardAddressTable' , default="./pc049aAddrTable_marocdemo.txt")
 
 (options, args) = parser.parse_args()
-print "IP address = " + options.ipAddress
-print "Board address table " + options.boardAddressTable
+print("IP address = " + options.ipAddress)
+print("Board address table " + options.boardAddressTable)
         
 bAddrTab = AddressTable(options.boardAddressTable)
 
 board = ChipsBusUdp(bAddrTab,options.ipAddress,50001)
 
 firmwareID=board.read("FirmwareId")
-print "Firmware = " , hex(firmwareID)
+print("Firmware = " , hex(firmwareID))
 
 marocSC = MarocSC.MarocSC()
 
@@ -34,13 +34,13 @@ marocSC.setParameterValue("mask_OR",0x3,54) # Mask hot channel
 
 SCData = marocSC.getWordArray()
 
-print SCData
+print(SCData)
 
 # Should write to output data buffer
 board.blockWrite("scSrDataOut",SCData)
 
 scdata0 = board.blockRead("scSrDataOut",len(SCData))
-print "SC SR words to write = " , scdata0
+print("SC SR words to write = " , scdata0)
 
 writeWithReset = 1
 writeNoReset = 1
@@ -49,21 +49,21 @@ if writeWithReset:
 
 
     scdata1 = board.blockRead("scSrDataIn",len(SCData))
-    print "Returned data (before write) = " , scdata1
+    print("Returned data (before write) = " , scdata1)
 
     # Trigger writing of control register
     board.write("scSrCtrl" , 0x00000000)
-    print "Written data (with reset)"
+    print("Written data (with reset)")
     scdata1 = board.blockRead("scSrDataIn",len(SCData))
-    print "Returned data (after write with reset = " , scdata1
+    print("Returned data (after write with reset = " , scdata1)
 
 if writeNoReset:
 
     # Trigger writing of control register
     board.write("scSrCtrl" , 0x00000001)
-    print "Written data (no reset)"
+    print("Written data (no reset)")
     scdata1 = board.blockRead("scSrDataIn",len(SCData))
-    print "Returned data (after write no reset = " , scdata1
+    print("Returned data (after write no reset = " , scdata1)
 
 
 

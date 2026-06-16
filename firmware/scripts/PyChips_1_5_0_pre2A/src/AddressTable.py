@@ -74,7 +74,7 @@ class AddressTable(object):
                         regMask = int(words[2], 16)
                         regRead = int(words[3])
                         regWrite= int(words[4])
-                    except Exception, err:
+                    except Exception as err:
                         raise ChipsException("Line " + str(lineNum) + " of file '" + addressTableFile + 
                                              "' does not conform to file format expectations! (Detail: " + str(err))
                     if regName in self.items:

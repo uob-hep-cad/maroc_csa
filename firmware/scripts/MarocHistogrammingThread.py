@@ -13,7 +13,7 @@ from threading import Thread
 import time
 
 #import Queue
-from Queue import Queue
+from queue import Queue
 #from multiprocessing import Queue
 
 import MarocHistograms

@@ -1,31 +1,25 @@
-\t (00:00:05) allegro 16.6-2015 S055 (v16-6-112EH) Linux I32
-\t (00:00:05)     Journal start - Fri Sep 16 12:48:07 2016
-\t (00:00:05)         Host=fortis.phy.bris.ac.uk User=phdgc Pid=7399 CPUs=4
-\t (00:00:05) CmdLine= /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055//tools/pcb/bin/allegro.exe pc049a_toplevel_52.brd
-\t (00:00:05) 
-\t (00:00:07) Opening existing design...
-\d (00:00:07) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/Git/maroc_csa/design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_52.brd
-\i (00:00:07) trapsize 17320
-\i (00:00:07) trapsize 17755
-\i (00:00:08) trapsize 15373
-\i (00:00:08) trapsize 15373
-\i (00:00:09) etchedit 
-\i (00:00:12) zoom points 
-\t (00:00:12) Pick 1st corner of the new window.
-\i (00:00:13) pick 7.7680 119.6919
-\t (00:00:13) last pick:  7.7680 119.6919
-\t (00:00:13) Pick to complete the window.
-\i (00:00:13) pick 36.3611 85.2573
-\t (00:00:13) last pick:  36.3611 85.2573
-\i (00:00:13) trapsize 2185
-\i (00:00:13) etchedit 
-\i (00:00:16) show element 
-\i (00:00:19) setwindow form.find
-\i (00:00:19) FORM find all_off  
-\i (00:00:20) FORM find pins YES 
-\i (00:01:10) setwindow pcb
-\i (00:01:10) trapsize 2457
-\i (00:01:51) exit 
-\e (00:01:51) Do you want to save the changes you made to pc049a_toplevel_52.brd?
-\i (00:01:53) fillin no 
-\t (00:01:53)     Journal end - Fri Sep 16 12:49:55 2016
+\t (00:01:02) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:01:02)     Journal start - Mon Apr 16 09:56:51 2018
+\t (00:01:02)         Host=IT018379 User=phdgc Pid=10504 CPUs=8
+\t (00:01:02) CmdLine= C:\CAD\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:01:02) 
+\d (00:01:02) Design opened: Z:/cad/designs/uob-hep-pc049a/Git/maroc_csa/design_files/worklib/pc049a_toplevel/physical/pc049a_toplevel_52.brd
+\i (00:01:02) placementedit 
+\i (00:01:16) setwindow form.find
+\i (00:01:16) FORM find find_name LK115 
+\i (00:01:20) FORM find find_by_name  
+\i (00:01:25) setwindow form.findname
+\i (00:01:25) FORM findname namefilter LK115* 
+\i (00:01:40) FORM findname namefilter *LK115* 
+\i (00:01:40) FORM findname all_right  
+\i (00:01:41) FORM findname done  
+\i (00:36:22) setwindow pcb
+\i (00:36:22) open 
+\i (00:36:40) fillin "Z:\cad\designs\uob-hep-pc049a\Git\maroc_csa\design_files\worklib\pc049a_db\physical\pc049a_lemo_db_12.brd"
+\i (00:36:40) cd "Z:\cad\designs\uob-hep-pc049a\Git\maroc_csa\design_files\worklib\pc049a_db\physical"
+\t (00:36:40) Opening existing design...
+\i (00:36:42) fillin yes 
+\i (00:36:43) fillin yes 
+\t (00:36:44) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:36:44) trapsize 6650
+\t (00:36:44)     Journal end - Mon Apr 16 10:32:33 2018

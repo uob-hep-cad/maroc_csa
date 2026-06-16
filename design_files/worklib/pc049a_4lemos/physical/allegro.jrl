@@ -1,62 +1,38 @@
-\t (00:00:14) allegro 16.6 S014 (v16-6-112AU) Linux I32
-\t (00:00:14)     Journal start - Wed May  7 15:34:34 2014
-\t (00:00:14)         Host=calgary.phy.bris.ac.uk User=phdgc Pid=4051 CPUs=4
-\t (00:00:14) 
-\t (00:00:15) Opening existing design...
-\d (00:00:15) Database opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_4lemos/physical/pc049a_4lemos_03.brd
-\i (00:00:16) trapsize 11478
-\i (00:00:16) trapsize 11266
-\i (00:00:16) trapsize 11514
-\i (00:00:16) trapsize 11616
-\i (00:00:17) trapsize 9993
-\i (00:00:17) trapsize 9993
-\i (00:00:19) generaledit 
-\i (00:00:33) xsection 
-   (00:00:34) Loading cmds.cxt 
-   (00:00:34) Loading floor.cxt 
-   (00:00:34) Loading skillExt.cxt 
-   (00:00:34) Loading axlcore.cxt 
-   (00:00:34) Loading signal.cxt 
-\i (00:00:34) setwindow form.fplyrstack
-\i (00:00:34) FORM fplyrstack lsgrid cell 1,number 
-\i (00:00:37) FORM fplyrstack lsgrid cell 9,number 
-\i (00:00:38) FORM fplyrstack lsgrid rprepopup 9,number 
-\i (00:00:40) FORM fplyrstack lsgrid rpopup 9,number 'Remove Layer' 
-\i (00:00:42) FORM fplyrstack lsgrid rprepopup 9,number 
-\i (00:00:43) FORM fplyrstack lsgrid rpopup 9,number 'Remove Layer' 
-\i (00:00:47) FORM fplyrstack lsgrid cell 7,number 
-\i (00:00:53) FORM fplyrstack lsgrid lprepopup 7,type 
-\i (00:00:53) FORM fplyrstack lsgrid cell 7,type 
-\i (00:00:54) FORM fplyrstack lsgrid change 7,type PLANE 
-\i (00:00:57) FORM fplyrstack lsgrid cell 9,number 
-\i (00:00:57) FORM fplyrstack lsgrid rprepopup 9,number 
-\i (00:00:59) FORM fplyrstack lsgrid rpopup 9,number 'Remove Layer' 
-\i (00:01:01) FORM fplyrstack lsgrid rprepopup 9,number 
-\i (00:01:02) FORM fplyrstack lsgrid rpopup 9,number 'Remove Layer' 
-\i (00:01:24) FORM fplyrstack lsgrid cell 6,thickness 
-\i (00:01:43) FORM fplyrstack lsgrid change 6,thickness 01.2 
-\i (00:01:46) FORM fplyrstack lsgrid cell 6,thickness 
-\i (00:01:51) FORM fplyrstack lsgrid change 6,thickness 1.0 
-\i (00:01:56) FORM fplyrstack done  
-\i (00:01:57) setwindow pcb
-\i (00:01:57) generaledit 
-\i (00:02:00) save 
-\i (00:02:02) fillin yes 
-\i (00:02:02) generaledit 
-\i (00:02:05) save_as 
-\i (00:02:08) fillin "menu_cancel"
-\i (00:02:08) generaledit 
-\i (00:02:13) create module 
-\i (00:02:14) drag_start grid -84.6465 63.5000
-\i (00:02:15) drag_stop 104.0185 -81.3963
-\i (00:02:17) pick grid -0.7066 2.5437
-\t (00:02:17) last pick:  0.0000  0.0000
-\i (00:02:21) fillin "pc049a_4lemos.mdd"
-\w (00:02:22) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:02:22) generaledit 
-\i (00:02:25) open 
-\i (00:02:40) fillin "/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical/pc049a_lemo_db_06.brd"
-\i (00:02:40) cd "/projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/worklib/pc049a_db/physical"
-\t (00:02:40) Opening existing design...
-\i (00:02:40) trapsize 23893
-\t (00:02:40)     Journal end - Wed May  7 15:37:00 2014
+\t (00:00:00) allegro 16.6-2015 S079 (v16-6-112GH) Windows 32
+\t (00:00:00)     Journal start - Wed Dec 13 16:01:13 2017
+\t (00:00:00)         Host=IT062971 User=phpgb Pid=14572 CPUs=8
+\t (00:00:00) CmdLine= allegro -proj P:\cad\designs\uob-hep-pc049a\Git\maroc_csa\design_files\pc049a_4lemos.cpm -product PCB_design_studio -mpssession phpgb_ProjectMgr6857 -mpshost IT062971
+\t (00:00:00) 
+   (00:00:01) "LOADING SKILL FILES FROM: C:/Cadence/SPB_16.6/share/local/pcb/skill"
+   (00:00:01) "FILES LOADED:"
+   (00:00:01) "align_sym.il"
+   (00:00:01) "autosilkUtils.il"
+   (00:00:01) "drc_walk.il"
+   (00:00:01) "find_dlines.il"
+   (00:00:01) "helloWorld.il"
+   (00:00:01) function AFn_formEnd redefined
+   (00:00:01) function AFn_formMessage redefined
+   (00:00:01) function AFn_formGroup redefined
+   (00:00:01) function AFn_formText redefined
+   (00:00:01) function AFn_formButton redefined
+   (00:00:01) function AFn_formChecklistItem redefined
+   (00:00:01) function AFn_formRealFillin redefined
+   (00:00:01) function AFn_formPop redefined
+   (00:00:01) function AFn_formThumbnail redefined
+   (00:00:01) function AFn_formOptionsString redefined
+   (00:00:01) function AFn_formSizeString redefined
+   (00:00:01) function AFn_formOptionalString redefined
+   (00:00:01) "logoMaker_public.il"
+   (00:00:01) "moveByRefDef.il"
+   (00:00:01) "single_pin_net_check.il"
+   (00:00:01) "DONE"
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Design opened: P:/cad/designs/uob-hep-pc049a/Git/maroc_csa/design_files/worklib/pc049a_4lemos/physical/pc049a_4lemos_03.brd
+\i (00:00:03) trapsize 8033
+\i (00:00:03) trapsize 7928
+\i (00:00:03) trapsize 7929
+\i (00:00:03) trapsize 8051
+\i (00:00:03) trapsize 8051
+\i (00:00:04) etchedit 
+\i (00:00:08) exit 
+\t (00:00:09)     Journal end - Wed Dec 13 16:01:21 2017

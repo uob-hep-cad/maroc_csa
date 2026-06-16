@@ -141,7 +141,7 @@ class ChipsBusBase(object):
         
         try:
             transaction = self._makeAndRunTransaction(self._queuedRequests)
-        except ChipsException, err:
+        except ChipsException as err:
             self.queueClear()
             raise ChipsException("Error while running queued transactions:\n\t" + str(err))
         
@@ -402,13 +402,13 @@ class ChipsBusBase(object):
         try:
             # Send the transaction
             self._socketSend(transaction)
-        except socket.error, socketError:
+        except socket.error as socketError:
             raise ChipsException("A socket error occurred whilst sending the IPbus transaction request packet:\n\t" + str(socketError))
           
         try:
             # Get response
             transaction.serialResponses = self._socket.recv(ChipsBus.SOCKET_BUFFER_SIZE)
-        except socket.error, socketError:
+        except socket.error as socketError:
             raise ChipsException("A socket error occurred whilst getting the IPbus transaction response packet:\n\t" + str(socketError))
         chipsLog.debug("Received response packet.");
 
@@ -447,7 +447,7 @@ class ChipsBusBase(object):
             if not addrTableItem.getReadFlag(): raise ChipsException("Read transaction creation error: read is not allowed on register '" + addrTableItem.getName() + "'.")
             # create and run the transaction and get the response
             transaction = self._makeAndRunTransaction( [self._createReadTransactionElement(addrTableItem, depth, addrOffset, isFifo)] )
-        except ChipsException, err:
+        except ChipsException as err:
             raise ChipsException("Block/FIFO read error on register '" + name + "':\n\t" + str(err))
 
         blockReadResponse = transaction.responses[-1] # Block read response will be last in list
@@ -499,7 +499,7 @@ class ChipsBusBase(object):
             if not addrTableItem.getWriteFlag(): raise ChipsException("Write transaction creation error: write is not allowed on register '" +  addrTableItem.getName() + "'.") 
             # create and run the transaction and get the response
             self._makeAndRunTransaction( [self._createWriteTransactionElement(addrTableItem, dataList, addrOffset, isFifo)] )
-        except ChipsException, err:
+        except ChipsException as err:
             raise ChipsException("Block/FIFO write error on register '" + name + "':\n\t" + str(err))
 
         chipsLog.debug("Block/FIFO write success! " + str(depth) + " 32-bit words were written to '"

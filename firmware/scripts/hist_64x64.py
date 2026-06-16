@@ -26,8 +26,8 @@ def hsum():
     canvasNames = [ "c%s"%canvas for canvas in range(nCanvas) ]
     canvasTitles = [ "ADC Value for Channels %s - %s"%(canvas*nPlotsPerCanvas , (canvas+1)*nPlotsPerCanvas -1) for canvas in range(nCanvas) ]
 
-    print canvasNames
-    print canvasTitles
+    print(canvasNames)
+    print(canvasTitles)
 
     canvasList = [ TCanvas(canvasNames[chan],canvasTitles[chan],200,10,600,400) for chan in range(nCanvas) ]
 
@@ -45,7 +45,7 @@ def hsum():
 
             plot = canvasIndex*nPlotsPerCanvas + plotIndex # look the other way please....
 
-            print canvasIndex , plotIndex , plot
+            print(canvasIndex , plotIndex , plot)
 
             canvas.cd(plotIndex+1) # Change current pad. (plotIndex counts from 0. Root expects count from 1 (0 is the parent))
 

@@ -48,31 +48,31 @@ parser.add_option("-i", dest = 'ipAddress' , default="192.168.200.16")
 parser.add_option("-a", dest = 'boardAddressTable' , default="./pc049aAddrTable_marocdemo.txt")
 
 (options, args) = parser.parse_args()
-print "IP address = " + options.ipAddress
-print "Board address table " + options.boardAddressTable
+print("IP address = " + options.ipAddress)
+print("Board address table " + options.boardAddressTable)
         
 bAddrTab = AddressTable(options.boardAddressTable)
 
 board = ChipsBusUdp(bAddrTab,options.ipAddress,50001)
 
 firmwareID=board.read("FirmwareId")
-print "Firmware = " , hex(firmwareID)
+print("Firmware = " , hex(firmwareID))
 
 # Set up which triggers are active. Set just internal trigger active
 board.write("trigSourceSelect",0x00000001)
 trigSource = board.read("trigSourceSelect")
-print "Trigger source select register = " , hex(trigSource)
+print("Trigger source select register = " , hex(trigSource))
 
 adcStatus = board.read("adcCtrl")
-print "ADC Status before conversion = " , hex(adcStatus)
+print("ADC Status before conversion = " , hex(adcStatus))
 
 useTrigger = 1
 if useTrigger:
-        print "Firing manual trigger (should also trigger ADC conversion)"
+        print("Firing manual trigger (should also trigger ADC conversion)")
         board.write("trigManualTrigger",0x00000001)
 else:
         # Should trigger an ADC conversion
-        print "Starting ADC conversion"
+        print("Starting ADC conversion")
         board.write("adcCtrl",0x00000001)
 
 # Set usePing=1 if running with simulated hardware. Set to zero if running with real hardware.
@@ -82,27 +82,27 @@ if usePing:
         call(["ping", "-c" , "26" , "192.168.200.16"])
 
 adcStatus = board.read("adcCtrl")
-print "ADC Status after conversion = " , hex(adcStatus)
+print("ADC Status after conversion = " , hex(adcStatus))
 
 bitCount = board.read("adcBitCount")
-print "ADC bit count = " , bitCount
+print("ADC bit count = " , bitCount)
 
 adcWritePointer = board.read("adcWritePointer")
-print "ADC write pointer = ", hex(adcWritePointer)
+print("ADC write pointer = ", hex(adcWritePointer))
 
 
 #adcDataSize = 1024
-print "Reading ADC data referenced to write pointer"
+print("Reading ADC data referenced to write pointer")
 adcDataSize = 26
 adcData = board.blockRead("adcData", adcDataSize , 
                           (adcWritePointer - adcDataSize))
 
-print "Trigger Number = " , hex(adcData[0])
-print "Timestamp = " , hex(adcData[1])
+print("Trigger Number = " , hex(adcData[0]))
+print("Timestamp = " , hex(adcData[1]))
 
 hexAdcData = [ hex(x) for x in adcData]
 #print adcData
-print hexAdcData
+print(hexAdcData)
 
 nBits = 12
 busWidth = 32
@@ -122,7 +122,7 @@ for adcNumber in range(0 , nADC) :
         adcValueBin = greyIntToInt(adcValue)
 
 	# print "nADC, lowBit , lowWord , lowBitPos , hex(longWord) , hex(adcValue)" , adcNumber , lowBit , lowWord , lowBitPos , hex(longWord) , hex(adcValue), hex( adcValueBin )
-	print "nADC , hex(adcValueBin)" , adcNumber, hex( adcValueBin )
+	print("nADC , hex(adcValueBin)" , adcNumber, hex( adcValueBin ))
 
 
 

@@ -13,7 +13,7 @@ class MarocRecording(object):
 
     def __init__(self, fileName="marocData.root" , debugLevel=logging.DEBUG ):
         """Class to save MAROC data in ROOT TTree"""
-	self.logger = logging.getLogger(__name__)
+        self.logger = logging.getLogger(__name__)
         marocLogging(self.logger,debugLevel)
 
         self.logger.info("Opening ROOT file %s"%(fileName))

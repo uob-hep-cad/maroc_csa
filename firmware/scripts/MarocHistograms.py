@@ -46,7 +46,7 @@ class MarocHistograms(object):
         # First book histograms for the ADC data
         # ----------------------
         assert(self.nPlots%self.nPlotsPerCanvas == 0),"Number of plots per canvas must be a factor of number-of-plots"
-        nCanvas = self.nPlots/self.nPlotsPerCanvas
+        nCanvas = self.nPlots//self.nPlotsPerCanvas
         nPlotsPerDirection = int(sqrt(self.nPlotsPerCanvas))
 
         nBins = 2**self.nBits
@@ -79,8 +79,8 @@ class MarocHistograms(object):
                 histo = TH1F("chan%s"%plot,"ADC Counts for channel %s"%plot,nBins,-0.5,nBins-0.5)
                 histo.SetFillColor(self.histoColour)
 
-	# don't draw for now
-        #        histo.Draw("elp")
+	## don't draw for now
+        ##        histo.Draw("elp")
                 canvas.Update()
 
                 self.adcHistograms.append( histo )
@@ -103,9 +103,9 @@ class MarocHistograms(object):
         self.timingHistograms = [ timingHisto ]
         #print "Timing Histo (booking) = " , self.timingHistograms[0]
         self.timingCanvasList[0].cd()
-# don't draw for now
-#        timingHisto.Draw("elp")
-#        self.timingCanvasList[0].Update()
+## don't draw for now
+##        timingHisto.Draw("elp")
+##        self.timingCanvasList[0].Update()
 
 
     def fillHistograms( self, eventNumber, timeStamp , ADCData ):

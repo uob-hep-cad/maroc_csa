@@ -27,15 +27,15 @@ parser.add_option("-i", dest = 'ipAddress' , default="192.168.200.16")
 parser.add_option("-a", dest = 'boardAddressTable' , default="./pc049aAddrTable_marocdemo.txt")
 
 (options, args) = parser.parse_args()
-print "IP address = " + options.ipAddress
-print "Board address table " + options.boardAddressTable
+print("IP address = " + options.ipAddress)
+print("Board address table " + options.boardAddressTable)
         
 bAddrTab = AddressTable(options.boardAddressTable)
 
 board = ChipsBusUdp(bAddrTab,options.ipAddress,50001)
 
 firmwareID=board.read("FirmwareId")
-print "Firmware = " , hex(firmwareID)
+print("Firmware = " , hex(firmwareID))
 
 marocSC = MarocSC.MarocSC(debugLevel=logging.INFO)
 marocSC.setFlagValue("d1_d2",0) # Select FSU / FSB1 for trigger
@@ -48,16 +48,16 @@ oldTriggerCounterVals = nChan*[0]
 
 triggerSCurveValues = [ [] for _ in range(nChan)] # stores an array of arrays. Each element is an S-Curve. Initialize to a list of empty lists.
 
-print triggerSCurveValues 
+print(triggerSCurveValues) 
 
 looping = True
 tSleep = 1.0
 
-DACVals = range(0,1024,20)
+DACVals = list(range(0,1024,20))
 
 for DACVal in DACVals:
 
-	print "Setting DACVal = " , DACVal
+	print("Setting DACVal = " , DACVal)
 
 	setDAC ( marocSC , DACVal )
 	oldTrigCounterVals = board.blockRead("trigCounterBase", nChan )
@@ -73,7 +73,7 @@ for DACVal in DACVals:
 
 # After loop we have an array of values with each element being a separate DAC value. 
 # Reshape to have an array with 64 entries with each entry being an array of counts for a given DAC value.
-print triggerSCurveValues
+print(triggerSCurveValues)
 
 plt.plot(DACVals,triggerSCurveValues[27])
 plt.ylabel("Trigger Counts (OR1/FSU)")

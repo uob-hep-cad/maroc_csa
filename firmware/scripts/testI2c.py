@@ -30,15 +30,15 @@ board = ChipsBusUdp(bAddrTab,"192.168.200.16",50001)
 
 firmwareID=board.read("FirmwareId")
 
-print "Firmware = " , hex(firmwareID)
+print("Firmware = " , hex(firmwareID))
 
 # Check the bus for I2C devices
 boardi2c = FmcTluI2c(board)
 
-print "Scanning I2C bus:"
+print("Scanning I2C bus:")
 scanResults = boardi2c.i2c_scan()
-print scanResults
+print(scanResults)
 
 boardId = boardi2c.get_serial_number()
-print "serial number = " , boardId
+print("serial number = " , boardId)
 

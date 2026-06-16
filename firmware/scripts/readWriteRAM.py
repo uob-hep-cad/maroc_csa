@@ -13,4 +13,4 @@ board.write("Ram",0xDEADBEEF)
 
 ramContents = board.read("Ram")
 
-print "ram contents = " , hex(ramContents )
+print("ram contents = " , hex(ramContents ))

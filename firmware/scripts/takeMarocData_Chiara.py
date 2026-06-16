@@ -36,15 +36,15 @@ parser.add_option("-i", dest = 'ipAddress' , default="192.168.200.16")
 
 parser.add_option("-a", dest = 'boardAddressTable' , default="./pc049aAddrTable.txt")
 
-parser.add_option("-o", dest = 'outputFile' , default = './datafolder/test_ch60_596061on.root' )
+parser.add_option("-o", dest = 'outputFile' , default = './datafolder/test_yan.root' )
 
-parser.add_option("-n" , dest = 'numTriggers' , default = 100 )
+parser.add_option("-n" , dest = 'numTriggers' , default = 871 )
 
 parser.add_option("-t" , dest = 'numInternalTriggers' , default = 0 )
 
 parser.add_option("-c" , dest = 'configFile' , default = './datafolder/testADC_marocSC_Chiara.csv' )
 
-parser.add_option("-l" , dest = 'timeOut' , default = '60' )
+parser.add_option("-l" , dest = 'timeOut' , default = 600 )
 
 (options, args) = parser.parse_args()
 

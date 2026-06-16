@@ -9,7 +9,7 @@ import threading
 
 import time
 
-import Queue
+import queue
 
 import MarocRecording
 

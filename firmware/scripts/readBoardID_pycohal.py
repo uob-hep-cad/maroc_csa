@@ -9,10 +9,10 @@ hw = uhal.getDevice( "pc049a" , uri , address_table  )
 
 # Debugging....
 device_id = hw.id()
-print hw
+print(hw)
 # Grab the device's URI
 device_uri = hw.uri()
-print device_uri
+print(device_uri)
 
 #...................
 
@@ -20,4 +20,4 @@ reg = hw.getNode("FirmwareId").read()
 
 hw.dispatch()
 
-print " REG =", hex(reg)
+print(" REG =", hex(reg))

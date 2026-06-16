@@ -12,15 +12,15 @@ parser.add_option("-i", dest = 'ipAddress' , default="192.168.200.16")
 parser.add_option("-a", dest = 'boardAddressTable' , default="./pc049aAddrTable_marocdemo.txt")
 
 (options, args) = parser.parse_args()
-print "IP address = " + options.ipAddress
-print "Board address table " + options.boardAddressTable
+print("IP address = " + options.ipAddress)
+print("Board address table " + options.boardAddressTable)
         
 bAddrTab = AddressTable(options.boardAddressTable)
 
 board = ChipsBusUdp(bAddrTab,options.ipAddress,50001)
 
 firmwareID=board.read("FirmwareId")
-print "Firmware = " , hex(firmwareID)
+print("Firmware = " , hex(firmwareID))
 
 numSCbits = 829
 numWords = 26
@@ -33,16 +33,16 @@ for bitNumber in bits:
     bitNum = numSCbits - bitNumber -1
     wordBitPos = bitNum % busWidth
     wordNum    = bitNum / busWidth
-    print "setting bit number (reversed) " , bitNumber , bitNum , " => bit " , wordBitPos , " of word " , wordNum
+    print("setting bit number (reversed) " , bitNumber , bitNum , " => bit " , wordBitPos , " of word " , wordNum)
     SCData[wordNum] += 0x00000001 << wordBitPos
 
-print SCData
+print(SCData)
 
 # Should write to output data buffer
 board.blockWrite("scSrDataOut",SCData)
 
 scdata0 = board.blockRead("scSrDataOut",numWords)
-print "SC SR words = " , scdata0
+print("SC SR words = " , scdata0)
 
 
 # Trigger writing of control register

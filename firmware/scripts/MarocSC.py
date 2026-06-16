@@ -3,12 +3,12 @@
 # Python class to set up MAROC-3 serial control register.
 #
 #
-import ConfigParser
+import configparser
 
 import logging
 from marocLogging import marocLogging
 
-from itertools import imap
+
 
 class MarocSC(object):
     """Sets up an array of 32-bit words that can be written to MAROC-3 serial slow control register via a block write to IPBus-based firmware."""
@@ -63,7 +63,7 @@ class MarocSC(object):
 
         # Copy default flags onto the end of each flag
         # structure = [bit-location , default, description, comment, currentValue]
-        for flagName in self.flagLocation.keys():
+        for flagName in list(self.flagLocation.keys()):
             self.flagLocation[flagName].append(self.flagLocation[flagName][1])
             
          
@@ -79,7 +79,7 @@ class MarocSC(object):
 
         # Copy default parameters into dictionary
         # parameterLocation = [parameter-location , parameter-width , default , description , comment , currentValue(s) ]
-        for paramName in self.parameterLocation.keys():
+        for paramName in list(self.parameterLocation.keys()):
             self.parameterLocation[paramName].append(self.parameterLocation[paramName][2])
 
         # Data structure to store the names of FPGA registers to write into. The key name is the register name value is [default,description,comment]
@@ -88,7 +88,7 @@ class MarocSC(object):
             'trigHold1Delay':[ 0x00000000 , 'Set delay between trigger and Hold1 being asserted' , 'In units of fastClock ticks = 8ns']  
             }
         # Copy default register values into dictionary
-        for registerName in self.registers.keys():
+        for registerName in list(self.registers.keys()):
             self.registers[registerName].append(self.registers[registerName][0])
  
         
@@ -110,12 +110,12 @@ class MarocSC(object):
         ( N.B. This is the contents of the local data structure that will be transmitted to the MAROC, *NOT* what is in the MAROC)"""
         bitArray = (self.numSCbits)*[0]
         
-        for flagName in self.flagLocation.keys(): # Loop through the flags
+        for flagName in list(self.flagLocation.keys()): # Loop through the flags
             [ bitPosition , default , description , comment , bitValue ] =  self.flagLocation[flagName]
             self.logger.debug("Copying flag to bit-array. Flag name = %s , flag location = %i , default = %i , value = %i , description = %s , comment = %s" % ( flagName , bitPosition , default , bitValue , description , comment))
             bitArray[bitPosition] = bitValue
         
-        for paramName in self.parameterLocation.keys(): # Loop through the parameters 
+        for paramName in list(self.parameterLocation.keys()): # Loop through the parameters 
             [ paramLocation , paramWidth , paramDefault , description , comment , paramValue ] = self.parameterLocation[paramName]
 
             for index in range(0, len(paramDefault)): # Loop over the array values for each parameter
@@ -137,7 +137,7 @@ class MarocSC(object):
         """ Prints out the value of each bit in the list"""
         bitArray = self.getBitArray()
         for bitNumber in range(0 , len(bitArray) ):
-            print "bit %i = %i" %( bitNumber , bitArray[bitNumber] )
+            print("bit %i = %i" %( bitNumber , bitArray[bitNumber] ))
 
     def getWordArray(self):
         """Return an array of 32-bit numbers to write to SC register. 
@@ -147,7 +147,7 @@ class MarocSC(object):
         for bitNumber in range(0 , len(bitArray) ):
             bitNum = self.numSCbits  - bitNumber -1
             wordBitPos = bitNum % self.busWidth
-            wordNum    = bitNum / self.busWidth
+            wordNum    = bitNum // self.busWidth
             self.logger.debug("setting bit number = %i (reversed = %i )  => bit %i of word %i to %i" %( bitNumber , bitNum , wordBitPos , wordNum, bitArray[bitNumber]))
             SCData[wordNum] += bitArray[bitNumber] << wordBitPos
         return SCData
@@ -174,7 +174,7 @@ class MarocSC(object):
         arraySize = len(paramDefault)
         assert index < arraySize
         if index<0: # if index not set ( or set to <0 ) then write all parameters at once.
-            paramString = ",".join(imap(str, newParamValue))
+            paramString = ",".join(map(str, newParamValue))
             self.logger.debug("setting parameter array = %s  , base location = %i ,  Values = %s . Number of values = %i" %( paramName , paramLocation,   paramString , arraySize) )
             assert len(paramDefault) == len(newParamValue) # Make sure array has the correct number of entries
             self.parameterLocation[paramName][5] = newParamValue
@@ -186,7 +186,7 @@ class MarocSC(object):
         """Gets parameter"""
         [ paramLocation , paramWidth , default, description, comment , paramValue] = self.parameterLocation[paramName]
         arraySize = len(default)
-        paramString = ",".join(imap(str, paramValue))
+        paramString = ",".join(map(str, paramValue))
         self.logger.debug("reading parameter = %s  ,  Number of values = %i , values = %s " %( paramName ,  arraySize , paramString) )
         return paramValue
 
@@ -215,7 +215,7 @@ class MarocSC(object):
         
         self.logger.info("Reading Configuration from %s" %(fName))
         
-        config = ConfigParser.SafeConfigParser()
+        config = configparser.SafeConfigParser()
         config.optionxform = str # stop parser from changing to lower case.
         config.read(fName)
         flags = config.items("flags")
@@ -238,27 +238,27 @@ class MarocSC(object):
     def writeConfigFile(self,fName):
         """Writes a configuration file with window-INI like syntax. Warning - will overwrite existing files"""
         cfgFile = open(fName,'w')
-        config = ConfigParser.SafeConfigParser()
+        config = configparser.SafeConfigParser()
         config.optionxform = str # stop parser from changing to lower case
         config.add_section('flags')
         config.add_section('parameters')
         config.add_section('registers')
 
         # Set flag values
-        for flagName in self.flagLocation.keys():
+        for flagName in list(self.flagLocation.keys()):
             bitValue  =  self.getFlagValue(flagName)
             self.logger.debug("Setting Flag name %s in config file to %i " %(flagName,bitValue))
             config.set('flags',flagName,str(bitValue))
 
         # set parameter values
-        for paramName in self.parameterLocation.keys():
+        for paramName in list(self.parameterLocation.keys()):
             paramValues = self.getParameterValue(paramName)
-            paramString = ",".join(imap(str, paramValues))
+            paramString = ",".join(map(str, paramValues))
             self.logger.debug("Setting Parameter name %s in config file to %s " %(paramName,paramString))
             config.set('parameters',paramName,paramString)
 
         # Set register values
-        for registerName in self.registers.keys():
+        for registerName in list(self.registers.keys()):
             registerValue  =  self.getRegisterValue(registerName)
             self.logger.debug("Setting Register name %s in config file to %i " %(registerName,registerValue))
             config.set('registers',registerName,str(registerValue))

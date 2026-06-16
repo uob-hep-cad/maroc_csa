@@ -49,10 +49,10 @@ class pc049a_i2c:
     ###################
     def eeprom_write(self,address,value):
         if address<0 or address>127:
-            print "eeprom_write ERROR: address",address,"not in range 0-127"
+            print("eeprom_write ERROR: address",address,"not in range 0-127")
             return
         if value<0 or value>255:
-            print "eeprom_write ERROR: value",value,"not in range 0-255"
+            print("eeprom_write ERROR: value",value,"not in range 0-255")
             return
         i2cSlaveAddr = 0x50   # seven bit address, binary 1010000
         prom = RawI2cAccess(self.i2cBusProps, i2cSlaveAddr)
@@ -66,7 +66,7 @@ class pc049a_i2c:
     ####################
     def eeprom_read(self,address):
         if address<0 or address>255:
-            print "eeprom_write ERROR: address",address,"not in range 0-127"
+            print("eeprom_write ERROR: address",address,"not in range 0-127")
             return
         i2cSlaveAddr = 0x50   # seven bit address, binary 1010000
         prom = RawI2cAccess(self.i2cBusProps, i2cSlaveAddr)
@@ -90,26 +90,26 @@ class pc049a_i2c:
     #################
     def set_dac(self,channel,value , vrefOn = 0 , i2cSlaveAddrDac = 0x1F):
         if channel<0 or channel>7:
-            print "set_dac ERROR: channel",channel,"not in range 0-7 (bit mask)"
+            print("set_dac ERROR: channel",channel,"not in range 0-7 (bit mask)")
             return -1
         if value<0 or value>0xFFFF:
-            print "set_dac ERROR: value",value,"not in range 0-0xFFFF"
+            print("set_dac ERROR: value",value,"not in range 0-0xFFFF")
             return -1
         # AD5665R chip with A0,A1 tied to ground
         #i2cSlaveAddrDac = 0x1F   # seven bit address, binary 00011111
-        print "I2C address of DAC = " , hex(i2cSlaveAddrDac)
+        print("I2C address of DAC = " , hex(i2cSlaveAddrDac))
         dac = RawI2cAccess(self.i2cBusProps, i2cSlaveAddrDac)
         # if we want to enable internal voltage reference:
         if vrefOn:
             # enter vref-on mode:
-	    print "Turning internal reference ON" 
+	    print("Turning internal reference ON") 
             dac.write([0x38,0x00,0x01])
         else:
-	    print "Turning internal reference OFF" 
+	    print("Turning internal reference OFF") 
             dac.write([0x38,0x00,0x00])
         # now set the actual value
         sequence=[( 0x18 + ( channel &0x7 ) ) , (value/256)&0xff , value&0xff]
-        print sequence
+        print(sequence)
         dac.write(sequence)
 
 
@@ -128,7 +128,7 @@ class pc049a_i2c:
     ##################################################
     def set_threshold_voltage(self, channel , voltage ):
         dacCode = self.convert_voltage_to_dac(voltage)
-        print " requested voltage, calculated DAC code = " , voltage , dacCode
+        print(" requested voltage, calculated DAC code = " , voltage , dacCode)
         self.set_dac(channel , dacCode)
         
     

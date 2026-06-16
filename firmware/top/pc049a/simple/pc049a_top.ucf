@@ -597,3 +597,18 @@ NET "maroc/slave2_trigger/s_counter_reset_ipb" TIG;
 NET "maroc/slave5_triggerCounter/*reset*" TIG;
 NET "maroc/slave5_triggerCounter/inst_sync_reg/*ring*" TIG;
 NET "maroc/slave5_triggerCounter/inst_sync_reg/*data*" TIG;
+
+# Don't worry going from slow clock to fast clock - if we miss the first cycle there will be three more with the same state...
+INST maroc/slave2_trigger/s_internalTrigger_p_d1 TNM = TNM_s_internalTrigger_p_d1;
+INST maroc/slave2_trigger/cmp_TriggerGeneratorInterface/Mshreg_s_internalTrigger_d2 TNM = TNM_Mshreg_s_internalTrigger_d2;
+TIMESPEC TS_TIG_01 = FROM TNM_s_internalTrigger_p_d1 TO TNM_Mshreg_s_internalTrigger_d2 TIG;
+
+# Don't care going from slow clock to fast clock - if we miss the first cycle there will be three more with the same state...
+INST maroc/edgeDetect/pulse_o TNM = TNM_pulse_o;
+INST maroc/slave2_trigger/cmp_TriggerGeneratorInterface/Mshreg_s_adcConversionEnd_d2 TNM = TNM_s_adcConversionEnd_d2;
+TIMESPEC TS_TIG_02 = FROM TNM_pulse_o to TNM_s_adcConversionEnd_d2 TIG;
+
+# Don't care if hold signal is delayed moving from fast clock to slow clock domain. If it slips by a cycle or more no harm is done.
+INST maroc/slave2_trigger/cmp_TriggerGeneratorInterface/s_hold1_d2 TNM = TNM_s_hold1_d2;
+INST maroc/slave2_trigger/cmp_TriggerGeneratorInterface/Mshreg_s_hold1_d4 TNM = TNM_s_hold1_d4;
+TIMESPEC TS_TIG_03 = FROM TNM_s_hold1_d2 to TNM_s_hold1_d4 TIG;

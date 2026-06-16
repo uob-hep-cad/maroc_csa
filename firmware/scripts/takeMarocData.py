@@ -21,7 +21,7 @@ import MarocConfiguration
 from PyChipsUser import *
 
 #import Queue
-from Queue import Queue
+from queue import Queue
 #from multiprocessing import Queue
 
 #debugLevel = logging.DEBUG

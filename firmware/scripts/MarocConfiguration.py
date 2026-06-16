@@ -25,7 +25,7 @@ class MarocConfiguration(object):
         self.slowControlObject.readConfigFile(configurationFile )
                 
     def configure(self):
-	self.logger.info("Configuring board")
+        self.logger.info("Configuring board")
 
         SCData = self.slowControlObject.getWordArray() # Get data to write
         
@@ -36,7 +36,7 @@ class MarocConfiguration(object):
         self.board.write("scSrCtrl" , 0x00000000)
 
         # set up the registers.
-        for regName in self.slowControlObject.registers.keys():
+        for regName in list(self.slowControlObject.registers.keys()):
             regValue = self.slowControlObject.getRegisterValue(regName)
             self.logger.info("Writing %i to register %s"%( int(regValue) , regName ))
             self.board.write(regName,regValue)

@@ -9,4 +9,4 @@ board = ChipsBusUdp(bAddrTab,"192.168.200.16",50001)
 
 adcData=board.blockRead("adcData",50)
 
-print "adcData = " , adcData
+print("adcData = " , adcData)

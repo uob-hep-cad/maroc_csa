@@ -6,7 +6,7 @@ Created on May 12, 2010
 
 # System imports
 import socket
-from Queue import Queue
+from queue import Queue
 from threading import Thread
 from time import sleep
 
@@ -97,7 +97,7 @@ class DummyHardwareBase(Thread):
             self._socketSend(transaction)
             chipsLog.debug("Response packet sent!")
             chipsLog.debug("*** Transaction #" + str(self._transactionCounter) + " completed! ***\n")
-        except ChipsException, err:
+        except ChipsException as err:
             chipsLog.error("ERROR! Transaction #" + str(self._transactionCounter) + 
                            " could not be successfully processed:\n\t" + str(err))
 

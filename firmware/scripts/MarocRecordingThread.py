@@ -13,7 +13,7 @@ from threading import Thread
 import time
 
 #import Queue
-from Queue import Queue
+from queue import Queue
 #from multiprocessing import Queue
 
 import MarocRecording
@@ -31,21 +31,21 @@ class MarocRecordingThread(Thread):
         self.fileName = fileName
         self.fileObject = MarocRecording.MarocRecording(fileName=fileName,debugLevel=debugLevel)
         self.logger = logging.getLogger(__name__)
-	self.start_time = time.time()
-	self.runTimeLenght= timeLenght
-	
+        self.start_time = time.time()
+        self.runTimeLenght= timeLenght
+
 
     def run(self):
         exitFlag = 0
         marocLogging(self.logger,self.debugLevel)
 
         self.logger.info( "Starting thread" )
-	#self.logger.info( "Will record for", self.runTimeLenght, " seconds" )
+        #self.logger.info( "Will record for", self.runTimeLenght, " seconds" )
         while not exitFlag:
-	    elapsed_time = time.time() - self.start_time
-	    if ((elapsed_time > self.runTimeLenght) & (self.runTimeLenght > 0)):
-		exitFlag = True
-		self.logger.info("Elapsed required time. Exiting.")
+            elapsed_time = time.time() - self.start_time
+            if ((elapsed_time > self.runTimeLenght) & (self.runTimeLenght > 0)):
+                exitFlag = True
+                self.logger.info("Elapsed required time. Exiting.")
             unpackedData = self.unpackedDataQueue.get()
             
             if len(unpackedData) == 1:

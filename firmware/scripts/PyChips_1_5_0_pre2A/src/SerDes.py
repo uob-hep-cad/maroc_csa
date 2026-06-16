@@ -46,7 +46,7 @@ class SerDes(object):
         for element in transactionElementList:
             extendFunc(element.getAll())
         if self._doByteReorder: allTransactionsArray.byteswap()
-        return allTransactionsArray.tostring()
+        return allTransactionsArray.tobytes()
     
     
     def deserialise(self, packetPayloadString):
@@ -55,7 +55,7 @@ class SerDes(object):
         # 1) Unpack the string into unsigned integers
         try:
             rawU32Array = array('I', packetPayloadString)  # Unpack string to an unsigned 32-bit array
-        except Exception, err:
+        except Exception as err:
             raise ChipsException("Deserialisation error:\n\t" + str(err))
     
         # 2) Debug output of the raw packet

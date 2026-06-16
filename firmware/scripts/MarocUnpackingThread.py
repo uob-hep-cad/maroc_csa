@@ -17,7 +17,7 @@ from threading import Thread
 import time
 
 #import Queue
-from Queue import Queue
+from queue import Queue
 #from multiprocessing import Queue
 
 import array
@@ -47,26 +47,26 @@ class MarocUnpackingThread(Thread):
 
 
 def int2bin(n):
-	'From positive integer to list of binary bits, msb at index 0'
-	if n:
-		bits = []
-		while n:
-			n,remainder = divmod(n, 2)
-			bits.insert(0, remainder)
-		return bits
-	else: return [0]
+    'From positive integer to list of binary bits, msb at index 0'
+    if n:
+        bits = []
+        while n:
+            n,remainder = divmod(n, 2)
+            bits.insert(0, remainder)
+        return bits
+    else: return [0]
   
 def bin2int(bits):
-	'From binary bits, msb at index 0 to integer'
-	i = 0
-	for bit in bits:
-		i = i * 2 + bit
-	return i
+    'From binary bits, msb at index 0 to integer'
+    i = 0
+    for bit in bits:
+        i = i * 2 + bit
+    return i
 
 def gray2bin(bits):
-	b = [bits[0]]
-	for nextb in bits[1:]: b.append(b[-1] ^ nextb)
-	return b
+    b = [bits[0]]
+    for nextb in bits[1:]: b.append(b[-1] ^ nextb)
+    return b
 
 def greyIntToInt(greyInt):
         greyBin = int2bin(greyInt)
@@ -98,16 +98,16 @@ def unpack_maroc_data(name, rawDataQueue , recordingDataQueue, histogramDataQueu
         eventTimeStamp = adcData[1]
                 
         for adcNumber in range(0 , nADC) :
-	    lowBit = adcNumber*nBits
-	    lowWord = (adcDataSize-1) - (lowBit /busWidth)  # rounds to integer
-	    lowBitPos = lowBit % busWidth
-	
-	    if adcNumber > (nADC-3): # for adc's 62,63
-	        longWord = adcData[lowWord]
-	    else:
-	        longWord = adcData[lowWord] + (adcData[lowWord-1] << busWidth)
+            lowBit = adcNumber*nBits
+            lowWord = (adcDataSize-1) - (lowBit // busWidth)  # rounds to integer
+            lowBitPos = lowBit % busWidth
 
-	    adcValue = 0x0FFF & (longWord >> lowBitPos)
+            if adcNumber > (nADC-3): # for adc's 62,63
+                longWord = adcData[lowWord]
+            else:
+                longWord = adcData[lowWord] + (adcData[lowWord-1] << busWidth)
+
+            adcValue = 0x0FFF & (longWord >> lowBitPos)
 
             adcValueBin = greyIntToInt(adcValue)
 

@@ -3,12 +3,12 @@
 # Python class to set up MAROC-3 dynamic ("R") control register.
 #
 #
-import ConfigParser
+import configparser
 
 import logging
 from marocLogging import marocLogging
 
-from itertools import imap
+
 
 class MarocRC(object):
     """Sets up an array of 32-bit words that can be written to MAROC-3 dynamic ("R") control register via a block write to IPBus-based firmware."""
@@ -61,7 +61,7 @@ class MarocRC(object):
         
         self.logger.info("Reading Configuration from %s" %(fName))
         
-        config = ConfigParser.SafeConfigParser()
+        config = configparser.SafeConfigParser()
         config.optionxform = str # stop parser from changing to lower case.
         config.read(fName)
         self.hold1 = config.getint('RC',"hold1")

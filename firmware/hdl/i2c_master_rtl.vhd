@@ -81,19 +81,22 @@ BEGIN
                 wb_cyc_i => '1',
                 wb_ack_o => ipbus_o.ipb_ack,
                 wb_inta_o => open,
-                scl_pad_i(0) => i2c_scl_i,
-                scl_pad_o => open,
-                scl_padoen_o(0) => i2c_scl_enb_o,
-                sda_pad_i(0) => i2c_sda_i,
-                sda_pad_o => open,
-                sda_padoen_o(0) => i2c_sda_enb_o
 
-                --scl_pad_i => i2c_scl_i,
+		-- White Rabbit modified i2c interface
+                --scl_pad_i(0) => i2c_scl_i,
                 --scl_pad_o => open,
-                --scl_padoen_o => i2c_scl_enb_o,
-                --sda_pad_i => i2c_sda_i,
+                --scl_padoen_o(0) => i2c_scl_enb_o,
+                --sda_pad_i(0) => i2c_sda_i,
                 --sda_pad_o => open,
-                --sda_padoen_o => i2c_sda_enb_o
+                --sda_padoen_o(0) => i2c_sda_enb_o
+
+		-- standard Lattice i2c interface
+                scl_pad_i => i2c_scl_i,
+                scl_pad_o => open,
+                scl_padoen_o => i2c_scl_enb_o,
+                sda_pad_i => i2c_sda_i,
+                sda_pad_o => open,
+                sda_padoen_o => i2c_sda_enb_o
         );
         
   

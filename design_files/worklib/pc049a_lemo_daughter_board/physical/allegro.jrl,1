@@ -1,13 +1,62 @@
-\t (00:00:07) allegro 16.6-2015 S055 (v16-6-112EH) Linux I32
-\t (00:00:07)     Journal start - Thu Apr 14 12:37:39 2016
-\t (00:00:07)         Host=voltar.phy.bris.ac.uk User=phdgc Pid=1747 CPUs=8
-\t (00:00:07) CmdLine= /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055/tools/pcb/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc049a/trunk/design_files/pc049a_lemo_daughter_board.cpm -product Concept_HDL_studio -mpssession phdgc_ProjectMgr7061 -mpshost voltar.phy.bris.ac.uk
-\t (00:00:07) 
-\t (00:00:09) Opening existing design...
-\i (00:00:12) fillin no 
-\t (00:00:12) Starting new design...
-\i (00:00:13) trapsize 629
-\i (00:00:14) trapsize 643
-\i (00:00:14) trapsize 1123
-\i (00:00:16) exit 
-\t (00:00:16)     Journal end - Thu Apr 14 12:37:48 2016
+\t (00:00:01) allegro 16.6-2015 S079 (v16-6-112GH) Windows 32
+\t (00:00:01)     Journal start - Wed Dec 13 16:00:08 2017
+\t (00:00:01)         Host=IT062971 User=phpgb Pid=10044 CPUs=8
+\t (00:00:01) CmdLine= allegro -proj P:\cad\designs\uob-hep-pc049a\Git\maroc_csa\design_files\pc049a_lemo_daughter_board.cpm -product PCB_design_studio -mpssession phpgb_ProjectMgr6857 -mpshost IT062971
+\t (00:00:01) 
+   (00:00:01) "LOADING SKILL FILES FROM: C:/Cadence/SPB_16.6/share/local/pcb/skill"
+   (00:00:01) "FILES LOADED:"
+   (00:00:01) "align_sym.il"
+   (00:00:01) "autosilkUtils.il"
+   (00:00:01) "drc_walk.il"
+   (00:00:01) "find_dlines.il"
+   (00:00:01) "helloWorld.il"
+   (00:00:01) function AFn_formEnd redefined
+   (00:00:01) function AFn_formMessage redefined
+   (00:00:01) function AFn_formGroup redefined
+   (00:00:01) function AFn_formText redefined
+   (00:00:01) function AFn_formButton redefined
+   (00:00:01) function AFn_formChecklistItem redefined
+   (00:00:01) function AFn_formRealFillin redefined
+   (00:00:01) function AFn_formPop redefined
+   (00:00:01) function AFn_formThumbnail redefined
+   (00:00:01) function AFn_formOptionsString redefined
+   (00:00:01) function AFn_formSizeString redefined
+   (00:00:01) function AFn_formOptionalString redefined
+   (00:00:01) "logoMaker_public.il"
+   (00:00:01) "moveByRefDef.il"
+   (00:00:01) "single_pin_net_check.il"
+   (00:00:01) "DONE"
+\t (00:00:03) Opening existing design...
+\i (00:00:05) fillin yes 
+\d (00:00:05) Design opened: P:/cad/designs/uob-hep-pc049a/Git/maroc_csa/design_files/worklib/pc049a_lemo_daughter_board/physical/pc049a_lemo_daughter_board_blank.brd
+\i (00:00:05) trapsize 9603
+\i (00:00:05) trapsize 9478
+\i (00:00:05) trapsize 9624
+\i (00:00:06) trapsize 9624
+\i (00:00:06) etchedit 
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 140.4314 0.7699
+\i (00:00:06) trapsize 4812
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 122.9152 3.4647
+\i (00:00:07) trapsize 9624
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 107.0213 3.4648
+\t (00:00:07) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
+\i (00:00:07) trapsize 15839
+\i (00:00:10) color192 
+\i (00:00:10) setwindow cvf.dialog
+\i (00:00:10) cvf layer_mode
+\i (00:00:10) setwindow pcb
+\i (00:00:10) etchedit 
+\i (00:00:13) setwindow cvf.dialog
+\i (00:00:13) cvf global_visible
+\i (00:00:14) cvf okay
+\i (00:00:21) setwindow pcb
+\i (00:00:21) exit 
+\e (00:00:21) Do you want to save the changes you made to pc049a_lemo_daughter_board_blank.brd?
+\i (00:00:23) fillin no 
+\t (00:00:23)     Journal end - Wed Dec 13 16:00:31 2017

@@ -11,7 +11,7 @@ from ChipsBus import ChipsBus, ChipsBusUdp, ChipsBusTcp
 from AddressTable import AddressTable
 
 from CommonTools import *
-print pyChipsVersion()
+print(pyChipsVersion())
 
 from ChipsLog import chipsLog, logging
 chipsLog.setLevel(logging.DEBUG)

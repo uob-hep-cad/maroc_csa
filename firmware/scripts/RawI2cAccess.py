@@ -48,7 +48,7 @@ class RawI2cAccess:
             self._chipsBus().queueWrite(self._i2cProps.txReg, 0x00)
             self._chipsBus().queueWrite(self._i2cProps.cmdReg, 0x00)
             self._chipsBus().queueRun()
-        except ChipsException, err:
+        except ChipsException as err:
             raise ChipsException("I2C reset error:\n\t" + str(err))
 
 
@@ -61,7 +61,7 @@ class RawI2cAccess:
 
         try:
             result = self._privateRead(numBytes)
-        except ChipsException, err:
+        except ChipsException as err:
             raise ChipsException("I2C read error:\n\t" + str(err))
         return result
 
@@ -75,7 +75,7 @@ class RawI2cAccess:
 
         try:
             self._privateWrite(listDataU8)
-        except ChipsException, err:
+        except ChipsException as err:
             raise ChipsException("I2C write error:\n\t" + str(err))
         return
 

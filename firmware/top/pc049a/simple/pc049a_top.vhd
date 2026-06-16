@@ -44,11 +44,11 @@ use IEEE.STD_LOGIC_1164.all;
 use IEEE.NUMERIC_STD.all;
 
 -- Packages for White Rabbit
-use work.gencores_pkg.all;
-use work.wrcore_pkg.all;
-use work.wr_fabric_pkg.all;
-use work.wr_xilinx_pkg.all;
-use work.etherbone_pkg.all;
+--use work.gencores_pkg.all;
+--use work.wrcore_pkg.all;
+--use work.wr_fabric_pkg.all;
+--use work.wr_xilinx_pkg.all;
+--use work.etherbone_pkg.all;
 
 -- Packages for IPBus
 LIBRARY work;
@@ -58,8 +58,8 @@ USE work.emac_hostbus_decl.all;
 library UNISIM;
 use UNISIM.vcomponents.all;
 
-library work;
-use work.wishbone_pkg.all;
+--library work;
+--use work.wishbone_pkg.all;
 
 
 entity pc049a_top is
@@ -201,18 +201,6 @@ entity pc049a_top is
 end pc049a_top;
 
 architecture rtl of pc049a_top is
-
-  ------------------------------------------------------------------------------
-  -- Components declaration
-  ------------------------------------------------------------------------------
-
-  component spec_reset_gen
-    port (
-      clk_sys_i        : in  std_logic;
-      rst_button_n_a_i : in  std_logic;
-      rst_n_o          : out std_logic);
-  end component;
-
  
   ------------------------------------------------------------------------------
   -- Constants declaration
@@ -233,7 +221,7 @@ architecture rtl of pc049a_top is
   -- Dedicated clock for GTP transceiver
   signal gtp_dedicated_clk : std_logic_vector(1 downto 0);
 
-  -- P2L colck PLL status
+  -- P2L clock PLL status
   signal p2l_pll_locked : std_logic;
 
   -- Reset
@@ -319,27 +307,27 @@ architecture rtl of pc049a_top is
   signal local_reset_n  : std_logic;
   signal button1_synced : std_logic_vector(2 downto 0);
 
-  signal genum_wb_out    : t_wishbone_master_out;
-  signal genum_wb_in     : t_wishbone_master_in;
-  signal genum_csr_ack_i : std_logic;
+--  signal genum_wb_out    : t_wishbone_master_out;
+--  signal genum_wb_in     : t_wishbone_master_in;
+--  signal genum_csr_ack_i : std_logic;
 
-  signal wrc_slave_i : t_wishbone_slave_in;
-  signal wrc_slave_o : t_wishbone_slave_out;
+--  signal wrc_slave_i : t_wishbone_slave_in;
+--  signal wrc_slave_o : t_wishbone_slave_out;
 
-  signal owr_en : std_logic_vector(1 downto 0);
-  signal owr_i  : std_logic_vector(1 downto 0);
+--  signal owr_en : std_logic_vector(1 downto 0);
+--  signal owr_i  : std_logic_vector(1 downto 0);
 
-  signal wb_adr : std_logic_vector(31 downto 0);  --c_BAR0_APERTURE-priv_log2_ceil(c_CSR_WB_SLAVES_NB+1)-1 downto 0);
+--  signal wb_adr : std_logic_vector(31 downto 0);  --c_BAR0_APERTURE-priv_log2_ceil(c_CSR_WB_SLAVES_NB+1)-1 downto 0);
 
-  signal etherbone_rst_n   : std_logic;
-  signal etherbone_src_out : t_wrf_source_out;
-  signal etherbone_src_in  : t_wrf_source_in;
-  signal etherbone_snk_out : t_wrf_sink_out;
-  signal etherbone_snk_in  : t_wrf_sink_in;
-  signal etherbone_wb_out  : t_wishbone_master_out;
-  signal etherbone_wb_in   : t_wishbone_master_in;
-  signal etherbone_cfg_in  : t_wishbone_slave_in;
-  signal etherbone_cfg_out : t_wishbone_slave_out;
+--  signal etherbone_rst_n   : std_logic;
+--  signal etherbone_src_out : t_wrf_source_out;
+--  signal etherbone_src_in  : t_wrf_source_in;
+--  signal etherbone_snk_out : t_wrf_sink_out;
+--  signal etherbone_snk_in  : t_wrf_sink_in;
+--  signal etherbone_wb_out  : t_wishbone_master_out;
+--  signal etherbone_wb_in   : t_wishbone_master_in;
+--  signal etherbone_cfg_in  : t_wishbone_slave_in;
+--  signal etherbone_cfg_out : t_wishbone_slave_out;
 
   constant c_NMAROC_SLAVES     : integer := 6;
   -- expansion IO block has one IPBus slave. I2C has another

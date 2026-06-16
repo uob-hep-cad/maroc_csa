@@ -3,7 +3,7 @@
 # Python class to set up MAROC-3 serial control register.
 #
 #
-import ConfigParser
+import configparser
 
 import logging
 
@@ -87,7 +87,7 @@ class MarocSC_old(object):
     def printLocalBitArray(self):
         """ Prints out the value of each bit in the list"""
         for bitNumber in range(0 , len(self.bitArray) ):
-            print "bit %i = %i" %( bitNumber , self.bitArray[bitNumber] )
+            print("bit %i = %i" %( bitNumber , self.bitArray[bitNumber] ))
 
     def getLocalWordArray(self):
         """Return an array of 32-bit numbers to write to SC register. 
@@ -153,13 +153,13 @@ class MarocSC_old(object):
     def setDefaults(self):
         """Loop through defaults and write to data structure"""
         # First loop through the flags -
-        for flagName in self.flagLocation.keys():
+        for flagName in list(self.flagLocation.keys()):
             [ bit , default , description , comment ] =  self.flagLocation[flagName]
             logging.debug("Setting defaults. Flag name = %s , flag location = %i , default = %i , description = %s , comment = %s" % ( flagName , bit , default , description , comment))
             self.setFlagValue(flagName,default)
         # now loop through the parameters 
         # (could be done in either order ... )
-        for parameterName in self.parameterLocation.keys():
+        for parameterName in list(self.parameterLocation.keys()):
             [ bit , width , default , description , comment ] = self.parameterLocation[parameterName]
             for index in range(0, len(default)):
                 self.setParameter(parameterName , index , default[index])
@@ -170,7 +170,7 @@ class MarocSC_old(object):
         flags , where the flag entries are ( fName: fVal ) are
         parameters , where the parameter entries are ( pName: p(1),p(2),....,p(N) . N.B. no bounds checking is done on the parameter indices, so don't add too many to the list
         """
-        config = ConfigParser.SafeConfigParser()
+        config = configparser.SafeConfigParser()
         config.optionxform = str # stop parser from changing to lower case.
         config.read(fName)
         flags = config.items("flags")
@@ -189,13 +189,13 @@ class MarocSC_old(object):
     def writeConfigFile(self,fName):
         """Writes a configuration file with window-INI like syntax. Warning - will overwrite existing files"""
         cfgFile = open(fName,'w')
-        config = ConfigParser.SafeConfigParser()
+        config = configparser.SafeConfigParser()
         config.optionxform = str # stop parser from changing to lower case
         config.add_section('flags')
         config.add_section('parameters')
 
         # Set flag values
-        for flagName in self.flagLocation.keys():
+        for flagName in list(self.flagLocation.keys()):
             bitValue  =  self.getFlagValue(flagName)
             logging.debug("Setting Flag name %s in config file to %i " %(flagName,bitValue))
             config.set('flags',flagName,str(bitValue))

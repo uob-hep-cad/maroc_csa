@@ -61,7 +61,8 @@ use UNISIM.vcomponents.all;
 --============================================================================
 entity marocADC is
   generic(
-    g_ADDRWIDTH   : positive;
+    g_ADDRWIDTH   : positive; --! Size of dual port RAM holding event data
+    g_EVENT_ADDRWIDTH : positive := 5; --! Number of bits needed to address a single event in DPR. Event size = 24 words of ADC data + 2 header. So, 32 locations
     g_BUSWIDTH    : positive := 32
     );
   port(
@@ -103,7 +104,7 @@ architecture rtl of marocADC is
 
   --! Shift register
   signal s_shiftReg : std_logic_vector(g_BUSWIDTH-1 downto 0) := (others => '0');
-  signal s_dataToDPR : std_logic_vector(g_BUSWIDTH-1 downto 0) := (others => '0');
+  signal s_dataToDPR , s_dataToDPR_d1 : std_logic_vector(g_BUSWIDTH-1 downto 0) := (others => '0');
 
   signal s_shiftRegCounter : unsigned(bitcount_o'range) := (others => '0');  --! Counts bits shifted in
   
@@ -112,13 +113,18 @@ architecture rtl of marocADC is
 --  signal s_reset_sr_d2 : std_logic := '0';  -- ! s_reset_sr_d1 delayed one clk_i cycle
 
   --! DPR signals
---  signal s_wen , s_wen_d1 : std_logic := '0';      -- ! Write enable for DPR
-  signal s_wen  : std_logic := '0';      -- ! Write enable for DPR
+  signal s_wen , s_wen_d1 : std_logic := '0';      -- ! Write enable for DPR
   signal s_shiftRegFull , s_shiftRegFull_d1 : std_logic := '0';      -- ! Write enable for DPR
-  signal s_writeAddr : unsigned(write_pointer_o'range) := (others => '0');   --! Address into write-port of DPR
+  signal s_writeAddr , s_writeAddr_d1 : unsigned(write_pointer_o'range) := (others => '0');   --! Address into write-port of DPR
   -- signal s_readAddr : unsigned(addr_i'range);  -- ! Read address in DPR
   signal  s_RegisteredEventTimestamp : std_logic_vector( timeStamp_i'range) := (others => '0');
 
+  signal s_wordCounter : unsigned( g_EVENT_ADDRWIDTH -1 downto 0) := ( others =>'0');  -- --! Counts 32-bit words within an event
+  
+  signal s_eventCounter : unsigned( ( g_ADDRWIDTH - g_EVENT_ADDRWIDTH -1 ) downto 0) := ( others => '0' );  -- --! Counter for events in DPR. One count is one event
+
+  signal s_endOfSequence,  s_endOfSequence_d1  : std_logic := '0';  -- --! Goes high for one cycle at end of MAROC ADC readout.
+    
 begin
 
 
@@ -159,19 +165,36 @@ begin
     
   end process p_shiftReg;
 
-  p_writeAddrControl: process(clk_i , s_wen , reset_i )
+  -- purpose: Increments event counter every time the MAROC ADC has finished readout out
+  -- type   : combinational
+  -- inputs : clk_i , reset_i , s_endOfSequence
+  -- outputs: s_eventCounter
+  p_eventCounterControl: process (clk_i , reset_i , s_endOfSequence) is
+  begin  -- process p_eventCounterControl
+    if rising_edge(clk_i) then
+      if (reset_i = '1')  then
+        s_eventCounter <= ( others => '0');
+      elsif (s_endOfSequence = '1') then
+        -- Increment event counter at end of ADC readout
+        s_eventCounter <= s_eventCounter + 1;
+      end if;
+    end if;
+  end process p_eventCounterControl;
+
+  p_wordCounterControl: process(clk_i , s_wen , reset_i ,s_endOfSequence)
     begin
       if rising_edge(clk_i) then
-        if (reset_i = '1') then
-          s_writeAddr <= (others => '0');
+        if (reset_i = '1') or ( s_endOfSequence = '1' ) then
+          s_wordCounter <= ( others => '0');
         elsif (s_wen = '1') then
           -- Increment write address if a complete word has been shifted or if end
           -- of ADC readout has been reached.
-          s_writeAddr <= s_writeAddr + 1;
+          s_wordCounter <= s_wordCounter + 1;
         end if;
       end if;
-  end process p_writeAddrControl;
+  end process p_wordCounterControl;
 
+  s_writeAddr <= s_eventCounter & s_wordCounter;
   
   --! Generate write enable for DPRAM ( also increments write address
   s_shiftRegFull <= '1' when (s_shiftRegCounter(4 downto 0) = "11111" ) else '0';
@@ -183,8 +206,25 @@ begin
   s_dataToDPR <= triggerNumber_i when (s_reset_sr = '1') else
                  s_RegisteredEventTimestamp when (s_reset_sr_d1 = '1') else
                  s_shiftReg ;
+
+  -- ... put in a register for s_wen and s_dataToDPR to help debugging....
+  -- purpose: registers data going to DPR
+  -- type   : combinational
+  -- inputs : clk_i , s_dataToDPR , s_wen
+  -- outputs: s_dataToDPR_d1 , s_wen_d1
+  p_registerDPRData: process (clk_i , s_dataToDPR , s_writeAddr_d1 , s_wen) is
+  begin  -- process p_registerDPRData
+    if rising_edge(clk_i) then
+      s_wen_d1 <= s_wen;
+      s_writeAddr_d1 <= s_writeAddr;
+      if s_wen = '1' then
+        s_dataToDPR_d1 <= s_dataToDPR;
+      end if;
+    end if;
+  end process p_registerDPRData;
   
-  -- Instantiate finite state machine that drives control lines.
+
+  --! Instantiate finite state machine that drives control lines.
   cmp_marocADC_fsm: entity work.marocADCFSM 
    port map (
       clk_system_i   => clk_i,
@@ -193,7 +233,7 @@ begin
       adc_dav_i      => adc_dav_i,
       reset_sr_o     => s_reset_sr,
       start_adc_n_o  => start_adc_n_o,
-      end_of_sequence_o => open,
+      end_of_sequence_o => s_endOfSequence,
       status_o       => status_o
       ); 
 
@@ -203,13 +243,15 @@ begin
       data_width => g_BUSWIDTH,
       ram_address_width => g_ADDRWIDTH )
     Port map (
---      Wren_a    =>  s_wen_d1,
-      Wren_a    =>  s_wen,
+      Wren_a    =>  s_wen_d1,
+--      Wren_a    =>  s_wen,
       clk       =>  clk_i,
 
       -- Write port
-      address_a =>  std_logic_vector(s_writeAddr),      
-      data_a     =>  s_dataToDPR,
+--      address_a =>  std_logic_vector(s_writeAddr),
+      address_a =>  std_logic_vector(s_writeAddr_d1),      
+--      data_a     =>  s_dataToDPR,
+      data_a     =>  s_dataToDPR_d1,
 
       -- IPBus for read-port
       ipbus_i => ipbus_i,
@@ -223,6 +265,22 @@ begin
 
   bitcount_o    <= std_logic_vector(s_shiftRegCounter);
 
-  write_pointer_o <= std_logic_vector(s_writeAddr);
+
+
+  -- purpose: updates write pointer at end of every readout 
+  -- Register write_pointer after endOfSequence goes high. Then, should only
+  -- see write pointer increment by 32.....
+  -- inputs : clk_i ,  s_endOfSequence_d1 , s_writeAddr
+  -- outputs: write_pointer_o
+  p_writePointerCtl: process (clk_i ,  s_endOfSequence_d1 , s_endOfSequence, s_writeAddr) is
+  begin  -- process p_writePointerCtl
+    if rising_edge(clk_i)  then
+      s_endOfSequence_d1 <= s_endOfSequence;
+      if s_endOfSequence_d1='1' then
+        write_pointer_o <= std_logic_vector(s_writeAddr);        
+      end if;
+    end if;
+  end process p_writePointerCtl;
+
   
 end rtl;

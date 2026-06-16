@@ -39,5 +39,9 @@ files = [
     "ipbusDPRAM.vhdl",
     "synchronizeRegisters_rtl.vhd",
     "i2c_master_rtl.vhd",
+    "i2c_master_top.vhd",
+    "i2c_master_bit_ctrl.vhd",
+    "i2c_master_byte_ctrl.vhd",
+    "i2c_master_registers.vhd",
     "marocTriggerTimeStamp_rtl.vhd"
 ]

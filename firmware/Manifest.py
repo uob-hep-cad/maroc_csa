@@ -5,5 +5,5 @@ modules =  {"local" :
             [ "IPBus/firmware",
               "hdl"
               ],
-            "git" : "git://ohwr.org/hdl-core-lib/wr-cores.git"
+#            "git" : "git://ohwr.org/hdl-core-lib/wr-cores.git"
             }

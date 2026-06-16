@@ -1,8 +1,8 @@
 # PCB CAD and firmware for pc049a MAROC board
 
 ### Two firmware projects:
-1 `simple` - includes IPBus and MAROC control blocks
-2 `demo` - includes WhiteRabbit core - currently broken
+- `simple` - includes IPBus and MAROC control blocks
+- `demo` - includes WhiteRabbit core - currently broken
 
 
 ### To build firmware

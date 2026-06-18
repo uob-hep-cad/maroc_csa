@@ -1,0 +1,57 @@
+[flags]
+sw_fsu_25k = 1
+d1_d2 = 0
+sw_fsu_50k = 1
+Enb_tristate = 1
+valid_dc_fs = 0
+cmd_fsu = 1
+cmd_ss = 1
+sw_fsb1_50k = 0
+ON/OFF_dac = 1
+ramp_8bit = 0
+cmd_CK_mux = 0
+sw_ss_1200f = 1
+EN_ADC = 1
+sw_fsu_100k = 1
+enb_outADC = 0
+sw_fsb2_50f = 1
+sw_fsu_20f = 1
+sw_ss_600f = 1
+swb_buf_500f = 1
+ON/OFF_otabg = 1
+sw_ss_300f = 1
+swb_buf_250f = 1
+ON/OFF_ss = 1
+sw_fsb1_50f = 1
+sw_fsb2_100k = 1
+swb_buf_1p = 1
+sw_fsb2_100f = 0
+polar_discri = 0
+cmd_fsb_fsu = 1
+valid_dc_fsb2 = 0
+swb_buf_2p = 1
+sw_fsu_40f = 1
+inv_discriADC = 0
+sw_fsb2_50k = 0
+small_dac = 0
+sw_fsb1_100f = 1
+H1H2_choice = 1
+inv_startCmptGray = 0
+sw_fsb1_100k = 1
+cmd_fsb = 1
+ramp_10bit = 0
+
+[parameters]
+mask_OR = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0
+Ctest_ch = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GAIN = 64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64
+DAC = 650,450
+#DAC = 650,550
+
+[registers]
+trigSourceSelect = 13
+trigHold1Delay = 0
+
+[RC]
+hold1 = 10
+hold2 = 10
